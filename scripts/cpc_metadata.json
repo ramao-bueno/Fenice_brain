@@ -1,0 +1,70 @@
+{
+  "cpc_meta": {
+    "lei_numero": "13.105",
+    "ano": 2015,
+    "data_vigencia": "2015-03-16",
+    "artigos_totais": 1072,
+    "livros": [
+      {
+        "numero": 1,
+        "nome": "Normas Processuais Civis",
+        "artigos_range": [1, 102],
+        "temas": [
+          "jurisdição",
+          "competência",
+          "partes",
+          "litisconsórcio",
+          "capacidade processual"
+        ]
+      },
+      {
+        "numero": 2,
+        "nome": "Processo de Conhecimento",
+        "artigos_range": [203, 577],
+        "temas": [
+          "petição inicial",
+          "defesa",
+          "contestação",
+          "provas",
+          "sentença",
+          "coisa julgada"
+        ]
+      },
+      {
+        "numero": 3,
+        "nome": "Processo de Execução",
+        "artigos_range": [513, 780],
+        "temas": [
+          "execução forçada",
+          "penhora",
+          "avaliação",
+          "leilão",
+          "distribuição"
+        ]
+      },
+      {
+        "numero": 4,
+        "nome": "Procedimentos Especiais",
+        "artigos_range": [581, 702],
+        "temas": [
+          "usucapião",
+          "despejo",
+          "monitória",
+          "inventário e partilha",
+          "consignação em pagamento"
+        ]
+      },
+      {
+        "numero": 5,
+        "nome": "Recursos",
+        "artigos_range": [994, 1029],
+        "temas": [
+          "apelação",
+          "agravo",
+          "embargos de declaração",
+          "recurso extraordinário"
+        ]
+      }
+    ]
+  }
+}

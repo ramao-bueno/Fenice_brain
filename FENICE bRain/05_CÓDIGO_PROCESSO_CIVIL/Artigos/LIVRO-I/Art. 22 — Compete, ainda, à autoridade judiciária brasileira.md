@@ -23,6 +23,9 @@ tags:
 - art-20
 - art-21
 - art-22
+- inciso-i
+- alinea-a
+- alinea-b
 created: '2026-06-03'
 ---
 

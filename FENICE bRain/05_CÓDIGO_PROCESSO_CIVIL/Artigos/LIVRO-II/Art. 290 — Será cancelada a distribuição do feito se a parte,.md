@@ -192,6 +192,8 @@ tags:
 - art-288
 - art-289
 - art-290
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

@@ -11,6 +11,7 @@ tags:
 - livro-i
 - art-1
 - art-10
+- inciso-i
 created: '2026-06-03'
 ---
 

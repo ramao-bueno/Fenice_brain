@@ -211,6 +211,8 @@ tags:
 - art-307
 - art-308
 - art-309
+- inciso-ii
+- alinea-a
 created: '2026-06-03'
 ---
 

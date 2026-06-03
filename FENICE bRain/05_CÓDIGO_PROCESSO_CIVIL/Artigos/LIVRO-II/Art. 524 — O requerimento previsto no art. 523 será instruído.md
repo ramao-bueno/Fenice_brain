@@ -426,6 +426,8 @@ tags:
 - art-522
 - art-523
 - art-524
+- paragrafo-1
+- inciso-ii
 created: '2026-06-03'
 ---
 

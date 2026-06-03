@@ -482,6 +482,7 @@ tags:
 - livro-iii
 - art-578
 - art-579
+- inciso-iii
 created: '2026-06-03'
 ---
 

@@ -13,6 +13,8 @@ tags:
 - art-10
 - art-11
 - art-12
+- inciso-i
+- alinea-a
 created: '2026-06-03'
 ---
 

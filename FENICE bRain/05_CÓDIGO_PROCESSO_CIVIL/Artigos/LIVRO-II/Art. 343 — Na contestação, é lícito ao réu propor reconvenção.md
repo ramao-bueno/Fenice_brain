@@ -245,6 +245,8 @@ tags:
 - art-341
 - art-342
 - art-343
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

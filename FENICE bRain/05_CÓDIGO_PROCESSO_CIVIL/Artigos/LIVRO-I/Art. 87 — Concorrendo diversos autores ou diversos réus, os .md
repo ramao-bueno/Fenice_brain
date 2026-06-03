@@ -88,6 +88,8 @@ tags:
 - art-85
 - art-86
 - art-87
+- paragrafo-1
+- inciso-i
 created: '2026-06-03'
 ---
 

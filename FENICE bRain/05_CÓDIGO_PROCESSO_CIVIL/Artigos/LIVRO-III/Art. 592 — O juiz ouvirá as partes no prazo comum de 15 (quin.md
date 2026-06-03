@@ -495,6 +495,8 @@ tags:
 - art-590
 - art-591
 - art-592
+- inciso-iii
+- alinea-e
 created: '2026-06-03'
 ---
 

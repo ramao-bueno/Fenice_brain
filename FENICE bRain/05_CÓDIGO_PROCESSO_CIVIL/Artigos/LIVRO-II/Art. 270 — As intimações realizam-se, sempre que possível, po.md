@@ -172,6 +172,8 @@ tags:
 - art-268
 - art-269
 - art-270
+- paragrafo-1
+- inciso-ii
 created: '2026-06-03'
 ---
 

@@ -114,6 +114,8 @@ tags:
 - art-210
 - art-211
 - art-212
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

@@ -10,6 +10,8 @@ tags:
 - vigente
 - livro-i
 - art-1
+- inciso-i
+- inciso-v
 created: '2026-06-03'
 ---
 

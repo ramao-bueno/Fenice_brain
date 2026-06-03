@@ -193,6 +193,7 @@ tags:
 - art-289
 - art-290
 - art-291
+- inciso-ii
 created: '2026-06-03'
 ---
 

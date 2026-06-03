@@ -10,6 +10,8 @@ tags:
 - vigente
 - livro-i
 - art-1
+- inciso-i
+- alinea-e
 created: '2026-06-03'
 ---
 

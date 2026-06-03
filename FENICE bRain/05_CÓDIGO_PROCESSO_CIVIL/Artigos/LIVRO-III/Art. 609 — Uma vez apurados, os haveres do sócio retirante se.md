@@ -512,6 +512,8 @@ tags:
 - art-607
 - art-608
 - art-609
+- paragrafo-2
+- inciso-iii
 created: '2026-06-03'
 ---
 

@@ -613,6 +613,8 @@ tags:
 - art-708
 - art-709
 - art-710
+- inciso-iii
+- alinea-e
 created: '2026-06-03'
 ---
 

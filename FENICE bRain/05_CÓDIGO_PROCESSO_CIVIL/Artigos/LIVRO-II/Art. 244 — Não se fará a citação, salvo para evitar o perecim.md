@@ -146,6 +146,8 @@ tags:
 - art-242
 - art-243
 - art-244
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

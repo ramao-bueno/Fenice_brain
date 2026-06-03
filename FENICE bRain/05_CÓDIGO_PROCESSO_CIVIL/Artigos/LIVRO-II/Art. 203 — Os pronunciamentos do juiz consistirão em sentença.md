@@ -105,6 +105,7 @@ tags:
 - art-102
 - livro-ii
 - art-203
+- inciso-ii
 created: '2026-06-03'
 ---
 

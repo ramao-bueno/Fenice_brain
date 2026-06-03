@@ -116,6 +116,8 @@ tags:
 - art-212
 - art-213
 - art-214
+- paragrafo-2
+- inciso-ii
 created: '2026-06-03'
 ---
 

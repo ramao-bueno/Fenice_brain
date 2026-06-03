@@ -149,6 +149,8 @@ tags:
 - art-245
 - art-246
 - art-247
+- paragrafo-3
+- inciso-ii
 created: '2026-06-03'
 ---
 

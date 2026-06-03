@@ -467,6 +467,9 @@ tags:
 - art-563
 - art-564
 - art-565
+- paragrafo-2
+- inciso-ii
+- alinea-a
 created: '2026-06-03'
 ---
 

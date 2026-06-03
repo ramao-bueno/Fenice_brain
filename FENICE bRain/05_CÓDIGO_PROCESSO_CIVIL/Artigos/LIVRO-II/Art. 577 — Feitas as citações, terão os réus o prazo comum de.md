@@ -479,6 +479,8 @@ tags:
 - art-575
 - art-576
 - art-577
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

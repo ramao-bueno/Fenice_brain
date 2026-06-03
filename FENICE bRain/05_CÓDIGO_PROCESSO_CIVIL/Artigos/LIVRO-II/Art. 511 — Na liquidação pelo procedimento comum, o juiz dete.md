@@ -413,6 +413,8 @@ tags:
 - art-509
 - art-510
 - art-511
+- inciso-ii
+- alinea-e
 created: '2026-06-03'
 ---
 

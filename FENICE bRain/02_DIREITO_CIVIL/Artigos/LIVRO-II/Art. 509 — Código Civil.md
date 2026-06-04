@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 509 — [Artigo 509 - Direito Civil]
+# CC Art. 509 — A venda feita a contento do comprador entende-se realizada sob condição suspensiva, ainda que a coisa lhe tenha sido ent
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A venda feita a contento do comprador entende-se realizada sob condição suspensiva, ainda que a coisa lhe tenha sido entregue; e não se reputará perfeita, enquanto o adquirente não manifestar seu agrado.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 601 — [Artigo 601 - Direito Civil]
+# CC Art. 601 — Não sendo o prestador de serviço contratado para certo e determinado trabalho, entender-se-á que se obrigou a todo e qua
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não sendo o prestador de serviço contratado para certo e determinado trabalho, entender-se-á que se obrigou a todo e qualquer serviço compatível com as suas forças e condições.
 
 ---
 

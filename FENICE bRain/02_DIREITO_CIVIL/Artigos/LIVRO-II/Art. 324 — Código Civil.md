@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 324 — [Artigo 324 - Direito Civil]
+# CC Art. 324 — A entrega do título ao devedor firma a presunção do pagamento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A entrega do título ao devedor firma a presunção do pagamento. Parágrafo único. Ficará sem efeito a quitação assim operada se o credor provar, em sessenta dias, a falta do pagamento.
 
 ---
 

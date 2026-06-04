@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 87 — [Artigo 87 - Direito Civil]
+# CC Art. 87 — Bens divisíveis são os que se podem fracionar sem alteração na sua substância, diminuição considerável de valor, ou prej
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Bens divisíveis são os que se podem fracionar sem alteração na sua substância, diminuição considerável de valor, ou prejuízo do uso a que se destinam.
 
 ---
 

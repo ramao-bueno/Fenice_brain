@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 276 — [Artigo 276 - Direito Civil]
+# CC Art. 276 — Se um dos devedores solidários falecer deixando herdeiros, nenhum destes será obrigado a pagar senão a quota que corresp
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um dos devedores solidários falecer deixando herdeiros, nenhum destes será obrigado a pagar senão a quota que corresponder ao seu quinhão hereditário, salvo se a obrigação for indivisível; mas todos reunidos serão considerados como um devedor solidário em relação aos demais devedores.
 
 ---
 

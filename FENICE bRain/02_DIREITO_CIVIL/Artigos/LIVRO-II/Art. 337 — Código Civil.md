@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 337 — [Artigo 337 - Direito Civil]
+# CC Art. 337 — O depósito requerer-se-á no lugar do pagamento, cessando, tanto que se efetue, para o depositante, os juros da dívida e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depósito requerer-se-á no lugar do pagamento, cessando, tanto que se efetue, para o depositante, os juros da dívida e os riscos, salvo se for julgado improcedente.
 
 ---
 

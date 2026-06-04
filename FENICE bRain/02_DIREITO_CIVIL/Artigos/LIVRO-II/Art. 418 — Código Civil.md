@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 418 — [Artigo 418 - Direito Civil]
+# CC Art. 418 — Na hipótese de inexecução do contrato, se esta se der
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na hipótese de inexecução do contrato, se esta se der: (Redação dada pela Lei nº 14.905, de 2024) Produção de efeitos I - por parte de quem deu as arras, poderá a outra parte ter o contrato por desfeito, retendo-as; (Incluído pela Lei nº 14.905, de 2024) Produção de efeitos II - por parte de quem recebeu as arras, poderá quem as deu haver o contrato por desfeito e exigir a sua devolução mais o equivalente, com atualização monetária, juros e honorários de advogado. (Incluído pela Lei nº 14.905, de 2024) Produção de efeitos
 
 ---
 

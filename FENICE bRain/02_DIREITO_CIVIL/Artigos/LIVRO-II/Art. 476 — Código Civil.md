@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 476 — [Artigo 476 - Direito Civil]
+# CC Art. 476 — Nos contratos bilaterais, nenhum dos contratantes, antes de cumprida a sua obrigação, pode exigir o implemento da do out
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos contratos bilaterais, nenhum dos contratantes, antes de cumprida a sua obrigação, pode exigir o implemento da do outro.
 
 ---
 

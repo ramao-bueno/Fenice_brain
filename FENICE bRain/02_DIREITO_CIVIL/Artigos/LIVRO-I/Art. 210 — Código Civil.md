@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 210 — [Artigo 210 - Direito Civil]
+# CC Art. 210 — Deve o juiz, de ofício, conhecer da decadência, quando estabelecida por lei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Deve o juiz, de ofício, conhecer da decadência, quando estabelecida por lei.
 
 ---
 

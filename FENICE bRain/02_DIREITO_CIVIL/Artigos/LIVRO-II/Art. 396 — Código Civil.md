@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 396 — [Artigo 396 - Direito Civil]
+# CC Art. 396 — Não havendo fato ou omissão imputável ao devedor, não incorre este em mora
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não havendo fato ou omissão imputável ao devedor, não incorre este em mora.
 
 ---
 

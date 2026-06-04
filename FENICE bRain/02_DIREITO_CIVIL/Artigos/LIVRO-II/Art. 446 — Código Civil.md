@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 446 — [Artigo 446 - Direito Civil]
+# CC Art. 446 — Não correrão os prazos do artigo antecedente na constância de cláusula de garantia;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não correrão os prazos do artigo antecedente na constância de cláusula de garantia; mas o adquirente deve denunciar o defeito ao alienante nos trinta dias seguintes ao seu descobrimento, sob pena de decadência. Seção VI Da Evicção
 
 ---
 

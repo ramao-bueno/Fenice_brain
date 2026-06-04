@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 643 — [Artigo 643 - Direito Civil]
+# CC Art. 643 — O depositante é obrigado a pagar ao depositário as despesas feitas com a coisa, e os prejuízos que do depósito provierem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depositante é obrigado a pagar ao depositário as despesas feitas com a coisa, e os prejuízos que do depósito provierem.
 
 ---
 

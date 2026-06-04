@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 667 — [Artigo 667 - Direito Civil]
+# CC Art. 667 — O mandatário é obrigado a aplicar toda sua diligência habitual na execução do mandato, e a indenizar qualquer prejuízo c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandatário é obrigado a aplicar toda sua diligência habitual na execução do mandato, e a indenizar qualquer prejuízo causado por culpa sua ou daquele a quem substabelecer, sem autorização, poderes que devia exercer pessoalmente. § 1 o Se, não obstante proibição do mandante, o mandatário se fizer substituir na execução do mandato, responderá ao seu constituinte pelos prejuízos ocorridos sob a gerência do substituto, embora provenientes de caso fortuito, salvo provando que o caso teria sobrevindo, ainda que não tivesse havido substabelecimento. § 2 o Havendo poderes de substabelecer, só serão...
 
 ---
 

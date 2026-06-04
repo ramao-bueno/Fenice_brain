@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 559 — [Artigo 559 - Direito Civil]
+# CC Art. 559 — A revogação por qualquer desses motivos deverá ser pleiteada dentro de um ano, a contar de quando chegue ao conhecimento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A revogação por qualquer desses motivos deverá ser pleiteada dentro de um ano, a contar de quando chegue ao conhecimento do doador o fato que a autorizar, e de ter sido o donatário o seu autor.
 
 ---
 

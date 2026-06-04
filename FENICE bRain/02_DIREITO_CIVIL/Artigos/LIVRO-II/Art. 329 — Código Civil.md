@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 329 — [Artigo 329 - Direito Civil]
+# CC Art. 329 — Ocorrendo motivo grave para que se não efetue o pagamento no lugar determinado, poderá o devedor fazê-lo em outro, sem p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ocorrendo motivo grave para que se não efetue o pagamento no lugar determinado, poderá o devedor fazê-lo em outro, sem prejuízo para o credor.
 
 ---
 

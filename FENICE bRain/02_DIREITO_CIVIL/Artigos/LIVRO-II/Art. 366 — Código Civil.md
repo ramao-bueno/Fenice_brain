@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 366 — [Artigo 366 - Direito Civil]
+# CC Art. 366 — Importa exoneração do fiador a novação feita sem seu consenso com o devedor principal
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Importa exoneração do fiador a novação feita sem seu consenso com o devedor principal.
 
 ---
 

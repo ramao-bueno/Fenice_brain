@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 519 — [Artigo 519 - Direito Civil]
+# CC Art. 519 — Se a coisa expropriada para fins de necessidade ou utilidade pública, ou por interesse social, não tiver o destino para
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a coisa expropriada para fins de necessidade ou utilidade pública, ou por interesse social, não tiver o destino para que se desapropriou, ou não for utilizada em obras ou serviços públicos, caberá ao expropriado direito de preferência, pelo preço atual da coisa.
 
 ---
 

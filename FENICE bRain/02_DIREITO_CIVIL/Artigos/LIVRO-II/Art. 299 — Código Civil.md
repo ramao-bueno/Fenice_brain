@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 299 — [Artigo 299 - Direito Civil]
+# CC Art. 299 — É facultado a terceiro assumir a obrigação do devedor, com o consentimento expresso do credor, ficando exonerado o deved
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É facultado a terceiro assumir a obrigação do devedor, com o consentimento expresso do credor, ficando exonerado o devedor primitivo, salvo se aquele, ao tempo da assunção, era insolvente e o credor o ignorava. Parágrafo único. Qualquer das partes pode assinar prazo ao credor para que consinta na assunção da dívida, interpretando-se o seu silêncio como recusa.
 
 ---
 

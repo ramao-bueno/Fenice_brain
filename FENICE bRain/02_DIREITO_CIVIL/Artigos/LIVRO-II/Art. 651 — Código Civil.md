@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 651 — [Artigo 651 - Direito Civil]
+# CC Art. 651 — O depósito necessário não se presume gratuito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depósito necessário não se presume gratuito. Na hipótese do art. 649, a remuneração pelo depósito está incluída no preço da hospedagem.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 685 — [Artigo 685 - Direito Civil]
+# CC Art. 685 — Conferido o mandato com a cláusula "em causa própria", a sua revogação não terá eficácia, nem se extinguirá pela morte d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Conferido o mandato com a cláusula "em causa própria", a sua revogação não terá eficácia, nem se extinguirá pela morte de qualquer das partes, ficando o mandatário dispensado de prestar contas, e podendo transferir para si os bens móveis ou imóveis objeto do mandato, obedecidas as formalidades legais.
 
 ---
 

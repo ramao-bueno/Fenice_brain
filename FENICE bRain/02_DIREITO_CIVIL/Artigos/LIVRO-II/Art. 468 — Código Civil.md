@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 468 — [Artigo 468 - Direito Civil]
+# CC Art. 468 — Essa indicação deve ser comunicada à outra parte no prazo de cinco dias da conclusão do contrato, se outro não tiver sid
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Essa indicação deve ser comunicada à outra parte no prazo de cinco dias da conclusão do contrato, se outro não tiver sido estipulado. Parágrafo único. A aceitação da pessoa nomeada não será eficaz se não se revestir da mesma forma que as partes usaram para o contrato.
 
 ---
 

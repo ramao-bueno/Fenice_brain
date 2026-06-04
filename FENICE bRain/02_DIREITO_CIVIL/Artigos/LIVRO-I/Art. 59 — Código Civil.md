@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 59 — [Artigo 59 - Direito Civil]
+# CC Art. 59 — Compete privativamente à assembléia geral
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Compete privativamente à assembléia geral: (Redação dada pela Lei nº 11.127, de 2005) I – destituir os administradores; (Redação dada pela Lei nº 11.127, de 2005) II – alterar o estatuto. (Redação dada pela Lei nº 11.127, de 2005) Parágrafo único. Para as deliberações a que se referem os incisos I e II deste artigo é exigido deliberação da assembléia especialmente convocada para esse fim, cujo quorum será o estabelecido no estatuto, bem como os critérios de eleição dos administradores. (Redação dada pela Lei nº 11.127, de 2005)
 
 ---
 

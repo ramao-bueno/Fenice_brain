@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 133 — [Artigo 133 - Direito Civil]
+# CC Art. 133 — Nos testamentos, presume-se o prazo em favor do herdeiro, e, nos contratos, em proveito do devedor, salvo, quanto a esse
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos testamentos, presume-se o prazo em favor do herdeiro, e, nos contratos, em proveito do devedor, salvo, quanto a esses, se do teor do instrumento, ou das circunstâncias, resultar que se estabeleceu a benefício do credor, ou de ambos os contratantes.
 
 ---
 

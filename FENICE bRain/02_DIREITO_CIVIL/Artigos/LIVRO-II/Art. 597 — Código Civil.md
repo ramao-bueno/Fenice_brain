@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 597 — [Artigo 597 - Direito Civil]
+# CC Art. 597 — A retribuição pagar-se-á depois de prestado o serviço, se, por convenção, ou costume, não houver de ser adiantada, ou pa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A retribuição pagar-se-á depois de prestado o serviço, se, por convenção, ou costume, não houver de ser adiantada, ou paga em prestações.
 
 ---
 

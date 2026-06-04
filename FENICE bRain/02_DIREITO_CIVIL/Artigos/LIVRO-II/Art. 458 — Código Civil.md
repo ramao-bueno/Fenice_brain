@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 458 — [Artigo 458 - Direito Civil]
+# CC Art. 458 — Se o contrato for aleatório, por dizer respeito a coisas ou fatos futuros, cujo risco de não virem a existir um dos cont
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o contrato for aleatório, por dizer respeito a coisas ou fatos futuros, cujo risco de não virem a existir um dos contratantes assuma, terá o outro direito de receber integralmente o que lhe foi prometido, desde que de sua parte não tenha havido dolo ou culpa, ainda que nada do avençado venha a existir.
 
 ---
 

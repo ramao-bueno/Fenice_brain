@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 584 — [Artigo 584 - Direito Civil]
+# CC Art. 584 — O comodatário não poderá jamais recobrar do comodante as despesas feitas com o uso e gozo da coisa emprestada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O comodatário não poderá jamais recobrar do comodante as despesas feitas com o uso e gozo da coisa emprestada.
 
 ---
 

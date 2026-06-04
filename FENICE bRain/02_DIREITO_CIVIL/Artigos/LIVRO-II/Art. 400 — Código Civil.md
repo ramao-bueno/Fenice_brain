@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 400 — [Artigo 400 - Direito Civil]
+# CC Art. 400 — A mora do credor subtrai o devedor isento de dolo à responsabilidade pela conservação da coisa, obriga o credor a ressar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A mora do credor subtrai o devedor isento de dolo à responsabilidade pela conservação da coisa, obriga o credor a ressarcir as despesas empregadas em conservá-la, e sujeita-o a recebê-la pela estimação mais favorável ao devedor, se o seu valor oscilar entre o dia estabelecido para o pagamento e o da sua efetivação.
 
 ---
 

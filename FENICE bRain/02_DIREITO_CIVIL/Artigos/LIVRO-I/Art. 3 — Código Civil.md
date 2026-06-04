@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 3 — [Artigo 3 - Direito Civil]
+# CC Art. 3 — São absolutamente incapazes de exercer pessoalmente os atos da vida civil os menores de 16 (dezesseis) anos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São absolutamente incapazes de exercer pessoalmente os atos da vida civil os menores de 16 (dezesseis) anos. (Redação dada pela Lei nº 13.146, de 2015) (Vigência) I - (Revogado) ; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) II - (Revogado) ; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - (Revogado) . (Redação dada pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 

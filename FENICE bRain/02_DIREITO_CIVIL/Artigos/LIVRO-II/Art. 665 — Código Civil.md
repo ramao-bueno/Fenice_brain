@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 665 — [Artigo 665 - Direito Civil]
+# CC Art. 665 — O mandatário que exceder os poderes do mandato, ou proceder contra eles, será considerado mero gestor de negócios, enqua
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandatário que exceder os poderes do mandato, ou proceder contra eles, será considerado mero gestor de negócios, enquanto o mandante lhe não ratificar os atos.
 
 ---
 

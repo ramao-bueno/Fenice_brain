@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 42 — [Artigo 42 - Direito Civil]
+# CC Art. 42 — São pessoas jurídicas de direito público externo os Estados estrangeiros e todas as pessoas que forem regidas pelo direi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São pessoas jurídicas de direito público externo os Estados estrangeiros e todas as pessoas que forem regidas pelo direito internacional público.
 
 ---
 

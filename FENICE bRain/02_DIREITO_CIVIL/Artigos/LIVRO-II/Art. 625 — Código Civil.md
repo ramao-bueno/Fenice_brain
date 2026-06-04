@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 625 — [Artigo 625 - Direito Civil]
+# CC Art. 625 — Poderá o empreiteiro suspender a obra
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Poderá o empreiteiro suspender a obra: I - por culpa do dono, ou por motivo de força maior; II - quando, no decorrer dos serviços, se manifestarem dificuldades imprevisíveis de execução, resultantes de causas geológicas ou hídricas, ou outras semelhantes, de modo que torne a empreitada excessivamente onerosa, e o dono da obra se opuser ao reajuste do preço inerente ao projeto por ele elaborado, observados os preços; III - se as modificações exigidas pelo dono da obra, por seu vulto e natureza, forem desproporcionais ao projeto aprovado, ainda que o dono se disponha a arcar com o acréscimo de p...
 
 ---
 

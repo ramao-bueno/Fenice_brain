@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 158 — [Artigo 158 - Direito Civil]
+# CC Art. 158 — Os negócios de transmissão gratuita de bens ou remissão de dívida, se os praticar o devedor já insolvente, ou por eles r
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os negócios de transmissão gratuita de bens ou remissão de dívida, se os praticar o devedor já insolvente, ou por eles reduzido à insolvência, ainda quando o ignore, poderão ser anulados pelos credores quirografários, como lesivos dos seus direitos. § 1 o Igual direito assiste aos credores cuja garantia se tornar insuficiente. § 2 o Só os credores que já o eram ao tempo daqueles atos podem pleitear a anulação deles.
 
 ---
 

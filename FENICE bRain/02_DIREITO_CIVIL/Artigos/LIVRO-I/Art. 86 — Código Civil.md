@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 86 — [Artigo 86 - Direito Civil]
+# CC Art. 86 — São consumíveis os bens móveis cujo uso importa destruição imediata da própria substância, sendo também considerados tai
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São consumíveis os bens móveis cujo uso importa destruição imediata da própria substância, sendo também considerados tais os destinados à alienação. Seção IV Dos Bens Divisíveis
 
 ---
 

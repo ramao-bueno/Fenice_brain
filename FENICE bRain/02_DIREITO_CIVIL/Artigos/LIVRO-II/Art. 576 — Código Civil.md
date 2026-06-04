@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 576 — [Artigo 576 - Direito Civil]
+# CC Art. 576 — Se a coisa for alienada durante a locação, o adquirente não ficará obrigado a respeitar o contrato, se nele não for cons
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a coisa for alienada durante a locação, o adquirente não ficará obrigado a respeitar o contrato, se nele não for consignada a cláusula da sua vigência no caso de alienação, e não constar de registro. § 1 o O registro a que se refere este artigo será o de Títulos e Documentos do domicílio do locador, quando a coisa for móvel; e será o Registro de Imóveis da respectiva circunscrição, quando imóvel. § 2 o Em se tratando de imóvel, e ainda no caso em que o locador não esteja obrigado a respeitar o contrato, não poderá ele despedir o locatário, senão observado o prazo de noventa dias após a noti...
 
 ---
 

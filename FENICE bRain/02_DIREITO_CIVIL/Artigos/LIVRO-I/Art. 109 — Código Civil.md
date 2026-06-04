@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 109 — [Artigo 109 - Direito Civil]
+# CC Art. 109 — No negócio jurídico celebrado com a cláusula de não valer sem instrumento público, este é da substância do ato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> No negócio jurídico celebrado com a cláusula de não valer sem instrumento público, este é da substância do ato.
 
 ---
 

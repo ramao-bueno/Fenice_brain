@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 552 — [Artigo 552 - Direito Civil]
+# CC Art. 552 — O doador não é obrigado a pagar juros moratórios, nem é sujeito às conseqüências da evicção ou do vício redibitório
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O doador não é obrigado a pagar juros moratórios, nem é sujeito às conseqüências da evicção ou do vício redibitório. Nas doações para casamento com certa e determinada pessoa, o doador ficará sujeito à evicção, salvo convenção em contrário.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 649 — [Artigo 649 - Direito Civil]
+# CC Art. 649 — Aos depósitos previstos no artigo antecedente é equiparado o das bagagens dos viajantes ou hóspedes nas hospedarias onde
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aos depósitos previstos no artigo antecedente é equiparado o das bagagens dos viajantes ou hóspedes nas hospedarias onde estiverem. Parágrafo único. Os hospedeiros responderão como depositários, assim como pelos furtos e roubos que perpetrarem as pessoas empregadas ou admitidas nos seus estabelecimentos.
 
 ---
 

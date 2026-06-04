@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 311 — [Artigo 311 - Direito Civil]
+# CC Art. 311 — Considera-se autorizado a receber o pagamento o portador da quitação, salvo se as circunstâncias contrariarem a presunçã
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se autorizado a receber o pagamento o portador da quitação, salvo se as circunstâncias contrariarem a presunção daí resultante.
 
 ---
 

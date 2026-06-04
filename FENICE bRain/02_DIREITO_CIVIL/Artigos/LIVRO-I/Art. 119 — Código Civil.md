@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 119 — [Artigo 119 - Direito Civil]
+# CC Art. 119 — É anulável o negócio concluído pelo representante em conflito de interesses com o representado, se tal fato era ou devia
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É anulável o negócio concluído pelo representante em conflito de interesses com o representado, se tal fato era ou devia ser do conhecimento de quem com aquele tratou. Parágrafo único. É de cento e oitenta dias, a contar da conclusão do negócio ou da cessação da incapacidade, o prazo de decadência para pleitear-se a anulação prevista neste artigo.
 
 ---
 

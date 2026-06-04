@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 537 — [Artigo 537 - Direito Civil]
+# CC Art. 537 — O consignante não pode dispor da coisa antes de lhe ser restituída ou de lhe ser comunicada a restituição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O consignante não pode dispor da coisa antes de lhe ser restituída ou de lhe ser comunicada a restituição. CAPÍTULO IV Da Doação Seção I Disposições Gerais
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 379 — [Artigo 379 - Direito Civil]
+# CC Art. 379 — Sendo a mesma pessoa obrigada por várias dívidas compensáveis, serão observadas, no compensá-las, as regras estabelecida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo a mesma pessoa obrigada por várias dívidas compensáveis, serão observadas, no compensá-las, as regras estabelecidas quanto à imputação do pagamento.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 465 — [Artigo 465 - Direito Civil]
+# CC Art. 465 — Se o estipulante não der execução ao contrato preliminar, poderá a outra parte considerá-lo desfeito, e pedir perdas e d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o estipulante não der execução ao contrato preliminar, poderá a outra parte considerá-lo desfeito, e pedir perdas e danos.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 262 — [Artigo 262 - Direito Civil]
+# CC Art. 262 — Se um dos credores remitir a dívida, a obrigação não ficará extinta para com os outros;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um dos credores remitir a dívida, a obrigação não ficará extinta para com os outros; mas estes só a poderão exigir, descontada a quota do credor remitente. Parágrafo único. O mesmo critério se observará no caso de transação, novação, compensação ou confusão.
 
 ---
 

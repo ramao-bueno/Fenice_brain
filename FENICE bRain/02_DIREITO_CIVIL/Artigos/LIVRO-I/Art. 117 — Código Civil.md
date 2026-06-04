@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 117 — [Artigo 117 - Direito Civil]
+# CC Art. 117 — Salvo se o permitir a lei ou o representado, é anulável o negócio jurídico que o representante, no seu interesse ou por
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo se o permitir a lei ou o representado, é anulável o negócio jurídico que o representante, no seu interesse ou por conta de outrem, celebrar consigo mesmo. Parágrafo único. Para esse efeito, tem-se como celebrado pelo representante o negócio realizado por aquele em quem os poderes houverem sido subestabelecidos.
 
 ---
 

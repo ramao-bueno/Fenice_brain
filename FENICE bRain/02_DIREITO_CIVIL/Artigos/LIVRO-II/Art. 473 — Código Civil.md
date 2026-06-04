@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 473 — [Artigo 473 - Direito Civil]
+# CC Art. 473 — A resilição unilateral, nos casos em que a lei expressa ou implicitamente o permita, opera mediante denúncia notificada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A resilição unilateral, nos casos em que a lei expressa ou implicitamente o permita, opera mediante denúncia notificada à outra parte. Parágrafo único. Se, porém, dada a natureza do contrato, uma das partes houver feito investimentos consideráveis para a sua execução, a denúncia unilateral só produzirá efeito depois de transcorrido prazo compatível com a natureza e o vulto dos investimentos. Seção II Da Cláusula Resolutiva
 
 ---
 

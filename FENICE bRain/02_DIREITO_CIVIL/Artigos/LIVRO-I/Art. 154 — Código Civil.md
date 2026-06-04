@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 154 — [Artigo 154 - Direito Civil]
+# CC Art. 154 — Vicia o negócio jurídico a coação exercida por terceiro, se dela tivesse ou devesse ter conhecimento a parte a que aprov
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Vicia o negócio jurídico a coação exercida por terceiro, se dela tivesse ou devesse ter conhecimento a parte a que aproveite, e esta responderá solidariamente com aquele por perdas e danos.
 
 ---
 

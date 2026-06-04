@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 632 — [Artigo 632 - Direito Civil]
+# CC Art. 632 — Se a coisa houver sido depositada no interesse de terceiro, e o depositário tiver sido cientificado deste fato pelo depo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a coisa houver sido depositada no interesse de terceiro, e o depositário tiver sido cientificado deste fato pelo depositante, não poderá ele exonerar-se restituindo a coisa a este, sem consentimento daquele.
 
 ---
 

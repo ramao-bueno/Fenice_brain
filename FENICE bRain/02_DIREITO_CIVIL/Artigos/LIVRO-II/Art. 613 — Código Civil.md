@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 613 — [Artigo 613 - Direito Civil]
+# CC Art. 613 — Sendo a empreitada unicamente de lavor (art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo a empreitada unicamente de lavor (art. 610), se a coisa perecer antes de entregue, sem mora do dono nem culpa do empreiteiro, este perderá a retribuição, se não provar que a perda resultou de defeito dos materiais e que em tempo reclamara contra a sua quantidade ou qualidade.
 
 ---
 

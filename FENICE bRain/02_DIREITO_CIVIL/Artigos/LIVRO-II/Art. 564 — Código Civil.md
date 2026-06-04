@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
+- inciso-iv
 created: '2026-06-03'
 ---
 
-# CC Art. 564 — [Artigo 564 - Direito Civil]
+# CC Art. 564 — Não se revogam por ingratidão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se revogam por ingratidão: I - as doações puramente remuneratórias; II - as oneradas com encargo já cumprido; III - as que se fizerem em cumprimento de obrigação natural; IV - as feitas para determinado casamento. CAPÍTULO V Da Locação de Coisas
 
 ---
 

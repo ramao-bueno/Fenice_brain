@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 470 — [Artigo 470 - Direito Civil]
+# CC Art. 470 — O contrato será eficaz somente entre os contratantes originários
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O contrato será eficaz somente entre os contratantes originários: I - se não houver indicação de pessoa, ou se o nomeado se recusar a aceitá-la; II - se a pessoa nomeada era insolvente, e a outra pessoa o desconhecia no momento da indicação.
 
 ---
 

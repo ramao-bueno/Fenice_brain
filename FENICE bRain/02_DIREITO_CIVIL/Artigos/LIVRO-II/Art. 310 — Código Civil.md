@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 310 — [Artigo 310 - Direito Civil]
+# CC Art. 310 — Não vale o pagamento cientemente feito ao credor incapaz de quitar, se o devedor não provar que em benefício dele efetiv
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não vale o pagamento cientemente feito ao credor incapaz de quitar, se o devedor não provar que em benefício dele efetivamente reverteu.
 
 ---
 

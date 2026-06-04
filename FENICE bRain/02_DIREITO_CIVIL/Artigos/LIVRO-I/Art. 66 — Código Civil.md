@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 66 — [Artigo 66 - Direito Civil]
+# CC Art. 66 — Velará pelas fundações o Ministério Público do Estado onde situadas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Velará pelas fundações o Ministério Público do Estado onde situadas. § 1 º Se funcionarem no Distrito Federal ou em Território, caberá o encargo ao Ministério Público do Distrito Federal e Territórios. (Redação dada pela Lei nº 13.151, de 2015) § 2º Se estenderem a atividade por mais de um Estado, caberá o encargo, em cada um deles, ao respectivo Ministério Público.
 
 ---
 

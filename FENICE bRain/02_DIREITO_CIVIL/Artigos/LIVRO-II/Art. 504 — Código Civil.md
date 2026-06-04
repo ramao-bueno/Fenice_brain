@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 504 — [Artigo 504 - Direito Civil]
+# CC Art. 504 — Não pode um condômino em coisa indivisível vender a sua parte a estranhos, se outro consorte a quiser, tanto por tanto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não pode um condômino em coisa indivisível vender a sua parte a estranhos, se outro consorte a quiser, tanto por tanto. O condômino, a quem não se der conhecimento da venda, poderá, depositando o preço, haver para si a parte vendida a estranhos, se o requerer no prazo de cento e oitenta dias, sob pena de decadência. Parágrafo único. Sendo muitos os condôminos, preferirá o que tiver benfeitorias de maior valor e, na falta de benfeitorias, o de quinhão maior. Se as partes forem iguais, haverão a parte vendida os comproprietários, que a quiserem, depositando previamente o preço. Seção II Das Cláu...
 
 ---
 

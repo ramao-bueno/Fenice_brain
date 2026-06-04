@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 708 — [Artigo 708 - Direito Civil]
+# CC Art. 708 — Para reembolso das despesas feitas, bem como para recebimento das comissões devidas, tem o comissário direito de retençã
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para reembolso das despesas feitas, bem como para recebimento das comissões devidas, tem o comissário direito de retenção sobre os bens e valores em seu poder em virtude da comissão.
 
 ---
 

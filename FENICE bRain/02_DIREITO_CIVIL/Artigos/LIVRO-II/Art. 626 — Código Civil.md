@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 626 — [Artigo 626 - Direito Civil]
+# CC Art. 626 — Não se extingue o contrato de empreitada pela morte de qualquer das partes, salvo se ajustado em consideração às qualida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se extingue o contrato de empreitada pela morte de qualquer das partes, salvo se ajustado em consideração às qualidades pessoais do empreiteiro. CAPÍTULO IX Do Depósito Seção I Do Depósito Voluntário
 
 ---
 

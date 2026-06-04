@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 232 — [Artigo 232 - Direito Civil]
+# CC Art. 232 — A recusa à perícia médica ordenada pelo juiz poderá suprir a prova que se pretendia obter com o exame
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A recusa à perícia médica ordenada pelo juiz poderá suprir a prova que se pretendia obter com o exame. PARTE ESPECIAL LIVRO I DO DIREITO DAS OBRIGAÇÕES TÍTULO I DAS MODALIDADES DAS OBRIGAÇÕES CAPÍTULO I DAS OBRIGAÇÕES DE DAR Seção I Das Obrigações de Dar Coisa Certa
 
 ---
 

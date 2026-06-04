@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 370 — [Artigo 370 - Direito Civil]
+# CC Art. 370 — Embora sejam do mesmo gênero as coisas fungíveis, objeto das duas prestações, não se compensarão, verificando-se que dif
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Embora sejam do mesmo gênero as coisas fungíveis, objeto das duas prestações, não se compensarão, verificando-se que diferem na qualidade, quando especificada no contrato.
 
 ---
 

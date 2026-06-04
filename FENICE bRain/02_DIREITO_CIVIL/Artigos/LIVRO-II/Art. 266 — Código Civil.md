@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 266 — [Artigo 266 - Direito Civil]
+# CC Art. 266 — A obrigação solidária pode ser pura e simples para um dos co-credores ou co-devedores, e condicional, ou a prazo, ou pag
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A obrigação solidária pode ser pura e simples para um dos co-credores ou co-devedores, e condicional, ou a prazo, ou pagável em lugar diferente, para o outro. Seção II Da Solidariedade Ativa
 
 ---
 

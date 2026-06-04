@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 214 — [Artigo 214 - Direito Civil]
+# CC Art. 214 — A confissão é irrevogável, mas pode ser anulada se decorreu de erro de fato ou de coação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A confissão é irrevogável, mas pode ser anulada se decorreu de erro de fato ou de coação.
 
 ---
 

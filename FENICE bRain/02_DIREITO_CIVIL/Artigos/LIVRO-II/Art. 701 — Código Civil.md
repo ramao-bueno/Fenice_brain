@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 701 — [Artigo 701 - Direito Civil]
+# CC Art. 701 — Não estipulada a remuneração devida ao comissário, será ela arbitrada segundo os usos correntes no lugar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não estipulada a remuneração devida ao comissário, será ela arbitrada segundo os usos correntes no lugar.
 
 ---
 

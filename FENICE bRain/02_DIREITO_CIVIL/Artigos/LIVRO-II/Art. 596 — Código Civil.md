@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 596 — [Artigo 596 - Direito Civil]
+# CC Art. 596 — Não se tendo estipulado, nem chegado a acordo as partes, fixar-se-á por arbitramento a retribuição, segundo o costume do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se tendo estipulado, nem chegado a acordo as partes, fixar-se-á por arbitramento a retribuição, segundo o costume do lugar, o tempo de serviço e sua qualidade.
 
 ---
 

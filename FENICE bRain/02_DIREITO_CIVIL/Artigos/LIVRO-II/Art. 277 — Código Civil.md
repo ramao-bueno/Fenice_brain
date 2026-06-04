@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 277 — [Artigo 277 - Direito Civil]
+# CC Art. 277 — O pagamento parcial feito por um dos devedores e a remissão por ele obtida não aproveitam aos outros devedores, senão at
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pagamento parcial feito por um dos devedores e a remissão por ele obtida não aproveitam aos outros devedores, senão até à concorrência da quantia paga ou relevada.
 
 ---
 

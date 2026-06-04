@@ -9,10 +9,16 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
 created: '2026-06-03'
 ---
 
-# CC Art. 206 — [Artigo 206 - Direito Civil]
+# CC Art. 206 — Prescreve
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +26,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Prescreve: § 1 o Em um ano: I - a pretensão dos hospedeiros ou fornecedores de víveres destinados a consumo no próprio estabelecimento, para o pagamento da hospedagem ou dos alimentos; II - (Revogado pela Lei nº 15.040, de 2024) Vigência III - a pretensão dos tabeliães, auxiliares da justiça, serventuários judiciais, árbitros e peritos, pela percepção de emolumentos, custas e honorários; IV - a pretensão contra os peritos, pela avaliação dos bens que entraram para a formação do capital de sociedade anônima, contado da publicação da ata da assembléia que aprovar o laudo; V - a pretensão dos cre...
 
 ---
 

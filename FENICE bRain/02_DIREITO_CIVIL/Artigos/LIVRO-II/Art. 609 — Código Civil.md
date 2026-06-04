@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 609 — [Artigo 609 - Direito Civil]
+# CC Art. 609 — A alienação do prédio agrícola, onde a prestação dos serviços se opera, não importa a rescisão do contrato, salvo ao pre
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A alienação do prédio agrícola, onde a prestação dos serviços se opera, não importa a rescisão do contrato, salvo ao prestador opção entre continuá-lo com o adquirente da propriedade ou com o primitivo contratante. CAPÍTULO VIII Da Empreitada
 
 ---
 

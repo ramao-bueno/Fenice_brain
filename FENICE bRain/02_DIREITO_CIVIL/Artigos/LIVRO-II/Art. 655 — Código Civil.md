@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 655 — [Artigo 655 - Direito Civil]
+# CC Art. 655 — Ainda quando se outorgue mandato por instrumento público, pode substabelecer-se mediante instrumento particular
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ainda quando se outorgue mandato por instrumento público, pode substabelecer-se mediante instrumento particular.
 
 ---
 

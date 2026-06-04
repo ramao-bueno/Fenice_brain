@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
+- inciso-iv
 created: '2026-06-03'
 ---
 
-# CC Art. 9 — [Artigo 9 - Direito Civil]
+# CC Art. 9 — Serão registrados em registro público
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Serão registrados em registro público: I - os nascimentos, casamentos e óbitos; II - a emancipação por outorga dos pais ou por sentença do juiz; III - a interdição por incapacidade absoluta ou relativa; IV - a sentença declaratória de ausência e de morte presumida.
 
 ---
 

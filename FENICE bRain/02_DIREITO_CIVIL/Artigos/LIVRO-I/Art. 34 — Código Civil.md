@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 34 — [Artigo 34 - Direito Civil]
+# CC Art. 34 — O excluído, segundo o art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O excluído, segundo o art. 30, da posse provisória poderá, justificando falta de meios, requerer lhe seja entregue metade dos rendimentos do quinhão que lhe tocaria.
 
 ---
 

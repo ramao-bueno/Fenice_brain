@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 274 — [Artigo 274 - Direito Civil]
+# CC Art. 274 — O julgamento contrário a um dos credores solidários não atinge os demais, mas o julgamento favorável aproveita-lhes, sem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O julgamento contrário a um dos credores solidários não atinge os demais, mas o julgamento favorável aproveita-lhes, sem prejuízo de exceção pessoal que o devedor tenha direito de invocar em relação a qualquer deles. (Redação dada pela Lei nº 13.105, de 2015) (Vigência) Seção III Da Solidariedade Passiva
 
 ---
 

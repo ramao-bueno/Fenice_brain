@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 149 — [Artigo 149 - Direito Civil]
+# CC Art. 149 — O dolo do representante legal de uma das partes só obriga o representado a responder civilmente até a importância do pro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O dolo do representante legal de uma das partes só obriga o representado a responder civilmente até a importância do proveito que teve; se, porém, o dolo for do representante convencional, o representado responderá solidariamente com ele por perdas e danos.
 
 ---
 

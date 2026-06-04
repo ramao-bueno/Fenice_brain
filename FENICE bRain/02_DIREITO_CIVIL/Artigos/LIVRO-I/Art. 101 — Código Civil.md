@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 101 — [Artigo 101 - Direito Civil]
+# CC Art. 101 — Os bens públicos dominicais podem ser alienados, observadas as exigências da lei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.
 
 ---
 

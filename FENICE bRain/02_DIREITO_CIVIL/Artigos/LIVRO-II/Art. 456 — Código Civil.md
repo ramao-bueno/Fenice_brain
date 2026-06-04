@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 456 — [Artigo 456 - Direito Civil]
+# CC Art. 456 — (Revogado pela Lei n º 13
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> (Revogado pela Lei n º 13.105, de 2015) (Vigência)
 
 ---
 

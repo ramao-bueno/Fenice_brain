@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 91 — [Artigo 91 - Direito Civil]
+# CC Art. 91 — Constitui universalidade de direito o complexo de relações jurídicas, de uma pessoa, dotadas de valor econômico
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constitui universalidade de direito o complexo de relações jurídicas, de uma pessoa, dotadas de valor econômico. CAPÍTULO II Dos Bens Reciprocamente Considerados
 
 ---
 

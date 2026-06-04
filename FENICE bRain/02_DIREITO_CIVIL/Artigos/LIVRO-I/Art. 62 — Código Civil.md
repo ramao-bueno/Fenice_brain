@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 62 — [Artigo 62 - Direito Civil]
+# CC Art. 62 — Para criar uma fundação, o seu instituidor fará, por escritura pública ou testamento, dotação especial de bens livres, e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para criar uma fundação, o seu instituidor fará, por escritura pública ou testamento, dotação especial de bens livres, especificando o fim a que se destina, e declarando, se quiser, a maneira de administrá-la. Parágrafo único. A fundação somente poderá constituir-se para fins de: (Redação dada pela Lei nº 13.151, de 2015) I – assistência social; (Incluído pela Lei nº 13.151, de 2015) II – cultura, defesa e conservação do patrimônio histórico e artístico; (Incluído pela Lei nº 13.151, de 2015) III – educação; (Incluído pela Lei nº 13.151, de 2015) IV – saúde; (Incluído pela Lei nº 13.151, de 20...
 
 ---
 

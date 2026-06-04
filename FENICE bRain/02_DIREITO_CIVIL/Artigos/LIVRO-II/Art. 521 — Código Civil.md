@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 521 — [Artigo 521 - Direito Civil]
+# CC Art. 521 — Na venda de coisa móvel, pode o vendedor reservar para si a propriedade, até que o preço esteja integralmente pago
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na venda de coisa móvel, pode o vendedor reservar para si a propriedade, até que o preço esteja integralmente pago.
 
 ---
 

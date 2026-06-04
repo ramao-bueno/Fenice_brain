@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 201 — [Artigo 201 - Direito Civil]
+# CC Art. 201 — Suspensa a prescrição em favor de um dos credores solidários, só aproveitam os outros se a obrigação for indivisível
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Suspensa a prescrição em favor de um dos credores solidários, só aproveitam os outros se a obrigação for indivisível. Seção III Das Causas que Interrompem a Prescrição
 
 ---
 

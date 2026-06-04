@@ -23,7 +23,11 @@ class EnriquecedorTagsCF:
         self.tags_adicionadas = 0
 
     def extrair_paragrafos(self, texto: str):
-        return [f"paragrafo-{m}" for m in re.findall(r"§\s*(\d+)", texto)]
+        tags = [f"paragrafo-{m}" for m in re.findall(r"§\s*(\d+)", texto)]
+        if re.search(r"[Pp]ar[áa]grafo\s+[úu]nico", texto):
+            if "paragrafo-unico" not in tags:
+                tags.append("paragrafo-unico")
+        return tags
 
     def extrair_incisos(self, texto: str):
         romanos = [

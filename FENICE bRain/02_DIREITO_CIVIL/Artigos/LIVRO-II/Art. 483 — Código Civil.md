@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 483 — [Artigo 483 - Direito Civil]
+# CC Art. 483 — A compra e venda pode ter por objeto coisa atual ou futura
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A compra e venda pode ter por objeto coisa atual ou futura. Neste caso, ficará sem efeito o contrato se esta não vier a existir, salvo se a intenção das partes era de concluir contrato aleatório.
 
 ---
 

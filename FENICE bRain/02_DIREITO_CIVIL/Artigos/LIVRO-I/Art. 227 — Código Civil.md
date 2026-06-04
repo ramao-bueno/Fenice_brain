@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 227 — [Artigo 227 - Direito Civil]
+# CC Art. 227 — (Revogado pela Lei n º 13
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> (Revogado pela Lei n º 13.105, de 2015) (Vigência) Parágrafo único. Qualquer que seja o valor do negócio jurídico, a prova testemunhal é admissível como subsidiária ou complementar da prova por escrito.
 
 ---
 

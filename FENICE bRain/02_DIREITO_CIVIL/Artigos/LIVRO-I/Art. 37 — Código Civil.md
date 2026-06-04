@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 37 — [Artigo 37 - Direito Civil]
+# CC Art. 37 — Dez anos depois de passada em julgado a sentença que concede a abertura da sucessão provisória, poderão os interessados
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dez anos depois de passada em julgado a sentença que concede a abertura da sucessão provisória, poderão os interessados requerer a sucessão definitiva e o levantamento das cauções prestadas.
 
 ---
 

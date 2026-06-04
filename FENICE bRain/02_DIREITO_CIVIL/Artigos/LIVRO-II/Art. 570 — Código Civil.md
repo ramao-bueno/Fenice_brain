@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 570 — [Artigo 570 - Direito Civil]
+# CC Art. 570 — Se o locatário empregar a coisa em uso diverso do ajustado, ou do a que se destina, ou se ela se danificar por abuso do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o locatário empregar a coisa em uso diverso do ajustado, ou do a que se destina, ou se ela se danificar por abuso do locatário, poderá o locador, além de rescindir o contrato, exigir perdas e danos.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 249 — [Artigo 249 - Direito Civil]
+# CC Art. 249 — Se o fato puder ser executado por terceiro, será livre ao credor mandá-lo executar à custa do devedor, havendo recusa ou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o fato puder ser executado por terceiro, será livre ao credor mandá-lo executar à custa do devedor, havendo recusa ou mora deste, sem prejuízo da indenização cabível. Parágrafo único. Em caso de urgência, pode o credor, independentemente de autorização judicial, executar ou mandar executar o fato, sendo depois ressarcido. CAPÍTULO III Das Obrigações de Não Fazer
 
 ---
 

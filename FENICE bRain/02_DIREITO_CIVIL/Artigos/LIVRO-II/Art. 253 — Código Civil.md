@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 253 — [Artigo 253 - Direito Civil]
+# CC Art. 253 — Se uma das duas prestações não puder ser objeto de obrigação ou se tornada inexeqüível, subsistirá o débito quanto à out
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se uma das duas prestações não puder ser objeto de obrigação ou se tornada inexeqüível, subsistirá o débito quanto à outra.
 
 ---
 

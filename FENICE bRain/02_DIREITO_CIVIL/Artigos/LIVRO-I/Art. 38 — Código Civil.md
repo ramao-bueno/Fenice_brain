@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 38 — [Artigo 38 - Direito Civil]
+# CC Art. 38 — Pode-se requerer a sucessão definitiva, também, provando-se que o ausente conta oitenta anos de idade, e que de cinco da
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode-se requerer a sucessão definitiva, também, provando-se que o ausente conta oitenta anos de idade, e que de cinco datam as últimas notícias dele.
 
 ---
 

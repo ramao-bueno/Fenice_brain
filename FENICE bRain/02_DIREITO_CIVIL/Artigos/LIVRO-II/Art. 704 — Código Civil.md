@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 704 — [Artigo 704 - Direito Civil]
+# CC Art. 704 — Salvo disposição em contrário, pode o comitente, a qualquer tempo, alterar as instruções dadas ao comissário, entendendo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, pode o comitente, a qualquer tempo, alterar as instruções dadas ao comissário, entendendo-se por elas regidos também os negócios pendentes.
 
 ---
 

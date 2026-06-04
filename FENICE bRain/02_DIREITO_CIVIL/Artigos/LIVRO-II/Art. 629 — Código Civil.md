@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 629 — [Artigo 629 - Direito Civil]
+# CC Art. 629 — O depositário é obrigado a ter na guarda e conservação da coisa depositada o cuidado e diligência que costuma com o que
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depositário é obrigado a ter na guarda e conservação da coisa depositada o cuidado e diligência que costuma com o que lhe pertence, bem como a restituí-la, com todos os frutos e acrescidos, quando o exija o depositante.
 
 ---
 

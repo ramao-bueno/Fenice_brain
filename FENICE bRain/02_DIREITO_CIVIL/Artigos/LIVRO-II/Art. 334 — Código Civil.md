@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 334 — [Artigo 334 - Direito Civil]
+# CC Art. 334 — Considera-se pagamento, e extingue a obrigação, o depósito judicial ou em estabelecimento bancário da coisa devida, nos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se pagamento, e extingue a obrigação, o depósito judicial ou em estabelecimento bancário da coisa devida, nos casos e forma legais.
 
 ---
 

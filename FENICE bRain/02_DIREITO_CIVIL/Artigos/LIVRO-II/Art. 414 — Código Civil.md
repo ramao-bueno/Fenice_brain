@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 414 — [Artigo 414 - Direito Civil]
+# CC Art. 414 — Sendo indivisível a obrigação, todos os devedores, caindo em falta um deles, incorrerão na pena;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo indivisível a obrigação, todos os devedores, caindo em falta um deles, incorrerão na pena; mas esta só se poderá demandar integralmente do culpado, respondendo cada um dos outros somente pela sua quota. Parágrafo único. Aos não culpados fica reservada a ação regressiva contra aquele que deu causa à aplicação da pena.
 
 ---
 

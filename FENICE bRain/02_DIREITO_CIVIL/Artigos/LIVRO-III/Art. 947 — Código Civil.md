@@ -9,6 +9,7 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
+- inciso-iii
 created: '2026-06-03'
 ---
 

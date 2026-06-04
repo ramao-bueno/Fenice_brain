@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 301 — [Artigo 301 - Direito Civil]
+# CC Art. 301 — Se a substituição do devedor vier a ser anulada, restaura-se o débito, com todas as suas garantias, salvo as garantias p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a substituição do devedor vier a ser anulada, restaura-se o débito, com todas as suas garantias, salvo as garantias prestadas por terceiros, exceto se este conhecia o vício que inquinava a obrigação.
 
 ---
 

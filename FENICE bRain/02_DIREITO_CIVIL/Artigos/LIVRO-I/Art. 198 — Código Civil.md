@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 198 — [Artigo 198 - Direito Civil]
+# CC Art. 198 — Também não corre a prescrição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Também não corre a prescrição: I - contra os incapazes de que trata o art. 3 o ; II - contra os ausentes do País em serviço público da União, dos Estados ou dos Municípios; III - contra os que se acharem servindo nas Forças Armadas, em tempo de guerra.
 
 ---
 

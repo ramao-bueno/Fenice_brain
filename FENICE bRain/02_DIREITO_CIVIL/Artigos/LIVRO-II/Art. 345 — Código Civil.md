@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 345 — [Artigo 345 - Direito Civil]
+# CC Art. 345 — Se a dívida se vencer, pendendo litígio entre credores que se pretendem mutuamente excluir, poderá qualquer deles requer
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a dívida se vencer, pendendo litígio entre credores que se pretendem mutuamente excluir, poderá qualquer deles requerer a consignação. CAPÍTULO III Do Pagamento com Sub-Rogação
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 73 — [Artigo 73 - Direito Civil]
+# CC Art. 73 — Ter-se-á por domicílio da pessoa natural, que não tenha residência habitual, o lugar onde for encontrada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ter-se-á por domicílio da pessoa natural, que não tenha residência habitual, o lugar onde for encontrada.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 175 — [Artigo 175 - Direito Civil]
+# CC Art. 175 — A confirmação expressa, ou a execução voluntária de negócio anulável, nos termos dos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A confirmação expressa, ou a execução voluntária de negócio anulável, nos termos dos arts. 172 a 174, importa a extinção de todas as ações, ou exceções, de que contra ele dispusesse o devedor.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 292 — [Artigo 292 - Direito Civil]
+# CC Art. 292 — Fica desobrigado o devedor que, antes de ter conhecimento da cessão, paga ao credor primitivo, ou que, no caso de mais d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Fica desobrigado o devedor que, antes de ter conhecimento da cessão, paga ao credor primitivo, ou que, no caso de mais de uma cessão notificada, paga ao cessionário que lhe apresenta, com o título de cessão, o da obrigação cedida; quando o crédito constar de escritura pública, prevalecerá a prioridade da notificação.
 
 ---
 

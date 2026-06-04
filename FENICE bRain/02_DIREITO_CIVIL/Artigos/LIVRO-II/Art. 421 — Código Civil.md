@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 421 — [Artigo 421 - Direito Civil]
+# CC Art. 421 — A liberdade contratual será exercida nos limites da função social do contrato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A liberdade contratual será exercida nos limites da função social do contrato. (Redação dada pela Lei nº 13.874, de 2019) Parágrafo único. Nas relações contratuais privadas, prevalecerão o princípio da intervenção mínima e a excepcionalidade da revisão contratual. (Incluído pela Lei nº 13.874, de 2019)
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 223 — [Artigo 223 - Direito Civil]
+# CC Art. 223 — A cópia fotográfica de documento, conferida por tabelião de notas, valerá como prova de declaração da vontade, mas, impu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A cópia fotográfica de documento, conferida por tabelião de notas, valerá como prova de declaração da vontade, mas, impugnada sua autenticidade, deverá ser exibido o original. Parágrafo único. A prova não supre a ausência do título de crédito, ou do original, nos casos em que a lei ou as circunstâncias condicionarem o exercício do direito à sua exibição.
 
 ---
 

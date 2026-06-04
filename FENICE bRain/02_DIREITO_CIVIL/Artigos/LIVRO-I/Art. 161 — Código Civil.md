@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 161 — [Artigo 161 - Direito Civil]
+# CC Art. 161 — A ação, nos casos dos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A ação, nos casos dos arts. 158 e 159, poderá ser intentada contra o devedor insolvente, a pessoa que com ele celebrou a estipulação considerada fraudulenta, ou terceiros adquirentes que hajam procedido de má-fé.
 
 ---
 

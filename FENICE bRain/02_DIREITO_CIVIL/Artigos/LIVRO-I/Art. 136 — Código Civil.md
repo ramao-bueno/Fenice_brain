@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 136 — [Artigo 136 - Direito Civil]
+# CC Art. 136 — O encargo não suspende a aquisição nem o exercício do direito, salvo quando expressamente imposto no negócio jurídico, p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O encargo não suspende a aquisição nem o exercício do direito, salvo quando expressamente imposto no negócio jurídico, pelo disponente, como condição suspensiva.
 
 ---
 

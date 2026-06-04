@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 484 — [Artigo 484 - Direito Civil]
+# CC Art. 484 — Se a venda se realizar à vista de amostras, protótipos ou modelos, entender-se-á que o vendedor assegura ter a coisa as
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a venda se realizar à vista de amostras, protótipos ou modelos, entender-se-á que o vendedor assegura ter a coisa as qualidades que a elas correspondem. Parágrafo único. Prevalece a amostra, o protótipo ou o modelo, se houver contradição ou diferença com a maneira pela qual se descreveu a coisa no contrato.
 
 ---
 

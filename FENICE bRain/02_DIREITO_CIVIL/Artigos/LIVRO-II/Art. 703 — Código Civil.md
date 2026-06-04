@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 703 — [Artigo 703 - Direito Civil]
+# CC Art. 703 — Ainda que tenha dado motivo à dispensa, terá o comissário direito a ser remunerado pelos serviços úteis prestados ao com
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ainda que tenha dado motivo à dispensa, terá o comissário direito a ser remunerado pelos serviços úteis prestados ao comitente, ressalvado a este o direito de exigir daquele os prejuízos sofridos.
 
 ---
 

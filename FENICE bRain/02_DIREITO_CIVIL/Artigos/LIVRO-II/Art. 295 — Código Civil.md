@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 295 — [Artigo 295 - Direito Civil]
+# CC Art. 295 — Na cessão por título oneroso, o cedente, ainda que não se responsabilize, fica responsável ao cessionário pela existênci
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na cessão por título oneroso, o cedente, ainda que não se responsabilize, fica responsável ao cessionário pela existência do crédito ao tempo em que lhe cedeu; a mesma responsabilidade lhe cabe nas cessões por título gratuito, se tiver procedido de má-fé.
 
 ---
 

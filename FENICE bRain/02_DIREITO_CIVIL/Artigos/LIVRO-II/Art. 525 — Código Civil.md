@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 525 — [Artigo 525 - Direito Civil]
+# CC Art. 525 — O vendedor somente poderá executar a cláusula de reserva de domínio após constituir o comprador em mora, mediante protes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O vendedor somente poderá executar a cláusula de reserva de domínio após constituir o comprador em mora, mediante protesto do título ou interpelação judicial.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 339 — [Artigo 339 - Direito Civil]
+# CC Art. 339 — Julgado procedente o depósito, o devedor já não poderá levantá-lo, embora o credor consinta, senão de acordo com os outr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Julgado procedente o depósito, o devedor já não poderá levantá-lo, embora o credor consinta, senão de acordo com os outros devedores e fiadores.
 
 ---
 

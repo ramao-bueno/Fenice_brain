@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 28 — [Artigo 28 - Direito Civil]
+# CC Art. 28 — A sentença que determinar a abertura da sucessão provisória só produzirá efeito cento e oitenta dias depois de publicada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sentença que determinar a abertura da sucessão provisória só produzirá efeito cento e oitenta dias depois de publicada pela imprensa; mas, logo que passe em julgado, proceder-se-á à abertura do testamento, se houver, e ao inventário e partilha dos bens, como se o ausente fosse falecido. § 1 o Findo o prazo a que se refere o art. 26, e não havendo interessados na sucessão provisória, cumpre ao Ministério Público requerê-la ao juízo competente. § 2 o Não comparecendo herdeiro ou interessado para requerer o inventário até trinta dias depois de passar em julgado a sentença que mandar abrir a suc...
 
 ---
 

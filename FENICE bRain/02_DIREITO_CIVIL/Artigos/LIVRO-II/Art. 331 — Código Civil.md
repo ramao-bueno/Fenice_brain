@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 331 — [Artigo 331 - Direito Civil]
+# CC Art. 331 — Salvo disposição legal em contrário, não tendo sido ajustada época para o pagamento, pode o credor exigi-lo imediatament
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição legal em contrário, não tendo sido ajustada época para o pagamento, pode o credor exigi-lo imediatamente.
 
 ---
 

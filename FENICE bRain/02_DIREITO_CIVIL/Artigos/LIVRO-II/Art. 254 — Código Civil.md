@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 254 — [Artigo 254 - Direito Civil]
+# CC Art. 254 — Se, por culpa do devedor, não se puder cumprir nenhuma das prestações, não competindo ao credor a escolha, ficará aquele
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, por culpa do devedor, não se puder cumprir nenhuma das prestações, não competindo ao credor a escolha, ficará aquele obrigado a pagar o valor da que por último se impossibilitou, mais as perdas e danos que o caso determinar.
 
 ---
 

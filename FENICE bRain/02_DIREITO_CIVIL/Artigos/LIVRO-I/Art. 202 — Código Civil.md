@@ -9,10 +9,17 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
+- inciso-vi
 created: '2026-06-03'
 ---
 
-# CC Art. 202 — [Artigo 202 - Direito Civil]
+# CC Art. 202 — A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +27,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á: I - por despacho do juiz, mesmo incompetente, que ordenar a citação, se o interessado a promover no prazo e na forma da lei processual; II - por protesto, nas condições do inciso antecedente; III - por protesto cambial; IV - pela apresentação do título de crédito em juízo de inventário ou em concurso de credores; V - por qualquer ato judicial que constitua em mora o devedor; VI - por qualquer ato inequívoco, ainda que extrajudicial, que importe reconhecimento do direito pelo devedor. Parágrafo único. A prescrição interr...
 
 ---
 

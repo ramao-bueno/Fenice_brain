@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 605 — [Artigo 605 - Direito Civil]
+# CC Art. 605 — Nem aquele a quem os serviços são prestados, poderá transferir a outrem o direito aos serviços ajustados, nem o prestado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nem aquele a quem os serviços são prestados, poderá transferir a outrem o direito aos serviços ajustados, nem o prestador de serviços, sem aprazimento da outra parte, dar substituto que os preste.
 
 ---
 

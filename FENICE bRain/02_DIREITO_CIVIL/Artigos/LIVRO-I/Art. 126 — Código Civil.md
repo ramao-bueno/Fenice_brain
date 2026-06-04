@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 126 — [Artigo 126 - Direito Civil]
+# CC Art. 126 — Se alguém dispuser de uma coisa sob condição suspensiva, e, pendente esta, fizer quanto àquela novas disposições, estas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se alguém dispuser de uma coisa sob condição suspensiva, e, pendente esta, fizer quanto àquela novas disposições, estas não terão valor, realizada a condição, se com ela forem incompatíveis.
 
 ---
 

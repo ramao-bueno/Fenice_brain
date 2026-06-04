@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 416 — [Artigo 416 - Direito Civil]
+# CC Art. 416 — Para exigir a pena convencional, não é necessário que o credor alegue prejuízo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para exigir a pena convencional, não é necessário que o credor alegue prejuízo. Parágrafo único. Ainda que o prejuízo exceda ao previsto na cláusula penal, não pode o credor exigir indenização suplementar se assim não foi convencionado. Se o tiver sido, a pena vale como mínimo da indenização, competindo ao credor provar o prejuízo excedente. CAPÍTULO VI Das Arras ou Sinal
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 490 — [Artigo 490 - Direito Civil]
+# CC Art. 490 — Salvo cláusula em contrário, ficarão as despesas de escritura e registro a cargo do comprador, e a cargo do vendedor as
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo cláusula em contrário, ficarão as despesas de escritura e registro a cargo do comprador, e a cargo do vendedor as da tradição.
 
 ---
 

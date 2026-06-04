@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 524 — [Artigo 524 - Direito Civil]
+# CC Art. 524 — A transferência de propriedade ao comprador dá-se no momento em que o preço esteja integralmente pago
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transferência de propriedade ao comprador dá-se no momento em que o preço esteja integralmente pago. Todavia, pelos riscos da coisa responde o comprador, a partir de quando lhe foi entregue.
 
 ---
 

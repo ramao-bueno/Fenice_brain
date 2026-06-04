@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 230 — [Artigo 230 - Direito Civil]
+# CC Art. 230 — (Revogado pela Lei n º 13
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> (Revogado pela Lei n º 13.105, de 2015) (Vigência)
 
 ---
 

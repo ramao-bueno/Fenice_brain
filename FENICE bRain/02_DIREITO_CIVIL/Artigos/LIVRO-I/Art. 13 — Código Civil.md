@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 13 — [Artigo 13 - Direito Civil]
+# CC Art. 13 — Salvo por exigência médica, é defeso o ato de disposição do próprio corpo, quando importar diminuição permanente da inte
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo por exigência médica, é defeso o ato de disposição do próprio corpo, quando importar diminuição permanente da integridade física, ou contrariar os bons costumes. Parágrafo único. O ato previsto neste artigo será admitido para fins de transplante, na forma estabelecida em lei especial.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 572 — [Artigo 572 - Direito Civil]
+# CC Art. 572 — Se a obrigação de pagar o aluguel pelo tempo que faltar constituir indenização excessiva, será facultado ao juiz fixá-la
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a obrigação de pagar o aluguel pelo tempo que faltar constituir indenização excessiva, será facultado ao juiz fixá-la em bases razoáveis.
 
 ---
 

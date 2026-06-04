@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 515 — [Artigo 515 - Direito Civil]
+# CC Art. 515 — Aquele que exerce a preferência está, sob pena de a perder, obrigado a pagar, em condições iguais, o preço encontrado, o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que exerce a preferência está, sob pena de a perder, obrigado a pagar, em condições iguais, o preço encontrado, ou o ajustado.
 
 ---
 

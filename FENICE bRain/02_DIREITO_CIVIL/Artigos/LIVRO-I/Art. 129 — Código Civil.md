@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 129 — [Artigo 129 - Direito Civil]
+# CC Art. 129 — Reputa-se verificada, quanto aos efeitos jurídicos, a condição cujo implemento for maliciosamente obstado pela parte a q
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Reputa-se verificada, quanto aos efeitos jurídicos, a condição cujo implemento for maliciosamente obstado pela parte a quem desfavorecer, considerando-se, ao contrário, não verificada a condição maliciosamente levada a efeito por aquele a quem aproveita o seu implemento.
 
 ---
 

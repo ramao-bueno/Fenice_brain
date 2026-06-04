@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 134 — [Artigo 134 - Direito Civil]
+# CC Art. 134 — Os negócios jurídicos entre vivos, sem prazo, são exeqüíveis desde logo, salvo se a execução tiver de ser feita em lugar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os negócios jurídicos entre vivos, sem prazo, são exeqüíveis desde logo, salvo se a execução tiver de ser feita em lugar diverso ou depender de tempo.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 709 — [Artigo 709 - Direito Civil]
+# CC Art. 709 — São aplicáveis à comissão, no que couber, as regras sobre mandato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São aplicáveis à comissão, no que couber, as regras sobre mandato. CAPÍTULO XII Da Agência e Distribuição
 
 ---
 

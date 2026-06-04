@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 344 — [Artigo 344 - Direito Civil]
+# CC Art. 344 — O devedor de obrigação litigiosa exonerar-se-á mediante consignação, mas, se pagar a qualquer dos pretendidos credores,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O devedor de obrigação litigiosa exonerar-se-á mediante consignação, mas, se pagar a qualquer dos pretendidos credores, tendo conhecimento do litígio, assumirá o risco do pagamento.
 
 ---
 

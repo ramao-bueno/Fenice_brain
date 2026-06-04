@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 697 — [Artigo 697 - Direito Civil]
+# CC Art. 697 — O comissário não responde pela insolvência das pessoas com quem tratar, exceto em caso de culpa e no do artigo seguinte
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O comissário não responde pela insolvência das pessoas com quem tratar, exceto em caso de culpa e no do artigo seguinte.
 
 ---
 

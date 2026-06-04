@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 508 — [Artigo 508 - Direito Civil]
+# CC Art. 508 — Se a duas ou mais pessoas couber o direito de retrato sobre o mesmo imóvel, e só uma o exercer, poderá o comprador intim
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a duas ou mais pessoas couber o direito de retrato sobre o mesmo imóvel, e só uma o exercer, poderá o comprador intimar as outras para nele acordarem, prevalecendo o pacto em favor de quem haja efetuado o depósito, contanto que seja integral. Subseção II Da Venda a Contento e da Sujeita a Prova
 
 ---
 

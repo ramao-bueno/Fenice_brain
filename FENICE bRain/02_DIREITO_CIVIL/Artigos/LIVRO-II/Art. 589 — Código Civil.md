@@ -9,10 +9,15 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
+- inciso-iv
+- inciso-v
 created: '2026-06-03'
 ---
 
-# CC Art. 589 — [Artigo 589 - Direito Civil]
+# CC Art. 589 — Cessa a disposição do artigo antecedente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +25,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cessa a disposição do artigo antecedente: I - se a pessoa, de cuja autorização necessitava o mutuário para contrair o empréstimo, o ratificar posteriormente; II - se o menor, estando ausente essa pessoa, se viu obrigado a contrair o empréstimo para os seus alimentos habituais; III - se o menor tiver bens ganhos com o seu trabalho. Mas, em tal caso, a execução do credor não lhes poderá ultrapassar as forças; IV - se o empréstimo reverteu em benefício do menor; V - se o menor obteve o empréstimo maliciosamente.
 
 ---
 

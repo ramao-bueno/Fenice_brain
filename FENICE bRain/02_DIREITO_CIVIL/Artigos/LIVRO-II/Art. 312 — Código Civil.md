@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 312 — [Artigo 312 - Direito Civil]
+# CC Art. 312 — Se o devedor pagar ao credor, apesar de intimado da penhora feita sobre o crédito, ou da impugnação a ele oposta por ter
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o devedor pagar ao credor, apesar de intimado da penhora feita sobre o crédito, ou da impugnação a ele oposta por terceiros, o pagamento não valerá contra estes, que poderão constranger o devedor a pagar de novo, ficando-lhe ressalvado o regresso contra o credor. Seção III Do Objeto do Pagamento e Sua Prova
 
 ---
 

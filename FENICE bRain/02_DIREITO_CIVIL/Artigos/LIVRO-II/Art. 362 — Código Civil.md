@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 362 — [Artigo 362 - Direito Civil]
+# CC Art. 362 — A novação por substituição do devedor pode ser efetuada independentemente de consentimento deste
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A novação por substituição do devedor pode ser efetuada independentemente de consentimento deste.
 
 ---
 

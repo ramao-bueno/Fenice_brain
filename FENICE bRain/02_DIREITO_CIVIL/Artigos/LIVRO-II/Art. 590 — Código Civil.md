@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 590 — [Artigo 590 - Direito Civil]
+# CC Art. 590 — O mutuante pode exigir garantia da restituição, se antes do vencimento o mutuário sofrer notória mudança em sua situação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mutuante pode exigir garantia da restituição, se antes do vencimento o mutuário sofrer notória mudança em sua situação econômica.
 
 ---
 

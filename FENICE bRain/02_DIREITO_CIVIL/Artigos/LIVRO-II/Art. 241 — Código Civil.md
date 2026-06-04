@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 241 — [Artigo 241 - Direito Civil]
+# CC Art. 241 — Se, no caso do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, no caso do art. 238, sobrevier melhoramento ou acréscimo à coisa, sem despesa ou trabalho do devedor, lucrará o credor, desobrigado de indenização.
 
 ---
 

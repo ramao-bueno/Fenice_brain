@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 410 — [Artigo 410 - Direito Civil]
+# CC Art. 410 — Quando se estipular a cláusula penal para o caso de total inadimplemento da obrigação, esta converter-se-á em alternativ
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando se estipular a cláusula penal para o caso de total inadimplemento da obrigação, esta converter-se-á em alternativa a benefício do credor.
 
 ---
 

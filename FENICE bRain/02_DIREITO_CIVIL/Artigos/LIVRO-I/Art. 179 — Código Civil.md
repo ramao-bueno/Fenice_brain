@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 179 — [Artigo 179 - Direito Civil]
+# CC Art. 179 — Quando a lei dispuser que determinado ato é anulável, sem estabelecer prazo para pleitear-se a anulação, será este de do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a lei dispuser que determinado ato é anulável, sem estabelecer prazo para pleitear-se a anulação, será este de dois anos, a contar da data da conclusão do ato.
 
 ---
 

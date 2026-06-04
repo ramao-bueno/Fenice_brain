@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 40 — [Artigo 40 - Direito Civil]
+# CC Art. 40 — As pessoas jurídicas são de direito público, interno ou externo, e de direito privado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As pessoas jurídicas são de direito público, interno ou externo, e de direito privado.
 
 ---
 

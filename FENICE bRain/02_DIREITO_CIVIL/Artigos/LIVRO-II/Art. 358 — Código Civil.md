@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 358 — [Artigo 358 - Direito Civil]
+# CC Art. 358 — Se for título de crédito a coisa dada em pagamento, a transferência importará em cessão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se for título de crédito a coisa dada em pagamento, a transferência importará em cessão.
 
 ---
 

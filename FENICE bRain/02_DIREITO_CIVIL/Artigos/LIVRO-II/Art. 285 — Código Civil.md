@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 285 — [Artigo 285 - Direito Civil]
+# CC Art. 285 — Se a dívida solidária interessar exclusivamente a um dos devedores, responderá este por toda ela para com aquele que pag
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a dívida solidária interessar exclusivamente a um dos devedores, responderá este por toda ela para com aquele que pagar. TÍTULO II Da Transmissão das Obrigações CAPÍTULO I Da Cessão de Crédito
 
 ---
 

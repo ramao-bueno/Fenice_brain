@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 673 — [Artigo 673 - Direito Civil]
+# CC Art. 673 — O terceiro que, depois de conhecer os poderes do mandatário, com ele celebrar negócio jurídico exorbitante do mandato, n
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O terceiro que, depois de conhecer os poderes do mandatário, com ele celebrar negócio jurídico exorbitante do mandato, não tem ação contra o mandatário, salvo se este lhe prometeu ratificação do mandante ou se responsabilizou pessoalmente.
 
 ---
 

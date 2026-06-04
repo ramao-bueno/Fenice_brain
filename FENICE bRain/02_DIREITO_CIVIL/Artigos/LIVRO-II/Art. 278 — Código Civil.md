@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 278 — [Artigo 278 - Direito Civil]
+# CC Art. 278 — Qualquer cláusula, condição ou obrigação adicional, estipulada entre um dos devedores solidários e o credor, não poderá
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Qualquer cláusula, condição ou obrigação adicional, estipulada entre um dos devedores solidários e o credor, não poderá agravar a posição dos outros sem consentimento destes.
 
 ---
 

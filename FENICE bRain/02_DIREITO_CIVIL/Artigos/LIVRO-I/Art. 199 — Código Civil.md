@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 199 — [Artigo 199 - Direito Civil]
+# CC Art. 199 — Não corre igualmente a prescrição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não corre igualmente a prescrição: I - pendendo condição suspensiva; II - não estando vencido o prazo; III - pendendo ação de evicção.
 
 ---
 

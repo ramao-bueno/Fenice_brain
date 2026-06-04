@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 375 — [Artigo 375 - Direito Civil]
+# CC Art. 375 — Não haverá compensação quando as partes, por mútuo acordo, a excluírem, ou no caso de renúncia prévia de uma delas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não haverá compensação quando as partes, por mútuo acordo, a excluírem, ou no caso de renúncia prévia de uma delas.
 
 ---
 

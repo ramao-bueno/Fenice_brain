@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 127 — [Artigo 127 - Direito Civil]
+# CC Art. 127 — Se for resolutiva a condição, enquanto esta se não realizar, vigorará o negócio jurídico, podendo exercer-se desde a con
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se for resolutiva a condição, enquanto esta se não realizar, vigorará o negócio jurídico, podendo exercer-se desde a conclusão deste o direito por ele estabelecido.
 
 ---
 

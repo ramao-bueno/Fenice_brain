@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 281 — [Artigo 281 - Direito Civil]
+# CC Art. 281 — O devedor demandado pode opor ao credor as exceções que lhe forem pessoais e as comuns a todos;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O devedor demandado pode opor ao credor as exceções que lhe forem pessoais e as comuns a todos; não lhe aproveitando as exceções pessoais a outro co-devedor.
 
 ---
 

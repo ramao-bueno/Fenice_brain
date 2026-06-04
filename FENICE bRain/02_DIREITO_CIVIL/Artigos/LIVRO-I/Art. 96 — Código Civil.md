@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
+- paragrafo-3
 created: '2026-06-03'
 ---
 
-# CC Art. 96 — [Artigo 96 - Direito Civil]
+# CC Art. 96 — As benfeitorias podem ser voluptuárias, úteis ou necessárias
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As benfeitorias podem ser voluptuárias, úteis ou necessárias. § 1 o São voluptuárias as de mero deleite ou recreio, que não aumentam o uso habitual do bem, ainda que o tornem mais agradável ou sejam de elevado valor. § 2 o São úteis as que aumentam ou facilitam o uso do bem. § 3 o São necessárias as que têm por fim conservar o bem ou evitar que se deteriore.
 
 ---
 

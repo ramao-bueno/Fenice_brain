@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 455 — [Artigo 455 - Direito Civil]
+# CC Art. 455 — Se parcial, mas considerável, for a evicção, poderá o evicto optar entre a rescisão do contrato e a restituição da parte
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se parcial, mas considerável, for a evicção, poderá o evicto optar entre a rescisão do contrato e a restituição da parte do preço correspondente ao desfalque sofrido. Se não for considerável, caberá somente direito a indenização.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 554 — [Artigo 554 - Direito Civil]
+# CC Art. 554 — A doação a entidade futura caducará se, em dois anos, esta não estiver constituída regularmente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A doação a entidade futura caducará se, em dois anos, esta não estiver constituída regularmente. Seção II Da Revogação da Doação
 
 ---
 

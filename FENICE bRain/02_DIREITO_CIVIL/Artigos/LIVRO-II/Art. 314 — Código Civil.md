@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 314 — [Artigo 314 - Direito Civil]
+# CC Art. 314 — Ainda que a obrigação tenha por objeto prestação divisível, não pode o credor ser obrigado a receber, nem o devedor a pa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ainda que a obrigação tenha por objeto prestação divisível, não pode o credor ser obrigado a receber, nem o devedor a pagar, por partes, se assim não se ajustou.
 
 ---
 

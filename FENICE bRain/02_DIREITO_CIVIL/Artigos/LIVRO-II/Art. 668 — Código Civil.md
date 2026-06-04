@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 668 — [Artigo 668 - Direito Civil]
+# CC Art. 668 — O mandatário é obrigado a dar contas de sua gerência ao mandante, transferindo-lhe as vantagens provenientes do mandato,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandatário é obrigado a dar contas de sua gerência ao mandante, transferindo-lhe as vantagens provenientes do mandato, por qualquer título que seja.
 
 ---
 

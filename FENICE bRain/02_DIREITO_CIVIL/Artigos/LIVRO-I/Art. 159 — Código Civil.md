@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 159 — [Artigo 159 - Direito Civil]
+# CC Art. 159 — Serão igualmente anuláveis os contratos onerosos do devedor insolvente, quando a insolvência for notória, ou houver moti
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Serão igualmente anuláveis os contratos onerosos do devedor insolvente, quando a insolvência for notória, ou houver motivo para ser conhecida do outro contratante.
 
 ---
 

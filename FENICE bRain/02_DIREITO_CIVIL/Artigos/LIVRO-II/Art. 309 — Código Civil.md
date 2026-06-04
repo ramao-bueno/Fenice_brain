@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 309 — [Artigo 309 - Direito Civil]
+# CC Art. 309 — O pagamento feito de boa-fé ao credor putativo é válido, ainda provado depois que não era credor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pagamento feito de boa-fé ao credor putativo é válido, ainda provado depois que não era credor.
 
 ---
 

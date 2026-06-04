@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 647 — [Artigo 647 - Direito Civil]
+# CC Art. 647 — É depósito necessário
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É depósito necessário: I - o que se faz em desempenho de obrigação legal; II - o que se efetua por ocasião de alguma calamidade, como o incêndio, a inundação, o naufrágio ou o saque.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 612 — [Artigo 612 - Direito Civil]
+# CC Art. 612 — Se o empreiteiro só forneceu mão-de-obra, todos os riscos em que não tiver culpa correrão por conta do dono
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o empreiteiro só forneceu mão-de-obra, todos os riscos em que não tiver culpa correrão por conta do dono.
 
 ---
 

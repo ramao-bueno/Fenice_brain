@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 535 — [Artigo 535 - Direito Civil]
+# CC Art. 535 — O consignatário não se exonera da obrigação de pagar o preço, se a restituição da coisa, em sua integridade, se tornar i
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O consignatário não se exonera da obrigação de pagar o preço, se a restituição da coisa, em sua integridade, se tornar impossível, ainda que por fato a ele não imputável.
 
 ---
 

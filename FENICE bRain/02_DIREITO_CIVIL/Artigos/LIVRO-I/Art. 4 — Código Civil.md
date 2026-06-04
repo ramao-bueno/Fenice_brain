@@ -9,10 +9,16 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 4 — [Artigo 4 - Direito Civil]
+# CC Art. 4 — São incapazes, relativamente a certos atos ou à maneira de os exercer
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +26,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São incapazes, relativamente a certos atos ou à maneira de os exercer: (Redação dada pela Lei nº 13.146, de 2015) (Vigência) I - os maiores de dezesseis e menores de dezoito anos; II - os ébrios habituais e os viciados em tóxico; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - os pródigos. Parágrafo único. A capacidade dos indígenas será regulada por legislação especial. (Redação dada pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 

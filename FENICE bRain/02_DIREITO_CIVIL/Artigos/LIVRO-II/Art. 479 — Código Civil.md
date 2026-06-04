@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 479 — [Artigo 479 - Direito Civil]
+# CC Art. 479 — A resolução poderá ser evitada, oferecendo-se o réu a modificar eqüitativamente as condições do contrato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A resolução poderá ser evitada, oferecendo-se o réu a modificar eqüitativamente as condições do contrato.
 
 ---
 

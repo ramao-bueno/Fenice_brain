@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 322 — [Artigo 322 - Direito Civil]
+# CC Art. 322 — Quando o pagamento for em quotas periódicas, a quitação da última estabelece, até prova em contrário, a presunção de est
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando o pagamento for em quotas periódicas, a quitação da última estabelece, até prova em contrário, a presunção de estarem solvidas as anteriores.
 
 ---
 

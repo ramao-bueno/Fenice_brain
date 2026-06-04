@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 363 — [Artigo 363 - Direito Civil]
+# CC Art. 363 — Se o novo devedor for insolvente, não tem o credor, que o aceitou, ação regressiva contra o primeiro, salvo se este obte
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o novo devedor for insolvente, não tem o credor, que o aceitou, ação regressiva contra o primeiro, salvo se este obteve por má-fé a substituição.
 
 ---
 

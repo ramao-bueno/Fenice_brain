@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 631 — [Artigo 631 - Direito Civil]
+# CC Art. 631 — Salvo disposição em contrário, a restituição da coisa deve dar-se no lugar em que tiver de ser guardada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, a restituição da coisa deve dar-se no lugar em que tiver de ser guardada. As despesas de restituição correm por conta do depositante.
 
 ---
 

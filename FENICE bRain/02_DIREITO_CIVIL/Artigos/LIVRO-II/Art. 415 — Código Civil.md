@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 415 — [Artigo 415 - Direito Civil]
+# CC Art. 415 — Quando a obrigação for divisível, só incorre na pena o devedor ou o herdeiro do devedor que a infringir, e proporcionalm
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a obrigação for divisível, só incorre na pena o devedor ou o herdeiro do devedor que a infringir, e proporcionalmente à sua parte na obrigação.
 
 ---
 

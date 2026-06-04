@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 397 — [Artigo 397 - Direito Civil]
+# CC Art. 397 — O inadimplemento da obrigação, positiva e líquida, no seu termo, constitui de pleno direito em mora o devedor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O inadimplemento da obrigação, positiva e líquida, no seu termo, constitui de pleno direito em mora o devedor. (Vide Lei nº 13.105, de 2015) (Vigência) Parágrafo único. Não havendo termo, a mora se constitui mediante interpelação judicial ou extrajudicial.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 23 — [Artigo 23 - Direito Civil]
+# CC Art. 23 — Também se declarará a ausência, e se nomeará curador, quando o ausente deixar mandatário que não queira ou não possa exe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Também se declarará a ausência, e se nomeará curador, quando o ausente deixar mandatário que não queira ou não possa exercer ou continuar o mandato, ou se os seus poderes forem insuficientes.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
 created: '2026-06-03'
 ---
 
-# CC Art. 288 — [Artigo 288 - Direito Civil]
+# CC Art. 288 — É ineficaz, em relação a terceiros, a transmissão de um crédito, se não celebrar-se mediante instrumento público, ou ins
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É ineficaz, em relação a terceiros, a transmissão de um crédito, se não celebrar-se mediante instrumento público, ou instrumento particular revestido das solenidades do § 1 o do art. 654.
 
 ---
 

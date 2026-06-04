@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 566 — [Artigo 566 - Direito Civil]
+# CC Art. 566 — O locador é obrigado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O locador é obrigado: I - a entregar ao locatário a coisa alugada, com suas pertenças, em estado de servir ao uso a que se destina, e a mantê-la nesse estado, pelo tempo do contrato, salvo cláusula expressa em contrário; II - a garantir-lhe, durante o tempo do contrato, o uso pacífico da coisa.
 
 ---
 

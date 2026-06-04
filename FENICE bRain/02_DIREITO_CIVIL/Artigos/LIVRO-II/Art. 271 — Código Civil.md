@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 271 — [Artigo 271 - Direito Civil]
+# CC Art. 271 — Convertendo-se a prestação em perdas e danos, subsiste, para todos os efeitos, a solidariedade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Convertendo-se a prestação em perdas e danos, subsiste, para todos os efeitos, a solidariedade.
 
 ---
 

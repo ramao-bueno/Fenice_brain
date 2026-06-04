@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 320 — [Artigo 320 - Direito Civil]
+# CC Art. 320 — A quitação, que sempre poderá ser dada por instrumento particular, designará o valor e a espécie da dívida quitada, o no
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A quitação, que sempre poderá ser dada por instrumento particular, designará o valor e a espécie da dívida quitada, o nome do devedor, ou quem por este pagou, o tempo e o lugar do pagamento, com a assinatura do credor, ou do seu representante. Parágrafo único. Ainda sem os requisitos estabelecidos neste artigo valerá a quitação, se de seus termos ou das circunstâncias resultar haver sido paga a dívida.
 
 ---
 

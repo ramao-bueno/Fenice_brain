@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 137 — [Artigo 137 - Direito Civil]
+# CC Art. 137 — Considera-se não escrito o encargo ilícito ou impossível, salvo se constituir o motivo determinante da liberalidade, cas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se não escrito o encargo ilícito ou impossível, salvo se constituir o motivo determinante da liberalidade, caso em que se invalida o negócio jurídico. CAPÍTULO IV Dos Defeitos do Negócio Jurídico Seção I Do Erro ou Ignorância
 
 ---
 

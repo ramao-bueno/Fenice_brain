@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 480 — [Artigo 480 - Direito Civil]
+# CC Art. 480 — Se no contrato as obrigações couberem a apenas uma das partes, poderá ela pleitear que a sua prestação seja reduzida, ou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se no contrato as obrigações couberem a apenas uma das partes, poderá ela pleitear que a sua prestação seja reduzida, ou alterado o modo de executá-la, a fim de evitar a onerosidade excessiva. TÍTULO VI Das Várias Espécies de Contrato CAPÍTULO I Da Compra e Venda Seção I Disposições Gerais
 
 ---
 

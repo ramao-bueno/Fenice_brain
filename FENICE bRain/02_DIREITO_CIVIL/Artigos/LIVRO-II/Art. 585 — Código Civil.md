@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 585 — [Artigo 585 - Direito Civil]
+# CC Art. 585 — Se duas ou mais pessoas forem simultaneamente comodatárias de uma coisa, ficarão solidariamente responsáveis para com o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se duas ou mais pessoas forem simultaneamente comodatárias de uma coisa, ficarão solidariamente responsáveis para com o comodante. Seção II Do Mútuo
 
 ---
 

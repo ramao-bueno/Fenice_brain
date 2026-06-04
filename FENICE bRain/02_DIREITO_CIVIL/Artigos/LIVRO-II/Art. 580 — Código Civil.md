@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 580 — [Artigo 580 - Direito Civil]
+# CC Art. 580 — Os tutores, curadores e em geral todos os administradores de bens alheios não poderão dar em comodato, sem autorização e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os tutores, curadores e em geral todos os administradores de bens alheios não poderão dar em comodato, sem autorização especial, os bens confiados à sua guarda.
 
 ---
 

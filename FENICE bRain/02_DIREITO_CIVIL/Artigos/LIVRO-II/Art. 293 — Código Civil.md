@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 293 — [Artigo 293 - Direito Civil]
+# CC Art. 293 — Independentemente do conhecimento da cessão pelo devedor, pode o cessionário exercer os atos conservatórios do direito c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Independentemente do conhecimento da cessão pelo devedor, pode o cessionário exercer os atos conservatórios do direito cedido.
 
 ---
 

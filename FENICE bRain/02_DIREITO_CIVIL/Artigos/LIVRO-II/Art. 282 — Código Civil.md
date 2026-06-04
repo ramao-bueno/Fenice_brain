@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 282 — [Artigo 282 - Direito Civil]
+# CC Art. 282 — O credor pode renunciar à solidariedade em favor de um, de alguns ou de todos os devedores
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor pode renunciar à solidariedade em favor de um, de alguns ou de todos os devedores. Parágrafo único. Se o credor exonerar da solidariedade um ou mais devedores, subsistirá a dos demais.
 
 ---
 

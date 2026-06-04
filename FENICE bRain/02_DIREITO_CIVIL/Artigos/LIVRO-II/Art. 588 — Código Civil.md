@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 588 — [Artigo 588 - Direito Civil]
+# CC Art. 588 — O mútuo feito a pessoa menor, sem prévia autorização daquele sob cuja guarda estiver, não pode ser reavido nem do mutuár
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mútuo feito a pessoa menor, sem prévia autorização daquele sob cuja guarda estiver, não pode ser reavido nem do mutuário, nem de seus fiadores.
 
 ---
 

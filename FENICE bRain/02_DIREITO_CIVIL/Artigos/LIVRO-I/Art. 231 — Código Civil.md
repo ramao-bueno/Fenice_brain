@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 231 — [Artigo 231 - Direito Civil]
+# CC Art. 231 — Aquele que se nega a submeter-se a exame médico necessário não poderá aproveitar-se de sua recusa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que se nega a submeter-se a exame médico necessário não poderá aproveitar-se de sua recusa.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 466 — [Artigo 466 - Direito Civil]
+# CC Art. 466 — Se a promessa de contrato for unilateral, o credor, sob pena de ficar a mesma sem efeito, deverá manifestar-se no prazo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a promessa de contrato for unilateral, o credor, sob pena de ficar a mesma sem efeito, deverá manifestar-se no prazo nela previsto, ou, inexistindo este, no que lhe for razoavelmente assinado pelo devedor. Seção IX Do Contrato com Pessoa a Declarar
 
 ---
 

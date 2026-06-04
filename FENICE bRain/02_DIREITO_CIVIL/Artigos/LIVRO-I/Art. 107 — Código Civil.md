@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 107 — [Artigo 107 - Direito Civil]
+# CC Art. 107 — A validade da declaração de vontade não dependerá de forma especial, senão quando a lei expressamente a exigir
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A validade da declaração de vontade não dependerá de forma especial, senão quando a lei expressamente a exigir.
 
 ---
 

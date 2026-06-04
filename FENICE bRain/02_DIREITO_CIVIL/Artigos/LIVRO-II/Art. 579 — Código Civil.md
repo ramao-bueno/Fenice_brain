@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 579 — [Artigo 579 - Direito Civil]
+# CC Art. 579 — O comodato é o empréstimo gratuito de coisas não fungíveis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O comodato é o empréstimo gratuito de coisas não fungíveis. Perfaz-se com a tradição do objeto.
 
 ---
 

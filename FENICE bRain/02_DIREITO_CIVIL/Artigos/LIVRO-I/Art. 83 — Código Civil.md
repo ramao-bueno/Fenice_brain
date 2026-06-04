@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 83 — [Artigo 83 - Direito Civil]
+# CC Art. 83 — Consideram-se móveis para os efeitos legais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Consideram-se móveis para os efeitos legais: I - as energias que tenham valor econômico; II - os direitos reais sobre objetos móveis e as ações correspondentes; III - os direitos pessoais de caráter patrimonial e respectivas ações.
 
 ---
 

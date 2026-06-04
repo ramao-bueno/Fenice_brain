@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 592 — [Artigo 592 - Direito Civil]
+# CC Art. 592 — Não se tendo convencionado expressamente, o prazo do mútuo será
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se tendo convencionado expressamente, o prazo do mútuo será: I - até a próxima colheita, se o mútuo for de produtos agrícolas, assim para o consumo, como para semeadura; II - de trinta dias, pelo menos, se for de dinheiro; III - do espaço de tempo que declarar o mutuante, se for de qualquer outra coisa fungível. CAPÍTULO VII Da Prestação de Serviço
 
 ---
 

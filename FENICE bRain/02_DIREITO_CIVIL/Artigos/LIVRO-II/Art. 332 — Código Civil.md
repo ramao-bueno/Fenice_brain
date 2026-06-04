@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 332 — [Artigo 332 - Direito Civil]
+# CC Art. 332 — As obrigações condicionais cumprem-se na data do implemento da condição, cabendo ao credor a prova de que deste teve ciê
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As obrigações condicionais cumprem-se na data do implemento da condição, cabendo ao credor a prova de que deste teve ciência o devedor.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 65 — [Artigo 65 - Direito Civil]
+# CC Art. 65 — Aqueles a quem o instituidor cometer a aplicação do patrimônio, em tendo ciência do encargo, formularão logo, de acordo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aqueles a quem o instituidor cometer a aplicação do patrimônio, em tendo ciência do encargo, formularão logo, de acordo com as suas bases (art. 62), o estatuto da fundação projetada, submetendo-o, em seguida, à aprovação da autoridade competente, com recurso ao juiz. Parágrafo único. Se o estatuto não for elaborado no prazo assinado pelo instituidor, ou, não havendo prazo, em cento e oitenta dias, a incumbência caberá ao Ministério Público.
 
 ---
 

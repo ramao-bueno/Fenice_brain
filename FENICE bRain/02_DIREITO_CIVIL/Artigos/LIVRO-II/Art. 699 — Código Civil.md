@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 699 — [Artigo 699 - Direito Civil]
+# CC Art. 699 — Presume-se o comissário autorizado a conceder dilação do prazo para pagamento, na conformidade dos usos do lugar onde se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Presume-se o comissário autorizado a conceder dilação do prazo para pagamento, na conformidade dos usos do lugar onde se realizar o negócio, se não houver instruções diversas do comitente.
 
 ---
 

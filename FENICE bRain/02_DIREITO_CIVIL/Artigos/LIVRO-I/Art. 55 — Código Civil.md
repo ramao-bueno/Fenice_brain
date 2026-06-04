@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 55 — [Artigo 55 - Direito Civil]
+# CC Art. 55 — Os associados devem ter iguais direitos, mas o estatuto poderá instituir categorias com vantagens especiais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os associados devem ter iguais direitos, mas o estatuto poderá instituir categorias com vantagens especiais.
 
 ---
 

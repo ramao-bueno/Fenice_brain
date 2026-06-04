@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 386 — [Artigo 386 - Direito Civil]
+# CC Art. 386 — A devolução voluntária do título da obrigação, quando por escrito particular, prova desoneração do devedor e seus co-obr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A devolução voluntária do título da obrigação, quando por escrito particular, prova desoneração do devedor e seus co-obrigados, se o credor for capaz de alienar, e o devedor capaz de adquirir.
 
 ---
 

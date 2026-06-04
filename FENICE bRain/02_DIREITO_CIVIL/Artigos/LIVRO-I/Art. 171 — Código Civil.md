@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 171 — [Artigo 171 - Direito Civil]
+# CC Art. 171 — Além dos casos expressamente declarados na lei, é anulável o negócio jurídico
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além dos casos expressamente declarados na lei, é anulável o negócio jurídico: I - por incapacidade relativa do agente; II - por vício resultante de erro, dolo, coação, estado de perigo, lesão ou fraude contra credores.
 
 ---
 

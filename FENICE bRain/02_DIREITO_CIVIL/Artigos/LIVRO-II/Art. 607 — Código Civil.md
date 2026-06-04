@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 607 — [Artigo 607 - Direito Civil]
+# CC Art. 607 — O contrato de prestação de serviço acaba com a morte de qualquer das partes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O contrato de prestação de serviço acaba com a morte de qualquer das partes. Termina, ainda, pelo escoamento do prazo, pela conclusão da obra, pela rescisão do contrato mediante aviso prévio, por inadimplemento de qualquer das partes ou pela impossibilidade da continuação do contrato, motivada por força maior.
 
 ---
 

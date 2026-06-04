@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 648 — [Artigo 648 - Direito Civil]
+# CC Art. 648 — O depósito a que se refere o inciso I do artigo antecedente, reger-se-á pela disposição da respectiva lei, e, no silênci
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depósito a que se refere o inciso I do artigo antecedente, reger-se-á pela disposição da respectiva lei, e, no silêncio ou deficiência dela, pelas concernentes ao depósito voluntário. Parágrafo único. As disposições deste artigo aplicam-se aos depósitos previstos no inciso II do artigo antecedente, podendo estes certificarem-se por qualquer meio de prova.
 
 ---
 

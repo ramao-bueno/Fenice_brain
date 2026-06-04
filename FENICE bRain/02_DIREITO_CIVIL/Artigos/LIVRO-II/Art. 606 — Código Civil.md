@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 606 — [Artigo 606 - Direito Civil]
+# CC Art. 606 — Se o serviço for prestado por quem não possua título de habilitação, ou não satisfaça requisitos outros estabelecidos em
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o serviço for prestado por quem não possua título de habilitação, ou não satisfaça requisitos outros estabelecidos em lei, não poderá quem os prestou cobrar a retribuição normalmente correspondente ao trabalho executado. Mas se deste resultar benefício para a outra parte, o juiz atribuirá a quem o prestou uma compensação razoável, desde que tenha agido com boa-fé. Parágrafo único. Não se aplica a segunda parte deste artigo, quando a proibição da prestação de serviço resultar de lei de ordem pública.
 
 ---
 

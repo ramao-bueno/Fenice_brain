@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 352 — [Artigo 352 - Direito Civil]
+# CC Art. 352 — A pessoa obrigada por dois ou mais débitos da mesma natureza, a um só credor, tem o direito de indicar a qual deles ofer
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A pessoa obrigada por dois ou mais débitos da mesma natureza, a um só credor, tem o direito de indicar a qual deles oferece pagamento, se todos forem líquidos e vencidos.
 
 ---
 

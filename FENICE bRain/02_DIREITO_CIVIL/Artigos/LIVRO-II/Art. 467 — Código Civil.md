@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 467 — [Artigo 467 - Direito Civil]
+# CC Art. 467 — No momento da conclusão do contrato, pode uma das partes reservar-se a faculdade de indicar a pessoa que deve adquirir o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> No momento da conclusão do contrato, pode uma das partes reservar-se a faculdade de indicar a pessoa que deve adquirir os direitos e assumir as obrigações dele decorrentes.
 
 ---
 

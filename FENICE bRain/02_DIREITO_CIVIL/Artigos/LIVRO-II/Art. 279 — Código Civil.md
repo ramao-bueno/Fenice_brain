@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 279 — [Artigo 279 - Direito Civil]
+# CC Art. 279 — Impossibilitando-se a prestação por culpa de um dos devedores solidários, subsiste para todos o encargo de pagar o equiv
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Impossibilitando-se a prestação por culpa de um dos devedores solidários, subsiste para todos o encargo de pagar o equivalente; mas pelas perdas e danos só responde o culpado.
 
 ---
 

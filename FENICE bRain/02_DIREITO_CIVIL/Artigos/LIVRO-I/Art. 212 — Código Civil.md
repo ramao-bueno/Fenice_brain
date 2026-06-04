@@ -9,10 +9,15 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
 created: '2026-06-03'
 ---
 
-# CC Art. 212 — [Artigo 212 - Direito Civil]
+# CC Art. 212 — Salvo o negócio a que se impõe forma especial, o fato jurídico pode ser provado mediante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +25,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo o negócio a que se impõe forma especial, o fato jurídico pode ser provado mediante: I - confissão; II - documento; III - testemunha; IV - presunção; V - perícia.
 
 ---
 

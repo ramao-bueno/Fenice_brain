@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 10 — [Artigo 10 - Direito Civil]
+# CC Art. 10 — Far-se-á averbação em registro público
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Far-se-á averbação em registro público: I - das sentenças que decretarem a nulidade ou anulação do casamento, o divórcio, a separação judicial e o restabelecimento da sociedade conjugal; II - dos atos judiciais ou extrajudiciais que declararem ou reconhecerem a filiação; III - (Revogado pela Lei nº 12.010, de 2009) CAPÍTULO II Dos Direitos da Personalidade
 
 ---
 

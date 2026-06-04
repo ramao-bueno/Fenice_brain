@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 169 — [Artigo 169 - Direito Civil]
+# CC Art. 169 — O negócio jurídico nulo não é suscetível de confirmação, nem convalesce pelo decurso do tempo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O negócio jurídico nulo não é suscetível de confirmação, nem convalesce pelo decurso do tempo.
 
 ---
 

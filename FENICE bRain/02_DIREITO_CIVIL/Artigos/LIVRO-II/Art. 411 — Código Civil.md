@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 411 — [Artigo 411 - Direito Civil]
+# CC Art. 411 — Quando se estipular a cláusula penal para o caso de mora, ou em segurança especial de outra cláusula determinada, terá o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando se estipular a cláusula penal para o caso de mora, ou em segurança especial de outra cláusula determinada, terá o credor o arbítrio de exigir a satisfação da pena cominada, juntamente com o desempenho da obrigação principal.
 
 ---
 

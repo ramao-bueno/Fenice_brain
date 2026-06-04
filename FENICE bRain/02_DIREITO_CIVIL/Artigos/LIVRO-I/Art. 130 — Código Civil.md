@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 130 — [Artigo 130 - Direito Civil]
+# CC Art. 130 — Ao titular do direito eventual, nos casos de condição suspensiva ou resolutiva, é permitido praticar os atos destinados
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao titular do direito eventual, nos casos de condição suspensiva ou resolutiva, é permitido praticar os atos destinados a conservá-lo.
 
 ---
 

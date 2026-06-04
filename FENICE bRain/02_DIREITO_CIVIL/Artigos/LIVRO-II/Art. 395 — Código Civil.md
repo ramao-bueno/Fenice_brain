@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 395 — [Artigo 395 - Direito Civil]
+# CC Art. 395 — Responde o devedor pelos prejuízos a que sua mora der causa, mais juros, atualização dos valores monetários e honorários
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Responde o devedor pelos prejuízos a que sua mora der causa, mais juros, atualização dos valores monetários e honorários de advogado. (Redação dada pela Lei nº 14.905, de 2024) Produção de efeitos Parágrafo único. Se a prestação, devido à mora, se tornar inútil ao credor, este poderá enjeitá-la, e exigir a satisfação das perdas e danos.
 
 ---
 

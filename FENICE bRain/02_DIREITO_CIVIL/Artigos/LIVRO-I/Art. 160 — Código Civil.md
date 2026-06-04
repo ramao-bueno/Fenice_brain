@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 160 — [Artigo 160 - Direito Civil]
+# CC Art. 160 — Se o adquirente dos bens do devedor insolvente ainda não tiver pago o preço e este for, aproximadamente, o corrente, des
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o adquirente dos bens do devedor insolvente ainda não tiver pago o preço e este for, aproximadamente, o corrente, desobrigar-se-á depositando-o em juízo, com a citação de todos os interessados. Parágrafo único. Se inferior, o adquirente, para conservar os bens, poderá depositar o preço que lhes corresponda ao valor real.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 248 — [Artigo 248 - Direito Civil]
+# CC Art. 248 — Se a prestação do fato tornar-se impossível sem culpa do devedor, resolver-se-á a obrigação;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a prestação do fato tornar-se impossível sem culpa do devedor, resolver-se-á a obrigação; se por culpa dele, responderá por perdas e danos.
 
 ---
 

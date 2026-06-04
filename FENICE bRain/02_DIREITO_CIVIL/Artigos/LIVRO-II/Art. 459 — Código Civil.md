@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 459 — [Artigo 459 - Direito Civil]
+# CC Art. 459 — Se for aleatório, por serem objeto dele coisas futuras, tomando o adquirente a si o risco de virem a existir em qualquer
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se for aleatório, por serem objeto dele coisas futuras, tomando o adquirente a si o risco de virem a existir em qualquer quantidade, terá também direito o alienante a todo o preço, desde que de sua parte não tiver concorrido culpa, ainda que a coisa venha a existir em quantidade inferior à esperada. Parágrafo único. Mas, se da coisa nada vier a existir, alienação não haverá, e o alienante restituirá o preço recebido.
 
 ---
 

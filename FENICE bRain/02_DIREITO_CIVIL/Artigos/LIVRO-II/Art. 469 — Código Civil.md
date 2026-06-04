@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 469 — [Artigo 469 - Direito Civil]
+# CC Art. 469 — A pessoa, nomeada de conformidade com os artigos antecedentes, adquire os direitos e assume as obrigações decorrentes do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A pessoa, nomeada de conformidade com os artigos antecedentes, adquire os direitos e assume as obrigações decorrentes do contrato, a partir do momento em que este foi celebrado.
 
 ---
 

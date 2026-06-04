@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 259 — [Artigo 259 - Direito Civil]
+# CC Art. 259 — Se, havendo dois ou mais devedores, a prestação não for divisível, cada um será obrigado pela dívida toda
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, havendo dois ou mais devedores, a prestação não for divisível, cada um será obrigado pela dívida toda. Parágrafo único. O devedor, que paga a dívida, sub-roga-se no direito do credor em relação aos outros coobrigados.
 
 ---
 

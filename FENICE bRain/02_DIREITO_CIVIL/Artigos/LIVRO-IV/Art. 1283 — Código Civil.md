@@ -9,6 +9,7 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
+- inciso-iv
 created: '2026-06-03'
 ---
 

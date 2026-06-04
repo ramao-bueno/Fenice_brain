@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 118 — [Artigo 118 - Direito Civil]
+# CC Art. 118 — O representante é obrigado a provar às pessoas, com quem tratar em nome do representado, a sua qualidade e a extensão de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O representante é obrigado a provar às pessoas, com quem tratar em nome do representado, a sua qualidade e a extensão de seus poderes, sob pena de, não o fazendo, responder pelos atos que a estes excederem.
 
 ---
 

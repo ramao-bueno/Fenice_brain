@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 634 — [Artigo 634 - Direito Civil]
+# CC Art. 634 — No caso do artigo antecedente, última parte, o depositário, expondo o fundamento da suspeita, requererá que se recolha o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso do artigo antecedente, última parte, o depositário, expondo o fundamento da suspeita, requererá que se recolha o objeto ao Depósito Público.
 
 ---
 

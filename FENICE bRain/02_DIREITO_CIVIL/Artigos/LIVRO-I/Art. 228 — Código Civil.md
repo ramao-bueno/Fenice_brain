@@ -9,10 +9,17 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 228 — [Artigo 228 - Direito Civil]
+# CC Art. 228 — Não podem ser admitidos como testemunhas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +27,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não podem ser admitidos como testemunhas: I - os menores de dezesseis anos; II - ( Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - (Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - o interessado no litígio, o amigo íntimo ou o inimigo capital das partes; V - os cônjuges, os ascendentes, os descendentes e os colaterais, até o terceiro grau de alguma das partes, por consangüinidade, ou afinidade. § 1 o Para a prova de fatos que só elas conheçam, pode o juiz admitir o depoimento das pessoas a que se refere este artigo. (Redação dada pela Lei nº 13.146,...
 
 ---
 

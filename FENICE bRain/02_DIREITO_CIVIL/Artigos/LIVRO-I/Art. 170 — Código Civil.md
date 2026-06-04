@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 170 — [Artigo 170 - Direito Civil]
+# CC Art. 170 — Se, porém, o negócio jurídico nulo contiver os requisitos de outro, subsistirá este quando o fim a que visavam as partes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, porém, o negócio jurídico nulo contiver os requisitos de outro, subsistirá este quando o fim a que visavam as partes permitir supor que o teriam querido, se houvessem previsto a nulidade.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 70 — [Artigo 70 - Direito Civil]
+# CC Art. 70 — O domicílio da pessoa natural é o lugar onde ela estabelece a sua residência com ânimo definitivo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O domicílio da pessoa natural é o lugar onde ela estabelece a sua residência com ânimo definitivo.
 
 ---
 

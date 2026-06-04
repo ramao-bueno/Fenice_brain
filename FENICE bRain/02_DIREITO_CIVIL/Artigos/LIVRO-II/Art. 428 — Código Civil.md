@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
+- inciso-iv
 created: '2026-06-03'
 ---
 
-# CC Art. 428 — [Artigo 428 - Direito Civil]
+# CC Art. 428 — Deixa de ser obrigatória a proposta
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Deixa de ser obrigatória a proposta: I - se, feita sem prazo a pessoa presente, não foi imediatamente aceita. Considera-se também presente a pessoa que contrata por telefone ou por meio de comunicação semelhante; II - se, feita sem prazo a pessoa ausente, tiver decorrido tempo suficiente para chegar a resposta ao conhecimento do proponente; III - se, feita a pessoa ausente, não tiver sido expedida a resposta dentro do prazo dado; IV - se, antes dela, ou simultaneamente, chegar ao conhecimento da outra parte a retratação do proponente.
 
 ---
 

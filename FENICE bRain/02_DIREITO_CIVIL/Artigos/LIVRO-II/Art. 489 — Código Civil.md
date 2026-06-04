@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 489 — [Artigo 489 - Direito Civil]
+# CC Art. 489 — Nulo é o contrato de compra e venda, quando se deixa ao arbítrio exclusivo de uma das partes a fixação do preço
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nulo é o contrato de compra e venda, quando se deixa ao arbítrio exclusivo de uma das partes a fixação do preço.
 
 ---
 

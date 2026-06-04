@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 705 — [Artigo 705 - Direito Civil]
+# CC Art. 705 — Se o comissário for despedido sem justa causa, terá direito a ser remunerado pelos trabalhos prestados, bem como a ser r
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o comissário for despedido sem justa causa, terá direito a ser remunerado pelos trabalhos prestados, bem como a ser ressarcido pelas perdas e danos resultantes de sua dispensa.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 523 — [Artigo 523 - Direito Civil]
+# CC Art. 523 — Não pode ser objeto de venda com reserva de domínio a coisa insuscetível de caracterização perfeita, para estremá-la de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não pode ser objeto de venda com reserva de domínio a coisa insuscetível de caracterização perfeita, para estremá-la de outras congêneres. Na dúvida, decide-se a favor do terceiro adquirente de boa-fé.
 
 ---
 

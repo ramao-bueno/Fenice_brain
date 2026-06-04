@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 89 — [Artigo 89 - Direito Civil]
+# CC Art. 89 — São singulares os bens que, embora reunidos, se consideram de per si , independentemente dos demais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São singulares os bens que, embora reunidos, se consideram de per si , independentemente dos demais.
 
 ---
 

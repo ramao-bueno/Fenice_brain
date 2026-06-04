@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 380 — [Artigo 380 - Direito Civil]
+# CC Art. 380 — Não se admite a compensação em prejuízo de direito de terceiro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se admite a compensação em prejuízo de direito de terceiro. O devedor que se torne credor do seu credor, depois de penhorado o crédito deste, não pode opor ao exeqüente a compensação, de que contra o próprio credor disporia. CAPÍTULO VIII Da Confusão
 
 ---
 

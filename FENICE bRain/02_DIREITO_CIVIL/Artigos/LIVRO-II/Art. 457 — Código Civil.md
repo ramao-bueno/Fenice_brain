@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 457 — [Artigo 457 - Direito Civil]
+# CC Art. 457 — Não pode o adquirente demandar pela evicção, se sabia que a coisa era alheia ou litigiosa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não pode o adquirente demandar pela evicção, se sabia que a coisa era alheia ou litigiosa. Seção VII Dos Contratos Aleatórios
 
 ---
 

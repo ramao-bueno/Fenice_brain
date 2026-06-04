@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 624 — [Artigo 624 - Direito Civil]
+# CC Art. 624 — Suspensa a execução da empreitada sem justa causa, responde o empreiteiro por perdas e danos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Suspensa a execução da empreitada sem justa causa, responde o empreiteiro por perdas e danos.
 
 ---
 

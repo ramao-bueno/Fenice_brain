@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 348 — [Artigo 348 - Direito Civil]
+# CC Art. 348 — Na hipótese do inciso I do artigo antecedente, vigorará o disposto quanto à cessão do crédito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na hipótese do inciso I do artigo antecedente, vigorará o disposto quanto à cessão do crédito.
 
 ---
 

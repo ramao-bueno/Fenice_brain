@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 347 — [Artigo 347 - Direito Civil]
+# CC Art. 347 — A sub-rogação é convencional
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sub-rogação é convencional: I - quando o credor recebe o pagamento de terceiro e expressamente lhe transfere todos os seus direitos; II - quando terceira pessoa empresta ao devedor a quantia precisa para solver a dívida, sob a condição expressa de ficar o mutuante sub-rogado nos direitos do credor satisfeito.
 
 ---
 

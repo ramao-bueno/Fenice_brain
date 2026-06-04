@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 145 — [Artigo 145 - Direito Civil]
+# CC Art. 145 — São os negócios jurídicos anuláveis por dolo, quando este for a sua causa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São os negócios jurídicos anuláveis por dolo, quando este for a sua causa.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 338 — [Artigo 338 - Direito Civil]
+# CC Art. 338 — Enquanto o credor não declarar que aceita o depósito, ou não o impugnar, poderá o devedor requerer o levantamento, pagan
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Enquanto o credor não declarar que aceita o depósito, ou não o impugnar, poderá o devedor requerer o levantamento, pagando as respectivas despesas, e subsistindo a obrigação para todas as conseqüências de direito.
 
 ---
 

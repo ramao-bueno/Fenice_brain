@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 562 — [Artigo 562 - Direito Civil]
+# CC Art. 562 — A doação onerosa pode ser revogada por inexecução do encargo, se o donatário incorrer em mora
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A doação onerosa pode ser revogada por inexecução do encargo, se o donatário incorrer em mora. Não havendo prazo para o cumprimento, o doador poderá notificar judicialmente o donatário, assinando-lhe prazo razoável para que cumpra a obrigação assumida.
 
 ---
 

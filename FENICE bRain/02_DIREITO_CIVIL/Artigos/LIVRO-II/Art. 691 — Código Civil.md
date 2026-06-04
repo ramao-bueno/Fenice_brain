@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 691 — [Artigo 691 - Direito Civil]
+# CC Art. 691 — Os herdeiros, no caso do artigo antecedente, devem limitar-se às medidas conservatórias, ou continuar os negócios penden
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os herdeiros, no caso do artigo antecedente, devem limitar-se às medidas conservatórias, ou continuar os negócios pendentes que se não possam demorar sem perigo, regulando-se os seus serviços dentro desse limite, pelas mesmas normas a que os do mandatário estão sujeitos. Seção V Do Mandato Judicial
 
 ---
 

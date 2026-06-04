@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 361 — [Artigo 361 - Direito Civil]
+# CC Art. 361 — Não havendo ânimo de novar, expresso ou tácito mas inequívoco, a segunda obrigação confirma simplesmente a primeira
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não havendo ânimo de novar, expresso ou tácito mas inequívoco, a segunda obrigação confirma simplesmente a primeira.
 
 ---
 

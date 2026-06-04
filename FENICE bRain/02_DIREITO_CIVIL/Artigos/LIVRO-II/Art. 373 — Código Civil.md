@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 373 — [Artigo 373 - Direito Civil]
+# CC Art. 373 — A diferença de causa nas dívidas não impede a compensação, exceto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A diferença de causa nas dívidas não impede a compensação, exceto: I - se provier de esbulho, furto ou roubo; II - se uma se originar de comodato, depósito ou alimentos; III - se uma for de coisa não suscetível de penhora.
 
 ---
 

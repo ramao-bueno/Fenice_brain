@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 306 — [Artigo 306 - Direito Civil]
+# CC Art. 306 — O pagamento feito por terceiro, com desconhecimento ou oposição do devedor, não obriga a reembolsar aquele que pagou, se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pagamento feito por terceiro, com desconhecimento ou oposição do devedor, não obriga a reembolsar aquele que pagou, se o devedor tinha meios para ilidir a ação.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 511 — [Artigo 511 - Direito Civil]
+# CC Art. 511 — Em ambos os casos, as obrigações do comprador, que recebeu, sob condição suspensiva, a coisa comprada, são as de mero co
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Em ambos os casos, as obrigações do comprador, que recebeu, sob condição suspensiva, a coisa comprada, são as de mero comodatário, enquanto não manifeste aceitá-la.
 
 ---
 

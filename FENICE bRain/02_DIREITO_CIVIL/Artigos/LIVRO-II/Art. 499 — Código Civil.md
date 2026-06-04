@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 499 — [Artigo 499 - Direito Civil]
+# CC Art. 499 — É lícita a compra e venda entre cônjuges, com relação a bens excluídos da comunhão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É lícita a compra e venda entre cônjuges, com relação a bens excluídos da comunhão.
 
 ---
 

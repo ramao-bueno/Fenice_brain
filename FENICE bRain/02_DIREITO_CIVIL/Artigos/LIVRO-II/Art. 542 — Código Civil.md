@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 542 — [Artigo 542 - Direito Civil]
+# CC Art. 542 — A doação feita ao nascituro valerá, sendo aceita pelo seu representante legal
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A doação feita ao nascituro valerá, sendo aceita pelo seu representante legal.
 
 ---
 

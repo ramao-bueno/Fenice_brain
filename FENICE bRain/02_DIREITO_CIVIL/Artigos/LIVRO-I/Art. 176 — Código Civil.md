@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 176 — [Artigo 176 - Direito Civil]
+# CC Art. 176 — Quando a anulabilidade do ato resultar da falta de autorização de terceiro, será validado se este a der posteriormente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a anulabilidade do ato resultar da falta de autorização de terceiro, será validado se este a der posteriormente.
 
 ---
 

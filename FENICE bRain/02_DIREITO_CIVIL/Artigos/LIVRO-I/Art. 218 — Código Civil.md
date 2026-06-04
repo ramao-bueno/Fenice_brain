@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 218 — [Artigo 218 - Direito Civil]
+# CC Art. 218 — Os traslados e as certidões considerar-se-ão instrumentos públicos, se os originais se houverem produzido em juízo como
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os traslados e as certidões considerar-se-ão instrumentos públicos, se os originais se houverem produzido em juízo como prova de algum ato.
 
 ---
 

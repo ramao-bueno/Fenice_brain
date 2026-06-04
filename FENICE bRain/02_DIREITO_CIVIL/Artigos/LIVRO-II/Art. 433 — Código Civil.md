@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 433 — [Artigo 433 - Direito Civil]
+# CC Art. 433 — Considera-se inexistente a aceitação, se antes dela ou com ela chegar ao proponente a retratação do aceitante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se inexistente a aceitação, se antes dela ou com ela chegar ao proponente a retratação do aceitante.
 
 ---
 

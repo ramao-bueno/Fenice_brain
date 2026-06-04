@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 464 — [Artigo 464 - Direito Civil]
+# CC Art. 464 — Esgotado o prazo, poderá o juiz, a pedido do interessado, suprir a vontade da parte inadimplente, conferindo caráter def
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Esgotado o prazo, poderá o juiz, a pedido do interessado, suprir a vontade da parte inadimplente, conferindo caráter definitivo ao contrato preliminar, salvo se a isto se opuser a natureza da obrigação.
 
 ---
 

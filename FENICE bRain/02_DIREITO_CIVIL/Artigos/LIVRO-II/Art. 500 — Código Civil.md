@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
 created: '2026-06-03'
 ---
 
-# CC Art. 500 — [Artigo 500 - Direito Civil]
+# CC Art. 500 — Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se determinar a respectiva área, e esta não c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se determinar a respectiva área, e esta não corresponder, em qualquer dos casos, às dimensões dadas, o comprador terá o direito de exigir o complemento da área, e, não sendo isso possível, o de reclamar a resolução do contrato ou abatimento proporcional ao preço. § 1 o Presume-se que a referência às dimensões foi simplesmente enunciativa, quando a diferença encontrada não exceder de um vigésimo da área total enunciada, ressalvado ao comprador o direito de provar que, em tais circunstâncias, não teria realizado o negócio...
 
 ---
 

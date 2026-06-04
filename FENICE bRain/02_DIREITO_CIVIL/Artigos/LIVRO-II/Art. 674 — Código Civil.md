@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 674 — [Artigo 674 - Direito Civil]
+# CC Art. 674 — Embora ciente da morte, interdição ou mudança de estado do mandante, deve o mandatário concluir o negócio já começado, s
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Embora ciente da morte, interdição ou mudança de estado do mandante, deve o mandatário concluir o negócio já começado, se houver perigo na demora. Seção III Das Obrigações do Mandante
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 707 — [Artigo 707 - Direito Civil]
+# CC Art. 707 — O crédito do comissário, relativo a comissões e despesas feitas, goza de privilégio geral, no caso de falência ou insolv
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O crédito do comissário, relativo a comissões e despesas feitas, goza de privilégio geral, no caso de falência ou insolvência do comitente.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 313 — [Artigo 313 - Direito Civil]
+# CC Art. 313 — O credor não é obrigado a receber prestação diversa da que lhe é devida, ainda que mais valiosa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor não é obrigado a receber prestação diversa da que lhe é devida, ainda que mais valiosa.
 
 ---
 

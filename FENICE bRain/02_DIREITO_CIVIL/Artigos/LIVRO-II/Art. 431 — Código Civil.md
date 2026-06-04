@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 431 — [Artigo 431 - Direito Civil]
+# CC Art. 431 — A aceitação fora do prazo, com adições, restrições, ou modificações, importará nova proposta
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A aceitação fora do prazo, com adições, restrições, ou modificações, importará nova proposta.
 
 ---
 

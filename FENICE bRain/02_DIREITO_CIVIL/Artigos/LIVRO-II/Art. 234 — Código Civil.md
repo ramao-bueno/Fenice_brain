@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 234 — [Artigo 234 - Direito Civil]
+# CC Art. 234 — Se, no caso do artigo antecedente, a coisa se perder, sem culpa do devedor, antes da tradição, ou pendente a condição su
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, no caso do artigo antecedente, a coisa se perder, sem culpa do devedor, antes da tradição, ou pendente a condição suspensiva, fica resolvida a obrigação para ambas as partes; se a perda resultar de culpa do devedor, responderá este pelo equivalente e mais perdas e danos.
 
 ---
 

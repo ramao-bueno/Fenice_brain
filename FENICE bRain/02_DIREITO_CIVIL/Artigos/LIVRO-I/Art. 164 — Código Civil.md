@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 164 — [Artigo 164 - Direito Civil]
+# CC Art. 164 — Presumem-se, porém, de boa-fé e valem os negócios ordinários indispensáveis à manutenção de estabelecimento mercantil, r
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Presumem-se, porém, de boa-fé e valem os negócios ordinários indispensáveis à manutenção de estabelecimento mercantil, rural, ou industrial, ou à subsistência do devedor e de sua família.
 
 ---
 

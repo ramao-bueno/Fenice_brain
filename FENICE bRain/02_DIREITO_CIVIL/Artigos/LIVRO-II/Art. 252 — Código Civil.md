@@ -9,10 +9,15 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
+- paragrafo-3
+- paragrafo-4
 created: '2026-06-03'
 ---
 
-# CC Art. 252 — [Artigo 252 - Direito Civil]
+# CC Art. 252 — Nas obrigações alternativas, a escolha cabe ao devedor, se outra coisa não se estipulou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +25,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas obrigações alternativas, a escolha cabe ao devedor, se outra coisa não se estipulou. § 1 o Não pode o devedor obrigar o credor a receber parte em uma prestação e parte em outra. § 2 o Quando a obrigação for de prestações periódicas, a faculdade de opção poderá ser exercida em cada período. § 3 o No caso de pluralidade de optantes, não havendo acordo unânime entre eles, decidirá o juiz, findo o prazo por este assinado para a deliberação. § 4 o Se o título deferir a opção a terceiro, e este não quiser, ou não puder exercê-la, caberá ao juiz a escolha se não houver acordo entre as partes.
 
 ---
 

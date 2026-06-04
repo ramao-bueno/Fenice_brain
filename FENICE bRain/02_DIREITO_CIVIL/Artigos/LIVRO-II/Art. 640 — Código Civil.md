@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 640 — [Artigo 640 - Direito Civil]
+# CC Art. 640 — Sob pena de responder por perdas e danos, não poderá o depositário, sem licença expressa do depositante, servir-se da co
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sob pena de responder por perdas e danos, não poderá o depositário, sem licença expressa do depositante, servir-se da coisa depositada, nem a dar em depósito a outrem. Parágrafo único. Se o depositário, devidamente autorizado, confiar a coisa em depósito a terceiro, será responsável se agiu com culpa na escolha deste.
 
 ---
 

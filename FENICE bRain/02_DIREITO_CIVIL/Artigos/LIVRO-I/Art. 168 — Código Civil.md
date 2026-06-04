@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 168 — [Artigo 168 - Direito Civil]
+# CC Art. 168 — As nulidades dos artigos antecedentes podem ser alegadas por qualquer interessado, ou pelo Ministério Público, quando lh
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As nulidades dos artigos antecedentes podem ser alegadas por qualquer interessado, ou pelo Ministério Público, quando lhe couber intervir. Parágrafo único. As nulidades devem ser pronunciadas pelo juiz, quando conhecer do negócio jurídico ou dos seus efeitos e as encontrar provadas, não lhe sendo permitido supri-las, ainda que a requerimento das partes.
 
 ---
 

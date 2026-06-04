@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 660 — [Artigo 660 - Direito Civil]
+# CC Art. 660 — O mandato pode ser especial a um ou mais negócios determinadamente, ou geral a todos os do mandante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandato pode ser especial a um ou mais negócios determinadamente, ou geral a todos os do mandante.
 
 ---
 

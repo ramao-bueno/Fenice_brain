@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 645 — [Artigo 645 - Direito Civil]
+# CC Art. 645 — O depósito de coisas fungíveis, em que o depositário se obrigue a restituir objetos do mesmo gênero, qualidade e quantid
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depósito de coisas fungíveis, em que o depositário se obrigue a restituir objetos do mesmo gênero, qualidade e quantidade, regular-se-á pelo disposto acerca do mútuo.
 
 ---
 

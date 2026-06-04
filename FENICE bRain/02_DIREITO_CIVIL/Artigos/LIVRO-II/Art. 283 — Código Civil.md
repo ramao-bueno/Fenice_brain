@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 283 — [Artigo 283 - Direito Civil]
+# CC Art. 283 — O devedor que satisfez a dívida por inteiro tem direito a exigir de cada um dos co-devedores a sua quota, dividindo-se i
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O devedor que satisfez a dívida por inteiro tem direito a exigir de cada um dos co-devedores a sua quota, dividindo-se igualmente por todos a do insolvente, se o houver, presumindo-se iguais, no débito, as partes de todos os co-devedores.
 
 ---
 

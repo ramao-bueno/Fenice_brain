@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 450 — [Artigo 450 - Direito Civil]
+# CC Art. 450 — Salvo estipulação em contrário, tem direito o evicto, além da restituição integral do preço ou das quantias que pagou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo estipulação em contrário, tem direito o evicto, além da restituição integral do preço ou das quantias que pagou: I - à indenização dos frutos que tiver sido obrigado a restituir; II - à indenização pelas despesas dos contratos e pelos prejuízos que diretamente resultarem da evicção; III - às custas judiciais e aos honorários do advogado por ele constituído. Parágrafo único. O preço, seja a evicção total ou parcial, será o do valor da coisa, na época em que se evenceu, e proporcional ao desfalque sofrido, no caso de evicção parcial.
 
 ---
 

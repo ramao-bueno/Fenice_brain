@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 530 — [Artigo 530 - Direito Civil]
+# CC Art. 530 — Não havendo estipulação em contrário, o pagamento deve ser efetuado na data e no lugar da entrega dos documentos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não havendo estipulação em contrário, o pagamento deve ser efetuado na data e no lugar da entrega dos documentos.
 
 ---
 

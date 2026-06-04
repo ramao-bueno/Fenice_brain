@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 404 — [Artigo 404 - Direito Civil]
+# CC Art. 404 — As perdas e danos, nas obrigações de pagamento em dinheiro, serão pagas com atualização monetária, juros, custas e honor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As perdas e danos, nas obrigações de pagamento em dinheiro, serão pagas com atualização monetária, juros, custas e honorários de advogado, sem prejuízo da pena convencional. (Redação dada pela Lei nº 14.905, de 2024) Produção de efeitos Parágrafo único. Provado que os juros da mora não cobrem o prejuízo, e não havendo pena convencional, pode o juiz conceder ao credor indenização suplementar.
 
 ---
 

@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 197 — [Artigo 197 - Direito Civil]
+# CC Art. 197 — Não corre a prescrição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não corre a prescrição: I - entre os cônjuges, na constância da sociedade conjugal; II - entre ascendentes e descendentes, durante o poder familiar; III - entre tutelados ou curatelados e seus tutores ou curadores, durante a tutela ou curatela.
 
 ---
 

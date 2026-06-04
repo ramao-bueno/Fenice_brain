@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 346 — [Artigo 346 - Direito Civil]
+# CC Art. 346 — A sub-rogação opera-se, de pleno direito, em favor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sub-rogação opera-se, de pleno direito, em favor: I - do credor que paga a dívida do devedor comum; II - do adquirente do imóvel hipotecado, que paga a credor hipotecário, bem como do terceiro que efetiva o pagamento para não ser privado de direito sobre imóvel; III - do terceiro interessado, que paga a dívida pela qual era ou podia ser obrigado, no todo ou em parte.
 
 ---
 

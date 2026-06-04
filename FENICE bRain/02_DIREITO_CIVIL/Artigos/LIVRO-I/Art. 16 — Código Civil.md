@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 16 — [Artigo 16 - Direito Civil]
+# CC Art. 16 — Toda pessoa tem direito ao nome, nele compreendidos o prenome e o sobrenome
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Toda pessoa tem direito ao nome, nele compreendidos o prenome e o sobrenome.
 
 ---
 

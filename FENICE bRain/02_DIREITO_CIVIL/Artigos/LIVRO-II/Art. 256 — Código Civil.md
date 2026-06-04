@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 256 — [Artigo 256 - Direito Civil]
+# CC Art. 256 — Se todas as prestações se tornarem impossíveis sem culpa do devedor, extinguir-se-á a obrigação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se todas as prestações se tornarem impossíveis sem culpa do devedor, extinguir-se-á a obrigação. CAPÍTULO V Das Obrigações Divisíveis e Indivisíveis
 
 ---
 

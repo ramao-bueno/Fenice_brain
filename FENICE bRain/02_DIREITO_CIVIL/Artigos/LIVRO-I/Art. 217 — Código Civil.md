@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 217 — [Artigo 217 - Direito Civil]
+# CC Art. 217 — Terão a mesma força probante os traslados e as certidões, extraídos por tabelião ou oficial de registro, de instrumentos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Terão a mesma força probante os traslados e as certidões, extraídos por tabelião ou oficial de registro, de instrumentos ou documentos lançados em suas notas.
 
 ---
 

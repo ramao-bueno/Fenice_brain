@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 619 — [Artigo 619 - Direito Civil]
+# CC Art. 619 — Salvo estipulação em contrário, o empreiteiro que se incumbir de executar uma obra, segundo plano aceito por quem a enco
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo estipulação em contrário, o empreiteiro que se incumbir de executar uma obra, segundo plano aceito por quem a encomendou, não terá direito a exigir acréscimo no preço, ainda que sejam introduzidas modificações no projeto, a não ser que estas resultem de instruções escritas do dono da obra. Parágrafo único. Ainda que não tenha havido autorização escrita, o dono da obra é obrigado a pagar ao empreiteiro os aumentos e acréscimos, segundo o que for arbitrado, se, sempre presente à obra, por continuadas visitas, não podia ignorar o que se estava passando, e nunca protestou.
 
 ---
 

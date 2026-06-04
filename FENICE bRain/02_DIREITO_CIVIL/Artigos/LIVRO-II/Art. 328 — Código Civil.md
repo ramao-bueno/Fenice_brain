@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 328 — [Artigo 328 - Direito Civil]
+# CC Art. 328 — Se o pagamento consistir na tradição de um imóvel, ou em prestações relativas a imóvel, far-se-á no lugar onde situado o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o pagamento consistir na tradição de um imóvel, ou em prestações relativas a imóvel, far-se-á no lugar onde situado o bem.
 
 ---
 

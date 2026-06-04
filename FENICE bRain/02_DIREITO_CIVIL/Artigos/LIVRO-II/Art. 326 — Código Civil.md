@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 326 — [Artigo 326 - Direito Civil]
+# CC Art. 326 — Se o pagamento se houver de fazer por medida, ou peso, entender-se-á, no silêncio das partes, que aceitaram os do lugar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o pagamento se houver de fazer por medida, ou peso, entender-se-á, no silêncio das partes, que aceitaram os do lugar da execução. Seção IV Do Lugar do Pagamento
 
 ---
 

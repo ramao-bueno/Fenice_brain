@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 360 — [Artigo 360 - Direito Civil]
+# CC Art. 360 — Dá-se a novação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dá-se a novação: I - quando o devedor contrai com o credor nova dívida para extinguir e substituir a anterior; II - quando novo devedor sucede ao antigo, ficando este quite com o credor; III - quando, em virtude de obrigação nova, outro credor é substituído ao antigo, ficando o devedor quite com este.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 257 — [Artigo 257 - Direito Civil]
+# CC Art. 257 — Havendo mais de um devedor ou mais de um credor em obrigação divisível, esta presume-se dividida em tantas obrigações, i
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo mais de um devedor ou mais de um credor em obrigação divisível, esta presume-se dividida em tantas obrigações, iguais e distintas, quantos os credores ou devedores.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 444 — [Artigo 444 - Direito Civil]
+# CC Art. 444 — A responsabilidade do alienante subsiste ainda que a coisa pereça em poder do alienatário, se perecer por vício oculto,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A responsabilidade do alienante subsiste ainda que a coisa pereça em poder do alienatário, se perecer por vício oculto, já existente ao tempo da tradição.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 503 — [Artigo 503 - Direito Civil]
+# CC Art. 503 — Nas coisas vendidas conjuntamente, o defeito oculto de uma não autoriza a rejeição de todas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas coisas vendidas conjuntamente, o defeito oculto de uma não autoriza a rejeição de todas.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 90 — [Artigo 90 - Direito Civil]
+# CC Art. 90 — Constitui universalidade de fato a pluralidade de bens singulares que, pertinentes à mesma pessoa, tenham destinação uni
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constitui universalidade de fato a pluralidade de bens singulares que, pertinentes à mesma pessoa, tenham destinação unitária. Parágrafo único. Os bens que formam essa universalidade podem ser objeto de relações jurídicas próprias.
 
 ---
 

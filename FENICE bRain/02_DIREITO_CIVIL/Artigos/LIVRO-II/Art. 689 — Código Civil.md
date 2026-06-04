@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 689 — [Artigo 689 - Direito Civil]
+# CC Art. 689 — São válidos, a respeito dos contratantes de boa-fé, os atos com estes ajustados em nome do mandante pelo mandatário, enq
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São válidos, a respeito dos contratantes de boa-fé, os atos com estes ajustados em nome do mandante pelo mandatário, enquanto este ignorar a morte daquele ou a extinção do mandato, por qualquer outra causa.
 
 ---
 

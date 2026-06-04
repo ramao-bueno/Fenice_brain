@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 85 — [Artigo 85 - Direito Civil]
+# CC Art. 85 — São fungíveis os móveis que podem substituir-se por outros da mesma espécie, qualidade e quantidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São fungíveis os móveis que podem substituir-se por outros da mesma espécie, qualidade e quantidade.
 
 ---
 

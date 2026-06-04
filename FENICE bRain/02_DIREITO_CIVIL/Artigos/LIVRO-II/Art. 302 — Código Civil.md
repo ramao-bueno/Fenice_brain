@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 302 — [Artigo 302 - Direito Civil]
+# CC Art. 302 — O novo devedor não pode opor ao credor as exceções pessoais que competiam ao devedor primitivo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O novo devedor não pode opor ao credor as exceções pessoais que competiam ao devedor primitivo.
 
 ---
 

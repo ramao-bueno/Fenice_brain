@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 19 — [Artigo 19 - Direito Civil]
+# CC Art. 19 — O pseudônimo adotado para atividades lícitas goza da proteção que se dá ao nome
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pseudônimo adotado para atividades lícitas goza da proteção que se dá ao nome.
 
 ---
 

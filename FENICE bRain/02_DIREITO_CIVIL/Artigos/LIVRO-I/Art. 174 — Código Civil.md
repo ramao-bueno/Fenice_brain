@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 174 — [Artigo 174 - Direito Civil]
+# CC Art. 174 — É escusada a confirmação expressa, quando o negócio já foi cumprido em parte pelo devedor, ciente do vício que o inquina
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É escusada a confirmação expressa, quando o negócio já foi cumprido em parte pelo devedor, ciente do vício que o inquinava.
 
 ---
 

@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 178 — [Artigo 178 - Direito Civil]
+# CC Art. 178 — É de quatro anos o prazo de decadência para pleitear-se a anulação do negócio jurídico, contado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É de quatro anos o prazo de decadência para pleitear-se a anulação do negócio jurídico, contado: I - no caso de coação, do dia em que ela cessar; II - no de erro, dolo, fraude contra credores, estado de perigo ou lesão, do dia em que se realizou o negócio jurídico; III - no de atos de incapazes, do dia em que cessar a incapacidade.
 
 ---
 

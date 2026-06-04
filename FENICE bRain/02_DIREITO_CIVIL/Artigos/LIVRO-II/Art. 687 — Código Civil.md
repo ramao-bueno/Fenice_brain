@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 687 — [Artigo 687 - Direito Civil]
+# CC Art. 687 — Tanto que for comunicada ao mandatário a nomeação de outro, para o mesmo negócio, considerar-se-á revogado o mandato ant
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Tanto que for comunicada ao mandatário a nomeação de outro, para o mesmo negócio, considerar-se-á revogado o mandato anterior.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 53 — [Artigo 53 - Direito Civil]
+# CC Art. 53 — Constituem-se as associações pela união de pessoas que se organizem para fins não econômicos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constituem-se as associações pela união de pessoas que se organizem para fins não econômicos. Parágrafo único. Não há, entre os associados, direitos e obrigações recíprocos.
 
 ---
 

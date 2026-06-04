@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 635 — [Artigo 635 - Direito Civil]
+# CC Art. 635 — Ao depositário será facultado, outrossim, requerer depósito judicial da coisa, quando, por motivo plausível, não a possa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao depositário será facultado, outrossim, requerer depósito judicial da coisa, quando, por motivo plausível, não a possa guardar, e o depositante não queira recebê-la.
 
 ---
 

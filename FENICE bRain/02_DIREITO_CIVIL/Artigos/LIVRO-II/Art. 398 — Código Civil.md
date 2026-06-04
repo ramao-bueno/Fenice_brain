@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- alinea-a
 created: '2026-06-03'
 ---
 
-# CC Art. 398 — [Artigo 398 - Direito Civil]
+# CC Art. 398 — Nas obrigações provenientes de ato ilícito, considera-se o devedor em mora, desde que o praticou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas obrigações provenientes de ato ilícito, considera-se o devedor em mora, desde que o praticou. (Vide Lei nº 13.105, de 2015) (Vigência)
 
 ---
 

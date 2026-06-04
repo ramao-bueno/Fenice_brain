@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 221 — [Artigo 221 - Direito Civil]
+# CC Art. 221 — O instrumento particular, feito e assinado, ou somente assinado por quem esteja na livre disposição e administração de s
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O instrumento particular, feito e assinado, ou somente assinado por quem esteja na livre disposição e administração de seus bens, prova as obrigações convencionais de qualquer valor; mas os seus efeitos, bem como os da cessão, não se operam, a respeito de terceiros, antes de registrado no registro público. Parágrafo único. A prova do instrumento particular pode suprir-se pelas outras de caráter legal.
 
 ---
 

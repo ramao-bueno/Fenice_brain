@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 148 — [Artigo 148 - Direito Civil]
+# CC Art. 148 — Pode também ser anulado o negócio jurídico por dolo de terceiro, se a parte a quem aproveite dele tivesse ou devesse ter
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode também ser anulado o negócio jurídico por dolo de terceiro, se a parte a quem aproveite dele tivesse ou devesse ter conhecimento; em caso contrário, ainda que subsista o negócio jurídico, o terceiro responderá por todas as perdas e danos da parte a quem ludibriou.
 
 ---
 

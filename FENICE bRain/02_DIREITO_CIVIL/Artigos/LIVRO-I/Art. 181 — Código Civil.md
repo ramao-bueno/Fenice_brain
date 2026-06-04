@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 181 — [Artigo 181 - Direito Civil]
+# CC Art. 181 — Ninguém pode reclamar o que, por uma obrigação anulada, pagou a um incapaz, se não provar que reverteu em proveito dele
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ninguém pode reclamar o que, por uma obrigação anulada, pagou a um incapaz, se não provar que reverteu em proveito dele a importância paga.
 
 ---
 

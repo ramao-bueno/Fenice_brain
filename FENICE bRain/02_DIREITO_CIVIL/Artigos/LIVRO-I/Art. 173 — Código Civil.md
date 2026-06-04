@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 173 — [Artigo 173 - Direito Civil]
+# CC Art. 173 — O ato de confirmação deve conter a substância do negócio celebrado e a vontade expressa de mantê-lo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O ato de confirmação deve conter a substância do negócio celebrado e a vontade expressa de mantê-lo.
 
 ---
 

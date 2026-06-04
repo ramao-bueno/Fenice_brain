@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 263 — [Artigo 263 - Direito Civil]
+# CC Art. 263 — Perde a qualidade de indivisível a obrigação que se resolver em perdas e danos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Perde a qualidade de indivisível a obrigação que se resolver em perdas e danos. § 1 o Se, para efeito do disposto neste artigo, houver culpa de todos os devedores, responderão todos por partes iguais. § 2 o Se for de um só a culpa, ficarão exonerados os outros, respondendo só esse pelas perdas e danos. CAPÍTULO VI Das Obrigações Solidárias Seção I Disposições Gerais
 
 ---
 

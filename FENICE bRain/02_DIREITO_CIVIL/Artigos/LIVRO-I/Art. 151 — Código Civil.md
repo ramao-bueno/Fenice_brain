@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 151 — [Artigo 151 - Direito Civil]
+# CC Art. 151 — A coação, para viciar a declaração da vontade, há de ser tal que incuta ao paciente fundado temor de dano iminente e con
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A coação, para viciar a declaração da vontade, há de ser tal que incuta ao paciente fundado temor de dano iminente e considerável à sua pessoa, à sua família, ou aos seus bens. Parágrafo único. Se disser respeito a pessoa não pertencente à família do paciente, o juiz, com base nas circunstâncias, decidirá se houve coação.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 549 — [Artigo 549 - Direito Civil]
+# CC Art. 549 — Nula é também a doação quanto à parte que exceder à de que o doador, no momento da liberalidade, poderia dispor em testa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nula é também a doação quanto à parte que exceder à de que o doador, no momento da liberalidade, poderia dispor em testamento.
 
 ---
 

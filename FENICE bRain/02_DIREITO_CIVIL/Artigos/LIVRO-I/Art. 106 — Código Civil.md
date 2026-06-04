@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 106 — [Artigo 106 - Direito Civil]
+# CC Art. 106 — A impossibilidade inicial do objeto não invalida o negócio jurídico se for relativa, ou se cessar antes de realizada a c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A impossibilidade inicial do objeto não invalida o negócio jurídico se for relativa, ou se cessar antes de realizada a condição a que ele estiver subordinado.
 
 ---
 

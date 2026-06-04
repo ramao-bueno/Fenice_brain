@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 430 — [Artigo 430 - Direito Civil]
+# CC Art. 430 — Se a aceitação, por circunstância imprevista, chegar tarde ao conhecimento do proponente, este comunicá-lo-á imediatamen
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a aceitação, por circunstância imprevista, chegar tarde ao conhecimento do proponente, este comunicá-lo-á imediatamente ao aceitante, sob pena de responder por perdas e danos.
 
 ---
 

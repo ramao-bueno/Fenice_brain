@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 340 — [Artigo 340 - Direito Civil]
+# CC Art. 340 — O credor que, depois de contestar a lide ou aceitar o depósito, aquiescer no levantamento, perderá a preferência e a gar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor que, depois de contestar a lide ou aceitar o depósito, aquiescer no levantamento, perderá a preferência e a garantia que lhe competiam com respeito à coisa consignada, ficando para logo desobrigados os co-devedores e fiadores que não tenham anuído.
 
 ---
 

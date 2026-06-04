@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 610 — [Artigo 610 - Direito Civil]
+# CC Art. 610 — O empreiteiro de uma obra pode contribuir para ela só com seu trabalho ou com ele e os materiais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O empreiteiro de uma obra pode contribuir para ela só com seu trabalho ou com ele e os materiais. § 1 o A obrigação de fornecer os materiais não se presume; resulta da lei ou da vontade das partes. § 2 o O contrato para elaboração de um projeto não implica a obrigação de executá-lo, ou de fiscalizar-lhe a execução.
 
 ---
 

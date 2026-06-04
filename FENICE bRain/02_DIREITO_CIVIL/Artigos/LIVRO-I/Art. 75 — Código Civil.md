@@ -9,10 +9,16 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
+- inciso-ii
+- inciso-iii
+- inciso-iv
 created: '2026-06-03'
 ---
 
-# CC Art. 75 — [Artigo 75 - Direito Civil]
+# CC Art. 75 — Quanto às pessoas jurídicas, o domicílio é
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +26,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quanto às pessoas jurídicas, o domicílio é: I - da União, o Distrito Federal; II - dos Estados e Territórios, as respectivas capitais; III - do Município, o lugar onde funcione a administração municipal; IV - das demais pessoas jurídicas, o lugar onde funcionarem as respectivas diretorias e administrações, ou onde elegerem domicílio especial no seu estatuto ou atos constitutivos. § 1 o Tendo a pessoa jurídica diversos estabelecimentos em lugares diferentes, cada um deles será considerado domicílio para os atos nele praticados. § 2 o Se a administração, ou diretoria, tiver a sede no estrangeiro...
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 24 — [Artigo 24 - Direito Civil]
+# CC Art. 24 — O juiz, que nomear o curador, fixar-lhe-á os poderes e obrigações, conforme as circunstâncias, observando, no que for ap
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O juiz, que nomear o curador, fixar-lhe-á os poderes e obrigações, conforme as circunstâncias, observando, no que for aplicável, o disposto a respeito dos tutores e curadores.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 616 — [Artigo 616 - Direito Civil]
+# CC Art. 616 — No caso da segunda parte do artigo antecedente, pode quem encomendou a obra, em vez de enjeitá-la, recebê-la com abatime
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso da segunda parte do artigo antecedente, pode quem encomendou a obra, em vez de enjeitá-la, recebê-la com abatimento no preço.
 
 ---
 

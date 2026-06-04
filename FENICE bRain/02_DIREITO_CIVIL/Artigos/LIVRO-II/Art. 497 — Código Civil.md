@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
+- inciso-iv
 created: '2026-06-03'
 ---
 
-# CC Art. 497 — [Artigo 497 - Direito Civil]
+# CC Art. 497 — Sob pena de nulidade, não podem ser comprados, ainda que em hasta pública
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sob pena de nulidade, não podem ser comprados, ainda que em hasta pública: I - pelos tutores, curadores, testamenteiros e administradores, os bens confiados à sua guarda ou administração; II - pelos servidores públicos, em geral, os bens ou direitos da pessoa jurídica a que servirem, ou que estejam sob sua administração direta ou indireta; III - pelos juízes, secretários de tribunais, arbitradores, peritos e outros serventuários ou auxiliares da justiça, os bens ou direitos sobre que se litigar em tribunal, juízo ou conselho, no lugar onde servirem, ou a que se estender a sua autoridade; IV -...
 
 ---
 

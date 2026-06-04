@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 436 — [Artigo 436 - Direito Civil]
+# CC Art. 436 — O que estipula em favor de terceiro pode exigir o cumprimento da obrigação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O que estipula em favor de terceiro pode exigir o cumprimento da obrigação. Parágrafo único. Ao terceiro, em favor de quem se estipulou a obrigação, também é permitido exigi-la, ficando, todavia, sujeito às condições e normas do contrato, se a ele anuir, e o estipulante não o inovar nos termos do art. 438.
 
 ---
 

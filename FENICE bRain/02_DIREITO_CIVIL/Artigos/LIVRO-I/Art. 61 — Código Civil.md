@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 61 — [Artigo 61 - Direito Civil]
+# CC Art. 61 — Dissolvida a associação, o remanescente do seu patrimônio líquido, depois de deduzidas, se for o caso, as quotas ou fraç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dissolvida a associação, o remanescente do seu patrimônio líquido, depois de deduzidas, se for o caso, as quotas ou frações ideais referidas no parágrafo único do art. 56, será destinado à entidade de fins não econômicos designada no estatuto, ou, omisso este, por deliberação dos associados, à instituição municipal, estadual ou federal, de fins idênticos ou semelhantes. § 1 o Por cláusula do estatuto ou, no seu silêncio, por deliberação dos associados, podem estes, antes da destinação do remanescente referida neste artigo, receber em restituição, atualizado o respectivo valor, as contribuições...
 
 ---
 

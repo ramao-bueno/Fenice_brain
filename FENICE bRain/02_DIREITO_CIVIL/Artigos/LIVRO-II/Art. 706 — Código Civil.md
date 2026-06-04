@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 706 — [Artigo 706 - Direito Civil]
+# CC Art. 706 — O comitente e o comissário são obrigados a pagar juros um ao outro;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O comitente e o comissário são obrigados a pagar juros um ao outro; o primeiro pelo que o comissário houver adiantado para cumprimento de suas ordens; e o segundo pela mora na entrega dos fundos que pertencerem ao comitente.
 
 ---
 

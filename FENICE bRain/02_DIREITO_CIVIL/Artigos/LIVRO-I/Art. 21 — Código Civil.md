@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 21 — [Artigo 21 - Direito Civil]
+# CC Art. 21 — A vida privada da pessoa natural é inviolável, e o juiz, a requerimento do interessado, adotará as providências necessár
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A vida privada da pessoa natural é inviolável, e o juiz, a requerimento do interessado, adotará as providências necessárias para impedir ou fazer cessar ato contrário a esta norma. (Vide ADIN 4815) CAPÍTULO III Da Ausência Seção I Da Curadoria dos Bens do Ausente
 
 ---
 

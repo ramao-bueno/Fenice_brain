@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 520 — [Artigo 520 - Direito Civil]
+# CC Art. 520 — O direito de preferência não se pode ceder nem passa aos herdeiros
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito de preferência não se pode ceder nem passa aos herdeiros. Subseção IV Da Venda com Reserva de Domínio
 
 ---
 

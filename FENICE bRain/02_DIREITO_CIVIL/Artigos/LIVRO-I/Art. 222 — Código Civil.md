@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 222 — [Artigo 222 - Direito Civil]
+# CC Art. 222 — O telegrama, quando lhe for contestada a autenticidade, faz prova mediante conferência com o original assinado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O telegrama, quando lhe for contestada a autenticidade, faz prova mediante conferência com o original assinado.
 
 ---
 

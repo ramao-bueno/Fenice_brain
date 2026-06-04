@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 463 — [Artigo 463 - Direito Civil]
+# CC Art. 463 — Concluído o contrato preliminar, com observância do disposto no artigo antecedente, e desde que dele não conste cláusula
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Concluído o contrato preliminar, com observância do disposto no artigo antecedente, e desde que dele não conste cláusula de arrependimento, qualquer das partes terá o direito de exigir a celebração do definitivo, assinando prazo à outra para que o efetive. Parágrafo único. O contrato preliminar deverá ser levado ao registro competente.
 
 ---
 

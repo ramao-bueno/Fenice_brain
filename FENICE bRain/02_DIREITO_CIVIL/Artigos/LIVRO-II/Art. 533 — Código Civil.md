@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 533 — [Artigo 533 - Direito Civil]
+# CC Art. 533 — Aplicam-se à troca as disposições referentes à compra e venda, com as seguintes modificações
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aplicam-se à troca as disposições referentes à compra e venda, com as seguintes modificações: I - salvo disposição em contrário, cada um dos contratantes pagará por metade as despesas com o instrumento da troca; II - é anulável a troca de valores desiguais entre ascendentes e descendentes, sem consentimento dos outros descendentes e do cônjuge do alienante. CAPÍTULO III Do Contrato Estimatório
 
 ---
 

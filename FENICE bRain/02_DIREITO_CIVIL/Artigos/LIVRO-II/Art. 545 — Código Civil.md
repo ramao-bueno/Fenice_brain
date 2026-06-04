@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 545 — [Artigo 545 - Direito Civil]
+# CC Art. 545 — A doação em forma de subvenção periódica ao beneficiado extingue-se morrendo o doador, salvo se este outra coisa dispuse
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A doação em forma de subvenção periódica ao beneficiado extingue-se morrendo o doador, salvo se este outra coisa dispuser, mas não poderá ultrapassar a vida do donatário.
 
 ---
 

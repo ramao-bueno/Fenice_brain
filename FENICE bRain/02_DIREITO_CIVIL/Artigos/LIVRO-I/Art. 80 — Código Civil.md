@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 80 — [Artigo 80 - Direito Civil]
+# CC Art. 80 — Consideram-se imóveis para os efeitos legais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Consideram-se imóveis para os efeitos legais: I - os direitos reais sobre imóveis e as ações que os asseguram; II - o direito à sucessão aberta.
 
 ---
 

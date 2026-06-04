@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 244 — [Artigo 244 - Direito Civil]
+# CC Art. 244 — Nas coisas determinadas pelo gênero e pela quantidade, a escolha pertence ao devedor, se o contrário não resultar do tít
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas coisas determinadas pelo gênero e pela quantidade, a escolha pertence ao devedor, se o contrário não resultar do título da obrigação; mas não poderá dar a coisa pior, nem será obrigado a prestar a melhor.
 
 ---
 

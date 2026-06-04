@@ -9,10 +9,16 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
 created: '2026-06-03'
 ---
 
-# CC Art. 5 — [Artigo 5 - Direito Civil]
+# CC Art. 5 — A menoridade cessa aos dezoito anos completos, quando a pessoa fica habilitada à prática de todos os atos da vida civil
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +26,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A menoridade cessa aos dezoito anos completos, quando a pessoa fica habilitada à prática de todos os atos da vida civil. Parágrafo único. Cessará, para os menores, a incapacidade: I - pela concessão dos pais, ou de um deles na falta do outro, mediante instrumento público, independentemente de homologação judicial, ou por sentença do juiz, ouvido o tutor, se o menor tiver dezesseis anos completos; II - pelo casamento; III - pelo exercício de emprego público efetivo; IV - pela colação de grau em curso de ensino superior; V - pelo estabelecimento civil ou comercial, ou pela existência de relação...
 
 ---
 

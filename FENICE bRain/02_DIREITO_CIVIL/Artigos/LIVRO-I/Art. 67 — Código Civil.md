@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 67 — [Artigo 67 - Direito Civil]
+# CC Art. 67 — Para que se possa alterar o estatuto da fundação é mister que a reforma
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para que se possa alterar o estatuto da fundação é mister que a reforma: I - seja deliberada por dois terços dos competentes para gerir e representar a fundação; II - não contrarie ou desvirtue o fim desta; III – seja aprovada pelo órgão do Ministério Público no prazo máximo de 45 (quarenta e cinco) dias, findo o qual ou no caso de o Ministério Público a denegar, poderá o juiz supri-la, a requerimento do interessado. (Redação dada pela Lei nº 13.151, de 2015)
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 578 — [Artigo 578 - Direito Civil]
+# CC Art. 578 — Salvo disposição em contrário, o locatário goza do direito de retenção, no caso de benfeitorias necessárias, ou no de be
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, o locatário goza do direito de retenção, no caso de benfeitorias necessárias, ou no de benfeitorias úteis, se estas houverem sido feitas com expresso consentimento do locador. CAPÍTULO VI Do Empréstimo Seção I Do Comodato
 
 ---
 

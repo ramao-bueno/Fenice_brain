@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 669 — [Artigo 669 - Direito Civil]
+# CC Art. 669 — O mandatário não pode compensar os prejuízos a que deu causa com os proveitos que, por outro lado, tenha granjeado ao se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandatário não pode compensar os prejuízos a que deu causa com os proveitos que, por outro lado, tenha granjeado ao seu constituinte.
 
 ---
 

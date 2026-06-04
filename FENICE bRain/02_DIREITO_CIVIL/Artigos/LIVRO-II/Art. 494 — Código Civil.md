@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 494 — [Artigo 494 - Direito Civil]
+# CC Art. 494 — Se a coisa for expedida para lugar diverso, por ordem do comprador, por sua conta correrão os riscos, uma vez entregue a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a coisa for expedida para lugar diverso, por ordem do comprador, por sua conta correrão os riscos, uma vez entregue a quem haja de transportá-la, salvo se das instruções dele se afastar o vendedor.
 
 ---
 

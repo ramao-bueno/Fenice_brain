@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 72 — [Artigo 72 - Direito Civil]
+# CC Art. 72 — É também domicílio da pessoa natural, quanto às relações concernentes à profissão, o lugar onde esta é exercida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É também domicílio da pessoa natural, quanto às relações concernentes à profissão, o lugar onde esta é exercida. Parágrafo único. Se a pessoa exercitar profissão em lugares diversos, cada um deles constituirá domicílio para as relações que lhe corresponderem.
 
 ---
 

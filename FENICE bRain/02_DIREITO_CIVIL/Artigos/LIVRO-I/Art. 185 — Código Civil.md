@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 185 — [Artigo 185 - Direito Civil]
+# CC Art. 185 — Aos atos jurídicos lícitos, que não sejam negócios jurídicos, aplicam-se, no que couber, as disposições do Título anteri
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aos atos jurídicos lícitos, que não sejam negócios jurídicos, aplicam-se, no que couber, as disposições do Título anterior. TÍTULO III Dos Atos Ilícitos
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 315 — [Artigo 315 - Direito Civil]
+# CC Art. 315 — As dívidas em dinheiro deverão ser pagas no vencimento, em moeda corrente e pelo valor nominal, salvo o disposto nos art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> As dívidas em dinheiro deverão ser pagas no vencimento, em moeda corrente e pelo valor nominal, salvo o disposto nos artigos subseqüentes.
 
 ---
 

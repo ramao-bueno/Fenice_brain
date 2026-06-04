@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 482 — [Artigo 482 - Direito Civil]
+# CC Art. 482 — A compra e venda, quando pura, considerar-se-á obrigatória e perfeita, desde que as partes acordarem no objeto e no preç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A compra e venda, quando pura, considerar-se-á obrigatória e perfeita, desde que as partes acordarem no objeto e no preço.
 
 ---
 

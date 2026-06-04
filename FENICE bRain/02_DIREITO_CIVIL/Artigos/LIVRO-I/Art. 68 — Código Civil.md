@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 68 — [Artigo 68 - Direito Civil]
+# CC Art. 68 — Quando a alteração não houver sido aprovada por votação unânime, os administradores da fundação, ao submeterem o estatut
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a alteração não houver sido aprovada por votação unânime, os administradores da fundação, ao submeterem o estatuto ao órgão do Ministério Público, requererão que se dê ciência à minoria vencida para impugná-la, se quiser, em dez dias.
 
 ---
 

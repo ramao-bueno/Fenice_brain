@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 461 — [Artigo 461 - Direito Civil]
+# CC Art. 461 — A alienação aleatória a que se refere o artigo antecedente poderá ser anulada como dolosa pelo prejudicado, se provar qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A alienação aleatória a que se refere o artigo antecedente poderá ser anulada como dolosa pelo prejudicado, se provar que o outro contratante não ignorava a consumação do risco, a que no contrato se considerava exposta a coisa. Seção VIII Do Contrato Preliminar
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 663 — [Artigo 663 - Direito Civil]
+# CC Art. 663 — Sempre que o mandatário estipular negócios expressamente em nome do mandante, será este o único responsável;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sempre que o mandatário estipular negócios expressamente em nome do mandante, será este o único responsável; ficará, porém, o mandatário pessoalmente obrigado, se agir no seu próprio nome, ainda que o negócio seja de conta do mandante.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 438 — [Artigo 438 - Direito Civil]
+# CC Art. 438 — O estipulante pode reservar-se o direito de substituir o terceiro designado no contrato, independentemente da sua anuênc
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O estipulante pode reservar-se o direito de substituir o terceiro designado no contrato, independentemente da sua anuência e da do outro contratante. Parágrafo único. A substituição pode ser feita por ato entre vivos ou por disposição de última vontade. Seção IV Da Promessa de Fato de Terceiro
 
 ---
 

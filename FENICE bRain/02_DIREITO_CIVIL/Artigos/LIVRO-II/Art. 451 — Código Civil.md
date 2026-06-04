@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 451 — [Artigo 451 - Direito Civil]
+# CC Art. 451 — Subsiste para o alienante esta obrigação, ainda que a coisa alienada esteja deteriorada, exceto havendo dolo do adquiren
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Subsiste para o alienante esta obrigação, ainda que a coisa alienada esteja deteriorada, exceto havendo dolo do adquirente.
 
 ---
 

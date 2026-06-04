@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 664 — [Artigo 664 - Direito Civil]
+# CC Art. 664 — O mandatário tem o direito de reter, do objeto da operação que lhe foi cometida, quanto baste para pagamento de tudo que
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O mandatário tem o direito de reter, do objeto da operação que lhe foi cometida, quanto baste para pagamento de tudo que lhe for devido em conseqüência do mandato.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 630 — [Artigo 630 - Direito Civil]
+# CC Art. 630 — Se o depósito se entregou fechado, colado, selado, ou lacrado, nesse mesmo estado se manterá
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o depósito se entregou fechado, colado, selado, ou lacrado, nesse mesmo estado se manterá.
 
 ---
 

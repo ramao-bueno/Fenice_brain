@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 22 — [Artigo 22 - Direito Civil]
+# CC Art. 22 — Desaparecendo uma pessoa do seu domicílio sem dela haver notícia, se não houver deixado representante ou procurador a qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Desaparecendo uma pessoa do seu domicílio sem dela haver notícia, se não houver deixado representante ou procurador a quem caiba administrar-lhe os bens, o juiz, a requerimento de qualquer interessado ou do Ministério Público, declarará a ausência, e nomear-lhe-á curador.
 
 ---
 

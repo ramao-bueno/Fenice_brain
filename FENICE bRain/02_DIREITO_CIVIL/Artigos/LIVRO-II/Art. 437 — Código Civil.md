@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 437 — [Artigo 437 - Direito Civil]
+# CC Art. 437 — Se ao terceiro, em favor de quem se fez o contrato, se deixar o direito de reclamar-lhe a execução, não poderá o estipul
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se ao terceiro, em favor de quem se fez o contrato, se deixar o direito de reclamar-lhe a execução, não poderá o estipulante exonerar o devedor.
 
 ---
 

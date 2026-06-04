@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 496 — [Artigo 496 - Direito Civil]
+# CC Art. 496 — É anulável a venda de ascendente a descendente, salvo se os outros descendentes e o cônjuge do alienante expressamente h
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É anulável a venda de ascendente a descendente, salvo se os outros descendentes e o cônjuge do alienante expressamente houverem consentido. Parágrafo único. Em ambos os casos, dispensa-se o consentimento do cônjuge se o regime de bens for o da separação obrigatória.
 
 ---
 

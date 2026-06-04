@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 636 — [Artigo 636 - Direito Civil]
+# CC Art. 636 — O depositário, que por força maior houver perdido a coisa depositada e recebido outra em seu lugar, é obrigado a entrega
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O depositário, que por força maior houver perdido a coisa depositada e recebido outra em seu lugar, é obrigado a entregar a segunda ao depositante, e ceder-lhe as ações que no caso tiver contra o terceiro responsável pela restituição da primeira.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 493 — [Artigo 493 - Direito Civil]
+# CC Art. 493 — A tradição da coisa vendida, na falta de estipulação expressa, dar-se-á no lugar onde ela se encontrava, ao tempo da ven
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A tradição da coisa vendida, na falta de estipulação expressa, dar-se-á no lugar onde ela se encontrava, ao tempo da venda.
 
 ---
 

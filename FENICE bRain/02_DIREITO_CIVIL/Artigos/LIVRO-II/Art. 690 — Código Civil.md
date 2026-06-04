@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 690 — [Artigo 690 - Direito Civil]
+# CC Art. 690 — Se falecer o mandatário, pendente o negócio a ele cometido, os herdeiros, tendo ciência do mandato, avisarão o mandante,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se falecer o mandatário, pendente o negócio a ele cometido, os herdeiros, tendo ciência do mandato, avisarão o mandante, e providenciarão a bem dele, como as circunstâncias exigirem.
 
 ---
 

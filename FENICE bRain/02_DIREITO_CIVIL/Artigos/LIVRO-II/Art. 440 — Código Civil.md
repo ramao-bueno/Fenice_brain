@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 440 — [Artigo 440 - Direito Civil]
+# CC Art. 440 — Nenhuma obrigação haverá para quem se comprometer por outrem, se este, depois de se ter obrigado, faltar à prestação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nenhuma obrigação haverá para quem se comprometer por outrem, se este, depois de se ter obrigado, faltar à prestação. Seção V Dos Vícios Redibitórios
 
 ---
 

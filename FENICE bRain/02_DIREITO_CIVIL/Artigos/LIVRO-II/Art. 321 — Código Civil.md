@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 321 — [Artigo 321 - Direito Civil]
+# CC Art. 321 — Nos débitos, cuja quitação consista na devolução do título, perdido este, poderá o devedor exigir, retendo o pagamento,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos débitos, cuja quitação consista na devolução do título, perdido este, poderá o devedor exigir, retendo o pagamento, declaração do credor que inutilize o título desaparecido.
 
 ---
 

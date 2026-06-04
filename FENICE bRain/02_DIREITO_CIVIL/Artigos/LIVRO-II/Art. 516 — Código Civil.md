@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 516 — [Artigo 516 - Direito Civil]
+# CC Art. 516 — Inexistindo prazo estipulado, o direito de preempção caducará, se a coisa for móvel, não se exercendo nos três dias, e,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Inexistindo prazo estipulado, o direito de preempção caducará, se a coisa for móvel, não se exercendo nos três dias, e, se for imóvel, não se exercendo nos sessenta dias subseqüentes à data em que o comprador tiver notificado o vendedor.
 
 ---
 

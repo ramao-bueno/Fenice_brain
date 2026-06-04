@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 547 — [Artigo 547 - Direito Civil]
+# CC Art. 547 — O doador pode estipular que os bens doados voltem ao seu patrimônio, se sobreviver ao donatário
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O doador pode estipular que os bens doados voltem ao seu patrimônio, se sobreviver ao donatário. Parágrafo único. Não prevalece cláusula de reversão em favor de terceiro.
 
 ---
 

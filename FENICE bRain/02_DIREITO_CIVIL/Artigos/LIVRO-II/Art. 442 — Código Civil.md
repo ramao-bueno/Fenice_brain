@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 442 — [Artigo 442 - Direito Civil]
+# CC Art. 442 — Em vez de rejeitar a coisa, redibindo o contrato (art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Em vez de rejeitar a coisa, redibindo o contrato (art. 441), pode o adquirente reclamar abatimento no preço.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 536 — [Artigo 536 - Direito Civil]
+# CC Art. 536 — A coisa consignada não pode ser objeto de penhora ou seqüestro pelos credores do consignatário, enquanto não pago integr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A coisa consignada não pode ser objeto de penhora ou seqüestro pelos credores do consignatário, enquanto não pago integralmente o preço.
 
 ---
 

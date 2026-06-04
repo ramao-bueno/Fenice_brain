@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 355 — [Artigo 355 - Direito Civil]
+# CC Art. 355 — Se o devedor não fizer a indicação do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o devedor não fizer a indicação do art. 352, e a quitação for omissa quanto à imputação, esta se fará nas dívidas líquidas e vencidas em primeiro lugar. Se as dívidas forem todas líquidas e vencidas ao mesmo tempo, a imputação far-se-á na mais onerosa. CAPÍTULO V Da Dação em Pagamento
 
 ---
 

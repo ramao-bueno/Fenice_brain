@@ -9,10 +9,16 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
+- inciso-ii
+- inciso-iii
+- inciso-iv
+- inciso-v
 created: '2026-06-03'
 ---
 
-# CC Art. 41 — [Artigo 41 - Direito Civil]
+# CC Art. 41 — São pessoas jurídicas de direito público interno
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +26,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São pessoas jurídicas de direito público interno: I - a União; II - os Estados, o Distrito Federal e os Territórios; III - os Municípios; IV - as autarquias, inclusive as associações públicas; (Redação dada pela Lei nº 11.107, de 2005) V - as demais entidades de caráter público criadas por lei. Parágrafo único. Salvo disposição em contrário, as pessoas jurídicas de direito público, a que se tenha dado estrutura de direito privado, regem-se, no que couber, quanto ao seu funcionamento, pelas normas deste Código.
 
 ---
 

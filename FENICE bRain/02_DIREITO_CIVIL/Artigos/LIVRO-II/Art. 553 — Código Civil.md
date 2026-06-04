@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 553 — [Artigo 553 - Direito Civil]
+# CC Art. 553 — O donatário é obrigado a cumprir os encargos da doação, caso forem a benefício do doador, de terceiro, ou do interesse g
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O donatário é obrigado a cumprir os encargos da doação, caso forem a benefício do doador, de terceiro, ou do interesse geral. Parágrafo único. Se desta última espécie for o encargo, o Ministério Público poderá exigir sua execução, depois da morte do doador, se este não tiver feito.
 
 ---
 

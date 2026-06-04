@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 261 — [Artigo 261 - Direito Civil]
+# CC Art. 261 — Se um só dos credores receber a prestação por inteiro, a cada um dos outros assistirá o direito de exigir dele em dinhei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um só dos credores receber a prestação por inteiro, a cada um dos outros assistirá o direito de exigir dele em dinheiro a parte que lhe caiba no total.
 
 ---
 

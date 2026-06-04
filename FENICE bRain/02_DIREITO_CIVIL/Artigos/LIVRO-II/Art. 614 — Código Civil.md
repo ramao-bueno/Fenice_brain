@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-1
+- paragrafo-2
 created: '2026-06-03'
 ---
 
-# CC Art. 614 — [Artigo 614 - Direito Civil]
+# CC Art. 614 — Se a obra constar de partes distintas, ou for de natureza das que se determinam por medida, o empreiteiro terá direito a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a obra constar de partes distintas, ou for de natureza das que se determinam por medida, o empreiteiro terá direito a que também se verifique por medida, ou segundo as partes em que se dividir, podendo exigir o pagamento na proporção da obra executada. § 1 o Tudo o que se pagou presume-se verificado. § 2 o O que se mediu presume-se verificado se, em trinta dias, a contar da medição, não forem denunciados os vícios ou defeitos pelo dono da obra ou por quem estiver incumbido da sua fiscalização.
 
 ---
 

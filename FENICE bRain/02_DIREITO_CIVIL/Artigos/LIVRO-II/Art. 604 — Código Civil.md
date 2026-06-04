@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 604 — [Artigo 604 - Direito Civil]
+# CC Art. 604 — Findo o contrato, o prestador de serviço tem direito a exigir da outra parte a declaração de que o contrato está findo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Findo o contrato, o prestador de serviço tem direito a exigir da outra parte a declaração de que o contrato está findo. Igual direito lhe cabe, se for despedido sem justa causa, ou se tiver havido motivo justo para deixar o serviço.
 
 ---
 

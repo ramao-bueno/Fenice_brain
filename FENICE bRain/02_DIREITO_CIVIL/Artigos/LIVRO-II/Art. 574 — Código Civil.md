@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 574 — [Artigo 574 - Direito Civil]
+# CC Art. 574 — Se, findo o prazo, o locatário continuar na posse da coisa alugada, sem oposição do locador, presumir-se-á prorrogada a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, findo o prazo, o locatário continuar na posse da coisa alugada, sem oposição do locador, presumir-se-á prorrogada a locação pelo mesmo aluguel, mas sem prazo determinado.
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 236 — [Artigo 236 - Direito Civil]
+# CC Art. 236 — Sendo culpado o devedor, poderá o credor exigir o equivalente, ou aceitar a coisa no estado em que se acha, com direito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo culpado o devedor, poderá o credor exigir o equivalente, ou aceitar a coisa no estado em que se acha, com direito a reclamar, em um ou em outro caso, indenização das perdas e danos.
 
 ---
 

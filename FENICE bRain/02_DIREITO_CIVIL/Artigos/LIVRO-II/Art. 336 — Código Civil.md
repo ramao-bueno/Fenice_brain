@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 336 — [Artigo 336 - Direito Civil]
+# CC Art. 336 — Para que a consignação tenha força de pagamento, será mister concorram, em relação às pessoas, ao objeto, modo e tempo,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para que a consignação tenha força de pagamento, será mister concorram, em relação às pessoas, ao objeto, modo e tempo, todos os requisitos sem os quais não é válido o pagamento.
 
 ---
 

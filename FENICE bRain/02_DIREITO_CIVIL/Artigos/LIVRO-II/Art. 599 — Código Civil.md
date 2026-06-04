@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 599 — [Artigo 599 - Direito Civil]
+# CC Art. 599 — Não havendo prazo estipulado, nem se podendo inferir da natureza do contrato, ou do costume do lugar, qualquer das parte
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não havendo prazo estipulado, nem se podendo inferir da natureza do contrato, ou do costume do lugar, qualquer das partes, a seu arbítrio, mediante prévio aviso, pode resolver o contrato. Parágrafo único. Dar-se-á o aviso: I - com antecedência de oito dias, se o salário se houver fixado por tempo de um mês, ou mais; II - com antecipação de quatro dias, se o salário se tiver ajustado por semana, ou quinzena; III - de véspera, quando se tenha contratado por menos de sete dias.
 
 ---
 

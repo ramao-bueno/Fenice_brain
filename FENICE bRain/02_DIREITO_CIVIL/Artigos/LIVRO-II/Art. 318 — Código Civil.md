@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 318 — [Artigo 318 - Direito Civil]
+# CC Art. 318 — São nulas as convenções de pagamento em ouro ou em moeda estrangeira, bem como para compensar a diferença entre o valor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> São nulas as convenções de pagamento em ouro ou em moeda estrangeira, bem como para compensar a diferença entre o valor desta e o da moeda nacional, excetuados os casos previstos na legislação especial.
 
 ---
 

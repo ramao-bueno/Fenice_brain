@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 698 — [Artigo 698 - Direito Civil]
+# CC Art. 698 — Se do contrato de comissão constar a cláusula del credere , responderá o comissário solidariamente com as pessoas com qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se do contrato de comissão constar a cláusula del credere , responderá o comissário solidariamente com as pessoas com que houver tratado em nome do comitente, caso em que, salvo estipulação em contrário, o comissário tem direito a remuneração mais elevada, para compensar o ônus assumido. Parágrafo único. A cláusula del credere de que trata o caput deste artigo poderá ser parcial. (Incluído Lei nº 14.690, de 2023) Vigência
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 372 — [Artigo 372 - Direito Civil]
+# CC Art. 372 — Os prazos de favor, embora consagrados pelo uso geral, não obstam a compensação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os prazos de favor, embora consagrados pelo uso geral, não obstam a compensação.
 
 ---
 

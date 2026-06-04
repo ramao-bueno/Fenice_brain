@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 548 — [Artigo 548 - Direito Civil]
+# CC Art. 548 — É nula a doação de todos os bens sem reserva de parte, ou renda suficiente para a subsistência do doador
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a doação de todos os bens sem reserva de parte, ou renda suficiente para a subsistência do doador.
 
 ---
 

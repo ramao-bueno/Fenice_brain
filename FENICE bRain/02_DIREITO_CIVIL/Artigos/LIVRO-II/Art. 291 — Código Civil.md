@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 291 — [Artigo 291 - Direito Civil]
+# CC Art. 291 — Ocorrendo várias cessões do mesmo crédito, prevalece a que se completar com a tradição do título do crédito cedido
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ocorrendo várias cessões do mesmo crédito, prevalece a que se completar com a tradição do título do crédito cedido.
 
 ---
 

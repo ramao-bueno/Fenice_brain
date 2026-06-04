@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 652 — [Artigo 652 - Direito Civil]
+# CC Art. 652 — Seja o depósito voluntário ou necessário, o depositário que não o restituir quando exigido será compelido a fazê-lo medi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Seja o depósito voluntário ou necessário, o depositário que não o restituir quando exigido será compelido a fazê-lo mediante prisão não excedente a um ano, e ressarcir os prejuízos. CAPÍTULO X Do Mandato Seção I Disposições Gerais
 
 ---
 

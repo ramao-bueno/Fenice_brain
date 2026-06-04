@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 432 — [Artigo 432 - Direito Civil]
+# CC Art. 432 — Se o negócio for daqueles em que não seja costume a aceitação expressa, ou o proponente a tiver dispensado, reputar-se-á
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o negócio for daqueles em que não seja costume a aceitação expressa, ou o proponente a tiver dispensado, reputar-se-á concluído o contrato, não chegando a tempo a recusa.
 
 ---
 

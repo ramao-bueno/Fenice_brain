@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 81 — [Artigo 81 - Direito Civil]
+# CC Art. 81 — Não perdem o caráter de imóveis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não perdem o caráter de imóveis: I - as edificações que, separadas do solo, mas conservando a sua unidade, forem removidas para outro local; II - os materiais provisoriamente separados de um prédio, para nele se reempregarem. Seção II Dos Bens Móveis
 
 ---
 

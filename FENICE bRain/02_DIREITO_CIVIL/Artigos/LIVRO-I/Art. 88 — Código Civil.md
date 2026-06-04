@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
 created: '2026-06-03'
 ---
 
-# CC Art. 88 — [Artigo 88 - Direito Civil]
+# CC Art. 88 — Os bens naturalmente divisíveis podem tornar-se indivisíveis por determinação da lei ou por vontade das partes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os bens naturalmente divisíveis podem tornar-se indivisíveis por determinação da lei ou por vontade das partes. Seção V Dos Bens Singulares e Coletivos
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 435 — [Artigo 435 - Direito Civil]
+# CC Art. 435 — Reputar-se-á celebrado o contrato no lugar em que foi proposto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Reputar-se-á celebrado o contrato no lugar em que foi proposto. Seção III Da Estipulação em Favor de Terceiro
 
 ---
 

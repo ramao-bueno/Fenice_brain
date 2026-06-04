@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- inciso-ii
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 139 — [Artigo 139 - Direito Civil]
+# CC Art. 139 — O erro é substancial quando
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O erro é substancial quando: I - interessa à natureza do negócio, ao objeto principal da declaração, ou a alguma das qualidades a ele essenciais; II - concerne à identidade ou à qualidade essencial da pessoa a quem se refira a declaração de vontade, desde que tenha influído nesta de modo relevante; III - sendo de direito e não implicando recusa à aplicação da lei, for o motivo único ou principal do negócio jurídico.
 
 ---
 

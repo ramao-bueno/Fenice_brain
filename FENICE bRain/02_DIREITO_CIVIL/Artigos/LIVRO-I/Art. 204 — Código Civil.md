@@ -9,10 +9,14 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-1
+- paragrafo-2
+- paragrafo-3
 created: '2026-06-03'
 ---
 
-# CC Art. 204 — [Artigo 204 - Direito Civil]
+# CC Art. 204 — A interrupção da prescrição por um credor não aproveita aos outros;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +24,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A interrupção da prescrição por um credor não aproveita aos outros; semelhantemente, a interrupção operada contra o co-devedor, ou seu herdeiro, não prejudica aos demais coobrigados. § 1 o A interrupção por um dos credores solidários aproveita aos outros; assim como a interrupção efetuada contra o devedor solidário envolve os demais e seus herdeiros. § 2 o A interrupção operada contra um dos herdeiros do devedor solidário não prejudica os outros herdeiros ou devedores, senão quando se trate de obrigações e direitos indivisíveis. § 3 o A interrupção produzida contra o principal devedor prejudic...
 
 ---
 

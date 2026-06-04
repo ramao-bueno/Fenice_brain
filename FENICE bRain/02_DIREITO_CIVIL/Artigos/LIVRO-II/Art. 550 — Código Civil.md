@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 550 — [Artigo 550 - Direito Civil]
+# CC Art. 550 — A doação do cônjuge adúltero ao seu cúmplice pode ser anulada pelo outro cônjuge, ou por seus herdeiros necessários, até
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> A doação do cônjuge adúltero ao seu cúmplice pode ser anulada pelo outro cônjuge, ou por seus herdeiros necessários, até dois anos depois de dissolvida a sociedade conjugal.
 
 ---
 

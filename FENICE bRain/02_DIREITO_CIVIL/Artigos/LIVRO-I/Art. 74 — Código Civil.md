@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 74 — [Artigo 74 - Direito Civil]
+# CC Art. 74 — Muda-se o domicílio, transferindo a residência, com a intenção manifesta de o mudar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Muda-se o domicílio, transferindo a residência, com a intenção manifesta de o mudar. Parágrafo único. A prova da intenção resultará do que declarar a pessoa às municipalidades dos lugares, que deixa, e para onde vai, ou, se tais declarações não fizer, da própria mudança, com as circunstâncias que a acompanharem.
 
 ---
 

@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-i
 - vigente
+- inciso-i
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 33 — [Artigo 33 - Direito Civil]
+# CC Art. 33 — O descendente, ascendente ou cônjuge que for sucessor provisório do ausente, fará seus todos os frutos e rendimentos dos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O descendente, ascendente ou cônjuge que for sucessor provisório do ausente, fará seus todos os frutos e rendimentos dos bens que a este couberem; os outros sucessores, porém, deverão capitalizar metade desses frutos e rendimentos, segundo o disposto no art. 29, de acordo com o representante do Ministério Público, e prestar anualmente contas ao juiz competente. Parágrafo único. Se o ausente aparecer, e ficar provado que a ausência foi voluntária e injustificada, perderá ele, em favor do sucessor, sua parte nos frutos e rendimentos.
 
 ---
 

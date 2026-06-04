@@ -9,10 +9,12 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- paragrafo-unico
 created: '2026-06-03'
 ---
 
-# CC Art. 506 — [Artigo 506 - Direito Civil]
+# CC Art. 506 — Se o comprador se recusar a receber as quantias a que faz jus, o vendedor, para exercer o direito de resgate, as deposit
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +22,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o comprador se recusar a receber as quantias a que faz jus, o vendedor, para exercer o direito de resgate, as depositará judicialmente. Parágrafo único. Verificada a insuficiência do depósito judicial, não será o vendedor restituído no domínio da coisa, até e enquanto não for integralmente pago o comprador.
 
 ---
 

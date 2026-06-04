@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 250 — [Artigo 250 - Direito Civil]
+# CC Art. 250 — Extingue-se a obrigação de não fazer, desde que, sem culpa do devedor, se lhe torne impossível abster-se do ato, que se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extingue-se a obrigação de não fazer, desde que, sem culpa do devedor, se lhe torne impossível abster-se do ato, que se obrigou a não praticar.
 
 ---
 

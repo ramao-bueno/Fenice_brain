@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 627 — [Artigo 627 - Direito Civil]
+# CC Art. 627 — Pelo contrato de depósito recebe o depositário um objeto móvel, para guardar, até que o depositante o reclame
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pelo contrato de depósito recebe o depositário um objeto móvel, para guardar, até que o depositante o reclame.
 
 ---
 

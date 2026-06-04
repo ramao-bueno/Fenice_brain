@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 486 — [Artigo 486 - Direito Civil]
+# CC Art. 486 — Também se poderá deixar a fixação do preço à taxa de mercado ou de bolsa, em certo e determinado dia e lugar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Também se poderá deixar a fixação do preço à taxa de mercado ou de bolsa, em certo e determinado dia e lugar.
 
 ---
 

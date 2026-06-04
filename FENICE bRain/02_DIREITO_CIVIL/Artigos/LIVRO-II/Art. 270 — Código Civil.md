@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 270 — [Artigo 270 - Direito Civil]
+# CC Art. 270 — Se um dos credores solidários falecer deixando herdeiros, cada um destes só terá direito a exigir e receber a quota do c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um dos credores solidários falecer deixando herdeiros, cada um destes só terá direito a exigir e receber a quota do crédito que corresponder ao seu quinhão hereditário, salvo se a obrigação for indivisível.
 
 ---
 

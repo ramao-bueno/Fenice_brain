@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 330 — [Artigo 330 - Direito Civil]
+# CC Art. 330 — O pagamento reiteradamente feito em outro local faz presumir renúncia do credor relativamente ao previsto no contrato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pagamento reiteradamente feito em outro local faz presumir renúncia do credor relativamente ao previsto no contrato. Seção V Do Tempo do Pagamento
 
 ---
 

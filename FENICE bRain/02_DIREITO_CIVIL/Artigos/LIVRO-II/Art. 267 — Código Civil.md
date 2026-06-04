@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 267 — [Artigo 267 - Direito Civil]
+# CC Art. 267 — Cada um dos credores solidários tem direito a exigir do devedor o cumprimento da prestação por inteiro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cada um dos credores solidários tem direito a exigir do devedor o cumprimento da prestação por inteiro.
 
 ---
 

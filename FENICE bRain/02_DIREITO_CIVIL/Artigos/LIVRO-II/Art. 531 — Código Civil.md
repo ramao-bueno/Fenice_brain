@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 531 — [Artigo 531 - Direito Civil]
+# CC Art. 531 — Se entre os documentos entregues ao comprador figurar apólice de seguro que cubra os riscos do transporte, correm estes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se entre os documentos entregues ao comprador figurar apólice de seguro que cubra os riscos do transporte, correm estes à conta do comprador, salvo se, ao ser concluído o contrato, tivesse o vendedor ciência da perda ou avaria da coisa.
 
 ---
 

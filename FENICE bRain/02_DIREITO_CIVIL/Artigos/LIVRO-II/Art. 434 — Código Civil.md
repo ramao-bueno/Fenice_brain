@@ -9,10 +9,13 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
+- inciso-i
+- inciso-iii
 created: '2026-06-03'
 ---
 
-# CC Art. 434 — [Artigo 434 - Direito Civil]
+# CC Art. 434 — Os contratos entre ausentes tornam-se perfeitos desde que a aceitação é expedida, exceto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +23,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os contratos entre ausentes tornam-se perfeitos desde que a aceitação é expedida, exceto: I - no caso do artigo antecedente; II - se o proponente se houver comprometido a esperar resposta; III - se ela não chegar no prazo convencionado.
 
 ---
 

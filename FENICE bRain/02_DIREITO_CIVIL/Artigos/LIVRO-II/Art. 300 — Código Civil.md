@@ -9,10 +9,11 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
+- inciso-ii
 created: '2026-06-03'
 ---
 
-# CC Art. 300 — [Artigo 300 - Direito Civil]
+# CC Art. 300 — Salvo assentimento expresso do devedor primitivo, consideram-se extintas, a partir da assunção da dívida, as garantias e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-II — Direito das Obrigações
@@ -20,9 +21,9 @@ created: '2026-06-03'
 
 ---
 
-## 📋 REDAÇÃO LEGAL
+## REDACAO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo assentimento expresso do devedor primitivo, consideram-se extintas, a partir da assunção da dívida, as garantias especiais por ele originariamente dadas ao credor.
 
 ---
 

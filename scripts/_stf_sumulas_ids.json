@@ -1,0 +1,4418 @@
+[
+  {
+    "num": 1,
+    "id": "1451",
+    "status": "vigente",
+    "texto": "Súmula 1"
+  },
+  {
+    "num": 2,
+    "id": "1453",
+    "status": "vigente",
+    "texto": "Súmula 2"
+  },
+  {
+    "num": 3,
+    "id": "1306",
+    "status": "superada",
+    "texto": "Súmula 3 (superada)"
+  },
+  {
+    "num": 4,
+    "id": "1308",
+    "status": "cancelada",
+    "texto": "Súmula 4 (cancelada)"
+  },
+  {
+    "num": 5,
+    "id": "1318",
+    "status": "vigente",
+    "texto": "Súmula 5"
+  },
+  {
+    "num": 6,
+    "id": "2048",
+    "status": "vigente",
+    "texto": "Súmula 6"
+  },
+  {
+    "num": 7,
+    "id": "3038",
+    "status": "vigente",
+    "texto": "Súmula 7"
+  },
+  {
+    "num": 8,
+    "id": "3040",
+    "status": "vigente",
+    "texto": "Súmula 8"
+  },
+  {
+    "num": 9,
+    "id": "3042",
+    "status": "vigente",
+    "texto": "Súmula 9"
+  },
+  {
+    "num": 10,
+    "id": "3044",
+    "status": "vigente",
+    "texto": "Súmula 10"
+  },
+  {
+    "num": 11,
+    "id": "2076",
+    "status": "vigente",
+    "texto": "Súmula 11"
+  },
+  {
+    "num": 12,
+    "id": "3046",
+    "status": "vigente",
+    "texto": "Súmula 12"
+  },
+  {
+    "num": 13,
+    "id": "3063",
+    "status": "vigente",
+    "texto": "Súmula 13"
+  },
+  {
+    "num": 14,
+    "id": "1322",
+    "status": "vigente",
+    "texto": "Súmula 14"
+  },
+  {
+    "num": 15,
+    "id": "1456",
+    "status": "vigente",
+    "texto": "Súmula 15"
+  },
+  {
+    "num": 16,
+    "id": "2083",
+    "status": "vigente",
+    "texto": "Súmula 16"
+  },
+  {
+    "num": 17,
+    "id": "3067",
+    "status": "vigente",
+    "texto": "Súmula 17"
+  },
+  {
+    "num": 18,
+    "id": "2096",
+    "status": "vigente",
+    "texto": "Súmula 18"
+  },
+  {
+    "num": 19,
+    "id": "2102",
+    "status": "vigente",
+    "texto": "Súmula 19"
+  },
+  {
+    "num": 20,
+    "id": "2104",
+    "status": "vigente",
+    "texto": "Súmula 20"
+  },
+  {
+    "num": 21,
+    "id": "2106",
+    "status": "vigente",
+    "texto": "Súmula 21"
+  },
+  {
+    "num": 22,
+    "id": "2110",
+    "status": "vigente",
+    "texto": "Súmula 22"
+  },
+  {
+    "num": 23,
+    "id": "2112",
+    "status": "vigente",
+    "texto": "Súmula 23"
+  },
+  {
+    "num": 24,
+    "id": "3069",
+    "status": "vigente",
+    "texto": "Súmula 24"
+  },
+  {
+    "num": 25,
+    "id": "2114",
+    "status": "vigente",
+    "texto": "Súmula 25"
+  },
+  {
+    "num": 26,
+    "id": "2117",
+    "status": "vigente",
+    "texto": "Súmula 26"
+  },
+  {
+    "num": 27,
+    "id": "1458",
+    "status": "vigente",
+    "texto": "Súmula 27"
+  },
+  {
+    "num": 28,
+    "id": "3070",
+    "status": "vigente",
+    "texto": "Súmula 28"
+  },
+  {
+    "num": 29,
+    "id": "3071",
+    "status": "vigente",
+    "texto": "Súmula 29"
+  },
+  {
+    "num": 30,
+    "id": "3072",
+    "status": "vigente",
+    "texto": "Súmula 30"
+  },
+  {
+    "num": 31,
+    "id": "1460",
+    "status": "vigente",
+    "texto": "Súmula 31"
+  },
+  {
+    "num": 32,
+    "id": "1462",
+    "status": "vigente",
+    "texto": "Súmula 32"
+  },
+  {
+    "num": 33,
+    "id": "1464",
+    "status": "vigente",
+    "texto": "Súmula 33"
+  },
+  {
+    "num": 34,
+    "id": "3073",
+    "status": "vigente",
+    "texto": "Súmula 34"
+  },
+  {
+    "num": 35,
+    "id": "3074",
+    "status": "vigente",
+    "texto": "Súmula 35"
+  },
+  {
+    "num": 36,
+    "id": "2294",
+    "status": "vigente",
+    "texto": "Súmula 36"
+  },
+  {
+    "num": 37,
+    "id": "3075",
+    "status": "vigente",
+    "texto": "Súmula 37"
+  },
+  {
+    "num": 38,
+    "id": "2134",
+    "status": "vigente",
+    "texto": "Súmula 38"
+  },
+  {
+    "num": 39,
+    "id": "2159",
+    "status": "vigente",
+    "texto": "Súmula 39"
+  },
+  {
+    "num": 40,
+    "id": "2141",
+    "status": "vigente",
+    "texto": "Súmula 40"
+  },
+  {
+    "num": 41,
+    "id": "3076",
+    "status": "vigente",
+    "texto": "Súmula 41"
+  },
+  {
+    "num": 42,
+    "id": "2143",
+    "status": "vigente",
+    "texto": "Súmula 42"
+  },
+  {
+    "num": 43,
+    "id": "1466",
+    "status": "vigente",
+    "texto": "Súmula 43"
+  },
+  {
+    "num": 44,
+    "id": "3077",
+    "status": "vigente",
+    "texto": "Súmula 44"
+  },
+  {
+    "num": 45,
+    "id": "3078",
+    "status": "vigente",
+    "texto": "Súmula 45"
+  },
+  {
+    "num": 46,
+    "id": "3079",
+    "status": "vigente",
+    "texto": "Súmula 46"
+  },
+  {
+    "num": 47,
+    "id": "2494",
+    "status": "vigente",
+    "texto": "Súmula 47"
+  },
+  {
+    "num": 48,
+    "id": "3080",
+    "status": "vigente",
+    "texto": "Súmula 48"
+  },
+  {
+    "num": 49,
+    "id": "3366",
+    "status": "vigente",
+    "texto": "Súmula 49"
+  },
+  {
+    "num": 50,
+    "id": "3368",
+    "status": "vigente",
+    "texto": "Súmula 50"
+  },
+  {
+    "num": 51,
+    "id": "3370",
+    "status": "vigente",
+    "texto": "Súmula 51"
+  },
+  {
+    "num": 52,
+    "id": "3372",
+    "status": "vigente",
+    "texto": "Súmula 52"
+  },
+  {
+    "num": 53,
+    "id": "3374",
+    "status": "vigente",
+    "texto": "Súmula 53"
+  },
+  {
+    "num": 54,
+    "id": "3376",
+    "status": "vigente",
+    "texto": "Súmula 54"
+  },
+  {
+    "num": 55,
+    "id": "3378",
+    "status": "vigente",
+    "texto": "Súmula 55"
+  },
+  {
+    "num": 56,
+    "id": "1468",
+    "status": "vigente",
+    "texto": "Súmula 56"
+  },
+  {
+    "num": 57,
+    "id": "3599",
+    "status": "vigente",
+    "texto": "Súmula 57"
+  },
+  {
+    "num": 58,
+    "id": "3601",
+    "status": "vigente",
+    "texto": "Súmula 58"
+  },
+  {
+    "num": 59,
+    "id": "3603",
+    "status": "vigente",
+    "texto": "Súmula 59"
+  },
+  {
+    "num": 60,
+    "id": "3605",
+    "status": "vigente",
+    "texto": "Súmula 60"
+  },
+  {
+    "num": 61,
+    "id": "3607",
+    "status": "vigente",
+    "texto": "Súmula 61"
+  },
+  {
+    "num": 62,
+    "id": "3609",
+    "status": "vigente",
+    "texto": "Súmula 62"
+  },
+  {
+    "num": 63,
+    "id": "3611",
+    "status": "vigente",
+    "texto": "Súmula 63"
+  },
+  {
+    "num": 64,
+    "id": "3613",
+    "status": "vigente",
+    "texto": "Súmula 64"
+  },
+  {
+    "num": 65,
+    "id": "3615",
+    "status": "vigente",
+    "texto": "Súmula 65"
+  },
+  {
+    "num": 66,
+    "id": "3621",
+    "status": "vigente",
+    "texto": "Súmula 66"
+  },
+  {
+    "num": 67,
+    "id": "3624",
+    "status": "vigente",
+    "texto": "Súmula 67"
+  },
+  {
+    "num": 68,
+    "id": "3626",
+    "status": "vigente",
+    "texto": "Súmula 68"
+  },
+  {
+    "num": 69,
+    "id": "3629",
+    "status": "vigente",
+    "texto": "Súmula 69"
+  },
+  {
+    "num": 70,
+    "id": "2194",
+    "status": "vigente",
+    "texto": "Súmula 70"
+  },
+  {
+    "num": 71,
+    "id": "2212",
+    "status": "vigente",
+    "texto": "Súmula 71"
+  },
+  {
+    "num": 72,
+    "id": "2337",
+    "status": "vigente",
+    "texto": "Súmula 72"
+  },
+  {
+    "num": 73,
+    "id": "4100",
+    "status": "vigente",
+    "texto": "Súmula 73"
+  },
+  {
+    "num": 74,
+    "id": "1470",
+    "status": "vigente",
+    "texto": "Súmula 74"
+  },
+  {
+    "num": 75,
+    "id": "4102",
+    "status": "vigente",
+    "texto": "Súmula 75"
+  },
+  {
+    "num": 76,
+    "id": "4104",
+    "status": "vigente",
+    "texto": "Súmula 76"
+  },
+  {
+    "num": 77,
+    "id": "4106",
+    "status": "vigente",
+    "texto": "Súmula 77"
+  },
+  {
+    "num": 78,
+    "id": "4108",
+    "status": "vigente",
+    "texto": "Súmula 78"
+  },
+  {
+    "num": 79,
+    "id": "4110",
+    "status": "vigente",
+    "texto": "Súmula 79"
+  },
+  {
+    "num": 80,
+    "id": "4112",
+    "status": "vigente",
+    "texto": "Súmula 80"
+  },
+  {
+    "num": 81,
+    "id": "2383",
+    "status": "vigente",
+    "texto": "Súmula 81"
+  },
+  {
+    "num": 82,
+    "id": "4114",
+    "status": "vigente",
+    "texto": "Súmula 82"
+  },
+  {
+    "num": 83,
+    "id": "4115",
+    "status": "vigente",
+    "texto": "Súmula 83"
+  },
+  {
+    "num": 84,
+    "id": "4116",
+    "status": "vigente",
+    "texto": "Súmula 84"
+  },
+  {
+    "num": 85,
+    "id": "4117",
+    "status": "vigente",
+    "texto": "Súmula 85"
+  },
+  {
+    "num": 86,
+    "id": "4118",
+    "status": "vigente",
+    "texto": "Súmula 86"
+  },
+  {
+    "num": 87,
+    "id": "4119",
+    "status": "vigente",
+    "texto": "Súmula 87"
+  },
+  {
+    "num": 88,
+    "id": "4120",
+    "status": "vigente",
+    "texto": "Súmula 88"
+  },
+  {
+    "num": 89,
+    "id": "4121",
+    "status": "vigente",
+    "texto": "Súmula 89"
+  },
+  {
+    "num": 90,
+    "id": "4122",
+    "status": "vigente",
+    "texto": "Súmula 90"
+  },
+  {
+    "num": 91,
+    "id": "4123",
+    "status": "vigente",
+    "texto": "Súmula 91"
+  },
+  {
+    "num": 92,
+    "id": "4163",
+    "status": "vigente",
+    "texto": "Súmula 92"
+  },
+  {
+    "num": 93,
+    "id": "4164",
+    "status": "vigente",
+    "texto": "Súmula 93"
+  },
+  {
+    "num": 94,
+    "id": "4165",
+    "status": "vigente",
+    "texto": "Súmula 94"
+  },
+  {
+    "num": 95,
+    "id": "4166",
+    "status": "vigente",
+    "texto": "Súmula 95"
+  },
+  {
+    "num": 96,
+    "id": "4167",
+    "status": "vigente",
+    "texto": "Súmula 96"
+  },
+  {
+    "num": 97,
+    "id": "4168",
+    "status": "vigente",
+    "texto": "Súmula 97"
+  },
+  {
+    "num": 98,
+    "id": "4169",
+    "status": "vigente",
+    "texto": "Súmula 98"
+  },
+  {
+    "num": 99,
+    "id": "4170",
+    "status": "vigente",
+    "texto": "Súmula 99"
+  },
+  {
+    "num": 100,
+    "id": "4126",
+    "status": "vigente",
+    "texto": "Súmula 100"
+  },
+  {
+    "num": 101,
+    "id": "1966",
+    "status": "vigente",
+    "texto": "Súmula 101"
+  },
+  {
+    "num": 102,
+    "id": "1969",
+    "status": "vigente",
+    "texto": "Súmula 102"
+  },
+  {
+    "num": 103,
+    "id": "1990",
+    "status": "vigente",
+    "texto": "Súmula 103"
+  },
+  {
+    "num": 104,
+    "id": "1992",
+    "status": "vigente",
+    "texto": "Súmula 104"
+  },
+  {
+    "num": 105,
+    "id": "1994",
+    "status": "vigente",
+    "texto": "Súmula 105"
+  },
+  {
+    "num": 106,
+    "id": "2009",
+    "status": "vigente",
+    "texto": "Súmula 106"
+  },
+  {
+    "num": 107,
+    "id": "2013",
+    "status": "vigente",
+    "texto": "Súmula 107"
+  },
+  {
+    "num": 108,
+    "id": "2037",
+    "status": "vigente",
+    "texto": "Súmula 108"
+  },
+  {
+    "num": 109,
+    "id": "2039",
+    "status": "vigente",
+    "texto": "Súmula 109"
+  },
+  {
+    "num": 110,
+    "id": "2041",
+    "status": "vigente",
+    "texto": "Súmula 110"
+  },
+  {
+    "num": 111,
+    "id": "2116",
+    "status": "vigente",
+    "texto": "Súmula 111"
+  },
+  {
+    "num": 112,
+    "id": "2043",
+    "status": "vigente",
+    "texto": "Súmula 112"
+  },
+  {
+    "num": 113,
+    "id": "1533",
+    "status": "vigente",
+    "texto": "Súmula 113"
+  },
+  {
+    "num": 114,
+    "id": "2004",
+    "status": "vigente",
+    "texto": "Súmula 114"
+  },
+  {
+    "num": 115,
+    "id": "2078",
+    "status": "vigente",
+    "texto": "Súmula 115"
+  },
+  {
+    "num": 116,
+    "id": "2087",
+    "status": "vigente",
+    "texto": "Súmula 116"
+  },
+  {
+    "num": 117,
+    "id": "2089",
+    "status": "vigente",
+    "texto": "Súmula 117"
+  },
+  {
+    "num": 118,
+    "id": "2092",
+    "status": "vigente",
+    "texto": "Súmula 118"
+  },
+  {
+    "num": 119,
+    "id": "2085",
+    "status": "vigente",
+    "texto": "Súmula 119"
+  },
+  {
+    "num": 120,
+    "id": "4128",
+    "status": "vigente",
+    "texto": "Súmula 120"
+  },
+  {
+    "num": 121,
+    "id": "2000",
+    "status": "vigente",
+    "texto": "Súmula 121"
+  },
+  {
+    "num": 122,
+    "id": "4130",
+    "status": "vigente",
+    "texto": "Súmula 122"
+  },
+  {
+    "num": 123,
+    "id": "2094",
+    "status": "vigente",
+    "texto": "Súmula 123"
+  },
+  {
+    "num": 124,
+    "id": "2098",
+    "status": "vigente",
+    "texto": "Súmula 124"
+  },
+  {
+    "num": 125,
+    "id": "4131",
+    "status": "vigente",
+    "texto": "Súmula 125"
+  },
+  {
+    "num": 126,
+    "id": "2100",
+    "status": "vigente",
+    "texto": "Súmula 126"
+  },
+  {
+    "num": 127,
+    "id": "4133",
+    "status": "vigente",
+    "texto": "Súmula 127"
+  },
+  {
+    "num": 128,
+    "id": "4132",
+    "status": "vigente",
+    "texto": "Súmula 128"
+  },
+  {
+    "num": 129,
+    "id": "4134",
+    "status": "vigente",
+    "texto": "Súmula 129"
+  },
+  {
+    "num": 130,
+    "id": "3048",
+    "status": "vigente",
+    "texto": "Súmula 130"
+  },
+  {
+    "num": 131,
+    "id": "3050",
+    "status": "vigente",
+    "texto": "Súmula 131"
+  },
+  {
+    "num": 132,
+    "id": "3137",
+    "status": "vigente",
+    "texto": "Súmula 132"
+  },
+  {
+    "num": 133,
+    "id": "3160",
+    "status": "vigente",
+    "texto": "Súmula 133"
+  },
+  {
+    "num": 134,
+    "id": "3162",
+    "status": "vigente",
+    "texto": "Súmula 134"
+  },
+  {
+    "num": 135,
+    "id": "3164",
+    "status": "vigente",
+    "texto": "Súmula 135"
+  },
+  {
+    "num": 136,
+    "id": "3170",
+    "status": "vigente",
+    "texto": "Súmula 136"
+  },
+  {
+    "num": 137,
+    "id": "3172",
+    "status": "vigente",
+    "texto": "Súmula 137"
+  },
+  {
+    "num": 138,
+    "id": "3174",
+    "status": "vigente",
+    "texto": "Súmula 138"
+  },
+  {
+    "num": 139,
+    "id": "3176",
+    "status": "vigente",
+    "texto": "Súmula 139"
+  },
+  {
+    "num": 140,
+    "id": "3178",
+    "status": "vigente",
+    "texto": "Súmula 140"
+  },
+  {
+    "num": 141,
+    "id": "3180",
+    "status": "vigente",
+    "texto": "Súmula 141"
+  },
+  {
+    "num": 142,
+    "id": "3182",
+    "status": "vigente",
+    "texto": "Súmula 142"
+  },
+  {
+    "num": 143,
+    "id": "3192",
+    "status": "vigente",
+    "texto": "Súmula 143"
+  },
+  {
+    "num": 144,
+    "id": "3194",
+    "status": "vigente",
+    "texto": "Súmula 144"
+  },
+  {
+    "num": 145,
+    "id": "2119",
+    "status": "vigente",
+    "texto": "Súmula 145"
+  },
+  {
+    "num": 146,
+    "id": "2050",
+    "status": "vigente",
+    "texto": "Súmula 146"
+  },
+  {
+    "num": 147,
+    "id": "1536",
+    "status": "vigente",
+    "texto": "Súmula 147"
+  },
+  {
+    "num": 148,
+    "id": "2125",
+    "status": "vigente",
+    "texto": "Súmula 148"
+  },
+  {
+    "num": 149,
+    "id": "1986",
+    "status": "vigente",
+    "texto": "Súmula 149"
+  },
+  {
+    "num": 150,
+    "id": "2127",
+    "status": "vigente",
+    "texto": "Súmula 150"
+  },
+  {
+    "num": 151,
+    "id": "3497",
+    "status": "vigente",
+    "texto": "Súmula 151"
+  },
+  {
+    "num": 152,
+    "id": "2442",
+    "status": "revogada",
+    "texto": "Súmula 152 (revogada)"
+  },
+  {
+    "num": 153,
+    "id": "3196",
+    "status": "vigente",
+    "texto": "Súmula 153"
+  },
+  {
+    "num": 154,
+    "id": "4191",
+    "status": "vigente",
+    "texto": "Súmula 154"
+  },
+  {
+    "num": 155,
+    "id": "2743",
+    "status": "vigente",
+    "texto": "Súmula 155"
+  },
+  {
+    "num": 156,
+    "id": "2745",
+    "status": "vigente",
+    "texto": "Súmula 156"
+  },
+  {
+    "num": 157,
+    "id": "2529",
+    "status": "vigente",
+    "texto": "Súmula 157"
+  },
+  {
+    "num": 158,
+    "id": "3499",
+    "status": "vigente",
+    "texto": "Súmula 158"
+  },
+  {
+    "num": 159,
+    "id": "4195",
+    "status": "vigente",
+    "texto": "Súmula 159"
+  },
+  {
+    "num": 160,
+    "id": "2747",
+    "status": "vigente",
+    "texto": "Súmula 160"
+  },
+  {
+    "num": 161,
+    "id": "3501",
+    "status": "vigente",
+    "texto": "Súmula 161"
+  },
+  {
+    "num": 162,
+    "id": "2749",
+    "status": "vigente",
+    "texto": "Súmula 162"
+  },
+  {
+    "num": 163,
+    "id": "2341",
+    "status": "vigente",
+    "texto": "Súmula 163"
+  },
+  {
+    "num": 164,
+    "id": "2187",
+    "status": "vigente",
+    "texto": "Súmula 164"
+  },
+  {
+    "num": 165,
+    "id": "3198",
+    "status": "vigente",
+    "texto": "Súmula 165"
+  },
+  {
+    "num": 166,
+    "id": "2448",
+    "status": "vigente",
+    "texto": "Súmula 166"
+  },
+  {
+    "num": 167,
+    "id": "2452",
+    "status": "vigente",
+    "texto": "Súmula 167"
+  },
+  {
+    "num": 168,
+    "id": "2453",
+    "status": "vigente",
+    "texto": "Súmula 168"
+  },
+  {
+    "num": 169,
+    "id": "4145",
+    "status": "vigente",
+    "texto": "Súmula 169"
+  },
+  {
+    "num": 170,
+    "id": "4197",
+    "status": "vigente",
+    "texto": "Súmula 170"
+  },
+  {
+    "num": 171,
+    "id": "3215",
+    "status": "vigente",
+    "texto": "Súmula 171"
+  },
+  {
+    "num": 172,
+    "id": "3226",
+    "status": "vigente",
+    "texto": "Súmula 172"
+  },
+  {
+    "num": 173,
+    "id": "3503",
+    "status": "vigente",
+    "texto": "Súmula 173"
+  },
+  {
+    "num": 174,
+    "id": "3239",
+    "status": "vigente",
+    "texto": "Súmula 174"
+  },
+  {
+    "num": 175,
+    "id": "3241",
+    "status": "vigente",
+    "texto": "Súmula 175"
+  },
+  {
+    "num": 176,
+    "id": "3244",
+    "status": "vigente",
+    "texto": "Súmula 176"
+  },
+  {
+    "num": 177,
+    "id": "3246",
+    "status": "vigente",
+    "texto": "Súmula 177"
+  },
+  {
+    "num": 178,
+    "id": "4207",
+    "status": "vigente",
+    "texto": "Súmula 178"
+  },
+  {
+    "num": 179,
+    "id": "3228",
+    "status": "vigente",
+    "texto": "Súmula 179"
+  },
+  {
+    "num": 180,
+    "id": "3230",
+    "status": "vigente",
+    "texto": "Súmula 180"
+  },
+  {
+    "num": 181,
+    "id": "3235",
+    "status": "vigente",
+    "texto": "Súmula 181"
+  },
+  {
+    "num": 182,
+    "id": "3237",
+    "status": "vigente",
+    "texto": "Súmula 182"
+  },
+  {
+    "num": 183,
+    "id": "3248",
+    "status": "vigente",
+    "texto": "Súmula 183"
+  },
+  {
+    "num": 184,
+    "id": "3250",
+    "status": "vigente",
+    "texto": "Súmula 184"
+  },
+  {
+    "num": 185,
+    "id": "3252",
+    "status": "vigente",
+    "texto": "Súmula 185"
+  },
+  {
+    "num": 186,
+    "id": "4266",
+    "status": "vigente",
+    "texto": "Súmula 186"
+  },
+  {
+    "num": 187,
+    "id": "3505",
+    "status": "vigente",
+    "texto": "Súmula 187"
+  },
+  {
+    "num": 188,
+    "id": "3510",
+    "status": "vigente",
+    "texto": "Súmula 188"
+  },
+  {
+    "num": 189,
+    "id": "3550",
+    "status": "vigente",
+    "texto": "Súmula 189"
+  },
+  {
+    "num": 190,
+    "id": "3255",
+    "status": "vigente",
+    "texto": "Súmula 190"
+  },
+  {
+    "num": 191,
+    "id": "1538",
+    "status": "vigente",
+    "texto": "Súmula 191"
+  },
+  {
+    "num": 192,
+    "id": "2030",
+    "status": "vigente",
+    "texto": "Súmula 192"
+  },
+  {
+    "num": 193,
+    "id": "4209",
+    "status": "vigente",
+    "texto": "Súmula 193"
+  },
+  {
+    "num": 194,
+    "id": "3554",
+    "status": "vigente",
+    "texto": "Súmula 194"
+  },
+  {
+    "num": 195,
+    "id": "3298",
+    "status": "vigente",
+    "texto": "Súmula 195"
+  },
+  {
+    "num": 196,
+    "id": "3559",
+    "status": "vigente",
+    "texto": "Súmula 196"
+  },
+  {
+    "num": 197,
+    "id": "2208",
+    "status": "vigente",
+    "texto": "Súmula 197"
+  },
+  {
+    "num": 198,
+    "id": "4211",
+    "status": "vigente",
+    "texto": "Súmula 198"
+  },
+  {
+    "num": 199,
+    "id": "3561",
+    "status": "vigente",
+    "texto": "Súmula 199"
+  },
+  {
+    "num": 200,
+    "id": "4213",
+    "status": "vigente",
+    "texto": "Súmula 200"
+  },
+  {
+    "num": 201,
+    "id": "1540",
+    "status": "vigente",
+    "texto": "Súmula 201"
+  },
+  {
+    "num": 202,
+    "id": "3564",
+    "status": "vigente",
+    "texto": "Súmula 202"
+  },
+  {
+    "num": 203,
+    "id": "4268",
+    "status": "vigente",
+    "texto": "Súmula 203"
+  },
+  {
+    "num": 204,
+    "id": "3566",
+    "status": "vigente",
+    "texto": "Súmula 204"
+  },
+  {
+    "num": 205,
+    "id": "3300",
+    "status": "vigente",
+    "texto": "Súmula 205"
+  },
+  {
+    "num": 206,
+    "id": "3571",
+    "status": "vigente",
+    "texto": "Súmula 206"
+  },
+  {
+    "num": 207,
+    "id": "2288",
+    "status": "vigente",
+    "texto": "Súmula 207"
+  },
+  {
+    "num": 208,
+    "id": "2751",
+    "status": "vigente",
+    "texto": "Súmula 208"
+  },
+  {
+    "num": 209,
+    "id": "3573",
+    "status": "vigente",
+    "texto": "Súmula 209"
+  },
+  {
+    "num": 210,
+    "id": "2753",
+    "status": "vigente",
+    "texto": "Súmula 210"
+  },
+  {
+    "num": 211,
+    "id": "3302",
+    "status": "vigente",
+    "texto": "Súmula 211"
+  },
+  {
+    "num": 212,
+    "id": "4140",
+    "status": "vigente",
+    "texto": "Súmula 212"
+  },
+  {
+    "num": 213,
+    "id": "4142",
+    "status": "vigente",
+    "texto": "Súmula 213"
+  },
+  {
+    "num": 214,
+    "id": "4270",
+    "status": "vigente",
+    "texto": "Súmula 214"
+  },
+  {
+    "num": 215,
+    "id": "4221",
+    "status": "vigente",
+    "texto": "Súmula 215"
+  },
+  {
+    "num": 216,
+    "id": "2344",
+    "status": "vigente",
+    "texto": "Súmula 216"
+  },
+  {
+    "num": 217,
+    "id": "4223",
+    "status": "vigente",
+    "texto": "Súmula 217"
+  },
+  {
+    "num": 218,
+    "id": "2058",
+    "status": "vigente",
+    "texto": "Súmula 218"
+  },
+  {
+    "num": 219,
+    "id": "2069",
+    "status": "vigente",
+    "texto": "Súmula 219"
+  },
+  {
+    "num": 220,
+    "id": "2067",
+    "status": "vigente",
+    "texto": "Súmula 220"
+  },
+  {
+    "num": 221,
+    "id": "2071",
+    "status": "vigente",
+    "texto": "Súmula 221"
+  },
+  {
+    "num": 222,
+    "id": "4247",
+    "status": "vigente",
+    "texto": "Súmula 222"
+  },
+  {
+    "num": 223,
+    "id": "4148",
+    "status": "vigente",
+    "texto": "Súmula 223"
+  },
+  {
+    "num": 224,
+    "id": "4272",
+    "status": "vigente",
+    "texto": "Súmula 224"
+  },
+  {
+    "num": 225,
+    "id": "2074",
+    "status": "vigente",
+    "texto": "Súmula 225"
+  },
+  {
+    "num": 226,
+    "id": "3313",
+    "status": "vigente",
+    "texto": "Súmula 226"
+  },
+  {
+    "num": 227,
+    "id": "4251",
+    "status": "vigente",
+    "texto": "Súmula 227"
+  },
+  {
+    "num": 228,
+    "id": "1542",
+    "status": "vigente",
+    "texto": "Súmula 228"
+  },
+  {
+    "num": 229,
+    "id": "3355",
+    "status": "vigente",
+    "texto": "Súmula 229"
+  },
+  {
+    "num": 230,
+    "id": "2266",
+    "status": "vigente",
+    "texto": "Súmula 230"
+  },
+  {
+    "num": 231,
+    "id": "4151",
+    "status": "vigente",
+    "texto": "Súmula 231"
+  },
+  {
+    "num": 232,
+    "id": "3358",
+    "status": "vigente",
+    "texto": "Súmula 232"
+  },
+  {
+    "num": 233,
+    "id": "2060",
+    "status": "vigente",
+    "texto": "Súmula 233"
+  },
+  {
+    "num": 234,
+    "id": "4153",
+    "status": "vigente",
+    "texto": "Súmula 234"
+  },
+  {
+    "num": 235,
+    "id": "1544",
+    "status": "vigente",
+    "texto": "Súmula 235"
+  },
+  {
+    "num": 236,
+    "id": "4257",
+    "status": "vigente",
+    "texto": "Súmula 236"
+  },
+  {
+    "num": 237,
+    "id": "4155",
+    "status": "vigente",
+    "texto": "Súmula 237"
+  },
+  {
+    "num": 238,
+    "id": "3361",
+    "status": "vigente",
+    "texto": "Súmula 238"
+  },
+  {
+    "num": 239,
+    "id": "2062",
+    "status": "vigente",
+    "texto": "Súmula 239"
+  },
+  {
+    "num": 240,
+    "id": "2065",
+    "status": "vigente",
+    "texto": "Súmula 240"
+  },
+  {
+    "num": 241,
+    "id": "4157",
+    "status": "vigente",
+    "texto": "Súmula 241"
+  },
+  {
+    "num": 242,
+    "id": "3363",
+    "status": "vigente",
+    "texto": "Súmula 242"
+  },
+  {
+    "num": 243,
+    "id": "3383",
+    "status": "vigente",
+    "texto": "Súmula 243"
+  },
+  {
+    "num": 244,
+    "id": "3393",
+    "status": "vigente",
+    "texto": "Súmula 244"
+  },
+  {
+    "num": 245,
+    "id": "2121",
+    "status": "vigente",
+    "texto": "Súmula 245"
+  },
+  {
+    "num": 246,
+    "id": "2123",
+    "status": "vigente",
+    "texto": "Súmula 246"
+  },
+  {
+    "num": 247,
+    "id": "2363",
+    "status": "vigente",
+    "texto": "Súmula 247"
+  },
+  {
+    "num": 248,
+    "id": "2131",
+    "status": "vigente",
+    "texto": "Súmula 248"
+  },
+  {
+    "num": 249,
+    "id": "2373",
+    "status": "vigente",
+    "texto": "Súmula 249"
+  },
+  {
+    "num": 250,
+    "id": "2376",
+    "status": "vigente",
+    "texto": "Súmula 250"
+  },
+  {
+    "num": 251,
+    "id": "1546",
+    "status": "vigente",
+    "texto": "Súmula 251"
+  },
+  {
+    "num": 252,
+    "id": "2379",
+    "status": "vigente",
+    "texto": "Súmula 252"
+  },
+  {
+    "num": 253,
+    "id": "3395",
+    "status": "vigente",
+    "texto": "Súmula 253"
+  },
+  {
+    "num": 254,
+    "id": "2385",
+    "status": "vigente",
+    "texto": "Súmula 254"
+  },
+  {
+    "num": 255,
+    "id": "1548",
+    "status": "vigente",
+    "texto": "Súmula 255"
+  },
+  {
+    "num": 256,
+    "id": "2390",
+    "status": "vigente",
+    "texto": "Súmula 256"
+  },
+  {
+    "num": 257,
+    "id": "4159",
+    "status": "vigente",
+    "texto": "Súmula 257"
+  },
+  {
+    "num": 258,
+    "id": "4161",
+    "status": "vigente",
+    "texto": "Súmula 258"
+  },
+  {
+    "num": 259,
+    "id": "4189",
+    "status": "vigente",
+    "texto": "Súmula 259"
+  },
+  {
+    "num": 260,
+    "id": "4264",
+    "status": "vigente",
+    "texto": "Súmula 260"
+  },
+  {
+    "num": 261,
+    "id": "3185",
+    "status": "vigente",
+    "texto": "Súmula 261"
+  },
+  {
+    "num": 262,
+    "id": "2456",
+    "status": "vigente",
+    "texto": "Súmula 262"
+  },
+  {
+    "num": 263,
+    "id": "3188",
+    "status": "vigente",
+    "texto": "Súmula 263"
+  },
+  {
+    "num": 264,
+    "id": "4025",
+    "status": "vigente",
+    "texto": "Súmula 264"
+  },
+  {
+    "num": 265,
+    "id": "3021",
+    "status": "vigente",
+    "texto": "Súmula 265"
+  },
+  {
+    "num": 266,
+    "id": "2459",
+    "status": "vigente",
+    "texto": "Súmula 266"
+  },
+  {
+    "num": 267,
+    "id": "2464",
+    "status": "vigente",
+    "texto": "Súmula 267"
+  },
+  {
+    "num": 268,
+    "id": "2466",
+    "status": "vigente",
+    "texto": "Súmula 268"
+  },
+  {
+    "num": 269,
+    "id": "2468",
+    "status": "vigente",
+    "texto": "Súmula 269"
+  },
+  {
+    "num": 270,
+    "id": "3190",
+    "status": "vigente",
+    "texto": "Súmula 270"
+  },
+  {
+    "num": 271,
+    "id": "2471",
+    "status": "vigente",
+    "texto": "Súmula 271"
+  },
+  {
+    "num": 272,
+    "id": "2480",
+    "status": "vigente",
+    "texto": "Súmula 272"
+  },
+  {
+    "num": 273,
+    "id": "3200",
+    "status": "vigente",
+    "texto": "Súmula 273"
+  },
+  {
+    "num": 274,
+    "id": "1550",
+    "status": "revogada",
+    "texto": "Súmula 274 (revogada)"
+  },
+  {
+    "num": 275,
+    "id": "3202",
+    "status": "vigente",
+    "texto": "Súmula 275"
+  },
+  {
+    "num": 276,
+    "id": "3204",
+    "status": "vigente",
+    "texto": "Súmula 276"
+  },
+  {
+    "num": 277,
+    "id": "1554",
+    "status": "vigente",
+    "texto": "Súmula 277"
+  },
+  {
+    "num": 278,
+    "id": "1552",
+    "status": "vigente",
+    "texto": "Súmula 278"
+  },
+  {
+    "num": 279,
+    "id": "2174",
+    "status": "vigente",
+    "texto": "Súmula 279"
+  },
+  {
+    "num": 280,
+    "id": "2173",
+    "status": "vigente",
+    "texto": "Súmula 280"
+  },
+  {
+    "num": 281,
+    "id": "2487",
+    "status": "vigente",
+    "texto": "Súmula 281"
+  },
+  {
+    "num": 282,
+    "id": "2496",
+    "status": "vigente",
+    "texto": "Súmula 282"
+  },
+  {
+    "num": 283,
+    "id": "2226",
+    "status": "vigente",
+    "texto": "Súmula 283"
+  },
+  {
+    "num": 284,
+    "id": "2230",
+    "status": "vigente",
+    "texto": "Súmula 284"
+  },
+  {
+    "num": 285,
+    "id": "4027",
+    "status": "vigente",
+    "texto": "Súmula 285"
+  },
+  {
+    "num": 286,
+    "id": "1556",
+    "status": "vigente",
+    "texto": "Súmula 286"
+  },
+  {
+    "num": 287,
+    "id": "2228",
+    "status": "vigente",
+    "texto": "Súmula 287"
+  },
+  {
+    "num": 288,
+    "id": "2259",
+    "status": "vigente",
+    "texto": "Súmula 288"
+  },
+  {
+    "num": 289,
+    "id": "2522",
+    "status": "vigente",
+    "texto": "Súmula 289"
+  },
+  {
+    "num": 290,
+    "id": "2553",
+    "status": "vigente",
+    "texto": "Súmula 290"
+  },
+  {
+    "num": 291,
+    "id": "2624",
+    "status": "vigente",
+    "texto": "Súmula 291"
+  },
+  {
+    "num": 292,
+    "id": "2567",
+    "status": "vigente",
+    "texto": "Súmula 292"
+  },
+  {
+    "num": 293,
+    "id": "2570",
+    "status": "vigente",
+    "texto": "Súmula 293"
+  },
+  {
+    "num": 294,
+    "id": "2573",
+    "status": "vigente",
+    "texto": "Súmula 294"
+  },
+  {
+    "num": 295,
+    "id": "2586",
+    "status": "vigente",
+    "texto": "Súmula 295"
+  },
+  {
+    "num": 296,
+    "id": "1558",
+    "status": "vigente",
+    "texto": "Súmula 296"
+  },
+  {
+    "num": 297,
+    "id": "1560",
+    "status": "vigente",
+    "texto": "Súmula 297"
+  },
+  {
+    "num": 298,
+    "id": "2440",
+    "status": "vigente",
+    "texto": "Súmula 298"
+  },
+  {
+    "num": 299,
+    "id": "2237",
+    "status": "vigente",
+    "texto": "Súmula 299"
+  },
+  {
+    "num": 300,
+    "id": "2593",
+    "status": "vigente",
+    "texto": "Súmula 300"
+  },
+  {
+    "num": 301,
+    "id": "1562",
+    "status": "cancelada",
+    "texto": "Súmula 301 (cancelada)"
+  },
+  {
+    "num": 302,
+    "id": "3207",
+    "status": "vigente",
+    "texto": "Súmula 302"
+  },
+  {
+    "num": 303,
+    "id": "3209",
+    "status": "vigente",
+    "texto": "Súmula 303"
+  },
+  {
+    "num": 304,
+    "id": "2598",
+    "status": "vigente",
+    "texto": "Súmula 304"
+  },
+  {
+    "num": 305,
+    "id": "1568",
+    "status": "vigente",
+    "texto": "Súmula 305"
+  },
+  {
+    "num": 306,
+    "id": "3213",
+    "status": "vigente",
+    "texto": "Súmula 306"
+  },
+  {
+    "num": 307,
+    "id": "3220",
+    "status": "vigente",
+    "texto": "Súmula 307"
+  },
+  {
+    "num": 308,
+    "id": "3222",
+    "status": "vigente",
+    "texto": "Súmula 308"
+  },
+  {
+    "num": 309,
+    "id": "3224",
+    "status": "vigente",
+    "texto": "Súmula 309"
+  },
+  {
+    "num": 310,
+    "id": "2600",
+    "status": "vigente",
+    "texto": "Súmula 310"
+  },
+  {
+    "num": 311,
+    "id": "3275",
+    "status": "vigente",
+    "texto": "Súmula 311"
+  },
+  {
+    "num": 312,
+    "id": "3277",
+    "status": "vigente",
+    "texto": "Súmula 312"
+  },
+  {
+    "num": 313,
+    "id": "3279",
+    "status": "vigente",
+    "texto": "Súmula 313"
+  },
+  {
+    "num": 314,
+    "id": "3281",
+    "status": "vigente",
+    "texto": "Súmula 314"
+  },
+  {
+    "num": 315,
+    "id": "3283",
+    "status": "vigente",
+    "texto": "Súmula 315"
+  },
+  {
+    "num": 316,
+    "id": "2332",
+    "status": "vigente",
+    "texto": "Súmula 316"
+  },
+  {
+    "num": 317,
+    "id": "2602",
+    "status": "vigente",
+    "texto": "Súmula 317"
+  },
+  {
+    "num": 318,
+    "id": "3285",
+    "status": "vigente",
+    "texto": "Súmula 318"
+  },
+  {
+    "num": 319,
+    "id": "1564",
+    "status": "vigente",
+    "texto": "Súmula 319"
+  },
+  {
+    "num": 320,
+    "id": "2769",
+    "status": "vigente",
+    "texto": "Súmula 320"
+  },
+  {
+    "num": 321,
+    "id": "1566",
+    "status": "vigente",
+    "texto": "Súmula 321"
+  },
+  {
+    "num": 322,
+    "id": "2622",
+    "status": "vigente",
+    "texto": "Súmula 322"
+  },
+  {
+    "num": 323,
+    "id": "2136",
+    "status": "vigente",
+    "texto": "Súmula 323"
+  },
+  {
+    "num": 324,
+    "id": "2145",
+    "status": "vigente",
+    "texto": "Súmula 324"
+  },
+  {
+    "num": 325,
+    "id": "3288",
+    "status": "vigente",
+    "texto": "Súmula 325"
+  },
+  {
+    "num": 326,
+    "id": "3290",
+    "status": "vigente",
+    "texto": "Súmula 326"
+  },
+  {
+    "num": 327,
+    "id": "1570",
+    "status": "vigente",
+    "texto": "Súmula 327"
+  },
+  {
+    "num": 328,
+    "id": "4044",
+    "status": "vigente",
+    "texto": "Súmula 328"
+  },
+  {
+    "num": 329,
+    "id": "3292",
+    "status": "vigente",
+    "texto": "Súmula 329"
+  },
+  {
+    "num": 330,
+    "id": "2626",
+    "status": "vigente",
+    "texto": "Súmula 330"
+  },
+  {
+    "num": 331,
+    "id": "3294",
+    "status": "vigente",
+    "texto": "Súmula 331"
+  },
+  {
+    "num": 332,
+    "id": "3296",
+    "status": "vigente",
+    "texto": "Súmula 332"
+  },
+  {
+    "num": 333,
+    "id": "3304",
+    "status": "vigente",
+    "texto": "Súmula 333"
+  },
+  {
+    "num": 334,
+    "id": "3306",
+    "status": "vigente",
+    "texto": "Súmula 334"
+  },
+  {
+    "num": 335,
+    "id": "3309",
+    "status": "vigente",
+    "texto": "Súmula 335"
+  },
+  {
+    "num": 336,
+    "id": "3311",
+    "status": "vigente",
+    "texto": "Súmula 336"
+  },
+  {
+    "num": 337,
+    "id": "3316",
+    "status": "vigente",
+    "texto": "Súmula 337"
+  },
+  {
+    "num": 338,
+    "id": "1572",
+    "status": "vigente",
+    "texto": "Súmula 338"
+  },
+  {
+    "num": 339,
+    "id": "1484",
+    "status": "vigente",
+    "texto": "Súmula 339"
+  },
+  {
+    "num": 340,
+    "id": "3319",
+    "status": "vigente",
+    "texto": "Súmula 340"
+  },
+  {
+    "num": 341,
+    "id": "2478",
+    "status": "vigente",
+    "texto": "Súmula 341"
+  },
+  {
+    "num": 342,
+    "id": "3321",
+    "status": "vigente",
+    "texto": "Súmula 342"
+  },
+  {
+    "num": 343,
+    "id": "1472",
+    "status": "vigente",
+    "texto": "Súmula 343"
+  },
+  {
+    "num": 344,
+    "id": "3323",
+    "status": "vigente",
+    "texto": "Súmula 344"
+  },
+  {
+    "num": 345,
+    "id": "1574",
+    "status": "vigente",
+    "texto": "Súmula 345"
+  },
+  {
+    "num": 346,
+    "id": "1576",
+    "status": "vigente",
+    "texto": "Súmula 346"
+  },
+  {
+    "num": 347,
+    "id": "2149",
+    "status": "vigente",
+    "texto": "Súmula 347"
+  },
+  {
+    "num": 348,
+    "id": "1578",
+    "status": "vigente",
+    "texto": "Súmula 348"
+  },
+  {
+    "num": 349,
+    "id": "3579",
+    "status": "vigente",
+    "texto": "Súmula 349"
+  },
+  {
+    "num": 350,
+    "id": "3581",
+    "status": "vigente",
+    "texto": "Súmula 350"
+  },
+  {
+    "num": 351,
+    "id": "2755",
+    "status": "vigente",
+    "texto": "Súmula 351"
+  },
+  {
+    "num": 352,
+    "id": "2759",
+    "status": "vigente",
+    "texto": "Súmula 352"
+  },
+  {
+    "num": 353,
+    "id": "1474",
+    "status": "vigente",
+    "texto": "Súmula 353"
+  },
+  {
+    "num": 354,
+    "id": "2630",
+    "status": "vigente",
+    "texto": "Súmula 354"
+  },
+  {
+    "num": 355,
+    "id": "1476",
+    "status": "vigente",
+    "texto": "Súmula 355"
+  },
+  {
+    "num": 356,
+    "id": "2648",
+    "status": "vigente",
+    "texto": "Súmula 356"
+  },
+  {
+    "num": 357,
+    "id": "3583",
+    "status": "vigente",
+    "texto": "Súmula 357"
+  },
+  {
+    "num": 358,
+    "id": "2079",
+    "status": "vigente",
+    "texto": "Súmula 358"
+  },
+  {
+    "num": 359,
+    "id": "1580",
+    "status": "alterada",
+    "texto": "Súmula 359 (alterada)"
+  },
+  {
+    "num": 360,
+    "id": "1979",
+    "status": "vigente",
+    "texto": "Súmula 360"
+  },
+  {
+    "num": 361,
+    "id": "2737",
+    "status": "vigente",
+    "texto": "Súmula 361"
+  },
+  {
+    "num": 362,
+    "id": "3585",
+    "status": "vigente",
+    "texto": "Súmula 362"
+  },
+  {
+    "num": 363,
+    "id": "3587",
+    "status": "vigente",
+    "texto": "Súmula 363"
+  },
+  {
+    "num": 364,
+    "id": "3639",
+    "status": "vigente",
+    "texto": "Súmula 364"
+  },
+  {
+    "num": 365,
+    "id": "2667",
+    "status": "vigente",
+    "texto": "Súmula 365"
+  },
+  {
+    "num": 366,
+    "id": "2739",
+    "status": "vigente",
+    "texto": "Súmula 366"
+  },
+  {
+    "num": 367,
+    "id": "2292",
+    "status": "vigente",
+    "texto": "Súmula 367"
+  },
+  {
+    "num": 368,
+    "id": "2673",
+    "status": "vigente",
+    "texto": "Súmula 368"
+  },
+  {
+    "num": 369,
+    "id": "1582",
+    "status": "vigente",
+    "texto": "Súmula 369"
+  },
+  {
+    "num": 370,
+    "id": "1584",
+    "status": "vigente",
+    "texto": "Súmula 370"
+  },
+  {
+    "num": 371,
+    "id": "3643",
+    "status": "vigente",
+    "texto": "Súmula 371"
+  },
+  {
+    "num": 372,
+    "id": "2415",
+    "status": "vigente",
+    "texto": "Súmula 372"
+  },
+  {
+    "num": 373,
+    "id": "3738",
+    "status": "vigente",
+    "texto": "Súmula 373"
+  },
+  {
+    "num": 374,
+    "id": "4020",
+    "status": "vigente",
+    "texto": "Súmula 374"
+  },
+  {
+    "num": 375,
+    "id": "4046",
+    "status": "vigente",
+    "texto": "Súmula 375"
+  },
+  {
+    "num": 376,
+    "id": "4048",
+    "status": "vigente",
+    "texto": "Súmula 376"
+  },
+  {
+    "num": 377,
+    "id": "4022",
+    "status": "vigente",
+    "texto": "Súmula 377"
+  },
+  {
+    "num": 378,
+    "id": "4050",
+    "status": "vigente",
+    "texto": "Súmula 378"
+  },
+  {
+    "num": 379,
+    "id": "4052",
+    "status": "vigente",
+    "texto": "Súmula 379"
+  },
+  {
+    "num": 380,
+    "id": "2482",
+    "status": "vigente",
+    "texto": "Súmula 380"
+  },
+  {
+    "num": 381,
+    "id": "4054",
+    "status": "vigente",
+    "texto": "Súmula 381"
+  },
+  {
+    "num": 382,
+    "id": "2488",
+    "status": "vigente",
+    "texto": "Súmula 382"
+  },
+  {
+    "num": 383,
+    "id": "2533",
+    "status": "vigente",
+    "texto": "Súmula 383"
+  },
+  {
+    "num": 384,
+    "id": "4056",
+    "status": "vigente",
+    "texto": "Súmula 384"
+  },
+  {
+    "num": 385,
+    "id": "4058",
+    "status": "vigente",
+    "texto": "Súmula 385"
+  },
+  {
+    "num": 386,
+    "id": "4060",
+    "status": "vigente",
+    "texto": "Súmula 386"
+  },
+  {
+    "num": 387,
+    "id": "4062",
+    "status": "vigente",
+    "texto": "Súmula 387"
+  },
+  {
+    "num": 388,
+    "id": "1586",
+    "status": "revogada",
+    "texto": "Súmula 388 (revogada)"
+  },
+  {
+    "num": 389,
+    "id": "2675",
+    "status": "vigente",
+    "texto": "Súmula 389"
+  },
+  {
+    "num": 390,
+    "id": "4064",
+    "status": "vigente",
+    "texto": "Súmula 390"
+  },
+  {
+    "num": 391,
+    "id": "4066",
+    "status": "vigente",
+    "texto": "Súmula 391"
+  },
+  {
+    "num": 392,
+    "id": "4068",
+    "status": "vigente",
+    "texto": "Súmula 392"
+  },
+  {
+    "num": 393,
+    "id": "2741",
+    "status": "vigente",
+    "texto": "Súmula 393"
+  },
+  {
+    "num": 394,
+    "id": "1588",
+    "status": "cancelada",
+    "texto": "Súmula 394 (cancelada)"
+  },
+  {
+    "num": 395,
+    "id": "2761",
+    "status": "vigente",
+    "texto": "Súmula 395"
+  },
+  {
+    "num": 396,
+    "id": "1590",
+    "status": "vigente",
+    "texto": "Súmula 396"
+  },
+  {
+    "num": 397,
+    "id": "4070",
+    "status": "vigente",
+    "texto": "Súmula 397"
+  },
+  {
+    "num": 398,
+    "id": "1592",
+    "status": "vigente",
+    "texto": "Súmula 398"
+  },
+  {
+    "num": 399,
+    "id": "2677",
+    "status": "vigente",
+    "texto": "Súmula 399"
+  },
+  {
+    "num": 400,
+    "id": "1478",
+    "status": "vigente",
+    "texto": "Súmula 400"
+  },
+  {
+    "num": 401,
+    "id": "4275",
+    "status": "vigente",
+    "texto": "Súmula 401"
+  },
+  {
+    "num": 402,
+    "id": "4277",
+    "status": "vigente",
+    "texto": "Súmula 402"
+  },
+  {
+    "num": 403,
+    "id": "4280",
+    "status": "vigente",
+    "texto": "Súmula 403"
+  },
+  {
+    "num": 404,
+    "id": "2235",
+    "status": "vigente",
+    "texto": "Súmula 404"
+  },
+  {
+    "num": 405,
+    "id": "2679",
+    "status": "vigente",
+    "texto": "Súmula 405"
+  },
+  {
+    "num": 406,
+    "id": "4229",
+    "status": "vigente",
+    "texto": "Súmula 406"
+  },
+  {
+    "num": 407,
+    "id": "4249",
+    "status": "vigente",
+    "texto": "Súmula 407"
+  },
+  {
+    "num": 408,
+    "id": "4252",
+    "status": "vigente",
+    "texto": "Súmula 408"
+  },
+  {
+    "num": 409,
+    "id": "4072",
+    "status": "vigente",
+    "texto": "Súmula 409"
+  },
+  {
+    "num": 410,
+    "id": "4074",
+    "status": "vigente",
+    "texto": "Súmula 410"
+  },
+  {
+    "num": 411,
+    "id": "4076",
+    "status": "vigente",
+    "texto": "Súmula 411"
+  },
+  {
+    "num": 412,
+    "id": "4086",
+    "status": "vigente",
+    "texto": "Súmula 412"
+  },
+  {
+    "num": 413,
+    "id": "4088",
+    "status": "vigente",
+    "texto": "Súmula 413"
+  },
+  {
+    "num": 414,
+    "id": "4090",
+    "status": "vigente",
+    "texto": "Súmula 414"
+  },
+  {
+    "num": 415,
+    "id": "4092",
+    "status": "vigente",
+    "texto": "Súmula 415"
+  },
+  {
+    "num": 416,
+    "id": "4282",
+    "status": "vigente",
+    "texto": "Súmula 416"
+  },
+  {
+    "num": 417,
+    "id": "4284",
+    "status": "vigente",
+    "texto": "Súmula 417"
+  },
+  {
+    "num": 418,
+    "id": "1594",
+    "status": "vigente",
+    "texto": "Súmula 418"
+  },
+  {
+    "num": 419,
+    "id": "2525",
+    "status": "vigente",
+    "texto": "Súmula 419"
+  },
+  {
+    "num": 420,
+    "id": "4286",
+    "status": "vigente",
+    "texto": "Súmula 420"
+  },
+  {
+    "num": 421,
+    "id": "2334",
+    "status": "vigente",
+    "texto": "Súmula 421"
+  },
+  {
+    "num": 422,
+    "id": "4288",
+    "status": "vigente",
+    "texto": "Súmula 422"
+  },
+  {
+    "num": 423,
+    "id": "2681",
+    "status": "vigente",
+    "texto": "Súmula 423"
+  },
+  {
+    "num": 424,
+    "id": "4291",
+    "status": "vigente",
+    "texto": "Súmula 424"
+  },
+  {
+    "num": 425,
+    "id": "2767",
+    "status": "vigente",
+    "texto": "Súmula 425"
+  },
+  {
+    "num": 426,
+    "id": "4231",
+    "status": "vigente",
+    "texto": "Súmula 426"
+  },
+  {
+    "num": 427,
+    "id": "1596",
+    "status": "vigente",
+    "texto": "Súmula 427"
+  },
+  {
+    "num": 428,
+    "id": "2765",
+    "status": "vigente",
+    "texto": "Súmula 428"
+  },
+  {
+    "num": 429,
+    "id": "4262",
+    "status": "vigente",
+    "texto": "Súmula 429"
+  },
+  {
+    "num": 430,
+    "id": "2771",
+    "status": "vigente",
+    "texto": "Súmula 430"
+  },
+  {
+    "num": 431,
+    "id": "2763",
+    "status": "vigente",
+    "texto": "Súmula 431"
+  },
+  {
+    "num": 432,
+    "id": "1598",
+    "status": "vigente",
+    "texto": "Súmula 432"
+  },
+  {
+    "num": 433,
+    "id": "4255",
+    "status": "vigente",
+    "texto": "Súmula 433"
+  },
+  {
+    "num": 434,
+    "id": "4260",
+    "status": "vigente",
+    "texto": "Súmula 434"
+  },
+  {
+    "num": 435,
+    "id": "4233",
+    "status": "vigente",
+    "texto": "Súmula 435"
+  },
+  {
+    "num": 436,
+    "id": "2278",
+    "status": "vigente",
+    "texto": "Súmula 436"
+  },
+  {
+    "num": 437,
+    "id": "4235",
+    "status": "vigente",
+    "texto": "Súmula 437"
+  },
+  {
+    "num": 438,
+    "id": "4237",
+    "status": "vigente",
+    "texto": "Súmula 438"
+  },
+  {
+    "num": 439,
+    "id": "4293",
+    "status": "vigente",
+    "texto": "Súmula 439"
+  },
+  {
+    "num": 440,
+    "id": "4239",
+    "status": "vigente",
+    "texto": "Súmula 440"
+  },
+  {
+    "num": 441,
+    "id": "4241",
+    "status": "vigente",
+    "texto": "Súmula 441"
+  },
+  {
+    "num": 442,
+    "id": "4295",
+    "status": "vigente",
+    "texto": "Súmula 442"
+  },
+  {
+    "num": 443,
+    "id": "2535",
+    "status": "vigente",
+    "texto": "Súmula 443"
+  },
+  {
+    "num": 444,
+    "id": "4243",
+    "status": "vigente",
+    "texto": "Súmula 444"
+  },
+  {
+    "num": 445,
+    "id": "2564",
+    "status": "vigente",
+    "texto": "Súmula 445"
+  },
+  {
+    "num": 446,
+    "id": "4245",
+    "status": "vigente",
+    "texto": "Súmula 446"
+  },
+  {
+    "num": 447,
+    "id": "3113",
+    "status": "vigente",
+    "texto": "Súmula 447"
+  },
+  {
+    "num": 448,
+    "id": "1600",
+    "status": "vigente",
+    "texto": "Súmula 448"
+  },
+  {
+    "num": 449,
+    "id": "3115",
+    "status": "vigente",
+    "texto": "Súmula 449"
+  },
+  {
+    "num": 450,
+    "id": "3117",
+    "status": "vigente",
+    "texto": "Súmula 450"
+  },
+  {
+    "num": 451,
+    "id": "2035",
+    "status": "vigente",
+    "texto": "Súmula 451"
+  },
+  {
+    "num": 452,
+    "id": "3118",
+    "status": "vigente",
+    "texto": "Súmula 452"
+  },
+  {
+    "num": 453,
+    "id": "2735",
+    "status": "vigente",
+    "texto": "Súmula 453"
+  },
+  {
+    "num": 454,
+    "id": "2180",
+    "status": "vigente",
+    "texto": "Súmula 454"
+  },
+  {
+    "num": 455,
+    "id": "2821",
+    "status": "vigente",
+    "texto": "Súmula 455"
+  },
+  {
+    "num": 456,
+    "id": "2805",
+    "status": "vigente",
+    "texto": "Súmula 456"
+  },
+  {
+    "num": 457,
+    "id": "2325",
+    "status": "vigente",
+    "texto": "Súmula 457"
+  },
+  {
+    "num": 458,
+    "id": "3121",
+    "status": "vigente",
+    "texto": "Súmula 458"
+  },
+  {
+    "num": 459,
+    "id": "3123",
+    "status": "vigente",
+    "texto": "Súmula 459"
+  },
+  {
+    "num": 460,
+    "id": "3124",
+    "status": "vigente",
+    "texto": "Súmula 460"
+  },
+  {
+    "num": 461,
+    "id": "2330",
+    "status": "vigente",
+    "texto": "Súmula 461"
+  },
+  {
+    "num": 462,
+    "id": "3126",
+    "status": "vigente",
+    "texto": "Súmula 462"
+  },
+  {
+    "num": 463,
+    "id": "3127",
+    "status": "vigente",
+    "texto": "Súmula 463"
+  },
+  {
+    "num": 464,
+    "id": "3128",
+    "status": "vigente",
+    "texto": "Súmula 464"
+  },
+  {
+    "num": 465,
+    "id": "3125",
+    "status": "vigente",
+    "texto": "Súmula 465"
+  },
+  {
+    "num": 466,
+    "id": "3151",
+    "status": "vigente",
+    "texto": "Súmula 466"
+  },
+  {
+    "num": 467,
+    "id": "3152",
+    "status": "vigente",
+    "texto": "Súmula 467"
+  },
+  {
+    "num": 468,
+    "id": "3153",
+    "status": "vigente",
+    "texto": "Súmula 468"
+  },
+  {
+    "num": 469,
+    "id": "3154",
+    "status": "vigente",
+    "texto": "Súmula 469"
+  },
+  {
+    "num": 470,
+    "id": "2153",
+    "status": "vigente",
+    "texto": "Súmula 470"
+  },
+  {
+    "num": 471,
+    "id": "3166",
+    "status": "vigente",
+    "texto": "Súmula 471"
+  },
+  {
+    "num": 472,
+    "id": "3167",
+    "status": "vigente",
+    "texto": "Súmula 472"
+  },
+  {
+    "num": 473,
+    "id": "1602",
+    "status": "vigente",
+    "texto": "Súmula 473"
+  },
+  {
+    "num": 474,
+    "id": "4029",
+    "status": "vigente",
+    "texto": "Súmula 474"
+  },
+  {
+    "num": 475,
+    "id": "4031",
+    "status": "vigente",
+    "texto": "Súmula 475"
+  },
+  {
+    "num": 476,
+    "id": "4032",
+    "status": "vigente",
+    "texto": "Súmula 476"
+  },
+  {
+    "num": 477,
+    "id": "4033",
+    "status": "vigente",
+    "texto": "Súmula 477"
+  },
+  {
+    "num": 478,
+    "id": "4034",
+    "status": "vigente",
+    "texto": "Súmula 478"
+  },
+  {
+    "num": 479,
+    "id": "2516",
+    "status": "vigente",
+    "texto": "Súmula 479"
+  },
+  {
+    "num": 480,
+    "id": "2537",
+    "status": "vigente",
+    "texto": "Súmula 480"
+  },
+  {
+    "num": 481,
+    "id": "3093",
+    "status": "vigente",
+    "texto": "Súmula 481"
+  },
+  {
+    "num": 482,
+    "id": "3094",
+    "status": "vigente",
+    "texto": "Súmula 482"
+  },
+  {
+    "num": 483,
+    "id": "3052",
+    "status": "vigente",
+    "texto": "Súmula 483"
+  },
+  {
+    "num": 484,
+    "id": "3084",
+    "status": "vigente",
+    "texto": "Súmula 484"
+  },
+  {
+    "num": 485,
+    "id": "3064",
+    "status": "vigente",
+    "texto": "Súmula 485"
+  },
+  {
+    "num": 486,
+    "id": "3087",
+    "status": "vigente",
+    "texto": "Súmula 486"
+  },
+  {
+    "num": 487,
+    "id": "2576",
+    "status": "vigente",
+    "texto": "Súmula 487"
+  },
+  {
+    "num": 488,
+    "id": "3091",
+    "status": "vigente",
+    "texto": "Súmula 488"
+  },
+  {
+    "num": 489,
+    "id": "2591",
+    "status": "vigente",
+    "texto": "Súmula 489"
+  },
+  {
+    "num": 490,
+    "id": "2620",
+    "status": "vigente",
+    "texto": "Súmula 490"
+  },
+  {
+    "num": 491,
+    "id": "3055",
+    "status": "vigente",
+    "texto": "Súmula 491"
+  },
+  {
+    "num": 492,
+    "id": "2628",
+    "status": "vigente",
+    "texto": "Súmula 492"
+  },
+  {
+    "num": 493,
+    "id": "3095",
+    "status": "vigente",
+    "texto": "Súmula 493"
+  },
+  {
+    "num": 494,
+    "id": "3099",
+    "status": "vigente",
+    "texto": "Súmula 494"
+  },
+  {
+    "num": 495,
+    "id": "3100",
+    "status": "vigente",
+    "texto": "Súmula 495"
+  },
+  {
+    "num": 496,
+    "id": "2156",
+    "status": "vigente",
+    "texto": "Súmula 496"
+  },
+  {
+    "num": 497,
+    "id": "2108",
+    "status": "vigente",
+    "texto": "Súmula 497"
+  },
+  {
+    "num": 498,
+    "id": "4040",
+    "status": "vigente",
+    "texto": "Súmula 498"
+  },
+  {
+    "num": 499,
+    "id": "3104",
+    "status": "vigente",
+    "texto": "Súmula 499"
+  },
+  {
+    "num": 500,
+    "id": "3105",
+    "status": "vigente",
+    "texto": "Súmula 500"
+  },
+  {
+    "num": 501,
+    "id": "1604",
+    "status": "vigente",
+    "texto": "Súmula 501"
+  },
+  {
+    "num": 502,
+    "id": "1606",
+    "status": "vigente",
+    "texto": "Súmula 502"
+  },
+  {
+    "num": 503,
+    "id": "2310",
+    "status": "vigente",
+    "texto": "Súmula 503"
+  },
+  {
+    "num": 504,
+    "id": "3108",
+    "status": "vigente",
+    "texto": "Súmula 504"
+  },
+  {
+    "num": 505,
+    "id": "2656",
+    "status": "vigente",
+    "texto": "Súmula 505"
+  },
+  {
+    "num": 506,
+    "id": "1531",
+    "status": "vigente",
+    "texto": "Súmula 506"
+  },
+  {
+    "num": 507,
+    "id": "3109",
+    "status": "vigente",
+    "texto": "Súmula 507"
+  },
+  {
+    "num": 508,
+    "id": "2658",
+    "status": "vigente",
+    "texto": "Súmula 508"
+  },
+  {
+    "num": 509,
+    "id": "4039",
+    "status": "vigente",
+    "texto": "Súmula 509"
+  },
+  {
+    "num": 510,
+    "id": "2671",
+    "status": "vigente",
+    "texto": "Súmula 510"
+  },
+  {
+    "num": 511,
+    "id": "2712",
+    "status": "vigente",
+    "texto": "Súmula 511"
+  },
+  {
+    "num": 512,
+    "id": "2685",
+    "status": "vigente",
+    "texto": "Súmula 512"
+  },
+  {
+    "num": 513,
+    "id": "2687",
+    "status": "vigente",
+    "texto": "Súmula 513"
+  },
+  {
+    "num": 514,
+    "id": "2692",
+    "status": "vigente",
+    "texto": "Súmula 514"
+  },
+  {
+    "num": 515,
+    "id": "2696",
+    "status": "vigente",
+    "texto": "Súmula 515"
+  },
+  {
+    "num": 516,
+    "id": "2484",
+    "status": "vigente",
+    "texto": "Súmula 516"
+  },
+  {
+    "num": 517,
+    "id": "2054",
+    "status": "vigente",
+    "texto": "Súmula 517"
+  },
+  {
+    "num": 518,
+    "id": "2703",
+    "status": "vigente",
+    "texto": "Súmula 518"
+  },
+  {
+    "num": 519,
+    "id": "3256",
+    "status": "vigente",
+    "texto": "Súmula 519"
+  },
+  {
+    "num": 520,
+    "id": "3260",
+    "status": "vigente",
+    "texto": "Súmula 520"
+  },
+  {
+    "num": 521,
+    "id": "2725",
+    "status": "vigente",
+    "texto": "Súmula 521"
+  },
+  {
+    "num": 522,
+    "id": "2727",
+    "status": "vigente",
+    "texto": "Súmula 522"
+  },
+  {
+    "num": 523,
+    "id": "2729",
+    "status": "vigente",
+    "texto": "Súmula 523"
+  },
+  {
+    "num": 524,
+    "id": "2731",
+    "status": "vigente",
+    "texto": "Súmula 524"
+  },
+  {
+    "num": 525,
+    "id": "2595",
+    "status": "vigente",
+    "texto": "Súmula 525"
+  },
+  {
+    "num": 526,
+    "id": "3263",
+    "status": "vigente",
+    "texto": "Súmula 526"
+  },
+  {
+    "num": 527,
+    "id": "3264",
+    "status": "vigente",
+    "texto": "Súmula 527"
+  },
+  {
+    "num": 528,
+    "id": "2791",
+    "status": "vigente",
+    "texto": "Súmula 528"
+  },
+  {
+    "num": 529,
+    "id": "3270",
+    "status": "vigente",
+    "texto": "Súmula 529"
+  },
+  {
+    "num": 530,
+    "id": "2420",
+    "status": "vigente",
+    "texto": "Súmula 530"
+  },
+  {
+    "num": 531,
+    "id": "2318",
+    "status": "vigente",
+    "texto": "Súmula 531"
+  },
+  {
+    "num": 532,
+    "id": "3327",
+    "status": "vigente",
+    "texto": "Súmula 532"
+  },
+  {
+    "num": 533,
+    "id": "3328",
+    "status": "vigente",
+    "texto": "Súmula 533"
+  },
+  {
+    "num": 534,
+    "id": "3330",
+    "status": "vigente",
+    "texto": "Súmula 534"
+  },
+  {
+    "num": 535,
+    "id": "3331",
+    "status": "vigente",
+    "texto": "Súmula 535"
+  },
+  {
+    "num": 536,
+    "id": "2286",
+    "status": "vigente",
+    "texto": "Súmula 536"
+  },
+  {
+    "num": 537,
+    "id": "3336",
+    "status": "vigente",
+    "texto": "Súmula 537"
+  },
+  {
+    "num": 538,
+    "id": "3337",
+    "status": "vigente",
+    "texto": "Súmula 538"
+  },
+  {
+    "num": 539,
+    "id": "3338",
+    "status": "vigente",
+    "texto": "Súmula 539"
+  },
+  {
+    "num": 540,
+    "id": "3339",
+    "status": "vigente",
+    "texto": "Súmula 540"
+  },
+  {
+    "num": 541,
+    "id": "2165",
+    "status": "vigente",
+    "texto": "Súmula 541"
+  },
+  {
+    "num": 542,
+    "id": "3345",
+    "status": "vigente",
+    "texto": "Súmula 542"
+  },
+  {
+    "num": 543,
+    "id": "3344",
+    "status": "vigente",
+    "texto": "Súmula 543"
+  },
+  {
+    "num": 544,
+    "id": "2283",
+    "status": "vigente",
+    "texto": "Súmula 544"
+  },
+  {
+    "num": 545,
+    "id": "2346",
+    "status": "vigente",
+    "texto": "Súmula 545"
+  },
+  {
+    "num": 546,
+    "id": "2210",
+    "status": "vigente",
+    "texto": "Súmula 546"
+  },
+  {
+    "num": 547,
+    "id": "2201",
+    "status": "vigente",
+    "texto": "Súmula 547"
+  },
+  {
+    "num": 548,
+    "id": "3346",
+    "status": "vigente",
+    "texto": "Súmula 548"
+  },
+  {
+    "num": 549,
+    "id": "1608",
+    "status": "vigente",
+    "texto": "Súmula 549"
+  },
+  {
+    "num": 550,
+    "id": "3351",
+    "status": "vigente",
+    "texto": "Súmula 550"
+  },
+  {
+    "num": 551,
+    "id": "3406",
+    "status": "vigente",
+    "texto": "Súmula 551"
+  },
+  {
+    "num": 552,
+    "id": "1610",
+    "status": "vigente",
+    "texto": "Súmula 552"
+  },
+  {
+    "num": 553,
+    "id": "2405",
+    "status": "vigente",
+    "texto": "Súmula 553"
+  },
+  {
+    "num": 554,
+    "id": "2733",
+    "status": "vigente",
+    "texto": "Súmula 554"
+  },
+  {
+    "num": 555,
+    "id": "1612",
+    "status": "vigente",
+    "texto": "Súmula 555"
+  },
+  {
+    "num": 556,
+    "id": "2793",
+    "status": "vigente",
+    "texto": "Súmula 556"
+  },
+  {
+    "num": 557,
+    "id": "3407",
+    "status": "vigente",
+    "texto": "Súmula 557"
+  },
+  {
+    "num": 558,
+    "id": "3411",
+    "status": "vigente",
+    "texto": "Súmula 558"
+  },
+  {
+    "num": 559,
+    "id": "3412",
+    "status": "vigente",
+    "texto": "Súmula 559"
+  },
+  {
+    "num": 560,
+    "id": "2584",
+    "status": "vigente",
+    "texto": "Súmula 560"
+  },
+  {
+    "num": 561,
+    "id": "2518",
+    "status": "vigente",
+    "texto": "Súmula 561"
+  },
+  {
+    "num": 562,
+    "id": "2589",
+    "status": "vigente",
+    "texto": "Súmula 562"
+  },
+  {
+    "num": 563,
+    "id": "2403",
+    "status": "cancelada",
+    "texto": "Súmula 563 (cancelada)"
+  },
+  {
+    "num": 564,
+    "id": "2777",
+    "status": "vigente",
+    "texto": "Súmula 564"
+  },
+  {
+    "num": 565,
+    "id": "2033",
+    "status": "vigente",
+    "texto": "Súmula 565"
+  },
+  {
+    "num": 566,
+    "id": "3425",
+    "status": "vigente",
+    "texto": "Súmula 566"
+  },
+  {
+    "num": 567,
+    "id": "2542",
+    "status": "vigente",
+    "texto": "Súmula 567"
+  },
+  {
+    "num": 568,
+    "id": "4016",
+    "status": "vigente",
+    "texto": "Súmula 568"
+  },
+  {
+    "num": 569,
+    "id": "2401",
+    "status": "vigente",
+    "texto": "Súmula 569"
+  },
+  {
+    "num": 570,
+    "id": "1614",
+    "status": "vigente",
+    "texto": "Súmula 570"
+  },
+  {
+    "num": 571,
+    "id": "2320",
+    "status": "vigente",
+    "texto": "Súmula 571"
+  },
+  {
+    "num": 572,
+    "id": "3534",
+    "status": "vigente",
+    "texto": "Súmula 572"
+  },
+  {
+    "num": 573,
+    "id": "2339",
+    "status": "vigente",
+    "texto": "Súmula 573"
+  },
+  {
+    "num": 574,
+    "id": "2393",
+    "status": "vigente",
+    "texto": "Súmula 574"
+  },
+  {
+    "num": 575,
+    "id": "2394",
+    "status": "vigente",
+    "texto": "Súmula 575"
+  },
+  {
+    "num": 576,
+    "id": "2395",
+    "status": "vigente",
+    "texto": "Súmula 576"
+  },
+  {
+    "num": 577,
+    "id": "1616",
+    "status": "vigente",
+    "texto": "Súmula 577"
+  },
+  {
+    "num": 578,
+    "id": "2162",
+    "status": "vigente",
+    "texto": "Súmula 578"
+  },
+  {
+    "num": 579,
+    "id": "3539",
+    "status": "vigente",
+    "texto": "Súmula 579"
+  },
+  {
+    "num": 580,
+    "id": "3543",
+    "status": "vigente",
+    "texto": "Súmula 580"
+  },
+  {
+    "num": 581,
+    "id": "3542",
+    "status": "vigente",
+    "texto": "Súmula 581"
+  },
+  {
+    "num": 582,
+    "id": "3552",
+    "status": "vigente",
+    "texto": "Súmula 582"
+  },
+  {
+    "num": 583,
+    "id": "2306",
+    "status": "vigente",
+    "texto": "Súmula 583"
+  },
+  {
+    "num": 584,
+    "id": "2304",
+    "status": "cancelada",
+    "texto": "Súmula 584 (cancelada)"
+  },
+  {
+    "num": 585,
+    "id": "1618",
+    "status": "vigente",
+    "texto": "Súmula 585"
+  },
+  {
+    "num": 586,
+    "id": "3546",
+    "status": "vigente",
+    "texto": "Súmula 586"
+  },
+  {
+    "num": 587,
+    "id": "3547",
+    "status": "vigente",
+    "texto": "Súmula 587"
+  },
+  {
+    "num": 588,
+    "id": "2410",
+    "status": "vigente",
+    "texto": "Súmula 588"
+  },
+  {
+    "num": 589,
+    "id": "2300",
+    "status": "vigente",
+    "texto": "Súmula 589"
+  },
+  {
+    "num": 590,
+    "id": "3556",
+    "status": "vigente",
+    "texto": "Súmula 590"
+  },
+  {
+    "num": 591,
+    "id": "2298",
+    "status": "vigente",
+    "texto": "Súmula 591"
+  },
+  {
+    "num": 592,
+    "id": "3563",
+    "status": "vigente",
+    "texto": "Súmula 592"
+  },
+  {
+    "num": 593,
+    "id": "3575",
+    "status": "vigente",
+    "texto": "Súmula 593"
+  },
+  {
+    "num": 594,
+    "id": "2757",
+    "status": "vigente",
+    "texto": "Súmula 594"
+  },
+  {
+    "num": 595,
+    "id": "2296",
+    "status": "vigente",
+    "texto": "Súmula 595"
+  },
+  {
+    "num": 596,
+    "id": "2017",
+    "status": "vigente",
+    "texto": "Súmula 596"
+  },
+  {
+    "num": 597,
+    "id": "2795",
+    "status": "vigente",
+    "texto": "Súmula 597"
+  },
+  {
+    "num": 598,
+    "id": "2799",
+    "status": "vigente",
+    "texto": "Súmula 598"
+  },
+  {
+    "num": 599,
+    "id": "1527",
+    "status": "cancelada",
+    "texto": "Súmula 599 (cancelada)"
+  },
+  {
+    "num": 600,
+    "id": "3577",
+    "status": "vigente",
+    "texto": "Súmula 600"
+  },
+  {
+    "num": 601,
+    "id": "3589",
+    "status": "vigente",
+    "texto": "Súmula 601"
+  },
+  {
+    "num": 602,
+    "id": "1620",
+    "status": "vigente",
+    "texto": "Súmula 602"
+  },
+  {
+    "num": 603,
+    "id": "2683",
+    "status": "vigente",
+    "texto": "Súmula 603"
+  },
+  {
+    "num": 604,
+    "id": "3591",
+    "status": "vigente",
+    "texto": "Súmula 604"
+  },
+  {
+    "num": 605,
+    "id": "1622",
+    "status": "vigente",
+    "texto": "Súmula 605"
+  },
+  {
+    "num": 606,
+    "id": "2290",
+    "status": "vigente",
+    "texto": "Súmula 606"
+  },
+  {
+    "num": 607,
+    "id": "2689",
+    "status": "vigente",
+    "texto": "Súmula 607"
+  },
+  {
+    "num": 608,
+    "id": "2694",
+    "status": "vigente",
+    "texto": "Súmula 608"
+  },
+  {
+    "num": 609,
+    "id": "2700",
+    "status": "vigente",
+    "texto": "Súmula 609"
+  },
+  {
+    "num": 610,
+    "id": "2562",
+    "status": "vigente",
+    "texto": "Súmula 610"
+  },
+  {
+    "num": 611,
+    "id": "2560",
+    "status": "vigente",
+    "texto": "Súmula 611"
+  },
+  {
+    "num": 612,
+    "id": "3593",
+    "status": "vigente",
+    "texto": "Súmula 612"
+  },
+  {
+    "num": 613,
+    "id": "3595",
+    "status": "vigente",
+    "texto": "Súmula 613"
+  },
+  {
+    "num": 614,
+    "id": "3596",
+    "status": "vigente",
+    "texto": "Súmula 614"
+  },
+  {
+    "num": 615,
+    "id": "2280",
+    "status": "vigente",
+    "texto": "Súmula 615"
+  },
+  {
+    "num": 616,
+    "id": "3616",
+    "status": "vigente",
+    "texto": "Súmula 616"
+  },
+  {
+    "num": 617,
+    "id": "2527",
+    "status": "vigente",
+    "texto": "Súmula 617"
+  },
+  {
+    "num": 618,
+    "id": "2191",
+    "status": "vigente",
+    "texto": "Súmula 618"
+  },
+  {
+    "num": 619,
+    "id": "1523",
+    "status": "revogada",
+    "texto": "Súmula 619 (revogada)"
+  },
+  {
+    "num": 620,
+    "id": "3617",
+    "status": "vigente",
+    "texto": "Súmula 620"
+  },
+  {
+    "num": 621,
+    "id": "1624",
+    "status": "vigente",
+    "texto": "Súmula 621"
+  },
+  {
+    "num": 622,
+    "id": "1626",
+    "status": "vigente",
+    "texto": "Súmula 622"
+  },
+  {
+    "num": 623,
+    "id": "2813",
+    "status": "vigente",
+    "texto": "Súmula 623"
+  },
+  {
+    "num": 624,
+    "id": "2815",
+    "status": "vigente",
+    "texto": "Súmula 624"
+  },
+  {
+    "num": 625,
+    "id": "2817",
+    "status": "vigente",
+    "texto": "Súmula 625"
+  },
+  {
+    "num": 626,
+    "id": "2819",
+    "status": "vigente",
+    "texto": "Súmula 626"
+  },
+  {
+    "num": 627,
+    "id": "2824",
+    "status": "vigente",
+    "texto": "Súmula 627"
+  },
+  {
+    "num": 628,
+    "id": "2168",
+    "status": "vigente",
+    "texto": "Súmula 628"
+  },
+  {
+    "num": 629,
+    "id": "2826",
+    "status": "vigente",
+    "texto": "Súmula 629"
+  },
+  {
+    "num": 630,
+    "id": "2828",
+    "status": "vigente",
+    "texto": "Súmula 630"
+  },
+  {
+    "num": 631,
+    "id": "2830",
+    "status": "vigente",
+    "texto": "Súmula 631"
+  },
+  {
+    "num": 632,
+    "id": "2832",
+    "status": "vigente",
+    "texto": "Súmula 632"
+  },
+  {
+    "num": 633,
+    "id": "2302",
+    "status": "vigente",
+    "texto": "Súmula 633"
+  },
+  {
+    "num": 634,
+    "id": "2023",
+    "status": "vigente",
+    "texto": "Súmula 634"
+  },
+  {
+    "num": 635,
+    "id": "2026",
+    "status": "vigente",
+    "texto": "Súmula 635"
+  },
+  {
+    "num": 636,
+    "id": "2836",
+    "status": "vigente",
+    "texto": "Súmula 636"
+  },
+  {
+    "num": 637,
+    "id": "2803",
+    "status": "vigente",
+    "texto": "Súmula 637"
+  },
+  {
+    "num": 638,
+    "id": "2801",
+    "status": "vigente",
+    "texto": "Súmula 638"
+  },
+  {
+    "num": 639,
+    "id": "2811",
+    "status": "vigente",
+    "texto": "Súmula 639"
+  },
+  {
+    "num": 640,
+    "id": "2787",
+    "status": "vigente",
+    "texto": "Súmula 640"
+  },
+  {
+    "num": 641,
+    "id": "2797",
+    "status": "vigente",
+    "texto": "Súmula 641"
+  },
+  {
+    "num": 642,
+    "id": "3618",
+    "status": "vigente",
+    "texto": "Súmula 642"
+  },
+  {
+    "num": 643,
+    "id": "2784",
+    "status": "vigente",
+    "texto": "Súmula 643"
+  },
+  {
+    "num": 644,
+    "id": "2786",
+    "status": "vigente",
+    "texto": "Súmula 644"
+  },
+  {
+    "num": 645,
+    "id": "1628",
+    "status": "vigente",
+    "texto": "Súmula 645"
+  },
+  {
+    "num": 646,
+    "id": "1525",
+    "status": "vigente",
+    "texto": "Súmula 646"
+  },
+  {
+    "num": 647,
+    "id": "1630",
+    "status": "vigente",
+    "texto": "Súmula 647"
+  },
+  {
+    "num": 648,
+    "id": "2170",
+    "status": "vigente",
+    "texto": "Súmula 648"
+  },
+  {
+    "num": 649,
+    "id": "1631",
+    "status": "vigente",
+    "texto": "Súmula 649"
+  },
+  {
+    "num": 650,
+    "id": "1634",
+    "status": "vigente",
+    "texto": "Súmula 650"
+  },
+  {
+    "num": 651,
+    "id": "1529",
+    "status": "vigente",
+    "texto": "Súmula 651"
+  },
+  {
+    "num": 652,
+    "id": "2513",
+    "status": "vigente",
+    "texto": "Súmula 652"
+  },
+  {
+    "num": 653,
+    "id": "2233",
+    "status": "vigente",
+    "texto": "Súmula 653"
+  },
+  {
+    "num": 654,
+    "id": "2246",
+    "status": "vigente",
+    "texto": "Súmula 654"
+  },
+  {
+    "num": 655,
+    "id": "2255",
+    "status": "vigente",
+    "texto": "Súmula 655"
+  },
+  {
+    "num": 656,
+    "id": "2151",
+    "status": "vigente",
+    "texto": "Súmula 656"
+  },
+  {
+    "num": 657,
+    "id": "2147",
+    "status": "vigente",
+    "texto": "Súmula 657"
+  },
+  {
+    "num": 658,
+    "id": "2272",
+    "status": "vigente",
+    "texto": "Súmula 658"
+  },
+  {
+    "num": 659,
+    "id": "2264",
+    "status": "vigente",
+    "texto": "Súmula 659"
+  },
+  {
+    "num": 660,
+    "id": "1638",
+    "status": "vigente",
+    "texto": "Súmula 660"
+  },
+  {
+    "num": 661,
+    "id": "1640",
+    "status": "vigente",
+    "texto": "Súmula 661"
+  },
+  {
+    "num": 662,
+    "id": "2261",
+    "status": "vigente",
+    "texto": "Súmula 662"
+  },
+  {
+    "num": 663,
+    "id": "2257",
+    "status": "vigente",
+    "texto": "Súmula 663"
+  },
+  {
+    "num": 664,
+    "id": "2248",
+    "status": "vigente",
+    "texto": "Súmula 664"
+  },
+  {
+    "num": 665,
+    "id": "2241",
+    "status": "vigente",
+    "texto": "Súmula 665"
+  },
+  {
+    "num": 666,
+    "id": "1642",
+    "status": "vigente",
+    "texto": "Súmula 666"
+  },
+  {
+    "num": 667,
+    "id": "2250",
+    "status": "vigente",
+    "texto": "Súmula 667"
+  },
+  {
+    "num": 668,
+    "id": "1521",
+    "status": "vigente",
+    "texto": "Súmula 668"
+  },
+  {
+    "num": 669,
+    "id": "1519",
+    "status": "vigente",
+    "texto": "Súmula 669"
+  },
+  {
+    "num": 670,
+    "id": "1517",
+    "status": "vigente",
+    "texto": "Súmula 670"
+  },
+  {
+    "num": 671,
+    "id": "2520",
+    "status": "vigente",
+    "texto": "Súmula 671"
+  },
+  {
+    "num": 672,
+    "id": "1514",
+    "status": "vigente",
+    "texto": "Súmula 672"
+  },
+  {
+    "num": 673,
+    "id": "2436",
+    "status": "vigente",
+    "texto": "Súmula 673"
+  },
+  {
+    "num": 674,
+    "id": "2444",
+    "status": "vigente",
+    "texto": "Súmula 674"
+  },
+  {
+    "num": 675,
+    "id": "2312",
+    "status": "vigente",
+    "texto": "Súmula 675"
+  },
+  {
+    "num": 676,
+    "id": "2314",
+    "status": "vigente",
+    "texto": "Súmula 676"
+  },
+  {
+    "num": 677,
+    "id": "2316",
+    "status": "vigente",
+    "texto": "Súmula 677"
+  },
+  {
+    "num": 678,
+    "id": "2502",
+    "status": "vigente",
+    "texto": "Súmula 678"
+  },
+  {
+    "num": 679,
+    "id": "3632",
+    "status": "vigente",
+    "texto": "Súmula 679"
+  },
+  {
+    "num": 680,
+    "id": "1512",
+    "status": "vigente",
+    "texto": "Súmula 680"
+  },
+  {
+    "num": 681,
+    "id": "1510",
+    "status": "vigente",
+    "texto": "Súmula 681"
+  },
+  {
+    "num": 682,
+    "id": "2408",
+    "status": "vigente",
+    "texto": "Súmula 682"
+  },
+  {
+    "num": 683,
+    "id": "2413",
+    "status": "vigente",
+    "texto": "Súmula 683"
+  },
+  {
+    "num": 684,
+    "id": "3631",
+    "status": "vigente",
+    "texto": "Súmula 684"
+  },
+  {
+    "num": 685,
+    "id": "1508",
+    "status": "vigente",
+    "texto": "Súmula 685"
+  },
+  {
+    "num": 686,
+    "id": "1506",
+    "status": "vigente",
+    "texto": "Súmula 686"
+  },
+  {
+    "num": 687,
+    "id": "2422",
+    "status": "vigente",
+    "texto": "Súmula 687"
+  },
+  {
+    "num": 688,
+    "id": "1504",
+    "status": "vigente",
+    "texto": "Súmula 688"
+  },
+  {
+    "num": 689,
+    "id": "2710",
+    "status": "vigente",
+    "texto": "Súmula 689"
+  },
+  {
+    "num": 690,
+    "id": "1502",
+    "status": "vigente",
+    "texto": "Súmula 690"
+  },
+  {
+    "num": 691,
+    "id": "1480",
+    "status": "vigente",
+    "texto": "Súmula 691"
+  },
+  {
+    "num": 692,
+    "id": "2723",
+    "status": "vigente",
+    "texto": "Súmula 692"
+  },
+  {
+    "num": 693,
+    "id": "2714",
+    "status": "vigente",
+    "texto": "Súmula 693"
+  },
+  {
+    "num": 694,
+    "id": "2720",
+    "status": "vigente",
+    "texto": "Súmula 694"
+  },
+  {
+    "num": 695,
+    "id": "2717",
+    "status": "vigente",
+    "texto": "Súmula 695"
+  },
+  {
+    "num": 696,
+    "id": "2666",
+    "status": "vigente",
+    "texto": "Súmula 696"
+  },
+  {
+    "num": 697,
+    "id": "2781",
+    "status": "vigente",
+    "texto": "Súmula 697"
+  },
+  {
+    "num": 698,
+    "id": "1500",
+    "status": "vigente",
+    "texto": "Súmula 698"
+  },
+  {
+    "num": 699,
+    "id": "1482",
+    "status": "vigente",
+    "texto": "Súmula 699"
+  },
+  {
+    "num": 700,
+    "id": "3633",
+    "status": "vigente",
+    "texto": "Súmula 700"
+  },
+  {
+    "num": 701,
+    "id": "2660",
+    "status": "vigente",
+    "texto": "Súmula 701"
+  },
+  {
+    "num": 702,
+    "id": "2662",
+    "status": "vigente",
+    "texto": "Súmula 702"
+  },
+  {
+    "num": 703,
+    "id": "2664",
+    "status": "vigente",
+    "texto": "Súmula 703"
+  },
+  {
+    "num": 704,
+    "id": "2645",
+    "status": "vigente",
+    "texto": "Súmula 704"
+  },
+  {
+    "num": 705,
+    "id": "2643",
+    "status": "vigente",
+    "texto": "Súmula 705"
+  },
+  {
+    "num": 706,
+    "id": "2433",
+    "status": "vigente",
+    "texto": "Súmula 706"
+  },
+  {
+    "num": 707,
+    "id": "2641",
+    "status": "vigente",
+    "texto": "Súmula 707"
+  },
+  {
+    "num": 708,
+    "id": "2639",
+    "status": "vigente",
+    "texto": "Súmula 708"
+  },
+  {
+    "num": 709,
+    "id": "2637",
+    "status": "vigente",
+    "texto": "Súmula 709"
+  },
+  {
+    "num": 710,
+    "id": "2634",
+    "status": "vigente",
+    "texto": "Súmula 710"
+  },
+  {
+    "num": 711,
+    "id": "2551",
+    "status": "vigente",
+    "texto": "Súmula 711"
+  },
+  {
+    "num": 712,
+    "id": "2578",
+    "status": "vigente",
+    "texto": "Súmula 712"
+  },
+  {
+    "num": 713,
+    "id": "2580",
+    "status": "vigente",
+    "texto": "Súmula 713"
+  },
+  {
+    "num": 714,
+    "id": "2632",
+    "status": "vigente",
+    "texto": "Súmula 714"
+  },
+  {
+    "num": 715,
+    "id": "2548",
+    "status": "vigente",
+    "texto": "Súmula 715"
+  },
+  {
+    "num": 716,
+    "id": "2499",
+    "status": "vigente",
+    "texto": "Súmula 716"
+  },
+  {
+    "num": 717,
+    "id": "3637",
+    "status": "vigente",
+    "texto": "Súmula 717"
+  },
+  {
+    "num": 718,
+    "id": "2545",
+    "status": "vigente",
+    "texto": "Súmula 718"
+  },
+  {
+    "num": 719,
+    "id": "2556",
+    "status": "vigente",
+    "texto": "Súmula 719"
+  },
+  {
+    "num": 720,
+    "id": "2558",
+    "status": "vigente",
+    "texto": "Súmula 720"
+  },
+  {
+    "num": 721,
+    "id": "1486",
+    "status": "vigente",
+    "texto": "Súmula 721"
+  },
+  {
+    "num": 722,
+    "id": "1488",
+    "status": "vigente",
+    "texto": "Súmula 722"
+  },
+  {
+    "num": 723,
+    "id": "2651",
+    "status": "vigente",
+    "texto": "Súmula 723"
+  },
+  {
+    "num": 724,
+    "id": "1644",
+    "status": "vigente",
+    "texto": "Súmula 724"
+  },
+  {
+    "num": 725,
+    "id": "1490",
+    "status": "vigente",
+    "texto": "Súmula 725"
+  },
+  {
+    "num": 726,
+    "id": "1498",
+    "status": "vigente",
+    "texto": "Súmula 726"
+  },
+  {
+    "num": 727,
+    "id": "1492",
+    "status": "vigente",
+    "texto": "Súmula 727"
+  },
+  {
+    "num": 728,
+    "id": "2708",
+    "status": "vigente",
+    "texto": "Súmula 728"
+  },
+  {
+    "num": 729,
+    "id": "2705",
+    "status": "vigente",
+    "texto": "Súmula 729"
+  },
+  {
+    "num": 730,
+    "id": "1494",
+    "status": "vigente",
+    "texto": "Súmula 730"
+  },
+  {
+    "num": 731,
+    "id": "2809",
+    "status": "vigente",
+    "texto": "Súmula 731"
+  },
+  {
+    "num": 732,
+    "id": "2239",
+    "status": "vigente",
+    "texto": "Súmula 732"
+  },
+  {
+    "num": 733,
+    "id": "2807",
+    "status": "vigente",
+    "texto": "Súmula 733"
+  },
+  {
+    "num": 734,
+    "id": "2139",
+    "status": "vigente",
+    "texto": "Súmula 734"
+  },
+  {
+    "num": 735,
+    "id": "2177",
+    "status": "vigente",
+    "texto": "Súmula 735"
+  },
+  {
+    "num": 736,
+    "id": "2243",
+    "status": "vigente",
+    "texto": "Súmula 736"
+  }
+]

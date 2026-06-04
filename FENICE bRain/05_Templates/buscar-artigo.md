@@ -1,8 +1,13 @@
 <%*
 // ============================================================
-// FENICE BRAIN — Buscar Artigo por Codigo
-// Atalho: Ctrl+P → "Buscar Artigo"
+// FENICE BRAIN — Buscar Artigo por Codigo v2
+// Atalho: Ctrl+Shift+B | Ctrl+P > "QuickAdd: Buscar Artigo"
+// Fix: funciona em buscas subsequentes sem necessidade de clear
 // ============================================================
+
+// Define tR vazio ANTES de qualquer await — garante contexto limpo
+// mesmo que o usuario cancele no meio da operacao
+tR = "";
 
 const CODIGOS = {
   "CF/88 — Constituicao Federal": {
@@ -28,55 +33,58 @@ const CODIGOS = {
 };
 
 // Passo 1: selecionar o codigo
-const codigoNome = await tp.system.suggester(
-  Object.keys(CODIGOS),
-  Object.keys(CODIGOS),
-  true,
-  "1. Selecione o Codigo:"
-);
-if (!codigoNome) { tR = ""; return; }
+let codigoNome;
+try {
+  codigoNome = await tp.system.suggester(
+    Object.keys(CODIGOS),
+    Object.keys(CODIGOS),
+    true,
+    "1. Selecione o Codigo:"
+  );
+} catch(e) {
+  return; // usuario pressionou Esc
+}
+if (!codigoNome) return;
 
 const config = CODIGOS[codigoNome];
 
 // Passo 2: numero do artigo
-const numArtigo = await tp.system.prompt(
-  `2. Numero do Artigo (${config.label}):`,
-  "",
-  true
-);
-if (!numArtigo) { tR = ""; return; }
+let numArtigo;
+try {
+  numArtigo = await tp.system.prompt(
+    `2. Numero do Artigo (${config.label}):`,
+    "",
+    true
+  );
+} catch(e) {
+  return; // usuario pressionou Esc
+}
+if (!numArtigo || !numArtigo.trim()) return;
 
 const numLimpo = numArtigo.trim();
 
-// Busca o arquivo no vault pelo frontmatter artigo + pasta
+// Busca no vault: primeiro restrito a pasta, depois global por tag
 const allFiles = app.vault.getFiles();
-const found = allFiles.find(f => {
-  if (!f.path.includes(config.pasta)) return false;
+
+const encontrar = (restringirPasta) => allFiles.find(f => {
+  if (restringirPasta && !f.path.includes(config.pasta)) return false;
   const meta = app.metadataCache.getFileCache(f)?.frontmatter;
   if (!meta) return false;
-  return String(meta.artigo) === numLimpo;
+  const artigoOk = String(meta.artigo) === numLimpo;
+  if (!restringirPasta) {
+    return artigoOk && meta.tags && meta.tags.includes(config.tag);
+  }
+  return artigoOk;
 });
 
-if (found) {
-  const leaf = app.workspace.getLeaf(false);
-  await leaf.openFile(found);
-  new Notice(`Art. ${numLimpo} (${config.label}) aberto!`);
-} else {
-  // Tenta busca mais ampla — sem restringir pasta
-  const foundGlobal = allFiles.find(f => {
-    const meta = app.metadataCache.getFileCache(f)?.frontmatter;
-    if (!meta) return false;
-    return String(meta.artigo) === numLimpo && meta.tags && meta.tags.includes(config.tag);
-  });
-  if (foundGlobal) {
-    const leaf = app.workspace.getLeaf(false);
-    await leaf.openFile(foundGlobal);
-    new Notice(`Art. ${numLimpo} (${config.label}) encontrado!`);
-  } else {
-    new Notice(`Art. ${numLimpo} nao encontrado em ${config.label}. Verifique se o pipeline foi executado.`);
-  }
-}
+const found = encontrar(true) || encontrar(false);
 
-// Nao insere conteudo — apenas navega
-tR = "";
+if (found) {
+  // openLinkText: API correta para navegacao confiavel em qualquer contexto
+  // Funciona independente do leaf atual — nao depende de estado anterior
+  await app.workspace.openLinkText(found.basename, "", false);
+  new Notice(`Art. ${numLimpo} — ${config.label} aberto!`, 3000);
+} else {
+  new Notice(`Art. ${numLimpo} nao encontrado em ${config.label}. Verifique se o pipeline foi executado.`, 4000);
+}
 %>

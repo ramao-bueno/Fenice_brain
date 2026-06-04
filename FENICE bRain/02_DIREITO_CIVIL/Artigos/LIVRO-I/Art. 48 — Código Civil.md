@@ -1,17 +1,17 @@
 ---
-artigo: '48'
+artigo: "48"
 lei: Lei 10.406/2002 (Código Civil)
 tipo: direito-civil
 livro: LIVRO-I
 status: vigente
 tags:
-- cc
-- direito-civil
-- livro-i
-- vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+  - cc
+  - direito-civil
+  - livro-i
+  - vigente
+  - inciso-i
+  - paragrafo-unico
+created: 2026-06-03
 ---
 
 # CC Art. 48 — Se a pessoa jurídica tiver administração coletiva, as decisões se tomarão pela maioria de votos dos presentes, salvo se

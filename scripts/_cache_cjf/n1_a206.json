@@ -1,0 +1,44 @@
+[
+  {
+    "num": 40,
+    "jornada": "I Jornada de Direito Administrativo",
+    "texto": "Nas ações indenizatórias ajuizadas contra a Fazenda Pública aplica-se o prazo prescricional quinquenal previsto no Decreto n. 20.910/1932 (art. 1º), em detrimento do prazo trienal estabelecido no Código Civil de 2002 (art. 206, § 3º, V), por se tratar de norma especial que prevalece sobre a geral.",
+    "norma_id": "1",
+    "artigo": "206"
+  },
+  {
+    "num": 50,
+    "jornada": "I Jornada de Direito Civil",
+    "texto": "A partir da vigência do novo Código Civil, o prazo prescricional das ações de reparação de danos que não houver atingido a metade do tempo previsto no Código Civil de 1916 fluirá por inteiro, nos termos da nova lei (art. 206).",
+    "norma_id": "1",
+    "artigo": "206"
+  },
+  {
+    "num": 418,
+    "jornada": "V Jornada de Direito Civil",
+    "texto": "O prazo prescricional de três anos para a pretensão relativa a aluguéis aplica-se aos contratos de locação de imóveis celebrados com a administração pública.",
+    "norma_id": "1",
+    "artigo": "206"
+  },
+  {
+    "num": 419,
+    "jornada": "V Jornada de Direito Civil",
+    "texto": "O prazo prescricional de três anos para a pretensão de reparação civil aplica-se tanto à responsabilidade contratual quanto à responsabilidade extracontratual.",
+    "norma_id": "1",
+    "artigo": "206"
+  },
+  {
+    "num": 420,
+    "jornada": "V Jornada de Direito Civil",
+    "texto": "Não se aplica o art. 206, § 3º, V, do Código Civil às pretensões indenizatórias decorrentes de acidente de trabalho, após a vigência da Emenda Constitucional n. 45, incidindo a regra do art. 7º, XXIX, da Constituição da República.",
+    "norma_id": "1",
+    "artigo": "206"
+  },
+  {
+    "num": 580,
+    "jornada": "VII Jornada de Direito Civil",
+    "texto": "É de três anos, pelo art. 206, § 3º, V, do CC, o prazo prescricional para a pretensão indenizatória da seguradora contra o causador de dano ao segurado, pois a seguradora sub-roga-se em seus direitos. Conselho da Justiça Federal Setor de Clubes Esportivos Sul - SCES Trecho III - Polo 8 - Lote 9 - Brasília/DF CEP: 70200-003 - Fone: (0xx61) 3022-7000 Atendimento ao público: das 11 às 19 horas Javascript utilizados para a manipulação das referências legislativas",
+    "norma_id": "1",
+    "artigo": "206"
+  }
+]

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1871 — [Artigo 1871 - Direito Civil]
+# CC Art. 1871 — O testamento pode ser escrito em língua nacional ou estrangeira, pelo próprio testador, ou por outrem, a seu rogo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testamento pode ser escrito em língua nacional ou estrangeira, pelo próprio testador, ou por outrem, a seu rogo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

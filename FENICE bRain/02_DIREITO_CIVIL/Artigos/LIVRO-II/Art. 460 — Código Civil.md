@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 460 — Se for aleatório o contrato, por se referir a coisas existentes, mas expostas a risco, assumido pelo adquirente, terá ig
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se for aleatório o contrato, por se referir a coisas existentes, mas expostas a risco, assumido pelo adquirente, terá igualmente direito o alienante a todo o preço, posto que a coisa já não existisse, em parte, ou de todo, no dia do contrato.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

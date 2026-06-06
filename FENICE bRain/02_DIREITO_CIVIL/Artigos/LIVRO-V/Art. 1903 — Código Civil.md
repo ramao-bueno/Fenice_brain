@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1903 — [Artigo 1903 - Direito Civil]
+# CC Art. 1903 — O erro na designação da pessoa do herdeiro, do legatário, ou da coisa legada anula a disposição, salvo se, pelo contexto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O erro na designação da pessoa do herdeiro, do legatário, ou da coisa legada anula a disposição, salvo se, pelo contexto do testamento, por outros documentos, ou por fatos inequívocos, se puder identificar a pessoa ou coisa a que o testador queria referir-se.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

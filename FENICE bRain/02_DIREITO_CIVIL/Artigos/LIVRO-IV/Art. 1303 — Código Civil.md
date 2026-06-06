@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1303 — [Artigo 1303 - Direito Civil]
+# CC Art. 1303 — Na zona rural, não será permitido levantar edificações a menos de três metros do terreno vizinho
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na zona rural, não será permitido levantar edificações a menos de três metros do terreno vizinho.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

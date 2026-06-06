@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1058 — [Artigo 1058 - Direito Civil]
+# CC Art. 1058 — Não integralizada a quota de sócio remisso, os outros sócios podem, sem prejuízo do disposto no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não integralizada a quota de sócio remisso, os outros sócios podem, sem prejuízo do disposto no art. 1.004 e seu parágrafo único, tomá-la para si ou transferi-la a terceiros, excluindo o primitivo titular e devolvendo-lhe o que houver pago, deduzidos os juros da mora, as prestações estabelecidas no contrato mais as despesas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

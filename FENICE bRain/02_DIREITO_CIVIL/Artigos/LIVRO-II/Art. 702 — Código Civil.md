@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 702 — No caso de morte do comissário, ou, quando, por motivo de força maior, não puder concluir o negócio, será devida pelo co
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > No caso de morte do comissário, ou, quando, por motivo de força maior, não puder concluir o negócio, será devida pelo comitente uma remuneração proporcional aos trabalhos realizados.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

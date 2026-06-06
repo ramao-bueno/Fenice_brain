@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1575 — [Artigo 1575 - Direito Civil]
+# CC Art. 1575 — A sentença de separação judicial importa a separação de corpos e a partilha de bens
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sentença de separação judicial importa a separação de corpos e a partilha de bens. Parágrafo único. A partilha de bens poderá ser feita mediante proposta dos cônjuges e homologada pelo juiz ou por este decidida.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

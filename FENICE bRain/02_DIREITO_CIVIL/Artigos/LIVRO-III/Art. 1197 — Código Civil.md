@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1197 — [Artigo 1197 - Direito Civil]
+# CC Art. 1197 — A posse direta, de pessoa que tem a coisa em seu poder, temporariamente, em virtude de direito pessoal, ou real, não anu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A posse direta, de pessoa que tem a coisa em seu poder, temporariamente, em virtude de direito pessoal, ou real, não anula a indireta, de quem aquela foi havida, podendo o possuidor direto defender a sua posse contra o indireto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

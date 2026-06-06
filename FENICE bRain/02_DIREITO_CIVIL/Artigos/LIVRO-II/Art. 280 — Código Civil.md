@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 280 — Todos os devedores respondem pelos juros da mora, ainda que a ação tenha sido proposta somente contra um;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Todos os devedores respondem pelos juros da mora, ainda que a ação tenha sido proposta somente contra um; mas o culpado responde aos outros pela obrigação acrescida.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

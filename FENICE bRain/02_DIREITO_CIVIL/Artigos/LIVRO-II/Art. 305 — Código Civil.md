@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 305 — O terceiro não interessado, que paga a dívida em seu próprio nome, tem direito a reembolsar-se do que pagar;
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O terceiro não interessado, que paga a dívida em seu próprio nome, tem direito a reembolsar-se do que pagar; mas não se sub-roga nos direitos do credor. Parágrafo único. Se pagar antes de vencida a dívida, só terá direito ao reembolso no vencimento.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

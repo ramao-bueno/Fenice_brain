@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 888 — [Artigo 888 - Direito Civil]
+# CC Art. 888 — A omissão de qualquer requisito legal, que tire ao escrito a sua validade como título de crédito, não implica a invalida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A omissão de qualquer requisito legal, que tire ao escrito a sua validade como título de crédito, não implica a invalidade do negócio jurídico que lhe deu origem.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

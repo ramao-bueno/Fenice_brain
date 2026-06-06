@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1758 — [Artigo 1758 - Direito Civil]
+# CC Art. 1758 — Finda a tutela pela emancipação ou maioridade, a quitação do menor não produzirá efeito antes de aprovadas as contas pel
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Finda a tutela pela emancipação ou maioridade, a quitação do menor não produzirá efeito antes de aprovadas as contas pelo juiz, subsistindo inteira, até então, a responsabilidade do tutor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1939 — [Artigo 1939 - Direito Civil]
+# CC Art. 1939 — Caducará o legado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Caducará o legado: I - se, depois do testamento, o testador modificar a coisa legada, ao ponto de já não ter a forma nem lhe caber a denominação que possuía; II - se o testador, por qualquer título, alienar no todo ou em parte a coisa legada; nesse caso, caducará até onde ela deixou de pertencer ao testador; III - se a coisa perecer ou for evicta, vivo ou morto o testador, sem culpa do herdeiro ou legatário incumbido do seu cumprimento; IV - se o legatário for excluído da sucessão, nos termos do art. 1.815; V - se o legatário falecer antes do testador.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1148 — [Artigo 1148 - Direito Civil]
+# CC Art. 1148 — Salvo disposição em contrário, a transferência importa a sub-rogação do adquirente nos contratos estipulados para explor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, a transferência importa a sub-rogação do adquirente nos contratos estipulados para exploração do estabelecimento, se não tiverem caráter pessoal, podendo os terceiros rescindir o contrato em noventa dias a contar da publicação da transferência, se ocorrer justa causa, ressalvada, neste caso, a responsabilidade do alienante.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1455 — [Artigo 1455 - Direito Civil]
+# CC Art. 1455 — Deverá o credor pignoratício cobrar o crédito empenhado, assim que se torne exigível
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Deverá o credor pignoratício cobrar o crédito empenhado, assim que se torne exigível. Se este consistir numa prestação pecuniária, depositará a importância recebida, de acordo com o devedor pignoratício, ou onde o juiz determinar; se consistir na entrega da coisa, nesta se sub-rogará o penhor. Parágrafo único. Estando vencido o crédito pignoratício, tem o credor direito a reter, da quantia recebida, o que lhe é devido, restituindo o restante ao devedor; ou a excutir a coisa a ele entregue.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

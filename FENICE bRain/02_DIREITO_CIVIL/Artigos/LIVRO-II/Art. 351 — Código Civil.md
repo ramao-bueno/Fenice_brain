@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 351 — O credor originário, só em parte reembolsado, terá preferência ao sub-rogado, na cobrança da dívida restante, se os bens
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O credor originário, só em parte reembolsado, terá preferência ao sub-rogado, na cobrança da dívida restante, se os bens do devedor não chegarem para saldar inteiramente o que a um e outro dever. CAPÍTULO IV Da Imputação do Pagamento
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1280 — [Artigo 1280 - Direito Civil]
+# CC Art. 1280 — O proprietário ou o possuidor tem direito a exigir do dono do prédio vizinho a demolição, ou a reparação deste, quando a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário ou o possuidor tem direito a exigir do dono do prédio vizinho a demolição, ou a reparação deste, quando ameace ruína, bem como que lhe preste caução pelo dano iminente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1719 — [Artigo 1719 - Direito Civil]
+# CC Art. 1719 — Comprovada a impossibilidade da manutenção do bem de família nas condições em que foi instituído, poderá o juiz, a reque
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Comprovada a impossibilidade da manutenção do bem de família nas condições em que foi instituído, poderá o juiz, a requerimento dos interessados, extingui-lo ou autorizar a sub-rogação dos bens que o constituem em outros, ouvidos o instituidor e o Ministério Público.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

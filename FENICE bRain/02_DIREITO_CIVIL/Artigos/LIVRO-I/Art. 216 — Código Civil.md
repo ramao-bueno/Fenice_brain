@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 216 — Farão a mesma prova que os originais as certidões textuais de qualquer peça judicial, do protocolo das audiências, ou de
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Farão a mesma prova que os originais as certidões textuais de qualquer peça judicial, do protocolo das audiências, ou de outro qualquer livro a cargo do escrivão, sendo extraídas por ele, ou sob a sua vigilância, e por ele subscritas, assim como os traslados de autos, quando por outro escrivão consertados.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

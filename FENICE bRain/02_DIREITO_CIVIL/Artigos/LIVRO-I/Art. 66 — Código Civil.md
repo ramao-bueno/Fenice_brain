@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 66 — Velará pelas fundações o Ministério Público do Estado onde situadas
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Velará pelas fundações o Ministério Público do Estado onde situadas. § 1 º Se funcionarem no Distrito Federal ou em Território, caberá o encargo ao Ministério Público do Distrito Federal e Territórios. (Redação dada pela Lei nº 13.151, de 2015) § 2º Se estenderem a atividade por mais de um Estado, caberá o encargo, em cada um deles, ao respectivo Ministério Público.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

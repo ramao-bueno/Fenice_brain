@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1519 — [Artigo 1519 - Direito Civil]
+# CC Art. 1519 — A denegação do consentimento, quando injusta, pode ser suprida pelo juiz
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A denegação do consentimento, quando injusta, pode ser suprida pelo juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

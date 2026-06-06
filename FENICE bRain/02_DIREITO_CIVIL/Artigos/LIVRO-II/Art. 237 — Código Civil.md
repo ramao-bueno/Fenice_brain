@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 237 — Até a tradição pertence ao devedor a coisa, com os seus melhoramentos e acrescidos, pelos quais poderá exigir aumento no
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Até a tradição pertence ao devedor a coisa, com os seus melhoramentos e acrescidos, pelos quais poderá exigir aumento no preço; se o credor não anuir, poderá o devedor resolver a obrigação. Parágrafo único. Os frutos percebidos são do devedor, cabendo ao credor os pendentes.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1754 — [Artigo 1754 - Direito Civil]
+# CC Art. 1754 — Os valores que existirem em estabelecimento bancário oficial, na forma do artigo antecedente, não se poderão retirar, se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os valores que existirem em estabelecimento bancário oficial, na forma do artigo antecedente, não se poderão retirar, senão mediante ordem do juiz, e somente: I - para as despesas com o sustento e educação do tutelado, ou a administração de seus bens; II - para se comprarem bens imóveis e títulos, obrigações ou letras, nas condições previstas no § 1 o do artigo antecedente; III - para se empregarem em conformidade com o disposto por quem os houver doado, ou deixado; IV - para se entregarem aos órfãos, quando emancipados, ou maiores, ou, mortos eles, aos seus herdeiros. Seção VI Da Prestação de Contas
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

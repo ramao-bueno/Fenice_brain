@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1896 — [Artigo 1896 - Direito Civil]
+# CC Art. 1896 — As pessoas designadas no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As pessoas designadas no art. 1.893, estando empenhadas em combate, ou feridas, podem testar oralmente, confiando a sua última vontade a duas testemunhas. Parágrafo único. Não terá efeito o testamento se o testador não morrer na guerra ou convalescer do ferimento. CAPÍTULO VI Das Disposições Testamentárias
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

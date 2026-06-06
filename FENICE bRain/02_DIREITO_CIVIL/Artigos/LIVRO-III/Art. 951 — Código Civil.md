@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 951 — [Artigo 951 - Direito Civil]
+# CC Art. 951 — O disposto nos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O disposto nos arts. 948, 949 e 950 aplica-se ainda no caso de indenização devida por aquele que, no exercício de atividade profissional, por negligência, imprudência ou imperícia, causar a morte do paciente, agravar-lhe o mal, causar-lhe lesão, ou inabilitá-lo para o trabalho.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

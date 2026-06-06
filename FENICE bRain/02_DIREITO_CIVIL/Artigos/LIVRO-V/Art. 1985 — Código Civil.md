@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1985 — [Artigo 1985 - Direito Civil]
+# CC Art. 1985 — O encargo da testamentaria não se transmite aos herdeiros do testamenteiro, nem é delegável;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O encargo da testamentaria não se transmite aos herdeiros do testamenteiro, nem é delegável; mas o testamenteiro pode fazer-se representar em juízo e fora dele, mediante mandatário com poderes especiais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

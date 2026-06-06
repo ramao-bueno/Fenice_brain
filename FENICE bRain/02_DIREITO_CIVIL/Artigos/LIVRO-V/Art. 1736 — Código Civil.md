@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1736 — [Artigo 1736 - Direito Civil]
+# CC Art. 1736 — Podem escusar-se da tutela
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Podem escusar-se da tutela: I - mulheres casadas; II - maiores de sessenta anos; III - aqueles que tiverem sob sua autoridade mais de três filhos; IV - os impossibilitados por enfermidade; V - aqueles que habitarem longe do lugar onde se haja de exercer a tutela; VI - aqueles que já exercerem tutela ou curatela; VII - militares em serviço.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1916 — [Artigo 1916 - Direito Civil]
+# CC Art. 1916 — Se o testador legar coisa sua, singularizando-a, só terá eficácia o legado se, ao tempo do seu falecimento, ela se achav
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o testador legar coisa sua, singularizando-a, só terá eficácia o legado se, ao tempo do seu falecimento, ela se achava entre os bens da herança; se a coisa legada existir entre os bens do testador, mas em quantidade inferior à do legado, este será eficaz apenas quanto à existente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

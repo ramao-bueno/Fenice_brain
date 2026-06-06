@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 551 — Salvo declaração em contrário, a doação em comum a mais de uma pessoa entende-se distribuída entre elas por igual
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Salvo declaração em contrário, a doação em comum a mais de uma pessoa entende-se distribuída entre elas por igual. Parágrafo único. Se os donatários, em tal caso, forem marido e mulher, subsistirá na totalidade a doação para o cônjuge sobrevivo.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

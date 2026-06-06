@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 644 — O depositário poderá reter o depósito até que se lhe pague a retribuição devida, o líquido valor das despesas, ou dos pr
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O depositário poderá reter o depósito até que se lhe pague a retribuição devida, o líquido valor das despesas, ou dos prejuízos a que se refere o artigo anterior, provando imediatamente esses prejuízos ou essas despesas. Parágrafo único. Se essas dívidas, despesas ou prejuízos não forem provados suficientemente, ou forem ilíquidos, o depositário poderá exigir caução idônea do depositante ou, na falta desta, a remoção da coisa para o Depósito Público, até que se liquidem.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

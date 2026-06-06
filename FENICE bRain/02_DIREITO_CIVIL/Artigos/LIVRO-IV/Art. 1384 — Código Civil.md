@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1384 — [Artigo 1384 - Direito Civil]
+# CC Art. 1384 — A servidão pode ser removida, de um local para outro, pelo dono do prédio serviente e à sua custa, se em nada diminuir a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A servidão pode ser removida, de um local para outro, pelo dono do prédio serviente e à sua custa, se em nada diminuir as vantagens do prédio dominante, ou pelo dono deste e à sua custa, se houver considerável incremento da utilidade e não prejudicar o prédio serviente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

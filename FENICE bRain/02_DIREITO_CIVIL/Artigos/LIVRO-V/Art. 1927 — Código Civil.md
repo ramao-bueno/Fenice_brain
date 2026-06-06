@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1927 — [Artigo 1927 - Direito Civil]
+# CC Art. 1927 — Se o legado for de quantidades certas, em prestações periódicas, datará da morte do testador o primeiro período, e o leg
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o legado for de quantidades certas, em prestações periódicas, datará da morte do testador o primeiro período, e o legatário terá direito a cada prestação, uma vez encetado cada um dos períodos sucessivos, ainda que venha a falecer antes do termo dele.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

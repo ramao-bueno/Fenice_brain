@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1360 — [Artigo 1360 - Direito Civil]
+# CC Art. 1360 — Se a propriedade se resolver por outra causa superveniente, o possuidor, que a tiver adquirido por título anterior à sua
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a propriedade se resolver por outra causa superveniente, o possuidor, que a tiver adquirido por título anterior à sua resolução, será considerado proprietário perfeito, restando à pessoa, em cujo benefício houve a resolução, ação contra aquele cuja propriedade se resolveu para haver a própria coisa ou o seu valor. CAPÍTULO IX Da Propriedade Fiduciária
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

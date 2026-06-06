@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 571 — Havendo prazo estipulado à duração do contrato, antes do vencimento não poderá o locador reaver a coisa alugada, senão r
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Havendo prazo estipulado à duração do contrato, antes do vencimento não poderá o locador reaver a coisa alugada, senão ressarcindo ao locatário as perdas e danos resultantes, nem o locatário devolvê-la ao locador, senão pagando, proporcionalmente, a multa prevista no contrato. Parágrafo único. O locatário gozará do direito de retenção, enquanto não for ressarcido.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

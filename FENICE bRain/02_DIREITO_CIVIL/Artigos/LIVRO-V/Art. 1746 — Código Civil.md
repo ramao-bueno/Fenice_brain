@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1746 — [Artigo 1746 - Direito Civil]
+# CC Art. 1746 — Se o menor possuir bens, será sustentado e educado a expensas deles, arbitrando o juiz para tal fim as quantias que lhe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o menor possuir bens, será sustentado e educado a expensas deles, arbitrando o juiz para tal fim as quantias que lhe pareçam necessárias, considerado o rendimento da fortuna do pupilo quando o pai ou a mãe não as houver fixado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

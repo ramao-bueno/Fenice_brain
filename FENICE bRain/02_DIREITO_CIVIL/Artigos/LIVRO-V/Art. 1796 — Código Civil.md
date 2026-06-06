@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1796 — [Artigo 1796 - Direito Civil]
+# CC Art. 1796 — No prazo de trinta dias, a contar da abertura da sucessão, instaurar-se-á inventário do patrimônio hereditário, perante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No prazo de trinta dias, a contar da abertura da sucessão, instaurar-se-á inventário do patrimônio hereditário, perante o juízo competente no lugar da sucessão, para fins de liquidação e, quando for o caso, de partilha da herança.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

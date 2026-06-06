@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 177 — A anulabilidade não tem efeito antes de julgada por sentença, nem se pronuncia de ofício;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A anulabilidade não tem efeito antes de julgada por sentença, nem se pronuncia de ofício; só os interessados a podem alegar, e aproveita exclusivamente aos que a alegarem, salvo o caso de solidariedade ou indivisibilidade.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

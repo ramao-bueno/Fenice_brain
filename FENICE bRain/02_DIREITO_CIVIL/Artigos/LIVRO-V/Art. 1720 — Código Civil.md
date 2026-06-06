@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1720 — [Artigo 1720 - Direito Civil]
+# CC Art. 1720 — Salvo disposição em contrário do ato de instituição, a administração do bem de família compete a ambos os cônjuges, reso
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário do ato de instituição, a administração do bem de família compete a ambos os cônjuges, resolvendo o juiz em caso de divergência. Parágrafo único. Com o falecimento de ambos os cônjuges, a administração passará ao filho mais velho, se for maior, e, do contrário, a seu tutor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

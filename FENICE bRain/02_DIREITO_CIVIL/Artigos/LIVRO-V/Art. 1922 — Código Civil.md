@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1922 — [Artigo 1922 - Direito Civil]
+# CC Art. 1922 — Se aquele que legar um imóvel lhe ajuntar depois novas aquisições, estas, ainda que contíguas, não se compreendem no leg
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se aquele que legar um imóvel lhe ajuntar depois novas aquisições, estas, ainda que contíguas, não se compreendem no legado, salvo expressa declaração em contrário do testador. Parágrafo único. Não se aplica o disposto neste artigo às benfeitorias necessárias, úteis ou voluptuárias feitas no prédio legado. Seção II Dos Efeitos do Legado e do seu Pagamento
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

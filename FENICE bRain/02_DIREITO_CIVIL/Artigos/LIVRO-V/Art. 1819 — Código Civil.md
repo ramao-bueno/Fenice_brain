@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1819 — [Artigo 1819 - Direito Civil]
+# CC Art. 1819 — Falecendo alguém sem deixar testamento nem herdeiro legítimo notoriamente conhecido, os bens da herança, depois de arrec
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Falecendo alguém sem deixar testamento nem herdeiro legítimo notoriamente conhecido, os bens da herança, depois de arrecadados, ficarão sob a guarda e administração de um curador, até a sua entrega ao sucessor devidamente habilitado ou à declaração de sua vacância.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

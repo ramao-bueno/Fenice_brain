@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 666 — O maior de dezesseis e menor de dezoito anos não emancipado pode ser mandatário, mas o mandante não tem ação contra ele
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O maior de dezesseis e menor de dezoito anos não emancipado pode ser mandatário, mas o mandante não tem ação contra ele senão de conformidade com as regras gerais, aplicáveis às obrigações contraídas por menores. Seção II Das Obrigações do Mandatário
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1279 — [Artigo 1279 - Direito Civil]
+# CC Art. 1279 — Ainda que por decisão judicial devam ser toleradas as interferências, poderá o vizinho exigir a sua redução, ou eliminaç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ainda que por decisão judicial devam ser toleradas as interferências, poderá o vizinho exigir a sua redução, ou eliminação, quando estas se tornarem possíveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

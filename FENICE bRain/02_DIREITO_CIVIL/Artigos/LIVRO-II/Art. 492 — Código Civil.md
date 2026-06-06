@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 492 — Até o momento da tradição, os riscos da coisa correm por conta do vendedor, e os do preço por conta do comprador
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Até o momento da tradição, os riscos da coisa correm por conta do vendedor, e os do preço por conta do comprador. § 1 o Todavia, os casos fortuitos, ocorrentes no ato de contar, marcar ou assinalar coisas, que comumente se recebem, contando, pesando, medindo ou assinalando, e que já tiverem sido postas à disposição do comprador, correrão por conta deste. § 2 o Correrão também por conta do comprador os riscos das referidas coisas, se estiver em mora de as receber, quando postas à sua disposição no tempo, lugar e pelo modo ajustados.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

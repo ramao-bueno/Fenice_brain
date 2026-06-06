@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1062 — [Artigo 1062 - Direito Civil]
+# CC Art. 1062 — O administrador designado em ato separado investir-se-á no cargo mediante termo de posse no livro de atas da administraç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O administrador designado em ato separado investir-se-á no cargo mediante termo de posse no livro de atas da administração. § 1 o Se o termo não for assinado nos trinta dias seguintes à designação, esta se tornará sem efeito. § 2 o Nos dez dias seguintes ao da investidura, deve o administrador requerer seja averbada sua nomeação no registro competente, mencionando o seu nome, nacionalidade, estado civil, residência, com exibição de documento de identidade, o ato e a data da nomeação e o prazo de gestão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

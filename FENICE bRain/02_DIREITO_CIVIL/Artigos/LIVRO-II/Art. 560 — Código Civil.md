@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 560 — O direito de revogar a doação não se transmite aos herdeiros do doador, nem prejudica os do donatário
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O direito de revogar a doação não se transmite aos herdeiros do doador, nem prejudica os do donatário. Mas aqueles podem prosseguir na ação iniciada pelo doador, continuando-a contra os herdeiros do donatário, se este falecer depois de ajuizada a lide.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

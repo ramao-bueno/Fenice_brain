@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-- alinea-a
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 397 — O inadimplemento da obrigação, positiva e líquida, no seu termo, constitui de pleno direito em mora o devedor
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O inadimplemento da obrigação, positiva e líquida, no seu termo, constitui de pleno direito em mora o devedor. (Vide Lei nº 13.105, de 2015) (Vigência) Parágrafo único. Não havendo termo, a mora se constitui mediante interpelação judicial ou extrajudicial.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

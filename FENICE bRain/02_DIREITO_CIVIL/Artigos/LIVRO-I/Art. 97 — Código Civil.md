@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 97 — Não se consideram benfeitorias os melhoramentos ou acréscimos sobrevindos ao bem sem a intervenção do proprietário, poss
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não se consideram benfeitorias os melhoramentos ou acréscimos sobrevindos ao bem sem a intervenção do proprietário, possuidor ou detentor. CAPÍTULO III Dos Bens Públicos
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

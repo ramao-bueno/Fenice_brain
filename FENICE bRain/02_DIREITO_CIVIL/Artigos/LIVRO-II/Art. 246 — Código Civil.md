@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 246 — Antes da escolha, não poderá o devedor alegar perda ou deterioração da coisa, ainda que por força maior ou caso fortuito
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Antes da escolha, não poderá o devedor alegar perda ou deterioração da coisa, ainda que por força maior ou caso fortuito. CAPÍTULO II Das Obrigações de Fazer
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

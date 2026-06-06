@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1649 — [Artigo 1649 - Direito Civil]
+# CC Art. 1649 — A falta de autorização, não suprida pelo juiz, quando necessária (art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A falta de autorização, não suprida pelo juiz, quando necessária (art. 1.647), tornará anulável o ato praticado, podendo o outro cônjuge pleitear-lhe a anulação, até dois anos depois de terminada a sociedade conjugal. Parágrafo único. A aprovação torna válido o ato, desde que feita por instrumento público, ou particular, autenticado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

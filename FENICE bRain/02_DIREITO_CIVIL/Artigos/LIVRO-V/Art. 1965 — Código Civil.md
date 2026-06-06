@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1965 — [Artigo 1965 - Direito Civil]
+# CC Art. 1965 — Ao herdeiro instituído, ou àquele a quem aproveite a deserdação, incumbe provar a veracidade da causa alegada pelo testa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao herdeiro instituído, ou àquele a quem aproveite a deserdação, incumbe provar a veracidade da causa alegada pelo testador. Parágrafo único. O direito de provar a causa da deserdação extingue-se no prazo de quatro anos, a contar da data da abertura do testamento. CAPÍTULO XI Da Redução das Disposições Testamentárias
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

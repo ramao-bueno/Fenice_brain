@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1273 — [Artigo 1273 - Direito Civil]
+# CC Art. 1273 — Se a confusão, comissão ou adjunção se operou de má-fé, à outra parte caberá escolher entre adquirir a propriedade do to
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a confusão, comissão ou adjunção se operou de má-fé, à outra parte caberá escolher entre adquirir a propriedade do todo, pagando o que não for seu, abatida a indenização que lhe for devida, ou renunciar ao que lhe pertencer, caso em que será indenizado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

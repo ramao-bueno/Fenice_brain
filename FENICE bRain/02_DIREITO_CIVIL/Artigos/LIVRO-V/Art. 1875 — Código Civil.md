@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1875 — [Artigo 1875 - Direito Civil]
+# CC Art. 1875 — Falecido o testador, o testamento será apresentado ao juiz, que o abrirá e o fará registrar, ordenando seja cumprido, se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Falecido o testador, o testamento será apresentado ao juiz, que o abrirá e o fará registrar, ordenando seja cumprido, se não achar vício externo que o torne eivado de nulidade ou suspeito de falsidade. Seção IV Do Testamento Particular
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

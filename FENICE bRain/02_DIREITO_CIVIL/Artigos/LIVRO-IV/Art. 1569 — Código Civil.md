@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1569 — [Artigo 1569 - Direito Civil]
+# CC Art. 1569 — O domicílio do casal será escolhido por ambos os cônjuges, mas um e outro podem ausentar-se do domicílio conjugal para a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O domicílio do casal será escolhido por ambos os cônjuges, mas um e outro podem ausentar-se do domicílio conjugal para atender a encargos públicos, ao exercício de sua profissão, ou a interesses particulares relevantes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

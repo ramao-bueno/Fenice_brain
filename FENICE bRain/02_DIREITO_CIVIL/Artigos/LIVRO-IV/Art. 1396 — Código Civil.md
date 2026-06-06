@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1396 — [Artigo 1396 - Direito Civil]
+# CC Art. 1396 — Salvo direito adquirido por outrem, o usufrutuário faz seus os frutos naturais, pendentes ao começar o usufruto, sem enc
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo direito adquirido por outrem, o usufrutuário faz seus os frutos naturais, pendentes ao começar o usufruto, sem encargo de pagar as despesas de produção. Parágrafo único. Os frutos naturais, pendentes ao tempo em que cessa o usufruto, pertencem ao dono, também sem compensação das despesas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

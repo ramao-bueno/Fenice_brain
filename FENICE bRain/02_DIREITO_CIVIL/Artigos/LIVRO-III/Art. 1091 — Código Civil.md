@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1091 — [Artigo 1091 - Direito Civil]
+# CC Art. 1091 — Somente o acionista tem qualidade para administrar a sociedade e, como diretor, responde subsidiária e ilimitadamente pe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Somente o acionista tem qualidade para administrar a sociedade e, como diretor, responde subsidiária e ilimitadamente pelas obrigações da sociedade. § 1 o Se houver mais de um diretor, serão solidariamente responsáveis, depois de esgotados os bens sociais. § 2 o Os diretores serão nomeados no ato constitutivo da sociedade, sem limitação de tempo, e somente poderão ser destituídos por deliberação de acionistas que representem no mínimo dois terços do capital social. § 3 o O diretor destituído ou exonerado continua, durante dois anos, responsável pelas obrigações sociais contraídas sob sua administração.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

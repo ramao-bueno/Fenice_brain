@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1737 — [Artigo 1737 - Direito Civil]
+# CC Art. 1737 — Quem não for parente do menor não poderá ser obrigado a aceitar a tutela, se houver no lugar parente idôneo, consangüíne
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quem não for parente do menor não poderá ser obrigado a aceitar a tutela, se houver no lugar parente idôneo, consangüíneo ou afim, em condições de exercê-la.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1004 — [Artigo 1004 - Direito Civil]
+# CC Art. 1004 — Os sócios são obrigados, na forma e prazo previstos, às contribuições estabelecidas no contrato social, e aquele que dei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os sócios são obrigados, na forma e prazo previstos, às contribuições estabelecidas no contrato social, e aquele que deixar de fazê-lo, nos trinta dias seguintes ao da notificação pela sociedade, responderá perante esta pelo dano emergente da mora. Parágrafo único. Verificada a mora, poderá a maioria dos demais sócios preferir, à indenização, a exclusão do sócio remisso, ou reduzir-lhe a quota ao montante já realizado, aplicando-se, em ambos os casos, o disposto no § 1º do art. 1.031.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

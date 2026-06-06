@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1256 — [Artigo 1256 - Direito Civil]
+# CC Art. 1256 — Se de ambas as partes houve má-fé, adquirirá o proprietário as sementes, plantas e construções, devendo ressarcir o valo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se de ambas as partes houve má-fé, adquirirá o proprietário as sementes, plantas e construções, devendo ressarcir o valor das acessões. Parágrafo único. Presume-se má-fé no proprietário, quando o trabalho de construção, ou lavoura, se fez em sua presença e sem impugnação sua.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

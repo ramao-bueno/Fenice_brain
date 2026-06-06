@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1459 — [Artigo 1459 - Direito Civil]
+# CC Art. 1459 — Ao credor, em penhor de título de crédito, compete o direito de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao credor, em penhor de título de crédito, compete o direito de: I - conservar a posse do título e recuperá-la de quem quer que o detenha; II - usar dos meios judiciais convenientes para assegurar os seus direitos, e os do credor do título empenhado; III - fazer intimar ao devedor do título que não pague ao seu credor, enquanto durar o penhor; IV - receber a importância consubstanciada no título e os respectivos juros, se exigíveis, restituindo o título ao devedor, quando este solver a obrigação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

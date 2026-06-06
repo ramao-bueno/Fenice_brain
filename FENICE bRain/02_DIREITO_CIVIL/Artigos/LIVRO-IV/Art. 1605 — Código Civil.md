@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1605 — [Artigo 1605 - Direito Civil]
+# CC Art. 1605 — Na falta, ou defeito, do termo de nascimento, poderá provar-se a filiação por qualquer modo admissível em direito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na falta, ou defeito, do termo de nascimento, poderá provar-se a filiação por qualquer modo admissível em direito: I - quando houver começo de prova por escrito, proveniente dos pais, conjunta ou separadamente; II - quando existirem veementes presunções resultantes de fatos já certos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

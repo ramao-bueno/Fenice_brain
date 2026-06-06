@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1117 — [Artigo 1117 - Direito Civil]
+# CC Art. 1117 — A deliberação dos sócios da sociedade incorporada deverá aprovar as bases da operação e o projeto de reforma do ato cons
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A deliberação dos sócios da sociedade incorporada deverá aprovar as bases da operação e o projeto de reforma do ato constitutivo. § 1 o A sociedade que houver de ser incorporada tomará conhecimento desse ato, e, se o aprovar, autorizará os administradores a praticar o necessário à incorporação, inclusive a subscrição em bens pelo valor da diferença que se verificar entre o ativo e o passivo. § 2 o A deliberação dos sócios da sociedade incorporadora compreenderá a nomeação dos peritos para a avaliação do patrimônio líquido da sociedade, que tenha de ser incorporada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

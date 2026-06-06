@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1963 — [Artigo 1963 - Direito Civil]
+# CC Art. 1963 — Além das causas enumeradas no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além das causas enumeradas no art. 1.814, autorizam a deserdação dos ascendentes pelos descendentes: I - ofensa física; II - injúria grave; III - relações ilícitas com a mulher ou companheira do filho ou a do neto, ou com o marido ou companheiro da filha ou o da neta; IV - desamparo do filho ou neto com deficiência mental ou grave enfermidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1076 — [Artigo 1076 - Direito Civil]
+# CC Art. 1076 — Ressalvado o disposto no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ressalvado o disposto no art. 1.061, as deliberações dos sócios serão tomadas (Redação dada pela Lei nº 13.792, de 2019) I - (revogado); (Redação dada pela Lei nº 14.451, de 2022) Vigência II - pelos votos correspondentes a mais da metade do capital social, nos casos previstos nos incisos II, III, IV, V, VI e VIII do caput do art. 1.071 deste Código; (Redação dada pela Lei nº 14.451, de 2022) Vigência III - pela maioria de votos dos presentes, nos demais casos previstos na lei ou no contrato, se este não exigir maioria mais elevada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

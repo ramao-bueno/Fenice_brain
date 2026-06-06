@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1884 — [Artigo 1884 - Direito Civil]
+# CC Art. 1884 — Os atos previstos nos artigos antecedentes revogam-se por atos iguais, e consideram-se revogados, se, havendo testamento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os atos previstos nos artigos antecedentes revogam-se por atos iguais, e consideram-se revogados, se, havendo testamento posterior, de qualquer natureza, este os não confirmar ou modificar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

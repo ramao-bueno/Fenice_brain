@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1201 — [Artigo 1201 - Direito Civil]
+# CC Art. 1201 — É de boa-fé a posse, se o possuidor ignora o vício, ou o obstáculo que impede a aquisição da coisa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É de boa-fé a posse, se o possuidor ignora o vício, ou o obstáculo que impede a aquisição da coisa. Parágrafo único. O possuidor com justo título tem por si a presunção de boa-fé, salvo prova em contrário, ou quando a lei expressamente não admite esta presunção.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

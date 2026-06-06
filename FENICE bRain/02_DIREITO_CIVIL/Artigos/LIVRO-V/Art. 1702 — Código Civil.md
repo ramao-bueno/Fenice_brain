@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1702 — [Artigo 1702 - Direito Civil]
+# CC Art. 1702 — Na separação judicial litigiosa, sendo um dos cônjuges inocente e desprovido de recursos, prestar-lhe-á o outro a pensão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na separação judicial litigiosa, sendo um dos cônjuges inocente e desprovido de recursos, prestar-lhe-á o outro a pensão alimentícia que o juiz fixar, obedecidos os critérios estabelecidos no art. 1.694.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

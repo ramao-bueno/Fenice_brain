@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1415 — [Artigo 1415 - Direito Civil]
+# CC Art. 1415 — Se o direito real de habitação for conferido a mais de uma pessoa, qualquer delas que sozinha habite a casa não terá de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o direito real de habitação for conferido a mais de uma pessoa, qualquer delas que sozinha habite a casa não terá de pagar aluguel à outra, ou às outras, mas não as pode inibir de exercerem, querendo, o direito, que também lhes compete, de habitá-la.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

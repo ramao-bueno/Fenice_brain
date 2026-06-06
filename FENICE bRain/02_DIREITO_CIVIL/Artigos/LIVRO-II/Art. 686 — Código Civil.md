@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 686 — A revogação do mandato, notificada somente ao mandatário, não se pode opor aos terceiros que, ignorando-a, de boa-fé com
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A revogação do mandato, notificada somente ao mandatário, não se pode opor aos terceiros que, ignorando-a, de boa-fé com ele trataram; mas ficam salvas ao constituinte as ações que no caso lhe possam caber contra o procurador. Parágrafo único. É irrevogável o mandato que contenha poderes de cumprimento ou confirmação de negócios encetados, aos quais se ache vinculado.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

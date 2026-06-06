@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 123 — Invalidam os negócios jurídicos que lhes são subordinados
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Invalidam os negócios jurídicos que lhes são subordinados: I - as condições física ou juridicamente impossíveis, quando suspensivas; II - as condições ilícitas, ou de fazer coisa ilícita; III - as condições incompreensíveis ou contraditórias.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

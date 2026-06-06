@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 825 — [Artigo 825 - Direito Civil]
+# CC Art. 825 — Quando alguém houver de oferecer fiador, o credor não pode ser obrigado a aceitá-lo se não for pessoa idônea, domiciliad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando alguém houver de oferecer fiador, o credor não pode ser obrigado a aceitá-lo se não for pessoa idônea, domiciliada no município onde tenha de prestar a fiança, e não possua bens suficientes para cumprir a obrigação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

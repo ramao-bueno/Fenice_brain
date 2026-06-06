@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1275 — [Artigo 1275 - Direito Civil]
+# CC Art. 1275 — Além das causas consideradas neste Código, perde-se a propriedade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além das causas consideradas neste Código, perde-se a propriedade: I - por alienação; II - pela renúncia; III - por abandono; IV - por perecimento da coisa; V - por desapropriação. Parágrafo único. Nos casos dos incisos I e II, os efeitos da perda da propriedade imóvel serão subordinados ao registro do título transmissivo ou do ato renunciativo no Registro de Imóveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

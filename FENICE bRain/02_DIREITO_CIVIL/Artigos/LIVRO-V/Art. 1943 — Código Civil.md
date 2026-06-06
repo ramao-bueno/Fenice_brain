@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1943 — [Artigo 1943 - Direito Civil]
+# CC Art. 1943 — Se um dos co-herdeiros ou co-legatários, nas condições do artigo antecedente, morrer antes do testador;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um dos co-herdeiros ou co-legatários, nas condições do artigo antecedente, morrer antes do testador; se renunciar a herança ou legado, ou destes for excluído, e, se a condição sob a qual foi instituído não se verificar, acrescerá o seu quinhão, salvo o direito do substituto, à parte dos co-herdeiros ou co-legatários conjuntos. Parágrafo único. Os co-herdeiros ou co-legatários, aos quais acresceu o quinhão daquele que não quis ou não pôde suceder, ficam sujeitos às obrigações ou encargos que o oneravam.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

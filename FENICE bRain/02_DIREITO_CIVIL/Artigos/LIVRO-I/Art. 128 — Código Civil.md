@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 128 — Sobrevindo a condição resolutiva, extingue-se, para todos os efeitos, o direito a que ela se opõe;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Sobrevindo a condição resolutiva, extingue-se, para todos os efeitos, o direito a que ela se opõe; mas, se aposta a um negócio de execução continuada ou periódica, a sua realização, salvo disposição em contrário, não tem eficácia quanto aos atos já praticados, desde que compatíveis com a natureza da condição pendente e conforme aos ditames de boa-fé.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1516 — [Artigo 1516 - Direito Civil]
+# CC Art. 1516 — O registro do casamento religioso submete-se aos mesmos requisitos exigidos para o casamento civil
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O registro do casamento religioso submete-se aos mesmos requisitos exigidos para o casamento civil. § 1 o O registro civil do casamento religioso deverá ser promovido dentro de noventa dias de sua realização, mediante comunicação do celebrante ao ofício competente, ou por iniciativa de qualquer interessado, desde que haja sido homologada previamente a habilitação regulada neste Código. Após o referido prazo, o registro dependerá de nova habilitação. § 2 o O casamento religioso, celebrado sem as formalidades exigidas neste Código, terá efeitos civis se, a requerimento do casal, for registrado, a qualquer tempo, no registro civil, mediante prévia habilitação perante a autoridade competente e observado o prazo do art. 1.532. § 3 o Será nulo o registro civil do casamento religioso se, antes dele, qualquer dos consorciados houver contraído com outrem casamento civil. CAPÍTULO II Da Capacidade PARA O CASAMENTO
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

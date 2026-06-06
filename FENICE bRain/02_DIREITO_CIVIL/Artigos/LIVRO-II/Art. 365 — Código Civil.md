@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 365 — Operada a novação entre o credor e um dos devedores solidários, somente sobre os bens do que contrair a nova obrigação s
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Operada a novação entre o credor e um dos devedores solidários, somente sobre os bens do que contrair a nova obrigação subsistem as preferências e garantias do crédito novado. Os outros devedores solidários ficam por esse fato exonerados.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

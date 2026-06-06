@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1549 — [Artigo 1549 - Direito Civil]
+# CC Art. 1549 — A decretação de nulidade de casamento, pelos motivos previstos no artigo antecedente, pode ser promovida mediante ação d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A decretação de nulidade de casamento, pelos motivos previstos no artigo antecedente, pode ser promovida mediante ação direta, por qualquer interessado, ou pelo Ministério Público.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

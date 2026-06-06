@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1717 — [Artigo 1717 - Direito Civil]
+# CC Art. 1717 — O prédio e os valores mobiliários, constituídos como bem da família, não podem ter destino diverso do previsto no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O prédio e os valores mobiliários, constituídos como bem da família, não podem ter destino diverso do previsto no art. 1.712 ou serem alienados sem o consentimento dos interessados e seus representantes legais, ouvido o Ministério Público.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

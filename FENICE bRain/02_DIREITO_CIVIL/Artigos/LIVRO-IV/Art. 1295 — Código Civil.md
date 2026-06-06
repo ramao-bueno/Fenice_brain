@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1295 — [Artigo 1295 - Direito Civil]
+# CC Art. 1295 — O aqueduto não impedirá que os proprietários cerquem os imóveis e construam sobre ele, sem prejuízo para a sua segurança
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O aqueduto não impedirá que os proprietários cerquem os imóveis e construam sobre ele, sem prejuízo para a sua segurança e conservação; os proprietários dos imóveis poderão usar das águas do aqueduto para as primeiras necessidades da vida.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

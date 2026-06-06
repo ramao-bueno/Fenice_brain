@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1533 — [Artigo 1533 - Direito Civil]
+# CC Art. 1533 — Celebrar-se-á o casamento, no dia, hora e lugar previamente designados pela autoridade que houver de presidir o ato, med
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Celebrar-se-á o casamento, no dia, hora e lugar previamente designados pela autoridade que houver de presidir o ato, mediante petição dos contraentes, que se mostrem habilitados com a certidão do art. 1.531.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

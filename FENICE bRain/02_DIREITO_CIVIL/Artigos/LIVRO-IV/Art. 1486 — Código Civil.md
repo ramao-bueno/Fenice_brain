@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1486 — [Artigo 1486 - Direito Civil]
+# CC Art. 1486 — Podem o credor e o devedor, no ato constitutivo da hipoteca, autorizar a emissão da correspondente cédula hipotecária, n
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Podem o credor e o devedor, no ato constitutivo da hipoteca, autorizar a emissão da correspondente cédula hipotecária, na forma e para os fins previstos em lei especial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

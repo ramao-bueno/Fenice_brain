@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1155 — [Artigo 1155 - Direito Civil]
+# CC Art. 1155 — Considera-se nome empresarial a firma ou a denominação adotada, de conformidade com este Capítulo, para o exercício de e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se nome empresarial a firma ou a denominação adotada, de conformidade com este Capítulo, para o exercício de empresa. Parágrafo único. Equipara-se ao nome empresarial, para os efeitos da proteção da lei, a denominação das sociedades simples, associações e fundações.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

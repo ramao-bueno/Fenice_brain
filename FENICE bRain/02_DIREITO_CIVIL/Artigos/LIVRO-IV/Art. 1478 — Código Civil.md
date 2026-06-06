@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1478 — [Artigo 1478 - Direito Civil]
+# CC Art. 1478 — O credor hipotecário que efetuar o pagamento, a qualquer tempo, das dívidas garantidas pelas hipotecas anteriores sub-ro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor hipotecário que efetuar o pagamento, a qualquer tempo, das dívidas garantidas pelas hipotecas anteriores sub-rogar-se-á nos seus direitos, sem prejuízo dos que lhe competirem contra o devedor comum. (Redação dada pela Lei nº 14.711, de 2023) Parágrafo único. Se o primeiro credor estiver promovendo a execução da hipoteca, o credor da segunda depositará a importância do débito e as despesas judiciais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

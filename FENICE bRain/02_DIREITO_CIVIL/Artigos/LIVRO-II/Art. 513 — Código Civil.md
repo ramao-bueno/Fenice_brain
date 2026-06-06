@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 513 — A preempção, ou preferência, impõe ao comprador a obrigação de oferecer ao vendedor a coisa que aquele vai vender, ou da
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A preempção, ou preferência, impõe ao comprador a obrigação de oferecer ao vendedor a coisa que aquele vai vender, ou dar em pagamento, para que este use de seu direito de prelação na compra, tanto por tanto. Parágrafo único. O prazo para exercer o direito de preferência não poderá exceder a cento e oitenta dias, se a coisa for móvel, ou a dois anos, se imóvel.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

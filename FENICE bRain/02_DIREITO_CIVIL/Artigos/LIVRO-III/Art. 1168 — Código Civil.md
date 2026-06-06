@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1168 — [Artigo 1168 - Direito Civil]
+# CC Art. 1168 — A inscrição do nome empresarial será cancelada, a requerimento de qualquer interessado, quando cessar o exercício da ati
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A inscrição do nome empresarial será cancelada, a requerimento de qualquer interessado, quando cessar o exercício da atividade para que foi adotado, ou quando ultimar-se a liquidação da sociedade que o inscreveu. CAPÍTULO III Dos Prepostos Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

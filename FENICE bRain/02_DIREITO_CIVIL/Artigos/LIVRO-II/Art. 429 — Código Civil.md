@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 429 — A oferta ao público equivale a proposta quando encerra os requisitos essenciais ao contrato, salvo se o contrário result
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A oferta ao público equivale a proposta quando encerra os requisitos essenciais ao contrato, salvo se o contrário resultar das circunstâncias ou dos usos. Parágrafo único. Pode revogar-se a oferta pela mesma via de sua divulgação, desde que ressalvada esta faculdade na oferta realizada.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

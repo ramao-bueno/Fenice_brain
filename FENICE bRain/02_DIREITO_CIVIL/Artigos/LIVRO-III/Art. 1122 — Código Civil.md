@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1122 — [Artigo 1122 - Direito Civil]
+# CC Art. 1122 — Até noventa dias após publicados os atos relativos à incorporação, fusão ou cisão, o credor anterior, por ela prejudicad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Até noventa dias após publicados os atos relativos à incorporação, fusão ou cisão, o credor anterior, por ela prejudicado, poderá promover judicialmente a anulação deles. § 1 o A consignação em pagamento prejudicará a anulação pleiteada. § 2 o Sendo ilíquida a dívida, a sociedade poderá garantir-lhe a execução, suspendendo-se o processo de anulação. § 3 o Ocorrendo, no prazo deste artigo, a falência da sociedade incorporadora, da sociedade nova ou da cindida, qualquer credor anterior terá direito a pedir a separação dos patrimônios, para o fim de serem os créditos pagos pelos bens das respectivas massas. CAPÍTULO XI Da Sociedade Dependente de Autorização Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1747 — [Artigo 1747 - Direito Civil]
+# CC Art. 1747 — Compete mais ao tutor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Compete mais ao tutor: I - representar o menor, até os dezesseis anos, nos atos da vida civil, e assisti-lo, após essa idade, nos atos em que for parte; II - receber as rendas e pensões do menor, e as quantias a ele devidas; III - fazer-lhe as despesas de subsistência e educação, bem como as de administração, conservação e melhoramentos de seus bens; IV - alienar os bens do menor destinados a venda; V - promover-lhe, mediante preço conveniente, o arrendamento de bens de raiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

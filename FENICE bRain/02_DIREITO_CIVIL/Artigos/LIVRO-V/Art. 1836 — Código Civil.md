@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1836 — [Artigo 1836 - Direito Civil]
+# CC Art. 1836 — Na falta de descendentes, são chamados à sucessão os ascendentes, em concorrência com o cônjuge sobrevivente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na falta de descendentes, são chamados à sucessão os ascendentes, em concorrência com o cônjuge sobrevivente. § 1 o Na classe dos ascendentes, o grau mais próximo exclui o mais remoto, sem distinção de linhas. § 2 o Havendo igualdade em grau e diversidade em linha, os ascendentes da linha paterna herdam a metade, cabendo a outra aos da linha materna.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

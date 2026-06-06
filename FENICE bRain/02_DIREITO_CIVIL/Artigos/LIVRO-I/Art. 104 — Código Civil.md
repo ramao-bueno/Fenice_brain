@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 104 — A validade do negócio jurídico requer
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A validade do negócio jurídico requer: I - agente capaz; II - objeto lícito, possível, determinado ou determinável; III - forma prescrita ou não defesa em lei.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

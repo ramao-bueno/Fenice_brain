@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1333 — [Artigo 1333 - Direito Civil]
+# CC Art. 1333 — A convenção que constitui o condomínio edilício deve ser subscrita pelos titulares de, no mínimo, dois terços das fraçõe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A convenção que constitui o condomínio edilício deve ser subscrita pelos titulares de, no mínimo, dois terços das frações ideais e torna-se, desde logo, obrigatória para os titulares de direito sobre as unidades, ou para quantos sobre elas tenham posse ou detenção. Parágrafo único. Para ser oponível contra terceiros, a convenção do condomínio deverá ser registrada no Cartório de Registro de Imóveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

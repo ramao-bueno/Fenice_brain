@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1902 — [Artigo 1902 - Direito Civil]
+# CC Art. 1902 — A disposição geral em favor dos pobres, dos estabelecimentos particulares de caridade, ou dos de assistência pública, en
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A disposição geral em favor dos pobres, dos estabelecimentos particulares de caridade, ou dos de assistência pública, entender-se-á relativa aos pobres do lugar do domicílio do testador ao tempo de sua morte, ou dos estabelecimentos aí sitos, salvo se manifestamente constar que tinha em mente beneficiar os de outra localidade. Parágrafo único. Nos casos deste artigo, as instituições particulares preferirão sempre às públicas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -10,9 +10,9 @@ OUTPUT_BASE = PROJECT_ROOT / "FENICE bRain" / "02_DIREITO_CIVIL" / "Artigos"
 LIVRO_MAPEAMENTO = {
     "LIVRO-I": {"range": (1, 232), "nome": "Parte Geral"},
     "LIVRO-II": {"range": (233, 709), "nome": "Direito das Obrigações"},
-    "LIVRO-III": {"range": (710, 1.256), "nome": "Direito das Coisas"},
-    "LIVRO-IV": {"range": (1.257, 1.638), "nome": "Direito de Família"},
-    "LIVRO-V": {"range": (1.639, 2.046), "nome": "Direito das Sucessões"},
+    "LIVRO-III": {"range": (710, 1256), "nome": "Direito das Coisas"},
+    "LIVRO-IV": {"range": (1257, 1638), "nome": "Direito de Família"},
+    "LIVRO-V": {"range": (1639, 2046), "nome": "Direito das Sucessões"},
 }
 
 # Tags padrão

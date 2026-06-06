@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 844 — [Artigo 844 - Direito Civil]
+# CC Art. 844 — A transação não aproveita, nem prejudica senão aos que nela intervierem, ainda que diga respeito a coisa indivisível
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transação não aproveita, nem prejudica senão aos que nela intervierem, ainda que diga respeito a coisa indivisível. § 1 o Se for concluída entre o credor e o devedor, desobrigará o fiador. § 2 o Se entre um dos credores solidários e o devedor, extingue a obrigação deste para com os outros credores. § 3 o Se entre um dos devedores solidários e seu credor, extingue a dívida em relação aos co-devedores.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

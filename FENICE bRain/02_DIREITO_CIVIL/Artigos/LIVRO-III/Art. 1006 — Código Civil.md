@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1006 — [Artigo 1006 - Direito Civil]
+# CC Art. 1006 — O sócio, cuja contribuição consista em serviços, não pode, salvo convenção em contrário, empregar-se em atividade estran
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O sócio, cuja contribuição consista em serviços, não pode, salvo convenção em contrário, empregar-se em atividade estranha à sociedade, sob pena de ser privado de seus lucros e dela excluído.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

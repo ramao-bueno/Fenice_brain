@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1559 — [Artigo 1559 - Direito Civil]
+# CC Art. 1559 — Somente o cônjuge que incidiu em erro, ou sofreu coação, pode demandar a anulação do casamento;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Somente o cônjuge que incidiu em erro, ou sofreu coação, pode demandar a anulação do casamento; mas a coabitação, havendo ciência do vício, valida o ato, ressalvadas as hipóteses dos incisos III e IV do art. 1.557.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

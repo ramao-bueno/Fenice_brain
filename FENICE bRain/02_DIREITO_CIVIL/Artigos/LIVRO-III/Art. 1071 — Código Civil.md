@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1071 — [Artigo 1071 - Direito Civil]
+# CC Art. 1071 — Dependem da deliberação dos sócios, além de outras matérias indicadas na lei ou no contrato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dependem da deliberação dos sócios, além de outras matérias indicadas na lei ou no contrato: I - a aprovação das contas da administração; II - a designação dos administradores, quando feita em ato separado; III - a destituição dos administradores; IV - o modo de sua remuneração, quando não estabelecido no contrato; V - a modificação do contrato social; VI - a incorporação, a fusão e a dissolução da sociedade, ou a cessação do estado de liquidação; VII - a nomeação e destituição dos liquidantes e o julgamento das suas contas; VIII - o pedido de concordata.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

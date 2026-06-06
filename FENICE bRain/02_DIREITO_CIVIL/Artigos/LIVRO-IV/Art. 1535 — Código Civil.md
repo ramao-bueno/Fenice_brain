@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1535 — [Artigo 1535 - Direito Civil]
+# CC Art. 1535 — Presentes os contraentes, em pessoa ou por procurador especial, juntamente com as testemunhas e o oficial do registro, o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Presentes os contraentes, em pessoa ou por procurador especial, juntamente com as testemunhas e o oficial do registro, o presidente do ato, ouvida aos nubentes a afirmação de que pretendem casar por livre e espontânea vontade, declarará efetuado o casamento, nestes termos:"De acordo com a vontade que ambos acabais de afirmar perante mim, de vos receberdes por marido e mulher, eu, em nome da lei, vos declaro casados."
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

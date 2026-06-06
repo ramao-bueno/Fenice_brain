@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1740 — [Artigo 1740 - Direito Civil]
+# CC Art. 1740 — Incumbe ao tutor, quanto à pessoa do menor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Incumbe ao tutor, quanto à pessoa do menor: I - dirigir-lhe a educação, defendê-lo e prestar-lhe alimentos, conforme os seus haveres e condição; II - reclamar do juiz que providencie, como houver por bem, quando o menor haja mister correção; III - adimplir os demais deveres que normalmente cabem aos pais, ouvida a opinião do menor, se este já contar doze anos de idade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

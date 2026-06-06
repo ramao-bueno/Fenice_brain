@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1797 — [Artigo 1797 - Direito Civil]
+# CC Art. 1797 — Até o compromisso do inventariante, a administração da herança caberá, sucessivamente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Até o compromisso do inventariante, a administração da herança caberá, sucessivamente: I - ao cônjuge ou companheiro, se com o outro convivia ao tempo da abertura da sucessão; II - ao herdeiro que estiver na posse e administração dos bens, e, se houver mais de um nessas condições, ao mais velho; III - ao testamenteiro; IV - a pessoa de confiança do juiz, na falta ou escusa das indicadas nos incisos antecedentes, ou quando tiverem de ser afastadas por motivo grave levado ao conhecimento do juiz. CAPÍTULO III Da Vocação Hereditária
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

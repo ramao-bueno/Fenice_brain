@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1727 — [Artigo 1727 - Direito Civil]
+# CC Art. 1727 — As relações não eventuais entre o homem e a mulher, impedidos de casar, constituem concubinato
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As relações não eventuais entre o homem e a mulher, impedidos de casar, constituem concubinato. TÍTULO IV Da Tutela, da Curatela e da Tomada de Decisão Apoiada (Redação dada pela Lei nº 13.146, de 2015) CAPÍTULO I Da Tutela Seção I Dos Tutores
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

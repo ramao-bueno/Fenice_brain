@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1387 — [Artigo 1387 - Direito Civil]
+# CC Art. 1387 — Salvo nas desapropriações, a servidão, uma vez registrada, só se extingue, com respeito a terceiros, quando cancelada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo nas desapropriações, a servidão, uma vez registrada, só se extingue, com respeito a terceiros, quando cancelada. Parágrafo único. Se o prédio dominante estiver hipotecado, e a servidão se mencionar no título hipotecário, será também preciso, para a cancelar, o consentimento do credor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

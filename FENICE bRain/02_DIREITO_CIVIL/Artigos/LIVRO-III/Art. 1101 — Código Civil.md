@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1101 — [Artigo 1101 - Direito Civil]
+# CC Art. 1101 — Salvo disposição especial de lei, a sociedade não pode participar de outra, que seja sua sócia, por montante superior, s
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição especial de lei, a sociedade não pode participar de outra, que seja sua sócia, por montante superior, segundo o balanço, ao das próprias reservas, excluída a reserva legal. Parágrafo único. Aprovado o balanço em que se verifique ter sido excedido esse limite, a sociedade não poderá exercer o direito de voto correspondente às ações ou quotas em excesso, as quais devem ser alienadas nos cento e oitenta dias seguintes àquela aprovação. CAPÍTULO IX Da Liquidação da Sociedade
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

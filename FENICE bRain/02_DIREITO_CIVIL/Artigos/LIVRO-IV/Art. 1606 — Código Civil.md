@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1606 — [Artigo 1606 - Direito Civil]
+# CC Art. 1606 — A ação de prova de filiação compete ao filho, enquanto viver, passando aos herdeiros, se ele morrer menor ou incapaz
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A ação de prova de filiação compete ao filho, enquanto viver, passando aos herdeiros, se ele morrer menor ou incapaz. Parágrafo único. Se iniciada a ação pelo filho, os herdeiros poderão continuá-la, salvo se julgado extinto o processo. CAPÍTULO III Do Reconhecimento dos Filhos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

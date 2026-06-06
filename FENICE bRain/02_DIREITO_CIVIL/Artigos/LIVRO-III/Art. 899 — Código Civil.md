@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 899 — [Artigo 899 - Direito Civil]
+# CC Art. 899 — O avalista equipara-se àquele cujo nome indicar;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O avalista equipara-se àquele cujo nome indicar; na falta de indicação, ao emitente ou devedor final. § 1° Pagando o título, tem o avalista ação de regresso contra o seu avalizado e demais coobrigados anteriores. § 2º Subsiste a responsabilidade do avalista, ainda que nula a obrigação daquele a quem se equipara, a menos que a nulidade decorra de vício de forma.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

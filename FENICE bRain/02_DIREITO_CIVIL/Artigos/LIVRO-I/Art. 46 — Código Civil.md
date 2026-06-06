@@ -9,13 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-- inciso-vi
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 46 — O registro declarará
@@ -26,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O registro declarará: I - a denominação, os fins, a sede, o tempo de duração e o fundo social, quando houver; II - o nome e a individualização dos fundadores ou instituidores, e dos diretores; III - o modo por que se administra e representa, ativa e passivamente, judicial e extrajudicialmente; IV - se o ato constitutivo é reformável no tocante à administração, e de que modo; V - se os membros respondem, ou não, subsidiariamente, pelas obrigações sociais; VI - as condições de extinção da pessoa jurídica e o destino do seu patrimônio, nesse caso.
 
@@ -60,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

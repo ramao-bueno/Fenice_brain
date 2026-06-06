@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 804 — [Artigo 804 - Direito Civil]
+# CC Art. 804 — O contrato pode ser também a título oneroso, entregando-se bens móveis ou imóveis à pessoa que se obriga a satisfazer as
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O contrato pode ser também a título oneroso, entregando-se bens móveis ou imóveis à pessoa que se obriga a satisfazer as prestações a favor do credor ou de terceiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

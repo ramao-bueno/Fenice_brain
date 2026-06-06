@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 251 — Praticado pelo devedor o ato, a cuja abstenção se obrigara, o credor pode exigir dele que o desfaça, sob pena de se desf
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Praticado pelo devedor o ato, a cuja abstenção se obrigara, o credor pode exigir dele que o desfaça, sob pena de se desfazer à sua custa, ressarcindo o culpado perdas e danos. Parágrafo único. Em caso de urgência, poderá o credor desfazer ou mandar desfazer, independentemente de autorização judicial, sem prejuízo do ressarcimento devido. CAPÍTULO IV Das Obrigações Alternativas
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

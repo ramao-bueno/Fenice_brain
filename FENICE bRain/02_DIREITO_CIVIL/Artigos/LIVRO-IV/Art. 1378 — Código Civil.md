@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1378 — [Artigo 1378 - Direito Civil]
+# CC Art. 1378 — A servidão proporciona utilidade para o prédio dominante, e grava o prédio serviente, que pertence a diverso dono, e con
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A servidão proporciona utilidade para o prédio dominante, e grava o prédio serviente, que pertence a diverso dono, e constitui-se mediante declaração expressa dos proprietários, ou por testamento, e subseqüente registro no Cartório de Registro de Imóveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

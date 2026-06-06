@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1192 — [Artigo 1192 - Direito Civil]
+# CC Art. 1192 — Recusada a apresentação dos livros, nos casos do artigo antecedente, serão apreendidos judicialmente e, no do seu § 1 o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Recusada a apresentação dos livros, nos casos do artigo antecedente, serão apreendidos judicialmente e, no do seu § 1 o , ter-se-á como verdadeiro o alegado pela parte contrária para se provar pelos livros. Parágrafo único. A confissão resultante da recusa pode ser elidida por prova documental em contrário.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

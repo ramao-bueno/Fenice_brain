@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1480 — [Artigo 1480 - Direito Civil]
+# CC Art. 1480 — O adquirente notificará o vendedor e os credores hipotecários, deferindo-lhes, conjuntamente, a posse do imóvel, ou o de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O adquirente notificará o vendedor e os credores hipotecários, deferindo-lhes, conjuntamente, a posse do imóvel, ou o depositará em juízo. Parágrafo único. Poderá o adquirente exercer a faculdade de abandonar o imóvel hipotecado, até as vinte e quatro horas subseqüentes à citação, com que se inicia o procedimento executivo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

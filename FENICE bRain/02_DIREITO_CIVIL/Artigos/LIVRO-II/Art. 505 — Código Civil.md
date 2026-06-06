@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 505 — O vendedor de coisa imóvel pode reservar-se o direito de recobrá-la no prazo máximo de decadência de três anos, restitui
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O vendedor de coisa imóvel pode reservar-se o direito de recobrá-la no prazo máximo de decadência de três anos, restituindo o preço recebido e reembolsando as despesas do comprador, inclusive as que, durante o período de resgate, se efetuaram com a sua autorização escrita, ou para a realização de benfeitorias necessárias.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

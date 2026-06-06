@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 726 — [Artigo 726 - Direito Civil]
+# CC Art. 726 — Iniciado e concluído o negócio diretamente entre as partes, nenhuma remuneração será devida ao corretor;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Iniciado e concluído o negócio diretamente entre as partes, nenhuma remuneração será devida ao corretor; mas se, por escrito, for ajustada a corretagem com exclusividade, terá o corretor direito à remuneração integral, ainda que realizado o negócio sem a sua mediação, salvo se comprovada sua inércia ou ociosidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

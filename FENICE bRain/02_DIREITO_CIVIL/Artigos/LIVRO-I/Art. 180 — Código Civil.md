@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 180 — O menor, entre dezesseis e dezoito anos, não pode, para eximir-se de uma obrigação, invocar a sua idade se dolosamente a
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O menor, entre dezesseis e dezoito anos, não pode, para eximir-se de uma obrigação, invocar a sua idade se dolosamente a ocultou quando inquirido pela outra parte, ou se, no ato de obrigar-se, declarou-se maior.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

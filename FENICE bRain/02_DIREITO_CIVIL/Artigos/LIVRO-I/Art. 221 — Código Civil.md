@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 221 — O instrumento particular, feito e assinado, ou somente assinado por quem esteja na livre disposição e administração de s
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O instrumento particular, feito e assinado, ou somente assinado por quem esteja na livre disposição e administração de seus bens, prova as obrigações convencionais de qualquer valor; mas os seus efeitos, bem como os da cessão, não se operam, a respeito de terceiros, antes de registrado no registro público. Parágrafo único. A prova do instrumento particular pode suprir-se pelas outras de caráter legal.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

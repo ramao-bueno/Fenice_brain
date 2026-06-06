@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 715 — [Artigo 715 - Direito Civil]
+# CC Art. 715 — O agente ou distribuidor tem direito à indenização se o proponente, sem justa causa, cessar o atendimento das propostas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O agente ou distribuidor tem direito à indenização se o proponente, sem justa causa, cessar o atendimento das propostas ou reduzi-lo tanto que se torna antieconômica a continuação do contrato.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 975 — [Artigo 975 - Direito Civil]
+# CC Art. 975 — Se o representante ou assistente do incapaz for pessoa que, por disposição de lei, não puder exercer atividade de empres
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o representante ou assistente do incapaz for pessoa que, por disposição de lei, não puder exercer atividade de empresário, nomeará, com a aprovação do juiz, um ou mais gerentes. § 1º Do mesmo modo será nomeado gerente em todos os casos em que o juiz entender ser conveniente. § 2º A aprovação do juiz não exime o representante ou assistente do menor ou do interdito da responsabilidade pelos atos dos gerentes nomeados.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

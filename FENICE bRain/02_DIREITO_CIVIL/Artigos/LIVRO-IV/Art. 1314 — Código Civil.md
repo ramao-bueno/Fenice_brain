@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1314 — [Artigo 1314 - Direito Civil]
+# CC Art. 1314 — Cada condômino pode usar da coisa conforme sua destinação, sobre ela exercer todos os direitos compatíveis com a indivis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cada condômino pode usar da coisa conforme sua destinação, sobre ela exercer todos os direitos compatíveis com a indivisão, reivindicá-la de terceiro, defender a sua posse e alhear a respectiva parte ideal, ou gravá-la. Parágrafo único. Nenhum dos condôminos pode alterar a destinação da coisa comum, nem dar posse, uso ou gozo dela a estranhos, sem o consenso dos outros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

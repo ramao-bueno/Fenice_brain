@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1195 — [Artigo 1195 - Direito Civil]
+# CC Art. 1195 — As disposições deste Capítulo aplicam-se às sucursais, filiais ou agências, no Brasil, do empresário ou sociedade com se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As disposições deste Capítulo aplicam-se às sucursais, filiais ou agências, no Brasil, do empresário ou sociedade com sede em país estrangeiro. LIVRO III Do Direito das Coisas TÍTULO I Da posse CAPÍTULO I Da Posse e sua Classificação
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

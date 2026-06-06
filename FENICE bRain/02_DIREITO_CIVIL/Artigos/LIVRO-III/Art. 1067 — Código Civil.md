@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1067 — [Artigo 1067 - Direito Civil]
+# CC Art. 1067 — O membro ou suplente eleito, assinando termo de posse lavrado no livro de atas e pareceres do conselho fiscal, em que se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O membro ou suplente eleito, assinando termo de posse lavrado no livro de atas e pareceres do conselho fiscal, em que se mencione o seu nome, nacionalidade, estado civil, residência e a data da escolha, ficará investido nas suas funções, que exercerá, salvo cessação anterior, até a subseqüente assembléia anual. Parágrafo único. Se o termo não for assinado nos trinta dias seguintes ao da eleição, esta se tornará sem efeito.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

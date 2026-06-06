@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1713 — [Artigo 1713 - Direito Civil]
+# CC Art. 1713 — Os valores mobiliários, destinados aos fins previstos no artigo antecedente, não poderão exceder o valor do prédio insti
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os valores mobiliários, destinados aos fins previstos no artigo antecedente, não poderão exceder o valor do prédio instituído em bem de família, à época de sua instituição. § 1 o Deverão os valores mobiliários ser devidamente individualizados no instrumento de instituição do bem de família. § 2 o Se se tratar de títulos nominativos, a sua instituição como bem de família deverá constar dos respectivos livros de registro. § 3 o O instituidor poderá determinar que a administração dos valores mobiliários seja confiada a instituição financeira, bem como disciplinar a forma de pagamento da respectiva renda aos beneficiários, caso em que a responsabilidade dos administradores obedecerá às regras do contrato de depósito.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

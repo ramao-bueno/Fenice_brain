@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1436 — [Artigo 1436 - Direito Civil]
+# CC Art. 1436 — Extingue-se o penhor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extingue-se o penhor: I - extinguindo-se a obrigação; II - perecendo a coisa; III - renunciando o credor; IV - confundindo-se na mesma pessoa as qualidades de credor e de dono da coisa; V - dando-se a adjudicação judicial, a remissão ou a venda da coisa empenhada, feita pelo credor ou por ele autorizada. § 1 o Presume-se a renúncia do credor quando consentir na venda particular do penhor sem reserva de preço, quando restituir a sua posse ao devedor, ou quando anuir à sua substituição por outra garantia. § 2 o Operando-se a confusão tão-somente quanto a parte da dívida pignoratícia, subsistirá inteiro o penhor quanto ao resto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

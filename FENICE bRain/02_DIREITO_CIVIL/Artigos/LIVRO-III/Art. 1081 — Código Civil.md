@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1081 — [Artigo 1081 - Direito Civil]
+# CC Art. 1081 — Ressalvado o disposto em lei especial, integralizadas as quotas, pode ser o capital aumentado, com a correspondente modi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ressalvado o disposto em lei especial, integralizadas as quotas, pode ser o capital aumentado, com a correspondente modificação do contrato. § 1 o Até trinta dias após a deliberação, terão os sócios preferência para participar do aumento, na proporção das quotas de que sejam titulares. § 2 o À cessão do direito de preferência, aplica-se o disposto no caput do art. 1.057. § 3 o Decorrido o prazo da preferência, e assumida pelos sócios, ou por terceiros, a totalidade do aumento, haverá reunião ou assembléia dos sócios, para que seja aprovada a modificação do contrato.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

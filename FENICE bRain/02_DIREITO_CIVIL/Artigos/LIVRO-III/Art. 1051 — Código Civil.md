@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1051 — [Artigo 1051 - Direito Civil]
+# CC Art. 1051 — Dissolve-se de pleno direito a sociedade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dissolve-se de pleno direito a sociedade: I - por qualquer das causas previstas no art. 1.044; II - quando por mais de cento e oitenta dias perdurar a falta de uma das categorias de sócio. Parágrafo único. Na falta de sócio comanditado, os comanditários nomearão administrador provisório para praticar, durante o período referido no inciso II e sem assumir a condição de sócio, os atos de administração. CAPÍTULO IV Da Sociedade Limitada Seção I Disposições Preliminares
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

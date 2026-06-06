@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1027 — [Artigo 1027 - Direito Civil]
+# CC Art. 1027 — Os herdeiros do cônjuge de sócio, ou o cônjuge do que se separou judicialmente, não podem exigir desde logo a parte que
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os herdeiros do cônjuge de sócio, ou o cônjuge do que se separou judicialmente, não podem exigir desde logo a parte que lhes couber na quota social, mas concorrer à divisão periódica dos lucros, até que se liquide a sociedade. Seção V Da Resolução da Sociedade em Relação a um Sócio
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

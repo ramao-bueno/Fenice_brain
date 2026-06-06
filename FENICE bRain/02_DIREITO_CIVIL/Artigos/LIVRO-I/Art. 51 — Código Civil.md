@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- paragrafo-2
-- paragrafo-3
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 51 — Nos casos de dissolução da pessoa jurídica ou cassada a autorização para seu funcionamento, ela subsistirá para os fins
@@ -24,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Nos casos de dissolução da pessoa jurídica ou cassada a autorização para seu funcionamento, ela subsistirá para os fins de liquidação, até que esta se conclua. § 1º Far-se-á, no registro onde a pessoa jurídica estiver inscrita, a averbação de sua dissolução. § 2º As disposições para a liquidação das sociedades aplicam-se, no que couber, às demais pessoas jurídicas de direito privado. § 3º Encerrada a liquidação, promover-se-á o cancelamento da inscrição da pessoa jurídica.
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

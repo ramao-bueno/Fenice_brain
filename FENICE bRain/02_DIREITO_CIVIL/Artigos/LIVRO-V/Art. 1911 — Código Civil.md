@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1911 — [Artigo 1911 - Direito Civil]
+# CC Art. 1911 — A cláusula de inalienabilidade, imposta aos bens por ato de liberalidade, implica impenhorabilidade e incomunicabilidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A cláusula de inalienabilidade, imposta aos bens por ato de liberalidade, implica impenhorabilidade e incomunicabilidade. Parágrafo único. No caso de desapropriação de bens clausulados, ou de sua alienação, por conveniência econômica do donatário ou do herdeiro, mediante autorização judicial, o produto da venda converter-se-á em outros bens, sobre os quais incidirão as restrições apostas aos primeiros. CAPÍTULO VII Dos Legados Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

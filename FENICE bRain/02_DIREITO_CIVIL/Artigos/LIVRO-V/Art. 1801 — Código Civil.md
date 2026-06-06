@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1801 — [Artigo 1801 - Direito Civil]
+# CC Art. 1801 — Não podem ser nomeados herdeiros nem legatários
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não podem ser nomeados herdeiros nem legatários: I - a pessoa que, a rogo, escreveu o testamento, nem o seu cônjuge ou companheiro, ou os seus ascendentes e irmãos; II - as testemunhas do testamento; III - o concubino do testador casado, salvo se este, sem culpa sua, estiver separado de fato do cônjuge há mais de cinco anos; IV - o tabelião, civil ou militar, ou o comandante ou escrivão, perante quem se fizer, assim como o que fizer ou aprovar o testamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

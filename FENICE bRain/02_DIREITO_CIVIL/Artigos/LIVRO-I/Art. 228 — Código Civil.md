@@ -9,14 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-- alinea-a
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 228 — Não podem ser admitidos como testemunhas
@@ -27,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> Não podem ser admitidos como testemunhas: I - os menores de dezesseis anos; II - ( Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - (Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - o interessado no litígio, o amigo íntimo ou o inimigo capital das partes; V - os cônjuges, os ascendentes, os descendentes e os colaterais, até o terceiro grau de alguma das partes, por consangüinidade, ou afinidade. § 1 o Para a prova de fatos que só elas conheçam, pode o juiz admitir o depoimento das pessoas a que se refere este artigo. (Redação dada pela Lei nº 13.146,...
+> Não podem ser admitidos como testemunhas: I - os menores de dezesseis anos; II - ( Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - (Revogado); (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - o interessado no litígio, o amigo íntimo ou o inimigo capital das partes; V - os cônjuges, os ascendentes, os descendentes e os colaterais, até o terceiro grau de alguma das partes, por consangüinidade, ou afinidade. § 1 o Para a prova de fatos que só elas conheçam, pode o juiz admitir o depoimento das pessoas a que se refere este artigo. (Redação dada pela Lei nº 13.146, de 2015) (Vigência) § 2 o A pessoa com deficiência poderá testemunhar em igualdade de condições com as demais pessoas, sendo-lhe assegurados todos os recursos de tecnologia assistiva. (Incluído pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 
@@ -61,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

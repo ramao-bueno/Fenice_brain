@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1237 — [Artigo 1237 - Direito Civil]
+# CC Art. 1237 — Decorridos sessenta dias da divulgação da notícia pela imprensa, ou do edital, não se apresentando quem comprove a propr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Decorridos sessenta dias da divulgação da notícia pela imprensa, ou do edital, não se apresentando quem comprove a propriedade sobre a coisa, será esta vendida em hasta pública e, deduzidas do preço as despesas, mais a recompensa do descobridor, pertencerá o remanescente ao Município em cuja circunscrição se deparou o objeto perdido. Parágrafo único. Sendo de diminuto valor, poderá o Município abandonar a coisa em favor de quem a achou. CAPÍTULO II Da Aquisição da Propriedade Imóvel Seção I Da Usucapião
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

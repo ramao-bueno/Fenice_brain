@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 488 — Convencionada a venda sem fixação de preço ou de critérios para a sua determinação, se não houver tabelamento oficial, e
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Convencionada a venda sem fixação de preço ou de critérios para a sua determinação, se não houver tabelamento oficial, entende-se que as partes se sujeitaram ao preço corrente nas vendas habituais do vendedor. Parágrafo único. Na falta de acordo, por ter havido diversidade de preço, prevalecerá o termo médio.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

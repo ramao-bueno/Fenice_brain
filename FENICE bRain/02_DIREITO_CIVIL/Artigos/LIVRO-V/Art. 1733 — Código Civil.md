@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1733 — [Artigo 1733 - Direito Civil]
+# CC Art. 1733 — Aos irmãos órfãos dar-se-á um só tutor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aos irmãos órfãos dar-se-á um só tutor. § 1 o No caso de ser nomeado mais de um tutor por disposição testamentária sem indicação de precedência, entende-se que a tutela foi cometida ao primeiro, e que os outros lhe sucederão pela ordem de nomeação, se ocorrer morte, incapacidade, escusa ou qualquer outro impedimento. § 2 o Quem institui um menor herdeiro, ou legatário seu, poderá nomear-lhe curador especial para os bens deixados, ainda que o beneficiário se encontre sob o poder familiar, ou tutela.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

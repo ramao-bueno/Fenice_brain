@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 485 — A fixação do preço pode ser deixada ao arbítrio de terceiro, que os contratantes logo designarem ou prometerem designar
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A fixação do preço pode ser deixada ao arbítrio de terceiro, que os contratantes logo designarem ou prometerem designar. Se o terceiro não aceitar a incumbência, ficará sem efeito o contrato, salvo quando acordarem os contratantes designar outra pessoa.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

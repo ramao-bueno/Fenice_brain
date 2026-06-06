@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 755 — [Artigo 755 - Direito Civil]
+# CC Art. 755 — Havendo dúvida acerca de quem seja o destinatário, o transportador deve depositar a mercadoria em juízo, se não lhe for
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo dúvida acerca de quem seja o destinatário, o transportador deve depositar a mercadoria em juízo, se não lhe for possível obter instruções do remetente; se a demora puder ocasionar a deterioração da coisa, o transportador deverá vendê-la, depositando o saldo em juízo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

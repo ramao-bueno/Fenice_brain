@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 855 — [Artigo 855 - Direito Civil]
+# CC Art. 855 — Quem quer que, nos termos do artigo antecedente, fizer o serviço, ou satisfizer a condição, ainda que não pelo interesse
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quem quer que, nos termos do artigo antecedente, fizer o serviço, ou satisfizer a condição, ainda que não pelo interesse da promessa, poderá exigir a recompensa estipulada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

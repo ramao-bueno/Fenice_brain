@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- inciso-ii
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 215 — A escritura pública, lavrada em notas de tabelião, é documento dotado de fé pública, fazendo prova plena
@@ -24,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> A escritura pública, lavrada em notas de tabelião, é documento dotado de fé pública, fazendo prova plena. § 1 o Salvo quando exigidos por lei outros requisitos, a escritura pública deve conter: I - data e local de sua realização; II - reconhecimento da identidade e capacidade das partes e de quantos hajam comparecido ao ato, por si, como representantes, intervenientes ou testemunhas; III - nome, nacionalidade, estado civil, profissão, domicílio e residência das partes e demais comparecentes, com a indicação, quando necessário, do regime de bens do casamento, nome do outro cônjuge e filiação; I...
+> A escritura pública, lavrada em notas de tabelião, é documento dotado de fé pública, fazendo prova plena. § 1 o Salvo quando exigidos por lei outros requisitos, a escritura pública deve conter: I - data e local de sua realização; II - reconhecimento da identidade e capacidade das partes e de quantos hajam comparecido ao ato, por si, como representantes, intervenientes ou testemunhas; III - nome, nacionalidade, estado civil, profissão, domicílio e residência das partes e demais comparecentes, com a indicação, quando necessário, do regime de bens do casamento, nome do outro cônjuge e filiação; IV - manifestação clara da vontade das partes e dos intervenientes; V - referência ao cumprimento das exigências legais e fiscais inerentes à legitimidade do ato; VI - declaração de ter sido lida na presença das partes e demais comparecentes, ou de que todos a leram; VII - assinatura das partes e dos demais comparecentes, bem como a do tabelião ou seu substituto legal, encerrando o ato. § 2 o Se algum comparecente não puder ou não souber escrever, outra pessoa capaz assinará por ele, a seu rogo. § 3 o A escritura será redigida na língua nacional. § 4 o Se qualquer dos comparecentes não souber a língua nacional e o tabelião não entender o idioma em que se expressa, deverá comparecer tradutor público para servir de intérprete, ou, não o havendo na localidade, outra pessoa capaz que, a juízo do tabelião, tenha idoneidade e conhecimento bastantes. § 5 o Se algum dos comparecentes não for conhecido do tabelião, nem puder identificar-se por documento, deverão participar do ato pelo menos duas testemunhas que o conheçam e atestem sua identidade.
 
 ---
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

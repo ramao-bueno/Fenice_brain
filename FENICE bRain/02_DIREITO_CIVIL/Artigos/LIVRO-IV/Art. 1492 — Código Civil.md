@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1492 — [Artigo 1492 - Direito Civil]
+# CC Art. 1492 — As hipotecas serão registradas no cartório do lugar do imóvel, ou no de cada um deles, se o título se referir a mais de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As hipotecas serão registradas no cartório do lugar do imóvel, ou no de cada um deles, se o título se referir a mais de um. Parágrafo único. Compete aos interessados, exibido o título, requerer o registro da hipoteca.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

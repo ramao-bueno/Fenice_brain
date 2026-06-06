@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2040 — [Artigo 2040 - Direito Civil]
+# CC Art. 2040 — A hipoteca legal dos bens do tutor ou curador, inscrita em conformidade com o inciso IV do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A hipoteca legal dos bens do tutor ou curador, inscrita em conformidade com o inciso IV do art. 827 do Código Civil anterior, Lei n o 3.071, de 1 o de janeiro de 1916 , poderá ser cancelada, obedecido o disposto no parágrafo único do art. 1.745 deste Código.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

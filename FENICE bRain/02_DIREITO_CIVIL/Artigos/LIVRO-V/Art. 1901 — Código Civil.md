@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1901 — [Artigo 1901 - Direito Civil]
+# CC Art. 1901 — Valerá a disposição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Valerá a disposição: I - em favor de pessoa incerta que deva ser determinada por terceiro, dentre duas ou mais pessoas mencionadas pelo testador, ou pertencentes a uma família, ou a um corpo coletivo, ou a um estabelecimento por ele designado; II - em remuneração de serviços prestados ao testador, por ocasião da moléstia de que faleceu, ainda que fique ao arbítrio do herdeiro ou de outrem determinar o valor do legado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1545 — [Artigo 1545 - Direito Civil]
+# CC Art. 1545 — O casamento de pessoas que, na posse do estado de casadas, não possam manifestar vontade, ou tenham falecido, não se pod
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O casamento de pessoas que, na posse do estado de casadas, não possam manifestar vontade, ou tenham falecido, não se pode contestar em prejuízo da prole comum, salvo mediante certidão do Registro Civil que prove que já era casada alguma delas, quando contraiu o casamento impugnado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1063 — [Artigo 1063 - Direito Civil]
+# CC Art. 1063 — O exercício do cargo de administrador cessa pela destituição, em qualquer tempo, do titular, ou pelo término do prazo se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O exercício do cargo de administrador cessa pela destituição, em qualquer tempo, do titular, ou pelo término do prazo se, fixado no contrato ou em ato separado, não houver recondução. § 1º Tratando-se de sócio nomeado administrador no contrato, sua destituição somente se opera pela aprovação de titulares de quotas correspondentes a mais da metade do capital social, salvo disposição contratual diversa. (Redação dada pela Lei nº 13.792, de 2019) § 2 o A cessação do exercício do cargo de administrador deve ser averbada no registro competente, mediante requerimento apresentado nos dez dias seguintes ao da ocorrência. § 3 o A renúncia de administrador torna-se eficaz, em relação à sociedade, desde o momento em que esta toma conhecimento da comunicação escrita do renunciante; e, em relação a terceiros, após a averbação e publicação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

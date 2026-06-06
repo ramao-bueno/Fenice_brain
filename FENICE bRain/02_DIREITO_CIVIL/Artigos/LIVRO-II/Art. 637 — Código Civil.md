@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 637 — O herdeiro do depositário, que de boa-fé vendeu a coisa depositada, é obrigado a assistir o depositante na reivindicação
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O herdeiro do depositário, que de boa-fé vendeu a coisa depositada, é obrigado a assistir o depositante na reivindicação, e a restituir ao comprador o preço recebido.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

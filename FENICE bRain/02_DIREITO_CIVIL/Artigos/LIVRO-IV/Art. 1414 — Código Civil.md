@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1414 — [Artigo 1414 - Direito Civil]
+# CC Art. 1414 — Quando o uso consistir no direito de habitar gratuitamente casa alheia, o titular deste direito não a pode alugar, nem e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando o uso consistir no direito de habitar gratuitamente casa alheia, o titular deste direito não a pode alugar, nem emprestar, mas simplesmente ocupá-la com sua família.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

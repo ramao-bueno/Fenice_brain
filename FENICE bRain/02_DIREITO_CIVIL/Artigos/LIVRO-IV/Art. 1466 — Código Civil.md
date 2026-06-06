@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1466 — [Artigo 1466 - Direito Civil]
+# CC Art. 1466 — O penhor de veículos só se pode convencionar pelo prazo máximo de dois anos, prorrogável até o limite de igual tempo, av
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O penhor de veículos só se pode convencionar pelo prazo máximo de dois anos, prorrogável até o limite de igual tempo, averbada a prorrogação à margem do registro respectivo. Seção IX Do Penhor Legal
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

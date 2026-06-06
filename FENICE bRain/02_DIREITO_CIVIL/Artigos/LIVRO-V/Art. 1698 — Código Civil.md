@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1698 — [Artigo 1698 - Direito Civil]
+# CC Art. 1698 — Se o parente, que deve alimentos em primeiro lugar, não estiver em condições de suportar totalmente o encargo, serão cha
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o parente, que deve alimentos em primeiro lugar, não estiver em condições de suportar totalmente o encargo, serão chamados a concorrer os de grau imediato; sendo várias as pessoas obrigadas a prestar alimentos, todas devem concorrer na proporção dos respectivos recursos, e, intentada ação contra uma delas, poderão as demais ser chamadas a integrar a lide.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

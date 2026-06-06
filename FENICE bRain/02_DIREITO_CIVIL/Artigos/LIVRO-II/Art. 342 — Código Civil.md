@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 342 — Se a escolha da coisa indeterminada competir ao credor, será ele citado para esse fim, sob cominação de perder o direito
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a escolha da coisa indeterminada competir ao credor, será ele citado para esse fim, sob cominação de perder o direito e de ser depositada a coisa que o devedor escolher; feita a escolha pelo devedor, proceder-se-á como no artigo antecedente.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

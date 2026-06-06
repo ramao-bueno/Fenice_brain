@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1442 — [Artigo 1442 - Direito Civil]
+# CC Art. 1442 — Podem ser objeto de penhor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Podem ser objeto de penhor: I - máquinas e instrumentos de agricultura; II - colheitas pendentes, ou em via de formação; III - frutos acondicionados ou armazenados; IV - lenha cortada e carvão vegetal; V - animais do serviço ordinário de estabelecimento agrícola.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

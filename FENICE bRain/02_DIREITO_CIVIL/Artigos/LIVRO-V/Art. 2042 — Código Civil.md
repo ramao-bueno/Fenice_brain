@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2042 — [Artigo 2042 - Direito Civil]
+# CC Art. 2042 — Aplica-se o disposto no caput do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aplica-se o disposto no caput do art. 1.848, quando aberta a sucessão no prazo de um ano após a entrada em vigor deste Código, ainda que o testamento tenha sido feito na vigência do anterior, Lei n o 3.071, de 1 o de janeiro de 1916 ; se, no prazo, o testador não aditar o testamento para declarar a justa causa de cláusula aposta à legítima, não subsistirá a restrição.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

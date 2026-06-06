@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1003 — [Artigo 1003 - Direito Civil]
+# CC Art. 1003 — A cessão total ou parcial de quota, sem a correspondente modificação do contrato social com o consentimento dos demais s
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A cessão total ou parcial de quota, sem a correspondente modificação do contrato social com o consentimento dos demais sócios, não terá eficácia quanto a estes e à sociedade. Parágrafo único. Até dois anos depois de averbada a modificação do contrato, responde o cedente solidariamente com o cessionário, perante a sociedade e terceiros, pelas obrigações que tinha como sócio.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

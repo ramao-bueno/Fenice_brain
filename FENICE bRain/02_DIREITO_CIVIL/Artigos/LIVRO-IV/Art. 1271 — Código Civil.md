@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1271 — [Artigo 1271 - Direito Civil]
+# CC Art. 1271 — Aos prejudicados, nas hipóteses dos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aos prejudicados, nas hipóteses dos arts. 1.269 e 1.270, se ressarcirá o dano que sofrerem, menos ao especificador de má-fé, no caso do § 1 o do artigo antecedente, quando irredutível a especificação. Seção VI Da Confusão, da Comissão e da Adjunção
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

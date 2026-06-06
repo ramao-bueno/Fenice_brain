@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 582 — O comodatário é obrigado a conservar, como se sua própria fora, a coisa emprestada, não podendo usá-la senão de acordo c
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O comodatário é obrigado a conservar, como se sua própria fora, a coisa emprestada, não podendo usá-la senão de acordo com o contrato ou a natureza dela, sob pena de responder por perdas e danos. O comodatário constituído em mora, além de por ela responder, pagará, até restituí-la, o aluguel da coisa que for arbitrado pelo comodante.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

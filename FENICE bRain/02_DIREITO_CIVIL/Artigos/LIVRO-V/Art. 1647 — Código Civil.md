@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1647 — [Artigo 1647 - Direito Civil]
+# CC Art. 1647 — Ressalvado o disposto no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ressalvado o disposto no art. 1.648, nenhum dos cônjuges pode, sem autorização do outro, exceto no regime da separação absoluta: I - alienar ou gravar de ônus real os bens imóveis; II - pleitear, como autor ou réu, acerca desses bens ou direitos; III - prestar fiança ou aval; IV - fazer doação, não sendo remuneratória, de bens comuns, ou dos que possam integrar futura meação. Parágrafo único. São válidas as doações nupciais feitas aos filhos quando casarem ou estabelecerem economia separada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

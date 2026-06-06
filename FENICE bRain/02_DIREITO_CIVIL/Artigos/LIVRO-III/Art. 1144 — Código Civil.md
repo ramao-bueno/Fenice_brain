@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1144 — [Artigo 1144 - Direito Civil]
+# CC Art. 1144 — O contrato que tenha por objeto a alienação, o usufruto ou arrendamento do estabelecimento, só produzirá efeitos quanto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O contrato que tenha por objeto a alienação, o usufruto ou arrendamento do estabelecimento, só produzirá efeitos quanto a terceiros depois de averbado à margem da inscrição do empresário, ou da sociedade empresária, no Registro Público de Empresas Mercantis, e de publicado na imprensa oficial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

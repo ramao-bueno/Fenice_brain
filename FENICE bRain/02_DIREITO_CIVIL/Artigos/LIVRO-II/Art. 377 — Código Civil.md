@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 377 — O devedor que, notificado, nada opõe à cessão que o credor faz a terceiros dos seus direitos, não pode opor ao cessionár
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O devedor que, notificado, nada opõe à cessão que o credor faz a terceiros dos seus direitos, não pode opor ao cessionário a compensação, que antes da cessão teria podido opor ao cedente. Se, porém, a cessão lhe não tiver sido notificada, poderá opor ao cessionário compensação do crédito que antes tinha contra o cedente.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1633 — [Artigo 1633 - Direito Civil]
+# CC Art. 1633 — O filho, não reconhecido pelo pai, fica sob poder familiar exclusivo da mãe;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O filho, não reconhecido pelo pai, fica sob poder familiar exclusivo da mãe; se a mãe não for conhecida ou capaz de exercê-lo, dar-se-á tutor ao menor. Seção II Do Exercício do Poder Familiar
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

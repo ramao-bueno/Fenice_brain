@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1967 — [Artigo 1967 - Direito Civil]
+# CC Art. 1967 — As disposições que excederem a parte disponível reduzir-se-ão aos limites dela, de conformidade com o disposto nos parág
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As disposições que excederem a parte disponível reduzir-se-ão aos limites dela, de conformidade com o disposto nos parágrafos seguintes. § 1 o Em se verificando excederem as disposições testamentárias a porção disponível, serão proporcionalmente reduzidas as quotas do herdeiro ou herdeiros instituídos, até onde baste, e, não bastando, também os legados, na proporção do seu valor. § 2 o Se o testador, prevenindo o caso, dispuser que se inteirem, de preferência, certos herdeiros e legatários, a redução far-se-á nos outros quinhões ou legados, observando-se a seu respeito a ordem estabelecida no parágrafo antecedente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

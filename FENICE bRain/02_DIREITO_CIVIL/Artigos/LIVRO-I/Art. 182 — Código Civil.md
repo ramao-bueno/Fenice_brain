@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 182 — Anulado o negócio jurídico, restituir-se-ão as partes ao estado em que antes dele se achavam, e, não sendo possível rest
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Anulado o negócio jurídico, restituir-se-ão as partes ao estado em que antes dele se achavam, e, não sendo possível restituí-las, serão indenizadas com o equivalente.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

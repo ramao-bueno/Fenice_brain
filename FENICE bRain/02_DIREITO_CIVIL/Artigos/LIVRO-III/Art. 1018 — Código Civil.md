@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1018 — [Artigo 1018 - Direito Civil]
+# CC Art. 1018 — Ao administrador é vedado fazer-se substituir no exercício de suas funções, sendo-lhe facultado, nos limites de seus pod
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao administrador é vedado fazer-se substituir no exercício de suas funções, sendo-lhe facultado, nos limites de seus poderes, constituir mandatários da sociedade, especificados no instrumento os atos e operações que poderão praticar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

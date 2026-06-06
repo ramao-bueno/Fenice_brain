@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1793 — [Artigo 1793 - Direito Civil]
+# CC Art. 1793 — O direito à sucessão aberta, bem como o quinhão de que disponha o co-herdeiro, pode ser objeto de cessão por escritura p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito à sucessão aberta, bem como o quinhão de que disponha o co-herdeiro, pode ser objeto de cessão por escritura pública. § 1 o Os direitos, conferidos ao herdeiro em conseqüência de substituição ou de direito de acrescer, presumem-se não abrangidos pela cessão feita anteriormente. § 2 o É ineficaz a cessão, pelo co-herdeiro, de seu direito hereditário sobre qualquer bem da herança considerado singularmente. § 3 o Ineficaz é a disposição, sem prévia autorização do juiz da sucessão, por qualquer herdeiro, de bem componente do acervo hereditário, pendente a indivisibilidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

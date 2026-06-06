@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 575 — Se, notificado o locatário, não restituir a coisa, pagará, enquanto a tiver em seu poder, o aluguel que o locador arbitr
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se, notificado o locatário, não restituir a coisa, pagará, enquanto a tiver em seu poder, o aluguel que o locador arbitrar, e responderá pelo dano que ela venha a sofrer, embora proveniente de caso fortuito. Parágrafo único. Se o aluguel arbitrado for manifestamente excessivo, poderá o juiz reduzi-lo, mas tendo sempre em conta o seu caráter de penalidade.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

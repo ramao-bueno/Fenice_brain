@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1392 — [Artigo 1392 - Direito Civil]
+# CC Art. 1392 — Salvo disposição em contrário, o usufruto estende-se aos acessórios da coisa e seus acrescidos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, o usufruto estende-se aos acessórios da coisa e seus acrescidos. § 1 o Se, entre os acessórios e os acrescidos, houver coisas consumíveis, terá o usufrutuário o dever de restituir, findo o usufruto, as que ainda houver e, das outras, o equivalente em gênero, qualidade e quantidade, ou, não sendo possível, o seu valor, estimado ao tempo da restituição. § 2 o Se há no prédio em que recai o usufruto florestas ou os recursos minerais a que se refere o art. 1.230, devem o dono e o usufrutuário prefixar-lhe a extensão do gozo e a maneira de exploração. § 3 o Se o usufruto recai sobre universalidade ou quota-parte de bens, o usufrutuário tem direito à parte do tesouro achado por outrem, e ao preço pago pelo vizinho do prédio usufruído, para obter meação em parede, cerca, muro, vala ou valado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

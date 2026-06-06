@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 654 — Todas as pessoas capazes são aptas para dar procuração mediante instrumento particular, que valerá desde que tenha a ass
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Todas as pessoas capazes são aptas para dar procuração mediante instrumento particular, que valerá desde que tenha a assinatura do outorgante. § 1 o O instrumento particular deve conter a indicação do lugar onde foi passado, a qualificação do outorgante e do outorgado, a data e o objetivo da outorga com a designação e a extensão dos poderes conferidos. § 2 o O terceiro com quem o mandatário tratar poderá exigir que a procuração traga a firma reconhecida.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

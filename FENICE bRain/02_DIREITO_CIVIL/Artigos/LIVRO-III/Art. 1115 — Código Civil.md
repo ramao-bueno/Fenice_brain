@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1115 — [Artigo 1115 - Direito Civil]
+# CC Art. 1115 — A transformação não modificará nem prejudicará, em qualquer caso, os direitos dos credores
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transformação não modificará nem prejudicará, em qualquer caso, os direitos dos credores. Parágrafo único. A falência da sociedade transformada somente produzirá efeitos em relação aos sócios que, no tipo anterior, a eles estariam sujeitos, se o pedirem os titulares de créditos anteriores à transformação, e somente a estes beneficiará.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

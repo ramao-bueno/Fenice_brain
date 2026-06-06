@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1688 — [Artigo 1688 - Direito Civil]
+# CC Art. 1688 — Ambos os cônjuges são obrigados a contribuir para as despesas do casal na proporção dos rendimentos de seu trabalho e de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ambos os cônjuges são obrigados a contribuir para as despesas do casal na proporção dos rendimentos de seu trabalho e de seus bens, salvo estipulação em contrário no pacto antenupcial. SUBTÍTULO II Do Usufruto e da Administração dos Bens de Filhos Menores
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

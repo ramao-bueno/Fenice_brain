@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1375 — [Artigo 1375 - Direito Civil]
+# CC Art. 1375 — Extinta a concessão, o proprietário passará a ter a propriedade plena sobre o terreno, construção ou plantação, independ
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extinta a concessão, o proprietário passará a ter a propriedade plena sobre o terreno, construção ou plantação, independentemente de indenização, se as partes não houverem estipulado o contrário.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

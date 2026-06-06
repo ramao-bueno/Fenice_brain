@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1125 — [Artigo 1125 - Direito Civil]
+# CC Art. 1125 — Ao Poder Executivo é facultado, a qualquer tempo, cassar a autorização concedida a sociedade nacional ou estrangeira que
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao Poder Executivo é facultado, a qualquer tempo, cassar a autorização concedida a sociedade nacional ou estrangeira que infringir disposição de ordem pública ou praticar atos contrários aos fins declarados no seu estatuto. Seção II Da Sociedade Nacional
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

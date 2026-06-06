@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 558 — Pode ocorrer também a revogação quando o ofendido, nos casos do artigo anterior, for o cônjuge, ascendente, descendente,
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Pode ocorrer também a revogação quando o ofendido, nos casos do artigo anterior, for o cônjuge, ascendente, descendente, ainda que adotivo, ou irmão do doador.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 622 — Se a execução da obra for confiada a terceiros, a responsabilidade do autor do projeto respectivo, desde que não assuma
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a execução da obra for confiada a terceiros, a responsabilidade do autor do projeto respectivo, desde que não assuma a direção ou fiscalização daquela, ficará limitada aos danos resultantes de defeitos previstos no art. 618 e seu parágrafo único.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

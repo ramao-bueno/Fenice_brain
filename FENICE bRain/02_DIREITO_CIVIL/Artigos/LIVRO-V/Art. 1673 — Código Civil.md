@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1673 — [Artigo 1673 - Direito Civil]
+# CC Art. 1673 — Integram o patrimônio próprio os bens que cada cônjuge possuía ao casar e os por ele adquiridos, a qualquer título, na c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Integram o patrimônio próprio os bens que cada cônjuge possuía ao casar e os por ele adquiridos, a qualquer título, na constância do casamento. Parágrafo único. A administração desses bens é exclusiva de cada cônjuge, que os poderá livremente alienar, se forem móveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 694 — O comissário fica diretamente obrigado para com as pessoas com quem contratar, sem que estas tenham ação contra o comite
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O comissário fica diretamente obrigado para com as pessoas com quem contratar, sem que estas tenham ação contra o comitente, nem este contra elas, salvo se o comissário ceder seus direitos a qualquer das partes.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

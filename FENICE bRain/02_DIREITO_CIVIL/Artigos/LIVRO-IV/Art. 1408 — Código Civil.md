@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1408 — [Artigo 1408 - Direito Civil]
+# CC Art. 1408 — Se um edifício sujeito a usufruto for destruído sem culpa do proprietário, não será este obrigado a reconstruí-lo, nem o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um edifício sujeito a usufruto for destruído sem culpa do proprietário, não será este obrigado a reconstruí-lo, nem o usufruto se restabelecerá, se o proprietário reconstruir à sua custa o prédio; mas se a indenização do seguro for aplicada à reconstrução do prédio, restabelecer-se-á o usufruto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

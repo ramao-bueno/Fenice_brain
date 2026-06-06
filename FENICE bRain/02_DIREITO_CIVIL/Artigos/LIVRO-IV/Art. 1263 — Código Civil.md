@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1263 — [Artigo 1263 - Direito Civil]
+# CC Art. 1263 — Quem se assenhorear de coisa sem dono para logo lhe adquire a propriedade, não sendo essa ocupação defesa por lei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quem se assenhorear de coisa sem dono para logo lhe adquire a propriedade, não sendo essa ocupação defesa por lei. Seção III Do Achado do Tesouro
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

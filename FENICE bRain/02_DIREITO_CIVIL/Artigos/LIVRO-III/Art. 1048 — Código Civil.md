@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1048 — [Artigo 1048 - Direito Civil]
+# CC Art. 1048 — Somente após averbada a modificação do contrato, produz efeito, quanto a terceiros, a diminuição da quota do comanditári
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Somente após averbada a modificação do contrato, produz efeito, quanto a terceiros, a diminuição da quota do comanditário, em conseqüência de ter sido reduzido o capital social, sempre sem prejuízo dos credores preexistentes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

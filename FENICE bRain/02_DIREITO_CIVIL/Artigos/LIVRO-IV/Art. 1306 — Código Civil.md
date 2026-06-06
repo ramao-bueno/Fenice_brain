@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1306 — [Artigo 1306 - Direito Civil]
+# CC Art. 1306 — O condômino da parede-meia pode utilizá-la até ao meio da espessura, não pondo em risco a segurança ou a separação dos d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O condômino da parede-meia pode utilizá-la até ao meio da espessura, não pondo em risco a segurança ou a separação dos dois prédios, e avisando previamente o outro condômino das obras que ali tenciona fazer; não pode sem consentimento do outro, fazer, na parede-meia, armários, ou obras semelhantes, correspondendo a outras, da mesma natureza, já feitas do lado oposto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

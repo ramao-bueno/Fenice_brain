@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1356 — [Artigo 1356 - Direito Civil]
+# CC Art. 1356 — Poderá haver no condomínio um conselho fiscal, composto de três membros, eleitos pela assembléia, por prazo não superior
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Poderá haver no condomínio um conselho fiscal, composto de três membros, eleitos pela assembléia, por prazo não superior a dois anos, ao qual compete dar parecer sobre as contas do síndico. Seção III Da Extinção do Condomínio
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

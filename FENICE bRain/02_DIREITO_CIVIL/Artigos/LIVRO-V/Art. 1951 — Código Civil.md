@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1951 — [Artigo 1951 - Direito Civil]
+# CC Art. 1951 — Pode o testador instituir herdeiros ou legatários, estabelecendo que, por ocasião de sua morte, a herança ou o legado se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode o testador instituir herdeiros ou legatários, estabelecendo que, por ocasião de sua morte, a herança ou o legado se transmita ao fiduciário, resolvendo-se o direito deste, por sua morte, a certo tempo ou sob certa condição, em favor de outrem, que se qualifica de fideicomissário.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

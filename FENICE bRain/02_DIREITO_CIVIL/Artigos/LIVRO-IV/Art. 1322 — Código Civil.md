@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1322 — [Artigo 1322 - Direito Civil]
+# CC Art. 1322 — Quando a coisa for indivisível, e os consortes não quiserem adjudicá-la a um só, indenizando os outros, será vendida e r
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a coisa for indivisível, e os consortes não quiserem adjudicá-la a um só, indenizando os outros, será vendida e repartido o apurado, preferindo-se, na venda, em condições iguais de oferta, o condômino ao estranho, e entre os condôminos aquele que tiver na coisa benfeitorias mais valiosas, e, não as havendo, o de quinhão maior. Parágrafo único. Se nenhum dos condôminos tem benfeitorias na coisa comum e participam todos do condomínio em partes iguais, realizar-se-á licitação entre estranhos e, antes de adjudicada a coisa àquele que ofereceu maior lanço, proceder-se-á à licitação entre os condôminos, a fim de que a coisa seja adjudicada a quem afinal oferecer melhor lanço, preferindo, em condições iguais, o condômino ao estranho. Subseção II Da Administração do Condomínio
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

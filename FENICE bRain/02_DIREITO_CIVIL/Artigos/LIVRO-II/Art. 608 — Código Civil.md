@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 608 — Aquele que aliciar pessoas obrigadas em contrato escrito a prestar serviço a outrem pagará a este a importância que ao p
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Aquele que aliciar pessoas obrigadas em contrato escrito a prestar serviço a outrem pagará a este a importância que ao prestador de serviço, pelo ajuste desfeito, houvesse de caber durante dois anos.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1055 — [Artigo 1055 - Direito Civil]
+# CC Art. 1055 — O capital social divide-se em quotas, iguais ou desiguais, cabendo uma ou diversas a cada sócio
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O capital social divide-se em quotas, iguais ou desiguais, cabendo uma ou diversas a cada sócio. § 1º Pela exata estimação de bens conferidos ao capital social respondem solidariamente todos os sócios, até o prazo de cinco anos da data do registro da sociedade. § 2º É vedada contribuição que consista em prestação de serviços.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

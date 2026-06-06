@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 865 — [Artigo 865 - Direito Civil]
+# CC Art. 865 — Enquanto o dono não providenciar, velará o gestor pelo negócio, até o levar a cabo, esperando, se aquele falecer durante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Enquanto o dono não providenciar, velará o gestor pelo negócio, até o levar a cabo, esperando, se aquele falecer durante a gestão, as instruções dos herdeiros, sem se descuidar, entretanto, das medidas que o caso reclame.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

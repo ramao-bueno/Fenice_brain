@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1830 — [Artigo 1830 - Direito Civil]
+# CC Art. 1830 — Somente é reconhecido direito sucessório ao cônjuge sobrevivente se, ao tempo da morte do outro, não estavam separados j
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Somente é reconhecido direito sucessório ao cônjuge sobrevivente se, ao tempo da morte do outro, não estavam separados judicialmente, nem separados de fato há mais de dois anos, salvo prova, neste caso, de que essa convivência se tornara impossível sem culpa do sobrevivente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

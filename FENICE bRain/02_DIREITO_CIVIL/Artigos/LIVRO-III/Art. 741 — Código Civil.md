@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 741 — [Artigo 741 - Direito Civil]
+# CC Art. 741 — Interrompendo-se a viagem por qualquer motivo alheio à vontade do transportador, ainda que em conseqüência de evento imp
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Interrompendo-se a viagem por qualquer motivo alheio à vontade do transportador, ainda que em conseqüência de evento imprevisível, fica ele obrigado a concluir o transporte contratado em outro veículo da mesma categoria, ou, com a anuência do passageiro, por modalidade diferente, à sua custa, correndo também por sua conta as despesas de estada e alimentação do usuário, durante a espera de novo transporte.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

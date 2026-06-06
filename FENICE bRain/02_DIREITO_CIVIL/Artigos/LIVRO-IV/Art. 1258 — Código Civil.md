@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1258 — [Artigo 1258 - Direito Civil]
+# CC Art. 1258 — Se a construção, feita parcialmente em solo próprio, invade solo alheio em proporção não superior à vigésima parte deste
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a construção, feita parcialmente em solo próprio, invade solo alheio em proporção não superior à vigésima parte deste, adquire o construtor de boa-fé a propriedade da parte do solo invadido, se o valor da construção exceder o dessa parte, e responde por indenização que represente, também, o valor da área perdida e a desvalorização da área remanescente. Parágrafo único. Pagando em décuplo as perdas e danos previstos neste artigo, o construtor de má-fé adquire a propriedade da parte do solo que invadiu, se em proporção à vigésima parte deste e o valor da construção exceder consideravelmente o dessa parte e não se puder demolir a porção invasora sem grave prejuízo para a construção.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

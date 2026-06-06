@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 540 — A doação feita em contemplação do merecimento do donatário não perde o caráter de liberalidade, como não o perde a doaçã
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A doação feita em contemplação do merecimento do donatário não perde o caráter de liberalidade, como não o perde a doação remuneratória, ou a gravada, no excedente ao valor dos serviços remunerados ou ao encargo imposto.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

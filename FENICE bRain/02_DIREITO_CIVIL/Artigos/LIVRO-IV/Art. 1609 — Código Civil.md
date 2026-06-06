@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1609 — [Artigo 1609 - Direito Civil]
+# CC Art. 1609 — O reconhecimento dos filhos havidos fora do casamento é irrevogável e será feito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O reconhecimento dos filhos havidos fora do casamento é irrevogável e será feito: I - no registro do nascimento; II - por escritura pública ou escrito particular, a ser arquivado em cartório; III - por testamento, ainda que incidentalmente manifestado; IV - por manifestação direta e expressa perante o juiz, ainda que o reconhecimento não haja sido o objeto único e principal do ato que o contém. Parágrafo único. O reconhecimento pode preceder o nascimento do filho ou ser posterior ao seu falecimento, se ele deixar descendentes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

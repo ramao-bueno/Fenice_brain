@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1942 — [Artigo 1942 - Direito Civil]
+# CC Art. 1942 — O direito de acrescer competirá aos co-legatários, quando nomeados conjuntamente a respeito de uma só coisa, determinada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito de acrescer competirá aos co-legatários, quando nomeados conjuntamente a respeito de uma só coisa, determinada e certa, ou quando o objeto do legado não puder ser dividido sem risco de desvalorização.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

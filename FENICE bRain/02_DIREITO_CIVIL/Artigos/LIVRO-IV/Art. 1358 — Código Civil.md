@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1358 — [Artigo 1358 - Direito Civil]
+# CC Art. 1358 — Se ocorrer desapropriação, a indenização será repartida na proporção a que se refere o § 2 o do artigo antecedente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se ocorrer desapropriação, a indenização será repartida na proporção a que se refere o § 2 o do artigo antecedente. Seção IV Do Condomínio de Lotes (Incluído pela Lei nº 13.465, de 2017)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

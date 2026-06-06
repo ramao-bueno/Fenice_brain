@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1783 — [Artigo 1783 - Direito Civil]
+# CC Art. 1783 — Quando o curador for o cônjuge e o regime de bens do casamento for de comunhão universal, não será obrigado à prestação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando o curador for o cônjuge e o regime de bens do casamento for de comunhão universal, não será obrigado à prestação de contas, salvo determinação judicial. CAPÍTULO III Da Tomada de Decisão Apoiada (Incluído pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

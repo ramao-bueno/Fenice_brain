@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1362 — [Artigo 1362 - Direito Civil]
+# CC Art. 1362 — O contrato, que serve de título à propriedade fiduciária, conterá
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O contrato, que serve de título à propriedade fiduciária, conterá: I - o total da dívida, ou sua estimativa; II - o prazo, ou a época do pagamento; III - a taxa de juros, se houver; IV - a descrição da coisa objeto da transferência, com os elementos indispensáveis à sua identificação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

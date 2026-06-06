@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1267 — [Artigo 1267 - Direito Civil]
+# CC Art. 1267 — A propriedade das coisas não se transfere pelos negócios jurídicos antes da tradição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A propriedade das coisas não se transfere pelos negócios jurídicos antes da tradição. Parágrafo único. Subentende-se a tradição quando o transmitente continua a possuir pelo constituto possessório; quando cede ao adquirente o direito à restituição da coisa, que se encontra em poder de terceiro; ou quando o adquirente já está na posse da coisa, por ocasião do negócio jurídico.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

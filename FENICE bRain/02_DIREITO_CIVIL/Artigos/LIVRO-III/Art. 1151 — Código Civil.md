@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1151 — [Artigo 1151 - Direito Civil]
+# CC Art. 1151 — O registro dos atos sujeitos à formalidade exigida no artigo antecedente será requerido pela pessoa obrigada em lei, e,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O registro dos atos sujeitos à formalidade exigida no artigo antecedente será requerido pela pessoa obrigada em lei, e, no caso de omissão ou demora, pelo sócio ou qualquer interessado. § 1 o Os documentos necessários ao registro deverão ser apresentados no prazo de trinta dias, contado da lavratura dos atos respectivos. § 2 o Requerido além do prazo previsto neste artigo, o registro somente produzirá efeito a partir da data de sua concessão. § 3 o As pessoas obrigadas a requerer o registro responderão por perdas e danos, em caso de omissão ou demora.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

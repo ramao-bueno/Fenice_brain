@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 663 — Sempre que o mandatário estipular negócios expressamente em nome do mandante, será este o único responsável;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Sempre que o mandatário estipular negócios expressamente em nome do mandante, será este o único responsável; ficará, porém, o mandatário pessoalmente obrigado, se agir no seu próprio nome, ainda que o negócio seja de conta do mandante.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

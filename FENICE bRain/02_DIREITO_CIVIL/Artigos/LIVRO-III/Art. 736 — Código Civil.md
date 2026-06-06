@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 736 — [Artigo 736 - Direito Civil]
+# CC Art. 736 — Não se subordina às normas do contrato de transporte o feito gratuitamente, por amizade ou cortesia
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se subordina às normas do contrato de transporte o feito gratuitamente, por amizade ou cortesia. Parágrafo único. Não se considera gratuito o transporte quando, embora feito sem remuneração, o transportador auferir vantagens indiretas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

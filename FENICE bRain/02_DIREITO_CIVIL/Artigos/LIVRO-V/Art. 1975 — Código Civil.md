@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1975 — [Artigo 1975 - Direito Civil]
+# CC Art. 1975 — Não se rompe o testamento, se o testador dispuser da sua metade, não contemplando os herdeiros necessários de cuja exist
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se rompe o testamento, se o testador dispuser da sua metade, não contemplando os herdeiros necessários de cuja existência saiba, ou quando os exclua dessa parte. CAPÍTULO XIV Do Testamenteiro
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

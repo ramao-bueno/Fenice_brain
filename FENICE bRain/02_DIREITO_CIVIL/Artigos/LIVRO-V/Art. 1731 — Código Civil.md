@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1731 — [Artigo 1731 - Direito Civil]
+# CC Art. 1731 — Em falta de tutor nomeado pelos pais incumbe a tutela aos parentes consangüíneos do menor, por esta ordem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Em falta de tutor nomeado pelos pais incumbe a tutela aos parentes consangüíneos do menor, por esta ordem: I - aos ascendentes, preferindo o de grau mais próximo ao mais remoto; II - aos colaterais até o terceiro grau, preferindo os mais próximos aos mais remotos, e, no mesmo grau, os mais velhos aos mais moços; em qualquer dos casos, o juiz escolherá entre eles o mais apto a exercer a tutela em benefício do menor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

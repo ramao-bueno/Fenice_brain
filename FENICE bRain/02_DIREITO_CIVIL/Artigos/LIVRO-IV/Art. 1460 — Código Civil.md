@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1460 — [Artigo 1460 - Direito Civil]
+# CC Art. 1460 — O devedor do título empenhado que receber a intimação prevista no inciso III do artigo antecedente, ou se der por ciente
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O devedor do título empenhado que receber a intimação prevista no inciso III do artigo antecedente, ou se der por ciente do penhor, não poderá pagar ao seu credor. Se o fizer, responderá solidariamente por este, por perdas e danos, perante o credor pignoratício. Parágrafo único. Se o credor der quitação ao devedor do título empenhado, deverá saldar imediatamente a dívida, em cuja garantia se constituiu o penhor. Seção VIII Do Penhor de Veículos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

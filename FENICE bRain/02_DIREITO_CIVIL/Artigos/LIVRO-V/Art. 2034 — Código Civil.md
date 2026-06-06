@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2034 — [Artigo 2034 - Direito Civil]
+# CC Art. 2034 — A dissolução e a liquidação das pessoas jurídicas referidas no artigo antecedente, quando iniciadas antes da vigência de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A dissolução e a liquidação das pessoas jurídicas referidas no artigo antecedente, quando iniciadas antes da vigência deste Código, obedecerão ao disposto nas leis anteriores.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

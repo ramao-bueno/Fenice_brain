@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1023 — [Artigo 1023 - Direito Civil]
+# CC Art. 1023 — Se os bens da sociedade não lhe cobrirem as dívidas, respondem os sócios pelo saldo, na proporção em que participem das
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se os bens da sociedade não lhe cobrirem as dívidas, respondem os sócios pelo saldo, na proporção em que participem das perdas sociais, salvo cláusula de responsabilidade solidária.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

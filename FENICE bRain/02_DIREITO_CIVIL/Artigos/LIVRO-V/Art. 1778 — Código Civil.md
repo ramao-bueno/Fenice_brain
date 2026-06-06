@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1778 — [Artigo 1778 - Direito Civil]
+# CC Art. 1778 — A autoridade do curador estende-se à pessoa e aos bens dos filhos do curatelado, observado o art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A autoridade do curador estende-se à pessoa e aos bens dos filhos do curatelado, observado o art. 5 o . Seção II Da Curatela do Nascituro e do Enfermo ou Portador de Deficiência Física
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

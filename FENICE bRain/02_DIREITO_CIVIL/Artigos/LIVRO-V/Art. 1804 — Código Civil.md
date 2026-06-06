@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1804 — [Artigo 1804 - Direito Civil]
+# CC Art. 1804 — Aceita a herança, torna-se definitiva a sua transmissão ao herdeiro, desde a abertura da sucessão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aceita a herança, torna-se definitiva a sua transmissão ao herdeiro, desde a abertura da sucessão. Parágrafo único. A transmissão tem-se por não verificada quando o herdeiro renuncia à herança.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 696 — No desempenho das suas incumbências o comissário é obrigado a agir com cuidado e diligência, não só para evitar qualquer
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > No desempenho das suas incumbências o comissário é obrigado a agir com cuidado e diligência, não só para evitar qualquer prejuízo ao comitente, mas ainda para lhe proporcionar o lucro que razoavelmente se podia esperar do negócio. Parágrafo único. Responderá o comissário, salvo motivo de força maior, por qualquer prejuízo que, por ação ou omissão, ocasionar ao comitente.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

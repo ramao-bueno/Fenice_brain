@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1686 — [Artigo 1686 - Direito Civil]
+# CC Art. 1686 — As dívidas de um dos cônjuges, quando superiores à sua meação, não obrigam ao outro, ou a seus herdeiros
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As dívidas de um dos cônjuges, quando superiores à sua meação, não obrigam ao outro, ou a seus herdeiros. CAPÍTULO VI Do Regime de Separação de Bens
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

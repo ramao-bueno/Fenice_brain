@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 519 — Se a coisa expropriada para fins de necessidade ou utilidade pública, ou por interesse social, não tiver o destino para
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a coisa expropriada para fins de necessidade ou utilidade pública, ou por interesse social, não tiver o destino para que se desapropriou, ou não for utilizada em obras ou serviços públicos, caberá ao expropriado direito de preferência, pelo preço atual da coisa.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

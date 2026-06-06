@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1133 — [Artigo 1133 - Direito Civil]
+# CC Art. 1133 — Dependem de aprovação as modificações do contrato ou do estatuto de sociedade sujeita a autorização do Poder Executivo,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dependem de aprovação as modificações do contrato ou do estatuto de sociedade sujeita a autorização do Poder Executivo, salvo se decorrerem de aumento do capital social, em virtude de utilização de reservas ou reavaliação do ativo. Seção III Da Sociedade Estrangeira
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1589 — [Artigo 1589 - Direito Civil]
+# CC Art. 1589 — O pai ou a mãe, em cuja guarda não estejam os filhos, poderá visitá-los e tê-los em sua companhia, segundo o que acordar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pai ou a mãe, em cuja guarda não estejam os filhos, poderá visitá-los e tê-los em sua companhia, segundo o que acordar com o outro cônjuge, ou for fixado pelo juiz, bem como fiscalizar sua manutenção e educação. Parágrafo único. O direito de visita estende-se a qualquer dos avós, a critério do juiz, observados os interesses da criança ou do adolescente. (Incluído pela Lei nº 12.398, de 2011)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

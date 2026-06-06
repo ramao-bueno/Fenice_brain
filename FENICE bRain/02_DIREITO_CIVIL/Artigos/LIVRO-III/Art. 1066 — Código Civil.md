@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1066 — [Artigo 1066 - Direito Civil]
+# CC Art. 1066 — Sem prejuízo dos poderes da assembléia dos sócios, pode o contrato instituir conselho fiscal composto de três ou mais me
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sem prejuízo dos poderes da assembléia dos sócios, pode o contrato instituir conselho fiscal composto de três ou mais membros e respectivos suplentes, sócios ou não, residentes no País, eleitos na assembléia anual prevista no art. 1.078. § 1 o Não podem fazer parte do conselho fiscal, além dos inelegíveis enumerados no § 1 o do art. 1.011, os membros dos demais órgãos da sociedade ou de outra por ela controlada, os empregados de quaisquer delas ou dos respectivos administradores, o cônjuge ou parente destes até o terceiro grau. § 2 o É assegurado aos sócios minoritários, que representarem pelo menos um quinto do capital social, o direito de eleger, separadamente, um dos membros do conselho fiscal e o respectivo suplente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

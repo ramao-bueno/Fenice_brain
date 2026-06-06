@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1135 — [Artigo 1135 - Direito Civil]
+# CC Art. 1135 — É facultado ao Poder Executivo, para conceder a autorização, estabelecer condições convenientes à defesa dos interesses
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É facultado ao Poder Executivo, para conceder a autorização, estabelecer condições convenientes à defesa dos interesses nacionais. Parágrafo único. Aceitas as condições, expedirá o Poder Executivo decreto de autorização, do qual constará o montante de capital destinado às operações no País, cabendo à sociedade promover a publicação dos atos referidos no art. 1.131 e no § 1 o do art. 1.134.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

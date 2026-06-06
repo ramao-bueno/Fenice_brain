@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-- inciso-iii
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 569 — O locatário é obrigado
@@ -24,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O locatário é obrigado: I - a servir-se da coisa alugada para os usos convencionados ou presumidos, conforme a natureza dela e as circunstâncias, bem como tratá-la com o mesmo cuidado como se sua fosse; II - a pagar pontualmente o aluguel nos prazos ajustados, e, em falta de ajuste, segundo o costume do lugar; III - a levar ao conhecimento do locador as turbações de terceiros, que se pretendam fundadas em direito; IV - a restituir a coisa, finda a locação, no estado em que a recebeu, salvas as deteriorações naturais ao uso regular.
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

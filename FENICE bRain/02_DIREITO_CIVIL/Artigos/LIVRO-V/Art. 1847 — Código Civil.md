@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1847 — [Artigo 1847 - Direito Civil]
+# CC Art. 1847 — Calcula-se a legítima sobre o valor dos bens existentes na abertura da sucessão, abatidas as dívidas e as despesas do fu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Calcula-se a legítima sobre o valor dos bens existentes na abertura da sucessão, abatidas as dívidas e as despesas do funeral, adicionando-se, em seguida, o valor dos bens sujeitos a colação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

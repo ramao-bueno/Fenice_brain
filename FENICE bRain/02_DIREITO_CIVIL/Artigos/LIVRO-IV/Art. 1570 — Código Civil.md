@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1570 — [Artigo 1570 - Direito Civil]
+# CC Art. 1570 — Se qualquer dos cônjuges estiver em lugar remoto ou não sabido, encarcerado por mais de cento e oitenta dias, interditad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se qualquer dos cônjuges estiver em lugar remoto ou não sabido, encarcerado por mais de cento e oitenta dias, interditado judicialmente ou privado, episodicamente, de consciência, em virtude de enfermidade ou de acidente, o outro exercerá com exclusividade a direção da família, cabendo-lhe a administração dos bens. CAPÍTULO X Da Dissolução da Sociedade e do vínculo Conjugal
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1892 — [Artigo 1892 - Direito Civil]
+# CC Art. 1892 — Não valerá o testamento marítimo, ainda que feito no curso de uma viagem, se, ao tempo em que se fez, o navio estava em
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não valerá o testamento marítimo, ainda que feito no curso de uma viagem, se, ao tempo em que se fez, o navio estava em porto onde o testador pudesse desembarcar e testar na forma ordinária. Seção III Do Testamento Militar
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

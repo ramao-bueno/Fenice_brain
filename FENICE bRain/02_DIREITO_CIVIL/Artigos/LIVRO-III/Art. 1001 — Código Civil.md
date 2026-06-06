@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1001 — [Artigo 1001 - Direito Civil]
+# CC Art. 1001 — As obrigações dos sócios começam imediatamente com o contrato, se este não fixar outra data, e terminam quando, liquidad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As obrigações dos sócios começam imediatamente com o contrato, se este não fixar outra data, e terminam quando, liquidada a sociedade, se extinguirem as responsabilidades sociais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

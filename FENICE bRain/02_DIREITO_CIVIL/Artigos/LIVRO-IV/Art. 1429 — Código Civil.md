@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1429 — [Artigo 1429 - Direito Civil]
+# CC Art. 1429 — Os sucessores do devedor não podem remir parcialmente o penhor ou a hipoteca na proporção dos seus quinhões;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os sucessores do devedor não podem remir parcialmente o penhor ou a hipoteca na proporção dos seus quinhões; qualquer deles, porém, pode fazê-lo no todo. Parágrafo único. O herdeiro ou sucessor que fizer a remição fica sub-rogado nos direitos do credor pelas quotas que houver satisfeito.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

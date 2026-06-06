@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1890 — [Artigo 1890 - Direito Civil]
+# CC Art. 1890 — O testamento marítimo ou aeronáutico ficará sob a guarda do comandante, que o entregará às autoridades administrativas d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testamento marítimo ou aeronáutico ficará sob a guarda do comandante, que o entregará às autoridades administrativas do primeiro porto ou aeroporto nacional, contra recibo averbado no diário de bordo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

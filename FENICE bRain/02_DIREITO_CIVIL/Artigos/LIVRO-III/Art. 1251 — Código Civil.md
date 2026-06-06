@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1251 — [Artigo 1251 - Direito Civil]
+# CC Art. 1251 — Quando, por força natural violenta, uma porção de terra se destacar de um prédio e se juntar a outro, o dono deste adqui
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando, por força natural violenta, uma porção de terra se destacar de um prédio e se juntar a outro, o dono deste adquirirá a propriedade do acréscimo, se indenizar o dono do primeiro ou, sem indenização, se, em um ano, ninguém houver reclamado. Parágrafo único. Recusando-se ao pagamento de indenização, o dono do prédio a que se juntou a porção de terra deverá aquiescer a que se remova a parte acrescida. Subseção IV Do Álveo Abandonado
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

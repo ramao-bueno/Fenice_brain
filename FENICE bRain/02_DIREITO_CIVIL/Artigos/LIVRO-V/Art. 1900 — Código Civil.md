@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1900 — [Artigo 1900 - Direito Civil]
+# CC Art. 1900 — É nula a disposição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a disposição: I - que institua herdeiro ou legatário sob a condição captatória de que este disponha, também por testamento, em benefício do testador, ou de terceiro; II - que se refira a pessoa incerta, cuja identidade não se possa averiguar; III - que favoreça a pessoa incerta, cometendo a determinação de sua identidade a terceiro; IV - que deixe a arbítrio do herdeiro, ou de outrem, fixar o valor do legado; V - que favoreça as pessoas a que se referem os arts. 1.801 e 1.802.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

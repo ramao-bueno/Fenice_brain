@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1828 — [Artigo 1828 - Direito Civil]
+# CC Art. 1828 — O herdeiro aparente, que de boa-fé houver pago um legado, não está obrigado a prestar o equivalente ao verdadeiro sucess
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O herdeiro aparente, que de boa-fé houver pago um legado, não está obrigado a prestar o equivalente ao verdadeiro sucessor, ressalvado a este o direito de proceder contra quem o recebeu. TÍTULO II Da Sucessão Legítima CAPÍTULO I Da Ordem da Vocação Hereditária
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

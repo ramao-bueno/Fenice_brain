@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1434 — [Artigo 1434 - Direito Civil]
+# CC Art. 1434 — O credor não pode ser constrangido a devolver a coisa empenhada, ou uma parte dela, antes de ser integralmente pago, pod
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor não pode ser constrangido a devolver a coisa empenhada, ou uma parte dela, antes de ser integralmente pago, podendo o juiz, a requerimento do proprietário, determinar que seja vendida apenas uma das coisas, ou parte da coisa empenhada, suficiente para o pagamento do credor. Seção III Das Obrigações do Credor Pignoratício
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

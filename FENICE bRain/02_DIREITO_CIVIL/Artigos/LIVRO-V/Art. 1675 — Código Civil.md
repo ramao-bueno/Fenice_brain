@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1675 — [Artigo 1675 - Direito Civil]
+# CC Art. 1675 — Ao determinar-se o montante dos aqüestos, computar-se-á o valor das doações feitas por um dos cônjuges, sem a necessária
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao determinar-se o montante dos aqüestos, computar-se-á o valor das doações feitas por um dos cônjuges, sem a necessária autorização do outro; nesse caso, o bem poderá ser reivindicado pelo cônjuge prejudicado ou por seus herdeiros, ou declarado no monte partilhável, por valor equivalente ao da época da dissolução.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

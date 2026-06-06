@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 700 — Se houver instruções do comitente proibindo prorrogação de prazos para pagamento, ou se esta não for conforme os usos lo
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se houver instruções do comitente proibindo prorrogação de prazos para pagamento, ou se esta não for conforme os usos locais, poderá o comitente exigir que o comissário pague incontinenti ou responda pelas conseqüências da dilação concedida, procedendo-se de igual modo se o comissário não der ciência ao comitente dos prazos concedidos e de quem é seu beneficiário.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1496 — [Artigo 1496 - Direito Civil]
+# CC Art. 1496 — Se tiver dúvida sobre a legalidade do registro requerido, o oficial fará, ainda assim, a prenotação do pedido
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se tiver dúvida sobre a legalidade do registro requerido, o oficial fará, ainda assim, a prenotação do pedido. Se a dúvida, dentro em noventa dias, for julgada improcedente, o registro efetuar-se-á com o mesmo número que teria na data da prenotação; no caso contrário, cancelada esta, receberá o registro o número correspondente à data em que se tornar a requerer.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

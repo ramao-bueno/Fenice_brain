@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1865 — [Artigo 1865 - Direito Civil]
+# CC Art. 1865 — Se o testador não souber, ou não puder assinar, o tabelião ou seu substituto legal assim o declarará, assinando, neste c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o testador não souber, ou não puder assinar, o tabelião ou seu substituto legal assim o declarará, assinando, neste caso, pelo testador, e, a seu rogo, uma das testemunhas instrumentárias.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

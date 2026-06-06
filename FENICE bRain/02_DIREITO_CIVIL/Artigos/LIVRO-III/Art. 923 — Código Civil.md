@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 923 — [Artigo 923 - Direito Civil]
+# CC Art. 923 — O título nominativo também pode ser transferido por endosso que contenha o nome do endossatário
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O título nominativo também pode ser transferido por endosso que contenha o nome do endossatário. § 1º A transferência mediante endosso só tem eficácia perante o emitente, uma vez feita a competente averbação em seu registro, podendo o emitente exigir do endossatário que comprove a autenticidade da assinatura do endossante. § 2º O endossatário, legitimado por série regular e ininterrupta de endossos, tem o direito de obter a averbação no registro do emitente, comprovada a autenticidade das assinaturas de todos os endossantes. § 3º Caso o título original contenha o nome do primitivo proprietário, tem direito o adquirente a obter do emitente novo título, em seu nome, devendo a emissão do novo título constar no registro do emitente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

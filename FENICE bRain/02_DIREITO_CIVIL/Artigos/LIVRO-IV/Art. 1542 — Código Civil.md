@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1542 — [Artigo 1542 - Direito Civil]
+# CC Art. 1542 — O casamento pode celebrar-se mediante procuração, por instrumento público, com poderes especiais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O casamento pode celebrar-se mediante procuração, por instrumento público, com poderes especiais. § 1 o A revogação do mandato não necessita chegar ao conhecimento do mandatário; mas, celebrado o casamento sem que o mandatário ou o outro contraente tivessem ciência da revogação, responderá o mandante por perdas e danos. § 2 o O nubente que não estiver em iminente risco de vida poderá fazer-se representar no casamento nuncupativo. § 3 o A eficácia do mandato não ultrapassará noventa dias. § 4 o Só por instrumento público se poderá revogar o mandato. CAPÍTULO VII Das Provas do Casamento
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

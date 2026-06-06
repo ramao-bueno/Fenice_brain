@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1767 — [Artigo 1767 - Direito Civil]
+# CC Art. 1767 — Estão sujeitos a curatela
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Estão sujeitos a curatela: I - aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) II - (Revogado) ; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) III - os ébrios habituais e os viciados em tóxico; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - (Revogado) ; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) V - os pródigos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

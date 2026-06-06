@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1813 — [Artigo 1813 - Direito Civil]
+# CC Art. 1813 — Quando o herdeiro prejudicar os seus credores, renunciando à herança, poderão eles, com autorização do juiz, aceitá-la e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando o herdeiro prejudicar os seus credores, renunciando à herança, poderão eles, com autorização do juiz, aceitá-la em nome do renunciante. § 1 o A habilitação dos credores se fará no prazo de trinta dias seguintes ao conhecimento do fato. § 2 o Pagas as dívidas do renunciante, prevalece a renúncia quanto ao remanescente, que será devolvido aos demais herdeiros. CAPÍTULO V Dos Excluídos da Sucessão
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

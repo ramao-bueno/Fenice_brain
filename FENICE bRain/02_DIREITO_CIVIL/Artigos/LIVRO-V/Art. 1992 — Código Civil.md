@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1992 — [Artigo 1992 - Direito Civil]
+# CC Art. 1992 — O herdeiro que sonegar bens da herança, não os descrevendo no inventário quando estejam em seu poder, ou, com o seu conh
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O herdeiro que sonegar bens da herança, não os descrevendo no inventário quando estejam em seu poder, ou, com o seu conhecimento, no de outrem, ou que os omitir na colação, a que os deva levar, ou que deixar de restituí-los, perderá o direito que sobre eles lhe cabia.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

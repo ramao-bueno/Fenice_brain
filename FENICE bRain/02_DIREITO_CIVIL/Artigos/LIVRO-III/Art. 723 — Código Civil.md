@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 723 — [Artigo 723 - Direito Civil]
+# CC Art. 723 — O corretor é obrigado a executar a mediação com diligência e prudência, e a prestar ao cliente, espontaneamente, todas a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O corretor é obrigado a executar a mediação com diligência e prudência, e a prestar ao cliente, espontaneamente, todas as informações sobre o andamento do negócio. (Redação dada pela Lei nº 12.236, de 2010 ) Parágrafo único. Sob pena de responder por perdas e danos, o corretor prestará ao cliente todos os esclarecimentos acerca da segurança ou do risco do negócio, das alterações de valores e de outros fatores que possam influir nos resultados da incumbência. (Incluído pela Lei nº 12.236, de 2010 )
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

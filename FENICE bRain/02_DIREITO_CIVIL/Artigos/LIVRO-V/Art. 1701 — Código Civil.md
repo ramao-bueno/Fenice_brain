@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1701 — [Artigo 1701 - Direito Civil]
+# CC Art. 1701 — A pessoa obrigada a suprir alimentos poderá pensionar o alimentando, ou dar-lhe hospedagem e sustento, sem prejuízo do d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A pessoa obrigada a suprir alimentos poderá pensionar o alimentando, ou dar-lhe hospedagem e sustento, sem prejuízo do dever de prestar o necessário à sua educação, quando menor. Parágrafo único. Compete ao juiz, se as circunstâncias o exigirem, fixar a forma do cumprimento da prestação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

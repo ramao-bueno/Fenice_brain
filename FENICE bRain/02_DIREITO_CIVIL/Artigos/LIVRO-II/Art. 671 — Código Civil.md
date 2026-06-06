@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 671 — Se o mandatário, tendo fundos ou crédito do mandante, comprar, em nome próprio, algo que devera comprar para o mandante,
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o mandatário, tendo fundos ou crédito do mandante, comprar, em nome próprio, algo que devera comprar para o mandante, por ter sido expressamente designado no mandato, terá este ação para obrigá-lo à entrega da coisa comprada.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

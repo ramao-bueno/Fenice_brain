@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1996 — [Artigo 1996 - Direito Civil]
+# CC Art. 1996 — Só se pode argüir de sonegação o inventariante depois de encerrada a descrição dos bens, com a declaração, por ele feita
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Só se pode argüir de sonegação o inventariante depois de encerrada a descrição dos bens, com a declaração, por ele feita, de não existirem outros por inventariar e partir, assim como argüir o herdeiro, depois de declarar-se no inventário que não os possui. CAPÍTULO III Do Pagamento das Dívidas
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1272 — [Artigo 1272 - Direito Civil]
+# CC Art. 1272 — As coisas pertencentes a diversos donos, confundidas, misturadas ou adjuntadas sem o consentimento deles, continuam a pe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As coisas pertencentes a diversos donos, confundidas, misturadas ou adjuntadas sem o consentimento deles, continuam a pertencer-lhes, sendo possível separá-las sem deterioração. § 1 o Não sendo possível a separação das coisas, ou exigindo dispêndio excessivo, subsiste indiviso o todo, cabendo a cada um dos donos quinhão proporcional ao valor da coisa com que entrou para a mistura ou agregado. § 2 o Se uma das coisas puder considerar-se principal, o dono sê-lo-á do todo, indenizando os outros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

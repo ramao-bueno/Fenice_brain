@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1657 — [Artigo 1657 - Direito Civil]
+# CC Art. 1657 — As convenções antenupciais não terão efeito perante terceiros senão depois de registradas, em livro especial, pelo ofici
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As convenções antenupciais não terão efeito perante terceiros senão depois de registradas, em livro especial, pelo oficial do Registro de Imóveis do domicílio dos cônjuges. CAPÍTULO III Do Regime de Comunhão Parcial
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

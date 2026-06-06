@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1595 — [Artigo 1595 - Direito Civil]
+# CC Art. 1595 — Cada cônjuge ou companheiro é aliado aos parentes do outro pelo vínculo da afinidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cada cônjuge ou companheiro é aliado aos parentes do outro pelo vínculo da afinidade. § 1 o O parentesco por afinidade limita-se aos ascendentes, aos descendentes e aos irmãos do cônjuge ou companheiro. § 2 o Na linha reta, a afinidade não se extingue com a dissolução do casamento ou da união estável. CAPÍTULO II Da Filiação
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 383 — A confusão operada na pessoa do credor ou devedor solidário só extingue a obrigação até a concorrência da respectiva par
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A confusão operada na pessoa do credor ou devedor solidário só extingue a obrigação até a concorrência da respectiva parte no crédito, ou na dívida, subsistindo quanto ao mais a solidariedade.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

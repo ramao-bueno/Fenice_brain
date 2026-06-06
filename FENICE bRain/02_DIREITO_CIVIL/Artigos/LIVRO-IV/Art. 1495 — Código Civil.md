@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1495 — [Artigo 1495 - Direito Civil]
+# CC Art. 1495 — Quando se apresentar ao oficial do registro título de hipoteca que mencione a constituição de anterior, não registrada,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando se apresentar ao oficial do registro título de hipoteca que mencione a constituição de anterior, não registrada, sobrestará ele na inscrição da nova, depois de a prenotar, até trinta dias, aguardando que o interessado inscreva a precedente; esgotado o prazo, sem que se requeira a inscrição desta, a hipoteca ulterior será registrada e obterá preferência.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

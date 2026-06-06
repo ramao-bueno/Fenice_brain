@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1028 — [Artigo 1028 - Direito Civil]
+# CC Art. 1028 — No caso de morte de sócio, liquidar-se-á sua quota, salvo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso de morte de sócio, liquidar-se-á sua quota, salvo: I - se o contrato dispuser diferentemente; II - se os sócios remanescentes optarem pela dissolução da sociedade; III - se, por acordo com os herdeiros, regular-se a substituição do sócio falecido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

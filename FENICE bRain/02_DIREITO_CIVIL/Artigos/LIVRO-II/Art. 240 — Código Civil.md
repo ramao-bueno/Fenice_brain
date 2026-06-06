@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 240 — Se a coisa restituível se deteriorar sem culpa do devedor, recebê-la-á o credor, tal qual se ache, sem direito a indeniz
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a coisa restituível se deteriorar sem culpa do devedor, recebê-la-á o credor, tal qual se ache, sem direito a indenização; se por culpa do devedor, observar-se-á o disposto no art. 239.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

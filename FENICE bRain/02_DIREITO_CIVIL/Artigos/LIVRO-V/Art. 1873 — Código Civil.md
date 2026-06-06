@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1873 — [Artigo 1873 - Direito Civil]
+# CC Art. 1873 — Pode fazer testamento cerrado o surdo-mudo, contanto que o escreva todo, e o assine de sua mão, e que, ao entregá-lo ao
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode fazer testamento cerrado o surdo-mudo, contanto que o escreva todo, e o assine de sua mão, e que, ao entregá-lo ao oficial público, ante as duas testemunhas, escreva, na face externa do papel ou do envoltório, que aquele é o seu testamento, cuja aprovação lhe pede.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

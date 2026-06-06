@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1112 — [Artigo 1112 - Direito Civil]
+# CC Art. 1112 — No curso de liquidação judicial, o juiz convocará, se necessário, reunião ou assembléia para deliberar sobre os interess
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No curso de liquidação judicial, o juiz convocará, se necessário, reunião ou assembléia para deliberar sobre os interesses da liquidação, e as presidirá, resolvendo sumariamente as questões suscitadas. Parágrafo único. As atas das assembléias serão, em cópia autêntica, apensadas ao processo judicial. CAPÍTULO X Da Transformação, da Incorporação, da Fusão e da Cisão das Sociedades
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

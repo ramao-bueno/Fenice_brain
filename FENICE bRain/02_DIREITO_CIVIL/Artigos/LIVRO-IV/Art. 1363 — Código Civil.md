@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1363 — [Artigo 1363 - Direito Civil]
+# CC Art. 1363 — Antes de vencida a dívida, o devedor, a suas expensas e risco, pode usar a coisa segundo sua destinação, sendo obrigado,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Antes de vencida a dívida, o devedor, a suas expensas e risco, pode usar a coisa segundo sua destinação, sendo obrigado, como depositário: I - a empregar na guarda da coisa a diligência exigida por sua natureza; II - a entregá-la ao credor, se a dívida não for paga no vencimento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1818 — [Artigo 1818 - Direito Civil]
+# CC Art. 1818 — Aquele que incorreu em atos que determinem a exclusão da herança será admitido a suceder, se o ofendido o tiver expressa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que incorreu em atos que determinem a exclusão da herança será admitido a suceder, se o ofendido o tiver expressamente reabilitado em testamento, ou em outro ato autêntico. Parágrafo único. Não havendo reabilitação expressa, o indigno, contemplado em testamento do ofendido, quando o testador, ao testar, já conhecia a causa da indignidade, pode suceder no limite da disposição testamentária. CAPÍTULO VI Da Herança Jacente
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

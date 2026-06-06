@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1305 — [Artigo 1305 - Direito Civil]
+# CC Art. 1305 — O confinante, que primeiro construir, pode assentar a parede divisória até meia espessura no terreno contíguo, sem perde
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O confinante, que primeiro construir, pode assentar a parede divisória até meia espessura no terreno contíguo, sem perder por isso o direito a haver meio valor dela se o vizinho a travejar, caso em que o primeiro fixará a largura e a profundidade do alicerce. Parágrafo único. Se a parede divisória pertencer a um dos vizinhos, e não tiver capacidade para ser travejada pelo outro, não poderá este fazer-lhe alicerce ao pé sem prestar caução àquele, pelo risco a que expõe a construção anterior.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

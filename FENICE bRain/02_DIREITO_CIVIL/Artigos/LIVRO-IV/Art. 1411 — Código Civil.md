@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1411 — [Artigo 1411 - Direito Civil]
+# CC Art. 1411 — Constituído o usufruto em favor de duas ou mais pessoas, extinguir-se-á a parte em relação a cada uma das que falecerem,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constituído o usufruto em favor de duas ou mais pessoas, extinguir-se-á a parte em relação a cada uma das que falecerem, salvo se, por estipulação expressa, o quinhão desses couber ao sobrevivente. TÍTULO VII Do Uso
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

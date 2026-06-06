@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1390 — [Artigo 1390 - Direito Civil]
+# CC Art. 1390 — O usufruto pode recair em um ou mais bens, móveis ou imóveis, em um patrimônio inteiro, ou parte deste, abrangendo-lhe,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O usufruto pode recair em um ou mais bens, móveis ou imóveis, em um patrimônio inteiro, ou parte deste, abrangendo-lhe, no todo ou em parte, os frutos e utilidades.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

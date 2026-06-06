@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1676 — [Artigo 1676 - Direito Civil]
+# CC Art. 1676 — Incorpora-se ao monte o valor dos bens alienados em detrimento da meação, se não houver preferência do cônjuge lesado, o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Incorpora-se ao monte o valor dos bens alienados em detrimento da meação, se não houver preferência do cônjuge lesado, ou de seus herdeiros, de os reivindicar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

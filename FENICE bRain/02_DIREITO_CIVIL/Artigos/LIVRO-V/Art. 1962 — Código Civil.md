@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1962 — [Artigo 1962 - Direito Civil]
+# CC Art. 1962 — Além das causas mencionadas no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além das causas mencionadas no art. 1.814, autorizam a deserdação dos descendentes por seus ascendentes: I - ofensa física; II - injúria grave; III - relações ilícitas com a madrasta ou com o padrasto; IV - desamparo do ascendente em alienação mental ou grave enfermidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

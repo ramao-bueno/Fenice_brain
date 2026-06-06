@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1684 — [Artigo 1684 - Direito Civil]
+# CC Art. 1684 — Se não for possível nem conveniente a divisão de todos os bens em natureza, calcular-se-á o valor de alguns ou de todos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se não for possível nem conveniente a divisão de todos os bens em natureza, calcular-se-á o valor de alguns ou de todos para reposição em dinheiro ao cônjuge não-proprietário. Parágrafo único. Não se podendo realizar a reposição em dinheiro, serão avaliados e, mediante autorização judicial, alienados tantos bens quantos bastarem.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

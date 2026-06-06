@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1043 — [Artigo 1043 - Direito Civil]
+# CC Art. 1043 — O credor particular de sócio não pode, antes de dissolver-se a sociedade, pretender a liquidação da quota do devedor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor particular de sócio não pode, antes de dissolver-se a sociedade, pretender a liquidação da quota do devedor. Parágrafo único. Poderá fazê-lo quando: I - a sociedade houver sido prorrogada tacitamente; II - tendo ocorrido prorrogação contratual, for acolhida judicialmente oposição do credor, levantada no prazo de noventa dias, contado da publicação do ato dilatório.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

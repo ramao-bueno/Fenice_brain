@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1738 — [Artigo 1738 - Direito Civil]
+# CC Art. 1738 — A escusa apresentar-se-á nos dez dias subseqüentes à designação, sob pena de entender-se renunciado o direito de alegá-l
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A escusa apresentar-se-á nos dez dias subseqüentes à designação, sob pena de entender-se renunciado o direito de alegá-la; se o motivo escusatório ocorrer depois de aceita a tutela, os dez dias contar-se-ão do em que ele sobrevier.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

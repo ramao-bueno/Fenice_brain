@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1446 — [Artigo 1446 - Direito Civil]
+# CC Art. 1446 — Os animais da mesma espécie, comprados para substituir os mortos, ficam sub-rogados no penhor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os animais da mesma espécie, comprados para substituir os mortos, ficam sub-rogados no penhor. Parágrafo único. Presume-se a substituição prevista neste artigo, mas não terá eficácia contra terceiros, se não constar de menção adicional ao respectivo contrato, a qual deverá ser averbada. Seção VI Do Penhor Industrial e Mercantil
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

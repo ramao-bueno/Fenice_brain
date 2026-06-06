@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1497 — [Artigo 1497 - Direito Civil]
+# CC Art. 1497 — As hipotecas legais, de qualquer natureza, deverão ser registradas e especializadas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As hipotecas legais, de qualquer natureza, deverão ser registradas e especializadas. § 1 o O registro e a especialização das hipotecas legais incumbem a quem está obrigado a prestar a garantia, mas os interessados podem promover a inscrição delas, ou solicitar ao Ministério Público que o faça. § 2 o As pessoas, às quais incumbir o registro e a especialização das hipotecas legais, estão sujeitas a perdas e danos pela omissão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

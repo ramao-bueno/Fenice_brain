@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1751 — [Artigo 1751 - Direito Civil]
+# CC Art. 1751 — Antes de assumir a tutela, o tutor declarará tudo o que o menor lhe deva, sob pena de não lhe poder cobrar, enquanto exe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Antes de assumir a tutela, o tutor declarará tudo o que o menor lhe deva, sob pena de não lhe poder cobrar, enquanto exerça a tutoria, salvo provando que não conhecia o débito quando a assumiu.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

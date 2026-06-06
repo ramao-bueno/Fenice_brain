@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1150 — [Artigo 1150 - Direito Civil]
+# CC Art. 1150 — O empresário e a sociedade empresária vinculam-se ao Registro Público de Empresas Mercantis a cargo das Juntas Comerciai
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O empresário e a sociedade empresária vinculam-se ao Registro Público de Empresas Mercantis a cargo das Juntas Comerciais, e a sociedade simples ao Registro Civil das Pessoas Jurídicas, o qual deverá obedecer às normas fixadas para aquele registro, se a sociedade simples adotar um dos tipos de sociedade empresária.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

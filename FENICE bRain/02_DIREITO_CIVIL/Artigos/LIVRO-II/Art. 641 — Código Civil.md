@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 641 — Se o depositário se tornar incapaz, a pessoa que lhe assumir a administração dos bens diligenciará imediatamente restitu
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o depositário se tornar incapaz, a pessoa que lhe assumir a administração dos bens diligenciará imediatamente restituir a coisa depositada e, não querendo ou não podendo o depositante recebê-la, recolhê-la-á ao Depósito Público ou promoverá nomeação de outro depositário.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

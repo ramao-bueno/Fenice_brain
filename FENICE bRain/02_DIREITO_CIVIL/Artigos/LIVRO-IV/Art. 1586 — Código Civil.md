@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1586 — [Artigo 1586 - Direito Civil]
+# CC Art. 1586 — Havendo motivos graves, poderá o juiz, em qualquer caso, a bem dos filhos, regular de maneira diferente da estabelecida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo motivos graves, poderá o juiz, em qualquer caso, a bem dos filhos, regular de maneira diferente da estabelecida nos artigos antecedentes a situação deles para com os pais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

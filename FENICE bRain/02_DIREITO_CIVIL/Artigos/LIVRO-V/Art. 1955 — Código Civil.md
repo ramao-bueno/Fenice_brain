@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1955 — [Artigo 1955 - Direito Civil]
+# CC Art. 1955 — O fideicomissário pode renunciar a herança ou o legado, e, neste caso, o fideicomisso caduca, deixando de ser resolúvel
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O fideicomissário pode renunciar a herança ou o legado, e, neste caso, o fideicomisso caduca, deixando de ser resolúvel a propriedade do fiduciário, se não houver disposição contrária do testador.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

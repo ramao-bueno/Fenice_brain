@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 583 — Se, correndo risco o objeto do comodato juntamente com outros do comodatário, antepuser este a salvação dos seus abandon
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se, correndo risco o objeto do comodato juntamente com outros do comodatário, antepuser este a salvação dos seus abandonando o do comodante, responderá pelo dano ocorrido, ainda que se possa atribuir a caso fortuito, ou força maior.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

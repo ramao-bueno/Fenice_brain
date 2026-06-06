@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 409 — A cláusula penal estipulada conjuntamente com a obrigação, ou em ato posterior, pode referir-se à inexecução completa da
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A cláusula penal estipulada conjuntamente com a obrigação, ou em ato posterior, pode referir-se à inexecução completa da obrigação, à de alguma cláusula especial ou simplesmente à mora.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

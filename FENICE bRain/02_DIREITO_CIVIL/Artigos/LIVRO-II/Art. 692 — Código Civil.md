@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 692 — O mandato judicial fica subordinado às normas que lhe dizem respeito, constantes da legislação processual, e, supletivam
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O mandato judicial fica subordinado às normas que lhe dizem respeito, constantes da legislação processual, e, supletivamente, às estabelecidas neste Código. CAPÍTULO XI Da Comissão
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

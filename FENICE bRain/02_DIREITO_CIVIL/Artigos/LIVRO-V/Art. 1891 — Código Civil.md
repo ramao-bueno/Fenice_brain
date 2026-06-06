@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1891 — [Artigo 1891 - Direito Civil]
+# CC Art. 1891 — Caducará o testamento marítimo, ou aeronáutico, se o testador não morrer na viagem, nem nos noventa dias subseqüentes ao
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Caducará o testamento marítimo, ou aeronáutico, se o testador não morrer na viagem, nem nos noventa dias subseqüentes ao seu desembarque em terra, onde possa fazer, na forma ordinária, outro testamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

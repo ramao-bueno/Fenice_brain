@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1547 — [Artigo 1547 - Direito Civil]
+# CC Art. 1547 — Na dúvida entre as provas favoráveis e contrárias, julgar-se-á pelo casamento, se os cônjuges, cujo casamento se impugna
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na dúvida entre as provas favoráveis e contrárias, julgar-se-á pelo casamento, se os cônjuges, cujo casamento se impugna, viverem ou tiverem vivido na posse do estado de casados. CAPÍTULO VIII Da Invalidade do Casamento
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

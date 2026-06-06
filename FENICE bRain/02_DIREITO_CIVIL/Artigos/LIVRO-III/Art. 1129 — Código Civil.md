@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1129 — [Artigo 1129 - Direito Civil]
+# CC Art. 1129 — Ao Poder Executivo é facultado exigir que se procedam a alterações ou aditamento no contrato ou no estatuto, devendo os
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao Poder Executivo é facultado exigir que se procedam a alterações ou aditamento no contrato ou no estatuto, devendo os sócios, ou, tratando-se de sociedade anônima, os fundadores, cumprir as formalidades legais para revisão dos atos constitutivos, e juntar ao processo prova regular.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

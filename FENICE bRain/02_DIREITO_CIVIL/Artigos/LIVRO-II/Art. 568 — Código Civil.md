@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 568 — O locador resguardará o locatário dos embaraços e turbações de terceiros, que tenham ou pretendam ter direitos sobre a c
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O locador resguardará o locatário dos embaraços e turbações de terceiros, que tenham ou pretendam ter direitos sobre a coisa alugada, e responderá pelos seus vícios, ou defeitos, anteriores à locação.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

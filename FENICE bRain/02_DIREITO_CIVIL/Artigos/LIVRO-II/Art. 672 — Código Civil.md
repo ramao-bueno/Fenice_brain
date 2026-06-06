@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 672 — Sendo dois ou mais os mandatários nomeados no mesmo instrumento, qualquer deles poderá exercer os poderes outorgados, se
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Sendo dois ou mais os mandatários nomeados no mesmo instrumento, qualquer deles poderá exercer os poderes outorgados, se não forem expressamente declarados conjuntos, nem especificamente designados para atos diferentes, ou subordinados a atos sucessivos. Se os mandatários forem declarados conjuntos, não terá eficácia o ato praticado sem interferência de todos, salvo havendo ratificação, que retroagirá à data do ato.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

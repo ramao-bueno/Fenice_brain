@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1365 — [Artigo 1365 - Direito Civil]
+# CC Art. 1365 — É nula a cláusula que autoriza o proprietário fiduciário a ficar com a coisa alienada em garantia, se a dívida não for p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a cláusula que autoriza o proprietário fiduciário a ficar com a coisa alienada em garantia, se a dívida não for paga no vencimento. Parágrafo único. O devedor pode, com a anuência do credor, dar seu direito eventual à coisa em pagamento da dívida, após o vencimento desta.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

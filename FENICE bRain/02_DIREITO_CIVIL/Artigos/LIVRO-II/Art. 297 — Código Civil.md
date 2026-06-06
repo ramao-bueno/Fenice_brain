@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 297 — O cedente, responsável ao cessionário pela solvência do devedor, não responde por mais do que daquele recebeu, com os re
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O cedente, responsável ao cessionário pela solvência do devedor, não responde por mais do que daquele recebeu, com os respectivos juros; mas tem de ressarcir-lhe as despesas da cessão e as que o cessionário houver feito com a cobrança.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

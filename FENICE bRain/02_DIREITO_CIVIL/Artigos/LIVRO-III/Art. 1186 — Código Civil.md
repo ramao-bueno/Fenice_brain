@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1186 — [Artigo 1186 - Direito Civil]
+# CC Art. 1186 — O livro Balancetes Diários e Balanços será escriturado de modo que registre
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O livro Balancetes Diários e Balanços será escriturado de modo que registre: I - a posição diária de cada uma das contas ou títulos contábeis, pelo respectivo saldo, em forma de balancetes diários; II - o balanço patrimonial e o de resultado econômico, no encerramento do exercício.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

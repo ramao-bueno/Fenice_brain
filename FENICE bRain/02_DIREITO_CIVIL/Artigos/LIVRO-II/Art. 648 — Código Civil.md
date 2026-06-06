@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 648 — O depósito a que se refere o inciso I do artigo antecedente, reger-se-á pela disposição da respectiva lei, e, no silênci
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O depósito a que se refere o inciso I do artigo antecedente, reger-se-á pela disposição da respectiva lei, e, no silêncio ou deficiência dela, pelas concernentes ao depósito voluntário. Parágrafo único. As disposições deste artigo aplicam-se aos depósitos previstos no inciso II do artigo antecedente, podendo estes certificarem-se por qualquer meio de prova.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

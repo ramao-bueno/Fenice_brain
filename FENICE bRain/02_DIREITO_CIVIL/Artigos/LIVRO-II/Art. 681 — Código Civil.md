@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 681 — O mandatário tem sobre a coisa de que tenha a posse em virtude do mandato, direito de retenção, até se reembolsar do que
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O mandatário tem sobre a coisa de que tenha a posse em virtude do mandato, direito de retenção, até se reembolsar do que no desempenho do encargo despendeu. Seção IV Da Extinção do Mandato
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

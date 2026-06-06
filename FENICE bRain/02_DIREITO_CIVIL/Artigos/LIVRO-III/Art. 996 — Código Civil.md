@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 996 — [Artigo 996 - Direito Civil]
+# CC Art. 996 — Aplica-se à sociedade em conta de participação, subsidiariamente e no que com ela for compatível, o disposto para a soci
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aplica-se à sociedade em conta de participação, subsidiariamente e no que com ela for compatível, o disposto para a sociedade simples, e a sua liquidação rege-se pelas normas relativas à prestação de contas, na forma da lei processual. Parágrafo único. Havendo mais de um sócio ostensivo, as respectivas contas serão prestadas e julgadas no mesmo processo. SUBTÍTULO II Da Sociedade Personificada CAPÍTULO I Da Sociedade Simples Seção I Do Contrato Social
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

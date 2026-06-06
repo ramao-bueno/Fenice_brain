@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1708 — [Artigo 1708 - Direito Civil]
+# CC Art. 1708 — Com o casamento, a união estável ou o concubinato do credor, cessa o dever de prestar alimentos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Com o casamento, a união estável ou o concubinato do credor, cessa o dever de prestar alimentos. Parágrafo único. Com relação ao credor cessa, também, o direito a alimentos, se tiver procedimento indigno em relação ao devedor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

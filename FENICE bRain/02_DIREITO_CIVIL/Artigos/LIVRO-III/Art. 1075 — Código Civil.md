@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1075 — [Artigo 1075 - Direito Civil]
+# CC Art. 1075 — A assembléia será presidida e secretariada por sócios escolhidos entre os presentes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A assembléia será presidida e secretariada por sócios escolhidos entre os presentes. § 1 o Dos trabalhos e deliberações será lavrada, no livro de atas da assembléia, ata assinada pelos membros da mesa e por sócios participantes da reunião, quantos bastem à validade das deliberações, mas sem prejuízo dos que queiram assiná-la. § 2 o Cópia da ata autenticada pelos administradores, ou pela mesa, será, nos vinte dias subseqüentes à reunião, apresentada ao Registro Público de Empresas Mercantis para arquivamento e averbação. § 3 o Ao sócio, que a solicitar, será entregue cópia autenticada da ata.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

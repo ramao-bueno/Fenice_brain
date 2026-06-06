@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 744 — [Artigo 744 - Direito Civil]
+# CC Art. 744 — Ao receber a coisa, o transportador emitirá conhecimento com a menção dos dados que a identifiquem, obedecido o disposto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao receber a coisa, o transportador emitirá conhecimento com a menção dos dados que a identifiquem, obedecido o disposto em lei especial. Parágrafo único. O transportador poderá exigir que o remetente lhe entregue, devidamente assinada, a relação discriminada das coisas a serem transportadas, em duas vias, uma das quais, por ele devidamente autenticada, ficará fazendo parte integrante do conhecimento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

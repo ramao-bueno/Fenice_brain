@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 926 — [Artigo 926 - Direito Civil]
+# CC Art. 926 — Qualquer negócio ou medida judicial, que tenha por objeto o título, só produz efeito perante o emitente ou terceiros, um
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Qualquer negócio ou medida judicial, que tenha por objeto o título, só produz efeito perante o emitente ou terceiros, uma vez feita a competente averbação no registro do emitente. TÍTULO IX Da Responsabilidade Civil CAPÍTULO I Da Obrigação de Indenizar
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

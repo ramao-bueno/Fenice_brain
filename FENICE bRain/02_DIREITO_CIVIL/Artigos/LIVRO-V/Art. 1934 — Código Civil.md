@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1934 — [Artigo 1934 - Direito Civil]
+# CC Art. 1934 — No silêncio do testamento, o cumprimento dos legados incumbe aos herdeiros e, não os havendo, aos legatários, na proporç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No silêncio do testamento, o cumprimento dos legados incumbe aos herdeiros e, não os havendo, aos legatários, na proporção do que herdaram. Parágrafo único. O encargo estabelecido neste artigo, não havendo disposição testamentária em contrário, caberá ao herdeiro ou legatário incumbido pelo testador da execução do legado; quando indicados mais de um, os onerados dividirão entre si o ônus, na proporção do que recebam da herança.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

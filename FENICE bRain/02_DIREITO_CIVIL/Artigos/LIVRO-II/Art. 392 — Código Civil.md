@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 392 — Nos contratos benéficos, responde por simples culpa o contratante, a quem o contrato aproveite, e por dolo aquele a quem
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Nos contratos benéficos, responde por simples culpa o contratante, a quem o contrato aproveite, e por dolo aquele a quem não favoreça. Nos contratos onerosos, responde cada uma das partes por culpa, salvo as exceções previstas em lei.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

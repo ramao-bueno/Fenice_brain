@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-1
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 500 — Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se determinar a respectiva área, e esta não c
@@ -22,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se determinar a respectiva área, e esta não corresponder, em qualquer dos casos, às dimensões dadas, o comprador terá o direito de exigir o complemento da área, e, não sendo isso possível, o de reclamar a resolução do contrato ou abatimento proporcional ao preço. § 1 o Presume-se que a referência às dimensões foi simplesmente enunciativa, quando a diferença encontrada não exceder de um vigésimo da área total enunciada, ressalvado ao comprador o direito de provar que, em tais circunstâncias, não teria realizado o negócio...
+> Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se determinar a respectiva área, e esta não corresponder, em qualquer dos casos, às dimensões dadas, o comprador terá o direito de exigir o complemento da área, e, não sendo isso possível, o de reclamar a resolução do contrato ou abatimento proporcional ao preço. § 1 o Presume-se que a referência às dimensões foi simplesmente enunciativa, quando a diferença encontrada não exceder de um vigésimo da área total enunciada, ressalvado ao comprador o direito de provar que, em tais circunstâncias, não teria realizado o negócio. § 2 o Se em vez de falta houver excesso, e o vendedor provar que tinha motivos para ignorar a medida exata da área vendida, caberá ao comprador, à sua escolha, completar o valor correspondente ao preço ou devolver o excesso. § 3 o Não haverá complemento de área, nem devolução de excesso, se o imóvel for vendido como coisa certa e discriminada, tendo sido apenas enunciativa a referência às suas dimensões, ainda que não conste, de modo expresso, ter sido a venda ad corpus .
 
 ---
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

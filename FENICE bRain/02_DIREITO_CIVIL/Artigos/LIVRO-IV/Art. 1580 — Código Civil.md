@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1580 — [Artigo 1580 - Direito Civil]
+# CC Art. 1580 — Decorrido um ano do trânsito em julgado da sentença que houver decretado a separação judicial, ou da decisão concessiva
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Decorrido um ano do trânsito em julgado da sentença que houver decretado a separação judicial, ou da decisão concessiva da medida cautelar de separação de corpos, qualquer das partes poderá requerer sua conversão em divórcio. § 1 o A conversão em divórcio da separação judicial dos cônjuges será decretada por sentença, da qual não constará referência à causa que a determinou. § 2 o O divórcio poderá ser requerido, por um ou por ambos os cônjuges, no caso de comprovada separação de fato por mais de dois anos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 902 — [Artigo 902 - Direito Civil]
+# CC Art. 902 — Não é o credor obrigado a receber o pagamento antes do vencimento do título, e aquele que o paga, antes do vencimento, f
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não é o credor obrigado a receber o pagamento antes do vencimento do título, e aquele que o paga, antes do vencimento, fica responsável pela validade do pagamento. § 1º No vencimento, não pode o credor recusar pagamento, ainda que parcial. § 2º No caso de pagamento parcial, em que se não opera a tradição do título, além da quitação em separado, outra deverá ser firmada no próprio título.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

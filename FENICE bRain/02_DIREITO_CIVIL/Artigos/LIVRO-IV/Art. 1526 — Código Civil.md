@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1526 — [Artigo 1526 - Direito Civil]
+# CC Art. 1526 — A habilitação será feita pessoalmente perante o oficial do Registro Civil, com a audiência do Ministério Público
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A habilitação será feita pessoalmente perante o oficial do Registro Civil, com a audiência do Ministério Público. (Redação dada pela Lei nº 12.133, de 2009) Vigência Parágrafo único. Caso haja impugnação do oficial, do Ministério Público ou de terceiro, a habilitação será submetida ao juiz. (Incluído pela Lei nº 12.133, de 2009) Vigência
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

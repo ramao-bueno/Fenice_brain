@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1431 — [Artigo 1431 - Direito Civil]
+# CC Art. 1431 — Constitui-se o penhor pela transferência efetiva da posse que, em garantia do débito ao credor ou a quem o represente, f
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constitui-se o penhor pela transferência efetiva da posse que, em garantia do débito ao credor ou a quem o represente, faz o devedor, ou alguém por ele, de uma coisa móvel, suscetível de alienação. Parágrafo único. No penhor rural, industrial, mercantil e de veículos, as coisas empenhadas continuam em poder do devedor, que as deve guardar e conservar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

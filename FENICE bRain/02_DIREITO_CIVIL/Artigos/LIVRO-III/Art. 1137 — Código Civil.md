@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1137 — [Artigo 1137 - Direito Civil]
+# CC Art. 1137 — A sociedade estrangeira autorizada a funcionar ficará sujeita às leis e aos tribunais brasileiros, quanto aos atos ou op
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade estrangeira autorizada a funcionar ficará sujeita às leis e aos tribunais brasileiros, quanto aos atos ou operações praticados no Brasil. Parágrafo único. A sociedade estrangeira funcionará no território nacional com o nome que tiver em seu país de origem, podendo acrescentar as palavras "do Brasil" ou "para o Brasil".
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

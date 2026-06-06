@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1693 — [Artigo 1693 - Direito Civil]
+# CC Art. 1693 — Excluem-se do usufruto e da administração dos pais
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Excluem-se do usufruto e da administração dos pais: I - os bens adquiridos pelo filho havido fora do casamento, antes do reconhecimento; II - os valores auferidos pelo filho maior de dezesseis anos, no exercício de atividade profissional e os bens com tais recursos adquiridos; III - os bens deixados ou doados ao filho, sob a condição de não serem usufruídos, ou administrados, pelos pais; IV - os bens que aos filhos couberem na herança, quando os pais forem excluídos da sucessão. SUBTÍTULO III Dos Alimentos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

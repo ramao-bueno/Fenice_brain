@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 817 — [Artigo 817 - Direito Civil]
+# CC Art. 817 — O sorteio para dirimir questões ou dividir coisas comuns considera-se sistema de partilha ou processo de transação, conf
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O sorteio para dirimir questões ou dividir coisas comuns considera-se sistema de partilha ou processo de transação, conforme o caso. CAPÍTULO XVIII DA FIANÇA Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 658 — O mandato presume-se gratuito quando não houver sido estipulada retribuição, exceto se o seu objeto corresponder ao daqu
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O mandato presume-se gratuito quando não houver sido estipulada retribuição, exceto se o seu objeto corresponder ao daqueles que o mandatário trata por ofício ou profissão lucrativa. Parágrafo único. Se o mandato for oneroso, caberá ao mandatário a retribuição prevista em lei ou no contrato. Sendo estes omissos, será ela determinada pelos usos do lugar, ou, na falta destes, por arbitramento.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

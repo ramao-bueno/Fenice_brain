@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1510 — [Artigo 1510 - Direito Civil]
+# CC Art. 1510 — O adquirente dos bens dados em anticrese poderá remi-los, antes do vencimento da dívida, pagando a sua totalidade à data
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O adquirente dos bens dados em anticrese poderá remi-los, antes do vencimento da dívida, pagando a sua totalidade à data do pedido de remição e imitir-se-á, se for o caso, na sua posse. TÍTULO XI DA LAJE (Incluído pela Lei nº 13.465, de 2017)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

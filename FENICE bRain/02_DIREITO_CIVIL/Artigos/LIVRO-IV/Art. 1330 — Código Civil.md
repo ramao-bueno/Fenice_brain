@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1330 — [Artigo 1330 - Direito Civil]
+# CC Art. 1330 — Qualquer que seja o valor da meação, enquanto aquele que pretender a divisão não o pagar ou depositar, nenhum uso poderá
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Qualquer que seja o valor da meação, enquanto aquele que pretender a divisão não o pagar ou depositar, nenhum uso poderá fazer na parede, muro, vala, cerca ou qualquer outra obra divisória. CAPÍTULO VII Do Condomínio Edilício Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

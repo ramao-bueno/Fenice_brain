@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 407 — Ainda que se não alegue prejuízo, é obrigado o devedor aos juros da mora que se contarão assim às dívidas em dinheiro, c
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Ainda que se não alegue prejuízo, é obrigado o devedor aos juros da mora que se contarão assim às dívidas em dinheiro, como às prestações de outra natureza, uma vez que lhes esteja fixado o valor pecuniário por sentença judicial, arbitramento, ou acordo entre as partes. CAPÍTULO V Da Cláusula Penal
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

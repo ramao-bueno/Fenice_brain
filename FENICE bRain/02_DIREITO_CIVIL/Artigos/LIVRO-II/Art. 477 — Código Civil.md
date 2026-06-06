@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 477 — Se, depois de concluído o contrato, sobrevier a uma das partes contratantes diminuição em seu patrimônio capaz de compro
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se, depois de concluído o contrato, sobrevier a uma das partes contratantes diminuição em seu patrimônio capaz de comprometer ou tornar duvidosa a prestação pela qual se obrigou, pode a outra recusar-se à prestação que lhe incumbe, até que aquela satisfaça a que lhe compete ou dê garantia bastante de satisfazê-la. Seção IV Da Resolução por Onerosidade Excessiva
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

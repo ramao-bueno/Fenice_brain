@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 76 — Têm domicílio necessário o incapaz, o servidor público, o militar, o marítimo e o preso
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Têm domicílio necessário o incapaz, o servidor público, o militar, o marítimo e o preso. Parágrafo único. O domicílio do incapaz é o do seu representante ou assistente; o do servidor público, o lugar em que exercer permanentemente suas funções; o do militar, onde servir, e, sendo da Marinha ou da Aeronáutica, a sede do comando a que se encontrar imediatamente subordinado; o do marítimo, onde o navio estiver matriculado; e o do preso, o lugar em que cumprir a sentença.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

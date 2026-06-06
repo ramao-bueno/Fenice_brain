@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1107 — [Artigo 1107 - Direito Civil]
+# CC Art. 1107 — Os sócios podem resolver, por maioria de votos, antes de ultimada a liquidação, mas depois de pagos os credores, que o l
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os sócios podem resolver, por maioria de votos, antes de ultimada a liquidação, mas depois de pagos os credores, que o liquidante faça rateios por antecipação da partilha, à medida em que se apurem os haveres sociais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

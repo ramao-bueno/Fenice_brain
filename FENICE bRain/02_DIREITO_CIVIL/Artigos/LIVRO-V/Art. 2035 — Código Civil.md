@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2035 — [Artigo 2035 - Direito Civil]
+# CC Art. 2035 — A validade dos negócios e demais atos jurídicos, constituídos antes da entrada em vigor deste Código, obedece ao dispost
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A validade dos negócios e demais atos jurídicos, constituídos antes da entrada em vigor deste Código, obedece ao disposto nas leis anteriores, referidas no art. 2.045, mas os seus efeitos, produzidos após a vigência deste Código, aos preceitos dele se subordinam, salvo se houver sido prevista pelas partes determinada forma de execução. Parágrafo único. Nenhuma convenção prevalecerá se contrariar preceitos de ordem pública, tais como os estabelecidos por este Código para assegurar a função social da propriedade e dos contratos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

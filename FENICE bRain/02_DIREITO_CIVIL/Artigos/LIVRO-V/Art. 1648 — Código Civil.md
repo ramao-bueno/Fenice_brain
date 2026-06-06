@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1648 — [Artigo 1648 - Direito Civil]
+# CC Art. 1648 — Cabe ao juiz, nos casos do artigo antecedente, suprir a outorga, quando um dos cônjuges a denegue sem motivo justo, ou l
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cabe ao juiz, nos casos do artigo antecedente, suprir a outorga, quando um dos cônjuges a denegue sem motivo justo, ou lhe seja impossível concedê-la.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

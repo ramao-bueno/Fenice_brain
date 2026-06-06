@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1070 — [Artigo 1070 - Direito Civil]
+# CC Art. 1070 — As atribuições e poderes conferidos pela lei ao conselho fiscal não podem ser outorgados a outro órgão da sociedade, e a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As atribuições e poderes conferidos pela lei ao conselho fiscal não podem ser outorgados a outro órgão da sociedade, e a responsabilidade de seus membros obedece à regra que define a dos administradores (art. 1.016). Parágrafo único. O conselho fiscal poderá escolher para assisti-lo no exame dos livros, dos balanços e das contas, contabilista legalmente habilitado, mediante remuneração aprovada pela assembléia dos sócios. Seção V Das Deliberações dos Sócios
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

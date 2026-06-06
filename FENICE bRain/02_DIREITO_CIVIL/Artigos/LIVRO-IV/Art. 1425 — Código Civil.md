@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1425 — [Artigo 1425 - Direito Civil]
+# CC Art. 1425 — A dívida considera-se vencida
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A dívida considera-se vencida: I - se, deteriorando-se, ou depreciando-se o bem dado em segurança, desfalcar a garantia, e o devedor, intimado, não a reforçar ou substituir; II - se o devedor cair em insolvência ou falir; III - se as prestações não forem pontualmente pagas, toda vez que deste modo se achar estipulado o pagamento. Neste caso, o recebimento posterior da prestação atrasada importa renúncia do credor ao seu direito de execução imediata; IV - se perecer o bem dado em garantia, e não for substituído; V - se se desapropriar o bem dado em garantia, hipótese na qual se depositará a parte do preço que for necessária para o pagamento integral do credor. § 1 o Nos casos de perecimento da coisa dada em garantia, esta se sub-rogará na indenização do seguro, ou no ressarcimento do dano, em benefício do credor, a quem assistirá sobre ela preferência até seu completo reembolso. § 2 o Nos casos dos incisos IV e V, só se vencerá a hipoteca antes do prazo estipulado, se o perecimento, ou a desapropriação recair sobre o bem dado em garantia, e esta não abranger outras; subsistindo, no caso contrário, a dívida reduzida, com a respectiva garantia sobre os demais bens, não desapropriados ou destruídos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

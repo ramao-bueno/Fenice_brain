@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 743 — [Artigo 743 - Direito Civil]
+# CC Art. 743 — A coisa, entregue ao transportador, deve estar caracterizada pela sua natureza, valor, peso e quantidade, e o mais que f
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A coisa, entregue ao transportador, deve estar caracterizada pela sua natureza, valor, peso e quantidade, e o mais que for necessário para que não se confunda com outras, devendo o destinatário ser indicado ao menos pelo nome e endereço.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

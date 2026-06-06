@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 633 — Ainda que o contrato fixe prazo à restituição, o depositário entregará o depósito logo que se lhe exija, salvo se tiver
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Ainda que o contrato fixe prazo à restituição, o depositário entregará o depósito logo que se lhe exija, salvo se tiver o direito de retenção a que se refere o art. 644, se o objeto for judicialmente embargado, se sobre ele pender execução, notificada ao depositário, ou se houver motivo razoável de suspeitar que a coisa foi dolosamente obtida.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

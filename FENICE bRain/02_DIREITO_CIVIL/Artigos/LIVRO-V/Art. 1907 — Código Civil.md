@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1907 — [Artigo 1907 - Direito Civil]
+# CC Art. 1907 — Se forem determinados os quinhões de uns e não os de outros herdeiros, distribuir-se-á por igual a estes últimos o que r
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se forem determinados os quinhões de uns e não os de outros herdeiros, distribuir-se-á por igual a estes últimos o que restar, depois de completas as porções hereditárias dos primeiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

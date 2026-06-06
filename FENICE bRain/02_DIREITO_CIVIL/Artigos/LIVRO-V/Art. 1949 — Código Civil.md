@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1949 — [Artigo 1949 - Direito Civil]
+# CC Art. 1949 — O substituto fica sujeito à condição ou encargo imposto ao substituído, quando não for diversa a intenção manifestada pe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O substituto fica sujeito à condição ou encargo imposto ao substituído, quando não for diversa a intenção manifestada pelo testador, ou não resultar outra coisa da natureza da condição ou do encargo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 860 — [Artigo 860 - Direito Civil]
+# CC Art. 860 — As obras premiadas, nos concursos de que trata o artigo antecedente, só ficarão pertencendo ao promitente, se assim for
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As obras premiadas, nos concursos de que trata o artigo antecedente, só ficarão pertencendo ao promitente, se assim for estipulado na publicação da promessa. CAPÍTULO II Da Gestão de Negócios
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

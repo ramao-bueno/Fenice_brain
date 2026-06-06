@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 892 — [Artigo 892 - Direito Civil]
+# CC Art. 892 — Aquele que, sem ter poderes, ou excedendo os que tem, lança a sua assinatura em título de crédito, como mandatário ou re
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que, sem ter poderes, ou excedendo os que tem, lança a sua assinatura em título de crédito, como mandatário ou representante de outrem, fica pessoalmente obrigado, e, pagando o título, tem ele os mesmos direitos que teria o suposto mandante ou representado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

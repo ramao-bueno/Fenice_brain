@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 598 — A prestação de serviço não se poderá convencionar por mais de quatro anos, embora o contrato tenha por causa o pagamento
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A prestação de serviço não se poderá convencionar por mais de quatro anos, embora o contrato tenha por causa o pagamento de dívida de quem o presta, ou se destine à execução de certa e determinada obra. Neste caso, decorridos quatro anos, dar-se-á por findo o contrato, ainda que não concluída a obra.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

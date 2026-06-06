@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1285 — [Artigo 1285 - Direito Civil]
+# CC Art. 1285 — O dono do prédio que não tiver acesso a via pública, nascente ou porto, pode, mediante pagamento de indenização cabal, c
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O dono do prédio que não tiver acesso a via pública, nascente ou porto, pode, mediante pagamento de indenização cabal, constranger o vizinho a lhe dar passagem, cujo rumo será judicialmente fixado, se necessário. § 1 o Sofrerá o constrangimento o vizinho cujo imóvel mais natural e facilmente se prestar à passagem. § 2 o Se ocorrer alienação parcial do prédio, de modo que uma das partes perca o acesso a via pública, nascente ou porto, o proprietário da outra deve tolerar a passagem. § 3 o Aplica-se o disposto no parágrafo antecedente ainda quando, antes da alienação, existia passagem através de imóvel vizinho, não estando o proprietário deste constrangido, depois, a dar uma outra. Seção IV Da Passagem de Cabos e Tubulações
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

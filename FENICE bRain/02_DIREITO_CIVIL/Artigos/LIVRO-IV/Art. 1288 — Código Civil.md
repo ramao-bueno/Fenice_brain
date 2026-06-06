@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1288 — [Artigo 1288 - Direito Civil]
+# CC Art. 1288 — O dono ou o possuidor do prédio inferior é obrigado a receber as águas que correm naturalmente do superior, não podendo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O dono ou o possuidor do prédio inferior é obrigado a receber as águas que correm naturalmente do superior, não podendo realizar obras que embaracem o seu fluxo; porém a condição natural e anterior do prédio inferior não pode ser agravada por obras feitas pelo dono ou possuidor do prédio superior.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

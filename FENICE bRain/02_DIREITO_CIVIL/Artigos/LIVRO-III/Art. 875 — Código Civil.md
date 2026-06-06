@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 875 — [Artigo 875 - Direito Civil]
+# CC Art. 875 — Se os negócios alheios forem conexos ao do gestor, de tal arte que se não possam gerir separadamente, haver-se-á o gesto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se os negócios alheios forem conexos ao do gestor, de tal arte que se não possam gerir separadamente, haver-se-á o gestor por sócio daquele cujos interesses agenciar de envolta com os seus. Parágrafo único. No caso deste artigo, aquele em cujo benefício interveio o gestor só é obrigado na razão das vantagens que lograr. CAPÍTULO III Do Pagamento Indevido
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

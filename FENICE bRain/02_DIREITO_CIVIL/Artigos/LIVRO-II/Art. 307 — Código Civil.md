@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 307 — Só terá eficácia o pagamento que importar transmissão da propriedade, quando feito por quem possa alienar o objeto em qu
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Só terá eficácia o pagamento que importar transmissão da propriedade, quando feito por quem possa alienar o objeto em que ele consistiu. Parágrafo único. Se se der em pagamento coisa fungível, não se poderá mais reclamar do credor que, de boa-fé, a recebeu e consumiu, ainda que o solvente não tivesse o direito de aliená-la. Seção II Daqueles a Quem se Deve Pagar
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

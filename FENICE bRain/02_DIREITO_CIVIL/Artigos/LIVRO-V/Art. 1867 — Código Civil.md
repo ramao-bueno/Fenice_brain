@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1867 — [Artigo 1867 - Direito Civil]
+# CC Art. 1867 — Ao cego só se permite o testamento público, que lhe será lido, em voz alta, duas vezes, uma pelo tabelião ou por seu sub
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ao cego só se permite o testamento público, que lhe será lido, em voz alta, duas vezes, uma pelo tabelião ou por seu substituto legal, e a outra por uma das testemunhas, designada pelo testador, fazendo-se de tudo circunstanciada menção no testamento. Seção III Do Testamento Cerrado
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1639 — [Artigo 1639 - Direito Civil]
+# CC Art. 1639 — É lícito aos nubentes, antes de celebrado o casamento, estipular, quanto aos seus bens, o que lhes aprouver
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É lícito aos nubentes, antes de celebrado o casamento, estipular, quanto aos seus bens, o que lhes aprouver. § 1 o O regime de bens entre os cônjuges começa a vigorar desde a data do casamento. § 2 o É admissível alteração do regime de bens, mediante autorização judicial em pedido motivado de ambos os cônjuges, apurada a procedência das razões invocadas e ressalvados os direitos de terceiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

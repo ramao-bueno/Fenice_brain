@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 501 — Decai do direito de propor as ações previstas no artigo antecedente o vendedor ou o comprador que não o fizer no prazo d
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Decai do direito de propor as ações previstas no artigo antecedente o vendedor ou o comprador que não o fizer no prazo de um ano, a contar do registro do título. Parágrafo único. Se houver atraso na imissão de posse no imóvel, atribuível ao alienante, a partir dela fluirá o prazo de decadência.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

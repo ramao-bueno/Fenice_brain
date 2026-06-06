@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1811 — [Artigo 1811 - Direito Civil]
+# CC Art. 1811 — Ninguém pode suceder, representando herdeiro renunciante
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ninguém pode suceder, representando herdeiro renunciante. Se, porém, ele for o único legítimo da sua classe, ou se todos os outros da mesma classe renunciarem a herança, poderão os filhos vir à sucessão, por direito próprio, e por cabeça.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

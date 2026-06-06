@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1795 — [Artigo 1795 - Direito Civil]
+# CC Art. 1795 — O co-herdeiro, a quem não se der conhecimento da cessão, poderá, depositado o preço, haver para si a quota cedida a estr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O co-herdeiro, a quem não se der conhecimento da cessão, poderá, depositado o preço, haver para si a quota cedida a estranho, se o requerer até cento e oitenta dias após a transmissão. Parágrafo único. Sendo vários os co-herdeiros a exercer a preferência, entre eles se distribuirá o quinhão cedido, na proporção das respectivas quotas hereditárias.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

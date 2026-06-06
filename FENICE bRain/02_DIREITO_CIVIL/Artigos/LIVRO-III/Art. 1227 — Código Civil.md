@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1227 — [Artigo 1227 - Direito Civil]
+# CC Art. 1227 — Os direitos reais sobre imóveis constituídos, ou transmitidos por atos entre vivos, só se adquirem com o registro no Car
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os direitos reais sobre imóveis constituídos, ou transmitidos por atos entre vivos, só se adquirem com o registro no Cartório de Registro de Imóveis dos referidos títulos (arts. 1.245 a 1.247), salvo os casos expressos neste Código. TÍTULO III Da Propriedade CAPÍTULO I Da Propriedade em Geral Seção I Disposições Preliminares
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

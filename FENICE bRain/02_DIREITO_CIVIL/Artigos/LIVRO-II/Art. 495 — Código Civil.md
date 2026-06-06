@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 495 — Não obstante o prazo ajustado para o pagamento, se antes da tradição o comprador cair em insolvência, poderá o vendedor
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não obstante o prazo ajustado para o pagamento, se antes da tradição o comprador cair em insolvência, poderá o vendedor sobrestar na entrega da coisa, até que o comprador lhe dê caução de pagar no tempo ajustado.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

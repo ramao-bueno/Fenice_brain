@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 623 — Mesmo após iniciada a construção, pode o dono da obra suspendê-la, desde que pague ao empreiteiro as despesas e lucros r
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Mesmo após iniciada a construção, pode o dono da obra suspendê-la, desde que pague ao empreiteiro as despesas e lucros relativos aos serviços já feitos, mais indenização razoável, calculada em função do que ele teria ganho, se concluída a obra.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

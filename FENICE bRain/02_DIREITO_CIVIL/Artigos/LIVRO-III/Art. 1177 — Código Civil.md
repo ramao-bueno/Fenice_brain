@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1177 — [Artigo 1177 - Direito Civil]
+# CC Art. 1177 — Os assentos lançados nos livros ou fichas do preponente, por qualquer dos prepostos encarregados de sua escrituração, pr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os assentos lançados nos livros ou fichas do preponente, por qualquer dos prepostos encarregados de sua escrituração, produzem, salvo se houver procedido de má-fé, os mesmos efeitos como se o fossem por aquele. Parágrafo único. No exercício de suas funções, os prepostos são pessoalmente responsáveis, perante os preponentes, pelos atos culposos; e, perante terceiros, solidariamente com o preponente, pelos atos dolosos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

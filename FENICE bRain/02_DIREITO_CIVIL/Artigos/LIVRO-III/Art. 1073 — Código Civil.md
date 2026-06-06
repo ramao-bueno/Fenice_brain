@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1073 — [Artigo 1073 - Direito Civil]
+# CC Art. 1073 — A reunião ou a assembléia podem também ser convocadas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A reunião ou a assembléia podem também ser convocadas: I - por sócio, quando os administradores retardarem a convocação, por mais de sessenta dias, nos casos previstos em lei ou no contrato, ou por titulares de mais de um quinto do capital, quando não atendido, no prazo de oito dias, pedido de convocação fundamentado, com indicação das matérias a serem tratadas; II - pelo conselho fiscal, se houver, nos casos a que se refere o inciso V do art. 1.069.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

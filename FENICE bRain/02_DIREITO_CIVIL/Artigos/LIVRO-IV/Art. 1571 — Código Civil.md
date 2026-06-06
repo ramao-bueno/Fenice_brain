@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1571 — [Artigo 1571 - Direito Civil]
+# CC Art. 1571 — A sociedade conjugal termina
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade conjugal termina: I - pela morte de um dos cônjuges; II - pela nulidade ou anulação do casamento; III - pela separação judicial; IV - pelo divórcio. § 1 o O casamento válido só se dissolve pela morte de um dos cônjuges ou pelo divórcio, aplicando-se a presunção estabelecida neste Código quanto ao ausente. § 2 o Dissolvido o casamento pelo divórcio direto ou por conversão, o cônjuge poderá manter o nome de casado; salvo, no segundo caso, dispondo em contrário a sentença de separação judicial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

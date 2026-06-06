@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 165 — Anulados os negócios fraudulentos, a vantagem resultante reverterá em proveito do acervo sobre que se tenha de efetuar o
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Anulados os negócios fraudulentos, a vantagem resultante reverterá em proveito do acervo sobre que se tenha de efetuar o concurso de credores. Parágrafo único. Se esses negócios tinham por único objeto atribuir direitos preferenciais, mediante hipoteca, penhor ou anticrese, sua invalidade importará somente na anulação da preferência ajustada. CAPÍTULO V Da Invalidade do Negócio Jurídico
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

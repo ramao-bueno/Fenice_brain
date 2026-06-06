@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1056 — [Artigo 1056 - Direito Civil]
+# CC Art. 1056 — A quota é indivisível em relação à sociedade, salvo para efeito de transferência, caso em que se observará o disposto no
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A quota é indivisível em relação à sociedade, salvo para efeito de transferência, caso em que se observará o disposto no artigo seguinte. § 1º No caso de condomínio de quota, os direitos a ela inerentes somente podem ser exercidos pelo condômino representante, ou pelo inventariante do espólio de sócio falecido. § 2º Sem prejuízo do disposto no art. 1.052, os condôminos de quota indivisa respondem solidariamente pelas prestações necessárias à sua integralização.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

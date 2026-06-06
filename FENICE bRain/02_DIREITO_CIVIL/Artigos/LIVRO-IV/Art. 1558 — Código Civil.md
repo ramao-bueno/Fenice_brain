@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1558 — [Artigo 1558 - Direito Civil]
+# CC Art. 1558 — É anulável o casamento em virtude de coação, quando o consentimento de um ou de ambos os cônjuges houver sido captado me
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É anulável o casamento em virtude de coação, quando o consentimento de um ou de ambos os cônjuges houver sido captado mediante fundado temor de mal considerável e iminente para a vida, a saúde e a honra, sua ou de seus familiares.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1367 — [Artigo 1367 - Direito Civil]
+# CC Art. 1367 — A propriedade fiduciária em garantia de bens móveis ou imóveis sujeita-se às disposições do Capítulo I do Título X do Li
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A propriedade fiduciária em garantia de bens móveis ou imóveis sujeita-se às disposições do Capítulo I do Título X do Livro III da Parte Especial deste Código e, no que for específico, à legislação especial pertinente, não se equiparando, para quaisquer efeitos, à propriedade plena de que trata o art. 1.231. (Redação dada pela Lei nº 13.043, de 2014)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

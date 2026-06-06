@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1325 — [Artigo 1325 - Direito Civil]
+# CC Art. 1325 — A maioria será calculada pelo valor dos quinhões
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A maioria será calculada pelo valor dos quinhões. § 1 o As deliberações serão obrigatórias, sendo tomadas por maioria absoluta. § 2 o Não sendo possível alcançar maioria absoluta, decidirá o juiz, a requerimento de qualquer condômino, ouvidos os outros. § 3 o Havendo dúvida quanto ao valor do quinhão, será este avaliado judicialmente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

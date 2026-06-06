@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1339 — [Artigo 1339 - Direito Civil]
+# CC Art. 1339 — Os direitos de cada condômino às partes comuns são inseparáveis de sua propriedade exclusiva;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os direitos de cada condômino às partes comuns são inseparáveis de sua propriedade exclusiva; são também inseparáveis das frações ideais correspondentes as unidades imobiliárias, com as suas partes acessórias. § 1 o Nos casos deste artigo é proibido alienar ou gravar os bens em separado. § 2 o É permitido ao condômino alienar parte acessória de sua unidade imobiliária a outro condômino, só podendo fazê-lo a terceiro se essa faculdade constar do ato constitutivo do condomínio, e se a ela não se opuser a respectiva assembléia geral.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

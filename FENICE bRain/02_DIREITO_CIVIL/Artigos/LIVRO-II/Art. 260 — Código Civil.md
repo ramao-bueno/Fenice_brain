@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 260 — Se a pluralidade for dos credores, poderá cada um destes exigir a dívida inteira;
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a pluralidade for dos credores, poderá cada um destes exigir a dívida inteira; mas o devedor ou devedores se desobrigarão, pagando: I - a todos conjuntamente; II - a um, dando este caução de ratificação dos outros credores.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

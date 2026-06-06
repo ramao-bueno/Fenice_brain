@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1427 — [Artigo 1427 - Direito Civil]
+# CC Art. 1427 — Salvo cláusula expressa, o terceiro que presta garantia real por dívida alheia não fica obrigado a substituí-la, ou refo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo cláusula expressa, o terceiro que presta garantia real por dívida alheia não fica obrigado a substituí-la, ou reforçá-la, quando, sem culpa sua, se perca, deteriore, ou desvalorize.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

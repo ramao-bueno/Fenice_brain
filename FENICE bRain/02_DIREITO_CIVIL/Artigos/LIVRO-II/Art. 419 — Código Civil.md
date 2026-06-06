@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 419 — A parte inocente pode pedir indenização suplementar, se provar maior prejuízo, valendo as arras como taxa mínima
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A parte inocente pode pedir indenização suplementar, se provar maior prejuízo, valendo as arras como taxa mínima. Pode, também, a parte inocente exigir a execução do contrato, com as perdas e danos, valendo as arras como o mínimo da indenização.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

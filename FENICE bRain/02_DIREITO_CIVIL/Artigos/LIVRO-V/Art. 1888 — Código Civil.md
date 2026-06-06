@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1888 — [Artigo 1888 - Direito Civil]
+# CC Art. 1888 — Quem estiver em viagem, a bordo de navio nacional, de guerra ou mercante, pode testar perante o comandante, em presença
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quem estiver em viagem, a bordo de navio nacional, de guerra ou mercante, pode testar perante o comandante, em presença de duas testemunhas, por forma que corresponda ao testamento público ou ao cerrado. Parágrafo único. O registro do testamento será feito no diário de bordo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

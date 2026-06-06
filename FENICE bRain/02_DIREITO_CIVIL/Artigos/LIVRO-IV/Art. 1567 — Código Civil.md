@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1567 — [Artigo 1567 - Direito Civil]
+# CC Art. 1567 — A direção da sociedade conjugal será exercida, em colaboração, pelo marido e pela mulher, sempre no interesse do casal e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A direção da sociedade conjugal será exercida, em colaboração, pelo marido e pela mulher, sempre no interesse do casal e dos filhos. Parágrafo único. Havendo divergência, qualquer dos cônjuges poderá recorrer ao juiz, que decidirá tendo em consideração aqueles interesses.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

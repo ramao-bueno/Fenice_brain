@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1083 — [Artigo 1083 - Direito Civil]
+# CC Art. 1083 — No caso do inciso I do artigo antecedente, a redução do capital será realizada com a diminuição proporcional do valor no
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso do inciso I do artigo antecedente, a redução do capital será realizada com a diminuição proporcional do valor nominal das quotas, tornando-se efetiva a partir da averbação, no Registro Público de Empresas Mercantis, da ata da assembléia que a tenha aprovado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

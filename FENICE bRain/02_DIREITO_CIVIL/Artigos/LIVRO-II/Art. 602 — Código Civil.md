@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 602 — O prestador de serviço contratado por tempo certo, ou por obra determinada, não se pode ausentar, ou despedir, sem justa
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O prestador de serviço contratado por tempo certo, ou por obra determinada, não se pode ausentar, ou despedir, sem justa causa, antes de preenchido o tempo, ou concluída a obra. Parágrafo único. Se se despedir sem justa causa, terá direito à retribuição vencida, mas responderá por perdas e danos. O mesmo dar-se-á, se despedido por justa causa.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

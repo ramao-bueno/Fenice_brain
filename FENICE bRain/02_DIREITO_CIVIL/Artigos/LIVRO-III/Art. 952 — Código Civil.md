@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 952 — [Artigo 952 - Direito Civil]
+# CC Art. 952 — Havendo usurpação ou esbulho do alheio, além da restituição da coisa, a indenização consistirá em pagar o valor das suas
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo usurpação ou esbulho do alheio, além da restituição da coisa, a indenização consistirá em pagar o valor das suas deteriorações e o devido a título de lucros cessantes; faltando a coisa, dever-se-á reembolsar o seu equivalente ao prejudicado. Parágrafo único. Para se restituir o equivalente, quando não exista a própria coisa, estimar-se-á ela pelo seu preço ordinário e pelo de afeição, contanto que este não se avantaje àquele.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

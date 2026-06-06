@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2038 — [Artigo 2038 - Direito Civil]
+# CC Art. 2038 — Fica proibida a constituição de enfiteuses e subenfiteuses, subordinando-se as existentes, até sua extinção, às disposiç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Fica proibida a constituição de enfiteuses e subenfiteuses, subordinando-se as existentes, até sua extinção, às disposições do Código Civil anterior, Lei n o 3.071, de 1 o de janeiro de 1916 , e leis posteriores. § 1 o Nos aforamentos a que se refere este artigo é defeso: I - cobrar laudêmio ou prestação análoga nas transmissões de bem aforado, sobre o valor das construções ou plantações; II - constituir subenfiteuse. § 2 o A enfiteuse dos terrenos de marinha e acrescidos regula-se por lei especial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

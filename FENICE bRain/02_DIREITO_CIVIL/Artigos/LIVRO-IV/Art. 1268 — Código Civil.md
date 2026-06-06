@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1268 — [Artigo 1268 - Direito Civil]
+# CC Art. 1268 — Feita por quem não seja proprietário, a tradição não aliena a propriedade, exceto se a coisa, oferecida ao público, em l
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Feita por quem não seja proprietário, a tradição não aliena a propriedade, exceto se a coisa, oferecida ao público, em leilão ou estabelecimento comercial, for transferida em circunstâncias tais que, ao adquirente de boa-fé, como a qualquer pessoa, o alienante se afigurar dono. § 1 o Se o adquirente estiver de boa-fé e o alienante adquirir depois a propriedade, considera-se realizada a transferência desde o momento em que ocorreu a tradição. § 2 o Não transfere a propriedade a tradição, quando tiver por título um negócio jurídico nulo. Seção V Da Especificação
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

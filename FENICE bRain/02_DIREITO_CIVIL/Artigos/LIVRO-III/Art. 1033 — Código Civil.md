@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1033 — [Artigo 1033 - Direito Civil]
+# CC Art. 1033 — Dissolve-se a sociedade quando ocorrer
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dissolve-se a sociedade quando ocorrer: I - o vencimento do prazo de duração, salvo se, vencido este e sem oposição de sócio, não entrar a sociedade em liquidação, caso em que se prorrogará por tempo indeterminado; II - o consenso unânime dos sócios; III - a deliberação dos sócios, por maioria absoluta, na sociedade de prazo indeterminado; IV - (Revogado pela Lei nº 14.195, de 2021) V - a extinção, na forma da lei, de autorização para funcionar. Parágrafo único. (Revogado pela Lei nº 14.195, de 2021)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

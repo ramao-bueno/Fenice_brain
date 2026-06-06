@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 829 — [Artigo 829 - Direito Civil]
+# CC Art. 829 — A fiança conjuntamente prestada a um só débito por mais de uma pessoa importa o compromisso de solidariedade entre elas,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A fiança conjuntamente prestada a um só débito por mais de uma pessoa importa o compromisso de solidariedade entre elas, se declaradamente não se reservarem o benefício de divisão. Parágrafo único. Estipulado este benefício, cada fiador responde unicamente pela parte que, em proporção, lhe couber no pagamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

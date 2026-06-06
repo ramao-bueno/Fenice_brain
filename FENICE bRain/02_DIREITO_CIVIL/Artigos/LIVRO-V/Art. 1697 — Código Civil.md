@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1697 — [Artigo 1697 - Direito Civil]
+# CC Art. 1697 — Na falta dos ascendentes cabe a obrigação aos descendentes, guardada a ordem de sucessão e, faltando estes, aos irmãos,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na falta dos ascendentes cabe a obrigação aos descendentes, guardada a ordem de sucessão e, faltando estes, aos irmãos, assim germanos como unilaterais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

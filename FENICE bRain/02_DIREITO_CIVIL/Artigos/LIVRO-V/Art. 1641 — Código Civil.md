@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1641 — [Artigo 1641 - Direito Civil]
+# CC Art. 1641 — É obrigatório o regime da separação de bens no casamento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É obrigatório o regime da separação de bens no casamento: I - das pessoas que o contraírem com inobservância das causas suspensivas da celebração do casamento; II – da pessoa maior de 70 (setenta) anos; (Redação dada pela Lei nº 12.344, de 2010) III - de todos os que dependerem, para casar, de suprimento judicial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

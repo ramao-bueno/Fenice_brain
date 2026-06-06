@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1015 — [Artigo 1015 - Direito Civil]
+# CC Art. 1015 — No silêncio do contrato, os administradores podem praticar todos os atos pertinentes à gestão da sociedade;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No silêncio do contrato, os administradores podem praticar todos os atos pertinentes à gestão da sociedade; não constituindo objeto social, a oneração ou a venda de bens imóveis depende do que a maioria dos sócios decidir. Parágrafo único. (Revogado pela Lei nº 14.195, de 2021)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

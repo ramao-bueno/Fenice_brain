@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1952 — [Artigo 1952 - Direito Civil]
+# CC Art. 1952 — A substituição fideicomissária somente se permite em favor dos não concebidos ao tempo da morte do testador
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A substituição fideicomissária somente se permite em favor dos não concebidos ao tempo da morte do testador. Parágrafo único. Se, ao tempo da morte do testador, já houver nascido o fideicomissário, adquirirá este a propriedade dos bens fideicometidos, convertendo-se em usufruto o direito do fiduciário.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,12 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-- inciso-iii
-- inciso-iv
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 335 — A consignação tem lugar
@@ -25,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A consignação tem lugar: I - se o credor não puder, ou, sem justa causa, recusar receber o pagamento, ou dar quitação na devida forma; II - se o credor não for, nem mandar receber a coisa no lugar, tempo e condição devidos; III - se o credor for incapaz de receber, for desconhecido, declarado ausente, ou residir em lugar incerto ou de acesso perigoso ou difícil; IV - se ocorrer dúvida sobre quem deva legitimamente receber o objeto do pagamento; V - se pender litígio sobre o objeto do pagamento.
 
@@ -59,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

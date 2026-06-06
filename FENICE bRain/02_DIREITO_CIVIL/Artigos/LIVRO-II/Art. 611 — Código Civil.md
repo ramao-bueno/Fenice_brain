@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 611 — Quando o empreiteiro fornece os materiais, correm por sua conta os riscos até o momento da entrega da obra, a contento d
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Quando o empreiteiro fornece os materiais, correm por sua conta os riscos até o momento da entrega da obra, a contento de quem a encomendou, se este não estiver em mora de receber. Mas se estiver, por sua conta correrão os riscos.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1799 — [Artigo 1799 - Direito Civil]
+# CC Art. 1799 — Na sucessão testamentária podem ainda ser chamados a suceder
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na sucessão testamentária podem ainda ser chamados a suceder: I - os filhos, ainda não concebidos, de pessoas indicadas pelo testador, desde que vivas estas ao abrir-se a sucessão; II - as pessoas jurídicas; III - as pessoas jurídicas, cuja organização for determinada pelo testador sob a forma de fundação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

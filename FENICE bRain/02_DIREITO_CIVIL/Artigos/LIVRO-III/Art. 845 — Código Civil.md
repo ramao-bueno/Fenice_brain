@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 845 — [Artigo 845 - Direito Civil]
+# CC Art. 845 — Dada a evicção da coisa renunciada por um dos transigentes, ou por ele transferida à outra parte, não revive a obrigação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dada a evicção da coisa renunciada por um dos transigentes, ou por ele transferida à outra parte, não revive a obrigação extinta pela transação; mas ao evicto cabe o direito de reclamar perdas e danos. Parágrafo único. Se um dos transigentes adquirir, depois da transação, novo direito sobre a coisa renunciada ou transferida, a transação feita não o inibirá de exercê-lo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

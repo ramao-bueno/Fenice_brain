@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1447 — [Artigo 1447 - Direito Civil]
+# CC Art. 1447 — Podem ser objeto de penhor máquinas, aparelhos, materiais, instrumentos, instalados e em funcionamento, com os acessório
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Podem ser objeto de penhor máquinas, aparelhos, materiais, instrumentos, instalados e em funcionamento, com os acessórios ou sem eles; animais, utilizados na indústria; sal e bens destinados à exploração das salinas; produtos de suinocultura, animais destinados à industrialização de carnes e derivados; matérias-primas e produtos industrializados. Parágrafo único. Regula-se pelas disposições relativas aos armazéns gerais o penhor das mercadorias neles depositadas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

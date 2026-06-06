@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1616 — [Artigo 1616 - Direito Civil]
+# CC Art. 1616 — A sentença que julgar procedente a ação de investigação produzirá os mesmos efeitos do reconhecimento;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sentença que julgar procedente a ação de investigação produzirá os mesmos efeitos do reconhecimento; mas poderá ordenar que o filho se crie e eduque fora da companhia dos pais ou daquele que lhe contestou essa qualidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1443 — [Artigo 1443 - Direito Civil]
+# CC Art. 1443 — O penhor agrícola que recai sobre colheita pendente, ou em via de formação, abrange a imediatamente seguinte, no caso de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O penhor agrícola que recai sobre colheita pendente, ou em via de formação, abrange a imediatamente seguinte, no caso de frustrar-se ou ser insuficiente a que se deu em garantia. Parágrafo único. Se o credor não financiar a nova safra, poderá o devedor constituir com outrem novo penhor, em quantia máxima equivalente à do primeiro; o segundo penhor terá preferência sobre o primeiro, abrangendo este apenas o excesso apurado na colheita seguinte. Subseção III Do Penhor Pecuário
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 754 — [Artigo 754 - Direito Civil]
+# CC Art. 754 — As mercadorias devem ser entregues ao destinatário, ou a quem apresentar o conhecimento endossado, devendo aquele que as
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As mercadorias devem ser entregues ao destinatário, ou a quem apresentar o conhecimento endossado, devendo aquele que as receber conferi-las e apresentar as reclamações que tiver, sob pena de decadência dos direitos. Parágrafo único. No caso de perda parcial ou de avaria não perceptível à primeira vista, o destinatário conserva a sua ação contra o transportador, desde que denuncie o dano em dez dias a contar da entrega.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

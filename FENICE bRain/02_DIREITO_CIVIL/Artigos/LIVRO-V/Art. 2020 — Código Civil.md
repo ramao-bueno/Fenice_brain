@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2020 — [Artigo 2020 - Direito Civil]
+# CC Art. 2020 — Os herdeiros em posse dos bens da herança, o cônjuge sobrevivente e o inventariante são obrigados a trazer ao acervo os
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os herdeiros em posse dos bens da herança, o cônjuge sobrevivente e o inventariante são obrigados a trazer ao acervo os frutos que perceberam, desde a abertura da sucessão; têm direito ao reembolso das despesas necessárias e úteis que fizeram, e respondem pelo dano a que, por dolo ou culpa, deram causa.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

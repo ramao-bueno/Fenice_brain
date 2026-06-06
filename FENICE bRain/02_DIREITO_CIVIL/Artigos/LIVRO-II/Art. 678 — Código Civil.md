@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 678 — É igualmente obrigado o mandante a ressarcir ao mandatário as perdas que este sofrer com a execução do mandato, sempre q
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > É igualmente obrigado o mandante a ressarcir ao mandatário as perdas que este sofrer com a execução do mandato, sempre que não resultem de culpa sua ou de excesso de poderes.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

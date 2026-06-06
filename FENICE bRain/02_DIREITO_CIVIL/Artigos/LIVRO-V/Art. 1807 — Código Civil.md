@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1807 — [Artigo 1807 - Direito Civil]
+# CC Art. 1807 — O interessado em que o herdeiro declare se aceita, ou não, a herança, poderá, vinte dias após aberta a sucessão, requere
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O interessado em que o herdeiro declare se aceita, ou não, a herança, poderá, vinte dias após aberta a sucessão, requerer ao juiz prazo razoável, não maior de trinta dias, para, nele, se pronunciar o herdeiro, sob pena de se haver a herança por aceita.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

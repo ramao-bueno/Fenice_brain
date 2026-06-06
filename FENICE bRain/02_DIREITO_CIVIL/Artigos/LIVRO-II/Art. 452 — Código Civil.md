@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 452 — Se o adquirente tiver auferido vantagens das deteriorações, e não tiver sido condenado a indenizá-las, o valor das vanta
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o adquirente tiver auferido vantagens das deteriorações, e não tiver sido condenado a indenizá-las, o valor das vantagens será deduzido da quantia que lhe houver de dar o alienante.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

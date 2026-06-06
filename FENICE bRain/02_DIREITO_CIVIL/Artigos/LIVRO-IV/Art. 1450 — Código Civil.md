@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1450 — [Artigo 1450 - Direito Civil]
+# CC Art. 1450 — Tem o credor direito a verificar o estado das coisas empenhadas, inspecionando-as onde se acharem, por si ou por pessoa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Tem o credor direito a verificar o estado das coisas empenhadas, inspecionando-as onde se acharem, por si ou por pessoa que credenciar. Seção VII Do Penhor de Direitos e Títulos de Crédito
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

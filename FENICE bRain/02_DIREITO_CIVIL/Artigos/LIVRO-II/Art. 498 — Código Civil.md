@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 498 — A proibição contida no inciso III do artigo antecedente, não compreende os casos de compra e venda ou cessão entre co-he
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A proibição contida no inciso III do artigo antecedente, não compreende os casos de compra e venda ou cessão entre co-herdeiros, ou em pagamento de dívida, ou para garantia de bens já pertencentes a pessoas designadas no referido inciso.
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

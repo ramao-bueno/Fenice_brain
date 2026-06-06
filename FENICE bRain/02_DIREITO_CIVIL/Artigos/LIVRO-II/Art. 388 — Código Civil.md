@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 388 — A remissão concedida a um dos co-devedores extingue a dívida na parte a ele correspondente;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A remissão concedida a um dos co-devedores extingue a dívida na parte a ele correspondente; de modo que, ainda reservando o credor a solidariedade contra os outros, já lhes não pode cobrar o débito sem dedução da parte remitida. TÍTULO IV Do Inadimplemento das Obrigações CAPÍTULO I Disposições Gerais
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

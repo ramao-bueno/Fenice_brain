@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1335 — [Artigo 1335 - Direito Civil]
+# CC Art. 1335 — São direitos do condômino
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São direitos do condômino: I - usar, fruir e livremente dispor das suas unidades; II - usar das partes comuns, conforme a sua destinação, e contanto que não exclua a utilização dos demais compossuidores; III - votar nas deliberações da assembléia e delas participar, estando quite.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

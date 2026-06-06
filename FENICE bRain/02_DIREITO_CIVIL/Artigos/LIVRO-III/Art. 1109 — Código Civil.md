@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1109 — [Artigo 1109 - Direito Civil]
+# CC Art. 1109 — Aprovadas as contas, encerra-se a liquidação, e a sociedade se extingue, ao ser averbada no registro próprio a ata da as
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aprovadas as contas, encerra-se a liquidação, e a sociedade se extingue, ao ser averbada no registro próprio a ata da assembléia. Parágrafo único. O dissidente tem o prazo de trinta dias, a contar da publicação da ata, devidamente averbada, para promover a ação que couber.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

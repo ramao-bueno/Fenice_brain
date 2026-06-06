@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1749 — [Artigo 1749 - Direito Civil]
+# CC Art. 1749 — Ainda com a autorização judicial, não pode o tutor, sob pena de nulidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ainda com a autorização judicial, não pode o tutor, sob pena de nulidade: I - adquirir por si, ou por interposta pessoa, mediante contrato particular, bens móveis ou imóveis pertencentes ao menor; II - dispor dos bens do menor a título gratuito; III - constituir-se cessionário de crédito ou de direito, contra o menor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

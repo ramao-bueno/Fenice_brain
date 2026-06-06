@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 255 — Quando a escolha couber ao credor e uma das prestações tornar-se impossível por culpa do devedor, o credor terá direito
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Quando a escolha couber ao credor e uma das prestações tornar-se impossível por culpa do devedor, o credor terá direito de exigir a prestação subsistente ou o valor da outra, com perdas e danos; se, por culpa do devedor, ambas as prestações se tornarem inexeqüíveis, poderá o credor reclamar o valor de qualquer das duas, além da indenização por perdas e danos.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

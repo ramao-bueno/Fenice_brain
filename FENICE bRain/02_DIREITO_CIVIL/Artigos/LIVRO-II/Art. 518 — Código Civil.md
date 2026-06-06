@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 518 — Responderá por perdas e danos o comprador, se alienar a coisa sem ter dado ao vendedor ciência do preço e das vantagens
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Responderá por perdas e danos o comprador, se alienar a coisa sem ter dado ao vendedor ciência do preço e das vantagens que por ela lhe oferecem. Responderá solidariamente o adquirente, se tiver procedido de má-fé.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

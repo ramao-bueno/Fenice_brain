@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1233 — [Artigo 1233 - Direito Civil]
+# CC Art. 1233 — Quem quer que ache coisa alheia perdida há de restituí-la ao dono ou legítimo possuidor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quem quer que ache coisa alheia perdida há de restituí-la ao dono ou legítimo possuidor. Parágrafo único. Não o conhecendo, o descobridor fará por encontrá-lo, e, se não o encontrar, entregará a coisa achada à autoridade competente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 213 — Não tem eficácia a confissão se provém de quem não é capaz de dispor do direito a que se referem os fatos confessados
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não tem eficácia a confissão se provém de quem não é capaz de dispor do direito a que se referem os fatos confessados. Parágrafo único. Se feita a confissão por um representante, somente é eficaz nos limites em que este pode vincular o representado.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

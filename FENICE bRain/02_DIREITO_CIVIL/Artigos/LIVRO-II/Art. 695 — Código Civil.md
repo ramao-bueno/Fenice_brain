@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 695 — O comissário é obrigado a agir de conformidade com as ordens e instruções do comitente, devendo, na falta destas, não po
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O comissário é obrigado a agir de conformidade com as ordens e instruções do comitente, devendo, na falta destas, não podendo pedi-las a tempo, proceder segundo os usos em casos semelhantes. Parágrafo único. Ter-se-ão por justificados os atos do comissário, se deles houver resultado vantagem para o comitente, e ainda no caso em que, não admitindo demora a realização do negócio, o comissário agiu de acordo com os usos.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

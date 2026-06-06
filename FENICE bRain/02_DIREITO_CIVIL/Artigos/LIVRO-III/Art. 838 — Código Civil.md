@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 838 — [Artigo 838 - Direito Civil]
+# CC Art. 838 — O fiador, ainda que solidário, ficará desobrigado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O fiador, ainda que solidário, ficará desobrigado: I - se, sem consentimento seu, o credor conceder moratória ao devedor; II - se, por fato do credor, for impossível a sub-rogação nos seus direitos e preferências; III - se o credor, em pagamento da dívida, aceitar amigavelmente do devedor objeto diverso do que este era obrigado a lhe dar, ainda que depois venha a perdê-lo por evicção.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

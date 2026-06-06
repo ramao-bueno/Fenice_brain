@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1635 — [Artigo 1635 - Direito Civil]
+# CC Art. 1635 — Extingue-se o poder familiar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extingue-se o poder familiar: I - pela morte dos pais ou do filho; II - pela emancipação, nos termos do art. 5 o , parágrafo único; III - pela maioridade; IV - pela adoção; V - por decisão judicial, na forma do artigo 1.638. Art 1.636. O pai ou a mãe que contrai novas núpcias, ou estabelece união estável, não perde, quanto aos filhos do relacionamento anterior, os direitos ao poder familiar, exercendo-os sem qualquer interferência do novo cônjuge ou companheiro. Parágrafo único. Igual preceito ao estabelecido neste artigo aplica-se ao pai ou à mãe solteiros que casarem ou estabelecerem união estável.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

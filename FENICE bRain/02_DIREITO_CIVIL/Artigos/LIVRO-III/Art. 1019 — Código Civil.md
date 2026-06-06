@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1019 — [Artigo 1019 - Direito Civil]
+# CC Art. 1019 — São irrevogáveis os poderes do sócio investido na administração por cláusula expressa do contrato social, salvo justa ca
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São irrevogáveis os poderes do sócio investido na administração por cláusula expressa do contrato social, salvo justa causa, reconhecida judicialmente, a pedido de qualquer dos sócios. Parágrafo único. São revogáveis, a qualquer tempo, os poderes conferidos a sócio por ato separado, ou a quem não seja sócio.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

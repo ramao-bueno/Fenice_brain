@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1311 — [Artigo 1311 - Direito Civil]
+# CC Art. 1311 — Não é permitida a execução de qualquer obra ou serviço suscetível de provocar desmoronamento ou deslocação de terra, ou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não é permitida a execução de qualquer obra ou serviço suscetível de provocar desmoronamento ou deslocação de terra, ou que comprometa a segurança do prédio vizinho, senão após haverem sido feitas as obras acautelatórias. Parágrafo único. O proprietário do prédio vizinho tem direito a ressarcimento pelos prejuízos que sofrer, não obstante haverem sido realizadas as obras acautelatórias.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

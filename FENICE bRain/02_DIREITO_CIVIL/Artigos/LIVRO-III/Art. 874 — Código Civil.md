@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 874 — [Artigo 874 - Direito Civil]
+# CC Art. 874 — Se o dono do negócio, ou da coisa, desaprovar a gestão, considerando-a contrária aos seus interesses, vigorará o dispost
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o dono do negócio, ou da coisa, desaprovar a gestão, considerando-a contrária aos seus interesses, vigorará o disposto nos arts. 862 e 863, salvo o estabelecido nos arts. 869 e 870.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

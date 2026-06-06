@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1815 — [Artigo 1815 - Direito Civil]
+# CC Art. 1815 — A exclusão do herdeiro ou legatário, em qualquer desses casos de indignidade, será declarada por sentença
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A exclusão do herdeiro ou legatário, em qualquer desses casos de indignidade, será declarada por sentença. § 1 o O direito de demandar a exclusão do herdeiro ou legatário extingue-se em quatro anos, contados da abertura da sucessão. (Redação dada pela Lei nº 13.532, de 2017) § 2 o Na hipótese do inciso I do art. 1.814, o Ministério Público tem legitimidade para demandar a exclusão do herdeiro ou legatário. (Incluído pela Lei nº 13.532, de 2017)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1352 — [Artigo 1352 - Direito Civil]
+# CC Art. 1352 — Salvo quando exigido quorum especial, as deliberações da assembléia serão tomadas, em primeira convocação, por maioria d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo quando exigido quorum especial, as deliberações da assembléia serão tomadas, em primeira convocação, por maioria de votos dos condôminos presentes que representem pelo menos metade das frações ideais. Parágrafo único. Os votos serão proporcionais às frações ideais no solo e nas outras partes comuns pertencentes a cada condômino, salvo disposição diversa da convenção de constituição do condomínio.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

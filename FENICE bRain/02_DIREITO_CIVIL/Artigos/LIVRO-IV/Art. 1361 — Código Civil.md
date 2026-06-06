@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1361 — [Artigo 1361 - Direito Civil]
+# CC Art. 1361 — Considera-se fiduciária a propriedade resolúvel de coisa móvel infungível que o devedor, com escopo de garantia, transfe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se fiduciária a propriedade resolúvel de coisa móvel infungível que o devedor, com escopo de garantia, transfere ao credor. § 1 o Constitui-se a propriedade fiduciária com o registro do contrato, celebrado por instrumento público ou particular, que lhe serve de título, no Registro de Títulos e Documentos do domicílio do devedor, ou, em se tratando de veículos, na repartição competente para o licenciamento, fazendo-se a anotação no certificado de registro. § 2 o Com a constituição da propriedade fiduciária, dá-se o desdobramento da posse, tornando-se o devedor possuidor direto da coisa. § 3 o A propriedade superveniente, adquirida pelo devedor, torna eficaz, desde o arquivamento, a transferência da propriedade fiduciária.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

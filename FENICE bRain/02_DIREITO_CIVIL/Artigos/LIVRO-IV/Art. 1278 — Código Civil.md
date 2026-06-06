@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1278 — [Artigo 1278 - Direito Civil]
+# CC Art. 1278 — O direito a que se refere o artigo antecedente não prevalece quando as interferências forem justificadas por interesse p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito a que se refere o artigo antecedente não prevalece quando as interferências forem justificadas por interesse público, caso em que o proprietário ou o possuidor, causador delas, pagará ao vizinho indenização cabal.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

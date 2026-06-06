@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 835 — [Artigo 835 - Direito Civil]
+# CC Art. 835 — O fiador poderá exonerar-se da fiança que tiver assinado sem limitação de tempo, sempre que lhe convier, ficando obrigad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O fiador poderá exonerar-se da fiança que tiver assinado sem limitação de tempo, sempre que lhe convier, ficando obrigado por todos os efeitos da fiança, durante sessenta dias após a notificação do credor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

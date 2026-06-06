@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1249 — [Artigo 1249 - Direito Civil]
+# CC Art. 1249 — As ilhas que se formarem em correntes comuns ou particulares pertencem aos proprietários ribeirinhos fronteiros, observa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As ilhas que se formarem em correntes comuns ou particulares pertencem aos proprietários ribeirinhos fronteiros, observadas as regras seguintes: I - as que se formarem no meio do rio consideram-se acréscimos sobrevindos aos terrenos ribeirinhos fronteiros de ambas as margens, na proporção de suas testadas, até a linha que dividir o álveo em duas partes iguais; II - as que se formarem entre a referida linha e uma das margens consideram-se acréscimos aos terrenos ribeirinhos fronteiros desse mesmo lado; III - as que se formarem pelo desdobramento de um novo braço do rio continuam a pertencer aos proprietários dos terrenos à custa dos quais se constituíram. Subseção II Da Aluvião
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

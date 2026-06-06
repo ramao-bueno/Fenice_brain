@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 859 — [Artigo 859 - Direito Civil]
+# CC Art. 859 — Nos concursos que se abrirem com promessa pública de recompensa, é condição essencial, para valerem, a fixação de um pra
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos concursos que se abrirem com promessa pública de recompensa, é condição essencial, para valerem, a fixação de um prazo, observadas também as disposições dos parágrafos seguintes. § 1º A decisão da pessoa nomeada, nos anúncios, como juiz, obriga os interessados. § 2º Em falta de pessoa designada para julgar o mérito dos trabalhos que se apresentarem, entender-se-á que o promitente se reservou essa função. § 3º Se os trabalhos tiverem mérito igual, proceder-se-á de acordo com os arts. 857 e 858.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

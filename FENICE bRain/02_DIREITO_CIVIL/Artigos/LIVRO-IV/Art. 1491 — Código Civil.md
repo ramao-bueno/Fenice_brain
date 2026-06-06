@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1491 — [Artigo 1491 - Direito Civil]
+# CC Art. 1491 — A hipoteca legal pode ser substituída por caução de títulos da dívida pública federal ou estadual, recebidos pelo valor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A hipoteca legal pode ser substituída por caução de títulos da dívida pública federal ou estadual, recebidos pelo valor de sua cotação mínima no ano corrente; ou por outra garantia, a critério do juiz, a requerimento do devedor. Seção III Do Registro da Hipoteca
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

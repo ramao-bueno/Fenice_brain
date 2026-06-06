@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 756 — [Artigo 756 - Direito Civil]
+# CC Art. 756 — No caso de transporte cumulativo, todos os transportadores respondem solidariamente pelo dano causado perante o remetent
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso de transporte cumulativo, todos os transportadores respondem solidariamente pelo dano causado perante o remetente, ressalvada a apuração final da responsabilidade entre eles, de modo que o ressarcimento recaia, por inteiro, ou proporcionalmente, naquele ou naqueles em cujo percurso houver ocorrido o dano. CAPÍTULO XV DO SEGURO Seção I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

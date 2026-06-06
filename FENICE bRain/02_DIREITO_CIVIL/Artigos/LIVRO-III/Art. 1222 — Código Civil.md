@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1222 — [Artigo 1222 - Direito Civil]
+# CC Art. 1222 — O reivindicante, obrigado a indenizar as benfeitorias ao possuidor de má-fé, tem o direito de optar entre o seu valor at
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O reivindicante, obrigado a indenizar as benfeitorias ao possuidor de má-fé, tem o direito de optar entre o seu valor atual e o seu custo; ao possuidor de boa-fé indenizará pelo valor atual. CAPÍTULO IV Da Perda da Posse
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

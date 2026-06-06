@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 901 — [Artigo 901 - Direito Civil]
+# CC Art. 901 — Fica validamente desonerado o devedor que paga título de crédito ao legítimo portador, no vencimento, sem oposição, salv
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Fica validamente desonerado o devedor que paga título de crédito ao legítimo portador, no vencimento, sem oposição, salvo se agiu de má-fé. Parágrafo único. Pagando, pode o devedor exigir do credor, além da entrega do título, quitação regular.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

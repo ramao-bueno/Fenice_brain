@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1449 — [Artigo 1449 - Direito Civil]
+# CC Art. 1449 — O devedor não pode, sem o consentimento por escrito do credor, alterar as coisas empenhadas ou mudar-lhes a situação, ne
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O devedor não pode, sem o consentimento por escrito do credor, alterar as coisas empenhadas ou mudar-lhes a situação, nem delas dispor. O devedor que, anuindo o credor, alienar as coisas empenhadas, deverá repor outros bens da mesma natureza, que ficarão sub-rogados no penhor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

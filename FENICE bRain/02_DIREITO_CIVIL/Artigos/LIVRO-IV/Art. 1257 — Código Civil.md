@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1257 — [Artigo 1257 - Direito Civil]
+# CC Art. 1257 — O disposto no artigo antecedente aplica-se ao caso de não pertencerem as sementes, plantas ou materiais a quem de boa-fé
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O disposto no artigo antecedente aplica-se ao caso de não pertencerem as sementes, plantas ou materiais a quem de boa-fé os empregou em solo alheio. Parágrafo único. O proprietário das sementes, plantas ou materiais poderá cobrar do proprietário do solo a indenização devida, quando não puder havê-la do plantador ou construtor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

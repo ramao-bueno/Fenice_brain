@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 684 — Quando a cláusula de irrevogabilidade for condição de um negócio bilateral, ou tiver sido estipulada no exclusivo intere
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Quando a cláusula de irrevogabilidade for condição de um negócio bilateral, ou tiver sido estipulada no exclusivo interesse do mandatário, a revogação do mandato será ineficaz.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

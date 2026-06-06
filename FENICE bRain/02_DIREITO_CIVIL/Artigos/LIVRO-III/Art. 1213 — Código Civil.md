@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1213 — [Artigo 1213 - Direito Civil]
+# CC Art. 1213 — O disposto nos artigos antecedentes não se aplica às servidões não aparentes, salvo quando os respectivos títulos provie
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O disposto nos artigos antecedentes não se aplica às servidões não aparentes, salvo quando os respectivos títulos provierem do possuidor do prédio serviente, ou daqueles de quem este o houve.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

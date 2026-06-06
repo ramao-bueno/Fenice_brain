@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1412 — [Artigo 1412 - Direito Civil]
+# CC Art. 1412 — O usuário usará da coisa e perceberá os seus frutos, quanto o exigirem as necessidades suas e de sua família
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O usuário usará da coisa e perceberá os seus frutos, quanto o exigirem as necessidades suas e de sua família. § 1 o Avaliar-se-ão as necessidades pessoais do usuário conforme a sua condição social e o lugar onde viver. § 2 o As necessidades da família do usuário compreendem as de seu cônjuge, dos filhos solteiros e das pessoas de seu serviço doméstico.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

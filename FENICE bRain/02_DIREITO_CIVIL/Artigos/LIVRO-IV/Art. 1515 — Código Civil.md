@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1515 — [Artigo 1515 - Direito Civil]
+# CC Art. 1515 — O casamento religioso, que atender às exigências da lei para a validade do casamento civil, equipara-se a este, desde qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O casamento religioso, que atender às exigências da lei para a validade do casamento civil, equipara-se a este, desde que registrado no registro próprio, produzindo efeitos a partir da data de sua celebração.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

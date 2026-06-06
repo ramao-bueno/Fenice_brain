@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 918 — [Artigo 918 - Direito Civil]
+# CC Art. 918 — A cláusula constitutiva de penhor, lançada no endosso, confere ao endossatário o exercício dos direitos inerentes ao tít
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A cláusula constitutiva de penhor, lançada no endosso, confere ao endossatário o exercício dos direitos inerentes ao título. § 1º O endossatário de endosso-penhor só pode endossar novamente o título na qualidade de procurador. § 2º Não pode o devedor opor ao endossatário de endosso-penhor as exceções que tinha contra o endossante, salvo se aquele tiver agido de má-fé.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

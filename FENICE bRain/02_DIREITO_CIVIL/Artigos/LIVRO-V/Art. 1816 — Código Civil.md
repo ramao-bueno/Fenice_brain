@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1816 — [Artigo 1816 - Direito Civil]
+# CC Art. 1816 — São pessoais os efeitos da exclusão;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São pessoais os efeitos da exclusão; os descendentes do herdeiro excluído sucedem, como se ele morto fosse antes da abertura da sucessão. Parágrafo único. O excluído da sucessão não terá direito ao usufruto ou à administração dos bens que a seus sucessores couberem na herança, nem à sucessão eventual desses bens.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1848 — [Artigo 1848 - Direito Civil]
+# CC Art. 1848 — Salvo se houver justa causa, declarada no testamento, não pode o testador estabelecer cláusula de inalienabilidade, impe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo se houver justa causa, declarada no testamento, não pode o testador estabelecer cláusula de inalienabilidade, impenhorabilidade, e de incomunicabilidade, sobre os bens da legítima. § 1 o Não é permitido ao testador estabelecer a conversão dos bens da legítima em outros de espécie diversa. § 2 o Mediante autorização judicial e havendo justa causa, podem ser alienados os bens gravados, convertendo-se o produto em outros bens, que ficarão sub-rogados nos ônus dos primeiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

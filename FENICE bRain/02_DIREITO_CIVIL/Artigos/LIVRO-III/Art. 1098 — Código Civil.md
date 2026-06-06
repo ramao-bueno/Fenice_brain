@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1098 — [Artigo 1098 - Direito Civil]
+# CC Art. 1098 — É controlada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É controlada: I - a sociedade de cujo capital outra sociedade possua a maioria dos votos nas deliberações dos quotistas ou da assembléia geral e o poder de eleger a maioria dos administradores; II - a sociedade cujo controle, referido no inciso antecedente, esteja em poder de outra, mediante ações ou quotas possuídas por sociedades ou sociedades por esta já controladas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

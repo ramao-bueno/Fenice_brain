@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1255 — [Artigo 1255 - Direito Civil]
+# CC Art. 1255 — Aquele que semeia, planta ou edifica em terreno alheio perde, em proveito do proprietário, as sementes, plantas e constr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que semeia, planta ou edifica em terreno alheio perde, em proveito do proprietário, as sementes, plantas e construções; se procedeu de boa-fé, terá direito a indenização. Parágrafo único. Se a construção ou a plantação exceder consideravelmente o valor do terreno, aquele que, de boa-fé, plantou ou edificou, adquirirá a propriedade do solo, mediante pagamento da indenização fixada judicialmente, se não houver acordo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1977 — [Artigo 1977 - Direito Civil]
+# CC Art. 1977 — O testador pode conceder ao testamenteiro a posse e a administração da herança, ou de parte dela, não havendo cônjuge ou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testador pode conceder ao testamenteiro a posse e a administração da herança, ou de parte dela, não havendo cônjuge ou herdeiros necessários. Parágrafo único. Qualquer herdeiro pode requerer partilha imediata, ou devolução da herança, habilitando o testamenteiro com os meios necessários para o cumprimento dos legados, ou dando caução de prestá-los.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

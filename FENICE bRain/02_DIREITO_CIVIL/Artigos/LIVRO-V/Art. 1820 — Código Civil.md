@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1820 — [Artigo 1820 - Direito Civil]
+# CC Art. 1820 — Praticadas as diligências de arrecadação e ultimado o inventário, serão expedidos editais na forma da lei processual, e,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Praticadas as diligências de arrecadação e ultimado o inventário, serão expedidos editais na forma da lei processual, e, decorrido um ano de sua primeira publicação, sem que haja herdeiro habilitado, ou penda habilitação, será a herança declarada vacante.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

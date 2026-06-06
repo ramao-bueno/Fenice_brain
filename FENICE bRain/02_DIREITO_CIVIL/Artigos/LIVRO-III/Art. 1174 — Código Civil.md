@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1174 — [Artigo 1174 - Direito Civil]
+# CC Art. 1174 — As limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do in
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do instrumento no Registro Público de Empresas Mercantis, salvo se provado serem conhecidas da pessoa que tratou com o gerente. Parágrafo único. Para o mesmo efeito e com idêntica ressalva, deve a modificação ou revogação do mandato ser arquivada e averbada no Registro Público de Empresas Mercantis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1568 — [Artigo 1568 - Direito Civil]
+# CC Art. 1568 — Os cônjuges são obrigados a concorrer, na proporção de seus bens e dos rendimentos do trabalho, para o sustento da famíl
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os cônjuges são obrigados a concorrer, na proporção de seus bens e dos rendimentos do trabalho, para o sustento da família e a educação dos filhos, qualquer que seja o regime patrimonial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

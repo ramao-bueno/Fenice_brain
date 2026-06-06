@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1302 — [Artigo 1302 - Direito Civil]
+# CC Art. 1302 — O proprietário pode, no lapso de ano e dia após a conclusão da obra, exigir que se desfaça janela, sacada, terraço ou go
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário pode, no lapso de ano e dia após a conclusão da obra, exigir que se desfaça janela, sacada, terraço ou goteira sobre o seu prédio; escoado o prazo, não poderá, por sua vez, edificar sem atender ao disposto no artigo antecedente, nem impedir, ou dificultar, o escoamento das águas da goteira, com prejuízo para o prédio vizinho. Parágrafo único. Em se tratando de vãos, ou aberturas para luz, seja qual for a quantidade, altura e disposição, o vizinho poderá, a todo tempo, levantar a sua edificação, ou contramuro, ainda que lhes vede a claridade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

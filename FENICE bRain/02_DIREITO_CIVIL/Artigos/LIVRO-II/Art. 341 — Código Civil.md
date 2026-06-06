@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 341 — Se a coisa devida for imóvel ou corpo certo que deva ser entregue no mesmo lugar onde está, poderá o devedor citar o cre
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a coisa devida for imóvel ou corpo certo que deva ser entregue no mesmo lugar onde está, poderá o devedor citar o credor para vir ou mandar recebê-la, sob pena de ser depositada.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

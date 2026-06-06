@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1668 — [Artigo 1668 - Direito Civil]
+# CC Art. 1668 — São excluídos da comunhão
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São excluídos da comunhão: I - os bens doados ou herdados com a cláusula de incomunicabilidade e os sub-rogados em seu lugar; II - os bens gravados de fideicomisso e o direito do herdeiro fideicomissário, antes de realizada a condição suspensiva; III - as dívidas anteriores ao casamento, salvo se provierem de despesas com seus aprestos, ou reverterem em proveito comum; IV - as doações antenupciais feitas por um dos cônjuges ao outro com a cláusula de incomunicabilidade; V - Os bens referidos nos incisos V a VII do art. 1.659.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

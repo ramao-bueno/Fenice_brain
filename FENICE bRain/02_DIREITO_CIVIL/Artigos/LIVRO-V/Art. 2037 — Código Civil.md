@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2037 — [Artigo 2037 - Direito Civil]
+# CC Art. 2037 — Salvo disposição em contrário, aplicam-se aos empresários e sociedades empresárias as disposições de lei não revogadas p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo disposição em contrário, aplicam-se aos empresários e sociedades empresárias as disposições de lei não revogadas por este Código, referentes a comerciantes, ou a sociedades comerciais, bem como a atividades mercantis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 283 — O devedor que satisfez a dívida por inteiro tem direito a exigir de cada um dos co-devedores a sua quota, dividindo-se i
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O devedor que satisfez a dívida por inteiro tem direito a exigir de cada um dos co-devedores a sua quota, dividindo-se igualmente por todos a do insolvente, se o houver, presumindo-se iguais, no débito, as partes de todos os co-devedores.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

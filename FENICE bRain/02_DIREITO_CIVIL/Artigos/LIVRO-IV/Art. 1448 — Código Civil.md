@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1448 — [Artigo 1448 - Direito Civil]
+# CC Art. 1448 — Constitui-se o penhor industrial, ou o mercantil, mediante instrumento público ou particular, registrado no Cartório de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constitui-se o penhor industrial, ou o mercantil, mediante instrumento público ou particular, registrado no Cartório de Registro de Imóveis da circunscrição onde estiverem situadas as coisas empenhadas. Parágrafo único. Prometendo pagar em dinheiro a dívida, que garante com penhor industrial ou mercantil, o devedor poderá emitir, em favor do credor, cédula do respectivo crédito, na forma e para os fins que a lei especial determinar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

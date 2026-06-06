@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 883 — [Artigo 883 - Direito Civil]
+# CC Art. 883 — Não terá direito à repetição aquele que deu alguma coisa para obter fim ilícito, imoral, ou proibido por lei
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não terá direito à repetição aquele que deu alguma coisa para obter fim ilícito, imoral, ou proibido por lei. Parágrafo único. No caso deste artigo, o que se deu reverterá em favor de estabelecimento local de beneficência, a critério do juiz. CAPÍTULO IV Do Enriquecimento Sem Causa
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

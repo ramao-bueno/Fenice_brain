@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 872 — [Artigo 872 - Direito Civil]
+# CC Art. 872 — Nas despesas do enterro, proporcionadas aos usos locais e à condição do falecido, feitas por terceiro, podem ser cobrada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas despesas do enterro, proporcionadas aos usos locais e à condição do falecido, feitas por terceiro, podem ser cobradas da pessoa que teria a obrigação de alimentar a que veio a falecer, ainda mesmo que esta não tenha deixado bens. Parágrafo único. Cessa o disposto neste artigo e no antecedente, em se provando que o gestor fez essas despesas com o simples intento de bem-fazer.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

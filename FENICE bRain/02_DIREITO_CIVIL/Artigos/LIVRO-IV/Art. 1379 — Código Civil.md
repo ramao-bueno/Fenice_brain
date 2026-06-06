@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1379 — [Artigo 1379 - Direito Civil]
+# CC Art. 1379 — O exercício incontestado e contínuo de uma servidão aparente, por dez anos, nos termos do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O exercício incontestado e contínuo de uma servidão aparente, por dez anos, nos termos do art. 1.242, autoriza o interessado a registrá-la em seu nome no Registro de Imóveis, valendo-lhe como título a sentença que julgar consumado a usucapião. Parágrafo único. Se o possuidor não tiver título, o prazo da usucapião será de vinte anos. CAPÍTULO II Do Exercício das Servidões
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

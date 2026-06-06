@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 353 — Não tendo o devedor declarado em qual das dívidas líquidas e vencidas quer imputar o pagamento, se aceitar a quitação de
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não tendo o devedor declarado em qual das dívidas líquidas e vencidas quer imputar o pagamento, se aceitar a quitação de uma delas, não terá direito a reclamar contra a imputação feita pelo credor, salvo provando haver ele cometido violência ou dolo.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

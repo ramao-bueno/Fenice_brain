@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1666 — [Artigo 1666 - Direito Civil]
+# CC Art. 1666 — As dívidas, contraídas por qualquer dos cônjuges na administração de seus bens particulares e em benefício destes, não o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As dívidas, contraídas por qualquer dos cônjuges na administração de seus bens particulares e em benefício destes, não obrigam os bens comuns. CAPÍTULO IV Do Regime de Comunhão Universal
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 978 — [Artigo 978 - Direito Civil]
+# CC Art. 978 — O empresário casado pode, sem necessidade de outorga conjugal, qualquer que seja o regime de bens, alienar os imóveis qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O empresário casado pode, sem necessidade de outorga conjugal, qualquer que seja o regime de bens, alienar os imóveis que integrem o patrimônio da empresa ou gravá-los de ônus real.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

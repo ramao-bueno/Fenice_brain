@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1544 — [Artigo 1544 - Direito Civil]
+# CC Art. 1544 — O casamento de brasileiro, celebrado no estrangeiro, perante as respectivas autoridades ou os cônsules brasileiros, deve
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O casamento de brasileiro, celebrado no estrangeiro, perante as respectivas autoridades ou os cônsules brasileiros, deverá ser registrado em cento e oitenta dias, a contar da volta de um ou de ambos os cônjuges ao Brasil, no cartório do respectivo domicílio, ou, em sua falta, no 1 o Ofício da Capital do Estado em que passarem a residir.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

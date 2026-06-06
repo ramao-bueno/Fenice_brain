@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 581 — Se o comodato não tiver prazo convencional, presumir-se-lhe-á o necessário para o uso concedido;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o comodato não tiver prazo convencional, presumir-se-lhe-á o necessário para o uso concedido; não podendo o comodante, salvo necessidade imprevista e urgente, reconhecida pelo juiz, suspender o uso e gozo da coisa emprestada, antes de findo o prazo convencional, ou o que se determine pelo uso outorgado.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

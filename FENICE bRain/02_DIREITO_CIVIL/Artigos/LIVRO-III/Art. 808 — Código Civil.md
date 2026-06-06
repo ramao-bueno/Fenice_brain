@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 808 — [Artigo 808 - Direito Civil]
+# CC Art. 808 — É nula a constituição de renda em favor de pessoa já falecida, ou que, nos trinta dias seguintes, vier a falecer de molé
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a constituição de renda em favor de pessoa já falecida, ou que, nos trinta dias seguintes, vier a falecer de moléstia que já sofria, quando foi celebrado o contrato.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

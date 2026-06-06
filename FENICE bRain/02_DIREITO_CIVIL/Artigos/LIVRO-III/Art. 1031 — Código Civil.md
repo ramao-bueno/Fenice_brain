@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1031 — [Artigo 1031 - Direito Civil]
+# CC Art. 1031 — Nos casos em que a sociedade se resolver em relação a um sócio, o valor da sua quota, considerada pelo montante efetivam
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos casos em que a sociedade se resolver em relação a um sócio, o valor da sua quota, considerada pelo montante efetivamente realizado, liquidar-se-á, salvo disposição contratual em contrário, com base na situação patrimonial da sociedade, à data da resolução, verificada em balanço especialmente levantado. § 1 o O capital social sofrerá a correspondente redução, salvo se os demais sócios suprirem o valor da quota. § 2 o A quota liquidada será paga em dinheiro, no prazo de noventa dias, a partir da liquidação, salvo acordo, ou estipulação contratual em contrário. (Vide Lei nº 13.105, de 2015) (Vigência)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 994 — [Artigo 994 - Direito Civil]
+# CC Art. 994 — A contribuição do sócio participante constitui, com a do sócio ostensivo, patrimônio especial, objeto da conta de partic
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A contribuição do sócio participante constitui, com a do sócio ostensivo, patrimônio especial, objeto da conta de participação relativa aos negócios sociais. § 1º A especialização patrimonial somente produz efeitos em relação aos sócios. § 2º A falência do sócio ostensivo acarreta a dissolução da sociedade e a liquidação da respectiva conta, cujo saldo constituirá crédito quirografário. § 3º Falindo o sócio participante, o contrato social fica sujeito às normas que regulam os efeitos da falência nos contratos bilaterais do falido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

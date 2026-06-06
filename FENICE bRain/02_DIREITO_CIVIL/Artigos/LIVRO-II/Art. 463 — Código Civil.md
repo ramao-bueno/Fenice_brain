@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 463 — Concluído o contrato preliminar, com observância do disposto no artigo antecedente, e desde que dele não conste cláusula
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Concluído o contrato preliminar, com observância do disposto no artigo antecedente, e desde que dele não conste cláusula de arrependimento, qualquer das partes terá o direito de exigir a celebração do definitivo, assinando prazo à outra para que o efetive. Parágrafo único. O contrato preliminar deverá ser levado ao registro competente.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

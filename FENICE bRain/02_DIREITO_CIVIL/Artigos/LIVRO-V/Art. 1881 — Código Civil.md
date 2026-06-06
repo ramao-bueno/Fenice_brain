@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1881 — [Artigo 1881 - Direito Civil]
+# CC Art. 1881 — Toda pessoa capaz de testar poderá, mediante escrito particular seu, datado e assinado, fazer disposições especiais sobr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Toda pessoa capaz de testar poderá, mediante escrito particular seu, datado e assinado, fazer disposições especiais sobre o seu enterro, sobre esmolas de pouca monta a certas e determinadas pessoas, ou, indeterminadamente, aos pobres de certo lugar, assim como legar móveis, roupas ou jóias, de pouco valor, de seu uso pessoal.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

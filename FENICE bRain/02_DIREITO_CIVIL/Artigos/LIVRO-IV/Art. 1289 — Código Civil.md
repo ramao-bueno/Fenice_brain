@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1289 — [Artigo 1289 - Direito Civil]
+# CC Art. 1289 — Quando as águas, artificialmente levadas ao prédio superior, ou aí colhidas, correrem dele para o inferior, poderá o don
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando as águas, artificialmente levadas ao prédio superior, ou aí colhidas, correrem dele para o inferior, poderá o dono deste reclamar que se desviem, ou se lhe indenize o prejuízo que sofrer. Parágrafo único. Da indenização será deduzido o valor do benefício obtido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -1,17 +1,15 @@
 ---
-artigo: "48"
+artigo: '48'
 lei: Lei 10.406/2002 (Código Civil)
 tipo: direito-civil
 livro: LIVRO-I
 status: vigente
 tags:
-  - cc
-  - direito-civil
-  - livro-i
-  - vigente
-  - inciso-i
-  - paragrafo-unico
-created: 2026-06-03
+- cc
+- direito-civil
+- livro-i
+- vigente
+created: '2026-06-06'
 ---
 
 # CC Art. 48 — Se a pessoa jurídica tiver administração coletiva, as decisões se tomarão pela maioria de votos dos presentes, salvo se
@@ -22,7 +20,7 @@ created: 2026-06-03
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a pessoa jurídica tiver administração coletiva, as decisões se tomarão pela maioria de votos dos presentes, salvo se o ato constitutivo dispuser de modo diverso. Parágrafo único. Decai em três anos o direito de anular as decisões a que se refere este artigo, quando violarem a lei ou estatuto, ou forem eivadas de erro, dolo, simulação ou fraude.
 
@@ -56,6 +54,6 @@ created: 2026-06-03
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

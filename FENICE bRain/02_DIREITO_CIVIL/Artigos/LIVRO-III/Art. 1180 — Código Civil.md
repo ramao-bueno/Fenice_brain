@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1180 — [Artigo 1180 - Direito Civil]
+# CC Art. 1180 — Além dos demais livros exigidos por lei, é indispensável o Diário, que pode ser substituído por fichas no caso de escrit
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além dos demais livros exigidos por lei, é indispensável o Diário, que pode ser substituído por fichas no caso de escrituração mecanizada ou eletrônica. Parágrafo único. A adoção de fichas não dispensa o uso de livro apropriado para o lançamento do balanço patrimonial e do de resultado econômico.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

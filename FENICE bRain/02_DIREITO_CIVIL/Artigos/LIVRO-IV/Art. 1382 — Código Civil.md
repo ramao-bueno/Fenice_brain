@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1382 — [Artigo 1382 - Direito Civil]
+# CC Art. 1382 — Quando a obrigação incumbir ao dono do prédio serviente, este poderá exonerar-se, abandonando, total ou parcialmente, a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a obrigação incumbir ao dono do prédio serviente, este poderá exonerar-se, abandonando, total ou parcialmente, a propriedade ao dono do dominante. Parágrafo único. Se o proprietário do prédio dominante se recusar a receber a propriedade do serviente, ou parte dela, caber-lhe-á custear as obras.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

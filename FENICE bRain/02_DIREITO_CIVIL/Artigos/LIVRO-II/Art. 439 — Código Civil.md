@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 439 — Aquele que tiver prometido fato de terceiro responderá por perdas e danos, quando este o não executar
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Aquele que tiver prometido fato de terceiro responderá por perdas e danos, quando este o não executar. Parágrafo único. Tal responsabilidade não existirá se o terceiro for o cônjuge do promitente, dependendo da sua anuência o ato a ser praticado, e desde que, pelo regime do casamento, a indenização, de algum modo, venha a recair sobre os seus bens.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

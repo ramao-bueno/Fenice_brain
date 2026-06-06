@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1750 — [Artigo 1750 - Direito Civil]
+# CC Art. 1750 — Os imóveis pertencentes aos menores sob tutela somente podem ser vendidos quando houver manifesta vantagem, mediante pré
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os imóveis pertencentes aos menores sob tutela somente podem ser vendidos quando houver manifesta vantagem, mediante prévia avaliação judicial e aprovação do juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

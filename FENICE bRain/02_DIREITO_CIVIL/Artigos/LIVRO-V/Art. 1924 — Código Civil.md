@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1924 — [Artigo 1924 - Direito Civil]
+# CC Art. 1924 — O direito de pedir o legado não se exercerá, enquanto se litigue sobre a validade do testamento, e, nos legados condicio
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito de pedir o legado não se exercerá, enquanto se litigue sobre a validade do testamento, e, nos legados condicionais, ou a prazo, enquanto esteja pendente a condição ou o prazo não se vença.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

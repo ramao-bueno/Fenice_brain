@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1488 — [Artigo 1488 - Direito Civil]
+# CC Art. 1488 — Se o imóvel, dado em garantia hipotecária, vier a ser loteado, ou se nele se constituir condomínio edilício, poderá o ôn
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o imóvel, dado em garantia hipotecária, vier a ser loteado, ou se nele se constituir condomínio edilício, poderá o ônus ser dividido, gravando cada lote ou unidade autônoma, se o requererem ao juiz o credor, o devedor ou os donos, obedecida a proporção entre o valor de cada um deles e o crédito. § 1 o O credor só poderá se opor ao pedido de desmembramento do ônus, provando que o mesmo importa em diminuição de sua garantia. § 2 o Salvo convenção em contrário, todas as despesas judiciais ou extrajudiciais necessárias ao desmembramento do ônus correm por conta de quem o requerer. § 3 o O desmembramento do ônus não exonera o devedor originário da responsabilidade a que se refere o art. 1.430, salvo anuência do credor. Seção II Da Hipoteca Legal
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

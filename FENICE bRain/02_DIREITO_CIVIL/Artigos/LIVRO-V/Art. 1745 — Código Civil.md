@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1745 — [Artigo 1745 - Direito Civil]
+# CC Art. 1745 — Os bens do menor serão entregues ao tutor mediante termo especificado deles e seus valores, ainda que os pais o tenham d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os bens do menor serão entregues ao tutor mediante termo especificado deles e seus valores, ainda que os pais o tenham dispensado. Parágrafo único. Se o patrimônio do menor for de valor considerável, poderá o juiz condicionar o exercício da tutela à prestação de caução bastante, podendo dispensá-la se o tutor for de reconhecida idoneidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1748 — [Artigo 1748 - Direito Civil]
+# CC Art. 1748 — Compete também ao tutor, com autorização do juiz
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Compete também ao tutor, com autorização do juiz: I - pagar as dívidas do menor; II - aceitar por ele heranças, legados ou doações, ainda que com encargos; III - transigir; IV - vender-lhe os bens móveis, cuja conservação não convier, e os imóveis nos casos em que for permitido; V - propor em juízo as ações, ou nelas assistir o menor, e promover todas as diligências a bem deste, assim como defendê-lo nos pleitos contra ele movidos. Parágrafo único. No caso de falta de autorização, a eficácia de ato do tutor depende da aprovação ulterior do juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

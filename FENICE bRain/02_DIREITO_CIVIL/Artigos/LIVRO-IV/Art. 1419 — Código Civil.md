@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1419 — [Artigo 1419 - Direito Civil]
+# CC Art. 1419 — Nas dívidas garantidas por penhor, anticrese ou hipoteca, o bem dado em garantia fica sujeito, por vínculo real, ao cump
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas dívidas garantidas por penhor, anticrese ou hipoteca, o bem dado em garantia fica sujeito, por vínculo real, ao cumprimento da obrigação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1281 — [Artigo 1281 - Direito Civil]
+# CC Art. 1281 — O proprietário ou o possuidor de um prédio, em que alguém tenha direito de fazer obras, pode, no caso de dano iminente,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário ou o possuidor de um prédio, em que alguém tenha direito de fazer obras, pode, no caso de dano iminente, exigir do autor delas as necessárias garantias contra o prejuízo eventual. Seção II Das Árvores Limítrofes
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

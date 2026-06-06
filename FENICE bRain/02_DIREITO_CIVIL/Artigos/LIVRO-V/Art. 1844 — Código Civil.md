@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1844 — [Artigo 1844 - Direito Civil]
+# CC Art. 1844 — Não sobrevivendo cônjuge, ou companheiro, nem parente algum sucessível, ou tendo eles renunciado a herança, esta se devo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não sobrevivendo cônjuge, ou companheiro, nem parente algum sucessível, ou tendo eles renunciado a herança, esta se devolve ao Município ou ao Distrito Federal, se localizada nas respectivas circunscrições, ou à União, quando situada em território federal. CAPÍTULO II Dos Herdeiros Necessários
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

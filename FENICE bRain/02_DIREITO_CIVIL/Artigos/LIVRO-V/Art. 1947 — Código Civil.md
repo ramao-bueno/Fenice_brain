@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1947 — [Artigo 1947 - Direito Civil]
+# CC Art. 1947 — O testador pode substituir outra pessoa ao herdeiro ou ao legatário nomeado, para o caso de um ou outro não querer ou nã
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testador pode substituir outra pessoa ao herdeiro ou ao legatário nomeado, para o caso de um ou outro não querer ou não poder aceitar a herança ou o legado, presumindo-se que a substituição foi determinada para as duas alternativas, ainda que o testador só a uma se refira.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

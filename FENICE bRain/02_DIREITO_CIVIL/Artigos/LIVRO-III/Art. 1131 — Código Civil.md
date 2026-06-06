@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1131 — [Artigo 1131 - Direito Civil]
+# CC Art. 1131 — Expedido o decreto de autorização, cumprirá à sociedade publicar os atos referidos nos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Expedido o decreto de autorização, cumprirá à sociedade publicar os atos referidos nos arts. 1.128 e 1.129, em trinta dias, no órgão oficial da União, cujo exemplar representará prova para inscrição, no registro próprio, dos atos constitutivos da sociedade. Parágrafo único. A sociedade promoverá, também no órgão oficial da União e no prazo de trinta dias, a publicação do termo de inscrição.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

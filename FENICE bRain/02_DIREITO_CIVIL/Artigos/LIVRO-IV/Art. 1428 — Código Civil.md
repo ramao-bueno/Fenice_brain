@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1428 — [Artigo 1428 - Direito Civil]
+# CC Art. 1428 — É nula a cláusula que autoriza o credor pignoratício, anticrético ou hipotecário a ficar com o objeto da garantia, se a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a cláusula que autoriza o credor pignoratício, anticrético ou hipotecário a ficar com o objeto da garantia, se a dívida não for paga no vencimento. Parágrafo único. Após o vencimento, poderá o devedor dar a coisa em pagamento da dívida.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

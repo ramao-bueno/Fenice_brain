@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1805 — [Artigo 1805 - Direito Civil]
+# CC Art. 1805 — A aceitação da herança, quando expressa, faz-se por declaração escrita;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A aceitação da herança, quando expressa, faz-se por declaração escrita; quando tácita, há de resultar tão-somente de atos próprios da qualidade de herdeiro. § 1 o Não exprimem aceitação de herança os atos oficiosos, como o funeral do finado, os meramente conservatórios, ou os de administração e guarda provisória. § 2 o Não importa igualmente aceitação a cessão gratuita, pura e simples, da herança, aos demais co-herdeiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1538 — [Artigo 1538 - Direito Civil]
+# CC Art. 1538 — A celebração do casamento será imediatamente suspensa se algum dos contraentes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A celebração do casamento será imediatamente suspensa se algum dos contraentes: I - recusar a solene afirmação da sua vontade; II - declarar que esta não é livre e espontânea; III - manifestar-se arrependido. Parágrafo único. O nubente que, por algum dos fatos mencionados neste artigo, der causa à suspensão do ato, não será admitido a retratar-se no mesmo dia.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

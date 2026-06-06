@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2000 — [Artigo 2000 - Direito Civil]
+# CC Art. 2000 — Os legatários e credores da herança podem exigir que do patrimônio do falecido se discrimine o do herdeiro, e, em concur
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os legatários e credores da herança podem exigir que do patrimônio do falecido se discrimine o do herdeiro, e, em concurso com os credores deste, ser-lhes-ão preferidos no pagamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

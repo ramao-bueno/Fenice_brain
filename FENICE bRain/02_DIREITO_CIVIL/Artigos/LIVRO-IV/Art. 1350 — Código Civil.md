@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1350 — [Artigo 1350 - Direito Civil]
+# CC Art. 1350 — Convocará o síndico, anualmente, reunião da assembléia dos condôminos, na forma prevista na convenção, a fim de aprovar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Convocará o síndico, anualmente, reunião da assembléia dos condôminos, na forma prevista na convenção, a fim de aprovar o orçamento das despesas, as contribuições dos condôminos e a prestação de contas, e eventualmente eleger-lhe o substituto e alterar o regimento interno. § 1 o Se o síndico não convocar a assembléia, um quarto dos condôminos poderá fazê-lo. § 2 o Se a assembléia não se reunir, o juiz decidirá, a requerimento de qualquer condômino.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

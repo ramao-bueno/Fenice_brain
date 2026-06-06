@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1524 — [Artigo 1524 - Direito Civil]
+# CC Art. 1524 — As causas suspensivas da celebração do casamento podem ser argüidas pelos parentes em linha reta de um dos nubentes, sej
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As causas suspensivas da celebração do casamento podem ser argüidas pelos parentes em linha reta de um dos nubentes, sejam consangüíneos ou afins, e pelos colaterais em segundo grau, sejam também consangüíneos ou afins. CAPÍTULO V Do Processo de Habilitação PARA O CASAMENTO
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

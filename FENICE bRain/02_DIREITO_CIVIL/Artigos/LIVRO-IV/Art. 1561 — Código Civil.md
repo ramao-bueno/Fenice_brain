@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1561 — [Artigo 1561 - Direito Civil]
+# CC Art. 1561 — Embora anulável ou mesmo nulo, se contraído de boa-fé por ambos os cônjuges, o casamento, em relação a estes como aos fi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Embora anulável ou mesmo nulo, se contraído de boa-fé por ambos os cônjuges, o casamento, em relação a estes como aos filhos, produz todos os efeitos até o dia da sentença anulatória. § 1 o Se um dos cônjuges estava de boa-fé ao celebrar o casamento, os seus efeitos civis só a ele e aos filhos aproveitarão. § 2 o Se ambos os cônjuges estavam de má-fé ao celebrar o casamento, os seus efeitos civis só aos filhos aproveitarão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

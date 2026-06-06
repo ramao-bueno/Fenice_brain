@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 727 — [Artigo 727 - Direito Civil]
+# CC Art. 727 — Se, por não haver prazo determinado, o dono do negócio dispensar o corretor, e o negócio se realizar posteriormente, com
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se, por não haver prazo determinado, o dono do negócio dispensar o corretor, e o negócio se realizar posteriormente, como fruto da sua mediação, a corretagem lhe será devida; igual solução se adotará se o negócio se realizar após a decorrência do prazo contratual, mas por efeito dos trabalhos do corretor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

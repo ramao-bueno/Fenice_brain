@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1315 — [Artigo 1315 - Direito Civil]
+# CC Art. 1315 — O condômino é obrigado, na proporção de sua parte, a concorrer para as despesas de conservação ou divisão da coisa, e a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O condômino é obrigado, na proporção de sua parte, a concorrer para as despesas de conservação ou divisão da coisa, e a suportar os ônus a que estiver sujeita. Parágrafo único. Presumem-se iguais as partes ideais dos condôminos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

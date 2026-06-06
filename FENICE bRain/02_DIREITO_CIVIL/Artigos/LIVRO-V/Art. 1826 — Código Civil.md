@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1826 — [Artigo 1826 - Direito Civil]
+# CC Art. 1826 — O possuidor da herança está obrigado à restituição dos bens do acervo, fixando-se-lhe a responsabilidade segundo a sua p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O possuidor da herança está obrigado à restituição dos bens do acervo, fixando-se-lhe a responsabilidade segundo a sua posse, observado o disposto nos arts. 1.214 a 1.222. Parágrafo único. A partir da citação, a responsabilidade do possuidor se há de aferir pelas regras concernentes à posse de má-fé e à mora.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

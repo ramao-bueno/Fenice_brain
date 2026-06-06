@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1509 — [Artigo 1509 - Direito Civil]
+# CC Art. 1509 — O credor anticrético pode vindicar os seus direitos contra o adquirente dos bens, os credores quirografários e os hipote
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor anticrético pode vindicar os seus direitos contra o adquirente dos bens, os credores quirografários e os hipotecários posteriores ao registro da anticrese. § 1 o Se executar os bens por falta de pagamento da dívida, ou permitir que outro credor o execute, sem opor o seu direito de retenção ao exeqüente, não terá preferência sobre o preço. § 2 o O credor anticrético não terá preferência sobre a indenização do seguro, quando o prédio seja destruído, nem, se forem desapropriados os bens, com relação à desapropriação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

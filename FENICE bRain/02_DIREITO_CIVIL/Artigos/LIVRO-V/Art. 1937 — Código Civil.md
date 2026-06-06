@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1937 — [Artigo 1937 - Direito Civil]
+# CC Art. 1937 — A coisa legada entregar-se-á, com seus acessórios, no lugar e estado em que se achava ao falecer o testador, passando ao
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A coisa legada entregar-se-á, com seus acessórios, no lugar e estado em que se achava ao falecer o testador, passando ao legatário com todos os encargos que a onerarem.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

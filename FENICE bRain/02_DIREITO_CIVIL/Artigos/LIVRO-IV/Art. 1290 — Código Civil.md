@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1290 — [Artigo 1290 - Direito Civil]
+# CC Art. 1290 — O proprietário de nascente, ou do solo onde caem águas pluviais, satisfeitas as necessidades de seu consumo, não pode im
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário de nascente, ou do solo onde caem águas pluviais, satisfeitas as necessidades de seu consumo, não pode impedir, ou desviar o curso natural das águas remanescentes pelos prédios inferiores.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

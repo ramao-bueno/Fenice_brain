@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1802 — [Artigo 1802 - Direito Civil]
+# CC Art. 1802 — São nulas as disposições testamentárias em favor de pessoas não legitimadas a suceder, ainda quando simuladas sob a form
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São nulas as disposições testamentárias em favor de pessoas não legitimadas a suceder, ainda quando simuladas sob a forma de contrato oneroso, ou feitas mediante interposta pessoa. Parágrafo único. Presumem-se pessoas interpostas os ascendentes, os descendentes, os irmãos e o cônjuge ou companheiro do não legitimado a suceder.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

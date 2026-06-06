@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1504 — [Artigo 1504 - Direito Civil]
+# CC Art. 1504 — A hipoteca será circunscrita à linha ou às linhas especificadas na escritura e ao respectivo material de exploração, no
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A hipoteca será circunscrita à linha ou às linhas especificadas na escritura e ao respectivo material de exploração, no estado em que ao tempo da execução estiverem; mas os credores hipotecários poderão opor-se à venda da estrada, à de suas linhas, de seus ramais ou de parte considerável do material de exploração; bem como à fusão com outra empresa, sempre que com isso a garantia do débito enfraquecer.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

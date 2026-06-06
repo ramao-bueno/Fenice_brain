@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 162 — O credor quirografário, que receber do devedor insolvente o pagamento da dívida ainda não vencida, ficará obrigado a rep
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O credor quirografário, que receber do devedor insolvente o pagamento da dívida ainda não vencida, ficará obrigado a repor, em proveito do acervo sobre que se tenha de efetuar o concurso de credores, aquilo que recebeu.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1672 — [Artigo 1672 - Direito Civil]
+# CC Art. 1672 — No regime de participação final nos aqüestos, cada cônjuge possui patrimônio próprio, consoante disposto no artigo segui
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No regime de participação final nos aqüestos, cada cônjuge possui patrimônio próprio, consoante disposto no artigo seguinte, e lhe cabe, à época da dissolução da sociedade conjugal, direito à metade dos bens adquiridos pelo casal, a título oneroso, na constância do casamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1866 — [Artigo 1866 - Direito Civil]
+# CC Art. 1866 — O indivíduo inteiramente surdo, sabendo ler, lerá o seu testamento, e, se não o souber, designará quem o leia em seu lug
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O indivíduo inteiramente surdo, sabendo ler, lerá o seu testamento, e, se não o souber, designará quem o leia em seu lugar, presentes as testemunhas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

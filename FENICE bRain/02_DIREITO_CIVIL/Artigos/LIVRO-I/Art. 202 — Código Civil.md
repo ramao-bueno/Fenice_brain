@@ -9,14 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-- inciso-vi
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 202 — A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á
@@ -27,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á: I - por despacho do juiz, mesmo incompetente, que ordenar a citação, se o interessado a promover no prazo e na forma da lei processual; II - por protesto, nas condições do inciso antecedente; III - por protesto cambial; IV - pela apresentação do título de crédito em juízo de inventário ou em concurso de credores; V - por qualquer ato judicial que constitua em mora o devedor; VI - por qualquer ato inequívoco, ainda que extrajudicial, que importe reconhecimento do direito pelo devedor. Parágrafo único. A prescrição interr...
+> A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á: I - por despacho do juiz, mesmo incompetente, que ordenar a citação, se o interessado a promover no prazo e na forma da lei processual; II - por protesto, nas condições do inciso antecedente; III - por protesto cambial; IV - pela apresentação do título de crédito em juízo de inventário ou em concurso de credores; V - por qualquer ato judicial que constitua em mora o devedor; VI - por qualquer ato inequívoco, ainda que extrajudicial, que importe reconhecimento do direito pelo devedor. Parágrafo único. A prescrição interrompida recomeça a correr da data do ato que a interrompeu, ou do último ato do processo para a interromper.
 
 ---
 
@@ -61,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

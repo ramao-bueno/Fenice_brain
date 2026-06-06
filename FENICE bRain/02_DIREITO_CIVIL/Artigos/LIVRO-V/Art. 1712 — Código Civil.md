@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1712 — [Artigo 1712 - Direito Civil]
+# CC Art. 1712 — O bem de família consistirá em prédio residencial urbano ou rural, com suas pertenças e acessórios, destinando-se em amb
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O bem de família consistirá em prédio residencial urbano ou rural, com suas pertenças e acessórios, destinando-se em ambos os casos a domicílio familiar, e poderá abranger valores mobiliários, cuja renda será aplicada na conservação do imóvel e no sustento da família.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

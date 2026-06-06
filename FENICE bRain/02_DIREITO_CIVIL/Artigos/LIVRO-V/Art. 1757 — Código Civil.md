@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1757 — [Artigo 1757 - Direito Civil]
+# CC Art. 1757 — Os tutores prestarão contas de dois em dois anos, e também quando, por qualquer motivo, deixarem o exercício da tutela o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os tutores prestarão contas de dois em dois anos, e também quando, por qualquer motivo, deixarem o exercício da tutela ou toda vez que o juiz achar conveniente. Parágrafo único. As contas serão prestadas em juízo, e julgadas depois da audiência dos interessados, recolhendo o tutor imediatamente a estabelecimento bancário oficial os saldos, ou adquirindo bens imóveis, ou títulos, obrigações ou letras, na forma do § 1 o do art. 1.753.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

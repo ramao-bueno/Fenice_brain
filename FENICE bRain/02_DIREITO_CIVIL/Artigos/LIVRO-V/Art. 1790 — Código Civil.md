@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1790 — [Artigo 1790 - Direito Civil]
+# CC Art. 1790 — A companheira ou o companheiro participará da sucessão do outro, quanto aos bens adquiridos onerosamente na vigência da
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A companheira ou o companheiro participará da sucessão do outro, quanto aos bens adquiridos onerosamente na vigência da união estável, nas condições seguintes: (Vide Recurso Extraordinário nº 646.721) (Vide Recurso Extraordinário nº 878.694) I - se concorrer com filhos comuns, terá direito a uma quota equivalente à que por lei for atribuída ao filho; II - se concorrer com descendentes só do autor da herança, tocar-lhe-á a metade do que couber a cada um daqueles; III - se concorrer com outros parentes sucessíveis, terá direito a um terço da herança; IV - não havendo parentes sucessíveis, terá direito à totalidade da herança. CAPÍTULO II Da Herança e de sua Administração
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 155 — Subsistirá o negócio jurídico, se a coação decorrer de terceiro, sem que a parte a que aproveite dela tivesse ou devesse
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Subsistirá o negócio jurídico, se a coação decorrer de terceiro, sem que a parte a que aproveite dela tivesse ou devesse ter conhecimento; mas o autor da coação responderá por todas as perdas e danos que houver causado ao coacto. Seção IV Do Estado de Perigo
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

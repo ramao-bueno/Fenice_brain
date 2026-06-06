@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 842 — [Artigo 842 - Direito Civil]
+# CC Art. 842 — A transação far-se-á por escritura pública, nas obrigações em que a lei o exige, ou por instrumento particular, nas em q
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transação far-se-á por escritura pública, nas obrigações em que a lei o exige, ou por instrumento particular, nas em que ela o admite; se recair sobre direitos contestados em juízo, será feita por escritura pública, ou por termo nos autos, assinado pelos transigentes e homologado pelo juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

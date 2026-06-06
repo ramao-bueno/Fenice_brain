@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 948 — [Artigo 948 - Direito Civil]
+# CC Art. 948 — No caso de homicídio, a indenização consiste, sem excluir outras reparações
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso de homicídio, a indenização consiste, sem excluir outras reparações: I - no pagamento das despesas com o tratamento da vítima, seu funeral e o luto da família; II - na prestação de alimentos às pessoas a quem o morto os devia, levando-se em conta a duração provável da vida da vítima.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

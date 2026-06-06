@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1732 — [Artigo 1732 - Direito Civil]
+# CC Art. 1732 — O juiz nomeará tutor idôneo e residente no domicílio do menor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O juiz nomeará tutor idôneo e residente no domicílio do menor: I - na falta de tutor testamentário ou legítimo; II - quando estes forem excluídos ou escusados da tutela; III - quando removidos por não idôneos o tutor legítimo e o testamentário.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

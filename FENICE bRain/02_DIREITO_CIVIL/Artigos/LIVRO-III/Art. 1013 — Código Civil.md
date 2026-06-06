@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1013 — [Artigo 1013 - Direito Civil]
+# CC Art. 1013 — A administração da sociedade, nada dispondo o contrato social, compete separadamente a cada um dos sócios
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A administração da sociedade, nada dispondo o contrato social, compete separadamente a cada um dos sócios. § 1 o Se a administração competir separadamente a vários administradores, cada um pode impugnar operação pretendida por outro, cabendo a decisão aos sócios, por maioria de votos. § 2 o Responde por perdas e danos perante a sociedade o administrador que realizar operações, sabendo ou devendo saber que estava agindo em desacordo com a maioria.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1651 — [Artigo 1651 - Direito Civil]
+# CC Art. 1651 — Quando um dos cônjuges não puder exercer a administração dos bens que lhe incumbe, segundo o regime de bens, caberá ao o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando um dos cônjuges não puder exercer a administração dos bens que lhe incumbe, segundo o regime de bens, caberá ao outro: I - gerir os bens comuns e os do consorte; II - alienar os bens móveis comuns; III - alienar os imóveis comuns e os móveis ou imóveis do consorte, mediante autorização judicial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

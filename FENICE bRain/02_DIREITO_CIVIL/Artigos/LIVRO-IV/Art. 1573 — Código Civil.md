@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1573 — [Artigo 1573 - Direito Civil]
+# CC Art. 1573 — Podem caracterizar a impossibilidade da comunhão de vida a ocorrência de algum dos seguintes motivos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Podem caracterizar a impossibilidade da comunhão de vida a ocorrência de algum dos seguintes motivos: I - adultério; II - tentativa de morte; III - sevícia ou injúria grave; IV - abandono voluntário do lar conjugal, durante um ano contínuo; V - condenação por crime infamante; VI - conduta desonrosa. Parágrafo único. O juiz poderá considerar outros fatos que tornem evidente a impossibilidade da vida em comum.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

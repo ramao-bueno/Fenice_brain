@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1247 — [Artigo 1247 - Direito Civil]
+# CC Art. 1247 — Se o teor do registro não exprimir a verdade, poderá o interessado reclamar que se retifique ou anule
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o teor do registro não exprimir a verdade, poderá o interessado reclamar que se retifique ou anule. Parágrafo único. Cancelado o registro, poderá o proprietário reivindicar o imóvel, independentemente da boa-fé ou do título do terceiro adquirente. Seção III Da Aquisição por Acessão
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

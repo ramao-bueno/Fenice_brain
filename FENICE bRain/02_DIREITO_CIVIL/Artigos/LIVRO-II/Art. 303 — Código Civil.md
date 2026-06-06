@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 303 — O adquirente de imóvel hipotecado pode tomar a seu cargo o pagamento do crédito garantido;
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O adquirente de imóvel hipotecado pode tomar a seu cargo o pagamento do crédito garantido; se o credor, notificado, não impugnar em trinta dias a transferência do débito, entender-se-á dado o assentimento. TÍTULO III Do Adimplemento e Extinção das Obrigações CAPÍTULO I Do Pagamento Seção I De Quem Deve Pagar
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

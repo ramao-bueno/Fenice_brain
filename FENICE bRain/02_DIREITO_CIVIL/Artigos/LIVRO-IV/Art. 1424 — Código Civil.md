@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1424 — [Artigo 1424 - Direito Civil]
+# CC Art. 1424 — Os contratos de penhor, anticrese ou hipoteca declararão, sob pena de não terem eficácia
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os contratos de penhor, anticrese ou hipoteca declararão, sob pena de não terem eficácia: I - o valor do crédito, sua estimação, ou valor máximo; II - o prazo fixado para pagamento; III - a taxa dos juros, se houver; IV - o bem dado em garantia com as suas especificações.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

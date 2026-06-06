@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1092 — [Artigo 1092 - Direito Civil]
+# CC Art. 1092 — A assembléia geral não pode, sem o consentimento dos diretores, mudar o objeto essencial da sociedade, prorrogar-lhe o p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A assembléia geral não pode, sem o consentimento dos diretores, mudar o objeto essencial da sociedade, prorrogar-lhe o prazo de duração, aumentar ou diminuir o capital social, criar debêntures, ou partes beneficiárias. CAPÍTULO VII Da Sociedade Cooperativa
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

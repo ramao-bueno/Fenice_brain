@@ -9,12 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- paragrafo-2
-- paragrafo-3
-- paragrafo-4
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 132 — Salvo disposição legal ou convencional em contrário, computam-se os prazos, excluído o dia do começo, e incluído o do ve
@@ -25,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Salvo disposição legal ou convencional em contrário, computam-se os prazos, excluído o dia do começo, e incluído o do vencimento. § 1 o Se o dia do vencimento cair em feriado, considerar-se-á prorrogado o prazo até o seguinte dia útil. § 2 o Meado considera-se, em qualquer mês, o seu décimo quinto dia. § 3 o Os prazos de meses e anos expiram no dia de igual número do de início, ou no imediato, se faltar exata correspondência. § 4 o Os prazos fixados por hora contar-se-ão de minuto a minuto.
 
@@ -59,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

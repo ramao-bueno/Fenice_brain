@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1191 — [Artigo 1191 - Direito Civil]
+# CC Art. 1191 — O juiz só poderá autorizar a exibição integral dos livros e papéis de escrituração quando necessária para resolver quest
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O juiz só poderá autorizar a exibição integral dos livros e papéis de escrituração quando necessária para resolver questões relativas a sucessão, comunhão ou sociedade, administração ou gestão à conta de outrem, ou em caso de falência. § 1 o O juiz ou tribunal que conhecer de medida cautelar ou de ação pode, a requerimento ou de ofício, ordenar que os livros de qualquer das partes, ou de ambas, sejam examinados na presença do empresário ou da sociedade empresária a que pertencerem, ou de pessoas por estes nomeadas, para deles se extrair o que interessar à questão. § 2 o Achando-se os livros em outra jurisdição, nela se fará o exame, perante o respectivo juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

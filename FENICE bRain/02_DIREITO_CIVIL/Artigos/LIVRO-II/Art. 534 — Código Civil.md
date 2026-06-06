@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 534 — Pelo contrato estimatório, o consignante entrega bens móveis ao consignatário, que fica autorizado a vendê-los, pagando
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Pelo contrato estimatório, o consignante entrega bens móveis ao consignatário, que fica autorizado a vendê-los, pagando àquele o preço ajustado, salvo se preferir, no prazo estabelecido, restituir-lhe a coisa consignada.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

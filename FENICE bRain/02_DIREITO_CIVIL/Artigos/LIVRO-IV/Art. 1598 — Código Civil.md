@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1598 — [Artigo 1598 - Direito Civil]
+# CC Art. 1598 — Salvo prova em contrário, se, antes de decorrido o prazo previsto no inciso II do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo prova em contrário, se, antes de decorrido o prazo previsto no inciso II do art. 1.523, a mulher contrair novas núpcias e lhe nascer algum filho, este se presume do primeiro marido, se nascido dentro dos trezentos dias a contar da data do falecimento deste e, do segundo, se o nascimento ocorrer após esse período e já decorrido o prazo a que se refere o inciso I do art. 1597.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

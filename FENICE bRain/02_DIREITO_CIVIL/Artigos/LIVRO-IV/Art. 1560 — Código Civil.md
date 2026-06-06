@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1560 — [Artigo 1560 - Direito Civil]
+# CC Art. 1560 — O prazo para ser intentada a ação de anulação do casamento, a contar da data da celebração, é de
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O prazo para ser intentada a ação de anulação do casamento, a contar da data da celebração, é de: I - cento e oitenta dias, no caso do inciso IV do art. 1.550; II - dois anos, se incompetente a autoridade celebrante; III - três anos, nos casos dos incisos I a IV do art. 1.557; IV - quatro anos, se houver coação. § 1 o Extingue-se, em cento e oitenta dias, o direito de anular o casamento dos menores de dezesseis anos, contado o prazo para o menor do dia em que perfez essa idade; e da data do casamento, para seus representantes legais ou ascendentes. § 2 o Na hipótese do inciso V do art. 1.550, o prazo para anulação do casamento é de cento e oitenta dias, a partir da data em que o mandante tiver conhecimento da celebração.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 528 — Se o vendedor receber o pagamento à vista, ou, posteriormente, mediante financiamento de instituição do mercado de capit
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o vendedor receber o pagamento à vista, ou, posteriormente, mediante financiamento de instituição do mercado de capitais, a esta caberá exercer os direitos e ações decorrentes do contrato, a benefício de qualquer outro. A operação financeira e a respectiva ciência do comprador constarão do registro do contrato. Subseção V Da Venda Sobre Documentos
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

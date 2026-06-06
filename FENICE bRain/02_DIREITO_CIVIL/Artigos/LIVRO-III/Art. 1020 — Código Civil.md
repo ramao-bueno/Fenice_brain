@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1020 — [Artigo 1020 - Direito Civil]
+# CC Art. 1020 — Os administradores são obrigados a prestar aos sócios contas justificadas de sua administração, e apresentar-lhes o inve
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os administradores são obrigados a prestar aos sócios contas justificadas de sua administração, e apresentar-lhes o inventário anualmente, bem como o balanço patrimonial e o de resultado econômico.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

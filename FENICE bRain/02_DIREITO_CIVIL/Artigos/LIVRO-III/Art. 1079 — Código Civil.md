@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1079 — [Artigo 1079 - Direito Civil]
+# CC Art. 1079 — Aplica-se às reuniões dos sócios, nos casos omissos no contrato, o estabelecido nesta Seção sobre a assembléia, obedecid
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aplica-se às reuniões dos sócios, nos casos omissos no contrato, o estabelecido nesta Seção sobre a assembléia, obedecido o disposto no § 1 o do art. 1.072.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

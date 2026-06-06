@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1707 — [Artigo 1707 - Direito Civil]
+# CC Art. 1707 — Pode o credor não exercer, porém lhe é vedado renunciar o direito a alimentos, sendo o respectivo crédito insuscetível d
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode o credor não exercer, porém lhe é vedado renunciar o direito a alimentos, sendo o respectivo crédito insuscetível de cessão, compensação ou penhora.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

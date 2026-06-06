@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 895 — [Artigo 895 - Direito Civil]
+# CC Art. 895 — Enquanto o título de crédito estiver em circulação, só ele poderá ser dado em garantia, ou ser objeto de medidas judicia
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Enquanto o título de crédito estiver em circulação, só ele poderá ser dado em garantia, ou ser objeto de medidas judiciais, e não, separadamente, os direitos ou mercadorias que representa.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

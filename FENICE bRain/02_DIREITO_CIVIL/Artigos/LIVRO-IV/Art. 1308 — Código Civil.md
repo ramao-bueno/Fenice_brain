@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1308 — [Artigo 1308 - Direito Civil]
+# CC Art. 1308 — Não é lícito encostar à parede divisória chaminés, fogões, fornos ou quaisquer aparelhos ou depósitos suscetíveis de pro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não é lícito encostar à parede divisória chaminés, fogões, fornos ou quaisquer aparelhos ou depósitos suscetíveis de produzir infiltrações ou interferências prejudiciais ao vizinho. Parágrafo único. A disposição anterior não abrange as chaminés ordinárias e os fogões de cozinha.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

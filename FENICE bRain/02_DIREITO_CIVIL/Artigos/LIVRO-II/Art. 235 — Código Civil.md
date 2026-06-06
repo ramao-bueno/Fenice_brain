@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 235 — Deteriorada a coisa, não sendo o devedor culpado, poderá o credor resolver a obrigação, ou aceitar a coisa, abatido de s
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Deteriorada a coisa, não sendo o devedor culpado, poderá o credor resolver a obrigação, ou aceitar a coisa, abatido de seu preço o valor que perdeu.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

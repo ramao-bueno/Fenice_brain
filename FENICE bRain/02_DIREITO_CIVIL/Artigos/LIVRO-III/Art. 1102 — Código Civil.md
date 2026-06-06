@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1102 — [Artigo 1102 - Direito Civil]
+# CC Art. 1102 — Dissolvida a sociedade e nomeado o liquidante na forma do disposto neste Livro, procede-se à sua liquidação, de conformi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dissolvida a sociedade e nomeado o liquidante na forma do disposto neste Livro, procede-se à sua liquidação, de conformidade com os preceitos deste Capítulo, ressalvado o disposto no ato constitutivo ou no instrumento da dissolução. Parágrafo único. O liquidante, que não seja administrador da sociedade, investir-se-á nas funções, averbada a sua nomeação no registro próprio.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

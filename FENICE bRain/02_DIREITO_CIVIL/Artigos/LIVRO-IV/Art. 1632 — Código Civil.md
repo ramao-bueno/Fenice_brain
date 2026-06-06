@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1632 — [Artigo 1632 - Direito Civil]
+# CC Art. 1632 — A separação judicial, o divórcio e a dissolução da união estável não alteram as relações entre pais e filhos senão quant
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A separação judicial, o divórcio e a dissolução da união estável não alteram as relações entre pais e filhos senão quanto ao direito, que aos primeiros cabe, de terem em sua companhia os segundos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

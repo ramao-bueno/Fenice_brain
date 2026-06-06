@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1252 — [Artigo 1252 - Direito Civil]
+# CC Art. 1252 — O álveo abandonado de corrente pertence aos proprietários ribeirinhos das duas margens, sem que tenham indenização os do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O álveo abandonado de corrente pertence aos proprietários ribeirinhos das duas margens, sem que tenham indenização os donos dos terrenos por onde as águas abrirem novo curso, entendendo-se que os prédios marginais se estendem até o meio do álveo. Subseção V Das Construções e Plantações
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

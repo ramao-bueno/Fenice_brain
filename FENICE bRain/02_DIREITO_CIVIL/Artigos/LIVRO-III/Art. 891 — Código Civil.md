@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 891 — [Artigo 891 - Direito Civil]
+# CC Art. 891 — O título de crédito, incompleto ao tempo da emissão, deve ser preenchido de conformidade com os ajustes realizados
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O título de crédito, incompleto ao tempo da emissão, deve ser preenchido de conformidade com os ajustes realizados. Parágrafo único. O descumprimento dos ajustes previstos neste artigo pelos que deles participaram, não constitui motivo de oposição ao terceiro portador, salvo se este, ao adquirir o título, tiver agido de má-fé.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

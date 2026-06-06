@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1138 — [Artigo 1138 - Direito Civil]
+# CC Art. 1138 — A sociedade estrangeira autorizada a funcionar é obrigada a ter, permanentemente, representante no Brasil, com poderes p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade estrangeira autorizada a funcionar é obrigada a ter, permanentemente, representante no Brasil, com poderes para resolver quaisquer questões e receber citação judicial pela sociedade. Parágrafo único. O representante somente pode agir perante terceiros depois de arquivado e averbado o instrumento de sua nomeação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

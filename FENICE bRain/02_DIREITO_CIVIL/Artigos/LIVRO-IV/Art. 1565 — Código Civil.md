@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1565 — [Artigo 1565 - Direito Civil]
+# CC Art. 1565 — Pelo casamento, homem e mulher assumem mutuamente a condição de consortes, companheiros e responsáveis pelos encargos da
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pelo casamento, homem e mulher assumem mutuamente a condição de consortes, companheiros e responsáveis pelos encargos da família. § 1 o Qualquer dos nubentes, querendo, poderá acrescer ao seu o sobrenome do outro. § 2 o O planejamento familiar é de livre decisão do casal, competindo ao Estado propiciar recursos educacionais e financeiros para o exercício desse direito, vedado qualquer tipo de coerção por parte de instituições privadas ou públicas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

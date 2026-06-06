@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 999 — [Artigo 999 - Direito Civil]
+# CC Art. 999 — As modificações do contrato social, que tenham por objeto matéria indicada no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As modificações do contrato social, que tenham por objeto matéria indicada no art. 997, dependem do consentimento de todos os sócios; as demais podem ser decididas por maioria absoluta de votos, se o contrato não determinar a necessidade de deliberação unânime. Parágrafo único. Qualquer modificação do contrato social será averbada, cumprindo-se as formalidades previstas no artigo antecedente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 863 — [Artigo 863 - Direito Civil]
+# CC Art. 863 — No caso do artigo antecedente, se os prejuízos da gestão excederem o seu proveito, poderá o dono do negócio exigir que o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso do artigo antecedente, se os prejuízos da gestão excederem o seu proveito, poderá o dono do negócio exigir que o gestor restitua as coisas ao estado anterior, ou o indenize da diferença.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

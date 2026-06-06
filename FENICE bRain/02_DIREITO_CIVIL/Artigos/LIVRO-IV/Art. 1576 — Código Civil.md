@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1576 — [Artigo 1576 - Direito Civil]
+# CC Art. 1576 — A separação judicial põe termo aos deveres de coabitação e fidelidade recíproca e ao regime de bens
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A separação judicial põe termo aos deveres de coabitação e fidelidade recíproca e ao regime de bens. Parágrafo único. O procedimento judicial da separação caberá somente aos cônjuges, e, no caso de incapacidade, serão representados pelo curador, pelo ascendente ou pelo irmão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

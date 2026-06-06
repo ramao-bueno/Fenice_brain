@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 688 — A renúncia do mandato será comunicada ao mandante, que, se for prejudicado pela sua inoportunidade, ou pela falta de tem
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A renúncia do mandato será comunicada ao mandante, que, se for prejudicado pela sua inoportunidade, ou pela falta de tempo, a fim de prover à substituição do procurador, será indenizado pelo mandatário, salvo se este provar que não podia continuar no mandato sem prejuízo considerável, e que não lhe era dado substabelecer.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

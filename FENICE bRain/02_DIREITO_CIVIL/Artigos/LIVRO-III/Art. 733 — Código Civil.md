@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 733 — [Artigo 733 - Direito Civil]
+# CC Art. 733 — Nos contratos de transporte cumulativo, cada transportador se obriga a cumprir o contrato relativamente ao respectivo pe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos contratos de transporte cumulativo, cada transportador se obriga a cumprir o contrato relativamente ao respectivo percurso, respondendo pelos danos nele causados a pessoas e coisas. § 1 o O dano, resultante do atraso ou da interrupção da viagem, será determinado em razão da totalidade do percurso. § 2 o Se houver substituição de algum dos transportadores no decorrer do percurso, a responsabilidade solidária estender-se-á ao substituto. Seção II Do Transporte de Pessoas
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

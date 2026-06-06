@@ -9,10 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 188 — Não constituem atos ilícitos
@@ -23,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não constituem atos ilícitos: I - os praticados em legítima defesa ou no exercício regular de um direito reconhecido; II - a deterioração ou destruição da coisa alheia, ou a lesão a pessoa, a fim de remover perigo iminente. Parágrafo único. No caso do inciso II, o ato será legítimo somente quando as circunstâncias o tornarem absolutamente necessário, não excedendo os limites do indispensável para a remoção do perigo. TÍTULO IV Da Prescrição e da Decadência CAPÍTULO I Da Prescrição Seção I Disposições Gerais
 
@@ -57,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

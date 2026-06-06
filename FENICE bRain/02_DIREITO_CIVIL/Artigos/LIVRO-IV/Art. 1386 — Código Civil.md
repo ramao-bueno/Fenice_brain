@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1386 — [Artigo 1386 - Direito Civil]
+# CC Art. 1386 — As servidões prediais são indivisíveis, e subsistem, no caso de divisão dos imóveis, em benefício de cada uma das porçõe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As servidões prediais são indivisíveis, e subsistem, no caso de divisão dos imóveis, em benefício de cada uma das porções do prédio dominante, e continuam a gravar cada uma das do prédio serviente, salvo se, por natureza, ou destino, só se aplicarem a certa parte de um ou de outro. CAPÍTULO III Da Extinção das Servidões
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

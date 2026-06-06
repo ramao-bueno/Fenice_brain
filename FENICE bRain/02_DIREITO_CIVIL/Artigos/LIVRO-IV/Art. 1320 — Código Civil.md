@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1320 — [Artigo 1320 - Direito Civil]
+# CC Art. 1320 — A todo tempo será lícito ao condômino exigir a divisão da coisa comum, respondendo o quinhão de cada um pela sua parte n
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A todo tempo será lícito ao condômino exigir a divisão da coisa comum, respondendo o quinhão de cada um pela sua parte nas despesas da divisão. § 1 o Podem os condôminos acordar que fique indivisa a coisa comum por prazo não maior de cinco anos, suscetível de prorrogação ulterior. § 2 o Não poderá exceder de cinco anos a indivisão estabelecida pelo doador ou pelo testador. § 3 o A requerimento de qualquer interessado e se graves razões o aconselharem, pode o juiz determinar a divisão da coisa comum antes do prazo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

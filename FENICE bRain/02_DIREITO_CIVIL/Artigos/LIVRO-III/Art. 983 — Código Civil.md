@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 983 — [Artigo 983 - Direito Civil]
+# CC Art. 983 — A sociedade empresária deve constituir-se segundo um dos tipos regulados nos arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade empresária deve constituir-se segundo um dos tipos regulados nos arts. 1.039 a 1.092; a sociedade simples pode constituir-se de conformidade com um desses tipos, e, não o fazendo, subordina-se às normas que lhe são próprias. Parágrafo único. Ressalvam-se as disposições concernentes à sociedade em conta de participação e à cooperativa, bem como as constantes de leis especiais que, para o exercício de certas atividades, imponham a constituição da sociedade segundo determinado tipo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

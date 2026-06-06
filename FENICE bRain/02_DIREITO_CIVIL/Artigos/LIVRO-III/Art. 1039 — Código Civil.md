@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1039 — [Artigo 1039 - Direito Civil]
+# CC Art. 1039 — Somente pessoas físicas podem tomar parte na sociedade em nome coletivo, respondendo todos os sócios, solidária e ilimit
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Somente pessoas físicas podem tomar parte na sociedade em nome coletivo, respondendo todos os sócios, solidária e ilimitadamente, pelas obrigações sociais. Parágrafo único. Sem prejuízo da responsabilidade perante terceiros, podem os sócios, no ato constitutivo, ou por unânime convenção posterior, limitar entre si a responsabilidade de cada um.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

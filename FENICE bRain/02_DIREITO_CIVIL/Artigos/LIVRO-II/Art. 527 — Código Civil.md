@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 527 — Na segunda hipótese do artigo antecedente, é facultado ao vendedor reter as prestações pagas até o necessário para cobri
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Na segunda hipótese do artigo antecedente, é facultado ao vendedor reter as prestações pagas até o necessário para cobrir a depreciação da coisa, as despesas feitas e o mais que de direito lhe for devido. O excedente será devolvido ao comprador; e o que faltar lhe será cobrado, tudo na forma da lei processual.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

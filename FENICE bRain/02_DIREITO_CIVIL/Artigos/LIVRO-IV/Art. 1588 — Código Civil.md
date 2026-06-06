@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1588 — [Artigo 1588 - Direito Civil]
+# CC Art. 1588 — O pai ou a mãe que contrair novas núpcias não perde o direito de ter consigo os filhos, que só lhe poderão ser retirados
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pai ou a mãe que contrair novas núpcias não perde o direito de ter consigo os filhos, que só lhe poderão ser retirados por mandado judicial, provado que não são tratados convenientemente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

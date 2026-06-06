@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1919 — [Artigo 1919 - Direito Civil]
+# CC Art. 1919 — Não o declarando expressamente o testador, não se reputará compensação da sua dívida o legado que ele faça ao credor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não o declarando expressamente o testador, não se reputará compensação da sua dívida o legado que ele faça ao credor. Parágrafo único. Subsistirá integralmente o legado, se a dívida lhe foi posterior, e o testador a solveu antes de morrer.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

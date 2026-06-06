@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 850 — [Artigo 850 - Direito Civil]
+# CC Art. 850 — É nula a transação a respeito do litígio decidido por sentença passada em julgado, se dela não tinha ciência algum dos t
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nula a transação a respeito do litígio decidido por sentença passada em julgado, se dela não tinha ciência algum dos transatores, ou quando, por título ulteriormente descoberto, se verificar que nenhum deles tinha direito sobre o objeto da transação. CAPÍTULO XX Do Compromisso
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

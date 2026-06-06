@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1832 — [Artigo 1832 - Direito Civil]
+# CC Art. 1832 — Em concorrência com os descendentes (art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Em concorrência com os descendentes (art. 1.829, inciso I) caberá ao cônjuge quinhão igual ao dos que sucederem por cabeça, não podendo a sua quota ser inferior à quarta parte da herança, se for ascendente dos herdeiros com que concorrer.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

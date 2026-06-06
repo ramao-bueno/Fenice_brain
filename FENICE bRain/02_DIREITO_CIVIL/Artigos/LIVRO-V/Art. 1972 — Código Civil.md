@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1972 — [Artigo 1972 - Direito Civil]
+# CC Art. 1972 — O testamento cerrado que o testador abrir ou dilacerar, ou for aberto ou dilacerado com seu consentimento, haver-se-á co
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testamento cerrado que o testador abrir ou dilacerar, ou for aberto ou dilacerado com seu consentimento, haver-se-á como revogado. CAPÍTULO XIII Do Rompimento do Testamento
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

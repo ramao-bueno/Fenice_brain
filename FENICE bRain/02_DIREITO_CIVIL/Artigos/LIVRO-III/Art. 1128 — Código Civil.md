@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1128 — [Artigo 1128 - Direito Civil]
+# CC Art. 1128 — O requerimento de autorização de sociedade nacional deve ser acompanhado de cópia do contrato, assinada por todos os sóc
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O requerimento de autorização de sociedade nacional deve ser acompanhado de cópia do contrato, assinada por todos os sócios, ou, tratando-se de sociedade anônima, de cópia, autenticada pelos fundadores, dos documentos exigidos pela lei especial. Parágrafo único. Se a sociedade tiver sido constituída por escritura pública, bastará juntar-se ao requerimento a respectiva certidão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1077 — [Artigo 1077 - Direito Civil]
+# CC Art. 1077 — Quando houver modificação do contrato, fusão da sociedade, incorporação de outra, ou dela por outra, terá o sócio que di
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando houver modificação do contrato, fusão da sociedade, incorporação de outra, ou dela por outra, terá o sócio que dissentiu o direito de retirar-se da sociedade, nos trinta dias subseqüentes à reunião, aplicando-se, no silêncio do contrato social antes vigente, o disposto no art. 1.031.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

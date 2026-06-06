@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1679 — [Artigo 1679 - Direito Civil]
+# CC Art. 1679 — No caso de bens adquiridos pelo trabalho conjunto, terá cada um dos cônjuges uma quota igual no condomínio ou no crédito
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> No caso de bens adquiridos pelo trabalho conjunto, terá cada um dos cônjuges uma quota igual no condomínio ou no crédito por aquele modo estabelecido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

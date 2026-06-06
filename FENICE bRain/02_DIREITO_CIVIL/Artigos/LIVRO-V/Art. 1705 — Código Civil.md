@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1705 — [Artigo 1705 - Direito Civil]
+# CC Art. 1705 — Para obter alimentos, o filho havido fora do casamento pode acionar o genitor, sendo facultado ao juiz determinar, a ped
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para obter alimentos, o filho havido fora do casamento pode acionar o genitor, sendo facultado ao juiz determinar, a pedido de qualquer das partes, que a ação se processe em segredo de justiça.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

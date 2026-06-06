@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1276 — [Artigo 1276 - Direito Civil]
+# CC Art. 1276 — O imóvel urbano que o proprietário abandonar, com a intenção de não mais o conservar em seu patrimônio, e que se não enc
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O imóvel urbano que o proprietário abandonar, com a intenção de não mais o conservar em seu patrimônio, e que se não encontrar na posse de outrem, poderá ser arrecadado, como bem vago, e passar, três anos depois, à propriedade do Município ou à do Distrito Federal, se se achar nas respectivas circunscrições. § 1 o O imóvel situado na zona rural, abandonado nas mesmas circunstâncias, poderá ser arrecadado, como bem vago, e passar, três anos depois, à propriedade da União, onde quer que ele se localize. § 2 o Presumir-se-á de modo absoluto a intenção a que se refere este artigo, quando, cessados os atos de posse, deixar o proprietário de satisfazer os ônus fiscais. CAPÍTULO V Dos Direitos de Vizinhança Seção I Do Uso Anormal da Propriedade
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

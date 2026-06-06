@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1631 — [Artigo 1631 - Direito Civil]
+# CC Art. 1631 — Durante o casamento e a união estável, compete o poder familiar aos pais;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Durante o casamento e a união estável, compete o poder familiar aos pais; na falta ou impedimento de um deles, o outro o exercerá com exclusividade. Parágrafo único. Divergindo os pais quanto ao exercício do poder familiar, é assegurado a qualquer deles recorrer ao juiz para solução do desacordo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

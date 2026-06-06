@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1614 — [Artigo 1614 - Direito Civil]
+# CC Art. 1614 — O filho maior não pode ser reconhecido sem o seu consentimento, e o menor pode impugnar o reconhecimento, nos quatro ano
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O filho maior não pode ser reconhecido sem o seu consentimento, e o menor pode impugnar o reconhecimento, nos quatro anos que se seguirem à maioridade, ou à emancipação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

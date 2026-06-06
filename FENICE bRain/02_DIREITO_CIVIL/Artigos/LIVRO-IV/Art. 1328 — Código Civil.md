@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1328 — [Artigo 1328 - Direito Civil]
+# CC Art. 1328 — O proprietário que tiver direito a estremar um imóvel com paredes, cercas, muros, valas ou valados, tê-lo-á igualmente a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário que tiver direito a estremar um imóvel com paredes, cercas, muros, valas ou valados, tê-lo-á igualmente a adquirir meação na parede, muro, valado ou cerca do vizinho, embolsando-lhe metade do que atualmente valer a obra e o terreno por ela ocupado (art. 1.297).
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

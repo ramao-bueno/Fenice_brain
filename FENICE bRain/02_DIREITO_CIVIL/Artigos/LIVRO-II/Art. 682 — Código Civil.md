@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-- inciso-iii
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 682 — Cessa o mandato
@@ -24,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Cessa o mandato: I - pela revogação ou pela renúncia; II - pela morte ou interdição de uma das partes; III - pela mudança de estado que inabilite o mandante a conferir os poderes, ou o mandatário para os exercer; IV - pelo término do prazo ou pela conclusão do negócio.
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

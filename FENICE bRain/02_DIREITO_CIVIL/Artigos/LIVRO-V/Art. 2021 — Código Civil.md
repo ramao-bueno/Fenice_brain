@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2021 — [Artigo 2021 - Direito Civil]
+# CC Art. 2021 — Quando parte da herança consistir em bens remotos do lugar do inventário, litigiosos, ou de liquidação morosa ou difícil
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando parte da herança consistir em bens remotos do lugar do inventário, litigiosos, ou de liquidação morosa ou difícil, poderá proceder-se, no prazo legal, à partilha dos outros, reservando-se aqueles para uma ou mais sobrepartilhas, sob a guarda e a administração do mesmo ou diverso inventariante, e consentimento da maioria dos herdeiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

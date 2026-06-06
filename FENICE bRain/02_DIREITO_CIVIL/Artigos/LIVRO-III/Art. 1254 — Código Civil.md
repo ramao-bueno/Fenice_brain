@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1254 — [Artigo 1254 - Direito Civil]
+# CC Art. 1254 — Aquele que semeia, planta ou edifica em terreno próprio com sementes, plantas ou materiais alheios, adquire a propriedad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aquele que semeia, planta ou edifica em terreno próprio com sementes, plantas ou materiais alheios, adquire a propriedade destes; mas fica obrigado a pagar-lhes o valor, além de responder por perdas e danos, se agiu de má-fé.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1037 — [Artigo 1037 - Direito Civil]
+# CC Art. 1037 — Ocorrendo a hipótese prevista no inciso V do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ocorrendo a hipótese prevista no inciso V do art. 1.033, o Ministério Público, tão logo lhe comunique a autoridade competente, promoverá a liquidação judicial da sociedade, se os administradores não o tiverem feito nos trinta dias seguintes à perda da autorização, ou se o sócio não houver exercido a faculdade assegurada no parágrafo único do artigo antecedente. Parágrafo único. Caso o Ministério Público não promova a liquidação judicial da sociedade nos quinze dias subseqüentes ao recebimento da comunicação, a autoridade competente para conceder a autorização nomeará interventor com poderes para requerer a medida e administrar a sociedade até que seja nomeado o liquidante.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

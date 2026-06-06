@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 567 — Se, durante a locação, se deteriorar a coisa alugada, sem culpa do locatário, a este caberá pedir redução proporcional d
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se, durante a locação, se deteriorar a coisa alugada, sem culpa do locatário, a este caberá pedir redução proporcional do aluguel, ou resolver o contrato, caso já não sirva a coisa para o fim a que se destinava.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

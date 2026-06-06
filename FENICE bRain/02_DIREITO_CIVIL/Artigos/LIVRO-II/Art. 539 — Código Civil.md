@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 539 — O doador pode fixar prazo ao donatário, para declarar se aceita ou não a liberalidade
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O doador pode fixar prazo ao donatário, para declarar se aceita ou não a liberalidade. Desde que o donatário, ciente do prazo, não faça, dentro dele, a declaração, entender-se-á que aceitou, se a doação não for sujeita a encargo.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

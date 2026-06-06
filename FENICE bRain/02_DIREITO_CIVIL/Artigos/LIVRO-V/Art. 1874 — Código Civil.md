@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1874 — [Artigo 1874 - Direito Civil]
+# CC Art. 1874 — Depois de aprovado e cerrado, será o testamento entregue ao testador, e o tabelião lançará, no seu livro, nota do lugar,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Depois de aprovado e cerrado, será o testamento entregue ao testador, e o tabelião lançará, no seu livro, nota do lugar, dia, mês e ano em que o testamento foi aprovado e entregue.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

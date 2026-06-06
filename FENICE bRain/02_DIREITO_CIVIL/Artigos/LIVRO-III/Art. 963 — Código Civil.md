@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 963 — [Artigo 963 - Direito Civil]
+# CC Art. 963 — O privilégio especial só compreende os bens sujeitos, por expressa disposição de lei, ao pagamento do crédito que ele fa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O privilégio especial só compreende os bens sujeitos, por expressa disposição de lei, ao pagamento do crédito que ele favorece; e o geral, todos os bens não sujeitos a crédito real nem a privilégio especial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

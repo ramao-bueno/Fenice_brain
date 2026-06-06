@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1674 — [Artigo 1674 - Direito Civil]
+# CC Art. 1674 — Sobrevindo a dissolução da sociedade conjugal, apurar-se-á o montante dos aqüestos, excluindo-se da soma dos patrimônios
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sobrevindo a dissolução da sociedade conjugal, apurar-se-á o montante dos aqüestos, excluindo-se da soma dos patrimônios próprios: I - os bens anteriores ao casamento e os que em seu lugar se sub-rogaram; II - os que sobrevieram a cada cônjuge por sucessão ou liberalidade; III - as dívidas relativas a esses bens. Parágrafo único. Salvo prova em contrário, presumem-se adquiridos durante o casamento os bens móveis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

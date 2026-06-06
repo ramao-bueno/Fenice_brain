@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 529 — Na venda sobre documentos, a tradição da coisa é substituída pela entrega do seu título representativo e dos outros docu
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Na venda sobre documentos, a tradição da coisa é substituída pela entrega do seu título representativo e dos outros documentos exigidos pelo contrato ou, no silêncio deste, pelos usos. Parágrafo único. Achando-se a documentação em ordem, não pode o comprador recusar o pagamento, a pretexto de defeito de qualidade ou do estado da coisa vendida, salvo se o defeito já houver sido comprovado.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

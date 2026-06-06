@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 226 — Os livros e fichas dos empresários e sociedades provam contra as pessoas a que pertencem, e, em seu favor, quando, escri
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Os livros e fichas dos empresários e sociedades provam contra as pessoas a que pertencem, e, em seu favor, quando, escriturados sem vício extrínseco ou intrínseco, forem confirmados por outros subsídios. Parágrafo único. A prova resultante dos livros e fichas não é bastante nos casos em que a lei exige escritura pública, ou escrito particular revestido de requisitos especiais, e pode ser ilidida pela comprovação da falsidade ou inexatidão dos lançamentos.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

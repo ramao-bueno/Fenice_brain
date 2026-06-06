@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1462 — [Artigo 1462 - Direito Civil]
+# CC Art. 1462 — Constitui-se o penhor, a que se refere o artigo antecedente, mediante instrumento público ou particular, registrado no C
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Constitui-se o penhor, a que se refere o artigo antecedente, mediante instrumento público ou particular, registrado no Cartório de Títulos e Documentos do domicílio do devedor, e anotado no certificado de propriedade. Parágrafo único. Prometendo pagar em dinheiro a dívida garantida com o penhor, poderá o devedor emitir cédula de crédito, na forma e para os fins que a lei especial determinar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

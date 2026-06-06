@@ -9,12 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-1
-- inciso-ii
-- inciso-iii
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 113 — Os negócios jurídicos devem ser interpretados conforme a boa-fé e os usos do lugar de sua celebração
@@ -25,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> Os negócios jurídicos devem ser interpretados conforme a boa-fé e os usos do lugar de sua celebração. § 1º A interpretação do negócio jurídico deve lhe atribuir o sentido que: (Incluído pela Lei nº 13.874, de 2019) I - for confirmado pelo comportamento das partes posterior à celebração do negócio; (Incluído pela Lei nº 13.874, de 2019) II - corresponder aos usos, costumes e práticas do mercado relativas ao tipo de negócio; (Incluído pela Lei nº 13.874, de 2019) III - corresponder à boa-fé; (Incluído pela Lei nº 13.874, de 2019) IV - for mais benéfico à parte que não redigiu o dispositivo, se i...
+> Os negócios jurídicos devem ser interpretados conforme a boa-fé e os usos do lugar de sua celebração. § 1º A interpretação do negócio jurídico deve lhe atribuir o sentido que: (Incluído pela Lei nº 13.874, de 2019) I - for confirmado pelo comportamento das partes posterior à celebração do negócio; (Incluído pela Lei nº 13.874, de 2019) II - corresponder aos usos, costumes e práticas do mercado relativas ao tipo de negócio; (Incluído pela Lei nº 13.874, de 2019) III - corresponder à boa-fé; (Incluído pela Lei nº 13.874, de 2019) IV - for mais benéfico à parte que não redigiu o dispositivo, se identificável; e (Incluído pela Lei nº 13.874, de 2019) V - corresponder a qual seria a razoável negociação das partes sobre a questão discutida, inferida das demais disposições do negócio e da racionalidade econômica das partes, consideradas as informações disponíveis no momento de sua celebração. (Incluído pela Lei nº 13.874, de 2019) § 2º As partes poderão livremente pactuar regras de interpretação, de preenchimento de lacunas e de integração dos negócios jurídicos diversas daquelas previstas em lei. (Incluído pela Lei nº 13.874, de 2019)
 
 ---
 
@@ -59,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

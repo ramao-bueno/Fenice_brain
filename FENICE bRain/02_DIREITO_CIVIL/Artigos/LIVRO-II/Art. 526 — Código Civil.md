@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 526 — Verificada a mora do comprador, poderá o vendedor mover contra ele a competente ação de cobrança das prestações vencidas
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Verificada a mora do comprador, poderá o vendedor mover contra ele a competente ação de cobrança das prestações vencidas e vincendas e o mais que lhe for devido; ou poderá recuperar a posse da coisa vendida.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

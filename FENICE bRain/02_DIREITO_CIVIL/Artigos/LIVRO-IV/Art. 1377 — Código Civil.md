@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1377 — [Artigo 1377 - Direito Civil]
+# CC Art. 1377 — O direito de superfície, constituído por pessoa jurídica de direito público interno, rege-se por este Código, no que não
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O direito de superfície, constituído por pessoa jurídica de direito público interno, rege-se por este Código, no que não for diversamente disciplinado em lei especial. TÍTULO V Das Servidões CAPÍTULO I Da Constituição das Servidões
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

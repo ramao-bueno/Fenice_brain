@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1467 — [Artigo 1467 - Direito Civil]
+# CC Art. 1467 — São credores pignoratícios, independentemente de convenção
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São credores pignoratícios, independentemente de convenção: I - os hospedeiros, ou fornecedores de pousada ou alimento, sobre as bagagens, móveis, jóias ou dinheiro que os seus consumidores ou fregueses tiverem consigo nas respectivas casas ou estabelecimentos, pelas despesas ou consumo que aí tiverem feito; II - o dono do prédio rústico ou urbano, sobre os bens móveis que o rendeiro ou inquilino tiver guarnecendo o mesmo prédio, pelos aluguéis ou rendas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

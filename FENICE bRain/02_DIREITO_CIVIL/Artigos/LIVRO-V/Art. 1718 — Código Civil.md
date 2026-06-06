@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1718 — [Artigo 1718 - Direito Civil]
+# CC Art. 1718 — Qualquer forma de liquidação da entidade administradora, a que se refere o § 3 o do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Qualquer forma de liquidação da entidade administradora, a que se refere o § 3 o do art. 1.713, não atingirá os valores a ela confiados, ordenando o juiz a sua transferência para outra instituição semelhante, obedecendo-se, no caso de falência, ao disposto sobre pedido de restituição.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

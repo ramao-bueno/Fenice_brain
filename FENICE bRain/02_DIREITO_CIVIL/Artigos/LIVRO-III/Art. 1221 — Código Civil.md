@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1221 — [Artigo 1221 - Direito Civil]
+# CC Art. 1221 — As benfeitorias compensam-se com os danos, e só obrigam ao ressarcimento se ao tempo da evicção ainda existirem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As benfeitorias compensam-se com os danos, e só obrigam ao ressarcimento se ao tempo da evicção ainda existirem. (Vide Decreto-lei nº 4.037, de 1942)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

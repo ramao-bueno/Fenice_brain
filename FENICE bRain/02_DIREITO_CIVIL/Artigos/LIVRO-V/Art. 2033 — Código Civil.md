@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2033 — [Artigo 2033 - Direito Civil]
+# CC Art. 2033 — Salvo o disposto em lei especial, as modificações dos atos constitutivos das pessoas jurídicas referidas no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo o disposto em lei especial, as modificações dos atos constitutivos das pessoas jurídicas referidas no art. 44, bem como a sua transformação, incorporação, cisão ou fusão, regem-se desde logo por este Código.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

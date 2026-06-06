@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2026 — [Artigo 2026 - Direito Civil]
+# CC Art. 2026 — O evicto será indenizado pelos co-herdeiros na proporção de suas quotas hereditárias, mas, se algum deles se achar insol
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O evicto será indenizado pelos co-herdeiros na proporção de suas quotas hereditárias, mas, se algum deles se achar insolvente, responderão os demais na mesma proporção, pela parte desse, menos a quota que corresponderia ao indenizado. CAPÍTULO VII Da Anulação da Partilha
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

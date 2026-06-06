@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1164 — [Artigo 1164 - Direito Civil]
+# CC Art. 1164 — O nome empresarial não pode ser objeto de alienação
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O nome empresarial não pode ser objeto de alienação. Parágrafo único. O adquirente de estabelecimento, por ato entre vivos, pode, se o contrato o permitir, usar o nome do alienante, precedido do seu próprio, com a qualificação de sucessor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 976 — [Artigo 976 - Direito Civil]
+# CC Art. 976 — A prova da emancipação e da autorização do incapaz, nos casos do art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A prova da emancipação e da autorização do incapaz, nos casos do art. 974, e a de eventual revogação desta, serão inscritas ou averbadas no Registro Público de Empresas Mercantis. Parágrafo único. O uso da nova firma caberá, conforme o caso, ao gerente; ou ao representante do incapaz; ou a este, quando puder ser autorizado.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

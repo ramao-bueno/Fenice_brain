@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1061 — [Artigo 1061 - Direito Civil]
+# CC Art. 1061 — A designação de administradores não sócios dependerá da aprovação de, no mínimo, 2/3 (dois terços) dos sócios, enquanto
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A designação de administradores não sócios dependerá da aprovação de, no mínimo, 2/3 (dois terços) dos sócios, enquanto o capital não estiver integralizado, e da aprovação de titulares de quotas correspondentes a mais da metade do capital social, após a integralização. (Redação dada pela Lei nº 14.451, de 2022) Vigência
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

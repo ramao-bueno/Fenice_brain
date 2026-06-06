@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 223 — A cópia fotográfica de documento, conferida por tabelião de notas, valerá como prova de declaração da vontade, mas, impu
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A cópia fotográfica de documento, conferida por tabelião de notas, valerá como prova de declaração da vontade, mas, impugnada sua autenticidade, deverá ser exibido o original. Parágrafo único. A prova não supre a ausência do título de crédito, ou do original, nos casos em que a lei ou as circunstâncias condicionarem o exercício do direito à sua exibição.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 889 — [Artigo 889 - Direito Civil]
+# CC Art. 889 — Deve o título de crédito conter a data da emissão, a indicação precisa dos direitos que confere, e a assinatura do emite
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Deve o título de crédito conter a data da emissão, a indicação precisa dos direitos que confere, e a assinatura do emitente. § 1º É à vista o título de crédito que não contenha indicação de vencimento. § 2º Considera-se lugar de emissão e de pagamento, quando não indicado no título, o domicílio do emitente. § 3º O título poderá ser emitido a partir dos caracteres criados em computador ou meio técnico equivalente e que constem da escrituração do emitente, observados os requisitos mínimos previstos neste artigo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

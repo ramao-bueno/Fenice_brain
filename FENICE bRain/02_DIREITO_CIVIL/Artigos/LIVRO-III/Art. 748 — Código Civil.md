@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 748 — [Artigo 748 - Direito Civil]
+# CC Art. 748 — Até a entrega da coisa, pode o remetente desistir do transporte e pedi-la de volta, ou ordenar seja entregue a outro des
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Até a entrega da coisa, pode o remetente desistir do transporte e pedi-la de volta, ou ordenar seja entregue a outro destinatário, pagando, em ambos os casos, os acréscimos de despesa decorrentes da contra-ordem, mais as perdas e danos que houver.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

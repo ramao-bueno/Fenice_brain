@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1520 — [Artigo 1520 - Direito Civil]
+# CC Art. 1520 — Não será permitido, em qualquer caso, o casamento de quem não atingiu a idade núbil, observado o disposto no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não será permitido, em qualquer caso, o casamento de quem não atingiu a idade núbil, observado o disposto no art. 1.517 deste Código. (Redação dada pela Lei nº 13.811, de 2019) CAPÍTULO III Dos Impedimentos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

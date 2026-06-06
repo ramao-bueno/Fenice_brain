@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 676 — É obrigado o mandante a pagar ao mandatário a remuneração ajustada e as despesas da execução do mandato, ainda que o neg
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > É obrigado o mandante a pagar ao mandatário a remuneração ajustada e as despesas da execução do mandato, ainda que o negócio não surta o esperado efeito, salvo tendo o mandatário culpa.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

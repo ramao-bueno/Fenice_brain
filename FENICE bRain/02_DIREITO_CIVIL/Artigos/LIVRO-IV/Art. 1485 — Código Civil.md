@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1485 — [Artigo 1485 - Direito Civil]
+# CC Art. 1485 — Mediante simples averbação, requerida por ambas as partes, poderá prorrogar-se a hipoteca, até 30 (trinta) anos da data
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Mediante simples averbação, requerida por ambas as partes, poderá prorrogar-se a hipoteca, até 30 (trinta) anos da data do contrato. Desde que perfaça esse prazo, só poderá subsistir o contrato de hipoteca reconstituindo-se por novo título e novo registro; e, nesse caso, lhe será mantida a precedência, que então lhe competir. (Redação dada pela Lei nº 10.931, de 2004)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

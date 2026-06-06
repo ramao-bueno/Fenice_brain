@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1359 — [Artigo 1359 - Direito Civil]
+# CC Art. 1359 — Resolvida a propriedade pelo implemento da condição ou pelo advento do termo, entendem-se também resolvidos os direitos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Resolvida a propriedade pelo implemento da condição ou pelo advento do termo, entendem-se também resolvidos os direitos reais concedidos na sua pendência, e o proprietário, em cujo favor se opera a resolução, pode reivindicar a coisa do poder de quem a possua ou detenha.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

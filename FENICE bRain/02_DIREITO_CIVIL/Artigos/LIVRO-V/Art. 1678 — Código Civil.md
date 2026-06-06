@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1678 — [Artigo 1678 - Direito Civil]
+# CC Art. 1678 — Se um dos cônjuges solveu uma dívida do outro com bens do seu patrimônio, o valor do pagamento deve ser atualizado e imp
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se um dos cônjuges solveu uma dívida do outro com bens do seu patrimônio, o valor do pagamento deve ser atualizado e imputado, na data da dissolução, à meação do outro cônjuge.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

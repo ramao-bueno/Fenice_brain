@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1525 — [Artigo 1525 - Direito Civil]
+# CC Art. 1525 — O requerimento de habilitação para o casamento será firmado por ambos os nubentes, de próprio punho, ou, a seu pedido, p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O requerimento de habilitação para o casamento será firmado por ambos os nubentes, de próprio punho, ou, a seu pedido, por procurador, e deve ser instruído com os seguintes documentos: I - certidão de nascimento ou documento equivalente; II - autorização por escrito das pessoas sob cuja dependência legal estiverem, ou ato judicial que a supra; III - declaração de duas testemunhas maiores, parentes ou não, que atestem conhecê-los e afirmem não existir impedimento que os iniba de casar; IV - declaração do estado civil, do domicílio e da residência atual dos contraentes e de seus pais, se forem conhecidos; V - certidão de óbito do cônjuge falecido, de sentença declaratória de nulidade ou de anulação de casamento, transitada em julgado, ou do registro da sentença de divórcio.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

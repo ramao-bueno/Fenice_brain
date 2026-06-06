@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1074 — [Artigo 1074 - Direito Civil]
+# CC Art. 1074 — A assembléia dos sócios instala-se com a presença, em primeira convocação, de titulares de no mínimo três quartos do cap
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A assembléia dos sócios instala-se com a presença, em primeira convocação, de titulares de no mínimo três quartos do capital social, e, em segunda, com qualquer número. § 1 o O sócio pode ser representado na assembléia por outro sócio, ou por advogado, mediante outorga de mandato com especificação dos atos autorizados, devendo o instrumento ser levado a registro, juntamente com a ata. § 2 o Nenhum sócio, por si ou na condição de mandatário, pode votar matéria que lhe diga respeito diretamente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

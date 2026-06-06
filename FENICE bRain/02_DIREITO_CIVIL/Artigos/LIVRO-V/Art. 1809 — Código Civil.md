@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1809 — [Artigo 1809 - Direito Civil]
+# CC Art. 1809 — Falecendo o herdeiro antes de declarar se aceita a herança, o poder de aceitar passa-lhe aos herdeiros, a menos que se t
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Falecendo o herdeiro antes de declarar se aceita a herança, o poder de aceitar passa-lhe aos herdeiros, a menos que se trate de vocação adstrita a uma condição suspensiva, ainda não verificada. Parágrafo único. Os chamados à sucessão do herdeiro falecido antes da aceitação, desde que concordem em receber a segunda herança, poderão aceitar ou renunciar a primeira.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

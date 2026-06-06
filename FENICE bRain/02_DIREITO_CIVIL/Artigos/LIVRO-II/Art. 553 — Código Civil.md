@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 553 — O donatário é obrigado a cumprir os encargos da doação, caso forem a benefício do doador, de terceiro, ou do interesse g
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O donatário é obrigado a cumprir os encargos da doação, caso forem a benefício do doador, de terceiro, ou do interesse geral. Parágrafo único. Se desta última espécie for o encargo, o Ministério Público poderá exigir sua execução, depois da morte do doador, se este não tiver feito.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1827 — [Artigo 1827 - Direito Civil]
+# CC Art. 1827 — O herdeiro pode demandar os bens da herança, mesmo em poder de terceiros, sem prejuízo da responsabilidade do possuidor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O herdeiro pode demandar os bens da herança, mesmo em poder de terceiros, sem prejuízo da responsabilidade do possuidor originário pelo valor dos bens alienados. Parágrafo único. São eficazes as alienações feitas, a título oneroso, pelo herdeiro aparente a terceiro de boa-fé.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1430 — [Artigo 1430 - Direito Civil]
+# CC Art. 1430 — Quando, excutido o penhor, ou executada a hipoteca, o produto não bastar para pagamento da dívida e despesas judiciais,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando, excutido o penhor, ou executada a hipoteca, o produto não bastar para pagamento da dívida e despesas judiciais, continuará o devedor obrigado pessoalmente pelo restante. CAPÍTULO II Do Penhor Seção I Da Constituição do Penhor
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

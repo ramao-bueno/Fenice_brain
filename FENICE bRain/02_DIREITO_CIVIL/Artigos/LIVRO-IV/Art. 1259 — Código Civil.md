@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1259 — [Artigo 1259 - Direito Civil]
+# CC Art. 1259 — Se o construtor estiver de boa-fé, e a invasão do solo alheio exceder a vigésima parte deste, adquire a propriedade da p
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o construtor estiver de boa-fé, e a invasão do solo alheio exceder a vigésima parte deste, adquire a propriedade da parte do solo invadido, e responde por perdas e danos que abranjam o valor que a invasão acrescer à construção, mais o da área perdida e o da desvalorização da área remanescente; se de má-fé, é obrigado a demolir o que nele construiu, pagando as perdas e danos apurados, que serão devidos em dobro. CAPÍTULO III Da Aquisição da Propriedade Móvel Seção I Da Usucapião
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

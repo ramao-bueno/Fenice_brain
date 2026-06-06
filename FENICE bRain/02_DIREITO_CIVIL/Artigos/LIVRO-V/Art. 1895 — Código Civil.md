@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1895 — [Artigo 1895 - Direito Civil]
+# CC Art. 1895 — Caduca o testamento militar, desde que, depois dele, o testador esteja, noventa dias seguidos, em lugar onde possa testa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Caduca o testamento militar, desde que, depois dele, o testador esteja, noventa dias seguidos, em lugar onde possa testar na forma ordinária, salvo se esse testamento apresentar as solenidades prescritas no parágrafo único do artigo antecedente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

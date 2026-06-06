@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1971 — [Artigo 1971 - Direito Civil]
+# CC Art. 1971 — A revogação produzirá seus efeitos, ainda quando o testamento, que a encerra, vier a caducar por exclusão, incapacidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A revogação produzirá seus efeitos, ainda quando o testamento, que a encerra, vier a caducar por exclusão, incapacidade ou renúncia do herdeiro nele nomeado; não valerá, se o testamento revogatório for anulado por omissão ou infração de solenidades essenciais ou por vícios intrínsecos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

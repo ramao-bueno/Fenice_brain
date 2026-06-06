@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 401 — Purga-se a mora
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Purga-se a mora: I - por parte do devedor, oferecendo este a prestação mais a importância dos prejuízos decorrentes do dia da oferta; II - por parte do credor, oferecendo-se este a receber o pagamento e sujeitando-se aos efeitos da mora até a mesma data. CAPÍTULO III Das Perdas e Danos
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1388 — [Artigo 1388 - Direito Civil]
+# CC Art. 1388 — O dono do prédio serviente tem direito, pelos meios judiciais, ao cancelamento do registro, embora o dono do prédio domi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O dono do prédio serviente tem direito, pelos meios judiciais, ao cancelamento do registro, embora o dono do prédio dominante lho impugne: I - quando o titular houver renunciado a sua servidão; II - quando tiver cessado, para o prédio dominante, a utilidade ou a comodidade, que determinou a constituição da servidão; III - quando o dono do prédio serviente resgatar a servidão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

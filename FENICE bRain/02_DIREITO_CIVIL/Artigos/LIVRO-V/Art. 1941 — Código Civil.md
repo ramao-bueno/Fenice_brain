@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1941 — [Artigo 1941 - Direito Civil]
+# CC Art. 1941 — Quando vários herdeiros, pela mesma disposição testamentária, forem conjuntamente chamados à herança em quinhões não det
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando vários herdeiros, pela mesma disposição testamentária, forem conjuntamente chamados à herança em quinhões não determinados, e qualquer deles não puder ou não quiser aceitá-la, a sua parte acrescerá à dos co-herdeiros, salvo o direito do substituto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

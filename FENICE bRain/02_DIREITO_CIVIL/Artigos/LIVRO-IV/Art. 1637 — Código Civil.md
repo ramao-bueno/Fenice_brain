@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1637 — [Artigo 1637 - Direito Civil]
+# CC Art. 1637 — Se o pai, ou a mãe, abusar de sua autoridade, faltando aos deveres a eles inerentes ou arruinando os bens dos filhos, ca
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o pai, ou a mãe, abusar de sua autoridade, faltando aos deveres a eles inerentes ou arruinando os bens dos filhos, cabe ao juiz, requerendo algum parente, ou o Ministério Público, adotar a medida que lhe pareça reclamada pela segurança do menor e seus haveres, até suspendendo o poder familiar, quando convenha. Parágrafo único. Suspende-se igualmente o exercício do poder familiar ao pai ou à mãe condenados por sentença irrecorrível, em virtude de crime cuja pena exceda a dois anos de prisão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

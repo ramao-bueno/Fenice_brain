@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1338 — [Artigo 1338 - Direito Civil]
+# CC Art. 1338 — Resolvendo o condômino alugar área no abrigo para veículos, preferir-se-á, em condições iguais, qualquer dos condôminos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Resolvendo o condômino alugar área no abrigo para veículos, preferir-se-á, em condições iguais, qualquer dos condôminos a estranhos, e, entre todos, os possuidores.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 242 — Se para o melhoramento, ou aumento, empregou o devedor trabalho ou dispêndio, o caso se regulará pelas normas deste Códi
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se para o melhoramento, ou aumento, empregou o devedor trabalho ou dispêndio, o caso se regulará pelas normas deste Código atinentes às benfeitorias realizadas pelo possuidor de boa-fé ou de má-fé. Parágrafo único. Quanto aos frutos percebidos, observar-se-á, do mesmo modo, o disposto neste Código, acerca do possuidor de boa-fé ou de má-fé. Seção II Das Obrigações de Dar Coisa Incerta
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

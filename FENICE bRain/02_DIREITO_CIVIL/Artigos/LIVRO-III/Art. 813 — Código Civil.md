@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 813 — [Artigo 813 - Direito Civil]
+# CC Art. 813 — A renda constituída por título gratuito pode, por ato do instituidor, ficar isenta de todas as execuções pendentes e fut
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A renda constituída por título gratuito pode, por ato do instituidor, ficar isenta de todas as execuções pendentes e futuras. Parágrafo único. A isenção prevista neste artigo prevalece de pleno direito em favor dos montepios e pensões alimentícias. CAPÍTULO XVII Do Jogo e da Aposta
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

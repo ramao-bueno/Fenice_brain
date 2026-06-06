@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 238 — Se a obrigação for de restituir coisa certa, e esta, sem culpa do devedor, se perder antes da tradição, sofrerá o credor
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a obrigação for de restituir coisa certa, e esta, sem culpa do devedor, se perder antes da tradição, sofrerá o credor a perda, e a obrigação se resolverá, ressalvados os seus direitos até o dia da perda.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

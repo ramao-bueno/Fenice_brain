@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 962 — [Artigo 962 - Direito Civil]
+# CC Art. 962 — Quando concorrerem aos mesmos bens, e por título igual, dois ou mais credores da mesma classe especialmente privilegiado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando concorrerem aos mesmos bens, e por título igual, dois ou mais credores da mesma classe especialmente privilegiados, haverá entre eles rateio proporcional ao valor dos respectivos créditos, se o produto não bastar para o pagamento integral de todos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

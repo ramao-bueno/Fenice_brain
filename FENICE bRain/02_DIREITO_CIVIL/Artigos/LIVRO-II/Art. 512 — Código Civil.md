@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 512 — Não havendo prazo estipulado para a declaração do comprador, o vendedor terá direito de intimá-lo, judicial ou extrajudi
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não havendo prazo estipulado para a declaração do comprador, o vendedor terá direito de intimá-lo, judicial ou extrajudicialmente, para que o faça em prazo improrrogável. Subseção III Da Preempção ou Preferência
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

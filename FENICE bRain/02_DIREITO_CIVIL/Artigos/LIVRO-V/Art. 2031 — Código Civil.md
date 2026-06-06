@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2031 — [Artigo 2031 - Direito Civil]
+# CC Art. 2031 — As associações, sociedades e fundações, constituídas na forma das leis anteriores, bem como os empresários, deverão se a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As associações, sociedades e fundações, constituídas na forma das leis anteriores, bem como os empresários, deverão se adaptar às disposições deste Código até 11 de janeiro de 2007. (Redação dada pela Lei nº 11.127, de 2005) Parágrafo único. O disposto neste artigo não se aplica às organizações religiosas nem aos partidos políticos. (Incluído pela Lei nº 10.825, de 22.12.2003)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

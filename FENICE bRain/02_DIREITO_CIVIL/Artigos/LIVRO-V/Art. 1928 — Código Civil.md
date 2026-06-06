@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1928 — [Artigo 1928 - Direito Civil]
+# CC Art. 1928 — Sendo periódicas as prestações, só no termo de cada período se poderão exigir
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo periódicas as prestações, só no termo de cada período se poderão exigir. Parágrafo único. Se as prestações forem deixadas a título de alimentos, pagar-se-ão no começo de cada período, sempre que outra coisa não tenha disposto o testador.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

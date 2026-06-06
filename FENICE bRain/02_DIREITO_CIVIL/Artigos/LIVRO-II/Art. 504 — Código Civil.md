@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 504 — Não pode um condômino em coisa indivisível vender a sua parte a estranhos, se outro consorte a quiser, tanto por tanto
@@ -22,9 +20,9 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
-> Não pode um condômino em coisa indivisível vender a sua parte a estranhos, se outro consorte a quiser, tanto por tanto. O condômino, a quem não se der conhecimento da venda, poderá, depositando o preço, haver para si a parte vendida a estranhos, se o requerer no prazo de cento e oitenta dias, sob pena de decadência. Parágrafo único. Sendo muitos os condôminos, preferirá o que tiver benfeitorias de maior valor e, na falta de benfeitorias, o de quinhão maior. Se as partes forem iguais, haverão a parte vendida os comproprietários, que a quiserem, depositando previamente o preço. Seção II Das Cláu...
+> Não pode um condômino em coisa indivisível vender a sua parte a estranhos, se outro consorte a quiser, tanto por tanto. O condômino, a quem não se der conhecimento da venda, poderá, depositando o preço, haver para si a parte vendida a estranhos, se o requerer no prazo de cento e oitenta dias, sob pena de decadência. Parágrafo único. Sendo muitos os condôminos, preferirá o que tiver benfeitorias de maior valor e, na falta de benfeitorias, o de quinhão maior. Se as partes forem iguais, haverão a parte vendida os comproprietários, que a quiserem, depositando previamente o preço. Seção II Das Cláusulas Especiais à Compra e Venda Subseção I Da Retrovenda
 
 ---
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 510 — Também a venda sujeita a prova presume-se feita sob a condição suspensiva de que a coisa tenha as qualidades asseguradas
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Também a venda sujeita a prova presume-se feita sob a condição suspensiva de que a coisa tenha as qualidades asseguradas pelo vendedor e seja idônea para o fim a que se destina.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

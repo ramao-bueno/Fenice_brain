@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1808 — [Artigo 1808 - Direito Civil]
+# CC Art. 1808 — Não se pode aceitar ou renunciar a herança em parte, sob condição ou a termo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não se pode aceitar ou renunciar a herança em parte, sob condição ou a termo. § 1 o O herdeiro, a quem se testarem legados, pode aceitá-los, renunciando a herança; ou, aceitando-a, repudiá-los. § 2 o O herdeiro, chamado, na mesma sucessão, a mais de um quinhão hereditário, sob títulos sucessórios diversos, pode livremente deliberar quanto aos quinhões que aceita e aos que renuncia.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

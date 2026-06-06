@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 890 — [Artigo 890 - Direito Civil]
+# CC Art. 890 — Consideram-se não escritas no título a cláusula de juros, a proibitiva de endosso, a excludente de responsabilidade pelo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Consideram-se não escritas no título a cláusula de juros, a proibitiva de endosso, a excludente de responsabilidade pelo pagamento ou por despesas, a que dispense a observância de termos e formalidade prescritas, e a que, além dos limites fixados em lei, exclua ou restrinja direitos e obrigações.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

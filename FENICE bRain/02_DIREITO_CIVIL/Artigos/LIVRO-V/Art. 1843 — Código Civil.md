@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1843 — [Artigo 1843 - Direito Civil]
+# CC Art. 1843 — Na falta de irmãos, herdarão os filhos destes e, não os havendo, os tios
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na falta de irmãos, herdarão os filhos destes e, não os havendo, os tios. § 1 o Se concorrerem à herança somente filhos de irmãos falecidos, herdarão por cabeça. § 2 o Se concorrem filhos de irmãos bilaterais com filhos de irmãos unilaterais, cada um destes herdará a metade do que herdar cada um daqueles. § 3 o Se todos forem filhos de irmãos bilaterais, ou todos de irmãos unilaterais, herdarão por igual.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1169 — [Artigo 1169 - Direito Civil]
+# CC Art. 1169 — O preposto não pode, sem autorização escrita, fazer-se substituir no desempenho da preposição, sob pena de responder pes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O preposto não pode, sem autorização escrita, fazer-se substituir no desempenho da preposição, sob pena de responder pessoalmente pelos atos do substituto e pelas obrigações por ele contraídas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

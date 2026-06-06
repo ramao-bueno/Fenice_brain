@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1980 — [Artigo 1980 - Direito Civil]
+# CC Art. 1980 — O testamenteiro é obrigado a cumprir as disposições testamentárias, no prazo marcado pelo testador, e a dar contas do qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O testamenteiro é obrigado a cumprir as disposições testamentárias, no prazo marcado pelo testador, e a dar contas do que recebeu e despendeu, subsistindo sua responsabilidade enquanto durar a execução do testamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

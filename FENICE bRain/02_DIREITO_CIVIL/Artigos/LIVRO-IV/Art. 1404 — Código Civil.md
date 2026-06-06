@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1404 — [Artigo 1404 - Direito Civil]
+# CC Art. 1404 — Incumbem ao dono as reparações extraordinárias e as que não forem de custo módico;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Incumbem ao dono as reparações extraordinárias e as que não forem de custo módico; mas o usufrutuário lhe pagará os juros do capital despendido com as que forem necessárias à conservação, ou aumentarem o rendimento da coisa usufruída. § 1 o Não se consideram módicas as despesas superiores a dois terços do líquido rendimento em um ano. § 2 o Se o dono não fizer as reparações a que está obrigado, e que são indispensáveis à conservação da coisa, o usufrutuário pode realizá-las, cobrando daquele a importância despendida.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

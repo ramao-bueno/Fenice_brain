@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1132 — [Artigo 1132 - Direito Civil]
+# CC Art. 1132 — As sociedades anônimas nacionais, que dependam de autorização do Poder Executivo para funcionar, não se constituirão sem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As sociedades anônimas nacionais, que dependam de autorização do Poder Executivo para funcionar, não se constituirão sem obtê-la, quando seus fundadores pretenderem recorrer a subscrição pública para a formação do capital. § 1 o Os fundadores deverão juntar ao requerimento cópias autênticas do projeto do estatuto e do prospecto. § 2 o Obtida a autorização e constituída a sociedade, proceder-se-á à inscrição dos seus atos constitutivos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

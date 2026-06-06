@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 868 — [Artigo 868 - Direito Civil]
+# CC Art. 868 — O gestor responde pelo caso fortuito quando fizer operações arriscadas, ainda que o dono costumasse fazê-las, ou quando
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O gestor responde pelo caso fortuito quando fizer operações arriscadas, ainda que o dono costumasse fazê-las, ou quando preterir interesse deste em proveito de interesses seus. Parágrafo único. Querendo o dono aproveitar-se da gestão, será obrigado a indenizar o gestor das despesas necessárias, que tiver feito, e dos prejuízos, que por motivo da gestão, houver sofrido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

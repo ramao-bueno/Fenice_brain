@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1229 — [Artigo 1229 - Direito Civil]
+# CC Art. 1229 — A propriedade do solo abrange a do espaço aéreo e subsolo correspondentes, em altura e profundidade úteis ao seu exercíc
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A propriedade do solo abrange a do espaço aéreo e subsolo correspondentes, em altura e profundidade úteis ao seu exercício, não podendo o proprietário opor-se a atividades que sejam realizadas, por terceiros, a uma altura ou profundidade tais, que não tenha ele interesse legítimo em impedi-las.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

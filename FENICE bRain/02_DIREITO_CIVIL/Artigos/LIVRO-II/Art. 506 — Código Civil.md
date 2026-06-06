@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 506 — Se o comprador se recusar a receber as quantias a que faz jus, o vendedor, para exercer o direito de resgate, as deposit
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o comprador se recusar a receber as quantias a que faz jus, o vendedor, para exercer o direito de resgate, as depositará judicialmente. Parágrafo único. Verificada a insuficiência do depósito judicial, não será o vendedor restituído no domínio da coisa, até e enquanto não for integralmente pago o comprador.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

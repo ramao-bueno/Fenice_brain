@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1894 — [Artigo 1894 - Direito Civil]
+# CC Art. 1894 — Se o testador souber escrever, poderá fazer o testamento de seu punho, contanto que o date e assine por extenso, e o apr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o testador souber escrever, poderá fazer o testamento de seu punho, contanto que o date e assine por extenso, e o apresente aberto ou cerrado, na presença de duas testemunhas ao auditor, ou ao oficial de patente, que lhe faça as vezes neste mister. Parágrafo único. O auditor, ou o oficial a quem o testamento se apresente notará, em qualquer parte dele, lugar, dia, mês e ano, em que lhe for apresentado, nota esta que será assinada por ele e pelas testemunhas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2041 — [Artigo 2041 - Direito Civil]
+# CC Art. 2041 — As disposições deste Código relativas à ordem da vocação hereditária (arts
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As disposições deste Código relativas à ordem da vocação hereditária (arts. 1.829 a 1.844) não se aplicam à sucessão aberta antes de sua vigência, prevalecendo o disposto na lei anterior (Lei n o 3.071, de 1 o de janeiro de 1916) .
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

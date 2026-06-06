@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1332 — [Artigo 1332 - Direito Civil]
+# CC Art. 1332 — Institui-se o condomínio edilício por ato entre vivos ou testamento, registrado no Cartório de Registro de Imóveis, deve
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Institui-se o condomínio edilício por ato entre vivos ou testamento, registrado no Cartório de Registro de Imóveis, devendo constar daquele ato, além do disposto em lei especial: I - a discriminação e individualização das unidades de propriedade exclusiva, estremadas uma das outras e das partes comuns; II - a determinação da fração ideal atribuída a cada unidade, relativamente ao terreno e partes comuns; III - o fim a que as unidades se destinam.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

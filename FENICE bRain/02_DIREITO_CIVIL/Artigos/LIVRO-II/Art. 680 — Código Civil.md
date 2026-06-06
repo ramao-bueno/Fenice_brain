@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 680 — Se o mandato for outorgado por duas ou mais pessoas, e para negócio comum, cada uma ficará solidariamente responsável ao
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o mandato for outorgado por duas ou mais pessoas, e para negócio comum, cada uma ficará solidariamente responsável ao mandatário por todos os compromissos e efeitos do mandato, salvo direito regressivo, pelas quantias que pagar, contra os outros mandantes.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

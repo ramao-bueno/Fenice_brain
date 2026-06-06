@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1399 — [Artigo 1399 - Direito Civil]
+# CC Art. 1399 — O usufrutuário pode usufruir em pessoa, ou mediante arrendamento, o prédio, mas não mudar-lhe a destinação econômica, se
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O usufrutuário pode usufruir em pessoa, ou mediante arrendamento, o prédio, mas não mudar-lhe a destinação econômica, sem expressa autorização do proprietário. CAPÍTULO III Dos Deveres do Usufrutuário
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

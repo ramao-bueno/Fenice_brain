@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1110 — [Artigo 1110 - Direito Civil]
+# CC Art. 1110 — Encerrada a liquidação, o credor não satisfeito só terá direito a exigir dos sócios, individualmente, o pagamento do seu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Encerrada a liquidação, o credor não satisfeito só terá direito a exigir dos sócios, individualmente, o pagamento do seu crédito, até o limite da soma por eles recebida em partilha, e a propor contra o liquidante ação de perdas e danos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 869 — [Artigo 869 - Direito Civil]
+# CC Art. 869 — Se o negócio for utilmente administrado, cumprirá ao dono as obrigações contraídas em seu nome, reembolsando ao gestor a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o negócio for utilmente administrado, cumprirá ao dono as obrigações contraídas em seu nome, reembolsando ao gestor as despesas necessárias ou úteis que houver feito, com os juros legais, desde o desembolso, respondendo ainda pelos prejuízos que este houver sofrido por causa da gestão. § 1 o A utilidade, ou necessidade, da despesa, apreciar-se-á não pelo resultado obtido, mas segundo as circunstâncias da ocasião em que se fizerem. § 2 o Vigora o disposto neste artigo, ainda quando o gestor, em erro quanto ao dono do negócio, der a outra pessoa as contas da gestão.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

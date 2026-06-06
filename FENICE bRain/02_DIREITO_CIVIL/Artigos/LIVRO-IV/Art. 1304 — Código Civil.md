@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1304 — [Artigo 1304 - Direito Civil]
+# CC Art. 1304 — Nas cidades, vilas e povoados cuja edificação estiver adstrita a alinhamento, o dono de um terreno pode nele edificar, m
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nas cidades, vilas e povoados cuja edificação estiver adstrita a alinhamento, o dono de um terreno pode nele edificar, madeirando na parede divisória do prédio contíguo, se ela suportar a nova construção; mas terá de embolsar ao vizinho metade do valor da parede e do chão correspondentes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

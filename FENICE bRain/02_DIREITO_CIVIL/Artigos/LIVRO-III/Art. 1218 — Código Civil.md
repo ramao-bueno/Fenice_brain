@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1218 — [Artigo 1218 - Direito Civil]
+# CC Art. 1218 — O possuidor de má-fé responde pela perda, ou deterioração da coisa, ainda que acidentais, salvo se provar que de igual m
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O possuidor de má-fé responde pela perda, ou deterioração da coisa, ainda que acidentais, salvo se provar que de igual modo se teriam dado, estando ela na posse do reivindicante.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

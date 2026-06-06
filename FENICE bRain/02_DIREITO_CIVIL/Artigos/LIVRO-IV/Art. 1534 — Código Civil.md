@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1534 — [Artigo 1534 - Direito Civil]
+# CC Art. 1534 — A solenidade realizar-se-á na sede do cartório, com toda publicidade, a portas abertas, presentes pelo menos duas testem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A solenidade realizar-se-á na sede do cartório, com toda publicidade, a portas abertas, presentes pelo menos duas testemunhas, parentes ou não dos contraentes, ou, querendo as partes e consentindo a autoridade celebrante, noutro edifício público ou particular. § 1 o Quando o casamento for em edifício particular, ficará este de portas abertas durante o ato. § 2 o Serão quatro as testemunhas na hipótese do parágrafo anterior e se algum dos contraentes não souber ou não puder escrever.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

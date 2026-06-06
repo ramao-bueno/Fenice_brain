@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1364 — [Artigo 1364 - Direito Civil]
+# CC Art. 1364 — Vencida a dívida, e não paga, fica o credor obrigado a vender, judicial ou extrajudicialmente, a coisa a terceiros, a ap
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Vencida a dívida, e não paga, fica o credor obrigado a vender, judicial ou extrajudicialmente, a coisa a terceiros, a aplicar o preço no pagamento de seu crédito e das despesas de cobrança, e a entregar o saldo, se houver, ao devedor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

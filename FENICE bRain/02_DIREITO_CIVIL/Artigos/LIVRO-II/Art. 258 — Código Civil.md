@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 258 — A obrigação é indivisível quando a prestação tem por objeto uma coisa ou um fato não suscetíveis de divisão, por sua nat
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A obrigação é indivisível quando a prestação tem por objeto uma coisa ou um fato não suscetíveis de divisão, por sua natureza, por motivo de ordem econômica, ou dada a razão determinante do negócio jurídico.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

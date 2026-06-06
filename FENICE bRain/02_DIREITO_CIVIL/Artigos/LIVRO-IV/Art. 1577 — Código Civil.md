@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1577 — [Artigo 1577 - Direito Civil]
+# CC Art. 1577 — Seja qual for a causa da separação judicial e o modo como esta se faça, é lícito aos cônjuges restabelecer, a todo tempo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Seja qual for a causa da separação judicial e o modo como esta se faça, é lícito aos cônjuges restabelecer, a todo tempo, a sociedade conjugal, por ato regular em juízo. Parágrafo único. A reconciliação em nada prejudicará o direito de terceiros, adquirido antes e durante o estado de separado, seja qual for o regime de bens.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

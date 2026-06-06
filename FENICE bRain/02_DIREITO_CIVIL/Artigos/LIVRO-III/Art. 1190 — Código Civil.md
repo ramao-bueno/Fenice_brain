@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1190 — [Artigo 1190 - Direito Civil]
+# CC Art. 1190 — Ressalvados os casos previstos em lei, nenhuma autoridade, juiz ou tribunal, sob qualquer pretexto, poderá fazer ou orde
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ressalvados os casos previstos em lei, nenhuma autoridade, juiz ou tribunal, sob qualquer pretexto, poderá fazer ou ordenar diligência para verificar se o empresário ou a sociedade empresária observam, ou não, em seus livros e fichas, as formalidades prescritas em lei.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

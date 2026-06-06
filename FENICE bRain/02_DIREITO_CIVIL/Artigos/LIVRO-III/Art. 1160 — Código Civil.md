@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1160 — [Artigo 1160 - Direito Civil]
+# CC Art. 1160 — A sociedade anônima opera sob denominação integrada pelas expressões ‘sociedade anônima’ ou ‘companhia’, por extenso ou
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade anônima opera sob denominação integrada pelas expressões ‘sociedade anônima’ ou ‘companhia’, por extenso ou abreviadamente, facultada a designação do objeto social. (Redação dada pela Lei nº 14.382, de 2022) Parágrafo único. Pode constar da denominação o nome do fundador, acionista, ou pessoa que haja concorrido para o bom êxito da formação da empresa.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

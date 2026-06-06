@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1357 — [Artigo 1357 - Direito Civil]
+# CC Art. 1357 — Se a edificação for total ou consideravelmente destruída, ou ameace ruína, os condôminos deliberarão em assembléia sobre
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a edificação for total ou consideravelmente destruída, ou ameace ruína, os condôminos deliberarão em assembléia sobre a reconstrução, ou venda, por votos que representem metade mais uma das frações ideais. § 1 o Deliberada a reconstrução, poderá o condômino eximir-se do pagamento das despesas respectivas, alienando os seus direitos a outros condôminos, mediante avaliação judicial. § 2 o Realizada a venda, em que se preferirá, em condições iguais de oferta, o condômino ao estranho, será repartido o apurado entre os condôminos, proporcionalmente ao valor das suas unidades imobiliárias.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

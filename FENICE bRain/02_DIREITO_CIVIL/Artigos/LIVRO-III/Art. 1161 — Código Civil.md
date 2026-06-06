@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1161 — [Artigo 1161 - Direito Civil]
+# CC Art. 1161 — A sociedade em comandita por ações pode, em lugar de firma, adotar denominação aditada da expressão ‘comandita por ações
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade em comandita por ações pode, em lugar de firma, adotar denominação aditada da expressão ‘comandita por ações’, facultada a designação do objeto social. (Redação dada pela Lei nº 14.382, de 2022)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1612 — [Artigo 1612 - Direito Civil]
+# CC Art. 1612 — O filho reconhecido, enquanto menor, ficará sob a guarda do genitor que o reconheceu, e, se ambos o reconheceram e não h
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O filho reconhecido, enquanto menor, ficará sob a guarda do genitor que o reconheceu, e, se ambos o reconheceram e não houver acordo, sob a de quem melhor atender aos interesses do menor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

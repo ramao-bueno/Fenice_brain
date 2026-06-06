@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1782 — [Artigo 1782 - Direito Civil]
+# CC Art. 1782 — A interdição do pródigo só o privará de, sem curador, emprestar, transigir, dar quitação, alienar, hipotecar, demandar o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A interdição do pródigo só o privará de, sem curador, emprestar, transigir, dar quitação, alienar, hipotecar, demandar ou ser demandado, e praticar, em geral, os atos que não sejam de mera administração.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

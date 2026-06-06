@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1554 — [Artigo 1554 - Direito Civil]
+# CC Art. 1554 — Subsiste o casamento celebrado por aquele que, sem possuir a competência exigida na lei, exercer publicamente as funções
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Subsiste o casamento celebrado por aquele que, sem possuir a competência exigida na lei, exercer publicamente as funções de juiz de casamentos e, nessa qualidade, tiver registrado o ato no Registro Civil.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

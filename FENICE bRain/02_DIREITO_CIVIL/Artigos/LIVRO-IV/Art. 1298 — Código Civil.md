@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1298 — [Artigo 1298 - Direito Civil]
+# CC Art. 1298 — Sendo confusos, os limites, em falta de outro meio, se determinarão de conformidade com a posse justa;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sendo confusos, os limites, em falta de outro meio, se determinarão de conformidade com a posse justa; e, não se achando ela provada, o terreno contestado se dividirá por partes iguais entre os prédios, ou, não sendo possível a divisão cômoda, se adjudicará a um deles, mediante indenização ao outro. Seção VII Do Direito de Construir
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1501 — [Artigo 1501 - Direito Civil]
+# CC Art. 1501 — Não extinguirá a hipoteca, devidamente registrada, a arrematação ou adjudicação, sem que tenham sido notificados judicia
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não extinguirá a hipoteca, devidamente registrada, a arrematação ou adjudicação, sem que tenham sido notificados judicialmente os respectivos credores hipotecários, que não forem de qualquer modo partes na execução. Seção V Da Hipoteca de Vias Férreas
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1245 — [Artigo 1245 - Direito Civil]
+# CC Art. 1245 — Transfere-se entre vivos a propriedade mediante o registro do título translativo no Registro de Imóveis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Transfere-se entre vivos a propriedade mediante o registro do título translativo no Registro de Imóveis. § 1 o Enquanto não se registrar o título translativo, o alienante continua a ser havido como dono do imóvel. § 2 o Enquanto não se promover, por meio de ação própria, a decretação de invalidade do registro, e o respectivo cancelamento, o adquirente continua a ser havido como dono do imóvel.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

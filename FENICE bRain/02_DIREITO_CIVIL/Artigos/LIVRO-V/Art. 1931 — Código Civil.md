@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1931 — [Artigo 1931 - Direito Civil]
+# CC Art. 1931 — Se a opção foi deixada ao legatário, este poderá escolher, do gênero determinado, a melhor coisa que houver na herança;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a opção foi deixada ao legatário, este poderá escolher, do gênero determinado, a melhor coisa que houver na herança; e, se nesta não existir coisa de tal gênero, dar-lhe-á de outra congênere o herdeiro, observada a disposição na última parte do art. 1.929.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

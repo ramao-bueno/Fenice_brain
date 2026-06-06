@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- inciso-i
-- inciso-iii
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 557 — Podem ser revogadas por ingratidão as doações
@@ -24,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Podem ser revogadas por ingratidão as doações: I - se o donatário atentou contra a vida do doador ou cometeu crime de homicídio doloso contra ele; II - se cometeu contra ele ofensa física; III - se o injuriou gravemente ou o caluniou; IV - se, podendo ministrá-los, recusou ao doador os alimentos de que este necessitava.
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

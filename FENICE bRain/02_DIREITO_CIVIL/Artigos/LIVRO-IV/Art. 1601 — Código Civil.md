@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1601 — [Artigo 1601 - Direito Civil]
+# CC Art. 1601 — Cabe ao marido o direito de contestar a paternidade dos filhos nascidos de sua mulher, sendo tal ação imprescritível
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cabe ao marido o direito de contestar a paternidade dos filhos nascidos de sua mulher, sendo tal ação imprescritível. Parágrafo único. Contestada a filiação, os herdeiros do impugnante têm direito de prosseguir na ação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

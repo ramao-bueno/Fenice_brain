@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 546 — A doação feita em contemplação de casamento futuro com certa e determinada pessoa, quer pelos nubentes entre si, quer po
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A doação feita em contemplação de casamento futuro com certa e determinada pessoa, quer pelos nubentes entre si, quer por terceiro a um deles, a ambos, ou aos filhos que, de futuro, houverem um do outro, não pode ser impugnada por falta de aceitação, e só ficará sem efeito se o casamento não se realizar.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

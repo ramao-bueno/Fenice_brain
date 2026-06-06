@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 517 — Quando o direito de preempção for estipulado a favor de dois ou mais indivíduos em comum, só pode ser exercido em relaçã
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Quando o direito de preempção for estipulado a favor de dois ou mais indivíduos em comum, só pode ser exercido em relação à coisa no seu todo. Se alguma das pessoas, a quem ele toque, perder ou não exercer o seu direito, poderão as demais utilizá-lo na forma sobredita.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

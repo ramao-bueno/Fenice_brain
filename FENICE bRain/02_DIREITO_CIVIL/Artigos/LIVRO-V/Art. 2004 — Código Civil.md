@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2004 — [Artigo 2004 - Direito Civil]
+# CC Art. 2004 — O valor de colação dos bens doados será aquele, certo ou estimativo, que lhes atribuir o ato de liberalidade
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O valor de colação dos bens doados será aquele, certo ou estimativo, que lhes atribuir o ato de liberalidade. § 1 o Se do ato de doação não constar valor certo, nem houver estimação feita naquela época, os bens serão conferidos na partilha pelo que então se calcular valessem ao tempo da liberalidade. § 2 o Só o valor dos bens doados entrará em colação; não assim o das benfeitorias acrescidas, as quais pertencerão ao herdeiro donatário, correndo também à conta deste os rendimentos ou lucros, assim como os danos e perdas que eles sofrerem.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

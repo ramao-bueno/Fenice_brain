@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 998 — [Artigo 998 - Direito Civil]
+# CC Art. 998 — Nos trinta dias subseqüentes à sua constituição, a sociedade deverá requerer a inscrição do contrato social no Registro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Nos trinta dias subseqüentes à sua constituição, a sociedade deverá requerer a inscrição do contrato social no Registro Civil das Pessoas Jurídicas do local de sua sede. § 1º O pedido de inscrição será acompanhado do instrumento autenticado do contrato, e, se algum sócio nele houver sido representado por procurador, o da respectiva procuração, bem como, se for o caso, da prova de autorização da autoridade competente. § 2º Com todas as indicações enumeradas no artigo antecedente, será a inscrição tomada por termo no livro de registro próprio, e obedecerá a número de ordem contínua para todas as sociedades inscritas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

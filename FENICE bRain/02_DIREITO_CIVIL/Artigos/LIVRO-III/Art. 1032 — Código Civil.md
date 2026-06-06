@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1032 — [Artigo 1032 - Direito Civil]
+# CC Art. 1032 — A retirada, exclusão ou morte do sócio, não o exime, ou a seus herdeiros, da responsabilidade pelas obrigações sociais a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A retirada, exclusão ou morte do sócio, não o exime, ou a seus herdeiros, da responsabilidade pelas obrigações sociais anteriores, até dois anos após averbada a resolução da sociedade; nem nos dois primeiros casos, pelas posteriores e em igual prazo, enquanto não se requerer a averbação. Seção VI Da Dissolução
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

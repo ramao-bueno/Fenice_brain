@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 679 — Ainda que o mandatário contrarie as instruções do mandante, se não exceder os limites do mandato, ficará o mandante obri
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Ainda que o mandatário contrarie as instruções do mandante, se não exceder os limites do mandato, ficará o mandante obrigado para com aqueles com quem o seu procurador contratou; mas terá contra este ação pelas perdas e danos resultantes da inobservância das instruções.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

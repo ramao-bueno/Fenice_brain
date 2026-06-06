@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1095 — [Artigo 1095 - Direito Civil]
+# CC Art. 1095 — Na sociedade cooperativa, a responsabilidade dos sócios pode ser limitada ou ilimitada
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na sociedade cooperativa, a responsabilidade dos sócios pode ser limitada ou ilimitada. § 1 o É limitada a responsabilidade na cooperativa em que o sócio responde somente pelo valor de suas quotas e pelo prejuízo verificado nas operações sociais, guardada a proporção de sua participação nas mesmas operações. § 2 o É ilimitada a responsabilidade na cooperativa em que o sócio responde solidária e ilimitadamente pelas obrigações sociais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,14 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-- inciso-vi
-- inciso-vii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 166 — É nulo o negócio jurídico quando
@@ -27,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > É nulo o negócio jurídico quando: I - celebrado por pessoa absolutamente incapaz; II - for ilícito, impossível ou indeterminável o seu objeto; III - o motivo determinante, comum a ambas as partes, for ilícito; IV - não revestir a forma prescrita em lei; V - for preterida alguma solenidade que a lei considere essencial para a sua validade; VI - tiver por objetivo fraudar lei imperativa; VII - a lei taxativamente o declarar nulo, ou proibir-lhe a prática, sem cominar sanção.
 
@@ -61,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

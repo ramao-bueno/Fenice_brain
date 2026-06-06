@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1574 — [Artigo 1574 - Direito Civil]
+# CC Art. 1574 — Dar-se-á a separação judicial por mútuo consentimento dos cônjuges se forem casados por mais de um ano e o manifestarem
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Dar-se-á a separação judicial por mútuo consentimento dos cônjuges se forem casados por mais de um ano e o manifestarem perante o juiz, sendo por ele devidamente homologada a convenção. Parágrafo único. O juiz pode recusar a homologação e não decretar a separação judicial se apurar que a convenção não preserva suficientemente os interesses dos filhos ou de um dos cônjuges.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

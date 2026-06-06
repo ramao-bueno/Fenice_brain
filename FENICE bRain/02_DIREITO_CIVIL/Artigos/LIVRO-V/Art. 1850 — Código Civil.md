@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1850 — [Artigo 1850 - Direito Civil]
+# CC Art. 1850 — Para excluir da sucessão os herdeiros colaterais, basta que o testador disponha de seu patrimônio sem os contemplar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Para excluir da sucessão os herdeiros colaterais, basta que o testador disponha de seu patrimônio sem os contemplar. CAPÍTULO III Do Direito de Representação
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

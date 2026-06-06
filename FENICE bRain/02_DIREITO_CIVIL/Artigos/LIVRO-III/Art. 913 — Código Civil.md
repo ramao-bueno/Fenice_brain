@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 913 — [Artigo 913 - Direito Civil]
+# CC Art. 913 — O endossatário de endosso em branco pode mudá-lo para endosso em preto, completando-o com o seu nome ou de terceiro;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O endossatário de endosso em branco pode mudá-lo para endosso em preto, completando-o com o seu nome ou de terceiro; pode endossar novamente o título, em branco ou em preto; ou pode transferi-lo sem novo endosso.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

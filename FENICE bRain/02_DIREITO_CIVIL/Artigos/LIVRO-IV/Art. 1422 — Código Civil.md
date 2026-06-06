@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1422 — [Artigo 1422 - Direito Civil]
+# CC Art. 1422 — O credor hipotecário e o pignoratício têm o direito de excutir a coisa hipotecada ou empenhada, e preferir, no pagamento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O credor hipotecário e o pignoratício têm o direito de excutir a coisa hipotecada ou empenhada, e preferir, no pagamento, a outros credores, observada, quanto à hipoteca, a prioridade no registro. Parágrafo único. Excetuam-se da regra estabelecida neste artigo as dívidas que, em virtude de outras leis, devam ser pagas precipuamente a quaisquer outros créditos.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

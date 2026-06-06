@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1650 — [Artigo 1650 - Direito Civil]
+# CC Art. 1650 — A decretação de invalidade dos atos praticados sem outorga, sem consentimento, ou sem suprimento do juiz, só poderá ser
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A decretação de invalidade dos atos praticados sem outorga, sem consentimento, ou sem suprimento do juiz, só poderá ser demandada pelo cônjuge a quem cabia concedê-la, ou por seus herdeiros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

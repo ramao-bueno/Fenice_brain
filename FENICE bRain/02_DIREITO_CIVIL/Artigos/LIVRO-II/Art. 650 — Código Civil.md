@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 650 — Cessa, nos casos do artigo antecedente, a responsabilidade dos hospedeiros, se provarem que os fatos prejudiciais aos vi
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Cessa, nos casos do artigo antecedente, a responsabilidade dos hospedeiros, se provarem que os fatos prejudiciais aos viajantes ou hóspedes não podiam ter sido evitados.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

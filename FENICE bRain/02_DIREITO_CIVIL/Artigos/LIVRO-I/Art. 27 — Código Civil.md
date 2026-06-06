@@ -9,11 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 27 — Para o efeito previsto no artigo anterior, somente se consideram interessados
@@ -24,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Para o efeito previsto no artigo anterior, somente se consideram interessados: I - o cônjuge não separado judicialmente; II - os herdeiros presumidos, legítimos ou testamentários; III - os que tiverem sobre os bens do ausente direito dependente de sua morte; IV - os credores de obrigações vencidas e não pagas.
 
@@ -58,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

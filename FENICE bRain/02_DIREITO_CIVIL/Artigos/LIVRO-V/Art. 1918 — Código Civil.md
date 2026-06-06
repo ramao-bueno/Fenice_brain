@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1918 — [Artigo 1918 - Direito Civil]
+# CC Art. 1918 — O legado de crédito, ou de quitação de dívida, terá eficácia somente até a importância desta, ou daquele, ao tempo da mo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O legado de crédito, ou de quitação de dívida, terá eficácia somente até a importância desta, ou daquele, ao tempo da morte do testador. § 1 o Cumpre-se o legado, entregando o herdeiro ao legatário o título respectivo. § 2 o Este legado não compreende as dívidas posteriores à data do testamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

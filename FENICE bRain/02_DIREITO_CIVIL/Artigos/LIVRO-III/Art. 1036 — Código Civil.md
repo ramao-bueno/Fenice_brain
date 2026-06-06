@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1036 — [Artigo 1036 - Direito Civil]
+# CC Art. 1036 — Ocorrida a dissolução, cumpre aos administradores providenciar imediatamente a investidura do liquidante, e restringir a
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Ocorrida a dissolução, cumpre aos administradores providenciar imediatamente a investidura do liquidante, e restringir a gestão própria aos negócios inadiáveis, vedadas novas operações, pelas quais responderão solidária e ilimitadamente. Parágrafo único. Dissolvida de pleno direito a sociedade, pode o sócio requerer, desde logo, a liquidação judicial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

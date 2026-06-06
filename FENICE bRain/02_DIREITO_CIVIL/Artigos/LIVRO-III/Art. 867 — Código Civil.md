@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 867 — [Artigo 867 - Direito Civil]
+# CC Art. 867 — Se o gestor se fizer substituir por outrem, responderá pelas faltas do substituto, ainda que seja pessoa idônea, sem pre
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o gestor se fizer substituir por outrem, responderá pelas faltas do substituto, ainda que seja pessoa idônea, sem prejuízo da ação que a ele, ou ao dono do negócio, contra ela possa caber. Parágrafo único. Havendo mais de um gestor, solidária será a sua responsabilidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

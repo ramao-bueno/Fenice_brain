@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 880 — [Artigo 880 - Direito Civil]
+# CC Art. 880 — Fica isento de restituir pagamento indevido aquele que, recebendo-o como parte de dívida verdadeira, inutilizou o título
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Fica isento de restituir pagamento indevido aquele que, recebendo-o como parte de dívida verdadeira, inutilizou o título, deixou prescrever a pretensão ou abriu mão das garantias que asseguravam seu direito; mas aquele que pagou dispõe de ação regressiva contra o verdadeiro devedor e seu fiador.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1286 — [Artigo 1286 - Direito Civil]
+# CC Art. 1286 — Mediante recebimento de indenização que atenda, também, à desvalorização da área remanescente, o proprietário é obrigado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Mediante recebimento de indenização que atenda, também, à desvalorização da área remanescente, o proprietário é obrigado a tolerar a passagem, através de seu imóvel, de cabos, tubulações e outros condutos subterrâneos de serviços de utilidade pública, em proveito de proprietários vizinhos, quando de outro modo for impossível ou excessivamente onerosa. Parágrafo único. O proprietário prejudicado pode exigir que a instalação seja feita de modo menos gravoso ao prédio onerado, bem como, depois, seja removida, à sua custa, para outro local do imóvel.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 886 — [Artigo 886 - Direito Civil]
+# CC Art. 886 — Não caberá a restituição por enriquecimento, se a lei conferir ao lesado outros meios para se ressarcir do prejuízo sofr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não caberá a restituição por enriquecimento, se a lei conferir ao lesado outros meios para se ressarcir do prejuízo sofrido. TÍTULO VIII Dos Títulos de Crédito CAPÍTULO I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 471 — Se a pessoa a nomear era incapaz ou insolvente no momento da nomeação, o contrato produzirá seus efeitos entre os contra
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se a pessoa a nomear era incapaz ou insolvente no momento da nomeação, o contrato produzirá seus efeitos entre os contratantes originários. CAPÍTULO II Da Extinção do Contrato Seção I Do Distrato
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

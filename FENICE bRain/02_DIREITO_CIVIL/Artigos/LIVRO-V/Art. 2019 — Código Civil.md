@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2019 — [Artigo 2019 - Direito Civil]
+# CC Art. 2019 — Os bens insuscetíveis de divisão cômoda, que não couberem na meação do cônjuge sobrevivente ou no quinhão de um só herde
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os bens insuscetíveis de divisão cômoda, que não couberem na meação do cônjuge sobrevivente ou no quinhão de um só herdeiro, serão vendidos judicialmente, partilhando-se o valor apurado, a não ser que haja acordo para serem adjudicados a todos. § 1 o Não se fará a venda judicial se o cônjuge sobrevivente ou um ou mais herdeiros requererem lhes seja adjudicado o bem, repondo aos outros, em dinheiro, a diferença, após avaliação atualizada. § 2 o Se a adjudicação for requerida por mais de um herdeiro, observar-se-á o processo da licitação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

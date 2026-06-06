@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1521 — [Artigo 1521 - Direito Civil]
+# CC Art. 1521 — Não podem casar
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não podem casar: I - os ascendentes com os descendentes, seja o parentesco natural ou civil; II - os afins em linha reta; III - o adotante com quem foi cônjuge do adotado e o adotado com quem o foi do adotante; IV - os irmãos, unilaterais ou bilaterais, e demais colaterais, até o terceiro grau inclusive; V - o adotado com o filho do adotante; VI - as pessoas casadas; VII - o cônjuge sobrevivente com o condenado por homicídio ou tentativa de homicídio contra o seu consorte.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

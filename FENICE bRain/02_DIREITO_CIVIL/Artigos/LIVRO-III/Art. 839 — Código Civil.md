@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 839 — [Artigo 839 - Direito Civil]
+# CC Art. 839 — Se for invocado o benefício da excussão e o devedor, retardando-se a execução, cair em insolvência, ficará exonerado o f
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se for invocado o benefício da excussão e o devedor, retardando-se a execução, cair em insolvência, ficará exonerado o fiador que o invocou, se provar que os bens por ele indicados eram, ao tempo da penhora, suficientes para a solução da dívida afiançada. CAPÍTULO XIX Da Transação
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

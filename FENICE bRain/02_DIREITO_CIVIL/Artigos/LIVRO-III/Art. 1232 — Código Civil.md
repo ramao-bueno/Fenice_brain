@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1232 — [Artigo 1232 - Direito Civil]
+# CC Art. 1232 — Os frutos e mais produtos da coisa pertencem, ainda quando separados, ao seu proprietário, salvo se, por preceito jurídi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Os frutos e mais produtos da coisa pertencem, ainda quando separados, ao seu proprietário, salvo se, por preceito jurídico especial, couberem a outrem. Seção II Da Descoberta
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

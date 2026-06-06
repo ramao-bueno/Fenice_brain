@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1663 — [Artigo 1663 - Direito Civil]
+# CC Art. 1663 — A administração do patrimônio comum compete a qualquer dos cônjuges
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A administração do patrimônio comum compete a qualquer dos cônjuges. § 1 o As dívidas contraídas no exercício da administração obrigam os bens comuns e particulares do cônjuge que os administra, e os do outro na razão do proveito que houver auferido. § 2 o A anuência de ambos os cônjuges é necessária para os atos, a título gratuito, que impliquem cessão do uso ou gozo dos bens comuns. § 3 o Em caso de malversação dos bens, o juiz poderá atribuir a administração a apenas um dos cônjuges.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 449 — Não obstante a cláusula que exclui a garantia contra a evicção, se esta se der, tem direito o evicto a receber o preço q
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Não obstante a cláusula que exclui a garantia contra a evicção, se esta se der, tem direito o evicto a receber o preço que pagou pela coisa evicta, se não soube do risco da evicção, ou, dele informado, não o assumiu.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

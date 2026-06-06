@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1407 — [Artigo 1407 - Direito Civil]
+# CC Art. 1407 — Se a coisa estiver segurada, incumbe ao usufrutuário pagar, durante o usufruto, as contribuições do seguro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se a coisa estiver segurada, incumbe ao usufrutuário pagar, durante o usufruto, as contribuições do seguro. § 1 o Se o usufrutuário fizer o seguro, ao proprietário caberá o direito dele resultante contra o segurador. § 2 o Em qualquer hipótese, o direito do usufrutuário fica sub-rogado no valor da indenização do seguro.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

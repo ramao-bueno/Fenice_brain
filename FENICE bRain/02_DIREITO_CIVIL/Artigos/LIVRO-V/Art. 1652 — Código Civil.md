@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1652 — [Artigo 1652 - Direito Civil]
+# CC Art. 1652 — O cônjuge, que estiver na posse dos bens particulares do outro, será para com este e seus herdeiros responsável
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O cônjuge, que estiver na posse dos bens particulares do outro, será para com este e seus herdeiros responsável: I - como usufrutuário, se o rendimento for comum; II - como procurador, se tiver mandato expresso ou tácito para os administrar; III - como depositário, se não for usufrutuário, nem administrador. CAPÍTULO II Do Pacto Antenupcial
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1557 — [Artigo 1557 - Direito Civil]
+# CC Art. 1557 — Considera-se erro essencial sobre a pessoa do outro cônjuge
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Considera-se erro essencial sobre a pessoa do outro cônjuge: I - o que diz respeito à sua identidade, sua honra e boa fama, sendo esse erro tal que o seu conhecimento ulterior torne insuportável a vida em comum ao cônjuge enganado; II - a ignorância de crime, anterior ao casamento, que, por sua natureza, torne insuportável a vida conjugal; III - a ignorância, anterior ao casamento, de defeito físico irremediável que não caracterize deficiência ou de moléstia grave e transmissível, por contágio ou por herança, capaz de pôr em risco a saúde do outro cônjuge ou de sua descendência; (Redação dada pela Lei nº 13.146, de 2015) (Vigência) IV - (Revogado) . (Redação dada pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

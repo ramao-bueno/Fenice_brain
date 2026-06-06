@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1400 — [Artigo 1400 - Direito Civil]
+# CC Art. 1400 — O usufrutuário, antes de assumir o usufruto, inventariará, à sua custa, os bens que receber, determinando o estado em qu
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O usufrutuário, antes de assumir o usufruto, inventariará, à sua custa, os bens que receber, determinando o estado em que se acham, e dará caução, fidejussória ou real, se lha exigir o dono, de velar-lhes pela conservação, e entregá-los findo o usufruto. Parágrafo único. Não é obrigado à caução o doador que se reservar o usufruto da coisa doada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

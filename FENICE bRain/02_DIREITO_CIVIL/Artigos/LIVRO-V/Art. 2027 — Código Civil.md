@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2027 — [Artigo 2027 - Direito Civil]
+# CC Art. 2027 — A partilha é anulável pelos vícios e defeitos que invalidam, em geral, os negócios jurídicos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A partilha é anulável pelos vícios e defeitos que invalidam, em geral, os negócios jurídicos. (Redação dada pela Lei nº 13.105, de 2015) (Vigência) Parágrafo único. Extingue-se em um ano o direito de anular a partilha. LIVRO COMPLEMENTAR DAS Disposições Finais e Transitórias
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

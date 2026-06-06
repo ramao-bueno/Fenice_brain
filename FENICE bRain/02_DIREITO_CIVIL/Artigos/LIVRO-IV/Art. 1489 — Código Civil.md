@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1489 — [Artigo 1489 - Direito Civil]
+# CC Art. 1489 — A lei confere hipoteca
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A lei confere hipoteca: I - às pessoas de direito público interno (art. 41) sobre os imóveis pertencentes aos encarregados da cobrança, guarda ou administração dos respectivos fundos e rendas; II - aos filhos, sobre os imóveis do pai ou da mãe que passar a outras núpcias, antes de fazer o inventário do casal anterior; III - ao ofendido, ou aos seus herdeiros, sobre os imóveis do delinqüente, para satisfação do dano causado pelo delito e pagamento das despesas judiciais; IV - ao co-herdeiro, para garantia do seu quinhão ou torna da partilha, sobre o imóvel adjudicado ao herdeiro reponente; V - ao credor sobre o imóvel arrematado, para garantia do pagamento do restante do preço da arrematação.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

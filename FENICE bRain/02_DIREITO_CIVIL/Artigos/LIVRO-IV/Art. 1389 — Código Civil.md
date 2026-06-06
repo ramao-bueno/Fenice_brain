@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1389 — [Artigo 1389 - Direito Civil]
+# CC Art. 1389 — Também se extingue a servidão, ficando ao dono do prédio serviente a faculdade de fazê-la cancelar, mediante a prova da
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Também se extingue a servidão, ficando ao dono do prédio serviente a faculdade de fazê-la cancelar, mediante a prova da extinção: I - pela reunião dos dois prédios no domínio da mesma pessoa; II - pela supressão das respectivas obras por efeito de contrato, ou de outro título expresso; III - pelo não uso, durante dez anos contínuos. TÍTULO VI Do Usufruto CAPÍTULO I Disposições Gerais
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

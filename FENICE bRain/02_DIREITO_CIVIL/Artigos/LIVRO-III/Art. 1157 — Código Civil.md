@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1157 — [Artigo 1157 - Direito Civil]
+# CC Art. 1157 — A sociedade em que houver sócios de responsabilidade ilimitada operará sob firma, na qual somente os nomes daqueles pode
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade em que houver sócios de responsabilidade ilimitada operará sob firma, na qual somente os nomes daqueles poderão figurar, bastando para formá-la aditar ao nome de um deles a expressão "e companhia" ou sua abreviatura. Parágrafo único. Ficam solidária e ilimitadamente responsáveis pelas obrigações contraídas sob a firma social aqueles que, por seus nomes, figurarem na firma da sociedade de que trata este artigo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

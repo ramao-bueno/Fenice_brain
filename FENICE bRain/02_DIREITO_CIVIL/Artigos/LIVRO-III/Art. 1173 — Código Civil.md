@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1173 — [Artigo 1173 - Direito Civil]
+# CC Art. 1173 — Quando a lei não exigir poderes especiais, considera-se o gerente autorizado a praticar todos os atos necessários ao exe
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a lei não exigir poderes especiais, considera-se o gerente autorizado a praticar todos os atos necessários ao exercício dos poderes que lhe foram outorgados. Parágrafo único. Na falta de estipulação diversa, consideram-se solidários os poderes conferidos a dois ou mais gerentes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

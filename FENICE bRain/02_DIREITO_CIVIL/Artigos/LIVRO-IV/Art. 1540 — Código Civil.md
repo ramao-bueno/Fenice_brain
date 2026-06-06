@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1540 — [Artigo 1540 - Direito Civil]
+# CC Art. 1540 — Quando algum dos contraentes estiver em iminente risco de vida, não obtendo a presença da autoridade à qual incumba pres
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando algum dos contraentes estiver em iminente risco de vida, não obtendo a presença da autoridade à qual incumba presidir o ato, nem a de seu substituto, poderá o casamento ser celebrado na presença de seis testemunhas, que com os nubentes não tenham parentesco em linha reta, ou, na colateral, até segundo grau.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

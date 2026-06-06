@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1106 — [Artigo 1106 - Direito Civil]
+# CC Art. 1106 — Respeitados os direitos dos credores preferenciais, pagará o liquidante as dívidas sociais proporcionalmente, sem distin
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Respeitados os direitos dos credores preferenciais, pagará o liquidante as dívidas sociais proporcionalmente, sem distinção entre vencidas e vincendas, mas, em relação a estas, com desconto. Parágrafo único. Se o ativo for superior ao passivo, pode o liquidante, sob sua responsabilidade pessoal, pagar integralmente as dívidas vencidas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

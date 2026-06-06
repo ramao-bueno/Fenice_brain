@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1585 — [Artigo 1585 - Direito Civil]
+# CC Art. 1585 — Em sede de medida cautelar de separação de corpos, em sede de medida cautelar de guarda ou em outra sede de fixação limi
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Em sede de medida cautelar de separação de corpos, em sede de medida cautelar de guarda ou em outra sede de fixação liminar de guarda, a decisão sobre guarda de filhos, mesmo que provisória, será proferida preferencialmente após a oitiva de ambas as partes perante o juiz, salvo se a proteção aos interesses dos filhos exigir a concessão de liminar sem a oitiva da outra parte, aplicando-se as disposições do art. 1.584. (Redação dada pela Lei nº 13.058, de 2014)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

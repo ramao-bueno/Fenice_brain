@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 740 — [Artigo 740 - Direito Civil]
+# CC Art. 740 — O passageiro tem direito a rescindir o contrato de transporte antes de iniciada a viagem, sendo-lhe devida a restituição
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O passageiro tem direito a rescindir o contrato de transporte antes de iniciada a viagem, sendo-lhe devida a restituição do valor da passagem, desde que feita a comunicação ao transportador em tempo de ser renegociada. § 1 o Ao passageiro é facultado desistir do transporte, mesmo depois de iniciada a viagem, sendo-lhe devida a restituição do valor correspondente ao trecho não utilizado, desde que provado que outra pessoa haja sido transportada em seu lugar. § 2 o Não terá direito ao reembolso do valor da passagem o usuário que deixar de embarcar, salvo se provado que outra pessoa foi transportada em seu lugar, caso em que lhe será restituído o valor do bilhete não utilizado. § 3 o Nas hipóteses previstas neste artigo, o transportador terá direito de reter até cinco por cento da importância a ser restituída ao passageiro, a título de multa compensatória.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

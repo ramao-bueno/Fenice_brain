@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1440 — [Artigo 1440 - Direito Civil]
+# CC Art. 1440 — Se o prédio estiver hipotecado, o penhor rural poderá constituir-se independentemente da anuência do credor hipotecário,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o prédio estiver hipotecado, o penhor rural poderá constituir-se independentemente da anuência do credor hipotecário, mas não lhe prejudica o direito de preferência, nem restringe a extensão da hipoteca, ao ser executada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

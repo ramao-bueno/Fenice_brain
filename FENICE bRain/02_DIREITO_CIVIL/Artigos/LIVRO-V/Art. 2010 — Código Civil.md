@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2010 — [Artigo 2010 - Direito Civil]
+# CC Art. 2010 — Não virão à colação os gastos ordinários do ascendente com o descendente, enquanto menor, na sua educação, estudos, sust
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Não virão à colação os gastos ordinários do ascendente com o descendente, enquanto menor, na sua educação, estudos, sustento, vestuário, tratamento nas enfermidades, enxoval, assim como as despesas de casamento, ou as feitas no interesse de sua defesa em processo-crime.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

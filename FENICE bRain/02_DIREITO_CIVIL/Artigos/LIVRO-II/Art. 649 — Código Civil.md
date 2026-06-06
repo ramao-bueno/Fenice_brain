@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 649 — Aos depósitos previstos no artigo antecedente é equiparado o das bagagens dos viajantes ou hóspedes nas hospedarias onde
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Aos depósitos previstos no artigo antecedente é equiparado o das bagagens dos viajantes ou hóspedes nas hospedarias onde estiverem. Parágrafo único. Os hospedeiros responderão como depositários, assim como pelos furtos e roubos que perpetrarem as pessoas empregadas ou admitidas nos seus estabelecimentos.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

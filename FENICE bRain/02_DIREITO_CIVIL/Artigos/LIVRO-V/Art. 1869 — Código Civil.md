@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1869 — [Artigo 1869 - Direito Civil]
+# CC Art. 1869 — O tabelião deve começar o auto de aprovação imediatamente depois da última palavra do testador, declarando, sob sua fé,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O tabelião deve começar o auto de aprovação imediatamente depois da última palavra do testador, declarando, sob sua fé, que o testador lhe entregou para ser aprovado na presença das testemunhas; passando a cerrar e coser o instrumento aprovado. Parágrafo único. Se não houver espaço na última folha do testamento, para início da aprovação, o tabelião aporá nele o seu sinal público, mencionando a circunstância no auto.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

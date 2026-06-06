@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 563 — A revogação por ingratidão não prejudica os direitos adquiridos por terceiros, nem obriga o donatário a restituir os fru
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A revogação por ingratidão não prejudica os direitos adquiridos por terceiros, nem obriga o donatário a restituir os frutos percebidos antes da citação válida; mas sujeita-o a pagar os posteriores, e, quando não possa restituir em espécie as coisas doadas, a indenizá-la pelo meio termo do seu valor.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

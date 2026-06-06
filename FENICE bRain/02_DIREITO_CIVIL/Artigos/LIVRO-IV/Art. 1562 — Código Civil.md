@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1562 — [Artigo 1562 - Direito Civil]
+# CC Art. 1562 — Antes de mover a ação de nulidade do casamento, a de anulação, a de separação judicial, a de divórcio direto ou a de dis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Antes de mover a ação de nulidade do casamento, a de anulação, a de separação judicial, a de divórcio direto ou a de dissolução de união estável, poderá requerer a parte, comprovando sua necessidade, a separação de corpos, que será concedida pelo juiz com a possível brevidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

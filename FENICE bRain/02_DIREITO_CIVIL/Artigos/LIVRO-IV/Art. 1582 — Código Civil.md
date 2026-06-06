@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1582 — [Artigo 1582 - Direito Civil]
+# CC Art. 1582 — O pedido de divórcio somente competirá aos cônjuges
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O pedido de divórcio somente competirá aos cônjuges. Parágrafo único. Se o cônjuge for incapaz para propor a ação ou defender-se, poderá fazê-lo o curador, o ascendente ou o irmão. CAPÍTULO XI Da Proteção da Pessoa dos Filhos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

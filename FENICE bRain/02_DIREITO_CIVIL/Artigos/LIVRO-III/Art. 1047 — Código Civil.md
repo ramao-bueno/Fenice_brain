@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1047 — [Artigo 1047 - Direito Civil]
+# CC Art. 1047 — Sem prejuízo da faculdade de participar das deliberações da sociedade e de lhe fiscalizar as operações, não pode o coman
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Sem prejuízo da faculdade de participar das deliberações da sociedade e de lhe fiscalizar as operações, não pode o comanditário praticar qualquer ato de gestão, nem ter o nome na firma social, sob pena de ficar sujeito às responsabilidades de sócio comanditado. Parágrafo único. Pode o comanditário ser constituído procurador da sociedade, para negócio determinado e com poderes especiais.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

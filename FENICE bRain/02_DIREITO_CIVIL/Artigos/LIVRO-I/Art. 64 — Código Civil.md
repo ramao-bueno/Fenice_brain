@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 64 — Constituída a fundação por negócio jurídico entre vivos, o instituidor é obrigado a transferir-lhe a propriedade, ou out
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Constituída a fundação por negócio jurídico entre vivos, o instituidor é obrigado a transferir-lhe a propriedade, ou outro direito real, sobre os bens dotados, e, se não o fizer, serão registrados, em nome dela, por mandado judicial.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

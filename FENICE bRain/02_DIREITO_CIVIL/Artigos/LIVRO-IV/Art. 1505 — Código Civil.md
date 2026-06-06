@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1505 — [Artigo 1505 - Direito Civil]
+# CC Art. 1505 — Na execução das hipotecas será intimado o representante da União ou do Estado, para, dentro em quinze dias, remir a estr
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Na execução das hipotecas será intimado o representante da União ou do Estado, para, dentro em quinze dias, remir a estrada de ferro hipotecada, pagando o preço da arrematação ou da adjudicação. CAPÍTULO IV Da Anticrese
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

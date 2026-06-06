@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1060 — [Artigo 1060 - Direito Civil]
+# CC Art. 1060 — A sociedade limitada é administrada por uma ou mais pessoas designadas no contrato social ou em ato separado
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade limitada é administrada por uma ou mais pessoas designadas no contrato social ou em ato separado. Parágrafo único. A administração atribuída no contrato a todos os sócios não se estende de pleno direito aos que posteriormente adquiram essa qualidade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

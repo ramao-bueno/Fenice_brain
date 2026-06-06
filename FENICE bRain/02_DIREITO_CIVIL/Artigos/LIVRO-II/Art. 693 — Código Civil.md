@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 693 — O contrato de comissão tem por objeto a compra ou venda de bens ou a realização de mútuo ou outro negócio jurídico de cr
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O contrato de comissão tem por objeto a compra ou venda de bens ou a realização de mútuo ou outro negócio jurídico de crédito pelo comissário, em seu próprio nome, à conta do comitente. (Redação dada pela Lei nº 14.690, de 2023) Vigência
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

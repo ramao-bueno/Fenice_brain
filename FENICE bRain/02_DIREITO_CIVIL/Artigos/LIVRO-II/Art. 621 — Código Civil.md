@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 621 — Sem anuência de seu autor, não pode o proprietário da obra introduzir modificações no projeto por ele aprovado, ainda qu
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Sem anuência de seu autor, não pode o proprietário da obra introduzir modificações no projeto por ele aprovado, ainda que a execução seja confiada a terceiros, a não ser que, por motivos supervenientes ou razões de ordem técnica, fique comprovada a inconveniência ou a excessiva onerosidade de execução do projeto em sua forma originária. Parágrafo único. A proibição deste artigo não abrange alterações de pouca monta, ressalvada sempre a unidade estética da obra projetada.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

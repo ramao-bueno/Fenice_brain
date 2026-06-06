@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1930 — [Artigo 1930 - Direito Civil]
+# CC Art. 1930 — O estabelecido no artigo antecedente será observado, quando a escolha for deixada a arbítrio de terceiro;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O estabelecido no artigo antecedente será observado, quando a escolha for deixada a arbítrio de terceiro; e, se este não a quiser ou não a puder exercer, ao juiz competirá fazê-la, guardado o disposto na última parte do artigo antecedente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

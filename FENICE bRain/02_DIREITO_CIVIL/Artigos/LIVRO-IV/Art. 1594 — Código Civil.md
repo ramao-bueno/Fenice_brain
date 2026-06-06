@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1594 — [Artigo 1594 - Direito Civil]
+# CC Art. 1594 — Contam-se, na linha reta, os graus de parentesco pelo número de gerações, e, na colateral, também pelo número delas, sub
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Contam-se, na linha reta, os graus de parentesco pelo número de gerações, e, na colateral, também pelo número delas, subindo de um dos parentes até ao ascendente comum, e descendo até encontrar o outro parente.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

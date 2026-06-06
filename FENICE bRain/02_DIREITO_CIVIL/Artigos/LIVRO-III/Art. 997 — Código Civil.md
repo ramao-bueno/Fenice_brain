@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 997 — [Artigo 997 - Direito Civil]
+# CC Art. 997 — A sociedade constitui-se mediante contrato escrito, particular ou público, que, além de cláusulas estipuladas pelas part
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade constitui-se mediante contrato escrito, particular ou público, que, além de cláusulas estipuladas pelas partes, mencionará: I - nome, nacionalidade, estado civil, profissão e residência dos sócios, se pessoas naturais, e a firma ou a denominação, nacionalidade e sede dos sócios, se jurídicas; II - denominação, objeto, sede e prazo da sociedade; III - capital da sociedade, expresso em moeda corrente, podendo compreender qualquer espécie de bens, suscetíveis de avaliação pecuniária; IV - a quota de cada sócio no capital social, e o modo de realizá-la; V - as prestações a que se obriga o sócio, cuja contribuição consista em serviços; VI - as pessoas naturais incumbidas da administração da sociedade, e seus poderes e atribuições; VII - a participação de cada sócio nos lucros e nas perdas; VIII - se os sócios respondem, ou não, subsidiariamente, pelas obrigações sociais. Parágrafo único. É ineficaz em relação a terceiros qualquer pacto separado, contrário ao disposto no instrumento do contrato.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

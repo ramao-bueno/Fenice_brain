@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1219 — [Artigo 1219 - Direito Civil]
+# CC Art. 1219 — O possuidor de boa-fé tem direito à indenização das benfeitorias necessárias e úteis, bem como, quanto às voluptuárias,
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O possuidor de boa-fé tem direito à indenização das benfeitorias necessárias e úteis, bem como, quanto às voluptuárias, se não lhe forem pagas, a levantá-las, quando o puder sem detrimento da coisa, e poderá exercer o direito de retenção pelo valor das benfeitorias necessárias e úteis.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

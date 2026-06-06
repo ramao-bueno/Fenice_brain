@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1487 — [Artigo 1487 - Direito Civil]
+# CC Art. 1487 — A hipoteca pode ser constituída para garantia de dívida futura ou condicionada, desde que determinado o valor máximo do
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A hipoteca pode ser constituída para garantia de dívida futura ou condicionada, desde que determinado o valor máximo do crédito a ser garantido. § 1 o Nos casos deste artigo, a execução da hipoteca dependerá de prévia e expressa concordância do devedor quanto à verificação da condição, ou ao montante da dívida. § 2 o Havendo divergência entre o credor e o devedor, caberá àquele fazer prova de seu crédito. Reconhecido este, o devedor responderá, inclusive, por perdas e danos, em razão da superveniente desvalorização do imóvel.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

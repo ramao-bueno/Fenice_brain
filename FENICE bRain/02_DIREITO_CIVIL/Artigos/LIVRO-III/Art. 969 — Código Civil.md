@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 969 — [Artigo 969 - Direito Civil]
+# CC Art. 969 — O empresário que instituir sucursal, filial ou agência, em lugar sujeito à jurisdição de outro Registro Público de Empre
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O empresário que instituir sucursal, filial ou agência, em lugar sujeito à jurisdição de outro Registro Público de Empresas Mercantis, neste deverá também inscrevê-la, com a prova da inscrição originária. Parágrafo único. Em qualquer caso, a constituição do estabelecimento secundário deverá ser averbada no Registro Público de Empresas Mercantis da respectiva sede.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

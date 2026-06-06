@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1038 — [Artigo 1038 - Direito Civil]
+# CC Art. 1038 — Se não estiver designado no contrato social, o liquidante será eleito por deliberação dos sócios, podendo a escolha reca
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se não estiver designado no contrato social, o liquidante será eleito por deliberação dos sócios, podendo a escolha recair em pessoa estranha à sociedade. § 1 o O liquidante pode ser destituído, a todo tempo: I - se eleito pela forma prevista neste artigo, mediante deliberação dos sócios; II - em qualquer caso, por via judicial, a requerimento de um ou mais sócios, ocorrendo justa causa. § 2 o A liquidação da sociedade se processa de conformidade com o disposto no Capítulo IX, deste Subtítulo. CAPÍTULO II Da Sociedade em Nome Coletivo
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

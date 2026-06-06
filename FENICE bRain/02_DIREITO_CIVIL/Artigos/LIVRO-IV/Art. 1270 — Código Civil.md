@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1270 — [Artigo 1270 - Direito Civil]
+# CC Art. 1270 — Se toda a matéria for alheia, e não se puder reduzir à forma precedente, será do especificador de boa-fé a espécie nova
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se toda a matéria for alheia, e não se puder reduzir à forma precedente, será do especificador de boa-fé a espécie nova. § 1 o Sendo praticável a redução, ou quando impraticável, se a espécie nova se obteve de má-fé, pertencerá ao dono da matéria-prima. § 2 o Em qualquer caso, inclusive o da pintura em relação à tela, da escultura, escritura e outro qualquer trabalho gráfico em relação à matéria-prima, a espécie nova será do especificador, se o seu valor exceder consideravelmente o da matéria-prima.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

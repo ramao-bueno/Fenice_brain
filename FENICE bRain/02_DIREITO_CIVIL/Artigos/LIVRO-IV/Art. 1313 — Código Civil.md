@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1313 — [Artigo 1313 - Direito Civil]
+# CC Art. 1313 — O proprietário ou ocupante do imóvel é obrigado a tolerar que o vizinho entre no prédio, mediante prévio aviso, para
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O proprietário ou ocupante do imóvel é obrigado a tolerar que o vizinho entre no prédio, mediante prévio aviso, para: I - dele temporariamente usar, quando indispensável à reparação, construção, reconstrução ou limpeza de sua casa ou do muro divisório; II - apoderar-se de coisas suas, inclusive animais que aí se encontrem casualmente. § 1 o O disposto neste artigo aplica-se aos casos de limpeza ou reparação de esgotos, goteiras, aparelhos higiênicos, poços e nascentes e ao aparo de cerca viva. § 2 o Na hipótese do inciso II, uma vez entregues as coisas buscadas pelo vizinho, poderá ser impedida a sua entrada no imóvel. § 3 o Se do exercício do direito assegurado neste artigo provier dano, terá o prejudicado direito a ressarcimento. CAPÍTULO VI Do Condomínio Geral Seção I Do Condomínio Voluntário Subseção I Dos Direitos e Deveres dos Condôminos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

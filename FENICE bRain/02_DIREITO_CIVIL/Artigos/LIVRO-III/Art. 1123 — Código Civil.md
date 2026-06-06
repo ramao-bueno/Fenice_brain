@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1123 — [Artigo 1123 - Direito Civil]
+# CC Art. 1123 — A sociedade que dependa de autorização do Poder Executivo para funcionar reger-se-á por este título, sem prejuízo do dis
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade que dependa de autorização do Poder Executivo para funcionar reger-se-á por este título, sem prejuízo do disposto em lei especial. Parágrafo único. A competência para a autorização será sempre do Poder Executivo federal.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

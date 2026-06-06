@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1530 — [Artigo 1530 - Direito Civil]
+# CC Art. 1530 — O oficial do registro dará aos nubentes ou a seus representantes nota da oposição, indicando os fundamentos, as provas e
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O oficial do registro dará aos nubentes ou a seus representantes nota da oposição, indicando os fundamentos, as provas e o nome de quem a ofereceu. Parágrafo único. Podem os nubentes requerer prazo razoável para fazer prova contrária aos fatos alegados, e promover as ações civis e criminais contra o oponente de má-fé.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

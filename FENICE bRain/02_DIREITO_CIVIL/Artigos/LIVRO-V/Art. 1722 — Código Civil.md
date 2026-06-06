@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1722 — [Artigo 1722 - Direito Civil]
+# CC Art. 1722 — Extingue-se, igualmente, o bem de família com a morte de ambos os cônjuges e a maioridade dos filhos, desde que não suje
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extingue-se, igualmente, o bem de família com a morte de ambos os cônjuges e a maioridade dos filhos, desde que não sujeitos a curatela. TÍTULO III DA UNIÃO ESTÁVEL
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

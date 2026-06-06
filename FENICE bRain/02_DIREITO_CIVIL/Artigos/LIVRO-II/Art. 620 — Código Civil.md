@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 620 — Se ocorrer diminuição no preço do material ou da mão-de-obra superior a um décimo do preço global convencionado, poderá
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se ocorrer diminuição no preço do material ou da mão-de-obra superior a um décimo do preço global convencionado, poderá este ser revisto, a pedido do dono da obra, para que se lhe assegure a diferença apurada.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

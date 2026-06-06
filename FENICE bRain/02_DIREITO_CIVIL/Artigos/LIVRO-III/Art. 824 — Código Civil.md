@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 824 — [Artigo 824 - Direito Civil]
+# CC Art. 824 — As obrigações nulas não são suscetíveis de fiança, exceto se a nulidade resultar apenas de incapacidade pessoal do deved
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> As obrigações nulas não são suscetíveis de fiança, exceto se a nulidade resultar apenas de incapacidade pessoal do devedor. Parágrafo único. A exceção estabelecida neste artigo não abrange o caso de mútuo feito a menor.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 738 — [Artigo 738 - Direito Civil]
+# CC Art. 738 — A pessoa transportada deve sujeitar-se às normas estabelecidas pelo transportador, constantes no bilhete ou afixadas à v
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A pessoa transportada deve sujeitar-se às normas estabelecidas pelo transportador, constantes no bilhete ou afixadas à vista dos usuários, abstendo-se de quaisquer atos que causem incômodo ou prejuízo aos passageiros, danifiquem o veículo, ou dificultem ou impeçam a execução normal do serviço. Parágrafo único. Se o prejuízo sofrido pela pessoa transportada for atribuível à transgressão de normas e instruções regulamentares, o juiz reduzirá eqüitativamente a indenização, na medida em que a vítima houver concorrido para a ocorrência do dano.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 249 — Se o fato puder ser executado por terceiro, será livre ao credor mandá-lo executar à custa do devedor, havendo recusa ou
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o fato puder ser executado por terceiro, será livre ao credor mandá-lo executar à custa do devedor, havendo recusa ou mora deste, sem prejuízo da indenização cabível. Parágrafo único. Em caso de urgência, pode o credor, independentemente de autorização judicial, executar ou mandar executar o fato, sendo depois ressarcido. CAPÍTULO III Das Obrigações de Não Fazer
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

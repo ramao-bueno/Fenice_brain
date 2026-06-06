@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1477 — [Artigo 1477 - Direito Civil]
+# CC Art. 1477 — Salvo o caso de insolvência do devedor, o credor da segunda hipoteca, embora vencida, não poderá executar o imóvel antes
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Salvo o caso de insolvência do devedor, o credor da segunda hipoteca, embora vencida, não poderá executar o imóvel antes de vencida a primeira. § 1º Não se considera insolvente o devedor por faltar ao pagamento das obrigações garantidas por hipotecas posteriores à primeira. (Incluído pela Lei nº 14.711, de 2023) § 2º O inadimplemento da obrigação garantida por hipoteca faculta ao credor declarar vencidas as demais obrigações de que for titular garantidas pelo mesmo imóvel. (Incluído pela Lei nº 14.711, de 2023)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

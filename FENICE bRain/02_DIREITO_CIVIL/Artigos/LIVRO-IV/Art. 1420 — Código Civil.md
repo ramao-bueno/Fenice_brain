@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1420 — [Artigo 1420 - Direito Civil]
+# CC Art. 1420 — Só aquele que pode alienar poderá empenhar, hipotecar ou dar em anticrese;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Só aquele que pode alienar poderá empenhar, hipotecar ou dar em anticrese; só os bens que se podem alienar poderão ser dados em penhor, anticrese ou hipoteca. § 1 o A propriedade superveniente torna eficaz, desde o registro, as garantias reais estabelecidas por quem não era dono. § 2 o A coisa comum a dois ou mais proprietários não pode ser dada em garantia real, na sua totalidade, sem o consentimento de todos; mas cada um pode individualmente dar em garantia real a parte que tiver.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

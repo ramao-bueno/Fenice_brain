@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1762 — [Artigo 1762 - Direito Civil]
+# CC Art. 1762 — O alcance do tutor, bem como o saldo contra o tutelado, são dívidas de valor e vencem juros desde o julgamento definitiv
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O alcance do tutor, bem como o saldo contra o tutelado, são dívidas de valor e vencem juros desde o julgamento definitivo das contas. Seção VII Da Cessação da Tutela
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

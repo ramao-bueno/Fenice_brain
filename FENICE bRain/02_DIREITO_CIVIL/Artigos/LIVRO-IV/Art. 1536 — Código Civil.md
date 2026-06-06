@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1536 — [Artigo 1536 - Direito Civil]
+# CC Art. 1536 — Do casamento, logo depois de celebrado, lavrar-se-á o assento no livro de registro
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Do casamento, logo depois de celebrado, lavrar-se-á o assento no livro de registro. No assento, assinado pelo presidente do ato, pelos cônjuges, as testemunhas, e o oficial do registro, serão exarados: I - os prenomes, sobrenomes, datas de nascimento, profissão, domicílio e residência atual dos cônjuges; II - os prenomes, sobrenomes, datas de nascimento ou de morte, domicílio e residência atual dos pais; III - o prenome e sobrenome do cônjuge precedente e a data da dissolução do casamento anterior; IV - a data da publicação dos proclamas e da celebração do casamento; V - a relação dos documentos apresentados ao oficial do registro; VI - o prenome, sobrenome, profissão, domicílio e residência atual das testemunhas; VII - o regime do casamento, com a declaração da data e do cartório em cujas notas foi lavrada a escritura antenupcial, quando o regime não for o da comunhão parcial, ou o obrigatoriamente estabelecido.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

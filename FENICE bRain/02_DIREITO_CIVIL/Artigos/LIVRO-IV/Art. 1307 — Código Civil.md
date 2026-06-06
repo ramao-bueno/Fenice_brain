@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1307 — [Artigo 1307 - Direito Civil]
+# CC Art. 1307 — Qualquer dos confinantes pode altear a parede divisória, se necessário reconstruindo-a, para suportar o alteamento;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Qualquer dos confinantes pode altear a parede divisória, se necessário reconstruindo-a, para suportar o alteamento; arcará com todas as despesas, inclusive de conservação, ou com metade, se o vizinho adquirir meação também na parte aumentada.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1817 — [Artigo 1817 - Direito Civil]
+# CC Art. 1817 — São válidas as alienações onerosas de bens hereditários a terceiros de boa-fé, e os atos de administração legalmente pra
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> São válidas as alienações onerosas de bens hereditários a terceiros de boa-fé, e os atos de administração legalmente praticados pelo herdeiro, antes da sentença de exclusão; mas aos herdeiros subsiste, quando prejudicados, o direito de demandar-lhe perdas e danos. Parágrafo único. O excluído da sucessão é obrigado a restituir os frutos e rendimentos que dos bens da herança houver percebido, mas tem direito a ser indenizado das despesas com a conservação deles.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

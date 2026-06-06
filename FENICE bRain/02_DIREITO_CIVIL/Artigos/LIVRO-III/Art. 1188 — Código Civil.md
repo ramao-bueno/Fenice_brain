@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1188 — [Artigo 1188 - Direito Civil]
+# CC Art. 1188 — O balanço patrimonial deverá exprimir, com fidelidade e clareza, a situação real da empresa e, atendidas as peculiaridad
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O balanço patrimonial deverá exprimir, com fidelidade e clareza, a situação real da empresa e, atendidas as peculiaridades desta, bem como as disposições das leis especiais, indicará, distintamente, o ativo e o passivo. Parágrafo único. Lei especial disporá sobre as informações que acompanharão o balanço patrimonial, em caso de sociedades coligadas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

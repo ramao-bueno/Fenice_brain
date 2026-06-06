@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 532 — Estipulado o pagamento por intermédio de estabelecimento bancário, caberá a este efetuá-lo contra a entrega dos document
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Estipulado o pagamento por intermédio de estabelecimento bancário, caberá a este efetuá-lo contra a entrega dos documentos, sem obrigação de verificar a coisa vendida, pela qual não responde. Parágrafo único. Nesse caso, somente após a recusa do estabelecimento bancário a efetuar o pagamento, poderá o vendedor pretendê-lo, diretamente do comprador. CAPÍTULO II Da Troca ou Permuta
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

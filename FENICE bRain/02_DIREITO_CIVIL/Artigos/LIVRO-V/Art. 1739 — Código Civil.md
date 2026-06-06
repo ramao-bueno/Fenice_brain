@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1739 — [Artigo 1739 - Direito Civil]
+# CC Art. 1739 — Se o juiz não admitir a escusa, exercerá o nomeado a tutela, enquanto o recurso interposto não tiver provimento, e respo
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Se o juiz não admitir a escusa, exercerá o nomeado a tutela, enquanto o recurso interposto não tiver provimento, e responderá desde logo pelas perdas e danos que o menor venha a sofrer. Seção IV Do Exercício da Tutela
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

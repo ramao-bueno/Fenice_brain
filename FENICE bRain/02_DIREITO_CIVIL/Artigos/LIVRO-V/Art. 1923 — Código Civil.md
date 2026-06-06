@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1923 — [Artigo 1923 - Direito Civil]
+# CC Art. 1923 — Desde a abertura da sucessão, pertence ao legatário a coisa certa, existente no acervo, salvo se o legado estiver sob co
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Desde a abertura da sucessão, pertence ao legatário a coisa certa, existente no acervo, salvo se o legado estiver sob condição suspensiva. § 1 o Não se defere de imediato a posse da coisa, nem nela pode o legatário entrar por autoridade própria. § 2 o O legado de coisa certa existente na herança transfere também ao legatário os frutos que produzir, desde a morte do testador, exceto se dependente de condição suspensiva, ou de termo inicial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

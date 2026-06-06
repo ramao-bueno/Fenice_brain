@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1126 — [Artigo 1126 - Direito Civil]
+# CC Art. 1126 — É nacional a sociedade organizada de conformidade com a lei brasileira e que tenha no País a sede de sua administração
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É nacional a sociedade organizada de conformidade com a lei brasileira e que tenha no País a sede de sua administração. Parágrafo único. Quando a lei exigir que todos ou alguns sócios sejam brasileiros, as ações da sociedade anônima revestirão, no silêncio da lei, a forma nominativa. Qualquer que seja o tipo da sociedade, na sua sede ficará arquivada cópia autêntica do documento comprobatório da nacionalidade dos sócios.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1715 — [Artigo 1715 - Direito Civil]
+# CC Art. 1715 — O bem de família é isento de execução por dívidas posteriores à sua instituição, salvo as que provierem de tributos rela
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O bem de família é isento de execução por dívidas posteriores à sua instituição, salvo as que provierem de tributos relativos ao prédio, ou de despesas de condomínio. Parágrafo único. No caso de execução pelas dívidas referidas neste artigo, o saldo existente será aplicado em outro prédio, como bem de família, ou em títulos da dívida pública, para sustento familiar, salvo se motivos relevantes aconselharem outra solução, a critério do juiz.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1296 — [Artigo 1296 - Direito Civil]
+# CC Art. 1296 — Havendo no aqueduto águas supérfluas, outros poderão canalizá-las, para os fins previstos no art
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo no aqueduto águas supérfluas, outros poderão canalizá-las, para os fins previstos no art. 1.293, mediante pagamento de indenização aos proprietários prejudicados e ao dono do aqueduto, de importância equivalente às despesas que então seriam necessárias para a condução das águas até o ponto de derivação. Parágrafo único. Têm preferência os proprietários dos imóveis atravessados pelo aqueduto. Seção VI Dos Limites entre Prédios e do Direito de Tapagem
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

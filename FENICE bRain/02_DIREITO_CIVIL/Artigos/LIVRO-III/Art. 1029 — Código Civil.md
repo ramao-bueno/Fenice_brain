@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1029 — [Artigo 1029 - Direito Civil]
+# CC Art. 1029 — Além dos casos previstos na lei ou no contrato, qualquer sócio pode retirar-se da sociedade;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Além dos casos previstos na lei ou no contrato, qualquer sócio pode retirar-se da sociedade; se de prazo indeterminado, mediante notificação aos demais sócios, com antecedência mínima de sessenta dias; se de prazo determinado, provando judicialmente justa causa. Parágrafo único. Nos trinta dias subseqüentes à notificação, podem os demais sócios optar pela dissolução da sociedade.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

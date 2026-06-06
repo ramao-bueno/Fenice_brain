@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 259 — Se, havendo dois ou mais devedores, a prestação não for divisível, cada um será obrigado pela dívida toda
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se, havendo dois ou mais devedores, a prestação não for divisível, cada um será obrigado pela dívida toda. Parágrafo único. O devedor, que paga a dívida, sub-roga-se no direito do credor em relação aos outros coobrigados.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

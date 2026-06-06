@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1986 — [Artigo 1986 - Direito Civil]
+# CC Art. 1986 — Havendo simultaneamente mais de um testamenteiro, que tenha aceitado o cargo, poderá cada qual exercê-lo, em falta dos o
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Havendo simultaneamente mais de um testamenteiro, que tenha aceitado o cargo, poderá cada qual exercê-lo, em falta dos outros; mas todos ficam solidariamente obrigados a dar conta dos bens que lhes forem confiados, salvo se cada um tiver, pelo testamento, funções distintas, e a elas se limitar.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

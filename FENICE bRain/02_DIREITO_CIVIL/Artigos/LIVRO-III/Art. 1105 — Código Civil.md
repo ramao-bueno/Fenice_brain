@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1105 — [Artigo 1105 - Direito Civil]
+# CC Art. 1105 — Compete ao liquidante representar a sociedade e praticar todos os atos necessários à sua liquidação, inclusive alienar b
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Compete ao liquidante representar a sociedade e praticar todos os atos necessários à sua liquidação, inclusive alienar bens móveis ou imóveis, transigir, receber e dar quitação. Parágrafo único. Sem estar expressamente autorizado pelo contrato social, ou pelo voto da maioria dos sócios, não pode o liquidante gravar de ônus reais os móveis e imóveis, contrair empréstimos, salvo quando indispensáveis ao pagamento de obrigações inadiáveis, nem prosseguir, embora para facilitar a liquidação, na atividade social.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

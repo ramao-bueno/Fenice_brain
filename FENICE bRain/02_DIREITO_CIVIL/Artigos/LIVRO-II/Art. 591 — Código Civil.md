@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 591 — Destinando-se o mútuo a fins econômicos, presumem-se devidos juros
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Destinando-se o mútuo a fins econômicos, presumem-se devidos juros. (Redação dada pela Lei nº 14.905, de 2024) Produção de efeitos Parágrafo único. Se a taxa de juros não for pactuada, aplica-se a taxa legal prevista no art. 406 deste Código. (Incluído pela Lei nº 14.905, de 2024) Produção de efeitos
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

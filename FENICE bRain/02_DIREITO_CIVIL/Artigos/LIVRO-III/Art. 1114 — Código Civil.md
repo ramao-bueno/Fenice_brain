@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1114 — [Artigo 1114 - Direito Civil]
+# CC Art. 1114 — A transformação depende do consentimento de todos os sócios, salvo se prevista no ato constitutivo, caso em que o dissid
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transformação depende do consentimento de todos os sócios, salvo se prevista no ato constitutivo, caso em que o dissidente poderá retirar-se da sociedade, aplicando-se, no silêncio do estatuto ou do contrato social, o disposto no art. 1.031.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

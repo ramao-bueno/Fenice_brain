@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 364 — A novação extingue os acessórios e garantias da dívida, sempre que não houver estipulação em contrário
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > A novação extingue os acessórios e garantias da dívida, sempre que não houver estipulação em contrário. Não aproveitará, contudo, ao credor ressalvar o penhor, a hipoteca ou a anticrese, se os bens dados em garantia pertencerem a terceiro que não foi parte na novação.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

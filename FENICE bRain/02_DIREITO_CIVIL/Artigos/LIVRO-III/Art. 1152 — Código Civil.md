@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1152 — [Artigo 1152 - Direito Civil]
+# CC Art. 1152 — Cabe ao órgão incumbido do registro verificar a regularidade das publicações determinadas em lei, de acordo com o dispos
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cabe ao órgão incumbido do registro verificar a regularidade das publicações determinadas em lei, de acordo com o disposto nos parágrafos deste artigo. § 1 o Salvo exceção expressa, as publicações ordenadas neste Livro serão feitas no órgão oficial da União ou do Estado, conforme o local da sede do empresário ou da sociedade, e em jornal de grande circulação. § 2 o As publicações das sociedades estrangeiras serão feitas nos órgãos oficiais da União e do Estado onde tiverem sucursais, filiais ou agências. § 3 o O anúncio de convocação da assembléia de sócios será publicado por três vezes, ao menos, devendo mediar, entre a data da primeira inserção e a da realização da assembléia, o prazo mínimo de oito dias, para a primeira convocação, e de cinco dias, para as posteriores.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

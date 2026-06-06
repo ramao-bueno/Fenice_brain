@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1671 — [Artigo 1671 - Direito Civil]
+# CC Art. 1671 — Extinta a comunhão, e efetuada a divisão do ativo e do passivo, cessará a responsabilidade de cada um dos cônjuges para
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Extinta a comunhão, e efetuada a divisão do ativo e do passivo, cessará a responsabilidade de cada um dos cônjuges para com os credores do outro. CAPÍTULO V Do Regime de Participação Final nos Aqüestos
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

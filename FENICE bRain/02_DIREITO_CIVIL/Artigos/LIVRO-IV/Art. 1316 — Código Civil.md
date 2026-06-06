@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1316 — [Artigo 1316 - Direito Civil]
+# CC Art. 1316 — Pode o condômino eximir-se do pagamento das despesas e dívidas, renunciando à parte ideal
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Pode o condômino eximir-se do pagamento das despesas e dívidas, renunciando à parte ideal. § 1 o Se os demais condôminos assumem as despesas e as dívidas, a renúncia lhes aproveita, adquirindo a parte ideal de quem renunciou, na proporção dos pagamentos que fizerem. § 2 o Se não há condômino que faça os pagamentos, a coisa comum será dividida.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

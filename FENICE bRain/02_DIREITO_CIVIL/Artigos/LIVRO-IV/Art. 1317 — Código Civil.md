@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1317 — [Artigo 1317 - Direito Civil]
+# CC Art. 1317 — Quando a dívida houver sido contraída por todos os condôminos, sem se discriminar a parte de cada um na obrigação, nem s
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a dívida houver sido contraída por todos os condôminos, sem se discriminar a parte de cada um na obrigação, nem se estipular solidariedade, entende-se que cada qual se obrigou proporcionalmente ao seu quinhão na coisa comum.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

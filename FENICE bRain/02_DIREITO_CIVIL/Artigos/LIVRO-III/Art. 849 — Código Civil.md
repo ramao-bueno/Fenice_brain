@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 849 — [Artigo 849 - Direito Civil]
+# CC Art. 849 — A transação só se anula por dolo, coação, ou erro essencial quanto à pessoa ou coisa controversa
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A transação só se anula por dolo, coação, ou erro essencial quanto à pessoa ou coisa controversa. Parágrafo único. A transação não se anula por erro de direito a respeito das questões que foram objeto de controvérsia entre as partes.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

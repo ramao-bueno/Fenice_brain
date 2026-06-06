@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 675 — O mandante é obrigado a satisfazer todas as obrigações contraídas pelo mandatário, na conformidade do mandato conferido,
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O mandante é obrigado a satisfazer todas as obrigações contraídas pelo mandatário, na conformidade do mandato conferido, e adiantar a importância das despesas necessárias à execução dele, quando o mandatário lho pedir.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

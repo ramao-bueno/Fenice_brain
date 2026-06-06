@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 831 — [Artigo 831 - Direito Civil]
+# CC Art. 831 — O fiador que pagar integralmente a dívida fica sub-rogado nos direitos do credor;
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O fiador que pagar integralmente a dívida fica sub-rogado nos direitos do credor; mas só poderá demandar a cada um dos outros fiadores pela respectiva quota. Parágrafo único. A parte do fiador insolvente distribuir-se-á pelos outros.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

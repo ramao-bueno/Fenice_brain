@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 603 — Se o prestador de serviço for despedido sem justa causa, a outra parte será obrigada a pagar-lhe por inteiro a retribuiç
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Se o prestador de serviço for despedido sem justa causa, a outra parte será obrigada a pagar-lhe por inteiro a retribuição vencida, e por metade a que lhe tocaria de então ao termo legal do contrato.
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

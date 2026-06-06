@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1723 — [Artigo 1723 - Direito Civil]
+# CC Art. 1723 — É reconhecida como entidade familiar a união estável entre o homem e a mulher, configurada na convivência pública, contí
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É reconhecida como entidade familiar a união estável entre o homem e a mulher, configurada na convivência pública, contínua e duradoura e estabelecida com o objetivo de constituição de família. § 1 o A união estável não se constituirá se ocorrerem os impedimentos do art. 1.521; não se aplicando a incidência do inciso VI no caso de a pessoa casada se achar separada de fato ou judicialmente. § 2 o As causas suspensivas do art. 1.523 não impedirão a caracterização da união estável.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

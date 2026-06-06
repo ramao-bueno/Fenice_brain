@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-v
 - vigente
-- inciso-v
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 2025 — [Artigo 2025 - Direito Civil]
+# CC Art. 2025 — Cessa a obrigação mútua estabelecida no artigo antecedente, havendo convenção em contrário, e bem assim dando-se a evicç
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-V — Direito das Sucessões
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Cessa a obrigação mútua estabelecida no artigo antecedente, havendo convenção em contrário, e bem assim dando-se a evicção por culpa do evicto, ou por fato posterior à partilha.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

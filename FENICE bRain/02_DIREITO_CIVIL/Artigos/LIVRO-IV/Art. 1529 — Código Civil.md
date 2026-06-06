@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1529 — [Artigo 1529 - Direito Civil]
+# CC Art. 1529 — Tanto os impedimentos quanto as causas suspensivas serão opostos em declaração escrita e assinada, instruída com as prov
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Tanto os impedimentos quanto as causas suspensivas serão opostos em declaração escrita e assinada, instruída com as provas do fato alegado, ou com a indicação do lugar onde possam ser obtidas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

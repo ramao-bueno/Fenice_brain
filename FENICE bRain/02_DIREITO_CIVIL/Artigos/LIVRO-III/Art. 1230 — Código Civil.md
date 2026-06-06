@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1230 — [Artigo 1230 - Direito Civil]
+# CC Art. 1230 — A propriedade do solo não abrange as jazidas, minas e demais recursos minerais, os potenciais de energia hidráulica, os
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A propriedade do solo não abrange as jazidas, minas e demais recursos minerais, os potenciais de energia hidráulica, os monumentos arqueológicos e outros bens referidos por leis especiais. Parágrafo único. O proprietário do solo tem o direito de explorar os recursos minerais de emprego imediato na construção civil, desde que não submetidos a transformação industrial, obedecido o disposto em lei especial.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

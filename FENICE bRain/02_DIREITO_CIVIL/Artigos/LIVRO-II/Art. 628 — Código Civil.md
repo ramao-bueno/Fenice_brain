@@ -9,9 +9,7 @@ tags:
 - direito-civil
 - livro-ii
 - vigente
-- inciso-ii
-- paragrafo-unico
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 628 — O contrato de depósito é gratuito, exceto se houver convenção em contrário, se resultante de atividade negocial ou se o
@@ -22,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O contrato de depósito é gratuito, exceto se houver convenção em contrário, se resultante de atividade negocial ou se o depositário o praticar por profissão. Parágrafo único. Se o depósito for oneroso e a retribuição do depositário não constar de lei, nem resultar de ajuste, será determinada pelos usos do lugar, e, na falta destes, por arbitramento.
 
@@ -56,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

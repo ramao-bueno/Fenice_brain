@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1046 — [Artigo 1046 - Direito Civil]
+# CC Art. 1046 — Aplicam-se à sociedade em comandita simples as normas da sociedade em nome coletivo, no que forem compatíveis com as des
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Aplicam-se à sociedade em comandita simples as normas da sociedade em nome coletivo, no que forem compatíveis com as deste Capítulo. Parágrafo único. Aos comanditados cabem os mesmos direitos e obrigações dos sócios da sociedade em nome coletivo.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

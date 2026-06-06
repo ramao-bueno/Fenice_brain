@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1546 — [Artigo 1546 - Direito Civil]
+# CC Art. 1546 — Quando a prova da celebração legal do casamento resultar de processo judicial, o registro da sentença no livro do Regist
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> Quando a prova da celebração legal do casamento resultar de processo judicial, o registro da sentença no livro do Registro Civil produzirá, tanto no que toca aos cônjuges como no que respeita aos filhos, todos os efeitos civis desde a data do casamento.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

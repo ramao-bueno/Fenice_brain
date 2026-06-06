@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 144 — O erro não prejudica a validade do negócio jurídico quando a pessoa, a quem a manifestação de vontade se dirige, se ofer
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > O erro não prejudica a validade do negócio jurídico quando a pessoa, a quem a manifestação de vontade se dirige, se oferecer para executá-la na conformidade da vontade real do manifestante. Seção II Do Dolo
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

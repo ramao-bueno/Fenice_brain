@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1550 — [Artigo 1550 - Direito Civil]
+# CC Art. 1550 — É anulável o casamento
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> É anulável o casamento: I - de quem não completou a idade mínima para casar; II - do menor em idade núbil, quando não autorizado por seu representante legal; III - por vício da vontade, nos termos dos arts. 1.556 a 1.558; IV - do incapaz de consentir ou manifestar, de modo inequívoco, o consentimento; V - realizado pelo mandatário, sem que ele ou o outro contraente soubesse da revogação do mandato, e não sobrevindo coabitação entre os cônjuges; VI - por incompetência da autoridade celebrante. § 1 o . Equipara-se à revogação a invalidade do mandato judicialmente decretada. (Redação dada pela Lei nº 13.146, de 2015) (Vigência) § 2 o A pessoa com deficiência mental ou intelectual em idade núbia poderá contrair matrimônio, expressando sua vontade diretamente ou por meio de seu responsável ou curador. (Incluído pela Lei nº 13.146, de 2015) (Vigência)
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

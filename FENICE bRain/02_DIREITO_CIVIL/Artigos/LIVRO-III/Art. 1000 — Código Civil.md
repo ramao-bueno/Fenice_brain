@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iii
 - vigente
-- inciso-iii
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1000 — [Artigo 1000 - Direito Civil]
+# CC Art. 1000 — A sociedade simples que instituir sucursal, filial ou agência na circunscrição de outro Registro Civil das Pessoas Juríd
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-III — Direito das Coisas
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> A sociedade simples que instituir sucursal, filial ou agência na circunscrição de outro Registro Civil das Pessoas Jurídicas, neste deverá também inscrevê-la, com a prova da inscrição originária. Parágrafo único. Em qualquer caso, a constituição da sucursal, filial ou agência deverá ser averbada no Registro Civil da respectiva sede. Seção II Dos Direitos e Obrigações dos Sócios
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

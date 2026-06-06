@@ -9,8 +9,7 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-- inciso-i
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
 # CC Art. 69 — Tornando-se ilícita, impossível ou inútil a finalidade a que visa a fundação, ou vencido o prazo de sua existência, o ór
@@ -21,7 +20,7 @@ created: '2026-06-03'
 
 ---
 
-## REDACAO LEGAL
+## 📋 REDAÇÃO LEGAL
 
 > Tornando-se ilícita, impossível ou inútil a finalidade a que visa a fundação, ou vencido o prazo de sua existência, o órgão do Ministério Público, ou qualquer interessado, lhe promoverá a extinção, incorporando-se o seu patrimônio, salvo disposição em contrário no ato constitutivo, ou no estatuto, em outra fundação, designada pelo juiz, que se proponha a fim igual ou semelhante. TÍTULO III Do Domicílio
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

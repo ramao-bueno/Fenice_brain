@@ -9,11 +9,10 @@ tags:
 - direito-civil
 - livro-iv
 - vigente
-- inciso-iv
-created: '2026-06-03'
+created: '2026-06-06'
 ---
 
-# CC Art. 1291 — [Artigo 1291 - Direito Civil]
+# CC Art. 1291 — O possuidor do imóvel superior não poderá poluir as águas indispensáveis às primeiras necessidades da vida dos possuidor
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-IV — Direito de Família
@@ -23,7 +22,7 @@ created: '2026-06-03'
 
 ## 📋 REDAÇÃO LEGAL
 
-> [Redação legal a ser adicionada]
+> O possuidor do imóvel superior não poderá poluir as águas indispensáveis às primeiras necessidades da vida dos possuidores dos imóveis inferiores; as demais, que poluir, deverá recuperar, ressarcindo os danos que estes sofrerem, se não for possível a recuperação ou o desvio do curso artificial das águas.
 
 ---
 
@@ -55,6 +54,6 @@ created: '2026-06-03'
 
 ---
 
-**Última atualização:** 2026-06-03
+**Última atualização:** 2026-06-06
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

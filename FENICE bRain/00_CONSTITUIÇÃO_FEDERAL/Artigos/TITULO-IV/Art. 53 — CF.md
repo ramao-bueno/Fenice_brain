@@ -5,18 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art53
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-53
 - organizacao-poderes
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 53 — Os Deputados e Senadores são invioláveis por suas opiniões, palavras e votos
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art53)
 
 ---
 
 ## REDACAO LEGAL
 
-> Os Deputados e Senadores são invioláveis por suas opiniões, palavras e votos. § 1º - Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável, nem processados criminalmente, sem prévia licença de sua Casa. § 2º - O indeferimento do pedido de licença ou a ausência de deliberação suspende a prescrição enquanto durar o mandato. §...
+> Os Deputados e Senadores são invioláveis por suas opiniões, palavras e votos. § 1º - Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável, nem processados criminalmente, sem prévia licença de sua Casa. § 2º - O indeferimento do pedido de licença ou a ausência de deliberação suspende a prescrição enquanto durar o mandato. § 3º - No caso de flagrante de crime inafiançável, os autos serão remetidos, dentro de vinte e quatro horas, à Casa respectiva, para que, pelo voto secreto da maioria de seus membros, resolva sobre a prisão e autorize, ou não, a formação de culpa. § 4º - Os Deputados e Senadores serão submetidos a julgamento perante o Supremo Tribunal Federal. § 5º - Os Deputados e Senadores não serão obrigados a testemunhar sobre informações recebidas ou prestadas em razão do exercício do mandato, nem sobre as pessoas que lhes confiaram ou deles receberam informações. § 6º - A incorporação às Forças Armadas de Deputados e Senadores, embora militares e ainda que em tempo de guerra, dependerá de prévia licença da Casa respectiva. § 7º - As imunidades de Deputados ou Senadores subsistirão durante o estado de sítio, só podendo ser suspensas mediante o voto de dois terços dos membros da Casa respectiva, nos casos de atos, praticados fora do recinto do Congresso, que sejam incompatíveis com a execução da medida.
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 52 — CF]] — artigo anterior
 - [[Art. 54 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 53")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art53)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

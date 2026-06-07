@@ -5,17 +5,13 @@ titulo_cf: TITULO-VII
 parte: Da Ordem Econômica e Financeira
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art192
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vii
-- art-192
 - ordem-economica
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 192 — O sistema financeiro nacional, estruturado de forma a promover o desenvolvimento equilibrado do País e a servir aos inte
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VII — Da Ordem Econômica e Financeira
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art192)
 
 ---
 
 ## REDACAO LEGAL
 
-> O sistema financeiro nacional, estruturado de forma a promover o desenvolvimento equilibrado do País e a servir aos interesses da coletividade, será regulado em lei complementar, que disporá, inclusive, sobre: I - a autorização para o funcionamento das instituições financeiras, assegurado às instituições bancárias oficiais e privadas acesso a todos os instrumentos do mercado financeiro bancário, s...
+> O sistema financeiro nacional, estruturado de forma a promover o desenvolvimento equilibrado do País e a servir aos interesses da coletividade, será regulado em lei complementar, que disporá, inclusive, sobre: I - a autorização para o funcionamento das instituições financeiras, assegurado às instituições bancárias oficiais e privadas acesso a todos os instrumentos do mercado financeiro bancário, sendo vedada a essas instituições a participação em atividades não previstas na autorização de que trata este inciso; II - autorização e funcionamento dos estabelecimentos de seguro, previdência e capitalização, bem como do órgão oficial fiscalizador e do órgão oficial ressegurador; II - autorização e funcionamento dos estabelecimentos de seguro, resseguro, previdência e capitalização, bem como do órgão oficial fiscalizador. (Redação dada pela Emenda Constitucional nº 13, de 1996) III - as condições para a participação do capital estrangeiro nas instituições a que se referem os incisos anteriores, tendo em vista, especialmente: a) os interesses nacionais; b) os acordos internacionais IV - a organização, o funcionamento e as atribuições do banco central e demais instituições financeiras públicas e privadas; V - os requisitos para a designação de membros da diretoria do banco central e demais instituições financeiras, bem como seus impedimentos após o exercício do cargo; VI - a criação de fundo ou seguro, com o objetivo de proteger a economia popular, garantindo créditos, aplicações e depósitos até determinado valor, vedada a participação de recursos da União; VII - os critérios restritivos da transferência de poupança de regiões com renda inferior à média nacional para outras de maior desenvolvimento; VIII - o funcionamento das cooperativas de crédito e os requisitos para que possam ter condições de operacionalidade e estruturação próprias das instituições financeiras. § 1º A autorização a que se referem os incisos I e II será inegociável e intransferível, permitida a transmi
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 191 — CF]] — artigo anterior
 - [[Art. 193 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 192")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art192)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

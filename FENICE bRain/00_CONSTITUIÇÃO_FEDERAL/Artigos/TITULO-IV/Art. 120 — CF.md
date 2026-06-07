@@ -5,21 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art120
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-120
 - organizacao-poderes
-- paragrafo-1
-- inciso-i
-- inciso-ii
-- alinea-a
-- alinea-b
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 120 — Haverá um Tribunal Regional Eleitoral na Capital de cada Estado e no Distrito Federal
@@ -27,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art120)
 
 ---
 
 ## REDACAO LEGAL
 
-> Haverá um Tribunal Regional Eleitoral na Capital de cada Estado e no Distrito Federal. § 1º - Os Tribunais Regionais Eleitorais compor-se-ão: I - mediante eleição, pelo voto secreto: a) de dois juízes dentre os desembargadores do Tribunal de Justiça; b) de dois juízes, dentre juízes de direito, escolhidos pelo Tribunal de Justiça; II - de um juiz do Tribunal Regional Federal com sede na Capital do...
+> Haverá um Tribunal Regional Eleitoral na Capital de cada Estado e no Distrito Federal. § 1º - Os Tribunais Regionais Eleitorais compor-se-ão: I - mediante eleição, pelo voto secreto: a) de dois juízes dentre os desembargadores do Tribunal de Justiça; b) de dois juízes, dentre juízes de direito, escolhidos pelo Tribunal de Justiça; II - de um juiz do Tribunal Regional Federal com sede na Capital do Estado ou no Distrito Federal, ou, não havendo, de juiz federal, escolhido, em qualquer caso, pelo Tribunal Regional Federal respectivo; III - por nomeação, pelo Presidente da República, de dois juízes dentre seis advogados de notável saber jurídico e idoneidade moral, indicados pelo Tribunal de Justiça. § 2º - O Tribunal Regional Eleitoral elegerá seu Presidente e o Vice-Presidente- dentre os desembargadores.
 
 ---
 
@@ -41,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -59,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 119 — CF]] — artigo anterior
 - [[Art. 121 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -77,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 120")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art120)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

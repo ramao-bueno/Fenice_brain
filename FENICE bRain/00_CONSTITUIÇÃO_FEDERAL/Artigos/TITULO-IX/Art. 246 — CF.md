@@ -5,16 +5,13 @@ titulo_cf: TITULO-IX
 parte: Das Disposições Constitucionais Gerais
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art246
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ix
-- art-246
 - disposicoes-gerais
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 246 — É vedada a adoção de medida provisória na regulamentação de artigo da Constituição cuja redação tenha sido alterada por
@@ -22,7 +19,6 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IX — Das Disposições Constitucionais Gerais
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art246)
 
 ---
 
@@ -36,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -54,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 245 — CF]] — artigo anterior
 - [[Art. 247 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -72,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 246")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art246)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

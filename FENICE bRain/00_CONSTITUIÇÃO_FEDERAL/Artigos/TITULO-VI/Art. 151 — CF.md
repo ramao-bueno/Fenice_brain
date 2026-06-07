@@ -5,18 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art151
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-151
 - tributacao
-- inciso-i
-- inciso-ii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 151 — É vedado à União
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art151)
 
 ---
 
 ## REDACAO LEGAL
 
-> É vedado à União: I - instituir tributo que não seja uniforme em todo o território nacional ou que implique distinção ou preferência em relação a Estado, ao Distrito Federal ou a Município, em detrimento de outro, admitida a concessão de incentivos fiscais destinados a promover o equilíbrio do desenvolvimento sócio-econômico entre as diferentes regiões do País; II - tributar a renda das obrigações...
+> É vedado à União: I - instituir tributo que não seja uniforme em todo o território nacional ou que implique distinção ou preferência em relação a Estado, ao Distrito Federal ou a Município, em detrimento de outro, admitida a concessão de incentivos fiscais destinados a promover o equilíbrio do desenvolvimento sócio-econômico entre as diferentes regiões do País; II - tributar a renda das obrigações da dívida pública dos Estados, do Distrito Federal e dos Municípios, bem como a remuneração e os proventos dos respectivos agentes públicos, em níveis superiores aos que fixar para suas obrigações e para seus agentes; III - instituir isenções de tributos da competência dos Estados, do Distrito Federal ou dos Municípios.
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 150 — CF]] — artigo anterior
 - [[Art. 152 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 151")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art151)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

@@ -5,20 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art203
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-203
 - ordem-social
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 203 — A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social, e tem
@@ -26,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art203)
 
 ---
 
 ## REDACAO LEGAL
 
-> A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social, e tem por objetivos: I - a proteção à família, à maternidade, à infância, à adolescência e à velhice; II - o amparo às crianças e adolescentes carentes; III - a promoção da integração ao mercado de trabalho; IV - a habilitação e reabilitação das pessoas portadoras de deficiência e a pr...
+> A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social, e tem por objetivos: I - a proteção à família, à maternidade, à infância, à adolescência e à velhice; II - o amparo às crianças e adolescentes carentes; III - a promoção da integração ao mercado de trabalho; IV - a habilitação e reabilitação das pessoas portadoras de deficiência e a promoção de sua integração à vida comunitária; V - a garantia de um salário mínimo de benefício mensal à pessoa portadora de deficiência e ao idoso que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família, conforme dispuser a lei. VI - a redução da vulnerabilidade socioeconômica de famílias em situação de pobreza ou de extrema pobreza. (Incluído pela Emenda Constitucional nº 114, de 2021)
 
 ---
 
@@ -40,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -58,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 202 — CF]] — artigo anterior
 - [[Art. 204 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -76,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 203")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art203)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

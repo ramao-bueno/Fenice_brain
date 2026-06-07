@@ -5,17 +5,13 @@ titulo_cf: TITULO-VII
 parte: Da Ordem Econômica e Financeira
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art184
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vii
-- art-184
 - ordem-economica
-- paragrafo-1
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 184 — Compete à União desapropriar por interesse social, para fins de reforma agrária, o imóvel rural que não esteja cumprindo
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VII — Da Ordem Econômica e Financeira
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art184)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete à União desapropriar por interesse social, para fins de reforma agrária, o imóvel rural que não esteja cumprindo sua função social, mediante prévia e justa indenização em títulos da dívida agrária, com cláusula de preservação do valor real, resgatáveis no prazo de até vinte anos, a partir do segundo ano de sua emissão, e cuja utilização será definida em lei. § 1º As benfeitorias úteis e ne...
+> Compete à União desapropriar por interesse social, para fins de reforma agrária, o imóvel rural que não esteja cumprindo sua função social, mediante prévia e justa indenização em títulos da dívida agrária, com cláusula de preservação do valor real, resgatáveis no prazo de até vinte anos, a partir do segundo ano de sua emissão, e cuja utilização será definida em lei. § 1º As benfeitorias úteis e necessárias serão indenizadas em dinheiro. § 2º O decreto que declarar o imóvel como de interesse social, para fins de reforma agrária, autoriza a União a propor a ação de desapropriação. § 3º Cabe à lei complementar estabelecer procedimento contraditório especial, de rito sumário, para o processo judicial de desapropriação. § 4º O orçamento fixará anualmente o volume total de títulos da dívida agrária, assim como o montante de recursos para atender ao programa de reforma agrária no exercício. § 5º São isentas de impostos federais, estaduais e municipais as operações de transferência de imóveis desapropriados para fins de reforma agrária.
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 183 — CF]] — artigo anterior
 - [[Art. 185 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 184")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art184)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

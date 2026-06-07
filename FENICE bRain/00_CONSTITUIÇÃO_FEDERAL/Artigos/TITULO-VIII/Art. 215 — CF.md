@@ -5,18 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art215
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-215
 - ordem-social
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 215 — O Estado garantirá a todos o pleno exercício dos direitos culturais e acesso às fontes da cultura nacional, e apoiará e
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art215)
 
 ---
 
 ## REDACAO LEGAL
 
-> O Estado garantirá a todos o pleno exercício dos direitos culturais e acesso às fontes da cultura nacional, e apoiará e incentivará a valorização e a difusão das manifestações culturais. § 1º O Estado protegerá as manifestações das culturas populares, indígenas e afro-brasileiras, e das de outros grupos participantes do processo civilizatório nacional. Regulamento § 2º A lei disporá sobre a fixaçã...
+> O Estado garantirá a todos o pleno exercício dos direitos culturais e acesso às fontes da cultura nacional, e apoiará e incentivará a valorização e a difusão das manifestações culturais. § 1º O Estado protegerá as manifestações das culturas populares, indígenas e afro-brasileiras, e das de outros grupos participantes do processo civilizatório nacional. Regulamento § 2º A lei disporá sobre a fixação de datas comemorativas de alta significação para os diferentes segmentos étnicos nacionais. § 3º A lei estabelecerá o Plano Nacional de Cultura, de duração plurianual, visando ao desenvolvimento cultural do País e à integração das ações do poder público que conduzem à: (Incluído pela Emenda Constitucional nº 48, de 2005) I defesa e valorização do patrimônio cultural brasileiro; (Incluído pela Emenda Constitucional nº 48, de 2005) II produção, promoção e difusão de bens culturais; (Incluído pela Emenda Constitucional nº 48, de 2005) III formação de pessoal qualificado para a gestão da cultura em suas múltiplas dimensões; (Incluído pela Emenda Constitucional nº 48, de 2005) IV democratização do acesso aos bens de cultura; (Incluído pela Emenda Constitucional nº 48, de 2005) V valorização da diversidade étnica e regional. (Incluído pela Emenda Constitucional nº 48, de 2005)
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 214 — CF]] — artigo anterior
 - [[Art. 216 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 215")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art215)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

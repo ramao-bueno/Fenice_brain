@@ -5,17 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art52
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-52
 - organizacao-poderes
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 52 — Compete privativamente ao Senado Federal
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art52)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete privativamente ao Senado Federal: I - processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade e os Ministros de Estado nos crimes da mesma natureza conexos com aqueles; I - processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade, bem como os Ministros de Estado e os Comandantes da Marinha, do Exército e da Aero...
+> Compete privativamente ao Senado Federal: I - processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade e os Ministros de Estado nos crimes da mesma natureza conexos com aqueles; I - processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade, bem como os Ministros de Estado e os Comandantes da Marinha, do Exército e da Aeronáutica nos crimes da mesma natureza conexos com aqueles; (Redação dada pela Emenda Constitucional nº 23, de 1999) II - processar e julgar os Ministros do Supremo Tribunal Federal, o Procurador-Geral da República e o Advogado-Geral da União nos crimes de responsabilidade; II processar e julgar os Ministros do Supremo Tribunal Federal, os membros do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público, o Procurador-Geral da República e o Advogado-Geral da União nos crimes de responsabilidade; (Redação dada pela Emenda Constitucional nº 45, de 2004) III - aprovar previamente, por voto secreto, após argüição pública, a escolha de: a) Magistrados, nos casos estabelecidos nesta Constituição; b) Ministros do Tribunal de Contas da União indicados pelo Presidente da República; c) Governador de Território; d) Presidente e diretores do banco central; e) Procurador-Geral da República; f) titulares de outros cargos que a lei determinar; IV - aprovar previamente, por voto secreto, após argüição em sessão secreta, a escolha dos chefes de missão diplomática de caráter permanente; V - autorizar operações externas de natureza financeira, de interesse da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios; VI - fixar, por proposta do Presidente da República, limites globais para o montante da dívida consolidada da União, dos Estados, do Distrito Federal e dos Municípios; VII - dispor sobre limites globais e condições para as operações de crédito externo e interno da União, dos Estados, do Distrito Federal e dos Municípios, de suas autarquias e demai
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 51 — CF]] — artigo anterior
 - [[Art. 53 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 52")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art52)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

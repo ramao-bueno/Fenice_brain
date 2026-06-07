@@ -5,23 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art128
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-128
 - organizacao-poderes
-- paragrafo-1
-- inciso-i
-- inciso-ii
-- alinea-a
-- alinea-b
-- alinea-c
-- alinea-d
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 128 — O Ministério Público abrange
@@ -29,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art128)
 
 ---
 
 ## REDACAO LEGAL
 
-> O Ministério Público abrange: I - o Ministério Público da União, que compreende: a) o Ministério Público Federal; b) o Ministério Público do Trabalho; c) o Ministério Público Militar; d) o Ministério Público do Distrito Federal e Territórios; II - os Ministérios Públicos dos Estados. § 1º O Ministério Público da União tem por chefe o Procurador-Geral da República, nomeado pelo Presidente da Repúbl...
+> O Ministério Público abrange: I - o Ministério Público da União, que compreende: a) o Ministério Público Federal; b) o Ministério Público do Trabalho; c) o Ministério Público Militar; d) o Ministério Público do Distrito Federal e Territórios; II - os Ministérios Públicos dos Estados. § 1º O Ministério Público da União tem por chefe o Procurador-Geral da República, nomeado pelo Presidente da República dentre integrantes da carreira, maiores de trinta e cinco anos, após a aprovação de seu nome pela maioria absoluta dos membros do Senado Federal, para mandato de dois anos, permitida a recondução. § 2º A destituição do Procurador-Geral da República, por iniciativa do Presidente da República, deverá ser precedida de autorização da maioria absoluta do Senado Federal. § 3º Os Ministérios Públicos dos Estados e o do Distrito Federal e Territórios formarão lista tríplice dentre integrantes da carreira, na forma da lei respectiva, para escolha de seu Procurador-Geral, que será nomeado pelo Chefe do Poder Executivo, para mandato de dois anos, permitida uma recondução. § 4º Os Procuradores-Gerais nos Estados e no Distrito Federal e Territórios poderão ser destituídos por deliberação da maioria absoluta do Poder Legislativo, na forma da lei complementar respectiva. § 5º Leis complementares da União e dos Estados, cuja iniciativa é facultada aos respectivos Procuradores-Gerais, estabelecerão a organização, as atribuições e o estatuto de cada Ministério Público, observadas, relativamente a seus membros: I - as seguintes garantias: a) vitaliciedade, após dois anos de exercício, não podendo perder o cargo senão por sentença judicial transitada em julgado; b) inamovibilidade, salvo por motivo de interesse público, mediante decisão do órgão colegiado competente do Ministério Público, por voto de dois terços de seus membros, assegurada ampla defesa; b) inamovibilidade, salvo por motivo de interesse público, mediante decisão do órgão colegiado competente do Ministério Público, pelo voto
 
 ---
 
@@ -43,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -61,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 127 — CF]] — artigo anterior
 - [[Art. 129 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -79,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 128")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art128)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

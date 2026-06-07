@@ -5,17 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art195
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-195
 - ordem-social
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 195 — A seguridade social será financiada por toda a sociedade, de forma direta e indireta, nos termos da lei, mediante recurs
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art195)
 
 ---
 
 ## REDACAO LEGAL
 
-> A seguridade social será financiada por toda a sociedade, de forma direta e indireta, nos termos da lei, mediante recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, e das seguintes contribuições sociais: (Vide Emenda Constitucional nº 20, de 1998) I - dos empregadores, incidente sobre a folha de salários, o faturamento e o lucro; I - do empregador, da...
+> A seguridade social será financiada por toda a sociedade, de forma direta e indireta, nos termos da lei, mediante recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, e das seguintes contribuições sociais: (Vide Emenda Constitucional nº 20, de 1998) I - dos empregadores, incidente sobre a folha de salários, o faturamento e o lucro; I - do empregador, da empresa e da entidade a ela equiparada na forma da lei, incidentes sobre: (Redação dada pela Emenda Constitucional nº 20, de 1998) a) a folha de salários e demais rendimentos do trabalho pagos ou creditados, a qualquer título, à pessoa física que lhe preste serviço, mesmo sem vínculo empregatício; (Incluído pela Emenda Constitucional nº 20, de 1998) b) a receita ou o faturamento; (Incluído pela Emenda Constitucional nº 20, de 1998) (Vide Emenda Constitucional nº 132, de 2023) Vigência c) o lucro; (Incluído pela Emenda Constitucional nº 20, de 1998) II - dos trabalhadores; II - do trabalhador e dos demais segurados da previdência social, não incidindo contribuição sobre aposentadoria e pensão concedidas pelo regime geral de previdência social de que trata o art. 201; (Redação dada pela Emenda Constitucional nº 20, de 1998) II - do trabalhador e dos demais segurados da previdência social, podendo ser adotadas alíquotas progressivas de acordo com o valor do salário de contribuição, não incidindo contribuição sobre aposentadoria e pensão concedidas pelo Regime Geral de Previdência Social; (Redação dada pela Emenda Constitucional nº 103, de 2019) III - sobre a receita de concursos de prognósticos. IV - do importador de bens ou serviços do exterior, ou de quem a lei a ele equiparar. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) (Vide Emenda Constitucional nº 132, de 2023) Vigência V - sobre bens e serviços, nos termos de lei complementar. (Incluído pela Emenda Constitucional nº 132, de 2023) (Vide Lei Complementar nº 214, de 2026) § 1º As receitas dos Estados, do Di
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 194 — CF]] — artigo anterior
 - [[Art. 196 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 195")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art195)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

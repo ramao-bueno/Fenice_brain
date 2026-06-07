@@ -5,19 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art200
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-200
 - ordem-social
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 200 — Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art200)
 
 ---
 
 ## REDACAO LEGAL
 
-> Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: I - controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde e participar da produção de medicamentos, equipamentos, imunobiológicos, hemoderivados e outros insumos; II - executar as ações de vigilância sanitária e epidemiológica, bem como as de saúde do trabalhador; III - ordenar a form...
+> Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: I - controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde e participar da produção de medicamentos, equipamentos, imunobiológicos, hemoderivados e outros insumos; II - executar as ações de vigilância sanitária e epidemiológica, bem como as de saúde do trabalhador; III - ordenar a formação de recursos humanos na área de saúde; IV - participar da formulação da política e da execução das ações de saneamento básico; V - incrementar em sua área de atuação o desenvolvimento científico e tecnológico; V - incrementar, em sua área de atuação, o desenvolvimento científico e tecnológico e a inovação; (Redação dada pela Emenda Constitucional nº 85, de 2015) VI - fiscalizar e inspecionar alimentos, compreendido o controle de seu teor nutricional, bem como bebidas e águas para consumo humano; VII - participar do controle e fiscalização da produção, transporte, guarda e utilização de substâncias e produtos psicoativos, tóxicos e radioativos; VIII - colaborar na proteção do meio ambiente, nele compreendido o do trabalho. Seção III DA PREVIDÊNCIA SOCIAL
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 199 — CF]] — artigo anterior
 - [[Art. 201 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 200")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art200)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

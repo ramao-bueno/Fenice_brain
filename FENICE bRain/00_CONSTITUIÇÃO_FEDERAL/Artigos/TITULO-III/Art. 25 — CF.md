@@ -5,18 +5,13 @@ titulo_cf: TITULO-III
 parte: Da Organização do Estado
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art25
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iii
-- art-25
 - organizacao-estado
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 25 — Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-III — Da Organização do Estado
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art25)
 
 ---
 
 ## REDACAO LEGAL
 
-> Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição. § 1º São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição. § 2º Cabe aos Estados explorar diretamente, ou mediante concessão, a empresa estatal, com exclusividade de distribuição, os serviços locais de gás canalizado. § 2º Cabe aos Estados...
+> Os Estados organizam-se e regem-se pelas Constituições e leis que adotarem, observados os princípios desta Constituição. § 1º São reservadas aos Estados as competências que não lhes sejam vedadas por esta Constituição. § 2º Cabe aos Estados explorar diretamente, ou mediante concessão, a empresa estatal, com exclusividade de distribuição, os serviços locais de gás canalizado. § 2º Cabe aos Estados explorar diretamente, ou mediante concessão, os serviços locais de gás canalizado, na forma da lei, vedada a edição de medida provisória para a sua regulamentação. (Redação dada pela Emenda Constitucional nº 5, de 1995) § 3º Os Estados poderão, mediante lei complementar, instituir regiões metropolitanas, aglomerações urbanas e microrregiões, constituídas por agrupamentos de municípios limítrofes, para integrar a organização, o planejamento e a execução de funções públicas de interesse comum.
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 24 — CF]] — artigo anterior
 - [[Art. 26 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 25")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art25)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

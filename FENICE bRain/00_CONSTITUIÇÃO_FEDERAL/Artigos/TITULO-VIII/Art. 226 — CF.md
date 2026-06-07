@@ -5,20 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art226
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-226
 - ordem-social
-- paragrafo-1
-- paragrafo-2
-- paragrafo-3
-- paragrafo-4
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 226 — A família, base da sociedade, tem especial proteção do Estado
@@ -26,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art226)
 
 ---
 
 ## REDACAO LEGAL
 
-> A família, base da sociedade, tem especial proteção do Estado. § 1º O casamento é civil e gratuita a celebração. § 2º O casamento religioso tem efeito civil, nos termos da lei. § 3º Para efeito da proteção do Estado, é reconhecida a união estável entre o homem e a mulher como entidade familiar, devendo a lei facilitar sua conversão em casamento. (Regulamento) § 4º Entende-se, também, como entidade...
+> A família, base da sociedade, tem especial proteção do Estado. § 1º O casamento é civil e gratuita a celebração. § 2º O casamento religioso tem efeito civil, nos termos da lei. § 3º Para efeito da proteção do Estado, é reconhecida a união estável entre o homem e a mulher como entidade familiar, devendo a lei facilitar sua conversão em casamento. (Regulamento) § 4º Entende-se, também, como entidade familiar a comunidade formada por qualquer dos pais e seus descendentes. § 5º Os direitos e deveres referentes à sociedade conjugal são exercidos igualmente pelo homem e pela mulher. § 6º O casamento civil pode ser dissolvido pelo divórcio, após prévia separação judicial por mais de um ano nos casos expressos em lei, ou comprovada separação de fato por mais de dois anos. § 6º O casamento civil pode ser dissolvido pelo divórcio. (Redação dada Pela Emenda Constitucional nº 66, de 2010) § 7º Fundado nos princípios da dignidade da pessoa humana e da paternidade responsável, o planejamento familiar é livre decisão do casal, competindo ao Estado propiciar recursos educacionais e científicos para o exercício desse direito, vedada qualquer forma coercitiva por parte de instituições oficiais ou privadas. Regulamento § 8º O Estado assegurará a assistência à família na pessoa de cada um dos que a integram, criando mecanismos para coibir a violência no âmbito de suas relações.
 
 ---
 
@@ -40,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -58,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 225 — CF]] — artigo anterior
 - [[Art. 227 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -76,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 226")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art226)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

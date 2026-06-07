@@ -5,21 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art163
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-163
 - tributacao
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 163 — Lei complementar disporá sobre
@@ -27,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art163)
 
 ---
 
 ## REDACAO LEGAL
 
-> Lei complementar disporá sobre: I - finanças públicas; II - dívida pública externa e interna, incluída a das autarquias, fundações e demais entidades controladas pelo Poder Público; III - concessão de garantias pelas entidades públicas; IV - emissão e resgate de títulos da dívida pública; V - fiscalização das instituições financeiras; V - fiscalização financeira da administração pública direta e i...
+> Lei complementar disporá sobre: I - finanças públicas; II - dívida pública externa e interna, incluída a das autarquias, fundações e demais entidades controladas pelo Poder Público; III - concessão de garantias pelas entidades públicas; IV - emissão e resgate de títulos da dívida pública; V - fiscalização das instituições financeiras; V - fiscalização financeira da administração pública direta e indireta; (Redação dada pela Emenda Constitucional nº 40, de 2003) VI - operações de câmbio realizadas por órgãos e entidades da União, dos Estados, do Distrito Federal e dos Municípios; VII - compatibilização das funções das instituições oficiais de crédito da União, resguardadas as características e condições operacionais plenas das voltadas ao desenvolvimento regional. VIII - sustentabilidade da dívida, especificando: (Incluído pela Emenda Constitucional nº 109, de 2021) a) indicadores de sua apuração; (Incluído pela Emenda Constitucional nº 109, de 2021) b) níveis de compatibilidade dos resultados fiscais com a trajetória da dívida; (Incluído pela Emenda Constitucional nº 109, de 2021) c) trajetória de convergência do montante da dívida com os limites definidos em legislação; (Incluído pela Emenda Constitucional nº 109, de 2021) d) medidas de ajuste, suspensões e vedações; (Incluído pela Emenda Constitucional nº 109, de 2021) e) planejamento de alienação de ativos com vistas à redução do montante da dívida. (Incluído pela Emenda Constitucional nº 109, de 2021) IX - condições e limites para concessão, ampliação ou prorrogação de incentivo ou benefício de natureza tributária. (Incluído pela Emenda Constitucional nº 135, de 2024) Parágrafo único. A lei complementar de que trata o inciso VIII do caput deste artigo pode autorizar a aplicação das vedações previstas no art. 167-A desta Constituição. (Incluído pela Emenda Constitucional nº 109, de 2021)
 
 ---
 
@@ -41,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -59,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 162 — CF]] — artigo anterior
 - [[Art. 164 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -77,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 163")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art163)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

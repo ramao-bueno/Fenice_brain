@@ -5,20 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art146
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-146
 - tributacao
-- inciso-i
-- inciso-ii
-- inciso-iii
-- alinea-a
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 146 — Cabe à lei complementar
@@ -26,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art146)
 
 ---
 
 ## REDACAO LEGAL
 
-> Cabe à lei complementar: I - dispor sobre conflitos de competência, em matéria tributária, entre a União, os Estados, o Distrito Federal e os Municípios; II - regular as limitações constitucionais ao poder de tributar; III - estabelecer normas gerais em matéria de legislação tributária, especialmente sobre: a) definição de tributos e de suas espécies, bem como, em relação aos impostos discriminado...
+> Cabe à lei complementar: I - dispor sobre conflitos de competência, em matéria tributária, entre a União, os Estados, o Distrito Federal e os Municípios; II - regular as limitações constitucionais ao poder de tributar; III - estabelecer normas gerais em matéria de legislação tributária, especialmente sobre: a) definição de tributos e de suas espécies, bem como, em relação aos impostos discriminados nesta Constituição, a dos respectivos fatos geradores, bases de cálculo e contribuintes; b) obrigação, lançamento, crédito, prescrição e decadência tributários; c) adequado tratamento tributário ao ato cooperativo praticado pelas sociedades cooperativas. c) adequado tratamento tributário ao ato cooperativo praticado pelas sociedades cooperativas, inclusive em relação aos tributos previstos nos arts. 156-A e 195, V; (Redação dada pela Emenda Constitucional nº 132, de 2023) d) definição de tratamento diferenciado e favorecido para as microempresas e para as empresas de pequeno porte, inclusive regimes especiais ou simplificados no caso do imposto previsto no art. 155, II, das contribuições previstas no art. 195, I e §§ 12 e 13, e da contribuição a que se refere o art. 239. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) d) definição de tratamento diferenciado e favorecido para as microempresas e para as empresas de pequeno porte, inclusive regimes especiais ou simplificados no caso dos impostos previstos nos arts. 155, II, e 156-A, das contribuições sociais previstas no art. 195, I e V, e § 12 e da contribuição a que se refere o art. 239. (Redação dada pela Emenda Constitucional nº 132, de 2023) Parágrafo único. A lei complementar de que trata o inciso III, d, também poderá instituir um regime único de arrecadação dos impostos e contribuições da União, dos Estados, do Distrito Federal e dos Municípios, observado que: (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) I - será opcional para o contribuinte; (Incluído pela Emenda Constitucional nº 42, de 19.
 
 ---
 
@@ -40,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -58,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 145 — CF]] — artigo anterior
 - [[Art. 147 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -76,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 146")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art146)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

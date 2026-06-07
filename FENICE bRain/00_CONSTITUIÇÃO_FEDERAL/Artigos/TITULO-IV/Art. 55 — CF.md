@@ -5,20 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art55
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-55
 - organizacao-poderes
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 55 — Perderá o mandato o Deputado ou Senador
@@ -26,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art55)
 
 ---
 
 ## REDACAO LEGAL
 
-> Perderá o mandato o Deputado ou Senador: I - que infringir qualquer das proibições estabelecidas no artigo anterior; II - cujo procedimento for declarado incompatível com o decoro parlamentar; III - que deixar de comparecer, em cada sessão legislativa, à terça parte das sessões ordinárias da Casa a que pertencer, salvo licença ou missão por esta autorizada; IV - que perder ou tiver suspensos os di...
+> Perderá o mandato o Deputado ou Senador: I - que infringir qualquer das proibições estabelecidas no artigo anterior; II - cujo procedimento for declarado incompatível com o decoro parlamentar; III - que deixar de comparecer, em cada sessão legislativa, à terça parte das sessões ordinárias da Casa a que pertencer, salvo licença ou missão por esta autorizada; IV - que perder ou tiver suspensos os direitos políticos; V - quando o decretar a Justiça Eleitoral, nos casos previstos nesta Constituição; VI - que sofrer condenação criminal em sentença transitada em julgado. § 1º - É incompatível com o decoro parlamentar, além dos casos definidos no regimento interno, o abuso das prerrogativas asseguradas a membro do Congresso Nacional ou a percepção de vantagens indevidas. § 2º Nos casos dos incisos I, II e VI, a perda do mandato será decidida pela Câmara dos Deputados ou pelo Senado Federal, por voto secreto e maioria absoluta, mediante provocação da respectiva Mesa ou de partido político representado no Congresso Nacional, assegurada ampla defesa. § 2º Nos casos dos incisos I, II e VI, a perda do mandato será decidida pela Câmara dos Deputados ou pelo Senado Federal, por maioria absoluta, mediante provocação da respectiva Mesa ou de partido político representado no Congresso Nacional, assegurada ampla defesa. (Redação dada pela Emenda Constitucional nº 76, de 2013) § 3º Nos casos previstos nos incisos III a V, a perda será declarada pela Mesa da Casa respectiva, de ofício ou mediante provocação de qualquer de seus membros, ou de partido político representado no Congresso Nacional, assegurada ampla defesa. § 4º A renúncia de parlamentar submetido a processo que vise ou possa levar à perda do mandato, nos termos deste artigo, terá seus efeitos suspensos até as deliberações finais de que tratam os §§ 2º e 3º. (Incluído pela Emenda Constitucional de Revisão nº 6, de 1994)
 
 ---
 
@@ -40,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -58,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 54 — CF]] — artigo anterior
 - [[Art. 56 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -76,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 55")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art55)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

@@ -5,18 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art194
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-194
 - ordem-social
-- inciso-i
-- inciso-ii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 194 — A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destina
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art194)
 
 ---
 
 ## REDACAO LEGAL
 
-> A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social. Parágrafo único. Compete ao Poder Público, nos termos da lei, organizar a seguridade social, com base nos seguintes objetivos: I - universalidade da cobertura e do atendimento; II - uniformidade...
+> A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social. Parágrafo único. Compete ao Poder Público, nos termos da lei, organizar a seguridade social, com base nos seguintes objetivos: I - universalidade da cobertura e do atendimento; II - uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais; III - seletividade e distributividade na prestação dos benefícios e serviços; IV - irredutibilidade do valor dos benefícios; V - eqüidade na forma de participação no custeio; VI - diversidade da base de financiamento; VI - diversidade da base de financiamento, identificando-se, em rubricas contábeis específicas para cada área, as receitas e as despesas vinculadas a ações de saúde, previdência e assistência social, preservado o caráter contributivo da previdência social; (Redação dada pela Emenda Constitucional nº 103, de 2019) VII - caráter democrático e descentralizado da gestão administrativa, com a participação da comunidade, em especial de trabalhadores, empresários e aposentados. VII - caráter democrático e descentralizado da administração, mediante gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados. (Redação dada pela Emenda Constitucional nº 20, de 1998)
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 193 — CF]] — artigo anterior
 - [[Art. 195 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 194")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art194)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

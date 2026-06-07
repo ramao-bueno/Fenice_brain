@@ -5,19 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art96
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-96
 - organizacao-poderes
-- inciso-i
-- alinea-a
-- alinea-b
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 96 — Compete privativamente
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art96)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete privativamente: I - aos tribunais: a) eleger seus órgãos diretivos e elaborar seus regimentos internos, com observância das normas de processo e das garantias processuais das partes, dispondo sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos; b) organizar suas secretarias e serviços auxiliares e os dos juízos que lhes forem vinculados, velando pe...
+> Compete privativamente: I - aos tribunais: a) eleger seus órgãos diretivos e elaborar seus regimentos internos, com observância das normas de processo e das garantias processuais das partes, dispondo sobre a competência e o funcionamento dos respectivos órgãos jurisdicionais e administrativos; b) organizar suas secretarias e serviços auxiliares e os dos juízos que lhes forem vinculados, velando pelo exercício da atividade correicional respectiva; c) prover, na forma prevista nesta Constituição, os cargos de juiz de carreira da respectiva jurisdição; d) propor a criação de novas varas judiciárias; e) prover, por concurso público de provas, ou de provas e títulos, obedecido o disposto no art. 169, parágrafo único, os cargos necessários à administração da Justiça, exceto os de confiança assim definidos em lei; f) conceder licença, férias e outros afastamentos a seus membros e aos juízes e servidores que lhes forem imediatamente vinculados; II - ao Supremo Tribunal Federal, aos Tribunais Superiores e aos Tribunais de Justiça propor ao Poder Legislativo respectivo, observado o disposto no art. 169: a) a alteração do número de membros dos tribunais inferiores; b) a criação e a extinção de cargos e a fixação de vencimentos de seus membros, dos juízes, inclusive dos tribunais inferiores, onde houver, dos serviços auxiliares e os dos juízos que lhes forem vinculados; b) a criação e a extinção de cargos e a remuneração dos seus serviços auxiliares e dos juízos que lhes forem vinculados, bem como a fixação do subsídio de seus membros e dos juizes, inclusive dos tribunais inferiores, onde houver, ressalvado o disposto no art. 48, XV; (Redação dada pela Emenda Constitucional nº 19, de 1998) b) a criação e a extinção de cargos e a remuneração dos seus serviços auxiliares e dos juízos que lhes forem vinculados, bem como a fixação do subsídio de seus membros e dos juízes, inclusive dos tribunais inferiores, onde houver; (Redação dada pela Emenda Constitucional nº 41, 19.12.2003) c)
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 95 — CF]] — artigo anterior
 - [[Art. 97 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 96")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art96)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

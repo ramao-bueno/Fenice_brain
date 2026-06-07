@@ -5,17 +5,13 @@ titulo_cf: TITULO-IX
 parte: Das Disposições Constitucionais Gerais
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art233
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ix
-- art-233
 - disposicoes-gerais
-- paragrafo-1
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 233 — Para efeito do art
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IX — Das Disposições Constitucionais Gerais
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art233)
 
 ---
 
 ## REDACAO LEGAL
 
-> Para efeito do art. 7º, XXIX, o empregador rural comprovará, de cinco em cinco anos, perante a Justiça do Trabalho, o cumprimento das suas obrigações trabalhistas para com o empregado rural, na presença deste e de seu representante sindical. (Revogado pela Emenda Constitucional nº 28, de 25/05/2000) § 1º Uma vez comprovado o cumprimento das obrigações mencionadas neste artigo, fica o empregador is...
+> Para efeito do art. 7º, XXIX, o empregador rural comprovará, de cinco em cinco anos, perante a Justiça do Trabalho, o cumprimento das suas obrigações trabalhistas para com o empregado rural, na presença deste e de seu representante sindical. (Revogado pela Emenda Constitucional nº 28, de 25/05/2000) § 1º Uma vez comprovado o cumprimento das obrigações mencionadas neste artigo, fica o empregador isento de qualquer ônus decorrente daquelas obrigações no período respectivo. Caso o empregado e seu representante não concordem com a comprovação do empregador, caberá à Justiça do Trabalho a solução da controvérsia. (Revogado pela Emenda Constitucional nº 28, de 25/05/2000) § 2º Fica ressalvado ao empregado, em qualquer hipótese, o direito de postular, judicialmente, os créditos que entender existir, relativamente aos últimos cinco anos. (Revogado pela Emenda Constitucional nº 28, de 25/05/2000) § 3º A comprovação mencionada neste artigo poderá ser feita em prazo inferior a cinco anos, a critério do empregador. (Revogado pela Emenda Constitucional nº 28, de 25/05/2000)
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 232 — CF]] — artigo anterior
 - [[Art. 234 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 233")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art233)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

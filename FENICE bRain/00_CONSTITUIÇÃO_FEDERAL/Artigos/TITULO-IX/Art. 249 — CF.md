@@ -5,16 +5,13 @@ titulo_cf: TITULO-IX
 parte: Das Disposições Constitucionais Gerais
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art249
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ix
-- art-249
 - disposicoes-gerais
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 249 — Com o objetivo de assegurar recursos para o pagamento de proventos de aposentadoria e pensões concedidas aos respectivos
@@ -22,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IX — Das Disposições Constitucionais Gerais
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art249)
 
 ---
 
 ## REDACAO LEGAL
 
-> Com o objetivo de assegurar recursos para o pagamento de proventos de aposentadoria e pensões concedidas aos respectivos servidores e seus dependentes, em adição aos recursos dos respectivos tesouros, a União, os Estados, o Distrito Federal e os Municípios poderão constituir fundos integrados pelos recursos provenientes de contribuições e por bens, direitos e ativos de qualquer natureza, mediante...
+> Com o objetivo de assegurar recursos para o pagamento de proventos de aposentadoria e pensões concedidas aos respectivos servidores e seus dependentes, em adição aos recursos dos respectivos tesouros, a União, os Estados, o Distrito Federal e os Municípios poderão constituir fundos integrados pelos recursos provenientes de contribuições e por bens, direitos e ativos de qualquer natureza, mediante lei que disporá sobre a natureza e administração desses fundos. (Incluído pela Emenda Constitucional nº 20, de 1998)
 
 ---
 
@@ -36,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -54,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 248 — CF]] — artigo anterior
 - [[Art. 250 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -72,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 249")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art249)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

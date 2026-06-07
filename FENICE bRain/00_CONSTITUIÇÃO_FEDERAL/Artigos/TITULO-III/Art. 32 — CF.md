@@ -5,18 +5,13 @@ titulo_cf: TITULO-III
 parte: Da Organização do Estado
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art32
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iii
-- art-32
 - organizacao-estado
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 32 — O Distrito Federal, vedada sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstíci
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-III — Da Organização do Estado
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art32)
 
 ---
 
 ## REDACAO LEGAL
 
-> O Distrito Federal, vedada sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição. § 1º Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios. § 2º A eleição do Governad...
+> O Distrito Federal, vedada sua divisão em Municípios, reger- se-á por lei orgânica, votada em dois turnos com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Legislativa, que a promulgará, atendidos os princípios estabelecidos nesta Constituição. § 1º Ao Distrito Federal são atribuídas as competências legislativas reservadas aos Estados e Municípios. § 2º A eleição do Governador e do Vice-Governador, observadas as regras do art. 77, e dos Deputados Distritais coincidirá com a dos Governadores e Deputados Estaduais, para mandato de igual duração. § 3º Aos Deputados Distritais e à Câmara Legislativa aplica-se o disposto no art. 27. § 4º Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, das polícias civil e militar e do corpo de bombeiros militar. § 4º Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, da polícia civil, da polícia penal, da polícia militar e do corpo de bombeiros militar. (Redação dada pela Emenda Constitucional nº 104, de 2019) Seção II DOS TERRITÓRIOS
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 31 — CF]] — artigo anterior
 - [[Art. 33 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 32")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art32)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

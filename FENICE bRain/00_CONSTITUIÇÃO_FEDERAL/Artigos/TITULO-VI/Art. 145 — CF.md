@@ -5,20 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art145
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-145
 - tributacao
-- paragrafo-1
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 145 — A União, os Estados, o Distrito Federal e os Municípios poderão instituir os seguintes tributos
@@ -26,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art145)
 
 ---
 
 ## REDACAO LEGAL
 
-> A União, os Estados, o Distrito Federal e os Municípios poderão instituir os seguintes tributos: I - impostos; II - taxas, em razão do exercício do poder de polícia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos a sua disposição; III - contribuição de melhoria, decorrente de obras públicas. § 1º Sempre que possível, os i...
+> A União, os Estados, o Distrito Federal e os Municípios poderão instituir os seguintes tributos: I - impostos; II - taxas, em razão do exercício do poder de polícia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos a sua disposição; III - contribuição de melhoria, decorrente de obras públicas. § 1º Sempre que possível, os impostos terão caráter pessoal e serão graduados segundo a capacidade econômica do contribuinte, facultado à administração tributária, especialmente para conferir efetividade a esses objetivos, identificar, respeitados os direitos individuais e nos termos da lei, o patrimônio, os rendimentos e as atividades econômicas do contribuinte. § 2º As taxas não poderão ter base de cálculo própria de impostos. § 3º O Sistema Tributário Nacional deve observar os princípios da simplicidade, da transparência, da justiça tributária, da cooperação e da defesa do meio ambiente. (Incluído pela Emenda Constitucional nº 132, de 2023) § 4º As alterações na legislação tributária buscarão atenuar efeitos regressivos. (Incluído pela Emenda Constitucional nº 132, de 2023)
 
 ---
 
@@ -40,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -58,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 144 — CF]] — artigo anterior
 - [[Art. 146 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -76,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 145")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art145)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

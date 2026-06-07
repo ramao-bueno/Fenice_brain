@@ -5,17 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art208
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-208
 - ordem-social
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 208 — O dever do Estado com a educação será efetivado mediante a garantia de
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art208)
 
 ---
 
 ## REDACAO LEGAL
 
-> O dever do Estado com a educação será efetivado mediante a garantia de: I - ensino fundamental, obrigatório e gratuito, inclusive para os que a ele não tiveram acesso na idade própria; I - ensino fundamental, obrigatório e gratuito, assegurada, inclusive, sua oferta gratuita para todos os que a ele não tiveram acesso na idade própria; (Redação dada pela Emenda Constitucional nº 14, de 1996) I - ed...
+> O dever do Estado com a educação será efetivado mediante a garantia de: I - ensino fundamental, obrigatório e gratuito, inclusive para os que a ele não tiveram acesso na idade própria; I - ensino fundamental, obrigatório e gratuito, assegurada, inclusive, sua oferta gratuita para todos os que a ele não tiveram acesso na idade própria; (Redação dada pela Emenda Constitucional nº 14, de 1996) I - educação básica obrigatória e gratuita dos 4 (quatro) aos 17 (dezessete) anos de idade, assegurada inclusive sua oferta gratuita para todos os que a ela não tiveram acesso na idade própria; (Redação dada pela Emenda Constitucional nº 59, de 2009) (Vide Emenda Constitucional nº 59, de 2009) II - progressiva extensão da obrigatoriedade e gratuidade ao ensino médio; II - progressiva universalização do ensino médio gratuito; (Redação dada pela Emenda Constitucional nº 14, de 1996) III - atendimento educacional especializado aos portadores de deficiência, preferencialmente na rede regular de ensino; IV - atendimento em creche e pré-escola às crianças de zero a seis anos de idade; IV - educação infantil, em creche e pré-escola, às crianças até 5 (cinco) anos de idade; (Redação dada pela Emenda Constitucional nº 53, de 2006) V - acesso aos níveis mais elevados do ensino, da pesquisa e da criação artística, segundo a capacidade de cada um; VI - oferta de ensino noturno regular, adequado às condições do educando; VII - atendimento ao educando, no ensino fundamental, através de programas suplementares de material didático-escolar, transporte, alimentação e assistência à saúde. VII - atendimento ao educando, em todas as etapas da educação básica, por meio de programas suplementares de material didático-escolar, transporte, alimentação e assistência à saúde. (Redação dada pela Emenda Constitucional nº 59, de 2009) § 1º O acesso ao ensino obrigatório e gratuito é direito público subjetivo. § 2º O não-oferecimento do ensino obrigatório pelo Poder Público, ou sua oferta irregular, importa r
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 207 — CF]] — artigo anterior
 - [[Art. 209 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 208")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art208)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

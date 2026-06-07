@@ -5,18 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art105
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-105
 - organizacao-poderes
-- inciso-i
-- alinea-a
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 105 — Compete ao Superior Tribunal de Justiça
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art105)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete ao Superior Tribunal de Justiça: I - processar e julgar, originariamente: a) nos crimes comuns, os Governadores dos Estados e do Distrito Federal, e, nestes e nos de responsabilidade, os desembargadores dos Tribunais de Justiça dos Estados e do Distrito Federal, os membros dos Tribunais de Contas dos Estados e do Distrito Federal, os dos Tribunais Regionais Federais, dos Tribunais Regionai...
+> Compete ao Superior Tribunal de Justiça: I - processar e julgar, originariamente: a) nos crimes comuns, os Governadores dos Estados e do Distrito Federal, e, nestes e nos de responsabilidade, os desembargadores dos Tribunais de Justiça dos Estados e do Distrito Federal, os membros dos Tribunais de Contas dos Estados e do Distrito Federal, os dos Tribunais Regionais Federais, dos Tribunais Regionais Eleitorais e do Trabalho, os membros dos Conselhos ou Tribunais de Contas dos Municípios e os do Ministério Público da União que oficiem perante tribunais; b) os mandados de segurança e os habeas data contra ato de Ministro de Estado ou do próprio Tribunal; b) os mandados de segurança e os habeas data contra ato de Ministro de Estado, dos Comandantes da Marinha, do Exército e da Aeronáutica ou do próprio Tribunal; (Redação dada pela Emenda Constitucional nº 23, de 1999) c) os habeas corpus, quando o coator ou o paciente for qualquer das pessoas mencionadas na alínea &quot;a&quot;, ou quando o coator for Ministro de Estado, ressalvada a competência da Justiça Eleitoral; c) os habeas corpus, quando o coator ou o paciente for qualquer das pessoas mencionadas na alínea &quot;a&quot;, quando coator for tribunal, sujeito à sua jurisdição, ou Ministro de Estado, ressalvada a competência da Justiça Eleitoral; (Redação dada pela Emenda Constitucional nº 22, de 1999) c) os habeas corpus, quando o coator ou paciente for qualquer das pessoas mencionadas na alínea a, ou quando o coator for tribunal sujeito à sua jurisdição, Ministro de Estado ou Comandante da Marinha, do Exército ou da Aeronáutica, ressalvada a competência da Justiça Eleitoral; (Redação dada pela Emenda Constitucional nº 23, de 1999) d) os conflitos de competência entre quaisquer tribunais, ressalvado o disposto no art. 102, I, &quot;o&quot;, bem como entre tribunal e juízes a ele não vinculados e entre juízes vinculados a tribunais diversos; e) as revisões criminais e as ações rescisórias de seus julgados; f) a recla
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 104 — CF]] — artigo anterior
 - [[Art. 106 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 105")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art105)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

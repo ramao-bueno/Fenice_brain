@@ -5,19 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art161
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-161
 - tributacao
-- paragrafo-1
-- inciso-i
-- inciso-ii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 161 — Cabe à lei complementar
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art161)
 
 ---
 
 ## REDACAO LEGAL
 
-> Cabe à lei complementar: I - definir valor adicionado para fins do disposto no art. 158, parágrafo único, I; I - definir valor adicionado para fins do disposto no art. 158, § 1º, I; (Redação dada pela Emenda Constitucional nº 132, de 2023) (Vide Emenda Constitucional nº 132, de 2023) Vigência II - estabelecer normas sobre a entrega dos recursos de que trata o art. 159, especialmente sobre os crité...
+> Cabe à lei complementar: I - definir valor adicionado para fins do disposto no art. 158, parágrafo único, I; I - definir valor adicionado para fins do disposto no art. 158, § 1º, I; (Redação dada pela Emenda Constitucional nº 132, de 2023) (Vide Emenda Constitucional nº 132, de 2023) Vigência II - estabelecer normas sobre a entrega dos recursos de que trata o art. 159, especialmente sobre os critérios de rateio dos fundos previstos em seu inciso I, objetivando promover o equilíbrio sócio-econômico entre Estados e entre Municípios; III - dispor sobre o acompanhamento, pelos beneficiários, do cálculo das quotas e da liberação das participações previstas nos arts. 157, 158 e 159. Parágrafo único. O Tribunal de Contas da União efetuará o cálculo das quotas referentes aos fundos de participação a que alude o inciso II.
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 160 — CF]] — artigo anterior
 - [[Art. 162 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 161")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art161)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

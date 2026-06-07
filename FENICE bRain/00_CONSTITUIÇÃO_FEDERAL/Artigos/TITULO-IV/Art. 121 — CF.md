@@ -5,18 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art121
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-121
 - organizacao-poderes
-- paragrafo-1
-- paragrafo-2
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 121 — Lei complementar disporá sobre a organização e competência dos tribunais, dos juízes de direito e das juntas eleitorais
@@ -24,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art121)
 
 ---
 
 ## REDACAO LEGAL
 
-> Lei complementar disporá sobre a organização e competência dos tribunais, dos juízes de direito e das juntas eleitorais. § 1º - Os membros dos tribunais, os juízes de direito e os integrantes das juntas eleitorais, no exercício de suas funções, e no que lhes for aplicável, gozarão de plenas garantias e serão inamovíveis. § 2º - Os juízes dos tribunais eleitorais, salvo motivo justificado, servirão...
+> Lei complementar disporá sobre a organização e competência dos tribunais, dos juízes de direito e das juntas eleitorais. § 1º - Os membros dos tribunais, os juízes de direito e os integrantes das juntas eleitorais, no exercício de suas funções, e no que lhes for aplicável, gozarão de plenas garantias e serão inamovíveis. § 2º - Os juízes dos tribunais eleitorais, salvo motivo justificado, servirão por dois anos, no mínimo, e nunca por mais de dois biênios consecutivos, sendo os substitutos escolhidos na mesma ocasião e pelo mesmo processo, em número igual para cada categoria. § 3º - São irrecorríveis as decisões do Tribunal Superior Eleitoral, salvo as que contrariarem esta Constituição e as denegatórias de habeas corpus ou mandado de segurança. § 4º - Das decisões dos Tribunais Regionais Eleitorais somente caberá recurso quando: I - forem proferidas contra disposição expressa desta Constituição ou de lei; II - ocorrer divergência na interpretação de lei entre dois ou mais tribunais eleitorais; III - versarem sobre inelegibilidade ou expedição de diplomas nas eleições federais ou estaduais; IV - anularem diplomas ou decretarem a perda de mandatos eletivos federais ou estaduais; V - denegarem habeas corpus , mandado de segurança, habeas data ou mandado de injunção. Seção VII DOS TRIBUNAIS E JUÍZES MILITARES
 
 ---
 
@@ -38,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -56,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 120 — CF]] — artigo anterior
 - [[Art. 122 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -74,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 121")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art121)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

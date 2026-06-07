@@ -5,19 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art223
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-223
 - ordem-social
-- paragrafo-1
-- paragrafo-2
-- paragrafo-4
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 223 — Compete ao Poder Executivo outorgar e renovar concessão, permissão e autorização para o serviço de radiodifusão sonora e
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art223)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete ao Poder Executivo outorgar e renovar concessão, permissão e autorização para o serviço de radiodifusão sonora e de sons e imagens, observado o princípio da complementaridade dos sistemas privado, público e estatal. § 1º O Congresso Nacional apreciará o ato no prazo do art. 64, § 2º e § 4º, a contar do recebimento da mensagem. § 2º A não renovação da concessão ou permissão dependerá de apr...
+> Compete ao Poder Executivo outorgar e renovar concessão, permissão e autorização para o serviço de radiodifusão sonora e de sons e imagens, observado o princípio da complementaridade dos sistemas privado, público e estatal. § 1º O Congresso Nacional apreciará o ato no prazo do art. 64, § 2º e § 4º, a contar do recebimento da mensagem. § 2º A não renovação da concessão ou permissão dependerá de aprovação de, no mínimo, dois quintos do Congresso Nacional, em votação nominal. § 3º O ato de outorga ou renovação somente produzirá efeitos legais após deliberação do Congresso Nacional, na forma dos parágrafos anteriores. § 4º O cancelamento da concessão ou permissão, antes de vencido o prazo, depende de decisão judicial. § 5º O prazo da concessão ou permissão será de dez anos para as emissoras de rádio e de quinze para as de televisão.
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 222 — CF]] — artigo anterior
 - [[Art. 224 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 223")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art223)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

@@ -5,21 +5,13 @@ titulo_cf: TITULO-VII
 parte: Da Ordem Econômica e Financeira
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art178
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vii
-- art-178
 - ordem-economica
-- paragrafo-1
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 178 — A lei disporá sobre
@@ -27,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VII — Da Ordem Econômica e Financeira
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art178)
 
 ---
 
 ## REDACAO LEGAL
 
-> A lei disporá sobre: I - a ordenação dos transportes aéreo, aquático e terrestre; II - a predominância dos armadores nacionais e navios de bandeira e registros brasileiros e do país exportador ou importador; III - o transporte de granéis ; IV - a utilização de embarcações de pesca e outras . § 1º A ordenação do transporte internacional cumprirá os acordos firmados pela União, atendido o princípio...
+> A lei disporá sobre: I - a ordenação dos transportes aéreo, aquático e terrestre; II - a predominância dos armadores nacionais e navios de bandeira e registros brasileiros e do país exportador ou importador; III - o transporte de granéis ; IV - a utilização de embarcações de pesca e outras . § 1º A ordenação do transporte internacional cumprirá os acordos firmados pela União, atendido o princípio da reciprocidade § 2º Serão brasileiros os armadores, os proprietários, os comandantes e dois terços, pelo menos, dos tripulantes de embarcações nacionais § 3º A navegação de cabotagem e a interior são privativas de embarcações nacionais, salvo caso de necessidade pública, segundo dispuser a lei.
 
 ---
 
@@ -41,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -59,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 177 — CF]] — artigo anterior
 - [[Art. 179 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -77,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 178")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art178)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

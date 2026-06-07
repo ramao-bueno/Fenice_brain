@@ -5,16 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art162
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-162
 - tributacao
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 162 — A União, os Estados, o Distrito Federal e os Municípios divulgarão, até o último dia do mês subseqüente ao da arrecadaçã
@@ -22,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art162)
 
 ---
 
 ## REDACAO LEGAL
 
-> A União, os Estados, o Distrito Federal e os Municípios divulgarão, até o último dia do mês subseqüente ao da arrecadação, os montantes de cada um dos tributos arrecadados, os recursos recebidos, os valores de origem tributária entregues e a entregar e a expressão numérica dos critérios de rateio. Parágrafo único. Os dados divulgados pela União serão discriminados por Estado e por Município; os do...
+> A União, os Estados, o Distrito Federal e os Municípios divulgarão, até o último dia do mês subseqüente ao da arrecadação, os montantes de cada um dos tributos arrecadados, os recursos recebidos, os valores de origem tributária entregues e a entregar e a expressão numérica dos critérios de rateio. Parágrafo único. Os dados divulgados pela União serão discriminados por Estado e por Município; os dos Estados, por Município. CAPÍTULO II DAS FINANÇAS PÚBLICAS Seção I NORMAS GERAIS
 
 ---
 
@@ -36,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -54,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 161 — CF]] — artigo anterior
 - [[Art. 163 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -72,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 162")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art162)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

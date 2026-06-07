@@ -5,19 +5,13 @@ titulo_cf: TITULO-IX
 parte: Das Disposições Constitucionais Gerais
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art235
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ix
-- art-235
 - disposicoes-gerais
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 235 — Nos dez primeiros anos da criação de Estado, serão observadas as seguintes normas básicas
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IX — Das Disposições Constitucionais Gerais
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art235)
 
 ---
 
 ## REDACAO LEGAL
 
-> Nos dez primeiros anos da criação de Estado, serão observadas as seguintes normas básicas: I - a Assembléia Legislativa será composta de dezessete Deputados se a população do Estado for inferior a seiscentos mil habitantes, e de vinte e quatro, se igual ou superior a esse número, até um milhão e quinhentos mil; II - o Governo terá no máximo dez Secretarias; III - o Tribunal de Contas terá três mem...
+> Nos dez primeiros anos da criação de Estado, serão observadas as seguintes normas básicas: I - a Assembléia Legislativa será composta de dezessete Deputados se a população do Estado for inferior a seiscentos mil habitantes, e de vinte e quatro, se igual ou superior a esse número, até um milhão e quinhentos mil; II - o Governo terá no máximo dez Secretarias; III - o Tribunal de Contas terá três membros, nomeados, pelo Governador eleito, dentre brasileiros de comprovada idoneidade e notório saber; IV - o Tribunal de Justiça terá sete Desembargadores; V - os primeiros Desembargadores serão nomeados pelo Governador eleito, escolhidos da seguinte forma: a) cinco dentre os magistrados com mais de trinta e cinco anos de idade, em exercício na área do novo Estado ou do Estado originário; b) dois dentre promotores, nas mesmas condições, e advogados de comprovada idoneidade e saber jurídico, com dez anos, no mínimo, de exercício profissional, obedecido o procedimento fixado na Constituição; VI - no caso de Estado proveniente de Território Federal, os cinco primeiros Desembargadores poderão ser escolhidos dentre juízes de direito de qualquer parte do País; VII - em cada Comarca, o primeiro Juiz de Direito, o primeiro Promotor de Justiça e o primeiro Defensor Público serão nomeados pelo Governador eleito após concurso público de provas e títulos; VIII - até a promulgação da Constituição Estadual, responderão pela Procuradoria-Geral, pela Advocacia-Geral e pela Defensoria-Geral do Estado advogados de notório saber, com trinta e cinco anos de idade, no mínimo, nomeados pelo Governador eleito e demissíveis &quot;ad nutum&quot;; IX - se o novo Estado for resultado de transformação de Território Federal, a transferência de encargos financeiros da União para pagamento dos servidores optantes que pertenciam à Administração Federal ocorrerá da seguinte forma: a) no sexto ano de instalação, o Estado assumirá vinte por cento dos encargos financeiros para fazer face ao pagamento dos servi
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 234 — CF]] — artigo anterior
 - [[Art. 236 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 235")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art235)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

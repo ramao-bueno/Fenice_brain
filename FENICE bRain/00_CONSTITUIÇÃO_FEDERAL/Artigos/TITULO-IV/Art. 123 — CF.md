@@ -5,16 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art123
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-123
 - organizacao-poderes
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 123 — O Superior Tribunal Militar compor-se-á de quinze Ministros vitalícios, nomeados pelo Presidente da República, depois de
@@ -22,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art123)
 
 ---
 
 ## REDACAO LEGAL
 
-> O Superior Tribunal Militar compor-se-á de quinze Ministros vitalícios, nomeados pelo Presidente da República, depois de aprovada a indicação pelo Senado Federal, sendo três dentre oficiais-generais da Marinha, quatro dentre oficiais-generais do Exército, três dentre oficiais-generais da Aeronáutica, todos da ativa e do posto mais elevado da carreira, e cinco dentre civis. Parágrafo único. Os Mini...
+> O Superior Tribunal Militar compor-se-á de quinze Ministros vitalícios, nomeados pelo Presidente da República, depois de aprovada a indicação pelo Senado Federal, sendo três dentre oficiais-generais da Marinha, quatro dentre oficiais-generais do Exército, três dentre oficiais-generais da Aeronáutica, todos da ativa e do posto mais elevado da carreira, e cinco dentre civis. Parágrafo único. Os Ministros civis serão escolhidos pelo Presidente da República dentre brasileiros maiores de trinta e cinco anos, sendo: Parágrafo único. Os Ministros civis serão escolhidos pelo Presidente da República dentre brasileiros com mais de trinta e cinco e menos de setenta anos de idade, sendo: (Redação dada pela Emenda Constitucional nº 122, de 2022) I - três dentre advogados de notório saber jurídico e conduta ilibada, com mais de dez anos de efetiva atividade profissional; II - dois, por escolha paritária, dentre juízes auditores e membros do Ministério Público da Justiça Militar.
 
 ---
 
@@ -36,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -54,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 122 — CF]] — artigo anterior
 - [[Art. 124 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -72,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 123")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art123)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

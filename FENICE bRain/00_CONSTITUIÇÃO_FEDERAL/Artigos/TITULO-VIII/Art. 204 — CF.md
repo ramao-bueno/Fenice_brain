@@ -5,17 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art204
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-204
 - ordem-social
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 204 — As ações governamentais na área da assistência social serão realizadas com recursos do orçamento da seguridade social, p
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art204)
 
 ---
 
 ## REDACAO LEGAL
 
-> As ações governamentais na área da assistência social serão realizadas com recursos do orçamento da seguridade social, previstos no art. 195, além de outras fontes, e organizadas com base nas seguintes diretrizes: I - descentralização político-administrativa, cabendo a coordenação e as normas gerais à esfera federal e a coordenação e a execução dos respectivos programas às esferas estadual e munic...
+> As ações governamentais na área da assistência social serão realizadas com recursos do orçamento da seguridade social, previstos no art. 195, além de outras fontes, e organizadas com base nas seguintes diretrizes: I - descentralização político-administrativa, cabendo a coordenação e as normas gerais à esfera federal e a coordenação e a execução dos respectivos programas às esferas estadual e municipal, bem como a entidades beneficentes e de assistência social; II - participação da população, por meio de organizações representativas, na formulação das políticas e no controle das ações em todos os níveis. Parágrafo único. É facultado aos Estados e ao Distrito Federal vincular a programa de apoio à inclusão e promoção social até cinco décimos por cento de sua receita tributária líquida, vedada a aplicação desses recursos no pagamento de: (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) I - despesas com pessoal e encargos sociais; (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) II - serviço da dívida; (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) III - qualquer outra despesa corrente não vinculada diretamente aos investimentos ou ações apoiados. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) CAPÍTULO III DA EDUCAÇÃO, DA CULTURA E DO DESPORTO Seção I DA EDUCAÇÃO
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 203 — CF]] — artigo anterior
 - [[Art. 205 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 204")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art204)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

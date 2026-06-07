@@ -5,22 +5,13 @@ titulo_cf: TITULO-III
 parte: Da Organização do Estado
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art24
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iii
-- art-24
 - organizacao-estado
-- inciso-i
-- inciso-ii
-- inciso-iii
-- inciso-iv
-- inciso-v
-- inciso-vi
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 24 — Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre
@@ -28,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-III — Da Organização do Estado
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art24)
 
 ---
 
 ## REDACAO LEGAL
 
-> Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre: I - direito tributário, financeiro, penitenciário, econômico e urbanístico; (Vide Lei nº 13.874, de 2019) II - orçamento; III - juntas comerciais; IV - custas dos serviços forenses; V - produção e consumo; VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção...
+> Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre: I - direito tributário, financeiro, penitenciário, econômico e urbanístico; (Vide Lei nº 13.874, de 2019) II - orçamento; III - juntas comerciais; IV - custas dos serviços forenses; V - produção e consumo; VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição; VII - proteção ao patrimônio histórico, cultural, artístico, turístico e paisagístico; VIII - responsabilidade por dano ao meio ambiente, ao consumidor, a bens e direitos de valor artístico, estético, histórico, turístico e paisagístico; IX - educação, cultura, ensino e desporto; IX - educação, cultura, ensino, desporto, ciência, tecnologia, pesquisa, desenvolvimento e inovação; (Redação dada pela Emenda Constitucional nº 85, de 2015) X - criação, funcionamento e processo do juizado de pequenas causas; XI - procedimentos em matéria processual; XII - previdência social, proteção e defesa da saúde; (Vide ADPF 672) XIII - assistência jurídica e Defensoria pública; XIV - proteção e integração social das pessoas portadoras de deficiência; XV - proteção à infância e à juventude; XVI - organização, garantias, direitos e deveres das polícias civis. § 1º No âmbito da legislação concorrente, a competência da União limitar-se-á a estabelecer normas gerais. (Vide Lei nº 13.874, de 2019) § 2º A competência da União para legislar sobre normas gerais não exclui a competência suplementar dos Estados. (Vide Lei nº 13.874, de 2019) § 3º Inexistindo lei federal sobre normas gerais, os Estados exercerão a competência legislativa plena, para atender a suas peculiaridades. (Vide Lei nº 13.874, de 2019) § 4º A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário. (Vide Lei nº 13.874, de 2019) CAPÍTULO III DOS ESTADOS FEDERADOS
 
 ---
 
@@ -42,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -60,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 23 — CF]] — artigo anterior
 - [[Art. 25 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -78,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 24")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art24)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

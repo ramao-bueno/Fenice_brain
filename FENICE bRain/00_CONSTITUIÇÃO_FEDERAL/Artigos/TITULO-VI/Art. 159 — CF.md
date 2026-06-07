@@ -5,17 +5,13 @@ titulo_cf: TITULO-VI
 parte: Da Tributação e do Orçamento
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art159
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-vi
-- art-159
 - tributacao
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 159 — A União entregará
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VI — Da Tributação e do Orçamento
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art159)
 
 ---
 
 ## REDACAO LEGAL
 
-> A União entregará: (Vide Emenda Constitucional nº 55, de 2007) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados, quarenta e sete por cento na seguinte forma: (Vide Emenda Constitucional nº 17, de 1997) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados qua...
+> A União entregará: (Vide Emenda Constitucional nº 55, de 2007) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados, quarenta e sete por cento na seguinte forma: (Vide Emenda Constitucional nº 17, de 1997) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados quarenta e oito por cento na seguinte forma: (Redação dada pela Emenda Constitucional nº 55, de 2007) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados, 49% (quarenta e nove por cento), na seguinte forma: (Redação dada pela Emenda Constitucional nº 84, de 2014) I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados, 50% (cinquenta por cento), da seguinte forma: (Redação dada pela Emenda Constitucional nº 112, de 2021) Produção de efeitos I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados e do imposto previsto no art. 153, VIII, 50% (cinquenta por cento), da seguinte forma: (Redação dada pela Emenda Constitucional nº 132, de 2023) a) vinte e um inteiros e cinco décimos por cento ao Fundo de Participação dos Estados e do Distrito Federal; (Vide Lei Complementar nº 62, de 1989) (Regulamento) b) vinte e dois inteiros e cinco décimos por cento ao Fundo de Participação dos Municípios; (Vide Lei Complementar nº 62, de 1989) (Regulamento) c) três por cento, para aplicação em programas de financiamento ao setor produtivo das Regiões Norte, Nordeste e Centro-Oeste, através de suas instituições financeiras de caráter regional, de acordo com os planos regionais de desenvolvimento, ficando assegurada ao semi-árido do Nordeste a metade dos recursos destinados à Região, na forma que a lei estabelecer; (Regulamento) d) um por cento ao Fundo de Participação dos Municípios, que será entre
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 158 — CF]] — artigo anterior
 - [[Art. 160 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 159")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art159)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

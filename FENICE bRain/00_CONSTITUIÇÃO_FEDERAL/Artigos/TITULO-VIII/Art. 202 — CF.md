@@ -5,17 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art202
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-202
 - ordem-social
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 202 — É assegurada aposentadoria, nos termos da lei, calculando-se o benefício sobre a média dos trinta e seis últimos salário
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art202)
 
 ---
 
 ## REDACAO LEGAL
 
-> É assegurada aposentadoria, nos termos da lei, calculando-se o benefício sobre a média dos trinta e seis últimos salários de contribuição, corrigidos monetariamente mês a mês, e comprovada a regularidade dos reajustes dos salários de contribuição de modo a preservar seus valores reais e obedecidas as seguintes condições : I - aos sessenta e cinco anos de idade, para o homem, e aos sessenta, para a...
+> É assegurada aposentadoria, nos termos da lei, calculando-se o benefício sobre a média dos trinta e seis últimos salários de contribuição, corrigidos monetariamente mês a mês, e comprovada a regularidade dos reajustes dos salários de contribuição de modo a preservar seus valores reais e obedecidas as seguintes condições : I - aos sessenta e cinco anos de idade, para o homem, e aos sessenta, para a mulher, reduzido em cinco anos o limite de idade para os trabalhadores rurais de ambos os sexos e para os que exerçam suas atividades em regime de economia familiar, neste incluídos o produtor rural, o garimpeiro e o pescador artesanal; II - após trinta e cinco anos de trabalho, ao homem, e, após trinta, à mulher, ou em tempo inferior, se sujeitos a trabalho sob condições especiais, que prejudiquem a saúde ou a integridade física, definidas em lei; III - após trinta anos, ao professor, e, após vinte e cinco, à professora, por efetivo exercício de função de magistério. § 1º - É facultada aposentadoria proporcional, após trinta anos de trabalho, ao homem, e, após vinte e cinco, à mulher. § 2º - Para efeito de aposentadoria, é assegurada a contagem recíproca do tempo de contribuição na administração pública e na atividade privada, rural e urbana, hipótese em que os diversos sistemas de previdência social se compensarão financeiramente, segundo critérios estabelecidos em lei.
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 201 — CF]] — artigo anterior
 - [[Art. 203 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 202")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art202)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

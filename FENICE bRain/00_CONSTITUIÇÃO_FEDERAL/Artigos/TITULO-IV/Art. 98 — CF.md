@@ -5,17 +5,13 @@ titulo_cf: TITULO-IV
 parte: Da Organização dos Poderes
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art98
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-iv
-- art-98
 - organizacao-poderes
-- inciso-i
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 98 — A União, no Distrito Federal e nos Territórios, e os Estados criarão
@@ -23,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IV — Da Organização dos Poderes
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art98)
 
 ---
 
 ## REDACAO LEGAL
 
-> A União, no Distrito Federal e nos Territórios, e os Estados criarão: I - juizados especiais, providos por juízes togados, ou togados e leigos, competentes para a conciliação, o julgamento e a execução de causas cíveis de menor complexidade e infrações penais de menor potencial ofensivo, mediante os procedimentos oral e sumaríssimo , permitidos, nas hipóteses previstas em lei, a transação e o julg...
+> A União, no Distrito Federal e nos Territórios, e os Estados criarão: I - juizados especiais, providos por juízes togados, ou togados e leigos, competentes para a conciliação, o julgamento e a execução de causas cíveis de menor complexidade e infrações penais de menor potencial ofensivo, mediante os procedimentos oral e sumaríssimo , permitidos, nas hipóteses previstas em lei, a transação e o julgamento de recursos por turmas de juízes de primeiro grau; II - justiça de paz, remunerada, composta de cidadãos eleitos pelo voto direto, universal e secreto, com mandato de quatro anos e competência para, na forma da lei, celebrar casamentos, verificar, de ofício ou em face de impugnação apresentada, o processo de habilitação e exercer atribuições conciliatórias, sem caráter jurisdicional, além de outras previstas na legislação. Parágrafo único. Lei federal disporá sobre a criação de juizados especiais no âmbito da Justiça Federal. (Incluído pela Emenda Constitucional nº 22, de 1999) § 1º Lei federal disporá sobre a criação de juizados especiais no âmbito da Justiça Federal. (Renumerado pela Emenda Constitucional nº 45, de 2004) (Vide ADIN 3392) § 2º As custas e emolumentos serão destinados exclusivamente ao custeio dos serviços afetos às atividades específicas da Justiça. (Incluído pela Emenda Constitucional nº 45, de 2004)
 
 ---
 
@@ -37,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -55,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 97 — CF]] — artigo anterior
 - [[Art. 99 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -73,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 98")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art98)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

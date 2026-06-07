@@ -5,19 +5,13 @@ titulo_cf: TITULO-VIII
 parte: Da Ordem Social
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art198
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-viii
-- art-198
 - ordem-social
-- inciso-i
-- inciso-ii
-- inciso-iii
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 198 — As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, org
@@ -25,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-VIII — Da Ordem Social
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art198)
 
 ---
 
 ## REDACAO LEGAL
 
-> As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado de acordo com as seguintes diretrizes: (Vide ADPF 672) I - descentralização, com direção única em cada esfera de governo; II - atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais; III - participação da comunidade. §...
+> As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado de acordo com as seguintes diretrizes: (Vide ADPF 672) I - descentralização, com direção única em cada esfera de governo; II - atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais; III - participação da comunidade. § 1º. O sistema único de saúde será financiado, nos termos do art. 195, com recursos do orçamento da seguridade social, da União, dos Estados, do Distrito Federal e dos Municípios, além de outras fontes. (Parágrafo único renumerado para § 1º pela Emenda Constitucional nº 29, de 2000) § 2º A União, os Estados, o Distrito Federal e os Municípios aplicarão, anualmente, em ações e serviços públicos de saúde recursos mínimos derivados da aplicação de percentuais calculados sobre: (Incluído pela Emenda Constitucional nº 29, de 2000) I - no caso da União, na forma definida nos termos da lei complementar prevista no § 3º; (Incluído pela Emenda Constitucional nº 29, de 2000) I - no caso da União, a receita corrente líquida do respectivo exercício financeiro, não podendo ser inferior a 15% (quinze por cento); (Redação dada pela Emenda Constitucional nº 86, de 2015) II - no caso dos Estados e do Distrito Federal, o produto da arrecadação dos impostos a que se refere o art. 155 e dos recursos de que tratam os arts. 157 e 159, inciso I, alínea a, e inciso II, deduzidas as parcelas que forem transferidas aos respectivos Municípios; (Incluído pela Emenda Constitucional nº 29, de 2000) II - no caso dos Estados e do Distrito Federal, o produto da arrecadação dos impostos a que se referem os arts. 155 e 156-A e dos recursos de que tratam os arts. 157 e 159, I, &quot;a&quot;, e II, deduzidas as parcelas que forem transferidas aos respectivos Municípios; (Redação dada pela Emenda Constitucional nº 132, de 2023) III - no caso dos Municípios e do Distrito Federal, o produto da arrecadação dos imp
 
 ---
 
@@ -39,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -57,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 197 — CF]] — artigo anterior
 - [[Art. 199 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -75,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 198")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art198)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

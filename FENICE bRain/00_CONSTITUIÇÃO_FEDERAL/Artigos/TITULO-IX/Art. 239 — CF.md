@@ -5,16 +5,13 @@ titulo_cf: TITULO-IX
 parte: Das Disposições Constitucionais Gerais
 status: vigente
 cf88: true
-emendas: []
-planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art239
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ix
-- art-239
 - disposicoes-gerais
-created: '2026-06-04'
+created: '2026-06-06'
 ---
 
 # CF/88 Art. 239 — A arrecadação decorrente das contribuições para o Programa de Integração Social, criado pela Lei Complementar nº 7, de 7
@@ -22,13 +19,12 @@ created: '2026-06-04'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-IX — Das Disposições Constitucionais Gerais
 **Status:** VIGENTE
-**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art239)
 
 ---
 
 ## REDACAO LEGAL
 
-> A arrecadação decorrente das contribuições para o Programa de Integração Social, criado pela Lei Complementar nº 7, de 7 de setembro de 1970 , e para o Programa de Formação do Patrimônio do Servidor Público, criado pela Lei Complementar nº 8, de 3 de dezembro de 1970 , passa, a partir da promulgação desta Constituição, a financiar, nos termos que a lei dispuser, o programa do seguro-desemprego e o...
+> A arrecadação decorrente das contribuições para o Programa de Integração Social, criado pela Lei Complementar nº 7, de 7 de setembro de 1970 , e para o Programa de Formação do Patrimônio do Servidor Público, criado pela Lei Complementar nº 8, de 3 de dezembro de 1970 , passa, a partir da promulgação desta Constituição, a financiar, nos termos que a lei dispuser, o programa do seguro-desemprego e o abono de que trata o § 3º deste artigo. (Regulamento)
 
 ---
 
@@ -36,15 +32,15 @@ created: '2026-06-04'
 
 ### Conceito Central
 
-[Sintese do conteudo normativo do artigo]
+[Síntese do conteúdo normativo do artigo]
 
 ### Elementos-Chave
 
-| Elemento | Descricao |
+| Elemento | Descrição |
 |----------|-----------|
 | **Sujeito** | A quem se dirige a norma |
 | **Objeto** | O que a norma regula |
-| **Eficacia** | Aplicabilidade (plena / contida / limitada) |
+| **Eficácia** | Aplicabilidade (plena / contida / limitada) |
 
 ---
 
@@ -54,8 +50,8 @@ created: '2026-06-04'
 - [[Art. 238 — CF]] — artigo anterior
 - [[Art. 240 — CF]] — artigo seguinte
 
-### Legislacao Derivada
-[Leis ordinarias que regulamentam este artigo]
+### Legislação Derivada
+[Leis ordinárias que regulamentam este artigo]
 
 ---
 
@@ -72,16 +68,5 @@ created: '2026-06-04'
 
 ---
 
-## RELACIONAMENTOS (Dataview)
-
-```dataview
-LIST FROM "FENICE bRain/02_DIREITO_CIVIL"
-  OR "FENICE bRain/03_CODIGO_PENAL"
-  OR "FENICE bRain/01_CODIGO_PROCESSO_CIVIL"
-WHERE contains(base_constitucional, "CF Art. 239")
-```
-
----
-
-**Ultima atualizacao:** 2026-06-04
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art239)
+**Última atualização:** 2026-06-06
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

@@ -39,7 +39,7 @@ created: 2026-06-07
   discriminação, os direitos e liberdades da Convenção a toda pessoa sob sua jurisdição.
 - **Fundamentação Positiva:** Art. 1 da CADH (Decreto 678/1992); espelha o `caput` do
   [[Art. 5 — CF]] (igualdade perante a lei, sem distinção de qualquer natureza).
-- **Anotação de Jurisconsulto:** o STF, no julgamento do RE 466.343/SP (rel. Min. Gilmar Mendes),
+- **Anotação de Jurisconsulto:** o STF, no julgamento do [[RE 466.343]] (rel. Min. Gilmar Mendes),
   reconheceu aos tratados de direitos humanos sem aprovação qualificada — caso da CADH —
   **status supralegal**: abaixo da Constituição, acima das leis ordinárias. Essa tese é o
   fundamento doutrinário do **controle de convencionalidade** no Brasil.

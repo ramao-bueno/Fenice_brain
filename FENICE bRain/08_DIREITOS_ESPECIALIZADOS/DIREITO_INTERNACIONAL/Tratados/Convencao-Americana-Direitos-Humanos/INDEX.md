@@ -10,7 +10,7 @@ created: 2026-06-07
 # 🌎 Convenção Americana de Direitos Humanos — Pacto de San José da Costa Rica
 
 **Decreto promulgador:** 678/1992 · **Órgão emissor:** Organização dos Estados Americanos (OEA)
-**Status no ordenamento brasileiro:** norma de **status supralegal** (RE 466.343/STF)
+**Status no ordenamento brasileiro:** norma de **status supralegal** ([[RE 466.343]])
 
 > 🧪 **Prova de conceito da skill `atomizar-juridico`** — atomização de 4 artigos
 > fundacionais (de 82 totais), demonstrando notas atômicas + Zendelski Graph +
@@ -37,7 +37,7 @@ created: 2026-06-07
 
 ```
 CF/88 Art. 5 (bloco de direitos fundamentais)
-    ↕ [status supralegal — RE 466.343/STF]
+    ↕ [status supralegal — [[RE 466.343]]]
 CADH — Pacto de San José (Decreto 678/1992)
     ├─ Art. 1 → controle de convencionalidade (toda tese constitucional)
     ├─ Art. 4 → Código Penal Art. 121 + ADPF 54 (limites do "direito à vida")

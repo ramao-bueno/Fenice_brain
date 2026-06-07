@@ -1,0 +1,426 @@
+{
+  "sumulas_vinculantes": [
+    {
+      "identificacao": {
+        "tipo": "SUMULA_VINCULANTE",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 574.706",
+        "data_publicacao_dje": "2008-12-19",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Súmula Vinculante 57 — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 574.706/RJ\nData de Publicação no DJe: 19 de dezembro de 2008\nRelator: Ministro Carlos Britto\n\nENUNCIADO:\n\nO direito de greve dos servidores públicos será exercido nos termos e limites\ndefinidos em lei complementar federal.\n\nFUNDAMENTAÇÃO:\n\nA Constituição Federal de 1988, em seu artigo 9º, reconhece expressamente o direito\nde greve como direito fundamental. Contudo, esse direito, quando exercido por servidores\npúblicos, encon",
+        "nucleo_da_tese": "Súmula Vinculante 57 — SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 574.706/RJ Data de Publicação no DJe: 19 de dezembro de 2008 : O direito de greve dos servidores públicos será exercido nos termo..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "ADMINISTRATIVO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor administrativo precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "administrativo",
+        "direito",
+        "re"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.832682",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "SUMULA_VINCULANTE",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 550.009",
+        "data_publicacao_dje": "2010-08-06",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Súmula Vinculante 33 — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 550.009/SC\nData de Publicação no DJe: 06 de agosto de 2010\nRelator: Ministro Gilmar Mendes\n\nENUNCIADO:\n\nComete abuso de autoridade o servidor que se recusa, injustificadamente, a ser\nsubmetido a teste de alcoolemia realizado durante fiscalização de trânsito ou em\nqualquer outra situação que autorize a administração a exigir a realização do teste.\n\nFUNDAMENTAÇÃO:\n\nO direito constitucional à liberdade pessoal e à inviolabilida",
+        "nucleo_da_tese": "Súmula Vinculante 33 — SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 550.009/SC Data de Publicação no DJe: 06 de agosto de 2010 : Comete abuso de autoridade o servidor que se recusa, injustificadame..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "ADMINISTRATIVO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor administrativo precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "administrativo",
+        "constitucional",
+        "direito",
+        "obrigação",
+        "re"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.859482",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "SUMULA_VINCULANTE",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "MI 721",
+        "data_publicacao_dje": "2009-12-16",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Súmula Vinculante 26 — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: MI 721/DF\nData de Publicação no DJe: 16 de dezembro de 2009\nRelator: Ministro Gilmar Mendes\n\nENUNCIADO:\n\nPara efeito de progressão funcional de servidor público, a etapa ou fase em estágio\nprobatório não pode ser computada como tempo de serviço.\n\nFUNDAMENTAÇÃO:\n\nO artigo 41 da Constituição Federal estabelece que o servidor público estável só\nadquire essa condição após cumprimento do estágio probatório. Durante este período,\no s",
+        "nucleo_da_tese": "Súmula Vinculante 26 — SUPREMO TRIBUNAL FEDERAL Processo Paradigma: MI 721/DF Data de Publicação no DJe: 16 de dezembro de 2009 : Para efeito de progressão funcional de servidor público, a etapa ou fa..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRABALHISTA",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor trabalhista precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "constitucional",
+        "re",
+        "trabalhista"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.875954",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "SUMULA_VINCULANTE",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "ADI 1.500",
+        "data_publicacao_dje": "2008-05-29",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Súmula Vinculante 18 — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: ADI 1.500/SC\nData de Publicação no DJe: 29 de maio de 2008\nRelator: Ministro Eros Grau\n\nENUNCIADO:\n\nA exigência de depósito ou arrolamento de bens como condição para o exercício do\ndireito de petição viola a Constituição Federal.\n\nFUNDAMENTAÇÃO:\n\nO artigo 5º, inciso XXXIV, da Constituição Federal garante a todos,\nindependentemente do pagamento de taxas, o direito de petição aos Poderes Públicos\nem defesa de direitos ou contra i",
+        "nucleo_da_tese": "Súmula Vinculante 18 — SUPREMO TRIBUNAL FEDERAL Processo Paradigma: ADI 1.500/SC Data de Publicação no DJe: 29 de maio de 2008 : A exigência de depósito ou arrolamento de bens como condição para o exe..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRIBUTÁRIO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor tributário precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "adi",
+        "direito",
+        "inconstitucional",
+        "re",
+        "tributário"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.890442",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "SUMULA_VINCULANTE",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 559.882",
+        "data_publicacao_dje": "2014-03-26",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Súmula Vinculante 37 — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 559.882/MS\nData de Publicação no DJe: 26 de março de 2014\nRelator: Ministro Luiz Fux\n\nENUNCIADO:\n\nÉ inadmissível ação rescisória que busque desfazer decisão transitada em julgado,\nainda que na primeira instância, se já iniciado o cumprimento da sentença quanto ao\ndireito litigioso principal.\n\nFUNDAMENTAÇÃO:\n\nA ação rescisória é remédio jurídico excepcional destinado a desconstituir decisões\nque violam a autoridade da coisa j",
+        "nucleo_da_tese": "Súmula Vinculante 37 — SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 559.882/MS Data de Publicação no DJe: 26 de março de 2014 : É inadmissível ação rescisória que busque desfazer decisão transitada..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRIBUTÁRIO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor tributário precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "direito",
+        "re",
+        "tributário"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.899897",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    }
+  ],
+  "teses_repercussao_geral": [
+    {
+      "identificacao": {
+        "tipo": "REPERCUSSAO_GERAL",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 636.115",
+        "data_publicacao_dje": "2017-03-22",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Tema 69 — Repercussão Geral — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 636.115/RJ\nData de Publicação no DJe: 22 de março de 2017\nRelator: Ministro Luiz Fux\n\nQUESTÃO JURÍDICA:\n\nCritério para o reconhecimento da repercussão geral e direito do contribuinte em\nrelação à constitucionalidade de norma que estabelece a exclusão de determinada parcela\nde operações da base de cálculo de tributos federais.\n\nTESE APROVADA:\n\nÉ reconhecida a existência de repercussão geral para a questão referente à\nc",
+        "nucleo_da_tese": "SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 636.115/RJ Data de Publicação no DJe: 22 de março de 2017 : Critério para o reconhecimento da repercussão geral e direito do contribuinte em relação à c..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": true,
+        "regra_da_modulacao": "MODULAÇÃO DOS EFEITOS: Os efeitos desta decisão devem ser prospectivos, observando a data da publicação desta decisão no Diário Oficial da União, ressalvadas as ações já ajuizadas até essa data, que prosseguirão sob a sistemática anterior."
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRIBUTÁRIO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor tributário precisam se adequar imediatamente aos termos dessa tese. Atenção especial: há modulação de efeitos. MODULAÇÃO DOS EFEITOS: Os efeitos desta decisão devem ser prospectivos, observando a data da publicação desta decisão no Diário Oficial da União, ressalvadas as ações já ajuizadas até essa data, que prosseguirão sob a sistemática anterior.",
+        "potencial_monetario": "HIGH"
+      },
+      "vetorizacao_keywords": [
+        "constitucional",
+        "direito",
+        "efeitos",
+        "modulação",
+        "re",
+        "tributário"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.852782",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "REPERCUSSAO_GERAL",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 550.009",
+        "data_publicacao_dje": "2019-04-15",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Tema 220 — Repercussão Geral — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 550.009/RJ\nData de Publicação no DJe: 15 de abril de 2019\nRelator: Ministro Alexandre de Moraes\n\nQUESTÃO JURÍDICA:\n\nAplicabilidade do regime de previdência privada aos servidores públicos federais\nque ingressaram na administração após a emenda constitucional que introduziu a\nprevidência complementar.\n\nTESE APROVADA:\n\nÉ constitucional a instituição de regime de previdência privada (previdência\ncomplementar) para os se",
+        "nucleo_da_tese": "SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 550.009/RJ Data de Publicação no DJe: 15 de abril de 2019 : Aplicabilidade do regime de previdência privada aos servidores públicos federais que ingress..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "ADMINISTRATIVO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor administrativo precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "administrativo",
+        "constitucional",
+        "re",
+        "vigência"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.870445",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": false
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "REPERCUSSAO_GERAL",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 1.000",
+        "data_publicacao_dje": "2020-09-10",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Tema 834 — Repercussão Geral — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 1.000.000/SP\nData de Publicação no DJe: 10 de setembro de 2020\nRelator: Ministro Luiz Fux\n\nQUESTÃO JURÍDICA:\n\nDireito do consumidor em relação à prática de cobrança de juros remuneratórios\nsuperiores àqueles fixados por lei em operações de crédito pessoal realizado por\ninstituição financeira.\n\nTESE APROVADA:\n\nA Súmula 596 do Superior Tribunal de Justiça, que estabelece limitações aos juros\nremuneratórios em operações",
+        "nucleo_da_tese": "SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 1.000.000/SP Data de Publicação no DJe: 10 de setembro de 2020 : Direito do consumidor em relação à prática de cobrança de juros remuneratórios superior..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Lei 4.595/64"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": true,
+        "regra_da_modulacao": "MODULAÇÃO DOS EFEITOS: Os efeitos desta decisão aplicam-se exclusivamente aos contratos celebrados após a data da publicação desta decisão, preservando-se a segurança jurídica dos contratos anteriormente celebrados que se encontrem em execução."
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRIBUTÁRIO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor tributário precisam se adequar imediatamente aos termos dessa tese. Atenção especial: há modulação de efeitos. MODULAÇÃO DOS EFEITOS: Os efeitos desta decisão aplicam-se exclusivamente aos contratos celebrados após a data da publicação desta decisão, preservando-se a segurança jurídica dos contratos anteriormente celebrados que se encontrem em execução.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "direito",
+        "efeitos",
+        "modulação",
+        "re",
+        "tributário"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.883877",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "REPERCUSSAO_GERAL",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 872.097",
+        "data_publicacao_dje": "2018-03-05",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Tema 457 — Repercussão Geral — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 872.097/SP\nData de Publicação no DJe: 05 de março de 2018\nRelator: Ministro Dias Toffoli\n\nQUESTÃO JURÍDICA:\n\nConstitucionalidade de lei municipal que fixa alíquota do Imposto Predial e\nTerritorial Urbano (IPTU) em patamar superior àquele autorizado pela legislação\nestadual ou por lei complementar federal.\n\nTESE APROVADA:\n\nÉ constitucional a lei municipal que estabelece alíquota progressiva do IPTU\nconforme o valor do",
+        "nucleo_da_tese": "SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 872.097/SP Data de Publicação no DJe: 05 de março de 2018 : Constitucionalidade de lei municipal que fixa alíquota do Imposto Predial e Territorial Urba..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": false,
+        "regra_da_modulacao": null
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "TRIBUTÁRIO",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor tributário precisam se adequar imediatamente aos termos dessa tese. A tese tem eficácia imediata a todos os atos posteriores à publicação.",
+        "potencial_monetario": "HIGH"
+      },
+      "vetorizacao_keywords": [
+        "constitucional",
+        "re",
+        "tributário"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.895874",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": false
+      }
+    },
+    {
+      "identificacao": {
+        "tipo": "REPERCUSSAO_GERAL",
+        "numero_identificador": "SEM_NUMERO",
+        "processo_paradigma": "RE 958.017",
+        "data_publicacao_dje": "2019-02-12",
+        "status_atual": "ATIVO"
+      },
+      "conteudo_textual": {
+        "enunciado_original": "Tema 762 — Repercussão Geral — SUPREMO TRIBUNAL FEDERAL\n\nProcesso Paradigma: RE 958.017/SC\nData de Publicação no DJe: 12 de fevereiro de 2019\nRelator: Ministro Marco Aurélio\n\nQUESTÃO JURÍDICA:\n\nLegitimidade ativa do terceiro não litisconsorte para argüir em segunda instância\nquestão de ordem pública não suscitada nas instâncias anteriores.\n\nTESE APROVADA:\n\nQualquer pessoa, ainda que não tenha sido parte do processo original, pode argüir\nem qualquer grau de jurisdição questão que envolva direitos",
+        "nucleo_da_tese": "SUPREMO TRIBUNAL FEDERAL Processo Paradigma: RE 958.017/SC Data de Publicação no DJe: 12 de fevereiro de 2019 : Legitimidade ativa do terceiro não litisconsorte para argüir em segunda instância questã..."
+      },
+      "ancoragem_legal": {
+        "artigos_crfb88": [
+          "Não explicitado"
+        ],
+        "leis_infraconstitucionais_afetadas": [
+          "Não explicitado"
+        ]
+      },
+      "modulacao_efeitos": {
+        "houve_modulacao": true,
+        "regra_da_modulacao": "MODULAÇÃO DOS EFEITOS: Esta tese terá aplicação imediata a todos os processos em curso, ressalvando-se apenas aqueles já decididos em grau de apelação antes da data de publicação desta decisão, para evitar reabertura de processos já finalizados nessa instância."
+      },
+      "impacto_business_compliance": {
+        "setor_afetado": "PENAL",
+        "vulnerabilidade_compliance": "Empresas e órgãos públicos afetados pelo setor penal precisam se adequar imediatamente aos termos dessa tese. Atenção especial: há modulação de efeitos. MODULAÇÃO DOS EFEITOS: Esta tese terá aplicação imediata a todos os processos em curso, ressalvando-se apenas aqueles já decididos em grau de apelação antes da data de publicação desta decisão, para evitar reabertura de processos já finalizados nessa instância.",
+        "potencial_monetario": "LOW"
+      },
+      "vetorizacao_keywords": [
+        "aplicação",
+        "direito",
+        "efeitos",
+        "jurisdição",
+        "modulação",
+        "penal",
+        "re"
+      ],
+      "metadata": {
+        "analisado_em": "2026-06-07T20:36:53.905182",
+        "confiabilidade": "0.8",
+        "requer_revisao_manual": true
+      }
+    }
+  ],
+  "metadata": {
+    "total_analisadas": 10,
+    "total_erros": 0,
+    "exportado_em": "2026-06-07T20:36:53.909051",
+    "versao": "1.0"
+  }
+}

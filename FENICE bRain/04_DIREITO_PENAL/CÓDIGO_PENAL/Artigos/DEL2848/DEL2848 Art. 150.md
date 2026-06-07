@@ -1,0 +1,88 @@
+---
+artigo: '150'
+lei: DL 2.848/1940 — Código Penal
+sigla: DEL2848
+categoria: CODIGO_PENAL
+status: vigente
+direito_penal: true
+relacionados: []
+tags:
+- direito-penal
+- vigente
+- codigo_penal
+- art-150
+- del2848
+created: '2026-06-07'
+parte: Especial
+titulo: Dos Crimes
+---
+
+# DEL2848 Art. 150 — Art. 150
+
+**Lei:** DL 2.848/1940 — Código Penal
+**Categoria:** CODIGO_PENAL
+**Status:** VIGENTE
+
+---
+
+## REDACAO LEGAL
+
+> Art. 150 - Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências: Pena - detenção, de um a três meses, ou multa. § 1º - Se o crime é cometido durante a noite, ou em lugar ermo, ou com o emprego de violência ou de arma, ou por duas ou mais pessoas: Pena - detenção, de seis meses a dois anos, além da pena correspondente à violência. § 2º - Aumenta-se a pena de um terço, se o fato é cometido por funcion
+
+---
+
+## ANALISE TECNICA
+
+### Bem Jurídico Tutelado
+
+[Qual bem jurídico penal este artigo protege?
+Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+
+### Tipo Penal
+
+[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+
+### Dolo/Culpa
+
+[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
+Há tipificação culposa em outro artigo?]
+
+### Tentativa e Consumação
+
+[Qual é o momento de consumação?
+A tentativa é punível conforme art. 14 do CP?]
+
+### Penas Cominadas
+
+[Qual é a pena? Isolada ou cumulativa?
+Há circunstâncias agravantes/atenuantes?]
+
+---
+
+## ARTIGOS CORRELATOS
+
+### Mesma Lei
+- [[DEL2848 Art. 149]] — artigo anterior
+- [[DEL2848 Art. 151]] — artigo seguinte
+
+### Outros crimes
+[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
+causas de exclusão de ilicitude ou culpabilidade]
+
+---
+
+## JURISPRUDENCIA
+
+[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
+mudanças de orientação]
+
+---
+
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
+em denúncias, defesas, sentenças?]
+
+---
+
+**Última atualização:** 2026-06-07

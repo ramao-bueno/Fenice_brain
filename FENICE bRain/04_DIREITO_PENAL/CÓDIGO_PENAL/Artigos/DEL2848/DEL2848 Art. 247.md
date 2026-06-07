@@ -1,0 +1,88 @@
+---
+artigo: '247'
+lei: DL 2.848/1940 — Código Penal
+sigla: DEL2848
+categoria: CODIGO_PENAL
+status: vigente
+direito_penal: true
+relacionados: []
+tags:
+- direito-penal
+- vigente
+- codigo_penal
+- art-247
+- del2848
+created: '2026-06-07'
+parte: Especial
+titulo: Dos Crimes
+---
+
+# DEL2848 Art. 247 — Art. 247
+
+**Lei:** DL 2.848/1940 — Código Penal
+**Categoria:** CODIGO_PENAL
+**Status:** VIGENTE
+
+---
+
+## REDACAO LEGAL
+
+> Art. 247 - Permitir alguém que menor de dezoito anos, sujeito a seu poder ou confiado à sua guarda ou vigilância: I - freqüente casa de jogo ou mal-afamada, ou conviva com pessoa viciosa ou de má vida; II - freqüente espetáculo capaz de pervertê-lo ou de ofender-lhe o pudor, ou participe de representação de igual natureza; III - resida ou trabalhe em casa de prostituição; IV - mendigue ou sirva a mendigo para excitar a comiseração pública: Pena - detenção, de um a três meses, ou multa. CAPÍTULO
+
+---
+
+## ANALISE TECNICA
+
+### Bem Jurídico Tutelado
+
+[Qual bem jurídico penal este artigo protege?
+Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+
+### Tipo Penal
+
+[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+
+### Dolo/Culpa
+
+[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
+Há tipificação culposa em outro artigo?]
+
+### Tentativa e Consumação
+
+[Qual é o momento de consumação?
+A tentativa é punível conforme art. 14 do CP?]
+
+### Penas Cominadas
+
+[Qual é a pena? Isolada ou cumulativa?
+Há circunstâncias agravantes/atenuantes?]
+
+---
+
+## ARTIGOS CORRELATOS
+
+### Mesma Lei
+- [[DEL2848 Art. 246]] — artigo anterior
+- [[DEL2848 Art. 248]] — artigo seguinte
+
+### Outros crimes
+[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
+causas de exclusão de ilicitude ou culpabilidade]
+
+---
+
+## JURISPRUDENCIA
+
+[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
+mudanças de orientação]
+
+---
+
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
+em denúncias, defesas, sentenças?]
+
+---
+
+**Última atualização:** 2026-06-07

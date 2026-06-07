@@ -1,0 +1,88 @@
+---
+artigo: '60'
+lei: DL 2.848/1940 — Código Penal
+sigla: DEL2848
+categoria: CODIGO_PENAL
+status: vigente
+direito_penal: true
+relacionados: []
+tags:
+- direito-penal
+- vigente
+- codigo_penal
+- art-60
+- del2848
+created: '2026-06-07'
+parte: Geral
+titulo: Disposições Gerais
+---
+
+# DEL2848 Art. 60 — Art. 60
+
+**Lei:** DL 2.848/1940 — Código Penal
+**Categoria:** CODIGO_PENAL
+**Status:** VIGENTE
+
+---
+
+## REDACAO LEGAL
+
+> Art. 60 - Na fixação da pena de multa o juiz deve atender, principalmente, à situação econômica do réu.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - A multa pode ser aumentada até o triplo, se o juiz considerar que, em virtude da situação econômica do réu, é ineficaz, embora aplicada no máximo.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) Mult
+
+---
+
+## ANALISE TECNICA
+
+### Bem Jurídico Tutelado
+
+[Qual bem jurídico penal este artigo protege?
+Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+
+### Tipo Penal
+
+[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+
+### Dolo/Culpa
+
+[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
+Há tipificação culposa em outro artigo?]
+
+### Tentativa e Consumação
+
+[Qual é o momento de consumação?
+A tentativa é punível conforme art. 14 do CP?]
+
+### Penas Cominadas
+
+[Qual é a pena? Isolada ou cumulativa?
+Há circunstâncias agravantes/atenuantes?]
+
+---
+
+## ARTIGOS CORRELATOS
+
+### Mesma Lei
+- [[DEL2848 Art. 59]] — artigo anterior
+- [[DEL2848 Art. 61]] — artigo seguinte
+
+### Outros crimes
+[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
+causas de exclusão de ilicitude ou culpabilidade]
+
+---
+
+## JURISPRUDENCIA
+
+[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
+mudanças de orientação]
+
+---
+
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
+em denúncias, defesas, sentenças?]
+
+---
+
+**Última atualização:** 2026-06-07

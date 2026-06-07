@@ -39,8 +39,8 @@ created: 2026-06-07
   competente, independente e imparcial, presunção de inocência, ampla defesa (inclusive
   técnica gratuita), direito ao silêncio e duplo grau de jurisdição.
 - **Fundamentação Positiva:** Art. 8, §§1º e 2º (alíneas "a" a "h") da CADH; equivale ao
-  bloco do [[CF/88 Art. 5]], incisos LIV, LV, LVI, LVII e LXIII, e estrutura o sistema de
-  nulidades tanto do CPP quanto do [[CPC Art. 9|CPC (arts. 9º e 10 — contraditório)]].
+  bloco do [[Art. 5 — CF]], incisos LIV, LV, LVI, LVII e LXIII, e estrutura o sistema de
+  nulidades tanto do CPP quanto do [[Art. 9 — CPC|CPC (arts. 9º e 10 — contraditório)]].
 - **Anotação de Jurisconsulto:** a alínea "h" (direito de recorrer a juiz/tribunal superior)
   é a base doutrinária do **duplo grau de jurisdição como garantia convencional** — tema
   central no debate sobre prerrogativa de foro e ações penais originárias em tribunais
@@ -50,10 +50,10 @@ created: 2026-06-07
 
 ## MAPEAMENTO RELACIONAL (Zendelski Graph)
 
-- **Direito Material:** [[CF/88 Art. 5]], incisos LIV (devido processo legal), LV (ampla
+- **Direito Material:** [[Art. 5 — CF]], incisos LIV (devido processo legal), LV (ampla
   defesa e contraditório), LVII (presunção de inocência) e LXIII (direito ao silêncio).
 - **Direito Processual:** estrutura o sistema de nulidades do CPP e do
-  [[CPC Art. 9|CPC (princípio do contraditório, arts. 9º e 10)]] — releitura processual civil
+  [[Art. 9 — CPC|CPC (princípio do contraditório, arts. 9º e 10)]] — releitura processual civil
   das garantias convencionais; fundamenta recursos extraordinários que arguem violação ao
   [[Duplo Grau de Jurisdição]].
 - **Operacional:** parâmetro de controle de convencionalidade para protocolos de atuação de

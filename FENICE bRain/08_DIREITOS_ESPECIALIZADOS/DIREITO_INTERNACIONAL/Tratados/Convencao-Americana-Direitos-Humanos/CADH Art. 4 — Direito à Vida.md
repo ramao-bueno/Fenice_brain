@@ -40,8 +40,8 @@ created: 2026-06-07
 - **Conceito Direto:** toda pessoa tem direito a que se respeite sua vida — protegida "em geral
   desde o momento da concepção" — com vedações estritas e excepcionais à pena de morte.
 - **Fundamentação Positiva:** Art. 4, §§1º a 6º da CADH; dialoga com o `caput` do
-  [[CF/88 Art. 5]] (inviolabilidade do direito à vida) e com o tipo penal do
-  [[Código Penal Art. 121]] (homicídio).
+  [[Art. 5 — CF]] (inviolabilidade do direito à vida) e com o tipo penal do
+  [[Art. 121 — Homicídio simples]] (homicídio).
 - **Anotação de Jurisconsulto:** a cláusula "em geral, desde o momento da concepção" é um dos
   pontos mais tensionados da doutrina constitucional brasileira — o STF, na
   [[ADPF 54]] (caso da anencefalia), relativizou a leitura literal do dispositivo ao reconhecer
@@ -52,7 +52,7 @@ created: 2026-06-07
 
 ## MAPEAMENTO RELACIONAL (Zendelski Graph)
 
-- **Direito Material:** [[CF/88 Art. 5]] (inviolabilidade da vida) e [[Código Penal Art. 121]]
+- **Direito Material:** [[Art. 5 — CF]] (inviolabilidade da vida) e [[Art. 121 — Homicídio simples]]
   (homicídio simples/qualificado) — a CADH funciona como parâmetro de controle de
   convencionalidade de qualquer alteração legislativa que toque o bem jurídico "vida".
 - **Direito Processual:** rege a admissibilidade de teses de descriminalização/causas de

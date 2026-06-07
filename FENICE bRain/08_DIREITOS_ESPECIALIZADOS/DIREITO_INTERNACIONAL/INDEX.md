@@ -33,7 +33,7 @@ Graph + vetor de negócio), não por regex fixo.
 | Decreto | Trata de | Status |
 |---|---|---|
 | Decreto 678/1992 | Convenção Americana de Direitos Humanos (Pacto de San José) | ✅ [[Tratados/Convencao-Americana-Direitos-Humanos/INDEX\|4/82 atomizados]] — prova de conceito |
-| Decreto 4.311/2002 | Convenção de Nova York — Sentenças Arbitrais Estrangeiras | 🔲 pendente — **liga direto ao [[project_sumulas_stj\|projeto STJ HSE]]** |
+| Decreto 4.311/2002 | Convenção de Nova York — Sentenças Arbitrais Estrangeiras | ✅ [[Tratados/Convencao-Nova-York-Sentencas-Arbitrais/INDEX\|5/16 atomizados]] — **espelha L9307 e liga ao projeto STJ HSE** |
 | Decreto 4.388/2002 | Estatuto de Roma (Tribunal Penal Internacional) | 🔲 pendente |
 | Decreto 7.030/2009 | Convenção de Viena sobre Direito dos Tratados | 🔲 pendente |
 | Decreto 8.327/2014 | (a confirmar conteúdo) | 🔲 pendente |

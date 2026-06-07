@@ -24,10 +24,10 @@ created: 2026-06-07
 
 | Artigo | Tema | Conexão-chave |
 |---|---|---|
-| [[CADH Art. 1 — Obrigação de Respeitar os Direitos]] | Fundamento de todo o sistema | [[CF/88 Art. 5]] · controle de convencionalidade |
-| [[CADH Art. 4 — Direito à Vida]] | Direito à vida e vedação à pena de morte | [[Código Penal Art. 121]] · ADPF 54 |
+| [[CADH Art. 1 — Obrigação de Respeitar os Direitos]] | Fundamento de todo o sistema | [[Art. 5 — CF]] · controle de convencionalidade |
+| [[CADH Art. 4 — Direito à Vida]] | Direito à vida e vedação à pena de morte | [[Art. 121 — Homicídio simples]] · ADPF 54 |
 | [[CADH Art. 7 — Direito à Liberdade Pessoal]] | Prisão, habeas corpus, audiência de custódia | [[CPP Art. 282]] · Resolução CNJ 213/2015 |
-| [[CADH Art. 8 — Garantias Judiciais]] | Devido processo legal e duplo grau | [[CPC Art. 9]] · ações penais originárias |
+| [[CADH Art. 8 — Garantias Judiciais]] | Devido processo legal e duplo grau | [[Art. 9 — CPC]] · ações penais originárias |
 
 *(82 artigos no total — os 78 restantes podem ser atomizados sob demanda repetindo este processo)*
 

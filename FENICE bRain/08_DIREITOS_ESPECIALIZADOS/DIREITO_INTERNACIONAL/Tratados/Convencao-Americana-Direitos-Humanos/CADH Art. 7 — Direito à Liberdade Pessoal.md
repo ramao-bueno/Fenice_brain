@@ -42,7 +42,7 @@ created: 2026-06-07
   previamente fixadas em lei, com direito a ser conduzido **sem demora** à presença de um juiz
   e a impugnar a legalidade da prisão perante autoridade judicial competente.
 - **Fundamentação Positiva:** Art. 7, §§1º a 7º da CADH; corresponde ao
-  [[CF/88 Art. 5]], incisos LXI a LXVIII (prisão, flagrante, habeas corpus), e aos
+  [[Art. 5 — CF]], incisos LXI a LXVIII (prisão, flagrante, habeas corpus), e aos
   [[CPP Art. 282|arts. 282 e seguintes do CPP]] (medidas cautelares pessoais).
 - **Anotação de Jurisconsulto:** o §5º (condução "sem demora" a um juiz) é o fundamento
   normativo internacional direto da [[Audiência de Custódia]] — instituto incorporado ao
@@ -53,7 +53,7 @@ created: 2026-06-07
 
 ## MAPEAMENTO RELACIONAL (Zendelski Graph)
 
-- **Direito Material:** [[CF/88 Art. 5]], incisos LXI–LXVIII — bloco constitucional de
+- **Direito Material:** [[Art. 5 — CF]], incisos LXI–LXVIII — bloco constitucional de
   garantias contra a prisão arbitrária.
 - **Direito Processual:** rege diretamente o sistema de medidas cautelares do
   [[CPP Art. 282|CPP (arts. 282 e ss.)]] e fundamenta o rito do [[Habeas Corpus]] perante

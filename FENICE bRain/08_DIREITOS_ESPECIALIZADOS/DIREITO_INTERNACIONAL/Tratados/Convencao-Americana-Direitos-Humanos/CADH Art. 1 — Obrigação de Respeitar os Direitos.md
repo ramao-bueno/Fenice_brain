@@ -38,7 +38,7 @@ created: 2026-06-07
 - **Conceito Direto:** os Estados-Partes comprometem-se a respeitar e garantir, sem qualquer
   discriminação, os direitos e liberdades da Convenção a toda pessoa sob sua jurisdição.
 - **Fundamentação Positiva:** Art. 1 da CADH (Decreto 678/1992); espelha o `caput` do
-  [[CF/88 Art. 5]] (igualdade perante a lei, sem distinção de qualquer natureza).
+  [[Art. 5 — CF]] (igualdade perante a lei, sem distinção de qualquer natureza).
 - **Anotação de Jurisconsulto:** o STF, no julgamento do RE 466.343/SP (rel. Min. Gilmar Mendes),
   reconheceu aos tratados de direitos humanos sem aprovação qualificada — caso da CADH —
   **status supralegal**: abaixo da Constituição, acima das leis ordinárias. Essa tese é o
@@ -48,7 +48,7 @@ created: 2026-06-07
 
 ## MAPEAMENTO RELACIONAL (Zendelski Graph)
 
-- **Direito Material:** [[CF/88 Art. 5]] — a CADH funciona como "lente de leitura" do catálogo
+- **Direito Material:** [[Art. 5 — CF]] — a CADH funciona como "lente de leitura" do catálogo
   constitucional de direitos fundamentais.
 - **Direito Processual:** fundamenta a admissibilidade do **controle de convencionalidade**
   em qualquer ação ou recurso perante o Judiciário brasileiro.

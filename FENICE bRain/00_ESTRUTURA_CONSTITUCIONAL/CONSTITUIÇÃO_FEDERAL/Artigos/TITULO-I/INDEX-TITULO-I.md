@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-i
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-I — Dos Princípios Fundamentais
@@ -44,4 +44,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

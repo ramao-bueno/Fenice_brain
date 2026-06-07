@@ -9,10 +9,10 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-created: '2026-06-06'
+created: '2026-06-07'
 ---
 
-# CC Art. 20 — Salvo se autorizadas, ou se necessárias à administração da justiça ou à manutenção da ordem pública, a divulgação de esc
+# CC Art. 20 — [Artigo 20 - Direito Civil]
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -22,7 +22,7 @@ created: '2026-06-06'
 
 ## 📋 REDAÇÃO LEGAL
 
-> Salvo se autorizadas, ou se necessárias à administração da justiça ou à manutenção da ordem pública, a divulgação de escritos, a transmissão da palavra, ou a publicação, a exposição ou a utilização da imagem de uma pessoa poderão ser proibidas, a seu requerimento e sem prejuízo da indenização que couber, se lhe atingirem a honra, a boa fama ou a respeitabilidade, ou se se destinarem a fins comerciais. (Vide ADIN 4815) Parágrafo único. Em se tratando de morto ou de ausente, são partes legítimas para requerer essa proteção o cônjuge, os ascendentes ou os descendentes.
+> [Redação legal a ser adicionada]
 
 ---
 
@@ -54,6 +54,6 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
+**Última atualização:** 2026-06-07
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

@@ -9,10 +9,10 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-created: '2026-06-06'
+created: '2026-06-07'
 ---
 
-# CC Art. 14 — É válida, com objetivo científico, ou altruístico, a disposição gratuita do próprio corpo, no todo ou em parte, para dep
+# CC Art. 14 — [Artigo 14 - Direito Civil]
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -22,7 +22,7 @@ created: '2026-06-06'
 
 ## 📋 REDAÇÃO LEGAL
 
-> É válida, com objetivo científico, ou altruístico, a disposição gratuita do próprio corpo, no todo ou em parte, para depois da morte. Parágrafo único. O ato de disposição pode ser livremente revogado a qualquer tempo.
+> [Redação legal a ser adicionada]
 
 ---
 
@@ -54,6 +54,6 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
+**Última atualização:** 2026-06-07
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

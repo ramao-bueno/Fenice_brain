@@ -10,12 +10,12 @@ tags:
 - constituicao
 - index
 - fenice-brain
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 — INDICE COMPLETO
 
-**Status:** VIGENTE  |  **Artigos gerados:** 250/250  |  **Atualizado:** 2026-06-04
+**Status:** VIGENTE  |  **Artigos gerados:** 250/250  |  **Atualizado:** 2026-06-07
 **Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
 
 ---

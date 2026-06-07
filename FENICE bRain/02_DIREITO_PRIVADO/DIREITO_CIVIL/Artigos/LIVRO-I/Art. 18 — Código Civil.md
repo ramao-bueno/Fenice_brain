@@ -9,10 +9,10 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-created: '2026-06-06'
+created: '2026-06-07'
 ---
 
-# CC Art. 18 — Sem autorização, não se pode usar o nome alheio em propaganda comercial
+# CC Art. 18 — [Artigo 18 - Direito Civil]
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -22,7 +22,7 @@ created: '2026-06-06'
 
 ## 📋 REDAÇÃO LEGAL
 
-> Sem autorização, não se pode usar o nome alheio em propaganda comercial.
+> [Redação legal a ser adicionada]
 
 ---
 
@@ -54,6 +54,6 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
+**Última atualização:** 2026-06-07
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

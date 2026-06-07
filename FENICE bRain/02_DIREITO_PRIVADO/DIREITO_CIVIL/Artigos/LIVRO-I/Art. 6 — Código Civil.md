@@ -9,10 +9,10 @@ tags:
 - direito-civil
 - livro-i
 - vigente
-created: '2026-06-06'
+created: '2026-06-07'
 ---
 
-# CC Art. 6 — A existência da pessoa natural termina com a morte;
+# CC Art. 6 — [Artigo 6 - Direito Civil]
 
 **Lei:** Lei 10.406/2002 (Código Civil)
 **Livro:** LIVRO-I — Parte Geral
@@ -22,7 +22,7 @@ created: '2026-06-06'
 
 ## 📋 REDAÇÃO LEGAL
 
-> A existência da pessoa natural termina com a morte; presume-se esta, quanto aos ausentes, nos casos em que a lei autoriza a abertura de sucessão definitiva.
+> [Redação legal a ser adicionada]
 
 ---
 
@@ -54,6 +54,6 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
+**Última atualização:** 2026-06-07
 **Fonte:** Planalto.gov.br
 **Vigência:** Confirmada até hoje

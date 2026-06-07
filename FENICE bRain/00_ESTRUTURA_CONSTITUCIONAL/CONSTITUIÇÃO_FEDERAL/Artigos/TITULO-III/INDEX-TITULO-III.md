@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-iii
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-III — Da Organização do Estado
@@ -66,4 +66,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

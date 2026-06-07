@@ -10,6 +10,10 @@ def extrair_artigos_html(caminho_html: Path) -> List[Dict]:
     """
     Extrai artigos de arquivo HTML do Planalto (suporta múltiplos formatos).
 
+    Estratégia híbrida:
+    1. Procura tags <a name="artN"></a> (padrão antigo/primeiros artigos)
+    2. Procura padrão "Art. N. Redação" para artigos sem tags de nome
+
     Args:
         caminho_html: Caminho para o arquivo .html
 
@@ -29,46 +33,57 @@ def extrair_artigos_html(caminho_html: Path) -> List[Dict]:
     if not conteudo:
         return []
 
-    artigos = []
+    artigos_dict = {}  # Usa dict para evitar duplicatas por número
 
-    # Pattern 1: <a name="artN"></a>Art. N° REDACAO...
-    # Até o próximo artigo ou fim do documento
-    pattern1 = r'<a name="art(\d+)"></a>Art\.\s*\d+[^<]*?\s*(.*?)(?=<a name="art\d+|</body>|</html>)'
-    matches1 = list(re.finditer(pattern1, conteudo, re.DOTALL | re.IGNORECASE))
+    # === ESTRATÉGIA 1: Tags <a name="artN"></a> ===
+    pattern_names = r'<a name="art(\d+)"></a>'
+    matches_names = list(re.finditer(pattern_names, conteudo))
 
-    if matches1:
-        for match in matches1:
-            numero_str, redacao_raw = match.groups()
+    if matches_names:
+        for i, match in enumerate(matches_names):
+            numero_str = match.group(1)
             numero = int(numero_str)
+
+            # Encontra posição inicial (depois da tag) e final (próxima tag ou fim)
+            start_pos = match.end()
+            end_pos = matches_names[i + 1].start() if i + 1 < len(matches_names) else len(conteudo)
+
+            # Extrai conteúdo entre tags
+            redacao_raw = conteudo[start_pos:end_pos]
             redacao = _limpar_redacao(redacao_raw)
+
             if redacao:
-                artigos.append({
+                artigos_dict[numero] = {
                     "numero": numero,
                     "redacao": redacao,
                     "titulo": f"Art. {numero}",
                     "categoria": "GENERICO"
-                })
-    else:
-        # Pattern 2: Fallback — procura por "Art. N" sem tags de nome
-        # Captura até o próximo "Art. M" ou fim
-        pattern2 = r'Art\.\s+(\d+)[^\w]*?(.*?)(?=Art\.\s+\d+|</body>|</html>)'
-        matches2 = list(re.finditer(pattern2, conteudo, re.DOTALL | re.IGNORECASE))
+                }
 
-        for match in matches2:
-            numero_str, redacao_raw = match.groups()
-            try:
-                numero = int(numero_str)
-                redacao = _limpar_redacao(redacao_raw)
+    # === ESTRATÉGIA 2: Fallback — padrão "Art. N. Redação" ===
+    # Procura por "Art. \d+" que não esteja já em artigos_dict
+    pattern2 = r'Art\.\s+(\d+)[^<]*?\.?\s+([^<]{10,500}?)(?=<[^>]*>|Art\.\s+\d+)'
+    matches2 = list(re.finditer(pattern2, conteudo, re.IGNORECASE))
+
+    for match in matches2:
+        numero_str = match.group(1)
+        redacao_raw = match.group(2) if len(match.groups()) > 1 else ""
+        try:
+            numero = int(numero_str)
+            # Só adiciona se não foi capturado pela estratégia 1
+            if numero not in artigos_dict:
+                redacao = _limpar_redacao(redacao_raw) if redacao_raw else ""
                 if redacao:
-                    artigos.append({
+                    artigos_dict[numero] = {
                         "numero": numero,
                         "redacao": redacao,
                         "titulo": f"Art. {numero}",
                         "categoria": "GENERICO"
-                    })
-            except ValueError:
-                continue
+                    }
+        except ValueError:
+            continue
 
+    artigos = list(artigos_dict.values())
     return sorted(artigos, key=lambda x: x["numero"])
 
 

@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-vii
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-VII — Da Ordem Econômica e Financeira
@@ -63,4 +63,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

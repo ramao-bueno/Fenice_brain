@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-vi
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-VI — Da Tributação e do Orçamento
@@ -65,4 +65,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

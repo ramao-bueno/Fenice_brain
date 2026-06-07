@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-ix
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-IX — Das Disposições Constitucionais Gerais
@@ -58,4 +58,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

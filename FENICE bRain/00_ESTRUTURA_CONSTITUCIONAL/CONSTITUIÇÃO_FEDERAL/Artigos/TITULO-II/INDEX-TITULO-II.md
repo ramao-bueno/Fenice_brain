@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-ii
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-II — Dos Direitos e Garantias Fundamentais
@@ -53,4 +53,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

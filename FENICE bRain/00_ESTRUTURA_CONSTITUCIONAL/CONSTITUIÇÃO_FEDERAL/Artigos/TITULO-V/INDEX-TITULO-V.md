@@ -10,7 +10,7 @@ tags:
 - constituicao
 - index
 - titulo-v
-created: '2026-06-04'
+created: '2026-06-07'
 ---
 
 # CF/88 TITULO-V — Da Defesa do Estado e das Instituições Democráticas
@@ -49,4 +49,4 @@ created: '2026-06-04'
 
 ---
 
-**Atualizado:** 2026-06-04
+**Atualizado:** 2026-06-07

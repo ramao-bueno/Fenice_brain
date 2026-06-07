@@ -1,16 +1,16 @@
 ---
-titulo: INDEX — CF/88 TITULO-VIII
+titulo: INDEX CF/88 TITULO-VIII
 lei: Constituição Federal de 1988
 titulo_cf: TITULO-VIII
 type: index
 status: vigente
 cf88: true
 tags:
-- cf88
-- constituicao
-- index
-- titulo-viii
-created: '2026-06-04'
+  - cf88
+  - constituicao
+  - index
+  - titulo-viii
+created: 2026-06-04
 ---
 
 # CF/88 TITULO-VIII — Da Ordem Social

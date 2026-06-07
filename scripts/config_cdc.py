@@ -7,10 +7,9 @@ OUTPUT_BASE = PROJECT_ROOT / "FENICE bRain" / "08_CÓDIGO_CONSUMIDOR" / "Artigos
 
 # Mapeamento de Livros (CDC tem 119 artigos)
 LIVRO_MAPEAMENTO = {
-    "LIVRO-I": {"range": (1, 59), "nome": "Direitos do Consumidor"},
-    "LIVRO-II": {"range": (60, 78), "nome": "Infrações Penais"},
-    "LIVRO-III": {"range": (79, 105), "nome": "Processo Administrativo"},
-    "DISPOSICOES-GERAIS": {"range": (106, 119), "nome": "Disposições Gerais"},
+    "LIVRO-I": {"range": (1, 8), "nome": "Das Disposições Gerais"},
+    "LIVRO-II": {"range": (9, 108), "nome": "Da Proteção ao Consumidor"},
+    "LIVRO-III": {"range": (109, 119), "nome": "Da Defesa do Consumidor em Juízo"},
 }
 
 # Tags padrão

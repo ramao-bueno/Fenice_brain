@@ -1,0 +1,59 @@
+---
+artigo: '63'
+lei: Lei 13.105/2015 (Código de Processo Civil)
+tipo: processo-civil
+livro: LIVRO-I
+status: vigente
+tags:
+- cpc
+- processo-civil
+- livro-i
+- vigente
+created: '2026-06-06'
+---
+
+# CPC Art. 63 — As partes podem modificar a competência em razão do valor e do território, elegendo foro onde será proposta ação oriunda
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)
+**Livro:** LIVRO-I — Normas Processuais Civis
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> As partes podem modificar a competência em razão do valor e do território, elegendo foro onde será proposta ação oriunda de direitos e obrigações. § 1º A eleição de foro só produz efeito quando constar de instrumento escrito e aludir expressamente a determinado negócio jurídico. § 1º A eleição de foro somente produz efeito quando constar de instrumento escrito, aludir expressamente a determinado negócio jurídico e guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação, ressalvada a pactuação consumerista, quando favorável ao consumidor. (Redação dada pela Lei nº 14.879, de 4 de junho de 2024) § 2º O foro contratual obriga os herdeiros e sucessores das partes. § 3º Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu. § 4º Citado, incumbe ao réu alegar a abusividade da cláusula de eleição de foro na contestação, sob pena de preclusão. § 5º O ajuizamento de ação em juízo aleatório, entendido como aquele sem vinculação com o domicílio ou a residência das partes ou com o negócio jurídico discutido na demanda, constitui prática abusiva que justifica a declinação de competência de ofício. (Incluído pela Lei nº 14.879, de 4 de junho de 2024) Seção III Da Incompetência
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 62]] — Artigo anterior
+- [[Art. 64]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

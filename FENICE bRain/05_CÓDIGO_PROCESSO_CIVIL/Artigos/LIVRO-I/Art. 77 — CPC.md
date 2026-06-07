@@ -1,0 +1,59 @@
+---
+artigo: '77'
+lei: Lei 13.105/2015 (Código de Processo Civil)
+tipo: processo-civil
+livro: LIVRO-I
+status: vigente
+tags:
+- cpc
+- processo-civil
+- livro-i
+- vigente
+created: '2026-06-06'
+---
+
+# CPC Art. 77 — Além de outros previstos neste Código, são deveres das partes, de seus procuradores e de todos aqueles que de qualquer f
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)
+**Livro:** LIVRO-I — Normas Processuais Civis
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> Além de outros previstos neste Código, são deveres das partes, de seus procuradores e de todos aqueles que de qualquer forma participem do processo: I - expor os fatos em juízo conforme a verdade; II - não formular pretensão ou de apresentar defesa quando cientes de que são destituídas de fundamento; III - não produzir provas e não praticar atos inúteis ou desnecessários à declaração ou à defesa do direito; IV - cumprir com exatidão as decisões jurisdicionais, de natureza provisória ou final, e não criar embaraços à sua efetivação; V - declinar, no primeiro momento que lhes couber falar nos autos, o endereço residencial ou profissional onde receberão intimações, atualizando essa informação sempre que ocorrer qualquer modificação temporária ou definitiva; VI - não praticar inovação ilegal no estado de fato de bem ou direito litigioso. VII - informar e manter atualizados seus dados cadastrais perante os órgãos do Poder Judiciário e, no caso do § 6º do art. 246 deste Código, da Administração Tributária, para recebimento de citações e intimações. (Incluído pela Lei nº 14.195, de 2021) § 1º Nas hipóteses dos incisos IV e VI, o juiz advertirá qualquer das pessoas mencionadas no caput de que sua conduta poderá ser punida como ato atentatório à dignidade da justiça. § 2º A violação ao disposto nos incisos IV e VI constitui ato atentatório à dignidade da justiça, devendo o juiz, sem prejuízo das sanções criminais, civis e processuais cabíveis, aplicar ao responsável multa de até vinte por cento do valor da causa, de acordo com a gravidade da conduta. § 3 o Não sendo paga no prazo a ser fixado pelo juiz, a multa prevista no § 2º será inscrita como dívida ativa da União ou do Estado após o trânsito em julgado da decisão que a fixou, e sua execução observará o procedimento da execução fiscal, revertendo-se aos fundos previstos no art. 97 . § 4º A multa estabelecida no § 2º poderá ser fixada independentemente da incidência das previstas nos arts. 523, § 1º , e 536, § 1º . § 5º Quando o valor da causa for irrisório ou inestimável, a multa prevista no § 2º poderá ser fixada em até 10 (dez) vezes o valor do salário-mínimo. § 6º Aos advogados públicos ou privados e aos membros da Defensoria Pública e do Ministério Público não se aplica o disposto nos §§ 2º a 5º, devendo eventual responsabilidade disciplinar ser apurada pelo respectivo órgão de classe ou corregedoria, ao qual o juiz oficiará. § 7º Reconhecida violação ao disposto no inciso VI, o juiz determinará o restabelecimento do estado anterior, podendo, ainda, proibir a parte de falar nos autos até a purgação do atentado, sem prejuízo da aplicação do § 2º. § 8º O representante judicial da parte não pode ser compelido a cumprir decisão em seu lugar.
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 76]] — Artigo anterior
+- [[Art. 78]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

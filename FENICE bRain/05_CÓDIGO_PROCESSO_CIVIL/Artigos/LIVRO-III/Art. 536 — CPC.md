@@ -1,0 +1,59 @@
+---
+artigo: '536'
+lei: Lei 13.105/2015 (Código de Processo Civil)
+tipo: processo-civil
+livro: LIVRO-III
+status: vigente
+tags:
+- cpc
+- processo-civil
+- livro-iii
+- vigente
+created: '2026-06-06'
+---
+
+# CPC Art. 536 — No cumprimento de sentença que reconheça a exigibilidade de obrigação de fazer ou de não fazer, o juiz poderá, de ofício
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)
+**Livro:** LIVRO-III — Processo de Execução
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> No cumprimento de sentença que reconheça a exigibilidade de obrigação de fazer ou de não fazer, o juiz poderá, de ofício ou a requerimento, para a efetivação da tutela específica ou a obtenção de tutela pelo resultado prático equivalente, determinar as medidas necessárias à satisfação do exequente. § 1º Para atender ao disposto no caput , o juiz poderá determinar, entre outras medidas, a imposição de multa, a busca e apreensão, a remoção de pessoas e coisas, o desfazimento de obras e o impedimento de atividade nociva, podendo, caso necessário, requisitar o auxílio de força policial. § 2º O mandado de busca e apreensão de pessoas e coisas será cumprido por 2 (dois) oficiais de justiça, observando-se o disposto no art. 846, §§ 1º a 4º , se houver necessidade de arrombamento. § 3º O executado incidirá nas penas de litigância de má-fé quando injustificadamente descumprir a ordem judicial, sem prejuízo de sua responsabilização por crime de desobediência. § 4º No cumprimento de sentença que reconheça a exigibilidade de obrigação de fazer ou de não fazer, aplica-se o art. 525 , no que couber. § 5º O disposto neste artigo aplica-se, no que couber, ao cumprimento de sentença que reconheça deveres de fazer e de não fazer de natureza não obrigacional.
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 535]] — Artigo anterior
+- [[Art. 537]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

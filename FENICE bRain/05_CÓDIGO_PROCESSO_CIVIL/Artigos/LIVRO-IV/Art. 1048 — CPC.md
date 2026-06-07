@@ -1,0 +1,59 @@
+---
+artigo: '1048'
+lei: Lei 13.105/2015 (Código de Processo Civil)
+tipo: processo-civil
+livro: LIVRO-IV
+status: vigente
+tags:
+- cpc
+- processo-civil
+- livro-iv
+- vigente
+created: '2026-06-06'
+---
+
+# CPC Art. 1048 — Terão prioridade de tramitação, em qualquer juízo ou tribunal, os procedimentos judiciais
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)
+**Livro:** LIVRO-IV — Procedimentos Especiais
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> Terão prioridade de tramitação, em qualquer juízo ou tribunal, os procedimentos judiciais: I - em que figure como parte ou interessado pessoa com idade igual ou superior a 60 (sessenta) anos ou portadora de doença grave, assim compreendida qualquer das enumeradas no art. 6º, inciso XIV, da Lei nº 7.713, de 22 de dezembro de 1988 ; II - regulados pela Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente) . III - em que figure como parte a vítima de violência doméstica e familiar, nos termos da Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha). (Incluído pela Lei nº 13.894, de 2019) IV - em que se discuta a aplicação do disposto nas normas gerais de licitação e contratação a que se refere o inciso XXVII do caput do art. 22 da Constituição Federal . (Incluído pela Lei nº 14.133, de 2021) § 1º A pessoa interessada na obtenção do benefício, juntando prova de sua condição, deverá requerê-lo à autoridade judiciária competente para decidir o feito, que determinará ao cartório do juízo as providências a serem cumpridas. § 2º Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária. § 3º Concedida a prioridade, essa não cessará com a morte do beneficiado, estendendo-se em favor do cônjuge supérstite ou do companheiro em união estável. § 4º A tramitação prioritária independe de deferimento pelo órgão jurisdicional e deverá ser imediatamente concedida diante da prova da condição de beneficiário.
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 1047]] — Artigo anterior
+- [[Art. 1049]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

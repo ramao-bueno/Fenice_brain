@@ -1,0 +1,59 @@
+---
+artigo: '762'
+lei: Lei 13.105/2015 (Código de Processo Civil)
+tipo: processo-civil
+livro: LIVRO-III
+status: vigente
+tags:
+- cpc
+- processo-civil
+- livro-iii
+- vigente
+created: '2026-06-06'
+---
+
+# CPC Art. 762 — Em caso de extrema gravidade, o juiz poderá suspender o tutor ou o curador do exercício de suas funções, nomeando substi
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)
+**Livro:** LIVRO-III — Processo de Execução
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> Em caso de extrema gravidade, o juiz poderá suspender o tutor ou o curador do exercício de suas funções, nomeando substituto interino.
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 761]] — Artigo anterior
+- [[Art. 763]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

@@ -330,24 +330,171 @@ async def estatisticas_gerais(
 # =====================================================================
 # Root
 # =====================================================================
+class SemanticSearchRequest(BaseModel):
+    query: str = Field(..., description="Texto para busca semântica", min_length=3, max_length=500)
+    limite: int = Field(10, ge=1, le=50, description="Número de resultados")
+    threshold: float = Field(0.5, ge=0.0, le=1.0, description="Limite mínimo de similaridade")
+
+
+class SemanticSearchResult(BaseModel):
+    numero_identificador: str
+    tipo: str
+    setor_afetado: Optional[str]
+    similarity_score: float
+    enunciado_original: Optional[str]
+    match_type: str = "SEMANTIC"
+
+
+@app.post(
+    "/sumulas/buscar-semantica",
+    response_model=List[SemanticSearchResult],
+    tags=["RAG"],
+    summary="Busca Semântica com Embeddings (OpenAI)"
+)
+async def buscar_semantica(
+    request: SemanticSearchRequest,
+    api_key: str = Depends(verificar_api_key)
+):
+    """
+    Busca semântica usando embeddings OpenAI + pgvector.
+    Requer que embeddings tenham sido gerados com embeddings_openai_generator.py
+    """
+    try:
+        from embeddings_rag_retriever import RAGRetriever
+
+        retriever = RAGRetriever()
+        if not retriever.conectar():
+            raise HTTPException(status_code=500, detail="Erro ao conectar ao banco")
+
+        resultados = retriever.buscar_semanticamente(
+            request.query,
+            limite=request.limite,
+            similarity_threshold=request.threshold
+        )
+
+        retriever.fechar()
+
+        return [
+            SemanticSearchResult(
+                numero_identificador=r.numero_identificador,
+                tipo=r.tipo,
+                setor_afetado=r.setor_afetado,
+                similarity_score=r.similarity_score,
+                enunciado_original=r.enunciado_original,
+                match_type=r.match_type
+            )
+            for r in resultados
+        ]
+
+    except ImportError:
+        raise HTTPException(
+            status_code=503,
+            detail="RAG Retriever não disponível. Execute: pip install openai && python embeddings_openai_generator.py"
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post(
+    "/sumulas/buscar-hibrida",
+    response_model=List[SemanticSearchResult],
+    tags=["RAG"],
+    summary="Busca Híbrida (Semântica + Keywords)"
+)
+async def buscar_hibrida(
+    request: SemanticSearchRequest,
+    keywords: Optional[List[str]] = Query(None, description="Palavras-chave adicionais"),
+    alpha: float = Query(0.5, ge=0.0, le=1.0, description="Peso da busca semântica (0-1)"),
+    api_key: str = Depends(verificar_api_key)
+):
+    """
+    Busca combinando semântica (embeddings) e busca por keywords.
+    - alpha=1.0: 100% semântica
+    - alpha=0.5: 50/50 semântica e keywords
+    - alpha=0.0: 100% keywords
+    """
+    try:
+        from embeddings_rag_retriever import RAGRetriever
+
+        retriever = RAGRetriever()
+        if not retriever.conectar():
+            raise HTTPException(status_code=500, detail="Erro ao conectar ao banco")
+
+        resultados = retriever.buscar_hibrida(
+            request.query,
+            keywords=keywords,
+            limite=request.limite,
+            alpha=alpha
+        )
+
+        retriever.fechar()
+
+        return [
+            SemanticSearchResult(
+                numero_identificador=r.numero_identificador,
+                tipo=r.tipo,
+                setor_afetado=r.setor_afetado,
+                similarity_score=r.similarity_score,
+                enunciado_original=r.enunciado_original,
+                match_type=r.match_type
+            )
+            for r in resultados
+        ]
+
+    except ImportError:
+        raise HTTPException(status_code=503, detail="RAG Retriever não disponível")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get(
+    "/embeddings/stats",
+    tags=["RAG"],
+    summary="Estatísticas de Embeddings"
+)
+async def embeddings_stats(
+    api_key: str = Depends(verificar_api_key)
+):
+    """Verificar quantos embeddings foram gerados."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+            cursor.execute("SELECT * FROM stf.embedding_stats")
+            row = cursor.fetchone()
+
+        if not row:
+            raise HTTPException(status_code=404, detail="Nenhum embedding encontrado")
+
+        return dict(row)
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.get("/", tags=["Info"])
 async def root():
     """Info da API."""
     return {
         "title": "Fenice Brain — STF Jurisprudência API",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "docs": "/docs",
         "redoc": "/redoc",
         "endpoints": {
             "health": "/health",
             "sumulas": "/sumulas",
             "buscar": "/sumulas/buscar (POST)",
+            "buscar_semantica": "/sumulas/buscar-semantica (POST) — Requer embeddings",
+            "buscar_hibrida": "/sumulas/buscar-hibrida (POST) — Semântica + Keywords",
+            "embeddings_stats": "/embeddings/stats",
             "modulacoes": "/sumulas/com-modulacao",
             "setores": "/sumulas/por-setor",
             "alertas": "/alertas/compliance",
             "stats": "/estatisticas"
         },
-        "autenticacao": "Passar ?api_key=sua_chave em todos os endpoints"
+        "autenticacao": "Passar ?api_key=sua_chave em todos os endpoints",
+        "versao": "2.0.0 com RAG/Embeddings"
     }
 
 

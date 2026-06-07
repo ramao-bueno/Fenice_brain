@@ -1,0 +1,1 @@
+Avais em branco e superpostos consideram-se simultâneos e não sucessivos.

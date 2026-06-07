@@ -1,0 +1,60 @@
+//Resenha diária e mensal
+var resenha_open = 0;
+var toggle_resenha = $('.btn-resenha-mensal-diaria');
+toggle_resenha.on('click', function(){
+	
+	if (resenha_open == 1){
+		$(".btn-resenha-mensal-diaria").html('Resenha Mensal<i class="ti-arrow-right"></i>');
+		$('#datepicker').show();
+		$('#card-meses-resenha').hide();
+		resenha_open = 0;
+	}  else {
+		//console.log("diaria");
+		$(".btn-resenha-mensal-diaria").html('Resenha Di&aacute;ria<i class="ti-arrow-right"></i>');
+		$('#datepicker').hide();
+		$('#card-meses-resenha').show();
+		resenha_open = 1;
+	}
+	event.stopPropagation();
+});
+
+//Obtem o mes e ano selecionado
+$('.mes-resenha').on('click', function(){
+	$('.mes-resenha').removeClass("active")
+	$(this).addClass("active")
+	$("#num_mes_resenha").val($(this).attr("data-mes"));
+	$("#num_ano_resenha").val($(".ano-resenha").attr("data-ano"));
+    pesquisaLegislacao('0');
+});
+
+
+//Mascara do formulário
+$('.datepicker-form').mask("00/00/0000", {placeholder: "__/__/____"});
+
+//Calendário resenha diária
+$('#datepicker').datetimepicker({
+	  format: 'DD/MM/YYYY'
+	, inline: true
+	, sideBySide: true
+	, locale: 'pt-br'
+});
+
+//Ao clicar no calendário da resenha diária
+$("#datepicker").on("dp.change",function (e) {
+	var d = new Date(e.date);    
+	$(".dropdown, .dropdown-menu").removeClass("show");
+	$("#data_resenha").val(d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear());
+    pesquisaLegislacao('0');
+});
+
+//Ao clicar no dia atual
+$(".day.today").on("click",function (e) {
+	$("#data_resenha").val($(this).attr("data-day"));
+    pesquisaLegislacao('0');
+});
+
+//Calendário do formulário
+$('.datepicker-form').datetimepicker({
+	  format: 'DD/MM/YYYY'
+	, locale: 'pt-br'
+});

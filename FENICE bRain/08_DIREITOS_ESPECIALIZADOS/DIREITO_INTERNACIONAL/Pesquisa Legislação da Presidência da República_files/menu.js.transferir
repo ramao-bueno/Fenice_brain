@@ -1,0 +1,123 @@
+"use strict";
+
+$(document).ready(function(){
+
+	var toggle_sidebar = false,
+	toggle_quick_sidebar = false,
+	toggle_topbar = false,
+	minimize_sidebar = false,
+	toggle_page_sidebar = false,
+	toggle_overlay_sidebar = false,
+	nav_open = 0,
+	quick_sidebar_open = 0,
+	topbar_open = 0,
+	mini_sidebar = 0,
+	page_sidebar_open = 0,
+	overlay_sidebar_open = 0;
+
+
+
+	if(!quick_sidebar_open) {
+		var toggle = $('.quick-sidebar-toggler');
+
+		toggle.on('click', function(){
+			if (quick_sidebar_open == 1){
+				
+				//console.log("fechar");
+				$('html').removeClass('quick_sidebar_open');
+				$('.quick-sidebar-overlay').remove();
+				toggle.removeClass('toggled');
+				quick_sidebar_open = 0;
+				
+			}  else {
+				
+				
+				var widthBody = $('body').width();
+				//Monitor menor
+				if(parseInt(widthBody) < 768){
+					console.log("tela menor");
+					$('.quick-sidebar').css({
+					      "transition": "1.5s",
+					      "width": widthBody+"px"
+					});
+				}				
+								
+				$('html').addClass('quick_sidebar_open');
+				toggle.addClass('toggled');
+				$('<div class="quick-sidebar-overlay"></div>').insertAfter('.quick-sidebar');
+				quick_sidebar_open = 1;
+			}
+		});
+
+		
+		$('.wrapper').mouseup(function(e)
+		{
+			var subject = $('.quick-sidebar'); 
+
+			if(e.target.className != subject.attr('class') && !subject.has(e.target).length)
+			{
+			
+				$('html').removeClass('quick_sidebar_open');
+				$('.quick-sidebar-toggler').removeClass('toggled');
+				$('.quick-sidebar-overlay').remove();
+				
+				quick_sidebar_open = 0;
+			}
+		});
+		
+		
+		
+		
+		$(".close-quick-sidebar").on('click', function(event){
+			
+			
+			$('html').removeClass('quick_sidebar_open');
+			$('.quick-sidebar-toggler').removeClass('toggled');
+			$('.quick-sidebar-overlay').remove();
+			quick_sidebar_open = 0;
+			
+			
+		});
+		
+		$(".btn-pesquisa-avancada").on('click', function(){
+			
+			var widthBody = $('body').width();
+			
+			//Monitor menor
+			if(parseInt(widthBody) < 768){
+				
+				$('html').removeClass('quick_sidebar_open');
+				$('.quick-sidebar-toggler').removeClass('toggled');
+				$('.quick-sidebar-overlay').remove();
+				
+				quick_sidebar_open = 0;
+				
+			}else{
+				
+			}
+			
+		});
+
+		quick_sidebar_open = true;
+	}
+
+
+	if(!toggle_topbar) {
+		var topbar = $('.topbar-toggler');
+
+		topbar.on('click', function() {
+			if (topbar_open == 1) {
+				$('html').removeClass('topbar_open');
+				topbar.removeClass('toggled');
+				topbar_open = 0;
+			} else {
+				$('html').addClass('topbar_open');
+				topbar.addClass('toggled');
+				topbar_open = 1;
+			}
+		});
+		toggle_topbar = true;
+	}
+
+});
+

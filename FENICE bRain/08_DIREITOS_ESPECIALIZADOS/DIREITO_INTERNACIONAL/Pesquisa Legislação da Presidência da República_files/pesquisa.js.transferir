@@ -1,0 +1,254 @@
+/* Adiciona a tecla enter no campo de pesquisa */
+var input = document.getElementById("termo");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    pesquisaLegislacao('0');
+  }
+});
+
+//Em caso de enter, realiza a pesquisa 
+capturaTeclaEnter('num_ato');
+capturaTeclaEnter('ano_ato');
+
+//Em caso de enter, realiza a pesquisa
+function capturaTeclaEnter(campo){
+
+    var input = document.getElementById(campo);
+    
+    input.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        pesquisaLegislacao('0');
+      }
+    });
+    
+	   
+}
+
+
+function validaPeriodoData(){
+	
+	if(($("#dat_inicio").val() != "" && $("#dat_termino").val() != "") || 
+	   ($("#dat_inicio").val() == "" && $("#dat_termino").val() == "")){
+
+		$("#dat_termino").removeClass('is-invalid');
+		$("#dat_inicio").removeClass('is-invalid');
+		$(".valida-data-termino").html('');
+		$(".valida-data-inicio").html('');
+		return true;
+		
+	}else{
+		
+		if($("#dat_inicio").val() != ""){
+			if($("#dat_termino").val() == ""){
+				$("#dat_termino").addClass('is-invalid');
+				$(".valida-data-termino").html('Informe a data final.');
+				return false;
+			}
+		}
+		
+		if($("#dat_termino").val() != ""){
+			if($("#dat_inicio").val() == ""){
+				$("#dat_inicio").addClass('is-invalid');
+				$(".valida-data-inicio").html('Informe a data inicial.');
+				return false;
+			}
+		}
+		
+	}
+	
+
+	
+	
+}
+
+	
+//Carrega do resultado da pesquisa
+function carregaResultado(pagina, posicao){
+
+	if(!posicao){
+		posicao = 0;
+	}
+	
+	
+	$("#resultado").html('<div class="card-body">Carregando...</div>');
+	
+	//Percorre os checkboxes
+	var array_tipo_macro_ato = [];
+	array_tipo_macro_ato = obterArrayCheckboxes('tipo_macro_ato[]');
+	array_conteudo_tipo_macro_ato = obterArrayConteudoCheckboxes('tipo_macro_ato[]');
+	
+	var array_tipo_ato = [];
+	array_tipo_ato = obterArrayCheckboxes('tipo_ato[]');
+	array_conteudo_tipo_ato = obterArrayConteudoCheckboxes('tipo_ato[]');
+	
+	var array_situacao_ato = [];
+	array_situacao_ato = obterArrayCheckboxes('situacao_ato[]');
+	array_conteudo_situacao_ato = obterArrayConteudoCheckboxes('situacao_ato[]');
+		
+	var array_presidente_exercicio = [];
+	array_presidente_exercicio = obterArrayCheckboxes('presidente_exercicio[]');
+	array_conteudo_presidente_exercicio = obterArrayConteudoCheckboxes('presidente_exercicio[]');
+	
+	var array_chefe_governo = [];
+	array_chefe_governo = obterArrayCheckboxes('chefe_governo[]');
+	array_conteudo_chefe_governo = obterArrayConteudoCheckboxes('chefe_governo[]');
+	
+	var array_referenda_ministerial = [];
+	array_referenda_ministerial = obterArrayCheckboxes('referenda_ministerial[]');
+	array_conteudo_referenda_ministerial = obterArrayConteudoCheckboxes('referenda_ministerial[]');
+	
+	var array_origem = [];
+	array_origem = obterArrayCheckboxes('origem[]');
+	array_conteudo_origem = obterArrayConteudoCheckboxes('origem[]');
+	
+	var array_diario_extra = [];
+	array_diario_extra = obterArrayCheckboxes('diario_extra[]');
+	array_conteudo_diario_extra = obterArrayConteudoCheckboxes('diario_extra[]');
+	
+	
+	
+	$.ajax({
+	  method: "POST",
+	  url: "pesquisa/ajax/resultado_pesquisa_legislacao.php",
+	  data: { 
+		  pagina: pagina
+		  , posicao: posicao
+		  , termo:  $("#termo").val()
+		  , num_ato: $("#num_ato").val()
+		  , ano_ato: $("#ano_ato").val()
+		  , dat_inicio: $("#dat_inicio").val()
+		  , dat_termino: $("#dat_termino").val()
+		  , tipo_macro_ato: array_tipo_macro_ato.join(',')
+		  , tipo_ato: array_tipo_ato.join(',')
+		  , situacao_ato: array_situacao_ato.join(',')
+		  , presidente_exercicio: array_presidente_exercicio.join(',')
+		  , chefe_governo: array_chefe_governo.join(',')
+		  , dsc_referenda_ministerial: $("#dsc_referenda_ministerial").val()	  
+		  , referenda_ministerial: array_referenda_ministerial.join(',')
+		  , origem: array_origem.join(',')
+		  , diario_extra: array_diario_extra.join(',')
+		  , data_resenha: $("#data_resenha").val()
+		  , num_mes_resenha: $("#num_mes_resenha").val()
+		  , num_ano_resenha: $("#num_ano_resenha").val()
+		  , ordenacao: $("#ordenacao").val()
+		  
+		  //Array separados por ";"
+		  , conteudo_tipo_macro_ato: array_conteudo_tipo_macro_ato.join(';')
+		  , conteudo_tipo_ato: array_conteudo_tipo_ato.join(';')
+		  , conteudo_situacao_ato: array_conteudo_situacao_ato.join(';')
+		  , conteudo_presidente_exercicio: array_conteudo_presidente_exercicio.join(';')
+		  , conteudo_chefe_governo: array_conteudo_chefe_governo.join(';')
+		  , conteudo_referenda_ministerial: array_conteudo_referenda_ministerial.join(';')
+		  , conteudo_origem: array_conteudo_origem.join(';')
+		  , conteudo_diario_extra: array_conteudo_diario_extra.join(';')
+		  
+	  }
+	})
+    .done(function( conteudo ) {
+	   $("#resultado").html(conteudo);   
+    });
+
+}
+
+
+function comboPesquisa(objeto){
+
+	$(objeto).parent().next(".combo-pesquisa").removeClass('combo-pesquisa-close');
+	$(objeto).parent().next(".combo-pesquisa").addClass('combo-pesquisa-open');
+	
+	$(objeto).parent().prev().find(".cursor-link").find("i").removeClass('ti-angle-down');
+	$(objeto).parent().prev().find(".cursor-link").find("i").addClass('ti-angle-up');
+	
+}
+
+function toogleCombo(objeto){
+	    		
+	$(objeto).find("i").toggleClass("ti-angle-down ti-angle-up");
+	$(objeto).parent().parent().next().next(".combo-pesquisa").toggleClass('combo-pesquisa-close combo-pesquisa-open');
+		
+}
+
+function pesquisaConteudoCombo(txtSearch) {
+		
+	$(txtSearch).parent().next(".combo-pesquisa").find('.form-check-label').each(function () {
+		//Busca conteudo
+		if ($(this).text().toUpperCase().indexOf($(txtSearch).val().toUpperCase()) > -1){
+			$(this).parent().show();
+		}else{
+			$(this).parent().hide();
+		}
+	});
+	
+}
+
+function selecionarTodos(campo){
+	$.each($("input[name='"+campo+"']"), function(){            
+		$(this).prop('checked', true);
+    });
+}
+
+function removerSelecao(campo){
+	$.each($("input[name='"+campo+"']:checked"), function(){    
+		$(this).prop('checked', false);
+	});
+}
+
+function limparCampo(campo){
+	$.each($("input[name='"+campo+"']"), function(){            
+		$(this).val("");
+	});
+}
+
+function limparCampoMultivalorado(campo, valor){
+	$.each($("input[name='"+campo+"']:checked"), function(){            
+		if($(this).val() == valor){
+			$(this).prop('checked', false);
+		}
+	});
+}
+
+function obterArrayCheckboxes(campo){
+	
+	var array_conteudo = [];
+	
+	$.each($("input[name='"+campo+"']:checked"), function(){       
+		array_conteudo.push($(this).val());
+	});
+	
+	return array_conteudo;
+}
+
+function obterArrayConteudoCheckboxes(campo){
+	
+	var array_conteudo = [];
+	
+	$.each($("input[name='"+campo+"']:checked"), function(){       
+		array_conteudo.push($(this).attr('conteudo')+"|"+$(this).val());
+	});
+	
+	return array_conteudo;
+}
+
+function removerTodosFiltros(){
+	$(".limpar-todos").click();
+}
+
+function selecionaOrdenacao(ordem){
+	$("#ordenacao").val(ordem);
+	pesquisaLegislacao('0');
+}
+
+function somenteNumeros(evt) {
+   var theEvent = evt || window.event;
+   var key = theEvent.keyCode || theEvent.which;
+   key = String.fromCharCode( key );
+   //var regex = /^[0-9.,]+$/;
+   var regex = /^[0-9.]+$/;
+   if( !regex.test(key) ) {
+      theEvent.returnValue = false;
+      if(theEvent.preventDefault) theEvent.preventDefault();
+   }
+}

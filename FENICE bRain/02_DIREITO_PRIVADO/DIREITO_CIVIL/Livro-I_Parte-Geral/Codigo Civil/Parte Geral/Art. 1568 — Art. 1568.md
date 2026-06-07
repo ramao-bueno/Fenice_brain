@@ -1,0 +1,51 @@
+---
+artigo: "1568"
+nomen: "Art. 1568"
+parte: "Parte Geral"
+livro: "IV — " if c['livro'] else ""
+titulo: "I — " if c['titulo'] else ""
+capitulo: ""
+secao: ""
+disciplina: civil
+grupo: "Direito de Família"
+natureza: "regra"
+tags:
+  - codigo-civil
+  - civil
+  - art1568
+  - parte-geral
+  - direito-de-familia
+data: 2026-05-31
+---
+
+# Art. 1568 CC — Art. 1568
+
+> [!info] Localização
+> Parte Geral
+
+> [!quote] Texto Legal
+> **Art. 1568.** Os cônjuges são obrigados a concorrer, na proporção de seus bens e dos rendimentos do
+trabalho, para o sustento da família e a educação dos filhos, qualquer que seja o regime patrimonial.
+
+## Por que importa?
+
+| Campo | Valor |
+|---|---|
+| Dispositivo | Art. 1568 do Código Civil (Lei 10.406/2002) |
+| Parte | Parte Geral |
+| Livro | — |
+| Título | — |
+| Capítulo | — |
+| Seção | — |
+| Grupo temático | Direito de Família |
+| Natureza | regra |
+
+> [!tip] Para o Estudo
+> Casamento, união estável e família monoparental têm proteção constitucional. Poder familiar × guarda × alimentos: aspectos processuais e materiais.
+
+> [!warning] Atenção — Pegadinha
+> Regime de bens legal (supletivo): comunhão parcial de bens (art. 1640).
+
+## Links Relacionados
+
+← [[Art. 1567]] | [[INDEX — Código Civil]] | [[Art. 1569]] →

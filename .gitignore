@@ -1,0 +1,27 @@
+# Obsidian
+.obsidian/
+.DS_Store
+*.tmp
+
+# Backups
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp.*
+*.swp
+~$*
+
+# Sincronização
+.sync
+.obsidian/sync
+
+# Caches
+.cache/
+*.cache
+
+# Logs
+*.log

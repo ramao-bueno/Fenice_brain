@@ -1,0 +1,51 @@
+---
+artigo: "302"
+nomen: "Assunção de Dívida"
+parte: "Parte Geral"
+livro: "I — " if c['livro'] else ""
+titulo: "II — Da Transmissão das Obrigações" if c['titulo'] else ""
+capitulo: "Da Assunção de Dívida"
+secao: ""
+disciplina: civil
+grupo: "Obrigações — Modalidades e Transmissão"
+natureza: "vedação"
+tags:
+  - codigo-civil
+  - civil
+  - art302
+  - parte-geral
+  - obrigacoes-modalidades-e-transmissao
+data: 2026-05-31
+---
+
+# Art. 302 CC — Assunção de Dívida
+
+> [!info] Localização
+> Parte Geral › Título II — Da Transmissão das Obrigações › Capítulo: Da Assunção de Dívida
+
+> [!quote] Texto Legal
+> **Art. 302.** O novo devedor não pode opor ao credor as exceções pessoais que competiam ao devedor
+primitivo.
+
+## Por que importa?
+
+| Campo | Valor |
+|---|---|
+| Dispositivo | Art. 302 do Código Civil (Lei 10.406/2002) |
+| Parte | Parte Geral |
+| Livro | — |
+| Título | Da Transmissão das Obrigações |
+| Capítulo | Da Assunção de Dívida |
+| Seção | — |
+| Grupo temático | Obrigações — Modalidades e Transmissão |
+| Natureza | vedação |
+
+> [!tip] Para o Estudo
+> Identifique o tipo de obrigação: dar, fazer, não fazer; divisível × indivisível; solidária × conjunta. A solidariedade não se presume (art. 265).
+
+> [!warning] Atenção — Pegadinha
+> Mora do credor (mora accipiendi) x mora do devedor (mora debendi): efeitos distintos.
+
+## Links Relacionados
+
+← [[Art. 301]] | [[INDEX — Código Civil]] | [[Art. 303]] →

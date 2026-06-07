@@ -1,0 +1,362 @@
+/* Customização do layout */
+.background{	
+	background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+
+.menu-top{
+	font-size: 1rem !important;
+}
+
+
+.navbar-header[data-background-color="blue2"] {
+    box-shadow: -1px 1px 10px rgba(0,0,0,.4) !important;
+    background: rgba(0,0,0,.4) !important;
+    
+}
+
+.text-color-icon{
+	color: #999;
+}
+
+.bg-primary-gradient {
+	background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+}
+
+.img-brasao-topo{
+	width: 42px;
+	height: 42px;
+}
+
+.pagination {
+    font-size: 12px;
+}
+.main-panel {
+   width: calc(100%);
+}
+
+.navbar-header .dropdown-menu {
+  margin-top: 7px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-control:focus {
+    border-color: #14283E;
+}
+
+.form-round {
+  border-radius: 100px !important; 
+}
+
+@media screen and (max-width: 991px){
+    .navbar-header .navbar-nav .dropdown-menu {
+        margin-top:10px; 
+    }
+}
+    	
+.separator-solid {
+    border-top: 1px solid #ebecec;
+    margin: 15px 0; 
+}
+.separator-dashed {
+    border-top: 1px dashed #ebecec;
+    margin: 15px 0; 
+}
+
+.messages-notif-box {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.cursor-link{
+    cursor: pointer;
+}
+
+.main-panel > .container {
+    min-height: calc(100%);
+}
+
+
+/* Animação menu */
+
+.quick_sidebar_open .quick-sidebar {
+    transition: 1.5s;
+}
+
+.quick-sidebar {
+   transition: 1.5s;
+}
+
+/******************* Scroll form avançado ******************/
+  
+.quick-sidebar .quick-wrapper .quick-scroll {
+  height: calc(100vh - 200px);
+}
+
+/****************** Combo pesquisa checkbox******************/
+ .combo-pesquisa-open{
+display: block;
+ }
+
+ .combo-pesquisa-close{
+display: none;
+ }
+ 
+ /********** Checkbox *****************/
+
+.form-check {
+      padding: 5px 5px 5px 2px;
+}
+
+.form-check [type="checkbox"]:not(:checked) + .form-check-sign, .form-check [type="checkbox"]:checked + .form-check-sign, .form-check [type="checkbox"] + .form-check-sign {
+     color: #495057;
+}
+  
+.form-group label, .form-check label {
+      font-weight: 400; 
+}
+
+.form-check [type="checkbox"]:not(:checked) + .form-check-sign:after, .form-check [type="checkbox"]:checked + .form-check-sign:after, .form-check [type="checkbox"] + .form-check-sign:after {
+    color: #1572E8;
+ }
+    
+/* Filtros selecionados */
+.filtros-selecionados{
+	padding-right:15px; 
+	border-right: 1px dashed #ebecec;
+}
+    
+
+/*************** Form avançado ************************/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+        
+        .filtros-selecionados{
+			padding-right: 0px !important; 
+			border-right: 0px !important;
+		}
+		.resumo-filtros-selecionados{
+			display:none;
+		} 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+       .quick-sidebar {
+           /* background-color: red;*/
+            width: 530px !important;
+            right: -530px !important;
+        }
+        
+        .filtros-selecionados{
+			padding-right: 0px !important; 
+			border-right: 0px !important;
+		}
+		.resumo-filtros-selecionados{
+			display:none;
+		} 
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+       .quick-sidebar {
+        /*   background-color: yellow;*/
+           width: 530px !important;
+           right: -530px !important;
+       } 
+       
+       .filtros-selecionados{
+			padding-right: 0px !important; 
+			border-right: 0px !important;
+		}
+		.resumo-filtros-selecionados{
+			display:none;
+		}
+}
+  
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+       .quick-sidebar {
+        /*   background-color: green;*/
+           width: 530px !important;
+           right: -530px !important;
+        } 
+        
+        .filtros-selecionados{
+			padding-right:15px; 
+			border-right: 1px dashed #ebecec;
+		}
+		
+		.resumo-filtros-selecionados{
+			display:block;
+		} 
+
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+         .quick-sidebar {
+          /* background-color: blue;*/
+           width: 530px;
+           right: -530px;
+        }
+        
+        .filtros-selecionados{
+			padding-right:15px; 
+			border-right: 1px dashed #ebecec;
+		} 
+		
+		.resumo-filtros-selecionados{
+			display:block;
+		} 
+		
+}
+
+/* Menu - Top */
+.navbar {
+  display: block;
+}
+
+/* Checkbox customizado */
+.form-check [type="checkbox"]:not(:checked) + .form-check-sign:after, .form-check [type="checkbox"]:checked + .form-check-sign:after, .form-check [type="checkbox"] + .form-check-sign:after {
+  content: "\e64c";
+  display: inline-block;
+  position: absolute;
+  top: -1px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 0.8;
+  color: #1572E8;
+  transition: all .2s;
+  font-family: 'themify';
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #14283E;
+}
+
+@media (max-width: 676px) {
+	.title-topo{
+		display:none;
+	}
+}
+
+
+@media (max-width: 376px) {
+	.label-btn{
+		display:none;
+	}
+}
+
+/* Paginação */
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #ffffff;
+    background-color: #728ba5;
+    border-color:  #728ba5;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #728ba5;
+    border-color: #728ba5;
+}
+
+.pagination > li > a, .pagination > li:first-child > a, .pagination > li:last-child > a, .pagination > li > span, .pagination > li:first-child > span, .pagination > li:last-child > span {
+    border-radius: 100px !important;
+    margin: 0 2px;
+    border-color: #eee;
+}
+
+.pagination > li:last-child > a:hover{
+	color: #ffffff;
+}
+
+.pagination > li:first-child > a:hover{
+	color: #ffffff;
+}
+
+
+/*
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #6a6a6a;
+    background-color: #e9ecef;
+    border-color: 0px;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #cbced1;
+    text-decoration: none;
+    background-color: #7e878f;
+    border-color: 0px;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.pagination > li > a, .pagination > li:first-child > a, .pagination > li:last-child > a, .pagination > li > span, .pagination > li:first-child > span, .pagination > li:last-child > span {
+    border-radius: 100px !important;
+    margin: 0 2px;
+    color: #cbced1;
+    border-color: #ddd;
+}
+.text-white-50 {
+    color: rgba(255,255,255,.5)!important;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: hsla(0,0%,87%,.3);
+    background-color: hsla(0,0%,87%,.3);
+    border: 0px;
+}
+
+*/
+/* Cor da seleção no calendário */
+.bootstrap-datetimepicker-widget table td.active {
+    background-color: #14283E;
+}
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background-color: #52657D;
+}
+
+.mes-resenha{
+	height: 54px; 
+	line-height: 54px; 
+	width: 54px;
+	text-align: center;
+	border-radius: 3px;
+	color: #212529;
+}
+
+.mes-resenha.active{
+	color: #1572E8;
+	background: #eee;
+}
+
+.mes-resenha:hover {
+    color: #1572E8;
+    background: #eee;
+}
+

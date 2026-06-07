@@ -1,0 +1,56 @@
+---
+artigo: "226"
+nomen: "Art. 226"
+parte: "Parte Geral"
+livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
+titulo: "V — Da Prova" if c['titulo'] else ""
+capitulo: ""
+secao: ""
+disciplina: civil
+grupo: "Fatos Jurídicos"
+natureza: "direito"
+tags:
+  - codigo-civil
+  - civil
+  - art226
+  - parte-geral
+  - dos-fatos-juridicos
+  - fatos-juridicos
+data: 2026-05-31
+---
+
+# Art. 226 CC — Art. 226
+
+> [!info] Localização
+> Parte Geral › Livro III — Dos Fatos Jurídicos › Título V — Da Prova
+
+> [!quote] Texto Legal
+> **Art. 226.** Os livros e fichas dos empresários e sociedades provam contra as pessoas a que pertencem, e,
+em seu favor, quando, escriturados sem vício extrínseco ou intrínseco, forem confirmados por outros
+subsídios.
+Parágrafo único. A prova resultante dos livros e fichas não é bastante nos casos em que a lei exige
+escritura pública, ou escrito particular revestido de requisitos especiais, e pode ser ilidida pela
+comprovação da falsidade ou inexatidão dos lançamentos.
+
+## Por que importa?
+
+| Campo | Valor |
+|---|---|
+| Dispositivo | Art. 226 do Código Civil (Lei 10.406/2002) |
+| Parte | Parte Geral |
+| Livro | Dos Fatos Jurídicos |
+| Título | Da Prova |
+| Capítulo | — |
+| Seção | — |
+| Grupo temático | Fatos Jurídicos |
+| Natureza | direito |
+
+> [!tip] Para o Estudo
+> Planos: existência → validade (art. 104) → eficácia. Nulidade (art. 166) é declarada de ofício; anulabilidade (art. 171) depende de provocação.
+
+> [!warning] Atenção — Pegadinha
+> Nulidade: imprescritível e insanável. Anulabilidade: prazo de 4 anos (art. 178) — decadência, não prescrição.
+
+## Links Relacionados
+
+← [[Art. 225]] | [[INDEX — Código Civil]] | [[Art. 227]] →

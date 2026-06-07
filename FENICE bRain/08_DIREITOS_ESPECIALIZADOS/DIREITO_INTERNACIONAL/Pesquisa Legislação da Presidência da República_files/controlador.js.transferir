@@ -1,0 +1,80 @@
+var carregaIndex = 0;
+
+//Carrega a página principal
+function carregaPaginaPrincipal(){
+	
+	$('body').addClass("background");
+	$('wrapper').addClass("login");
+
+	
+	carregaIndex = 1;
+	
+	$.ajax({
+	  method: "POST",
+	  url: "pesquisa/ajax/formulario_pesquisa_home.php",
+	  data: {
+	  }
+	})
+    .done(function( conteudo ) {
+	   $("#index").html(conteudo);   
+    });
+}
+
+//Função chamada na tela inicial/página principal para carregar a página secundária com os resultados
+function carregaPaginaSecundaria(){
+		
+	$('body').removeClass("background");
+	$('.wrapper').removeClass("login");
+	$('body').attr("data-background-color","bg2" );
+	
+	
+	carregaIndex = 0;
+	
+	var array_tipo_macro_ato = [];
+	array_tipo_macro_ato = obterArrayCheckboxes('tipo_macro_ato[]');
+	array_conteudo_tipo_macro_ato = obterArrayConteudoCheckboxes('tipo_macro_ato[]');
+
+	$.ajax({
+	  method: "POST",
+	  url: "pesquisa/ajax/formulario_pesquisa_default.php",
+	  data: {
+		    num_ato: $("#num_ato").val()
+		  , ano_ato: $("#ano_ato").val()
+		  , termo:  $("#termo").val()
+		  , tipo_macro_ato: array_tipo_macro_ato.join(',')
+		  , data_resenha: $("#data_resenha").val()
+		  , num_mes_resenha: $("#num_mes_resenha").val()
+		  , num_ano_resenha: $("#num_ano_resenha").val()
+	  }
+	})
+    .done(function( conteudo ) {
+    	$("#index").html(conteudo);   
+    });
+}
+
+//Pesquisa a legislação
+function pesquisaLegislacao(pagina, posicao){
+	
+	if(!posicao){
+		posicao = 0;
+	}
+	
+	if(validaPeriodoData($("#dat_inicio").val(), $("#dat_termino").val())){
+		
+		$('.close-quick-sidebar').click();
+		
+		if(carregaIndex == 1){
+			//Função chamada na tela inicial/página principal para carregar a página secundária com os resultados
+			carregaPaginaSecundaria(); 
+		}else{
+			//Função chamada só para recarregar os resultados/paginação
+			carregaResultado(pagina, posicao);
+		}
+	}else{
+		
+	}
+	
+	
+}
+
+

@@ -51,6 +51,96 @@ projeto: Fenice bRain
 
 ---
 
+## 2026-06-06 — Rotina de Busca Automática Integrada ✅
+
+### O que foi feito
+- ✅ Criado `tags-index.md` — Índice centralizado de tags (4.500+ artigos)
+- ✅ Criado `direito-index.md` — Mapa de conhecimento jurídico integrado
+- ✅ Integrado CDC ao graph do Obsidian
+- ✅ Configurado sistema de descoberta por tema
+- ✅ Mapeado relacionamentos entre leis (CC ↔ CDC ↔ CPC ↔ CF)
+- ✅ Documentado percursos de aprendizado
+
+### Sistema de Busca Agora Suporta
+
+**Por Lei:**
+```
+#lei-8078 → 119 artigos CDC
+#cc → 2.036 artigos Civil
+#cpc → 1.072 artigos Processo Civil
+#cf88 → 250 artigos Constituição
+```
+
+**Por Tema:**
+```
+#credito-ao-consumidor → Arts. 49-60 CDC
+#compra-e-venda → Arts. 18-27 CDC + arts CC
+#responsabilidade-civil → Arts. 12-17 CDC + 186-189 CC
+#acao-coletiva → Arts. 80-105 CDC + 941-965 CPC
+```
+
+**Integrado:**
+```
+#cdc #responsabilidade-civil → Encontra arts. sobre responsabilidade no CDC
+#cc #cpc → Encontra relacionamentos entre códigos
+#direitos-basicos → Todos os direitos básicos (CF 5, CC 4-6, CDC 4-6)
+```
+
+### Índices Criados
+
+1. **`_sistema/tags-index.md`** (3.8 KB)
+   - Referência centralizada de todas as tags
+   - Como buscar por lei, tema, tipo, aplicação
+   - Cobertura atual: 4.500+ artigos + 1.668 precedentes
+   - Instruções de reindexação
+
+2. **`_sistema/direito-index.md`** (6.2 KB)
+   - Mapa hierárquico de toda estrutura jurídica
+   - Relacionamentos entre leis
+   - Temas críticos com links diretos
+   - Percursos de aprendizado por perfil
+   - Estatísticas de cobertura
+
+### Cobertura Total
+
+| Lei | Artigos | Tags | Jurisprudência |
+|---|---|---|---|
+| CF/88 | 250 | ✅ | ✅ STF (736) |
+| CC | 2.036 | ✅ | 🟡 Parcial |
+| CPC | 1.072 | ✅ | 🟡 Parcial |
+| CDC | 119 | ✅ | ⬜ Pendente |
+| CP | ~400 | 🟡 50% | 🟡 Parcial |
+| LINDB | 30 | ✅ | ⬜ |
+| STF Súmulas | 736 | ✅ | ✅ |
+| STJ Súmulas | 670 | 📑 Índice | ✅ SCON |
+| CJF Enunciados | 262 | ✅ | ✅ |
+
+**Total: 4.500+ artigos estruturados**
+
+### Como Usar
+
+1. **Busca por tag:** `Ctrl+K` → Digite `#lei-8078` para encontrar todos CDC
+2. **Busca por tema:** `Ctrl+Shift+I` → Digite `#credito-ao-consumidor`
+3. **Graph visual:** `Obsidian Graph` → Veja relacionamentos visuais
+4. **Índices rápidos:** Abra `direito-index.md` para hierarquia completa
+5. **Tags referência:** Abra `tags-index.md` para documentação
+
+### Próximas Integrações
+
+- [ ] STJ Súmulas (670) — Atualmente bloqueadas por Cloudflare
+- [ ] Jurisprudência expandida (STJ/TJ) — Por artigo
+- [ ] Lei de Defesa da Concorrência — Usando padrão CDC
+- [ ] Publicação em Notion — Sincronizar índices com equipe
+
+### Notas Técnicas
+
+- **Reindexação:** Automática via scripts Python
+- **Validação:** Lint de tags durante regeneração
+- **Manutenção:** Atualização mensal de `tags-index` e `direito-index`
+- **Relacionamentos:** Mapeados em `direito-index.md` (sem hardlink, apenas documentação)
+
+---
+
 ## Histórico de Projetos Anteriores (Referência)
 
 ### 2025 — Código Civil, Constituição, CPC

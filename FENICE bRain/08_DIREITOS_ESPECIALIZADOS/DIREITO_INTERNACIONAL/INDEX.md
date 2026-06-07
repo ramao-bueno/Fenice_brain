@@ -36,8 +36,8 @@ Graph + vetor de negócio), não por regex fixo.
 | Decreto 4.311/2002 | Convenção de Nova York — Sentenças Arbitrais Estrangeiras | ✅ [[Tratados/Convencao-Nova-York-Sentencas-Arbitrais/INDEX\|5/16 atomizados]] — **espelha L9307 e liga ao projeto STJ HSE** |
 | Decreto 4.388/2002 | Estatuto de Roma (Tribunal Penal Internacional) | ✅ [[Tratados/Estatuto-de-Roma-TPI/INDEX\|4/128 atomizados]] — bloco fundacional |
 | Decreto 7.030/2009 | Convenção de Viena sobre Direito dos Tratados | ✅ [[Tratados/Convencao-Viena-Direito-dos-Tratados/INDEX\|4/85 atomizados]] — **hub meta-normativo dos demais tratados** |
-| Decreto 8.327/2014 | (a confirmar conteúdo) | 🔲 pendente |
-| D0350 | (a confirmar conteúdo) | 🔲 pendente |
+| Decreto 8.327/2014 | CISG — Convenção de Viena sobre Compra e Venda Internacional | ✅ [[Tratados/Convencao-Viena-Compra-Venda-Internacional-CISG/INDEX\|4/101 atomizados]] — **espelho metodológico da CVDT** |
+| Decreto 350/1991 (D0350) | Tratado de Assunção — constituição do MERCOSUL | ✅ [[Tratados/Tratado-de-Assuncao-Mercosul/INDEX\|2/24 atomizados]] |
 
 > Resultado da atomização vai para `Tratados/<Nome-do-Tratado>/` — uma nota
 > atômica por artigo, linkando de volta à lei nacional correlata acima e,

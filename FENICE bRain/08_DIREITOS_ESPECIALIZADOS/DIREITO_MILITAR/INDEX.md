@@ -17,18 +17,18 @@ created: 2026-06-02
 
 ### **Código Penal Militar (DL 1.001/1969)**
 - 210 artigos, Crimes contra segurança, Hierarquia
-- [[14_DIREITO_MILITAR/Codigo-Penal-Militar-INDEX|CPM — Detalhes]]
+- [[08_DIREITOS_ESPECIALIZADOS/DIREITO_MILITAR/Codigo-Penal-Militar-INDEX|CPM — Detalhes]]
 
 ### **Código Processual Penal Militar (DL 1.002/1969)**
 - 165 artigos, Inquérito, Processo militar
-- [[14_DIREITO_MILITAR/Codigo-Processual-Penal-Militar-INDEX|CPPM — Detalhes]]
+- [[08_DIREITOS_ESPECIALIZADOS/DIREITO_MILITAR/Codigo-Processual-Penal-Militar-INDEX|CPPM — Detalhes]]
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 144]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 144]]
 
 ---
 

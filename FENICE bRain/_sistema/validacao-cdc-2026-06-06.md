@@ -18,7 +18,7 @@ status: aprovado
 ## Estrutura Final
 
 ```
-08_CÓDIGO_CONSUMIDOR/
+02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR/
 ├── Direitos-do-Consumidor/          (59 artigos + INDEX)
 ├── Infrações-Penais/                (19 artigos + INDEX)
 ├── Processo-Administrativo/         (27 artigos + INDEX)

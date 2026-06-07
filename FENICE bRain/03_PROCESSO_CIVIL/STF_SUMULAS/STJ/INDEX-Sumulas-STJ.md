@@ -32,7 +32,7 @@ created: 2026-06-04
 
 Crie arquivos no formato:
 ```
-FENICE bRain/05_STF_SUMULAS/STJ/Sumula-STJ-{NNNN}.md
+FENICE bRain/03_PROCESSO_CIVIL/STF_SUMULAS/STJ/Sumula-STJ-{NNNN}.md
 ```
 
 Com frontmatter:

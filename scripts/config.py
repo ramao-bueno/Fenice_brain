@@ -4,7 +4,7 @@ from pathlib import Path
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
 PDF_PATH = r"C:\Users\oicon\OneDrive\Allah - Islamismo\Univille SFS\Stand Alone backup\BIBLIOTECA JURÍDICA\legislação\Código de Processo Civil – Lei nº 13.105-15.pdf"
-OUTPUT_BASE = PROJECT_ROOT / "FENICE bRain" / "05_CÓDIGO_PROCESSO_CIVIL" / "Artigos"
+OUTPUT_BASE = PROJECT_ROOT / "FENICE bRain" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
 
 # Mapeamento de Livros
 LIVRO_MAPEAMENTO = {

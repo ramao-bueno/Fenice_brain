@@ -145,7 +145,7 @@ Penas complementares além prisão/multa.
 - **Retornar ao Índice Master:** [[CDC-INDEX]]
 - **Livro Anterior:** [[Direitos-do-Consumidor/INDEX-LIVRO-I]] (Direitos básicos)
 - **Próximo Livro:** [[Processo-Administrativo/INDEX-LIVRO-III]] (Ações coletivas)
-- **Correlato:** [[03_CÓDIGO_PENAL/CP-INDEX]] (Crimes gerais)
+- **Correlato:** [[04_DIREITO_PENAL/CÓDIGO_PENAL/CP-INDEX]] (Crimes gerais)
 
 ---
 

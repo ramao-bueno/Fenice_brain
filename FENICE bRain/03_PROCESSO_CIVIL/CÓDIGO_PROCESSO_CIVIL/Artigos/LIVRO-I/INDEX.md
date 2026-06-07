@@ -50,9 +50,9 @@ Estes artigos estabelecem o poder do Estado e qual juiz é competente para cada 
 
 ## 🔗 NAVEGAÇÃO
 
-**Voltar:** [[05_CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
+**Voltar:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
 
-**Próximo Livro:** [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II/INDEX|Livro II — Processo Conhecimento]]
+**Próximo Livro:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II/INDEX|Livro II — Processo Conhecimento]]
 
 ---
 

@@ -26,14 +26,14 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[15_DIREITO_ELEITORAL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[08_DIREITOS_ESPECIALIZADOS/DIREITO_ELEITORAL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Arts. 14-17 (direitos políticos)]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Arts. 14-17 (direitos políticos)]]
 
 ---
 

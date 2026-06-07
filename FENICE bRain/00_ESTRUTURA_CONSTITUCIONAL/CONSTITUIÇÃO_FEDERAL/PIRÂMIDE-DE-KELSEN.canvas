@@ -17,7 +17,7 @@
       "y": -570,
       "width": 480,
       "height": 100,
-      "file": "FENICE bRain/00_CONSTITUIÇÃO_FEDERAL/INDEX.md",
+      "file": "FENICE bRain/00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX.md",
       "color": "3"
     },
     {
@@ -77,7 +77,7 @@
       "y": -50,
       "width": 200,
       "height": 80,
-      "file": "FENICE bRain/02_DIREITO_CIVIL/Artigos/LIVRO-I/INDEX.md",
+      "file": "FENICE bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I/INDEX.md",
       "color": "4"
     },
     {
@@ -87,7 +87,7 @@
       "y": -50,
       "width": 200,
       "height": 80,
-      "file": "FENICE bRain/03_CÓDIGO_PENAL/Crimes/Art. 121 — Homicídio simples.md",
+      "file": "FENICE bRain/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes/Art. 121 — Homicídio simples.md",
       "color": "4"
     },
     {
@@ -217,7 +217,7 @@
       "y": 470,
       "width": 260,
       "height": 100,
-      "file": "FENICE bRain/00_NAVIGATOR.md",
+      "file": "FENICE bRain/HELPERS/00_NAVIGATOR.md",
       "color": "6"
     },
     {

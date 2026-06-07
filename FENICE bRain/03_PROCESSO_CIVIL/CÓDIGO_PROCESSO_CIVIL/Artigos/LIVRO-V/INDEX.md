@@ -35,9 +35,9 @@ created: 2026-06-03
 
 ## 🔗 NAVEGAÇÃO
 
-**Voltar:** [[05_CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
+**Voltar:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
 
-**Livro Anterior:** [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III/INDEX|Livro III — Processo Execução]]
+**Livro Anterior:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III/INDEX|Livro III — Processo Execução]]
 
 ---
 

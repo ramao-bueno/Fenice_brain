@@ -29,15 +29,15 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[06_DIREITO_TRABALHO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[05_DIREITO_LABORAL/DIREITO_TRABALHO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 7º (direitos)]]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 7º (direitos)]]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes]]
 
 ---
 

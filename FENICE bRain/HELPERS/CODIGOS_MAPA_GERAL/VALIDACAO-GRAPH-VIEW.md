@@ -29,9 +29,9 @@ created: 2026-06-02
 5. Confirmar **ausência de nós soltos** flutuando sozinhos
 
 ### 5. Testes Específicos
-- Clicar em `[[02_DIREITO_CIVIL/INDEX|CC INDEX]]` → deve destacar todos os Livros e Títulos
+- Clicar em `[[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX|CC INDEX]]` → deve destacar todos os Livros e Títulos
 - Clicar em um Título (ex: "Da Posse") → deve conectar a seu Livro pai
-- Clicar em `[[02_DIREITO_CIVIL/INDEX-MASTER-DIREITO-CIVIL]]` → deve mostrar toda estrutura CC
+- Clicar em `[[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX-MASTER-DIREITO-CIVIL]]` → deve mostrar toda estrutura CC
 
 ---
 

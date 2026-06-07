@@ -25,7 +25,7 @@ Projeto de estruturação do Código do Consumidor no padrão Fenice bRain concl
 ### 4 Livros + 119 Artigos
 
 ```
-08_CÓDIGO_CONSUMIDOR/
+02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR/
 ├── Direitos-do-Consumidor/           [59 artigos — Arts. 1-59]
 │   ├── Art. 1 CDC — O presente código estabelece...
 │   ├── Art. 2 CDC — Consumidor é toda pessoa...

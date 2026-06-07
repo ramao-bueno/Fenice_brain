@@ -153,7 +153,7 @@ Quem pode propor ação coletiva consumidor?
 - **Retornar ao Índice Master:** [[CDC-INDEX]]
 - **Livro Anterior:** [[Infrações-Penais/INDEX-LIVRO-II]] (Crimes consumeristas)
 - **Próximo Livro:** [[Disposições-Gerais/INDEX-LIVRO-IV]] (Disposições finais)
-- **Correlato:** [[05_CÓDIGO_PROCESSO_CIVIL/CPC-INDEX]] (Processo civil geral)
+- **Correlato:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/CPC-INDEX]] (Processo civil geral)
 
 ---
 

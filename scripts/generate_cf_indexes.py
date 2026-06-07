@@ -13,7 +13,7 @@ from datetime import datetime
 from config_cf import OUTPUT_BASE, TITULO_MAPEAMENTO, LEI_NOME
 
 PROJECT_ROOT = Path(__file__).parent.parent
-CF_ROOT = PROJECT_ROOT / "FENICE bRain" / "00_CONSTITUIÇÃO_FEDERAL"
+CF_ROOT = PROJECT_ROOT / "FENICE bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL"
 
 PLANALTO_ANCORA = {
     "TITULO-I":    "#titulo1",

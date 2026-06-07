@@ -37,11 +37,11 @@ created: 2026-06-03
 
 ## 🔗 NAVEGAÇÃO
 
-**Voltar:** [[05_CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
+**Voltar:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
 
 **Livros Relacionados:**
-- Anterior: [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II/INDEX|Livro II — Processo Conhecimento]]
-- Próximo: [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V/INDEX|Livro V — Recursos]]
+- Anterior: [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II/INDEX|Livro II — Processo Conhecimento]]
+- Próximo: [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V/INDEX|Livro V — Recursos]]
 
 ---
 

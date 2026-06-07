@@ -28,8 +28,8 @@ Criar INDEX.md em **todas as pastas orphanage** da estrutura Fenice bRain para *
 **57 INDEX files criados** em cascata:
 
 #### Raiz
-- `02_DIREITO_CIVIL/INDEX.md` ✅
-- `02_DIREITO_CIVIL/INDEX-MASTER-DIREITO-CIVIL.md` ✅
+- `02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX.md` ✅
+- `02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX-MASTER-DIREITO-CIVIL.md` ✅
 
 #### Livro-I_Parte-Geral
 - `Codigo Civil/INDEX.md` ✅
@@ -117,7 +117,7 @@ created: 2026-06-02
 [Conteúdo mínimo]
 
 ## 🔗 Voltar
-- [[02_DIREITO_CIVIL/INDEX|CC INDEX]]
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX|CC INDEX]]
 ```
 
 **Benefício**: Cada nó aponta de volta ao índice pai, criando **relações bidirecionais** no grafo Obsidian.

@@ -29,15 +29,15 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[08_DIREITO_TRÂNSITO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[08_DIREITOS_ESPECIALIZADOS/DIREITO_TRANSITO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 144]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 144]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes]]
 
 ---
 

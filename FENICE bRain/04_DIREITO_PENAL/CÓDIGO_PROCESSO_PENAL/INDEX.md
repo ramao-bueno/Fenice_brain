@@ -29,15 +29,15 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[04_CÓDIGO_PROCESSO_PENAL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **Correlato:** [[03_CÓDIGO_PENAL/INDEX|CP]] | [[05_CÓDIGO_PROCESSO_CIVIL/INDEX|CPC]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes]]
+- **Correlato:** [[04_DIREITO_PENAL/CÓDIGO_PENAL/INDEX|CP]] | [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/INDEX|CPC]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes]]
 
 ---
 

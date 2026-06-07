@@ -45,11 +45,11 @@ created: 2026-06-03
 
 ## 🔗 NAVEGAÇÃO
 
-**Voltar:** [[05_CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
+**Voltar:** [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/INDEX|CPC — Home]]
 
 **Livros Relacionados:** 
-- Anterior: [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I/INDEX|Livro I — Normas Processuais]]
-- Próximo: [[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III/INDEX|Livro III — Processo Execução]]
+- Anterior: [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I/INDEX|Livro I — Normas Processuais]]
+- Próximo: [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III/INDEX|Livro III — Processo Execução]]
 
 ---
 

@@ -13,4 +13,4 @@ Análise profunda de artigos essenciais com jurisprudência consolidada.
 
 ## 🔗 Voltar
 
-- [[02_DIREITO_CIVIL/INDEX|CC INDEX]]
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX|CC INDEX]]

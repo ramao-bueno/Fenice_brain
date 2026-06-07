@@ -30,4 +30,4 @@ created: 2026-06-02
 
 ## 🔗 Voltar
 
-- [[02_DIREITO_CIVIL/INDEX|CC INDEX Principal]]
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX|CC INDEX Principal]]

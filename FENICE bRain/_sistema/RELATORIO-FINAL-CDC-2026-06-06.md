@@ -72,7 +72,7 @@ status: ✅ COMPLETO
 ## Arquitetura Final
 
 ```
-08_CÓDIGO_CONSUMIDOR/
+02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR/
 ├── Direitos-do-Consumidor/          [60 arquivos]
 │   ├── Art. 1 — O presente código...md
 │   ├── Art. 2 — Consumidor é toda pessoa...md

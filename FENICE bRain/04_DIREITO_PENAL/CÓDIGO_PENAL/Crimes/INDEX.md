@@ -48,4 +48,4 @@ Cada artigo tem:
 
 ## 🔗 Voltar
 
-- [[03_CÓDIGO_PENAL/INDEX|CP INDEX]]
+- [[04_DIREITO_PENAL/CÓDIGO_PENAL/INDEX|CP INDEX]]

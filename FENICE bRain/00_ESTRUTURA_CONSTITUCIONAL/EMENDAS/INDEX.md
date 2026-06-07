@@ -15,7 +15,7 @@ created: 2026-06-02
 
 ## 📂 CONTEÚDO
 
-- [[00_CONSTITUIÇÃO_FEDERAL/EMENDAS/EC-INDEX|EC-INDEX]] — Catálogo completo 127 emendas
+- [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/EMENDAS/EC-INDEX|EC-INDEX]] — Catálogo completo 127 emendas
   - Cronologia
   - Impactos
   - Correlações
@@ -25,7 +25,7 @@ created: 2026-06-02
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF-INDEX]]
+- **CF:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF-INDEX]]
 
 ---
 

@@ -40,33 +40,33 @@ status: operacional
 ## 📚 NAVEGAÇÃO RÁPIDA
 
 ### 🔍 Por Livro
-- **[[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I|Livro I — Normas Processuais]]** (157 artigos)
-- **[[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II|Livro II — Processo Conhecimento]]** (336 artigos)
-- **[[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III|Livro III — Processo Execução]]** (185 artigos)
-- **[[05_CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V|Livro V — Recursos]]** (5 artigos)
+- **[[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I|Livro I — Normas Processuais]]** (157 artigos)
+- **[[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II|Livro II — Processo Conhecimento]]** (336 artigos)
+- **[[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III|Livro III — Processo Execução]]** (185 artigos)
+- **[[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V|Livro V — Recursos]]** (5 artigos)
 
 ### 🧠 Conceitos Fundamentais
-- [[05_CÓDIGO_PROCESSO_CIVIL/Conceitos/Jurisdição|Jurisdição]]
-- [[05_CÓDIGO_PROCESSO_CIVIL/Conceitos/Competência|Competência]]
-- [[05_CÓDIGO_PROCESSO_CIVIL/Conceitos/Capacidade Processual|Capacidade Processual]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Conceitos/Jurisdição|Jurisdição]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Conceitos/Competência|Competência]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Conceitos/Capacidade Processual|Capacidade Processual]]
 
 ### 📋 Guias Práticos
-- [[05_CÓDIGO_PROCESSO_CIVIL/Procedimentos/Petição Inicial — Checklist|Petição Inicial]]
-- [[05_CÓDIGO_PROCESSO_CIVIL/Procedimentos/Defesa — Guia Prático|Defesa]]
-- [[05_CÓDIGO_PROCESSO_CIVIL/Procedimentos/Produção Prova|Produção de Prova]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Procedimentos/Petição Inicial — Checklist|Petição Inicial]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Procedimentos/Defesa — Guia Prático|Defesa]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Procedimentos/Produção Prova|Produção de Prova]]
 
 ### ⚖️ Jurisprudência
-- [[05_CÓDIGO_PROCESSO_CIVIL/Jurisprudência/STF-Precedentes-CPC|STF — Precedentes]]
-- [[05_CÓDIGO_PROCESSO_CIVIL/Jurisprudência/STJ-Precedentes-CPC|STJ — Jurisprudência]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Jurisprudência/STF-Precedentes-CPC|STF — Precedentes]]
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Jurisprudência/STJ-Precedentes-CPC|STJ — Jurisprudência]]
 
 ---
 
 ## 🔗 NAVEGAÇÃO GLOBAL
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain — Home]]
-- **Irmão:** [[03_CÓDIGO_PENAL/INDEX|Código Penal]]
-- **Correlato:** [[02_DIREITO_CIVIL/INDEX|Código Civil]] | [[04_CÓDIGO_PROCESSO_PENAL/INDEX|CPP]]
-- **Fundamento:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
+- **Irmão:** [[04_DIREITO_PENAL/CÓDIGO_PENAL/INDEX|Código Penal]]
+- **Correlato:** [[02_DIREITO_PRIVADO/DIREITO_CIVIL/INDEX|Código Civil]] | [[04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL/INDEX|CPP]]
+- **Fundamento:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
 
 ---
 

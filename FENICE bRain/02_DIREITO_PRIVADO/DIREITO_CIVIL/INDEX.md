@@ -22,14 +22,14 @@ created: 2026-06-02
 ## 🏛️ ESTRUTURA (5 LIVROS)
 
 ### **LIVRO I — PARTE GERAL (Arts. 1-232)**
-- **[[02_DIREITO_CIVIL/Artigos-Criticos/Art. 1 — Capacidade civil|Art. 1 — Capacidade]]**
-- [[02_DIREITO_CIVIL/Livro-I_Parte-Geral|Detalhes estrutura]]
+- **[[02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos-Criticos/Art. 1 — Capacidade civil|Art. 1 — Capacidade]]**
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/Livro-I_Parte-Geral|Detalhes estrutura]]
 
 ### **LIVRO II — DIREITO DE EMPRESA (Arts. 966-1.195)**
 - Empresário, Sociedade, Estabelecimento
 
 ### **LIVRO III — DIREITO DAS COISAS (Arts. 1.196-1.510)**
-- **[[02_DIREITO_CIVIL/Artigos-Criticos/Art. 1228 — Propriedade|Art. 1.228 — Propriedade]]**
+- **[[02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos-Criticos/Art. 1228 — Propriedade|Art. 1.228 — Propriedade]]**
 - Posse, Direitos Reais, Propriedade
 
 ### **LIVRO IV — DIREITO DE FAMÍLIA (Arts. 1.511-1.710)**
@@ -42,16 +42,16 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS ESTRUTURADAS
 
-- [[02_DIREITO_CIVIL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave estruturados
-- [[02_DIREITO_CIVIL/Livro-I_Parte-Geral|Livro-I_Parte-Geral/]] — Estrutura Livro I
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave estruturados
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/Livro-I_Parte-Geral|Livro-I_Parte-Geral/]] — Estrutura Livro I
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes CC]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes CC]]
 
 ---
 

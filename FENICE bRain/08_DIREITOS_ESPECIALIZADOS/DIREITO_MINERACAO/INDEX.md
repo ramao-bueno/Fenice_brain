@@ -26,14 +26,14 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[16_DIREITO_MINERACAO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[08_DIREITOS_ESPECIALIZADOS/DIREITO_MINERACAO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 176 (propriedade mineral)]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Art. 176 (propriedade mineral)]]
 
 ---
 

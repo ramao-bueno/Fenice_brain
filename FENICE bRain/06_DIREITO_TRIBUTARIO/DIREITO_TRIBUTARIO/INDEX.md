@@ -29,15 +29,15 @@ created: 2026-06-02
 
 ## 📂 SUBPASTAS
 
-- [[07_DIREITO_TRIBUTÁRIO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
+- [[06_DIREITO_TRIBUTARIO/DIREITO_TRIBUTARIO/Artigos-Criticos|Artigos-Criticos/]] — Artigos-chave
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF Arts. 145-162]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF Arts. 145-162]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STJ-JURISPRUDENCIA-INDEX|STJ Precedentes]]
 
 ---
 

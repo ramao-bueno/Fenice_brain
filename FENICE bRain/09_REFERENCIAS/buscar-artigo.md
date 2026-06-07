@@ -12,22 +12,22 @@ tR = "";
 const CODIGOS = {
   "CF/88 — Constituicao Federal": {
     tag: "cf88",
-    pasta: "00_CONSTITUIÇÃO_FEDERAL/Artigos",
+    pasta: "00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/Artigos",
     label: "CF/88"
   },
   "Codigo Civil (CC)": {
     tag: "cc",
-    pasta: "02_DIREITO_CIVIL/Artigos",
+    pasta: "02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos",
     label: "CC"
   },
   "Codigo Penal (CP)": {
     tag: "direito-penal",
-    pasta: "03_CÓDIGO_PENAL",
+    pasta: "04_DIREITO_PENAL/CÓDIGO_PENAL",
     label: "CP"
   },
   "CPC — Processo Civil": {
     tag: "cpc",
-    pasta: "01_CÓDIGO_PROCESSO_CIVIL",
+    pasta: "03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL",
     label: "CPC"
   },
 };

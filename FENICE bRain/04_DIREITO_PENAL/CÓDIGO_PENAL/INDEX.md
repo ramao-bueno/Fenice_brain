@@ -26,26 +26,26 @@ created: 2026-06-02
 - Penas, Prescrição, Reabilitação
 
 ### **PARTE ESPECIAL (Arts. 121-360)**
-- **[[03_CÓDIGO_PENAL/Crimes|Crimes/]]** — 80+ artigos estruturados
-  - [[03_CÓDIGO_PENAL/Crimes/Art. 121 — Homicídio simples|Art. 121 — Homicídio]]
-  - [[03_CÓDIGO_PENAL/Crimes/Art. 157 — Roubo simples|Art. 157 — Roubo]]
-  - [[03_CÓDIGO_PENAL/Crimes/Art. 213 — Estupro|Art. 213 — Estupro]]
+- **[[04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes|Crimes/]]** — 80+ artigos estruturados
+  - [[04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes/Art. 121 — Homicídio simples|Art. 121 — Homicídio]]
+  - [[04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes/Art. 157 — Roubo simples|Art. 157 — Roubo]]
+  - [[04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes/Art. 213 — Estupro|Art. 213 — Estupro]]
 
 ---
 
 ## 📂 SUBPASTAS ESTRUTURADAS
 
-- [[03_CÓDIGO_PENAL/Crimes|Crimes/]] — 80+ artigos com frontmatter + dosimetria
-- [[03_CÓDIGO_PENAL/Dosimetria|Dosimetria/]] — Fases dosimetria
+- [[04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes|Crimes/]] — 80+ artigos com frontmatter + dosimetria
+- [[04_DIREITO_PENAL/CÓDIGO_PENAL/Dosimetria|Dosimetria/]] — Fases dosimetria
 
 ---
 
 ## 🔗 NAVEGAÇÃO
 
 - **Voltar:** [[FENICE bRain/INDEX|FENICE bRain INDEX]]
-- **CF correlata:** [[00_CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
-- **Processo Penal:** [[04_CÓDIGO_PROCESSO_PENAL/INDEX|CPP]]
-- **Jurisprudência:** [[05_JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes CP]]
+- **CF correlata:** [[00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX|CF/88]]
+- **Processo Penal:** [[04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL/INDEX|CPP]]
+- **Jurisprudência:** [[03_PROCESSO_CIVIL/JURISPRUDENCIA/STF-PRECEDENTES-INDEX|STF Precedentes CP]]
 
 ---
 

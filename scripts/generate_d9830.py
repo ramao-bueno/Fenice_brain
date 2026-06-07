@@ -9,9 +9,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 from pathlib import Path
 from datetime import datetime
 
-HTML_PATH    = Path(r'C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech\Fenice brain\FENICE bRain\02_DIREITO_CIVIL\D9830.html')
+HTML_PATH    = Path(r'C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech\Fenice brain\FENICE bRain\02_DIREITO_PRIVADO\DIREITO_CIVIL\D9830.html')
 PROJECT_ROOT = Path(__file__).parent.parent
-OUTPUT_BASE  = PROJECT_ROOT / 'FENICE bRain' / '02_DIREITO_CIVIL' / 'Artigos' / 'D9830'
+OUTPUT_BASE  = PROJECT_ROOT / 'FENICE bRain' / '02_DIREITO_PRIVADO' / 'DIREITO_CIVIL' / 'Artigos' / 'D9830'
 
 LEI_NOME     = 'Decreto 9.830/2019 (Regulamenta LINDB)'
 PLANALTO_URL = 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9830.htm'

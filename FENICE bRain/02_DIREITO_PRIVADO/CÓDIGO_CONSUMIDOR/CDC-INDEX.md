@@ -225,10 +225,10 @@ Ranking de impacto jurídico + prática.
 - **Crimes:** Art. 60-78
 
 ### Correlatos no Vault
-- [[03_CÓDIGO_PENAL/CP-INDEX]] — Crimes gerais
-- [[02_DIREITO_CIVIL/CC-INDEX]] — Responsabilidade civil
-- [[05_CÓDIGO_PROCESSO_CIVIL/CPC-INDEX]] — Processo
-- [[06_DIREITO_TRABALHO/CLT-INDEX]] — Direito trabalho (consumidor serviço)
+- [[04_DIREITO_PENAL/CÓDIGO_PENAL/CP-INDEX]] — Crimes gerais
+- [[02_DIREITO_PRIVADO/DIREITO_CIVIL/CC-INDEX]] — Responsabilidade civil
+- [[03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/CPC-INDEX]] — Processo
+- [[05_DIREITO_LABORAL/DIREITO_TRABALHO/CLT-INDEX]] — Direito trabalho (consumidor serviço)
 
 ---
 

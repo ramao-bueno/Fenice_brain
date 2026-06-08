@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Servidor simples para Dashboard STF Jurisprudência
 Roda em http://localhost:8000 e fornece dados via JSON
@@ -109,7 +110,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
-            self.wfile.write(b'Não encontrado')
+            self.wfile.write('Não encontrado'.encode('utf-8'))
 
     def serve_dashboard(self):
         """Serve o arquivo HTML do dashboard"""
@@ -127,7 +128,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
-            self.wfile.write(b'Dashboard não encontrado')
+            self.wfile.write('Dashboard não encontrado'.encode('utf-8'))
 
     def get_stats(self):
         """Obtém estatísticas gerais do STF"""

@@ -4,50 +4,50 @@ const { Plugin, SuggestModal, Modal, Notice } = require('obsidian');
 
 const CODIGOS = [
   // ━━━ DIREITO CONSTITUCIONAL ━━━
-  { label: 'CF/88 — Constituição Federal',  tag: 'cf88',          pasta: '00_CONSTITUIÇÃO_FEDERAL/Artigos', codigo: 'CF/88' },
+  { label: 'CF/88 — Constituição Federal',  tag: 'cf88',          pasta: '00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/Artigos', codigo: 'CF/88' },
 
   // ━━━ DIREITO CIVIL ━━━
-  { label: 'Código Civil (CC)',              tag: 'cc',            pasta: '02_DIREITO_CIVIL/Artigos',        codigo: 'CC'   },
-  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pasta: '02_DIREITO_CIVIL/Artigos/LINDB',  codigo: 'LINDB'},
-  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: '02_DIREITO_CIVIL/Artigos/D9830',  codigo: 'D9830'},
+  { label: 'Código Civil (CC)',              tag: 'cc',            pastas: ['02_DIREITO_PRIVADO/DIREITO_CIVIL/Livro-I_Parte-Geral/Codigo Civil/Artigos', '02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406'], codigo: 'CC'   },
+  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pasta: '02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB',  codigo: 'LINDB'},
+  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: '02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/D9830',  codigo: 'D9830'},
 
   // ━━━ DIREITO PENAL ━━━
-  { label: 'Código Penal (CP)',              tag: 'direito-penal', pasta: '03_CÓDIGO_PENAL',                 codigo: 'CP'   },
+  { label: 'Código Penal (CP)',              tag: 'direito-penal', pastas: ['04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes', '04_DIREITO_PENAL/CÓDIGO_PENAL/Artigos/DEL2848'], codigo: 'CP'   },
 
   // ━━━ DIREITO PROCESSUAL ━━━
-  { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pasta: '05_CÓDIGO_PROCESSO_CIVIL',        codigo: 'CPC'  },
-  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: '04_CÓDIGO_PROCESSO_PENAL',        codigo: 'CPP'  },
+  { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pasta: '03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',        codigo: 'CPC'  },
+  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: '04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL', codigo: 'CPP', avisoNucleoAusente: true },
 
   // ━━━ DIREITO CONSUMERISTA & COMERCIAL ━━━
-  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pasta: '08_CÓDIGO_CONSUMIDOR',            codigo: 'CDC'  },
+  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pasta: '02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR',            codigo: 'CDC'  },
 
   // ━━━ DIREITO ADMINISTRATIVO ━━━
-  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: '07_DIREITO_ADMINISTRATIVO',       codigo: 'L8429'},
-  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: '07_DIREITO_ADMINISTRATIVO',       codigo: 'L12846'},
-  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: '07_DIREITO_ADMINISTRATIVO',       codigo: 'L12527'},
+  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: '07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L8429',       codigo: 'L8429'},
+  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: '07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12846',       codigo: 'L12846'},
+  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: '07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12527',       codigo: 'L12527'},
 
   // ━━━ DIREITO PREVIDENCIÁRIO ━━━
-  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: '06_DIREITO_PREVIDENCIÁRIO',      codigo: 'L8212'},
-  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: '06_DIREITO_PREVIDENCIÁRIO',      codigo: 'L8213'},
+  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8212',      codigo: 'L8212'},
+  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8213',      codigo: 'L8213'},
 
   // ━━━ DIREITO DIGITAL & TECNOLOGIA ━━━
-  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: '10_DIREITO_DIGITAL',              codigo: 'MCI'  },
-  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: '10_DIREITO_DIGITAL',              codigo: 'LGPD' },
+  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L12965',              codigo: 'MCI'  },
+  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L13709',              codigo: 'LGPD' },
 
   // ━━━ DIREITO INTERNACIONAL & TRATADOS ━━━
-  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: '11_DIREITO_INTERNACIONAL',       codigo: 'CADH' },
-  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: '11_DIREITO_INTERNACIONAL',       codigo: 'CVDT' },
+  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos',       codigo: 'CADH' },
+  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados',       codigo: 'CVDT' },
 
   // ━━━ JURISPRUDÊNCIA STF ━━━
-  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '05_STF_SUMULAS/Vinculantes', codigo: 'SV',     buscaPorSumula: true },
-  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '05_STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
+  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '03_PROCESSO_CIVIL/STF_SUMULAS/Vinculantes', codigo: 'SV',     buscaPorSumula: true },
+  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '03_PROCESSO_CIVIL/STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
 
   // ━━━ ESPECIAL: ENUNCIADOS ━━━
-  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '00_ENUNCIADOS_CJF',            codigo: 'ENUM', isEnunciados: true },
+  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF',            codigo: 'ENUM', isEnunciados: true },
   { label: '⚡ ATOMIZAR — Skill de IA',     tag: 'atomizar',       pasta: '', codigo: 'ATOM', isAtomizar: true },
 ];
 
-// Parseia o conteúdo do arquivo .md
+// ─── Parseia o conteúdo do arquivo .md ───────────────────────
 function parseArtigoMD(content) {
   const result = {
     textoBase: '',
@@ -57,7 +57,7 @@ function parseArtigoMD(content) {
     correlatos: [],  // strings (wikilinks + texto)
   };
 
-  // Extrai redação (bloco "> " após "## REDACAO LEGAL")
+  // ── Extrai redação (bloco "> " após "## REDACAO LEGAL") ──
   const mRedacao = content.match(/##[^\n]*REDA[^\n]*\n+((?:>[^\n]*\n?)+)/i);
   let redacao = '';
   if (mRedacao) {
@@ -70,21 +70,21 @@ function parseArtigoMD(content) {
 
   if (!redacao || redacao.startsWith('[Reda')) return result;
 
-  // Texto base: tudo antes do primeiro § ou Parágrafo
+  // ── Texto base: tudo antes do primeiro § ou Parágrafo ──
   const baseEnd = redacao.search(/§\s*\d|[Pp]ar[áa]grafo\s+[úu]nico|\bI\s*[-–—]/);
   result.textoBase = (baseEnd > 0 ? redacao.slice(0, baseEnd) : redacao).trim();
 
-  // Parágrafo único
+  // ── Parágrafo único ──
   const mPU = redacao.match(/[Pp]ar[áa]grafo\s+[úu]nico\s*[.:]?\s*(.+?)(?=§\s*\d|[Pp]ar[áa]grafo\s+[úu]nico|\bI{1,3}V?\s*[-–—]|$)/s);
   if (mPU) result.paragrafos.push({ label: 'Parágrafo único', texto: mPU[1].replace(/\s+/g, ' ').trim() });
 
-  // Parágrafos numerados: §1°, §2°, §3° ...
+  // ── Parágrafos numerados: §1°, §2°, §3° ... ──
   const paragIter = [...redacao.matchAll(/§\s*(\d+)\s*[°oºO.]?\s+(.+?)(?=§\s*\d|[Pp]ar[áa]grafo\s+[úu]nico|$)/gs)];
   for (const m of paragIter) {
     result.paragrafos.push({ label: `§ ${m[1]}°`, texto: m[2].replace(/\s+/g, ' ').trim() });
   }
 
-  // Incisos: I –, II –, III – ... até X
+  // ── Incisos: I –, II –, III – ... até X ──
   const ROMANOS = ['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX'];
   const incisoRE = new RegExp(
     `\\b(${ROMANOS.map(r => r.replace(/I/g,'I').replace(/V/g,'V').replace(/X/g,'X')).join('|')})\\s*[-–—]\\s*(.+?)(?=;?\\s*(?:${ROMANOS.join('|')})\\s*[-–—]|§|[Pp]ar[áa]grafo|$)`,
@@ -95,13 +95,13 @@ function parseArtigoMD(content) {
     if (texto.length > 3) result.incisos.push({ label: m[1], texto });
   }
 
-  // Alíneas: a), b), c) ...
+  // ── Alíneas: a), b), c) ... ──
   for (const m of [...redacao.matchAll(/\b([a-h])\)\s*(.+?)(?=\b[a-h]\)|;|$)/gs)]) {
     const texto = m[2].replace(/\s+/g, ' ').trim();
     if (texto.length > 3) result.alineas.push({ label: `${m[1]})`, texto });
   }
 
-  // Correlatos: wikilinks da seção ARTIGOS CORRELATOS
+  // ── Correlatos: wikilinks da seção ARTIGOS CORRELATOS ──
   const mCorr = content.match(/##[^\n]*CORRELAT[^\n]*\n([\s\S]*?)(?=\n##|$)/i);
   if (mCorr) {
     const links = [...mCorr[1].matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]([^\n]*)/g)];
@@ -117,7 +117,21 @@ function parseArtigoMD(content) {
   return result;
 }
 
-// Modal 1: Selecionar Código
+// ─── Helpers para busca multi-pasta ──────────────────────────
+function obterPastas(config) {
+  if (Array.isArray(config.pastas) && config.pastas.length) return config.pastas;
+  if (config.pasta) return [config.pasta];
+  return [];
+}
+
+function pastaEhAncestral(pasta, path) {
+  if (!pasta) return true;
+  const norm = p => p.replace(/\/+$/, '');
+  const pastaNorm = norm(pasta);
+  return path === pastaNorm || path.startsWith(pastaNorm + '/');
+}
+
+// ─── Modal 1: Selecionar Código ──────────────────────────────
 class CodigoModal extends SuggestModal {
   constructor(app, onEscolha) {
     super(app);
@@ -131,7 +145,7 @@ class CodigoModal extends SuggestModal {
   onChooseSuggestion(item) { this.onEscolha(item); }
 }
 
-// Modal 2: Número do Artigo
+// ─── Modal 2: Número do Artigo ───────────────────────────────
 class ArtigoModal extends Modal {
   constructor(app, config, onBuscar) {
     super(app);
@@ -178,7 +192,8 @@ class ArtigoModal extends Modal {
   onClose() { this.contentEl.empty(); }
 }
 
-// Modal 3: Painel compacto
+// ─── Modal 3: Painel compacto — sem scroll ───────────────────
+// Mostra apenas estrutura + correlatos (o texto está na nota aberta)
 class InfoModal extends Modal {
   constructor(app, found, config, num, parsed, enunciados, onNovaBusca) {
     super(app);
@@ -198,7 +213,7 @@ class InfoModal extends Modal {
 
     const { textoBase, paragrafos, incisos, alineas, correlatos } = this.parsed;
 
-    // Cabeçalho
+    // ── Cabeçalho ──
     const h = contentEl.createEl('div');
     Object.assign(h.style, {
       display: 'flex', justifyContent: 'space-between',
@@ -215,7 +230,7 @@ class InfoModal extends Modal {
     });
     btnX.addEventListener('click', () => this.close());
 
-    // Estrutura do artigo (compacta, sem scroll)
+    // ── Estrutura do artigo (compacta, sem scroll) ──
     const card = contentEl.createEl('div');
     Object.assign(card.style, {
       background: 'var(--background-secondary)',
@@ -269,7 +284,7 @@ class InfoModal extends Modal {
       }
     }
 
-    // Correlatos
+    // ── Correlatos ──
     if (correlatos.length) {
       const sec = contentEl.createEl('div');
       Object.assign(sec.style, {
@@ -293,7 +308,7 @@ class InfoModal extends Modal {
       });
     }
 
-    // Enunciados CJF
+    // ── Enunciados CJF ──
     if (this.enunciados.length) {
       const sec = contentEl.createEl('div');
       Object.assign(sec.style, {
@@ -326,7 +341,7 @@ class InfoModal extends Modal {
       }
     }
 
-    // Botões
+    // ── Botões ──
     const row = contentEl.createEl('div');
     Object.assign(row.style, { display: 'flex', gap: '8px' });
 
@@ -351,7 +366,7 @@ class InfoModal extends Modal {
   onClose() { this.contentEl.empty(); }
 }
 
-// Plugin Principal
+// ─── Plugin Principal ────────────────────────────────────────
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
@@ -374,7 +389,7 @@ class FeniceBuscarArtigo extends Plugin {
     // Carrega index de enunciados CJF
     this.enunciadosIndex = {};
     this.app.vault.adapter
-      .read('FENICE bRain/00_ENUNCIADOS_CJF/enunciados_index.json')
+      .read('FENICE bRain/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
       .then(txt => {
         this.enunciadosIndex = JSON.parse(txt);
         console.log('Fenice: enunciados CJF carregados —',
@@ -382,7 +397,7 @@ class FeniceBuscarArtigo extends Plugin {
       })
       .catch(() => console.log('Fenice: enunciados_index.json nao encontrado'));
 
-    console.log('Fenice Buscar Artigo v6 (EXPANDIDO) — Ctrl+Shift+B | Ctrl+Shift+I');
+    console.log('Fenice Buscar Artigo v6 (CORRIGIDO) — Ctrl+Shift+B | Ctrl+Shift+I');
   }
 
   iniciarBusca() {
@@ -396,7 +411,7 @@ class FeniceBuscarArtigo extends Plugin {
       // Se é Enunciados, vai direto ao INDEX
       if (config.isEnunciados) {
         new Notice('📋 Abrindo Enunciados CJF...');
-        this.app.workspace.openLinkText('00_ENUNCIADOS_CJF/INDEX', '', false);
+        this.app.workspace.openLinkText('00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/INDEX-ENUNCIADOS', '', false);
         return;
       }
 
@@ -410,16 +425,16 @@ class FeniceBuscarArtigo extends Plugin {
   // Painel para escolher qual área atomizar
   abrirAtomizar() {
     const areas = [
-      { label: '📚 Direito Constitucional', tag: 'cf88', pasta: '00_CONSTITUIÇÃO_FEDERAL' },
-      { label: '📖 Código Civil', tag: 'cc', pasta: '02_DIREITO_CIVIL' },
-      { label: '⚖️  Código Penal', tag: 'direito-penal', pasta: '03_CÓDIGO_PENAL' },
-      { label: '📋 Processo Civil', tag: 'cpc', pasta: '05_CÓDIGO_PROCESSO_CIVIL' },
-      { label: '🔨 Processo Penal', tag: 'cpp', pasta: '04_CÓDIGO_PROCESSO_PENAL' },
-      { label: '🛡️  Direito Administrativo', tag: 'improbidade', pasta: '07_DIREITO_ADMINISTRATIVO' },
-      { label: '💼 Direito Previdenciário', tag: 'previdenciario', pasta: '06_DIREITO_PREVIDENCIÁRIO' },
-      { label: '🌐 Direito Digital', tag: 'marco-civil', pasta: '10_DIREITO_DIGITAL' },
-      { label: '🌍 Direito Internacional', tag: 'internacional', pasta: '11_DIREITO_INTERNACIONAL' },
-      { label: '🏪 Código Consumidor', tag: 'cdc', pasta: '08_CÓDIGO_CONSUMIDOR' },
+      { label: '📚 Direito Constitucional', pasta: '00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL' },
+      { label: '📖 Código Civil', pasta: '02_DIREITO_PRIVADO/DIREITO_CIVIL' },
+      { label: '⚖️  Código Penal', pasta: '04_DIREITO_PENAL/CÓDIGO_PENAL' },
+      { label: '📋 Processo Civil', pasta: '03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL' },
+      { label: '🔨 Processo Penal', pasta: '04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL' },
+      { label: '🛡️  Direito Administrativo', pasta: '07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO' },
+      { label: '💼 Direito Previdenciário', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO' },
+      { label: '🌐 Direito Digital', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL' },
+      { label: '🌍 Direito Internacional', pasta: '08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL' },
+      { label: '🏪 Código Consumidor', pasta: '02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR' },
     ];
 
     const modal = new SuggestModal(this.app);
@@ -428,7 +443,6 @@ class FeniceBuscarArtigo extends Plugin {
     modal.renderSuggestion = (item, el) => el.createEl('div', { text: item.label });
     modal.onChooseSuggestion = (area) => {
       new Notice(`🤖 Iniciando atomização: ${area.label.replace(/^[📚📖⚖️🔨🛡️💼🌐🌍🏪]\s+/, '')}`);
-      // Abre a nota de referência da área
       this.app.workspace.openLinkText(`${area.pasta}/INDEX`, '', false);
     };
     modal.open();
@@ -471,29 +485,23 @@ class FeniceBuscarArtigo extends Plugin {
     const num = numArtigo.trim();
     const allFiles = this.app.vault.getFiles();
 
-    // Súmulas Vinculantes: campo 'sumula' no frontmatter, arquivo SV-NN.md
     const campoChave = config.buscaPorSumula ? 'sumula' : 'artigo';
     const numPadded  = config.buscaPorSumula ? num.padStart(2, '0') : num;
+    const bate = (meta) => meta && (String(meta[campoChave]) === num || String(meta[campoChave]) === numPadded);
 
-    let found = allFiles.find(f => {
-      if (!f.path.includes(config.pasta)) return false;
-      const meta = this.app.metadataCache.getFileCache(f)?.frontmatter;
-      return meta && (String(meta[campoChave]) === num || String(meta[campoChave]) === numPadded);
-    });
+    let found = null;
+    for (const pasta of obterPastas(config)) {
+      found = allFiles.find(f => pastaEhAncestral(pasta, f.path) && bate(this.app.metadataCache.getFileCache(f)?.frontmatter));
+      if (found) break;
+    }
     if (!found) {
       found = allFiles.find(f => {
         const meta = this.app.metadataCache.getFileCache(f)?.frontmatter;
-        if (!meta) return false;
-        const tags = Array.isArray(meta.tags) ? meta.tags : [];
-        return (String(meta[campoChave]) === num || String(meta[campoChave]) === numPadded)
-               && tags.includes(config.tag);
+        const tags = Array.isArray(meta?.tags) ? meta.tags : [];
+        return bate(meta) && tags.includes(config.tag);
       });
     }
-
-    if (!found) {
-      new Notice(`⚠ Art. ${num} não encontrado em ${config.codigo}.`, 4000);
-      return;
-    }
+    if (!found) { this.avisarNaoEncontrado(config, num); return; }
 
     await this.app.workspace.openLinkText(found.basename, '', false);
 
@@ -503,12 +511,26 @@ class FeniceBuscarArtigo extends Plugin {
       parsed = parseArtigoMD(content);
     } catch (e) { console.error('Fenice buscar:', e); }
 
-    // Lookup enunciados: chave = "cc:299", "cf88:5", etc.
     const chaveIdx = `${config.tag}:${num}`;
     const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
 
     new InfoModal(this.app, found, config, num, parsed, enunciados,
       () => this.iniciarBusca()).open();
+  }
+
+  avisarNaoEncontrado(config, num) {
+    if (config.avisoNucleoAusente) {
+      new Notice(
+        `⚠ Art. ${num} do CPP não encontrado.\n` +
+        `O núcleo do DL 3.689/1941 (CPP) ainda não foi atomizado neste vault.\n` +
+        `Disponíveis em "${config.codigo}": Lei de Execução Penal (L7210), ` +
+        `Juizados Especiais (L9099), Pacote Anticrime (L13964), ` +
+        `Abuso de Autoridade (L13869), Org. Criminosa (L12850), Sequestro-relâmpago (L7960).`,
+        9000
+      );
+      return;
+    }
+    new Notice(`⚠ Art. ${num} não encontrado em ${config.codigo}.`, 4000);
   }
 
   onunload() {}

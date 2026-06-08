@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # PostgreSQL com dados
+  postgres:
+    image: postgres:15-alpine
+    container_name: fenice-postgres
+    environment:
+      POSTGRES_DB: fenice_brain
+      POSTGRES_USER: fenice
+      POSTGRES_PASSWORD: fenice_secure_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema_stf_postgresql.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./schema_pgvector_extension.sql:/docker-entrypoint-initdb.d/02-pgvector.sql
+      - ./schema_webhooks_extension.sql:/docker-entrypoint-initdb.d/03-webhooks.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fenice"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - fenice_network
+
+  # Grafana para dashboards
+  grafana:
+    image: grafana/grafana:latest
+    container_name: fenice-grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_SECURITY_ADMIN_USER: admin
+      GF_INSTALL_PLUGINS: grafana-piechart-panel
+      GF_USERS_ALLOW_SIGN_UP: 'false'
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./provisioning:/etc/grafana/provisioning
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - fenice_network
+
+  # pgAdmin (opcional - gerenciar banco via web)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: fenice-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@fenice.local
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - fenice_network
+
+volumes:
+  postgres_data:
+  grafana_data:
+
+networks:
+  fenice_network:
+    driver: bridge

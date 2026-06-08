@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Dashboard STF — Fenice Brain</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #999;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card-value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .card-subtitle {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .chart-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .ultimas-publicacoes {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .publicacao-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        .publicacao-item:last-child {
+            border-bottom: none;
+        }
+
+        .publicacao-numero {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .publicacao-setor {
+            background: #f0f4ff;
+            color: #667eea;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .publicacao-data {
+            color: #999;
+            font-size: 12px;
+        }
+
+        .charts-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .status-dot.connected {
+            background: #10b981;
+        }
+
+        .status-dot.disconnected {
+            background: #ef4444;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #c33;
+        }
+
+        @media (max-width: 768px) {
+            .charts-row {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .card-value {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Dashboard STF — Jurisprudência</h1>
+            <p class="subtitle">Súmulas Vinculantes e Temas de Repercussão Geral</p>
+        </header>
+
+        <div id="error-container"></div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-title">Total de Súmulas</div>
+                <div class="card-value" id="total-sumulas">—</div>
+                <div class="card-subtitle">Súmulas Vinculantes + Temas RG</div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Com Modulação</div>
+                <div class="card-value" id="com-modulacao">—</div>
+                <div class="card-subtitle">Decisões com eficácia modulada</div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Taxa de Modulação</div>
+                <div class="card-value" id="taxa-modulacao">—</div>
+                <div class="card-subtitle">Percentual do total</div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-container">
+                <div class="chart-title">📌 Modulação (Geral)</div>
+                <div class="chart-wrapper">
+                    <canvas id="modulacaoChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">🏛️ Distribuição por Setor</div>
+                <div class="chart-wrapper">
+                    <canvas id="setorChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">⏰ Últimas Publicações</div>
+            <ul class="ultimas-publicacoes" id="ultimas-lista">
+                <li class="publicacao-item" style="justify-content: center; color: #999;">
+                    Carregando...
+                </li>
+            </ul>
+
+            <div class="status">
+                <div class="status-dot disconnected" id="status-dot"></div>
+                <span id="status-text">Conectando ao servidor...</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+
+        let modulacaoChart = null;
+        let setorChart = null;
+
+        async function loadData() {
+            try {
+                const [stats, modulacoes, porSetor] = await Promise.all([
+                    fetch(`${API_BASE}/api/stats`).then(r => r.json()),
+                    fetch(`${API_BASE}/api/modulacoes`).then(r => r.json()),
+                    fetch(`${API_BASE}/api/por-setor`).then(r => r.json())
+                ]);
+
+                updateStats(stats);
+                updateModulacao(modulacoes);
+                updateSetor(porSetor);
+                updateStatus(true);
+            } catch (error) {
+                console.error('Erro ao carregar dados:', error);
+                updateStatus(false);
+                showError('Erro ao conectar ao servidor. Certifique-se de que o servidor está rodando em http://localhost:8000');
+            }
+        }
+
+        function updateStats(stats) {
+            document.getElementById('total-sumulas').textContent =
+                stats.total_sumulas?.toLocaleString('pt-BR') || '—';
+
+            const comModulacao = stats.sumulas_com_modulacao || 0;
+            document.getElementById('com-modulacao').textContent =
+                comModulacao.toLocaleString('pt-BR');
+
+            const taxa = stats.total_sumulas ?
+                ((comModulacao / stats.total_sumulas) * 100).toFixed(1) : 0;
+            document.getElementById('taxa-modulacao').textContent = `${taxa}%`;
+
+            updateUltimas(stats.ultimas_publicacoes || []);
+        }
+
+        function updateUltimas(publicacoes) {
+            const lista = document.getElementById('ultimas-lista');
+            lista.innerHTML = '';
+
+            if (publicacoes.length === 0) {
+                lista.innerHTML = '<li class="publicacao-item" style="justify-content: center; color: #999;">Nenhuma publicação</li>';
+                return;
+            }
+
+            publicacoes.forEach(pub => {
+                const item = document.createElement('li');
+                item.className = 'publicacao-item';
+                item.innerHTML = `
+                    <div>
+                        <span class="publicacao-numero">${pub.numero_identificador || pub.numero || '—'}</span>
+                        <span class="publicacao-data">${formatDate(pub.data_publicacao || pub.data)}</span>
+                    </div>
+                    <span class="publicacao-setor">${pub.setor_afetado || pub.setor || 'Geral'}</span>
+                `;
+                lista.appendChild(item);
+            });
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '—';
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('pt-BR');
+        }
+
+        function updateModulacao(modulacoes) {
+            const ctx = document.getElementById('modulacaoChart').getContext('2d');
+
+            if (modulacaoChart) modulacaoChart.destroy();
+
+            modulacaoChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: modulacoes.labels || ['Sem Modulação', 'Com Modulação'],
+                    datasets: [{
+                        data: modulacoes.values || [100, 50],
+                        backgroundColor: ['#667eea', '#f59e0b'],
+                        borderColor: ['#667eea', '#f59e0b'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: { padding: 20, usePointStyle: true }
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateSetor(porSetor) {
+            const ctx = document.getElementById('setorChart').getContext('2d');
+
+            if (setorChart) setorChart.destroy();
+
+            // Limitar a 10 maiores setores
+            const labels = (porSetor.labels || Object.keys(porSetor)).slice(0, 10);
+            const values = (porSetor.values || Object.values(porSetor)).slice(0, 10);
+
+            setorChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Quantidade',
+                        data: values,
+                        backgroundColor: [
+                            '#667eea', '#764ba2', '#f59e0b', '#10b981', '#ef4444',
+                            '#3b82f6', '#06b6d4', '#8b5cf6', '#ec4899', '#14b8a6'
+                        ].slice(0, labels.length),
+                        borderRadius: 8,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { beginAtZero: true }
+                    }
+                }
+            });
+        }
+
+        function updateStatus(connected) {
+            const dot = document.getElementById('status-dot');
+            const text = document.getElementById('status-text');
+
+            if (connected) {
+                dot.className = 'status-dot connected';
+                text.textContent = '✓ Conectado ao servidor';
+            } else {
+                dot.className = 'status-dot disconnected';
+                text.textContent = '✗ Desconectado do servidor';
+            }
+        }
+
+        function showError(message) {
+            const container = document.getElementById('error-container');
+            container.innerHTML = `<div class="error">${message}</div>`;
+        }
+
+        // Carregar dados ao iniciar e a cada 30 segundos
+        loadData();
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>

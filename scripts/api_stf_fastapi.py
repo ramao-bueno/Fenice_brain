@@ -330,6 +330,28 @@ async def estatisticas_gerais(
 # =====================================================================
 # Root
 # =====================================================================
+class WebhookCreateRequest(BaseModel):
+    nome: str = Field(..., min_length=3, max_length=100)
+    url: str = Field(..., regex=r'^https?://')
+    tipo: str = Field(..., regex=r'^(DISCORD|SLACK|EMAIL|CUSTOM)$')
+    eventos: List[str] = Field(..., min_items=1, description="MODULACAO_DETECTADA, SUMULA_NOVA")
+    filtro_setor: Optional[str] = None
+    filtro_tipo: Optional[str] = None
+    api_key: Optional[str] = None
+
+
+class WebhookResponse(BaseModel):
+    id: int
+    nome: str
+    url: str
+    tipo: str
+    eventos: List[str]
+    ativo: bool
+    total_acionamentos: int
+    taxa_sucesso: Optional[float]
+    ultimo_acionamento: Optional[str]
+
+
 class SemanticSearchRequest(BaseModel):
     query: str = Field(..., description="Texto para busca semântica", min_length=3, max_length=500)
     limite: int = Field(10, ge=1, le=50, description="Número de resultados")
@@ -473,12 +495,198 @@ async def embeddings_stats(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+# =====================================================================
+# Webhooks — Alertas
+# =====================================================================
+
+@app.post(
+    "/webhooks",
+    response_model=WebhookResponse,
+    tags=["Webhooks"],
+    summary="Registrar Novo Webhook"
+)
+async def criar_webhook(
+    request: WebhookCreateRequest,
+    api_key: str = Depends(verificar_api_key)
+):
+    """Registra novo webhook para alertas de modulação."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+
+            cursor.execute("""
+            INSERT INTO stf.webhooks (nome, url, tipo, eventos, filtro_setor, filtro_tipo, api_key)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+            RETURNING *
+            """, (
+                request.nome,
+                request.url,
+                request.tipo,
+                request.eventos,
+                request.filtro_setor,
+                request.filtro_tipo,
+                request.api_key
+            ))
+
+            conn.commit()
+            row = cursor.fetchone()
+
+            return {
+                "id": row[0],
+                "nome": row[2],
+                "url": row[3],
+                "tipo": row[4],
+                "eventos": row[5],
+                "ativo": row[8],
+                "total_acionamentos": 0,
+                "taxa_sucesso": None,
+                "ultimo_acionamento": None
+            }
+
+    except psycopg2.IntegrityError:
+        raise HTTPException(status_code=409, detail="Webhook com este nome já existe")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get(
+    "/webhooks",
+    response_model=List[WebhookResponse],
+    tags=["Webhooks"],
+    summary="Listar Webhooks"
+)
+async def listar_webhooks(api_key: str = Depends(verificar_api_key)):
+    """Lista todos os webhooks registrados."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+            cursor.execute("SELECT * FROM stf.listar_webhooks_com_stats()")
+            rows = cursor.fetchall()
+
+        return [dict(row) for row in rows]
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.delete(
+    "/webhooks/{webhook_id}",
+    tags=["Webhooks"],
+    summary="Deletar Webhook"
+)
+async def deletar_webhook(
+    webhook_id: int,
+    api_key: str = Depends(verificar_api_key)
+):
+    """Remove um webhook."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+
+            cursor.execute("SELECT id FROM stf.webhooks WHERE id = %s", (webhook_id,))
+            if not cursor.fetchone():
+                raise HTTPException(status_code=404, detail="Webhook não encontrado")
+
+            cursor.execute("DELETE FROM stf.webhooks WHERE id = %s", (webhook_id,))
+            conn.commit()
+
+        return {"message": f"Webhook {webhook_id} deletado"}
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.patch(
+    "/webhooks/{webhook_id}/ativar",
+    tags=["Webhooks"],
+    summary="Ativar Webhook"
+)
+async def ativar_webhook(
+    webhook_id: int,
+    api_key: str = Depends(verificar_api_key)
+):
+    """Ativa um webhook."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+
+            cursor.execute("UPDATE stf.webhooks SET ativo = TRUE WHERE id = %s", (webhook_id,))
+            conn.commit()
+
+        return {"message": f"Webhook {webhook_id} ativado"}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.patch(
+    "/webhooks/{webhook_id}/desativar",
+    tags=["Webhooks"],
+    summary="Desativar Webhook"
+)
+async def desativar_webhook(
+    webhook_id: int,
+    api_key: str = Depends(verificar_api_key)
+):
+    """Desativa um webhook."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+
+            cursor.execute("UPDATE stf.webhooks SET ativo = FALSE WHERE id = %s", (webhook_id,))
+            conn.commit()
+
+        return {"message": f"Webhook {webhook_id} desativado"}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get(
+    "/webhooks/stats",
+    tags=["Webhooks"],
+    summary="Estatísticas de Webhooks"
+)
+async def webhook_stats(api_key: str = Depends(verificar_api_key)):
+    """Retorna estatísticas de webhooks e alertas."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+
+            # Contar alertas por status
+            cursor.execute("""
+            SELECT
+                COUNT(*) as total,
+                COUNT(CASE WHEN sucesso THEN 1 END) as sucessos,
+                COUNT(CASE WHEN sucesso = FALSE THEN 1 END) as falhas,
+                COUNT(CASE WHEN sucesso IS NULL THEN 1 END) as pendentes
+            FROM stf.webhook_history
+            WHERE acionado_em > NOW() - INTERVAL '7 days'
+            """)
+
+            stats = cursor.fetchone()
+
+            return {
+                "periodo": "últimos 7 dias",
+                "total_alertas": stats['total'],
+                "sucessos": stats['sucessos'],
+                "falhas": stats['falhas'],
+                "pendentes": stats['pendentes'],
+                "taxa_sucesso": round(stats['sucessos'] / max(stats['total'], 1) * 100, 2)
+            }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.get("/", tags=["Info"])
 async def root():
     """Info da API."""
     return {
         "title": "Fenice Brain — STF Jurisprudência API",
-        "version": "2.0.0",
+        "version": "3.0.0",
         "docs": "/docs",
         "redoc": "/redoc",
         "endpoints": {
@@ -491,10 +699,18 @@ async def root():
             "modulacoes": "/sumulas/com-modulacao",
             "setores": "/sumulas/por-setor",
             "alertas": "/alertas/compliance",
-            "stats": "/estatisticas"
+            "stats": "/estatisticas",
+            "webhooks": {
+                "criar": "POST /webhooks",
+                "listar": "GET /webhooks",
+                "deletar": "DELETE /webhooks/{id}",
+                "ativar": "PATCH /webhooks/{id}/ativar",
+                "desativar": "PATCH /webhooks/{id}/desativar",
+                "stats": "GET /webhooks/stats"
+            }
         },
         "autenticacao": "Passar ?api_key=sua_chave em todos os endpoints",
-        "versao": "2.0.0 com RAG/Embeddings"
+        "versao": "3.0.0 com RAG/Embeddings + Webhooks"
     }
 
 

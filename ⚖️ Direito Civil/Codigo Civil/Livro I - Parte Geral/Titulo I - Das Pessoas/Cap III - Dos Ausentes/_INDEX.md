@@ -1,0 +1,61 @@
+# Cap III - Dos Ausentes
+
+## Artigos
+
+- Art. 22. — Desaparecendo uma pessoa do seu domicílio sem dela haver notícia, se não houver 
+- Art. 23. — Também se declarará a ausência, e se nomeará curador, quando o ausente deixar ma
+- Art. 24. — O juiz, que nomear o curador, fixar-lhe-á os poderes e obrigações, conforme as c
+- Art. 25. — O cônjuge do ausente, sempre que não esteja separado judicialmente, ou de fato p
+- Art. 26. — Decorrido um ano da arrecadação dos bens do ausente, ou, se ele deixou represent
+- Art. 27. — Para o efeito previsto no artigo anterior, somente se consideram interessados:
+- Art. 28. — A sentença que determinar a abertura da sucessão provisória só produzirá efeito 
+- Art. 29. — Antes da partilha, o juiz, quando julgar conveniente, ordenará a conversão dos b
+- Art. 30. — Os herdeiros, para se imitirem na posse dos bens do ausente, darão garantias da 
+- Art. 31. — Os imóveis do ausente só se poderão alienar, não sendo por desapropriação, ou hi
+- Art. 32. — Empossados nos bens, os sucessores provisórios ficarão representando ativa e pas
+- Art. 33. — O descendente, ascendente ou cônjuge que for sucessor provisório do ausente, far
+- Art. 34. — O excluído, segundo o art. 30, da posse provisória poderá, justificando falta de
+- Art. 35. — Se durante a posse provisória se provar a época exata do falecimento do ausente,
+- Art. 36. — Se o ausente aparecer, ou se lhe provar a existência, depois de estabelecida a p
+- Art. 37. — Dez anos depois de passada em julgado a sentença que concede a abertura da suces
+- Art. 38. — Pode-se requerer a sucessão definitiva, também, provando-se que o ausente conta 
+- Art. 39. — Regressando o ausente nos dez anos seguintes à abertura da sucessão definitiva, 
+- Art. 40. — As pessoas jurídicas são de direito público, interno ou externo, e de direito pr
+- Art. 41. — São pessoas jurídicas de direito público interno:
+- Art. 42. — São pessoas jurídicas de direito público externo os Estados estrangeiros e todas
+- Art. 43. — As pessoas jurídicas de direito público interno são civilmente responsáveis por 
+- Art. 44. — São pessoas jurídicas de direito privado:
+- Art. 45. — Começa a existência legal das pessoas jurídicas de direito privado com a inscriç
+- Art. 46. — O registro declarará:
+- Art. 47. — Obrigam a pessoa jurídica os atos dos administradores, exercidos nos limites de 
+- Art. 48. — Se a pessoa jurídica tiver administração coletiva, as decisões se tomarão pela m
+- Art. 49. — Se a administração da pessoa jurídica vier a faltar, o juiz, a requerimento de q
+- Art. 50. — Em caso de abuso da personalidade jurídica, caracterizado pelo desvio de finalid
+- Art. 51. — Nos casos de dissolução da pessoa jurídica ou cassada a autorização para seu fun
+- Art. 52. — Aplica-se às pessoas jurídicas, no que couber, a proteção dos direitos da person
+- Art. 53. — Constituem-se as associações pela união de pessoas que se organizem para fins nã
+- Art. 54. — Sob pena de nulidade, o estatuto das associações conterá:
+- Art. 55. — Os associados devem ter iguais direitos, mas o estatuto poderá instituir categor
+- Art. 56. — A qualidade de associado é intransmissível, se o estatuto não dispuser o contrár
+- Art. 57. — A exclusão do associado só é admissível havendo justa causa, assim reconhecida e
+- Art. 58. — Nenhum associado poderá ser impedido de exercer direito ou função que lhe tenha 
+- Art. 59. — Compete privativamente à assembléia geral:
+- Art. 60. — A convocação dos órgãos deliberativos far-se-á na forma do estatuto, garantido a
+- Art. 61. — Dissolvida a associação, o remanescente do seu patrimônio líquido, depois de ded
+- Art. 62. — Para criar uma fundação, o seu instituidor fará, por escritura pública ou testam
+- Art. 63. — Quando insuficientes para constituir a fundação, os bens a ela destinados serão,
+- Art. 64. — Constituída a fundação por negócio jurídico entre vivos, o instituidor é obrigad
+- Art. 65. — Aqueles a quem o instituidor cometer a aplicação do patrimônio, em tendo ciência
+- Art. 66. — Velará pelas fundações o Ministério Público do Estado onde situadas.
+- Art. 67. — Para que se possa alterar o estatuto da fundação é mister que a reforma:
+- Art. 68. — Quando a alteração não houver sido aprovada por votação unânime, os administrado
+- Art. 69. — Tornando-se ilícita, impossível ou inútil a finalidade a que visa a fundação, ou
+- Art. 70. — O domicílio da pessoa natural é o lugar onde ela estabelece a sua residência com
+- Art. 71. — Se, porém, a pessoa natural tiver diversas residências, onde, alternadamente, vi
+- Art. 72. — É também domicílio da pessoa natural, quanto às relações concernentes à profissã
+- Art. 73. — Ter-se-á por domicílio da pessoa natural, que não tenha residência habitual, o l
+- Art. 74. — Muda-se o domicílio, transferindo a residência, com a intenção manifesta de o mu
+- Art. 75. — Quanto às pessoas jurídicas, o domicílio é:
+- Art. 76. — Têm domicílio necessário o incapaz, o servidor público, o militar, o marítimo e 
+- Art. 77. — O agente diplomático do Brasil, que, citado no estrangeiro, alegar extraterritor
+- Art. 78. — Nos contratos escritos, poderão os contratantes especificar domicílio onde se ex

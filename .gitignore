@@ -25,3 +25,13 @@
 
 # Logs
 *.log
+
+# Node / build artifacts (paths longos, nunca devem ir para o vault git)
+node_modules/
+dist/
+build/
+.vite/
+
+# Binarios grandes / downloads parciais
+*.exe
+*.crdownload

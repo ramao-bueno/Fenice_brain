@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Estratégico B2B - Junho 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 3px solid #06b6d4;
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #06b6d4;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section {
+            margin-bottom: 36px;
+            border-left: 4px solid #06b6d4;
+            padding-left: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #06b6d4;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-top: 16px;
+            margin-bottom: 12px;
+        }
+        .deal-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 14px;
+        }
+        .deal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .deal-title {
+            font-weight: 600;
+            color: #fff;
+            font-size: 15px;
+        }
+        .deal-amount {
+            font-size: 16px;
+            font-weight: 700;
+            color: #06b6d4;
+        }
+        .deal-meta {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .deal-content {
+            font-size: 14px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .deal-stage {
+            display: inline-block;
+            background: rgba(6, 182, 212, 0.2);
+            color: #22d3ee;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-right: 8px;
+        }
+        .stage-1 { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+        .stage-2 { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
+        .stage-3 { background: rgba(59, 130, 246, 0.2); color: #93c5fd; }
+        .stage-4 { background: rgba(34, 197, 94, 0.2); color: #86efac; }
+
+        .probability {
+            font-size: 11px;
+            color: #888;
+            margin-top: 8px;
+        }
+        .probability strong {
+            color: #06b6d4;
+        }
+
+        .summary-box {
+            background: rgba(6, 182, 212, 0.05);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(6, 182, 212, 0.1);
+        }
+
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+
+        .metric-label {
+            color: #888;
+            font-size: 13px;
+        }
+
+        .metric-value {
+            font-weight: 600;
+            color: #06b6d4;
+            font-size: 14px;
+        }
+
+        .action-item {
+            background: rgba(59, 130, 246, 0.05);
+            border-left: 3px solid #3b82f6;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        .action-title {
+            font-weight: 600;
+            color: #93c5fd;
+            margin-bottom: 4px;
+        }
+
+        .action-content {
+            color: #cbd5e1;
+        }
+
+        .risk-box {
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid #ef4444;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        .risk-title {
+            font-weight: 600;
+            color: #fca5a5;
+            margin-bottom: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 13px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(6, 182, 212, 0.1);
+        }
+
+        th {
+            background: rgba(6, 182, 212, 0.1);
+            color: #06b6d4;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(6, 182, 212, 0.2);
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Pipeline Estratégico B2B</h1>
+            <p class="subtitle">Gestão de Oportunidades de Vendas | Junho 2026</p>
+            <p style="font-size: 12px; color: #999; margin-top: 12px;">Fenice B2B | Salesforce Pipeline | Vendas Consultivas</p>
+        </header>
+
+        <div class="section">
+            <h2>📈 Resumo Executivo do Pipeline</h2>
+
+            <div class="summary-box">
+                <div class="metric-row">
+                    <span class="metric-label">Pipeline Total (Aberto)</span>
+                    <span class="metric-value">R$ 7.65M</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Oportunidades Qualificadas</span>
+                    <span class="metric-value">8 deals</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Taxa de Conversão Esperada</span>
+                    <span class="metric-value">28%</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Receita Esperada (30 dias)</span>
+                    <span class="metric-value">R$ 2.14M</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Ciclo de Vendas Médio</span>
+                    <span class="metric-value">45 dias</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Deals em Estágio Avançado (Stage 3-4)</h2>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">TIM Brasil - Governança de TI & Compliance</div>
+                        <div class="deal-meta">Contato: José Renato | Tel: (11) 98113-1100</div>
+                    </div>
+                    <div class="deal-amount">R$ 1.2M</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Proposta em análise. Executivo de TI autorizando orçamento.</p>
+                    <p style="margin-top: 8px;"><strong>Escopo:</strong> Implementação de Governança de TI (COBIT), conformidade LGPD + Lei 15.384, auditoria de segurança.</p>
+                    <p style="margin-top: 8px;"><strong>Timeline:</strong> Decisão esperada: 20 de junho | Implementação: Q3 2026</p>
+
+                    <div class="deal-stage stage-3">Stage 3: Proposal</div>
+                    <div class="probability">Probabilidade: <strong>72%</strong> | Valor Ponderado: <strong>R$ 864K</strong></div>
+
+                    <div class="action-item">
+                        <div class="action-title">👉 Ação Imediata:</div>
+                        <div class="action-content">Follow-up técnico com CTO. Agendada reunião para 12 de junho.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">Vivo/Telefonica - Cloud Advanced & CPaaS</div>
+                        <div class="deal-meta">Contato: Diretoria de Transformação Digital</div>
+                    </div>
+                    <div class="deal-amount">R$ 1.8M</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Apresentação realizada. Aguardando feedback de análise técnica.</p>
+                    <p style="margin-top: 8px;"><strong>Escopo:</strong> Migração de plataforma de comunicações para cloud. Consultoria de transformação digital de canais de venda.</p>
+                    <p style="margin-top: 8px;"><strong>Timeline:</strong> Decisão esperada: 25 de junho | POC: Julho 2026</p>
+
+                    <div class="deal-stage stage-3">Stage 3: Proposal</div>
+                    <div class="probability">Probabilidade: <strong>65%</strong> | Valor Ponderado: <strong>R$ 1.17M</strong></div>
+
+                    <div class="action-item">
+                        <div class="action-title">👉 Ação Imediata:</div>
+                        <div class="action-content">Envio de case study. Agendada reunião técnica em 14 de junho com arquitetura da Vivo.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔄 Deals em Desenvolvimento (Stage 2)</h2>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">Claro Empresas - Transformação de Canais B2B</div>
+                        <div class="deal-meta">Contato: Gerente de Vendas Corporativas</div>
+                    </div>
+                    <div class="deal-amount">R$ 950K</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Necessidade identificada. Discovery call em progresso.</p>
+                    <p style="margin-top: 8px;"><strong>Escopo:</strong> Treinamento de força de vendas + implementação de metodologia consultiva + sistema de CRM.</p>
+                    <p style="margin-top: 8px;"><strong>Timeline:</strong> Proposta para: 20 de junho</p>
+
+                    <div class="deal-stage stage-2">Stage 2: Development</div>
+                    <div class="probability">Probabilidade: <strong>45%</strong> | Valor Ponderado: <strong>R$ 427.5K</strong></div>
+
+                    <div class="action-item">
+                        <div class="action-title">👉 Ação Imediata:</div>
+                        <div class="action-content">Segunda reunião de escopo. Preparar proposta estruturada de vendas consultivas.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">OI Telecom - Consultoria O&M</div>
+                        <div class="deal-meta">Contato: Diretoria de Operações</div>
+                    </div>
+                    <div class="deal-amount">R$ 680K</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Avaliação de escopo. Preparação de apresentação executiva.</p>
+                    <p style="margin-top: 8px;"><strong>Escopo:</strong> Otimização de processos O&M + análise de custos operacionais + modernização de infraestrutura.</p>
+                    <p style="margin-top: 8px;"><strong>Timeline:</strong> Apresentação: 17 de junho</p>
+
+                    <div class="deal-stage stage-2">Stage 2: Development</div>
+                    <div class="probability">Probabilidade: <strong>50%</strong> | Valor Ponderado: <strong>R$ 340K</strong></div>
+
+                    <div class="action-item">
+                        <div class="action-title">👉 Ação Imediata:</div>
+                        <div class="action-content">Finalizar case study de Marcopolo. Agendar roadshow com Diretoria de Operações.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🌱 Deals em Qualificação (Stage 1)</h2>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">Oi Fibra - Solução de Cibersegurança</div>
+                        <div class="deal-meta">Contato: CISO da Operadora</div>
+                    </div>
+                    <div class="deal-amount">R$ 520K</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Primeiro contato realizado. Identificação de necessidades em andamento.</p>
+                    <div class="deal-stage stage-1">Stage 1: Qualification</div>
+                    <div class="probability">Probabilidade: <strong>30%</strong> | Valor Ponderado: <strong>R$ 156K</strong></div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">Algar Telecom - Modernização ERP</div>
+                        <div class="deal-meta">Contato: Diretor de TI</div>
+                    </div>
+                    <div class="deal-amount">R$ 420K</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Lead inbound. Inicial contact scheduled.</p>
+                    <div class="deal-stage stage-1">Stage 1: Qualification</div>
+                    <div class="probability">Probabilidade: <strong>25%</strong> | Valor Ponderado: <strong>R$ 105K</strong></div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <div class="deal-header">
+                    <div>
+                        <div class="deal-title">Sercomtel - Consultoria Estratégica</div>
+                        <div class="deal-meta">Contato: Presidente / Board</div>
+                    </div>
+                    <div class="deal-amount">R$ 380K</div>
+                </div>
+                <div class="deal-content">
+                    <p><strong>Status:</strong> Lead de referência. Agendamento de apresentação em progresso.</p>
+                    <div class="deal-stage stage-1">Stage 1: Qualification</div>
+                    <div class="probability">Probabilidade: <strong>20%</strong> | Valor Ponderado: <strong>R$ 76K</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⚠️ Riscos e Mitigações</h2>
+
+            <div class="risk-box">
+                <div class="risk-title">Risco 1: Atraso na Aprovação do Orçamento (TIM Brasil)</div>
+                <div class="risk-content">
+                    <p><strong>Impacto:</strong> Atraso de 30 dias pode comprometer fechamento em junho.</p>
+                    <p style="margin-top: 6px;"><strong>Mitigação:</strong> Escalação para VP de TI. Apresentação executiva com ROI e impacto regulatório.</p>
+                </div>
+            </div>
+
+            <div class="risk-box">
+                <div class="risk-title">Risco 2: Concorrência (Vivo/Telefonica)</div>
+                <div class="risk-content">
+                    <p><strong>Impacto:</strong> Concorrentes como Accenture, Deloitte estão disputando conta.</p>
+                    <p style="margin-top: 6px;"><strong>Mitigação:</strong> Diferenciar com experiência local + especialidade em operadoras telecom. Enfatizar abordagem consultiva vs. corpo-a-corpo genérico.</p>
+                </div>
+            </div>
+
+            <div class="risk-box">
+                <div class="risk-title">Risco 3: Escopo Creep (OI Telecom)</div>
+                <div class="risk-content">
+                    <p><strong>Impacto:</strong> Cliente pode incluir modernização de data centers (aumenta complexidade).</p>
+                    <p style="margin-top: 6px;"><strong>Mitigação:</strong> Definir scope lock em contrato. Oferecer modernização como serviço adicional (fase 2).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Matriz de Ações (Próximos 15 Dias)</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Deal</th>
+                        <th>Ação</th>
+                        <th>Responsável</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>TIM Brasil</strong></td>
+                        <td>Follow-up Técnico com CTO</td>
+                        <td>Ramão Bueno</td>
+                        <td>12 jun</td>
+                        <td style="color: #06b6d4;">🔴 Crítico</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vivo</strong></td>
+                        <td>Case Study + Reunião Arquitetura</td>
+                        <td>Ramão Bueno</td>
+                        <td>14 jun</td>
+                        <td style="color: #06b6d4;">🔴 Crítico</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OI Telecom</strong></td>
+                        <td>Roadshow Operações</td>
+                        <td>Ramão Bueno</td>
+                        <td>17 jun</td>
+                        <td style="color: #f59e0b;">🟠 Alta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claro</strong></td>
+                        <td>Preparar Proposta</td>
+                        <td>Ramão Bueno</td>
+                        <td>20 jun</td>
+                        <td style="color: #f59e0b;">🟠 Alta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Oi Fibra</strong></td>
+                        <td>Reunião CISO</td>
+                        <td>Ramão Bueno</td>
+                        <td>22 jun</td>
+                        <td style="color: #10b981;">🟢 Média</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p><strong>Gestor do Pipeline:</strong> Ramão Bueno da Silva Neto | Parceiro Sênior Account</p>
+            <p style="margin-top: 8px;">📧 oiconsulbrasil@gmail.com | 📞 WhatsApp: +55 21967531414</p>
+            <p style="margin-top: 12px; color: #666;">Atualizado: 08 de junho de 2026 | Fenice B2B Sales Operations</p>
+        </footer>
+    </div>
+</body>
+</html>

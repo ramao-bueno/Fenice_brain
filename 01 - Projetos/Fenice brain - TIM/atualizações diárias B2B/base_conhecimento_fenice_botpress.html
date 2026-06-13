@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Conhecimento - Fenice B2B Botpress Cloud</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            border-bottom: 4px solid #0066cc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 24px;
+            color: #0066cc;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 4px solid #0066cc;
+            padding-left: 15px;
+        }
+        h3 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #0066cc;
+        }
+        .qa {
+            margin-bottom: 25px;
+        }
+        .question {
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .answer {
+            color: #555;
+            margin-left: 20px;
+            line-height: 1.7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #0066cc;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .code-block {
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+        .highlight {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .error {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .badge {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .toc {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .toc h3 {
+            margin-top: 0;
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .toc li {
+            padding: 5px 0;
+        }
+        .toc a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #0066cc;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+        .page-break {
+            page-break-after: always;
+        }
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+            .page-break { page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Base de Conhecimento - Fenice B2B</h1>
+            <p class="subtitle">Estratégia de Atendimento Automático para TIM Business | Botpress Cloud</p>
+        </header>
+
+        <div class="toc">
+            <h3>📋 Índice</h3>
+            <ul>
+                <li>1. Sobre Fenice B2B</li>
+                <li>2. Health Score Tridimensional</li>
+                <li>3. Churn Fantasma - Detecção & Prevenção</li>
+                <li>4. QBR - Quarterly Business Review</li>
+                <li>5. Revenue Orchestration (Tiffani Bova)</li>
+                <li>6. Templates & Scripts</li>
+                <li>7. Segmentação por Setor</li>
+                <li>8. FAQ + Casos de Uso</li>
+            </ul>
+        </div>
+
+        <h2>1️⃣ SOBRE FENICE B2B</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">❓ O que é Fenice B2B?</div>
+                <div class="answer">
+                    <p><strong>Fenice B2B</strong> é uma plataforma de Customer Success estratégica para operadores Farmer da TIM Business. Diferente de um CRM tradicional, Fenice é um "Resultado Desejado Manager" que:</p>
+                    <ul>
+                        <li><strong>Monitora Health Score</strong> (tridimensional) de cada conta corporativa</li>
+                        <li><strong>Detecta Churn Fantasma</strong> antes do cancelamento silencioso</li>
+                        <li><strong>Orquestra crescimento de receita</strong> com Up-Sell e Cross-Sell natural</li>
+                        <li><strong>Garante que clientes atinjam seus objetivos</strong> (filosofia Lincoln Murphy)</li>
+                    </ul>
+                    <div class="success">
+                        <strong>💡 Impacto:</strong> Reduz churn em até 60%, aumenta MRR growth em +3-5%, melhora NPS para 8+.
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Qual é a diferença entre Hunter e Farmer?</div>
+                <div class="answer">
+                    <table>
+                        <tr>
+                            <th>Aspecto</th>
+                            <th>Hunter</th>
+                            <th>Farmer</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Foco</strong></td>
+                            <td>Fechar novo cliente</td>
+                            <td>Reter + expandir</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Horizonte</strong></td>
+                            <td>30-90 dias</td>
+                            <td>24+ meses</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Métrica</strong></td>
+                            <td>Deals fechados</td>
+                            <td>Churn%, MRR growth</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ferramenta</strong></td>
+                            <td>CRM (pipeline)</td>
+                            <td>Fenice B2B (saúde)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mentalidade</strong></td>
+                            <td>"Vender mais"</td>
+                            <td>"Criar valor"</td>
+                        </tr>
+                    </table>
+                    <p><strong>Fenice resolve o grande erro:</strong> Antes, operador via fatura normal e não notava que cliente estava saindo silenciosamente. Agora, detecta sinais 60+ dias antes do cancelamento.</p>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Por que se chama "Churn Fantasma"?</div>
+                <div class="answer">
+                    <p><strong>Churn Fantasma</strong> = Cliente que <strong>tecnicamente está ativo</strong> (paga faturas normalmente) mas <strong>operacionalmente está morto</strong> (não usa, não engaja, está saindo silenciosamente).</p>
+                    <div class="highlight">
+                        <strong>Sinais:</strong>
+                        <ul>
+                            <li>✅ Faturamento: Normal</li>
+                            <li>❌ Dados: -40% vs. 30 dias atrás</li>
+                            <li>❌ Tickets: 0 em 120 dias</li>
+                            <li>❌ Emails: Não abre</li>
+                            <li>❌ Interações: Última foi 180+ dias atrás</li>
+                        </ul>
+                    </div>
+                    <p><strong>Importância:</strong> Evita descobrir churn apenas quando cliente liga para cancelar.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>2️⃣ HEALTH SCORE TRIDIMENSIONAL</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">❓ Como funciona o Health Score?</div>
+                <div class="answer">
+                    <p><strong>Health Score não é uma métrica única.</strong> É a combinação de <strong>três dimensões</strong>:</p>
+                    <div class="code-block">
+1. DESIRED_OUTCOME (40% peso)
+   └─ Cliente está alcançando seu objetivo de negócio?
+      Ex: "Reduzir custos de link em 20%" → Progresso?
+
+2. ENGAGEMENT (40% peso)
+   └─ Cliente está usando ativamente?
+      Métricas: tickets/mês, resposta a emails, uso de dados vs. capacidade
+
+3. RISK (20% peso, invertido)
+   └─ Há sinais de churn iminente?
+      Métricas: MRR decline, Fantasma signals, silêncio prolongado
+                    </div>
+                    <p><strong>Cálculo:</strong></p>
+                    <div class="code-block">
+Score = (Outcome × 0.4) + (Engagement × 0.4) + ((10-Risk) × 0.2)
+                    </div>
+                    <p><strong>Classificação:</strong></p>
+                    <ul>
+                        <li><span class="badge">🟢 GREEN</span> (7.5+): Saudável → Foco: Expansão (Up-Sell)</li>
+                        <li><span class="badge">🟡 YELLOW</span> (5.0-7.4): Em alerta → Foco: Estabilizar</li>
+                        <li><span class="badge">🔴 RED</span> (<5.0): Crítico → Foco: Retenção de emergência</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>3️⃣ CHURN FANTASMA - DETECÇÃO & PREVENÇÃO</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">❓ Como Fenice detecta Churn Fantasma?</div>
+                <div class="answer">
+                    <p><strong>Sistema automático</strong> roda diariamente (02:00 AM) analisando 5 métricas:</p>
+                    <div class="code-block">
+1. DATA_USAGE_TREND
+   └─ Compara últimos 30 dias vs. 30 dias anteriores
+   └─ IF queda > 30% → Flag: "Uso reduzido"
+
+2. INTERACTION_FREQUENCY
+   └─ Conta tickets, chamados, emails últimos 90 dias
+   └─ IF = 0 → Flag: "Desengajado"
+
+3. SUPPORT_RESPONSE
+   └─ Há respostas pendentes há 60+ dias?
+   └─ IF sim → Flag: "Silêncio prolongado"
+
+4. EMAIL_ENGAGEMENT
+   └─ Taxa de abertura de emails TIM
+   └─ IF < 10% → Flag: "Desinteressado"
+
+5. MRR_TREND
+   └─ Caiu, estável ou subiu?
+   └─ IF estável + sinais acima = Fantasma (não é problema financeiro)
+                    </div>
+                    <p><strong>TRIGGER DE ALERTA:</strong></p>
+                    <div class="highlight">
+IF (data_usage_down > 30%) AND <br/>
+   (tickets = 0) AND <br/>
+   (silence > 90 dias)<br/>
+THEN<br/>
+  severity = "CRITICAL"<br/>
+  signal_type = "CHURN_FANTASMA"<br/>
+  action = "REENGAGEMENT_QBR_URGENT"<br/>
+  notify_operator = true
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Qual é o protocolo de reengajamento?</div>
+                <div class="answer">
+                    <p><strong>Protocolo de 7 dias</strong> para recuperar conta Fantasma:</p>
+                    <div class="code-block">
+DIA 1 (Assim que alerta):
+├─ Enviar: Email de reengajamento (Fenice gera via IA)
+├─ Propor: Consultoria GRÁTIS para otimizar
+└─ Agendar: Follow-up automático em 3 dias se não responder
+
+DIA 3 (Se não respondeu):
+├─ Ligar: Script Fenice + histórico para referência
+├─ Oferecer: Reunião de otimização GRÁTIS
+└─ Se nada: Deixar mensagem, tentar novamente dia 5
+
+DIA 7 (Última tentativa):
+├─ Enviar: Email "conversinha" (tom genuíno, não vendedor)
+├─ Se responder: Agendar reunião com proposta
+└─ Se nada: Escalar para Team Lead (reunião executiva)
+                    </div>
+                    <div class="success">
+                        <strong>RESULTADO ESPERADO:</strong><br/>
+                        • Semana 1: 40% das contas Fantasma respondem<br/>
+                        • Semana 2-3: 30% voltam a usar ativamente (reengajadas)<br/>
+                        • <strong>Taxa de recuperação: ~45% em 30 dias</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>4️⃣ QBR - QUARTERLY BUSINESS REVIEW</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">❓ O que é QBR?</div>
+                <div class="answer">
+                    <p><strong>QBR</strong> = Reunião trimestral estratégica onde operador Farmer senta com cliente para:</p>
+                    <div class="success">
+                        <ul>
+                            <li>✅ Avaliar se <strong>Resultado Desejado foi alcançado</strong> (Lincoln Murphy)</li>
+                            <li>✅ Identificar novos desafios + oportunidades</li>
+                            <li>✅ Propor expansão consultivamente (Tiffani Bova)</li>
+                            <li>✅ Renovar contrato com entusiasmo (Jeanne Bliss)</li>
+                        </ul>
+                    </div>
+                    <div class="error">
+                        <strong>O que NÃO é:</strong>
+                        <ul>
+                            <li>❌ Reunião de suporte técnico</li>
+                            <li>❌ Cobrança de fatura</li>
+                            <li>❌ Check-in genérico ("tudo OK?")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>5️⃣ REVENUE ORCHESTRATION (TIFFANI BOVA)</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">❓ Como funciona Up-Sell & Cross-Sell consultivamente?</div>
+                <div class="answer">
+                    <p><strong>Revenue Orchestration</strong> = Recomendações de expansão que parecem consultoria, não vendagem.</p>
+                    <div class="error">
+                        <strong>Abordagem ERRADA (Agressiva):</strong><br/>
+                        "Temos IoT para vender. Vocês querem?"
+                    </div>
+                    <div class="success">
+                        <strong>Abordagem CERTA (Consultiva):</strong><br/>
+                        "Notei que sua operação em SP cresceu muito.<br/>
+                        Como está a visibilidade da frota em tempo real?<br/>
+                        Muitos clientes desse porte adoraram nossa solução de IoT.<br/>
+                        Reduz custos de combustível 12-15%. Quer que mostremos?"
+                    </div>
+                    <p><strong>Taxa de aceitação:</strong></p>
+                    <ul>
+                        <li>Vendagem direta: ~20%</li>
+                        <li>Consultoria via Fenice: ~60% (3x melhor!)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>6️⃣ TEMPLATES & SCRIPTS</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">📧 Template: Email de Churn Fantasma</div>
+                <div class="answer">
+                    <div class="code-block">
+Subject: Auditoria Gratuita de Saúde [SUA_EMPRESA]
+
+Olá [NOME_CONTATO],
+
+Ao analisar sua conta, notamos alguns indicadores interessantes:
+
+✓ Uso de dados em queda (-35% nos últimos 30 dias)
+✓ Nenhum chamado técnico nos últimos 120 dias
+✓ SLA breaches detectados (2 em 90 dias)
+
+Isso pode indicar:
+- Subutilização de linhas (oportunidade de economia)
+- Bloqueio técnico não reportado (podemos resolver)
+- Mudança de prioridade operacional (let's realign)
+
+Gostaria de oferecer uma auditoria GRATUITA de 2 horas para
+entender o que está acontecendo e como podemos melhorar.
+
+Está livre próxima semana? Tenho alguns horários disponíveis.
+
+Abraços,
+[OPERADOR_NOME]
+[TELEFONE]
+[EMAIL]
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>7️⃣ SEGMENTAÇÃO POR SETOR</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">🏭 Pitch: Indústria Pesada</div>
+                <div class="answer">
+                    <p><strong>PAIN POINT:</strong> Múltiplas filiais, altos custos telecom, redundância crítica</p>
+                    <div class="code-block">
+PITCH:
+"Indústrias como a sua têm múltiplas linhas não utilizadas.
+ Você paga por capacidade que não usa.
+
+ Fenice B2B vai mostrar EXATAMENTE onde cortar.
+ Otimização típica: -20-30% em custos de telecom.
+
+ Para sua MRR de R$150K = economia de R$30-45K/ano.
+
+ Health Score mostra: Quais linhas subutilizadas?
+                     Qual o risco de downtime se cortar?
+                     Qual a proposta de consolidação?
+
+ Auditoria GRÁTIS de 2 horas. Que tal agendar?"
+
+ROI ESPERADO: R$200K-500K/ano em economia
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">🚢 Pitch: Serviços Críticos</div>
+                <div class="answer">
+                    <p><strong>PAIN POINT:</strong> Operações 24/7, SLA crítico, perda $ em downtime = risco imenso</p>
+                    <div class="code-block">
+PITCH:
+"Fenice detecta sinais de churn ANTES do cliente sair.
+ SLA breaches = risco imediato de perder Key Accounts.
+
+ Nosso sistema previne silêncio (Churn Fantasma):
+ ✓ Detecta queda de engajamento 60+ dias antes
+ ✓ Propõe reengajamento com consultoria
+ ✓ Renova contrato com blindagem de SLA
+
+ Resultado: Segurança de receita + cliente feliz.
+
+ Renovation antecipada com termos melhorados = WIN-WIN.
+
+ Podemos rodar uma análise de saúde da sua conta agora?
+ 15 minutos. Qual seu melhor horário?"
+
+ROI ESPERADO: R$500K-1M/ano em retenção
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>8️⃣ CASOS DE SUCESSO</h2>
+
+        <div class="section">
+            <div class="qa">
+                <div class="question">✅ Caso 1: Detectar Fantasma & Recuperar</div>
+                <div class="answer">
+                    <div class="code-block">
+SITUAÇÃO:
+- TechFlow: MRR R$85K, cliente desde 3 anos
+- Comportamento: Usa 20% da capacidade, 0 tickets em 120 dias
+
+FENICE DETECTA:
+- Dados: -45% vs. 30 dias atrás
+- Interações: Zero
+- Silêncio: 150+ dias
+- Diagnóstico: CHURN_FANTASMA_CRITICAL
+
+AÇÃO:
+- Dia 1: Email de reengajamento
+- Dia 3: Call para entender
+- Dia 7: Proposta de consultoria otimização
+
+RESULTADO:
+- 🟢 Cliente responde: "Verdade, projeto parou"
+- Ação: Retomar projeto = reengajamento
+- Economia para cliente: -15% em custos
+- Risco evitado: R$85K de churn
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">🚀 Caso 2: QBR Green → Up-Sell → Expansão</div>
+                <div class="answer">
+                    <div class="code-block">
+SITUAÇÃO:
+- Global Logistics: MRR R$320K, Health GREEN
+- Resultado Desejado: "Latência SP-MG < 50ms" → ✅ ALCANÇADO
+
+DURANTE QBR:
+- Operador: "Parabéns! Meta atingida. E agora, novo desafio?"
+- Cliente: "Sim! Filial SP cresceu, falta visibilidade de frota"
+- Operador: "Perfeito. Podemos IoT + Cloud. ROI R$60K/ano"
+
+RESULTADO:
+- 💰 Renovação: R$320K × 24 meses = R$7.68M
+- 💰 Expansão: R$25K × 24 meses = R$600K
+- 📈 Total: R$8.28M (vs. R$7.68M sem Up-Sell)
+- 🎯 Margem de crescimento: +7.8%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>💡 INSIGHTS FINAIS</h2>
+
+        <div class="section">
+            <p><strong>Fenice B2B não é CRM. É "Resultado Desejado Manager":</strong></p>
+            <div class="success">
+                <ul>
+                    <li>✅ <strong>Lincoln Murphy:</strong> Garante cliente alcance seu objetivo</li>
+                    <li>✅ <strong>Tiffani Bova:</strong> Orquestra receita (Up-Sell/Cross-Sell) consultivamente</li>
+                    <li>✅ <strong>Jeanne Bliss:</strong> Relacionamento humano que importa</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>O Grande Diferencial:</strong><br/>
+                ❌ ANTES: "Vejo fatura normal. Cliente vai cancelar? Só descubro depois"<br/>
+                ✅ AGORA: "Vejo Health Score. Noto Fantasma. Reengajo 60 dias antes"
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Base de Conhecimento v1.0 | Junho 2026 | Fenice B2B</strong></p>
+            <p>Estratégia de Atendimento Automático para Botpress Cloud</p>
+            <p>Para converter para PDF: Imprima esta página (Ctrl+P) e escolha "Salvar como PDF"</p>
+        </div>
+    </div>
+</body>
+</html>

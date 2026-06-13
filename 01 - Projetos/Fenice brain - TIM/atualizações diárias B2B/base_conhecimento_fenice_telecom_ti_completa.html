@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Conhecimento Integrada: Fenice B2B + Telecom + TI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #222;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px 40px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            border-bottom: 5px solid #0066cc;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .meta {
+            font-size: 13px;
+            color: #999;
+            margin-top: 10px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #0066cc;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            border-left: 5px solid #0066cc;
+            padding-left: 15px;
+            page-break-after: avoid;
+        }
+        h3 {
+            font-size: 20px;
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        h4 {
+            font-size: 16px;
+            color: #0066cc;
+            margin-top: 18px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 5px solid #0066cc;
+            page-break-inside: avoid;
+        }
+        .qa {
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+        }
+        .question {
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .answer {
+            color: #555;
+            margin-left: 15px;
+            line-height: 1.7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            page-break-inside: avoid;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #0066cc;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .code-block {
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            overflow-x: auto;
+            line-height: 1.5;
+        }
+        .highlight-green {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .highlight-yellow {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .highlight-red {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+        .badge {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .toc {
+            background: #f0f0f0;
+            padding: 25px;
+            border-radius: 5px;
+            margin-bottom: 40px;
+            page-break-inside: avoid;
+        }
+        .toc h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .toc li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .toc li:last-child {
+            border-bottom: none;
+        }
+        .toc a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 2px solid #0066cc;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+        .page-break {
+            page-break-after: always;
+        }
+        strong {
+            color: #0066cc;
+        }
+        .metric {
+            background: #e8f4f8;
+            padding: 12px;
+            border-radius: 3px;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; padding: 30px; }
+            h2 { page-break-after: avoid; }
+            .section { page-break-inside: avoid; }
+            .qa { page-break-inside: avoid; }
+            table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 BASE DE CONHECIMENTO INTEGRADA</h1>
+            <p class="subtitle">Fenice B2B + Telecomunicações + Tecnologia da Informação</p>
+            <p class="meta">
+                <strong>Documento Estratégico para Operadores Farmer TIM Business</strong><br/>
+                Junho 2026 | Versão 1.0 | Ramão Bueno da Silva Neto
+            </p>
+        </header>
+
+        <div class="toc">
+            <h3>📖 Índice Completo</h3>
+            <ul>
+                <li><strong>PARTE 1:</strong> Fundamentos de Telecom & TI</li>
+                <li><strong>PARTE 2:</strong> Fenice B2B - Plataforma de Customer Success</li>
+                <li><strong>PARTE 3:</strong> Health Score & Churn Fantasma</li>
+                <li><strong>PARTE 4:</strong> QBR & Revenue Orchestration</li>
+                <li><strong>PARTE 5:</strong> Templates, Pitch & Casos de Sucesso</li>
+                <li><strong>PARTE 6:</strong> Métricas & KPIs Operacionais</li>
+                <li><strong>PARTE 7:</strong> Roadmap Técnico & Implementação</li>
+            </ul>
+        </div>
+
+        <h2>🔧 PARTE 1: FUNDAMENTOS DE TELECOM & TI</h2>
+
+        <div class="section">
+            <h3>1.1 Pilares da Infraestrutura de Telecomunicações</h3>
+
+            <div class="qa">
+                <div class="question">❓ O que é uma Operadora de Telecom (Operadora)?</div>
+                <div class="answer">
+                    <p>Operadora de telecomunicações é empresa que fornece serviços de voz, dados e vídeo para clientes corporativos e residenciais.</p>
+                    <p><strong>Serviços Principais:</strong></p>
+                    <ul>
+                        <li><strong>Voz (Telefonia):</strong> Chamadas fixas, móveis, ramal corporativo</li>
+                        <li><strong>Dados (Internet/Banda Larga):</strong> Fibra, 4G/5G, MPLS, linhas dedicadas</li>
+                        <li><strong>Vídeo:</strong> IPTV, streaming, conferência</li>
+                        <li><strong>TI:</strong> Cloud, hosting, segurança cibernética</li>
+                    </ul>
+                    <p><strong>Modelo de Negócio (B2B - TIM Business):</strong></p>
+                    <ul>
+                        <li>MRR (Monthly Recurring Revenue): Faturamento mensal previsível</li>
+                        <li>Clientes: PMEs até Key Accounts (R$50K-500K+/mês)</li>
+                        <li>SLA (Service Level Agreement): Garantia de uptime, latência</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Qual é a Infraestrutura Típica de uma Operadora?</div>
+                <div class="answer">
+                    <div class="code-block">
+┌─────────────────────────────────────────────┐
+│ DATA CENTER (Cloud, Hosting)                │
+│ ├─ Servidores                               │
+│ ├─ Armazenamento                            │
+│ └─ Segurança                                │
+└─────────────────────┬───────────────────────┘
+                      │
+┌─────────────────────┴───────────────────────┐
+│ REDE BACKBONE (Espinha Dorsal)              │
+│ ├─ Fibra óptica (alta velocidade)           │
+│ ├─ MPLS (roteamento inteligente)            │
+│ ├─ Switches core                            │
+│ └─ Roteadores                               │
+└─────────────────────┬───────────────────────┘
+                      │
+    ┌─────────────────┼─────────────────┐
+    │                 │                 │
+┌───▼────┐      ┌────▼────┐      ┌────▼────┐
+│ 4G/5G  │      │ Fibra   │      │ ADSL    │
+│ (Mobile)│      │ (Fixo)  │      │ (Legacy)│
+└────────┘      └─────────┘      └────────┘
+    │                 │                 │
+    └─────────────────┼─────────────────┘
+                      │
+            ┌─────────▼─────────┐
+            │ CLIENTE CORPORATIVO│
+            │ (PME, Key Account) │
+            └───────────────────┘
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ O que é SLA (Service Level Agreement)?</div>
+                <div class="answer">
+                    <p><strong>SLA = Contrato de Nível de Serviço</strong> que garante performance mínima.</p>
+                    <div class="metric">
+                        <strong>Exemplos de SLA Telecom:</strong><br/>
+                        • Uptime: 99.9% (max 8.6h downtime/mês)<br/>
+                        • Latência: &lt; 50ms (rote SP-MG)<br/>
+                        • Jitter: &lt; 10ms (variação de latência)<br/>
+                        • Perda de Pacotes: &lt; 0.1%
+                    </div>
+                    <div class="highlight-red">
+                        <strong>⚠️ Impacto Financeiro:</strong> Se operadora falha SLA → Crédito automático (1-5% da fatura) ou cliente sai.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>🎯 PARTE 2: FENICE B2B - PLATAFORMA DE CUSTOMER SUCCESS</h2>
+
+        <div class="section">
+            <h3>2.1 O que é Fenice B2B?</h3>
+
+            <div class="qa">
+                <div class="question">❓ Fenice B2B - Definição Estratégica</div>
+                <div class="answer">
+                    <p><strong>Fenice B2B</strong> é uma plataforma SaaS de Customer Success projetada para <strong>operadores Farmer da TIM Business</strong> gerenciarem carteiras de contas corporativas.</p>
+
+                    <div class="highlight-green">
+                        <strong>Objetivo Principal:</strong> Transformar operador Farmer de "gerenciador de fatura" para "gestor de resultado do cliente"
+                    </div>
+
+                    <p><strong>3 Pilares Filosóficos:</strong></p>
+                    <ul>
+                        <li><strong>Lincoln Murphy (Desired Outcome):</strong> Garantir que cliente atinja seu objetivo de negócio</li>
+                        <li><strong>Tiffani Bova (Revenue Orchestration):</strong> Orquestrar up-sell/cross-sell consultivamente</li>
+                        <li><strong>Jeanne Bliss (Human SLA):</strong> Relacionamento humano que importa (quebra silos Hunter/Farmer)</li>
+                    </ul>
+
+                    <div class="metric">
+                        <strong>💰 Impacto Esperado:</strong><br/>
+                        • ↓ Churn: Redução de 60% (prevenção antecipada)<br/>
+                        • ↑ MRR Growth: +3-5% ao trimestre (up-sell)
+                        <br/>
+                        • ↑ NPS: Melhoria para 8+ (satisfação genuína)
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Arquitetura Fenice B2B</div>
+                <div class="answer">
+                    <div class="code-block">
+┌────────────────────────────────────────┐
+│ FRONTEND - Dashboard Farmer             │
+│ ├─ Portfolio Overview (Green/Yellow/Red)│
+│ ├─ Churn Fantasma Alerts                │
+│ ├─ QBR Workbench                        │
+│ └─ Revenue Orchestration                │
+└────────────────┬───────────────────────┘
+                 │
+┌────────────────┴───────────────────────┐
+│ BACKEND - Serviços Inteligentes         │
+│ ├─ Health Score Engine (3D)             │
+│ ├─ Churn Prediction (ML)                │
+│ ├─ Template Generator (Claude IA)       │
+│ └─ Revenue Recommender                  │
+└────────────────┬───────────────────────┘
+                 │
+┌────────────────┴───────────────────────┐
+│ DATA LAYER - Inteligência               │
+│ ├─ Account Health Metrics               │
+│ ├─ Interaction History (tickets/calls)  │
+│ ├─ Churn Signals (Fantasma Detection)   │
+│ └─ Desired Outcome Tracking             │
+└────────────────────────────────────────┘
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>📊 PARTE 3: HEALTH SCORE & CHURN FANTASMA</h2>
+
+        <div class="section">
+            <h3>3.1 Health Score Tridimensional</h3>
+
+            <div class="qa">
+                <div class="question">❓ Como Funciona o Health Score?</div>
+                <div class="answer">
+                    <p><strong>Health Score</strong> é a composição de 3 dimensões que medem "saúde" da conta:</p>
+
+                    <table>
+                        <tr>
+                            <th>Dimensão</th>
+                            <th>Métrica</th>
+                            <th>Peso</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Desired Outcome</strong></td>
+                            <td>% da meta alcançada</td>
+                            <td>40%</td>
+                            <td>"Reduzir latência 20%" → 18% alcançado = 9/10</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Engagement</strong></td>
+                            <td>Tickets, emails, uso de dados</td>
+                            <td>40%</td>
+                            <td>3 tickets/mês, responde emails, usa 70% capacidade = 8/10</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Risk (invertido)</strong></td>
+                            <td>MRR decline, Fantasma, silêncio</td>
+                            <td>20%</td>
+                            <td>MRR estável, 0 Fantasma signals, ultima interacao 30d = 2/10 (invertido 8/10)</td>
+                        </tr>
+                    </table>
+
+                    <div class="code-block">
+Score = (Outcome × 0.4) + (Engagement × 0.4) + ((10-Risk) × 0.2)
+Score = (9 × 0.4) + (8 × 0.4) + (8 × 0.2)
+Score = 3.6 + 3.2 + 1.6 = 8.4 → 🟢 GREEN
+                    </div>
+
+                    <div class="metric">
+                        <strong>Classificação:</strong><br/>
+                        <span class="badge">🟢 GREEN (7.5+)</span> Saudável → Foco: Up-Sell<br/>
+                        <span class="badge">🟡 YELLOW (5.0-7.4)</span> Alerta → Foco: Estabilizar<br/>
+                        <span class="badge">🔴 RED (<5.0)</span> Crítico → Foco: Retenção
+                    </div>
+                </div>
+            </div>
+
+            <h3>3.2 Churn Fantasma - O "Assassino Silencioso"</h3>
+
+            <div class="qa">
+                <div class="question">❓ O que é Churn Fantasma?</div>
+                <div class="answer">
+                    <p><strong>Churn Fantasma</strong> = Cliente que <strong>tecnicamente está ativo</strong> (paga faturas) mas <strong>operacionalmente está morto</strong> (não usa, vai sair em 30-60 dias).</p>
+
+                    <div class="highlight-yellow">
+                        <strong>Sinais Clássicos:</strong><br/>
+                        ✅ Faturamento: Normal (R$150K/mês)<br/>
+                        ❌ Dados: -45% vs. mês anterior<br/>
+                        ❌ Tickets: ZERO em 120 dias<br/>
+                        ❌ Emails: Taxa abertura 5%<br/>
+                        ❌ Silêncio: 180+ dias sem contato
+                    </div>
+
+                    <p><strong>Por que importa?</strong></p>
+                    <ul>
+                        <li>❌ <strong>Sem Fenice:</strong> Operador vê fatura normal → "tá tudo bem" → cliente cancela depois</li>
+                        <li>✅ <strong>Com Fenice:</strong> Sistema detecta Fantasma em dia 90 → operador reengaja → retém conta</li>
+                    </ul>
+
+                    <div class="metric">
+                        <strong>🎯 Impacto:</strong> Taxa de recuperação Fantasma = ~45% em 30 dias com protocolo Fenice
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">❓ Como Fenice Detecta Churn Fantasma?</div>
+                <div class="answer">
+                    <p>Sistema automático (roda 02:00 AM daily) analisa 5 triggers:</p>
+
+                    <div class="code-block">
+1. DATA_USAGE_TREND: Queda > 30% em 30 dias?
+2. INTERACTION_FREQUENCY: Zero tickets em 90 dias?
+3. SUPPORT_RESPONSE: Respostas pendentes há 60+ dias?
+4. EMAIL_ENGAGEMENT: Taxa abertura < 10%?
+5. MRR_TREND: Estável + sinais acima = Fantasma puro
+
+IF (data↓ 30%) AND (tickets=0) AND (silence>90d)
+THEN severity=CRITICAL, action=REENGAGEMENT_URGENT
+                    </div>
+
+                    <div class="highlight-green">
+                        <strong>✅ Vantagem Fenice:</strong> Detecção automática 60+ dias antes do cliente sair
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>🎤 PARTE 4: QBR & REVENUE ORCHESTRATION</h2>
+
+        <div class="section">
+            <h3>4.1 QBR - Quarterly Business Review</h3>
+
+            <div class="qa">
+                <div class="question">❓ O que é QBR? Por que importa?</div>
+                <div class="answer">
+                    <p><strong>QBR</strong> = Reunião trimestral estratégica (45-60 min) onde operador avalia <strong>se cliente alcançou seu Resultado Desejado</strong>.</p>
+
+                    <div class="highlight-green">
+                        <strong>✅ QBR Bem-Sucedido:</strong><br/>
+                        1. Parabéns ao cliente (meta alcançada)<br/>
+                        2. Identifica bloqueios + nova dor<br/>
+                        3. Propõe up-sell consultivamente<br/>
+                        4. Renova contrato com entusiasmo
+                    </div>
+
+                    <div class="highlight-red">
+                        <strong>❌ Reunião Genérica (ERRADA):</strong> Check-in técnico, cobrança, "tudo OK?"
+                    </div>
+
+                    <div class="metric">
+                        <strong>💰 ROI de QBR Bem-Feito:</strong><br/>
+                        • Taxa renovação: 95% (vs. 85% sem QBR)<br/>
+                        • Up-Sell rate: 20% das contas expandem<br/>
+                        • NPS: Melhoria de 1-2 pontos
+                    </div>
+                </div>
+            </div>
+
+            <h3>4.2 Revenue Orchestration (Tiffani Bova)</h3>
+
+            <div class="qa">
+                <div class="question">❓ Como Fazer Up-Sell Sem Parecer Vendedor?</div>
+                <div class="answer">
+                    <p><strong>Revenue Orchestration</strong> = Recomendações de expansão que são consultoria, não vendagem.</p>
+
+                    <div class="code-block">
+ABORDAGEM ❌ (AGRESSIVA):
+"Temos IoT para vender. Vocês querem?"
+
+ABORDAGEM ✅ (CONSULTIVA):
+"Notei que sua operação em SP cresceu.
+ Como está a visibilidade de frota em tempo real?
+ Muitos clientes desse porte adoraram IoT.
+ Reduz combustível 12-15%. Quer que mostremos?"
+                    </div>
+
+                    <div class="metric">
+                        <strong>📊 Taxa de Aceitação:</strong><br/>
+                        • Vendagem direta: ~20%<br/>
+                        • Consultiva (Fenice): ~60% (3X melhor!)
+                    </div>
+
+                    <p><strong>Exemplo Real:</strong> Global Logistics (MRR R$320K, GREEN)</p>
+                    <ul>
+                        <li><strong>Resultado Desejado:</strong> "Latência SP-MG < 50ms"</li>
+                        <li><strong>Status:</strong> ✅ ALCANÇADO (latência = 45ms)</li>
+                        <li><strong>QBR Proposta:</strong> "Filial SP cresceu. Visibilidade de frota?"</li>
+                        <li><strong>Cliente Interesse:</strong> "Sim! Falta rastreamento"</li>
+                        <li><strong>Proposta:</strong> IoT + Cloud. ROI R$60K/ano</li>
+                        <li><strong>Resultado:</strong> ✅ Renovação 24m + Up-Sell R$25K/mês = +R$600K MRR</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>💼 PARTE 5: TEMPLATES, PITCH & CASOS</h2>
+
+        <div class="section">
+            <h3>5.1 Email Template - Churn Fantasma</h3>
+
+            <div class="code-block">
+Subject: Auditoria Gratuita de Saúde [EMPRESA]
+
+Olá [NOME],
+
+Ao analisar sua conta, notamos indicadores interessantes:
+
+✓ Uso de dados em queda (-45% em 30 dias)
+✓ Zero chamados técnicos em 120 dias
+✓ SLA breaches detectados (2 em 90 dias)
+
+Isso pode indicar:
+- Subutilização (economia de custos)
+- Bloqueio técnico (podemos resolver)
+- Mudança de prioridade (let's realign)
+
+Ofereço auditoria GRATUITA de 2 horas.
+Qual seu melhor horário próxima semana?
+
+Abraços,
+[OPERADOR]
+[TELEFONE]
+            </div>
+
+            <h3>5.2 Pitch por Segmento</h3>
+
+            <div class="qa">
+                <div class="question">🏭 Indústria Pesada (Pain: Múltiplas filiais, custos altos)</div>
+                <div class="answer">
+                    <div class="code-block">
+"Indústrias como a sua têm múltiplas linhas não utilizadas.
+ Você paga por capacidade que não usa.
+
+ Fenice detecta exatamente onde cortar.
+ Otimização típica: -20-30% em custos telecom.
+
+ Para sua MRR de R$150K = economia R$30-45K/ano.
+
+ Health Score mostra: Quais linhas subutilizadas?
+                      Risco de downtime se cortar?
+                      Proposta de consolidação?
+
+ Auditoria GRÁTIS 2h. Que tal agendar?"
+
+ROI: R$200K-500K/ano em economia
+                    </div>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="question">🚢 Serviços Críticos (Pain: 24/7, SLA crítico, downtime = $$$)</div>
+                <div class="answer">
+                    <div class="code-block">
+"Fenice detecta sinais de churn 60+ dias antes.
+ SLA breaches = risco imediato de perder Key Accounts.
+
+ Sistema previne 'Churn Fantasma':
+ ✓ Detecta queda engajamento antes de cancelar
+ ✓ Propõe reengajamento consultivo
+ ✓ Renova com blindagem SLA
+
+ Resultado: Segurança de receita + cliente feliz.
+ Renovation antecipada = WIN-WIN.
+
+ Análise de saúde da sua conta: 15 min. Horário?"
+
+ROI: R$500K-1M/ano em retenção
+                    </div>
+                </div>
+            </div>
+
+            <h3>5.3 Caso de Sucesso: Salvar Red Account</h3>
+
+            <div class="code-block">
+SITUAÇÃO:
+- ProTech: MRR R$250K, Health RED
+- Problema: Resultado Desejado não alcançado
+- Risco: Churn de Key Account
+
+FENICE ALERTA: 🔴 CRÍTICO
+
+AÇÃO (24h):
+- Manager liga pessoalmente
+- Entende dor real ("Falhamos em que?")
+- Propõe plano recuperação (investimento TIM)
+
+PROPOSTA RETENÇÃO:
+- Desconto: -10% (R$25K/mês × 12m)
+- Investimento TIM: R$50K implementação
+- SLA upgrade: 99.8% → 99.95%
+- Gerenciador: Team Lead dedicado
+
+RESULTADO:
+✅ Recupera: RED → YELLOW em 7 dias
+✅ Renova: 24 meses
+✅ Evita perda: R$250K/ano
+✅ ROI investimento: 5 meses (payback rápido)
+            </div>
+        </div>
+
+        <h2>📈 PARTE 6: MÉTRICAS & KPIs OPERACIONAIS</h2>
+
+        <div class="section">
+            <table>
+                <tr>
+                    <th>KPI</th>
+                    <th>Cálculo</th>
+                    <th>Target</th>
+                    <th>Impacto</th>
+                </tr>
+                <tr>
+                    <td><strong>Churn Rate</strong></td>
+                    <td>Contas canceladas / Total</td>
+                    <td>≤ 5%</td>
+                    <td>Reter base de receita</td>
+                </tr>
+                <tr>
+                    <td><strong>MRR Growth</strong></td>
+                    <td>(MRR_atual - MRR_90d) / MRR_90d</td>
+                    <td>≥ 2.5%</td>
+                    <td>Expandir receita (up-sell)</td>
+                </tr>
+                <tr>
+                    <td><strong>Up-Sell Rate</strong></td>
+                    <td>Contas expandidas / Total</td>
+                    <td>≥ 15%/trim</td>
+                    <td>Revenue crescimento via expansão</td>
+                </tr>
+                <tr>
+                    <td><strong>NPS</strong></td>
+                    <td>Pergunta: "Recomendaria?" (0-10)</td>
+                    <td>≥ 7.5</td>
+                    <td>Satisfação + preditor de churn</td>
+                </tr>
+                <tr>
+                    <td><strong>Renovation Rate</strong></td>
+                    <td>Renovadas / Total em vencimento</td>
+                    <td>≥ 90%</td>
+                    <td>Certeza de receita futura</td>
+                </tr>
+                <tr>
+                    <td><strong>Fantasma Recovery</strong></td>
+                    <td>Contas fantasma resgatadas</td>
+                    <td>≥ 45%/30d</td>
+                    <td>Evitar surpresas de churn</td>
+                </tr>
+                <tr>
+                    <td><strong>Avg Response Time</strong></td>
+                    <td>Tempo até operador responder</td>
+                    <td>&lt; 4h</td>
+                    <td>SLA, satisfação cliente</td>
+                </tr>
+            </table>
+
+            <div class="metric">
+                <strong>📊 Benchmark Operador Farmer Médio:</strong><br/>
+                • Churn: 8% | MRR Growth: +2.5% | NPS: 7.8 | Up-Sell: 12%/trim<br/>
+                <strong>Top Performer:</strong><br/>
+                • Churn: 4% | MRR Growth: +5% | NPS: 8.5+ | Up-Sell: 20%+/trim
+            </div>
+        </div>
+
+        <h2>🛠️ PARTE 7: ROADMAP TÉCNICO & IMPLEMENTAÇÃO</h2>
+
+        <div class="section">
+            <h3>7.1 Fases de Implementação Fenice</h3>
+
+            <div class="code-block">
+FASE 1: ONBOARDING (Semana 1-2)
+├─ Setup de contas operador
+├─ Importar portfolio (contas + histórico)
+├─ Treinar operador (Health Score, Alerts)
+└─ Primeiro cálculo de Health Score
+
+FASE 2: ATIVAÇÃO (Semana 3-4)
+├─ Revisar Green accounts → Propor up-sell
+├─ Identificar Fantasma → Iniciar reengajamento
+├─ Agendar QBR para contas próximas de vencer
+└─ Gerar templates via IA
+
+FASE 3: OTIMIZAÇÃO (Mês 2-3)
+├─ Monitorar KPIs diários
+├─ Ajustar Health Score triggers (refinar)
+├─ Documentar Wins (renewals, up-sells)
+└─ Treinar time de escalação (Team Lead, Manager)
+
+RESULTADO ESPERADO (Pós 90 dias):
+✅ Churn: -50% vs. baseline
+✅ Up-Sell: 5-10 contas expandidas
+✅ Renovação: 95%+ de taxa
+            </div>
+
+            <h3>7.2 Integração com Botpress Cloud (Atendimento Automático)</h3>
+
+            <div class="code-block">
+FLUXO: Customer Contacta → Bot Responde → Operador Farmer Segue
+
+Bot Botpress:
+1. Cliente entra em contato (WhatsApp, chat)
+2. Bot coleta: Empresa, contact, dor, interesse
+3. Bot consulta Fenice API para health score
+4. Bot recomenda: Auditoria? Up-sell? Renovação?
+5. Agenda reunião (integração calendário)
+6. Log em Fenice para operador follow-up
+
+EXEMPLO:
+Cliente: "Oi, preciso de consultoria em TI"
+Bot: "Qual sua empresa?" → "ABC Indústria"
+Bot: "Deixa eu checar..." → [Consulta Fenice]
+Bot: "Vi que sua MRR é R$150K e saúde está YELLOW.
+      Proponho auditoria GRÁTIS de custos telecom.
+      Quando você quer conversar com meu especialista?"
+Cliente: "Próxima segunda!"
+Bot: "Perfeito! Agendado com Ramão. Você recebe link no WhatsApp."
+            </div>
+        </div>
+
+        <h2>🎯 CONCLUSÃO</h2>
+
+        <div class="section">
+            <div class="highlight-green">
+                <p><strong>A Sinergia: Fenice B2B + Telecom + TI + Botpress</strong></p>
+                <p>Transforma operador Farmer de "gerenciador de fatura" para "gestor de resultado" com automação inteligente.</p>
+                <p><strong>Impacto:</strong> ↓ Churn 60% | ↑ MRR +3-5% | ↑ NPS 8+ | ↑ Produtividade 300%</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>📚 Base de Conhecimento Integrada v1.0</strong></p>
+            <p>Fenice B2B + Telecomunicações + Tecnologia da Informação</p>
+            <p>Junho 2026 | Para Operadores Farmer TIM Business</p>
+            <p><strong>Para converter para PDF:</strong> Pressione <strong>Ctrl+P</strong> (ou Cmd+P) → "Salvar como PDF"</p>
+            <p style="margin-top: 20px; font-size: 11px; color: #999;">
+                Documento preparado por Ramão Bueno da Silva Neto<br/>
+                Senior Legal Architect & AI Engineer | rb-consultoria-tech
+            </p>
+        </div>
+    </div>
+</body>
+</html>

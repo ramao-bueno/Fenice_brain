@@ -1,0 +1,150 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                          Int      @id @default(autoincrement())
+  cnpj                        String   @unique
+  company_name                String
+  segment                     String   // PME | KA
+  industry                    String?
+  mrr                         Float
+  mrr_trend                   Float    @default(0) // % change last 90 days
+  contract_end_date           DateTime?
+
+  // Health Score (Tridimensional)
+  health_score_desired_outcome Float   @default(5.0) // 0-10
+  health_score_engagement     Float   @default(5.0) // 0-10
+  health_score_risk           Float   @default(5.0) // 0-10
+  health_score_overall        String  @default("YELLOW") // GREEN | YELLOW | RED
+  health_score_updated_at     DateTime @updatedAt
+
+  // Farmer owner
+  farmer_owner_id             String?
+
+  // Relations
+  interactions                Interaction[]
+  churn_signals               ChurnSignal[]
+  desired_outcomes            DesiredOutcome[]
+  qbr_records                 QBRRecord[]
+
+  created_at                  DateTime @default(now())
+  updated_at                  DateTime @updatedAt
+
+  @@index([health_score_overall])
+  @@index([mrr_trend])
+}
+
+model DesiredOutcome {
+  id                          Int      @id @default(autoincrement())
+  account_id                  Int
+  account                     Account  @relation(fields: [account_id], references: [id], onDelete: Cascade)
+
+  outcome_description         String
+  business_metric             String?   // Ex: "Reduzir custos em 20%"
+  success_metric              String?   // Ex: "Fatura cai de R$50K para R$40K"
+
+  target_date                 DateTime?
+  is_achieved                 Boolean  @default(false)
+  achievement_date            DateTime?
+
+  tim_solution_proposed       String?
+
+  created_at                  DateTime @default(now())
+  updated_at                  DateTime @updatedAt
+
+  @@index([account_id, is_achieved])
+}
+
+model Interaction {
+  id                          Int      @id @default(autoincrement())
+  account_id                  Int
+  account                     Account  @relation(fields: [account_id], references: [id], onDelete: Cascade)
+
+  interaction_type            String   // CALL | EMAIL | CHAT | TICKET | QBR | PROPOSAL
+  phase                       String   // PRE_VENDA | ONBOARD | POSVENDA | EXPANSAO
+
+  template_used_id            Int?
+  template_used               Template? @relation(fields: [template_used_id], references: [id])
+
+  operator_id                 String?
+  notes                       String?
+  outcome                     String?  // AGENDADO | CONVERTIDO | CHURNED | UPSELL | RENEWAL | NO_ACTION
+
+  // Engagement metric
+  response_time_hours         Int?
+  is_customer_initiated       Boolean  @default(false)
+
+  created_at                  DateTime @default(now())
+
+  @@index([account_id, created_at])
+}
+
+model ChurnSignal {
+  id                          Int      @id @default(autoincrement())
+  account_id                  Int
+  account                     Account  @relation(fields: [account_id], references: [id], onDelete: Cascade)
+
+  signal_type                 String   // DATA_USAGE_DROP | ZERO_TICKETS_90D | SILENCE_90D | MRR_DECLINE | CONTESTED_INVOICE
+  severity                    String   // LOW | MEDIUM | HIGH | CRITICAL
+
+  metric_value                Float?
+  threshold                   Float?
+
+  detected_at                 DateTime @default(now())
+  action_recommended          String?
+  action_taken_by             String?
+  action_taken_at             DateTime?
+
+  resolved                    Boolean  @default(false)
+
+  @@index([account_id, resolved])
+}
+
+model Template {
+  id                          Int      @id @default(autoincrement())
+  name                        String
+  phase                       String
+  type                        String   // EMAIL | SCRIPT | PROPOSAL | QBR_AGENDA
+
+  content                     String   // Markdown ou HTML
+  variables                   String[] // JSON array: ["[COMPANY_NAME]", "[MRR]"]
+
+  created_by                  String?
+  approved_by                 String?
+  is_ai_generated             Boolean  @default(true)
+
+  version                     Int      @default(1)
+  created_at                  DateTime @default(now())
+
+  // Relations
+  interactions                Interaction[]
+
+  @@unique([name, version, phase])
+}
+
+model QBRRecord {
+  id                          Int      @id @default(autoincrement())
+  account_id                  Int
+  account                     Account  @relation(fields: [account_id], references: [id], onDelete: Cascade)
+
+  quarter                     String   // Q1 2026
+  scheduled_date              DateTime?
+  completed_at                DateTime?
+
+  outcomes_achieved           String[]
+  outcomes_not_achieved       String[]
+  client_satisfaction_score   Float?
+
+  recommended_actions         String?  // JSON
+
+  notes                       String?
+  facilitator_id              String?
+
+  created_at                  DateTime @default(now())
+}

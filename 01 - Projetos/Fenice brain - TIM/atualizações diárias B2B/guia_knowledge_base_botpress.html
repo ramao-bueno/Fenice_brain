@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia: Base de Conhecimento Botpress Cloud</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 3px solid #10b981;
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #10b981;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section {
+            margin-bottom: 36px;
+            border-left: 4px solid #10b981;
+            padding-left: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #10b981;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-top: 16px;
+            margin-bottom: 12px;
+        }
+        .step-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 14px;
+        }
+        .step-number {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.2);
+            color: #10b981;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .step-title {
+            font-weight: 600;
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .step-content {
+            font-size: 14px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .alert {
+            background: rgba(34, 197, 94, 0.1);
+            border-left: 3px solid #22c55e;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #86efac;
+        }
+        .warning {
+            background: rgba(249, 115, 22, 0.1);
+            border-left: 3px solid #f97316;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #fb923c;
+        }
+        .info-box {
+            background: rgba(59, 130, 246, 0.05);
+            border-left: 3px solid #3b82f6;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #93c5fd;
+        }
+        .code-block {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            padding: 12px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: #6ee7b7;
+            overflow-x: auto;
+            margin: 8px 0;
+        }
+        .screenshot-ref {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px dashed rgba(16, 185, 129, 0.3);
+            padding: 12px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-size: 12px;
+            color: #a7f3d0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+        }
+        th {
+            background: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+            font-weight: 600;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(16, 185, 129, 0.2);
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.2);
+            color: #6ee7b7;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Base de Conhecimento Botpress Cloud</h1>
+            <p class="subtitle">Guia Completo de Implementação</p>
+            <p style="font-size: 12px; color: #999; margin-top: 12px;">Adicionar documentos e respostas para o bot</p>
+        </header>
+
+        <div class="section">
+            <h2>❓ O que é Base de Conhecimento?</h2>
+
+            <div class="step-card">
+                <div class="step-title">A base de conhecimento é o "cérebro" do seu bot</div>
+                <div class="step-content">
+                    <p>Contém documentos, artigos, FAQs e respostas que o bot utiliza para responder perguntas dos clientes. Quanto melhor a base, melhor o bot responde.</p>
+                    <div class="alert">
+                        ✅ O bot usa IA para encontrar a resposta mais relevante na sua base de conhecimento e responder de forma natural.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Método 1: Adicionar Documentos (PDF/TXT)</h2>
+
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-title">Acessar Knowledge Base</div>
+                <div class="step-content">
+                    <p>No Botpress Cloud, no menu lateral, clique em:</p>
+                    <div class="code-block">
+Knowledge → Knowledge Base → + Add Document
+                    </div>
+                    <div class="screenshot-ref">
+                        📍 Menu esquerdo > "Knowledge" > "Knowledge Base"
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-title">Fazer Upload de Arquivo</div>
+                <div class="step-content">
+                    <p><strong>Formatos aceitos:</strong> PDF, TXT, DOCX, HTML</p>
+                    <ul>
+                        <li>Clique em "Upload Document"</li>
+                        <li>Selecione o arquivo do seu computador</li>
+                        <li>O Botpress processa automaticamente</li>
+                    </ul>
+                    <div class="info-box">
+                        💡 <strong>Dica:</strong> Documente suas soluções, preços, processos em um PDF bem estruturado.
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-title">Nomear e Organizar</div>
+                <div class="step-content">
+                    <p>Após upload, o Botpress pedirá para nomear o documento:</p>
+                    <div class="code-block">
+Nome: "Soluções Fenice - Governança TI"
+Descrição: "Documentação completa sobre soluções"
+Categoria: "Produtos"
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <div class="step-title">Revisar e Publicar</div>
+                <div class="step-content">
+                    <p>O Botpress mostrará um preview do documento processado. Revise e clique em "Confirm".</p>
+                    <div class="alert">
+                        ✅ O documento está agora disponível para o bot usar nas respostas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>✏️ Método 2: Adicionar Respostas Manuais (FAQ)</h2>
+
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-title">Criar Nova Entrada</div>
+                <div class="step-content">
+                    <p>Em <strong>Knowledge Base → + Add Document → Text Entry</strong></p>
+                    <div class="code-block">
+Ou escolha "Add FAQ" para criar pergunta-resposta diretamente
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-title">Estrutura de FAQ</div>
+                <div class="step-content">
+                    <p><strong>Exemplo para Fenice:</strong></p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Campo</th>
+                                <th>Exemplo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Pergunta</strong></td>
+                                <td>"Quais são as soluções Fenice?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Resposta</strong></td>
+                                <td>"Fenice oferece Governança de TI, O&M e Transformação Digital..."</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Categoria</strong></td>
+                                <td>"Produtos" ou "Serviços"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tags</strong></td>
+                                <td>"TI", "Consultoria", "Governança"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-title">Salvar e Publicar</div>
+                <div class="step-content">
+                    <p>Clique em "Save" e a entrada fica imediatamente disponível.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Exemplo Prático: Base de Conhecimento Fenice</h2>
+
+            <div class="step-card">
+                <div class="step-title">Estrutura Recomendada de Categorias</div>
+                <div class="step-content">
+                    <h3>1. Produtos & Soluções</h3>
+                    <ul>
+                        <li>O que é Governança de TI?</li>
+                        <li>O que é Transformação Digital?</li>
+                        <li>Qual é o escopo de uma consultoria Fenice?</li>
+                    </ul>
+
+                    <h3>2. Preços & Contratos</h3>
+                    <ul>
+                        <li>Qual é o preço de uma consultoria?</li>
+                        <li>Vocês oferecem POC gratuito?</li>
+                        <li>Qual é o tempo mínimo de contrato?</li>
+                    </ul>
+
+                    <h3>3. Processo & Metodologia</h3>
+                    <ul>
+                        <li>Como funciona uma engajamento com Fenice?</li>
+                        <li>Qual é o timeline típico de um projeto?</li>
+                        <li>Como é feito o acompanhamento pós-implementação?</li>
+                    </ul>
+
+                    <h3>4. Sobre a Fenice</h3>
+                    <ul>
+                        <li>Quem é Ramão Bueno?</li>
+                        <li>Qual é a experiência de Fenice com operadoras telecom?</li>
+                        <li>Vocês têm casos de sucesso publicados?</li>
+                    </ul>
+
+                    <h3>5. Conformidade & Legal</h3>
+                    <ul>
+                        <li>Fenice segue LGPD?</li>
+                        <li>Qual é a política de confidencialidade?</li>
+                        <li>Vocês têm certificações ISO?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ Método 3: Integrar Dados Externos (API)</h2>
+
+            <div class="step-card">
+                <div class="step-title">Sincronizar com Sistemas Externos</div>
+                <div class="step-content">
+                    <p>O Botpress permite integrar dados de sistemas externos:</p>
+                    <ul>
+                        <li><strong>Confluence:</strong> Sincronizar wiki corporativo</li>
+                        <li><strong>SharePoint:</strong> Conectar documentos Microsoft</li>
+                        <li><strong>Notion:</strong> Usar base de dados Notion</li>
+                        <li><strong>HTTP API:</strong> Endpoints customizadas</li>
+                    </ul>
+                    <div class="info-box">
+                        💡 <strong>Para Fenice:</strong> Se tiver documentação em Notion ou Confluence, pode sincronizar automaticamente.
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-title">Como Configurar</div>
+                <div class="step-content">
+                    <div class="code-block">
+Knowledge → Knowledge Base → Integrations → Escolha plataforma
+Autentique com suas credenciais (Google, Microsoft, etc)
+Selecione pastas/documentos para sincronizar
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔍 Testar a Base de Conhecimento</h2>
+
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-title">Acessar o Test Chat</div>
+                <div class="step-content">
+                    <p>No canto direito da tela, clique no ícone de chat para abrir o "Test Chat".</p>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-title">Fazer Perguntas</div>
+                <div class="step-content">
+                    <p>Teste o bot com perguntas relacionadas aos documentos:</p>
+                    <div class="code-block">
+"Quais são as soluções Fenice?"
+"Quanto custa uma consultoria?"
+"Como funciona o processo de implementação?"
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-title">Ajustar Base se Necessário</div>
+                <div class="step-content">
+                    <p>Se o bot não responder bem, adicione mais documentos ou refine as perguntas/respostas.</p>
+                    <div class="alert">
+                        ✅ Base de conhecimento é viva — atualize regularmente!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Melhores Práticas</h2>
+
+            <div class="step-card">
+                <div class="step-title">✅ Faça</div>
+                <div class="step-content">
+                    <ul>
+                        <li>Organize documentos por categorias claras</li>
+                        <li>Use linguagem simples e natural</li>
+                        <li>Inclua exemplos práticos</li>
+                        <li>Atualize regularmente (pelo menos mensal)</li>
+                        <li>Teste perguntas frequentes que recebe</li>
+                        <li>Use termos que seus clientes usam</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-title">❌ Não Faça</div>
+                <div class="step-content">
+                    <ul>
+                        <li>Deixar documentos desorganizados</li>
+                        <li>Usar jargão muito técnico sem explicação</li>
+                        <li>Criar respostas muito longas (&gt;500 palavras)</li>
+                        <li>Ignorar feedback dos usuários</li>
+                        <li>Deixar documentos desatualizados</li>
+                        <li>Duplicar informações em múltiplos docs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📈 Monitorar Performance da KB</h2>
+
+            <div class="step-card">
+                <div class="step-content">
+                    <p>No Botpress, vá para <strong>Analytics → Knowledge Base</strong> para ver:</p>
+                    <ul>
+                        <li>Documentos mais consultados</li>
+                        <li>Perguntas que o bot não conseguiu responder</li>
+                        <li>Taxa de relevância das respostas</li>
+                        <li>Palavras-chave mais buscadas</li>
+                    </ul>
+                    <div class="info-box">
+                        💡 Use esses dados para identificar gaps na sua base e melhorar continuamente.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Checklist de Implementação</h2>
+
+            <div class="step-card">
+                <div class="step-content">
+                    <h3>Fase 1: Coleta de Conteúdo</h3>
+                    <ul>
+                        <li>☐ Listar todas as perguntas que recebe</li>
+                        <li>☐ Documentar todas as soluções/produtos</li>
+                        <li>☐ Criar FAQ em Excel ou Notion</li>
+                        <li>☐ Preparar documentos em PDF</li>
+                    </ul>
+
+                    <h3>Fase 2: Publicação</h3>
+                    <ul>
+                        <li>☐ Criar categorias na KB</li>
+                        <li>☐ Upload de documentos</li>
+                        <li>☐ Adicionar FAQs manuais</li>
+                        <li>☐ Organizar tags e metadados</li>
+                    </ul>
+
+                    <h3>Fase 3: Teste & Refinamento</h3>
+                    <ul>
+                        <li>☐ Testar no chat do Botpress</li>
+                        <li>☐ Ajustar respostas conforme feedback</li>
+                        <li>☐ Adicionar conteúdo faltante</li>
+                        <li>☐ Validar com usuários reais</li>
+                    </ul>
+
+                    <h3>Fase 4: Manutenção</h3>
+                    <ul>
+                        <li>☐ Atualizar documentos mensalmente</li>
+                        <li>☐ Revisar analytics semanalmente</li>
+                        <li>☐ Adicionar novas respostas conforme demanda</li>
+                        <li>☐ Remover conteúdo obsoleto</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>📚 Guia Completo de Base de Conhecimento Botpress Cloud</p>
+            <p style="margin-top: 8px;">Para Fenice Brain TIM | Atendimento Automático B2B</p>
+            <p style="margin-top: 12px; color: #666;">Atualizado: 08 de junho de 2026</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+{
+  "name": "Pré-Cadastro WhatsApp",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "pre-cadastro",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.email }}",
+              "value2": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+              "operation": "regex"
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "se",
+      "name": "Se",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        450,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://www.avisaapi.com.br/api/send",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer gFm8iB2bF2MpqGeEFxsv6oqp7VAkUGg2xVRAqDVa5gSniojrrpJLMmyZNExQ"
+        },
+        "bodyParametersUi": "json",
+        "body": "{\"nome\": \"{{ $json.nome }}\", \"email\": \"{{ $json.email }}\", \"telefone\": \"{{ $json.telefone }}\"}"
+      },
+      "id": "httprequest",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [
+        650,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "oiconsulbrasil@gmail.com",
+        "toEmail": "={{ $json.email }}",
+        "subject": "✅ Seu Pré-Cadastro Realizado!",
+        "htmlMessage": "<p>Olá {{ $json.nome }},</p><p>Bem-vindo! Recebemos seu pré-cadastro com sucesso.</p><h3>📋 Dados Registrados:</h3><ul><li>Nome: {{ $json.nome }}</li><li>E-mail: {{ $json.email }}</li></ul><h3>🔗 Próximo Passo:</h3><p>Clique no link para completar seu cadastro:</p><p><a href=\"https://feniceia.br/cadastro\">COMPLETAR CADASTRO</a></p><p>Dúvidas? Responda este e-mail.</p><p>Atenciosamente,<br>Time Feniceia</p>"
+      },
+      "id": "email",
+      "name": "Enviar Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [
+        850,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "responseBody": "{\"status\": \"sucesso\", \"mensagem\": \"E-mail de pré-cadastro enviado com sucesso!\", \"email\": \"{{ $json.email }}\"}"
+      },
+      "id": "response",
+      "name": "Responder ao Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [
+        1050,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "responseBody": "{\"status\": \"erro\", \"mensagem\": \"Email ou nome inválido\", \"codigo\": 400}",
+        "responseCode": 400
+      },
+      "id": "responseerro",
+      "name": "Responder Erro",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [
+        450,
+        450
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Se",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Se": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Responder Erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Enviar Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Enviar Email": {
+      "main": [
+        [
+          {
+            "node": "Responder ao Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {}
+}

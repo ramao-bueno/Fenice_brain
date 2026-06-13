@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Configuração Botpress Cloud - Fenice Brain TIM</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 3px solid #8b5cf6;
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #8b5cf6;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section {
+            margin-bottom: 36px;
+            border-left: 4px solid #8b5cf6;
+            padding-left: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #8b5cf6;
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-top: 16px;
+            margin-bottom: 12px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 14px;
+        }
+        .card-title {
+            font-weight: 600;
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .card-content {
+            font-size: 14px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.2);
+            color: #c4b5fd;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .step-box {
+            background: rgba(139, 92, 246, 0.05);
+            border-left: 3px solid #8b5cf6;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .step-number {
+            font-weight: 700;
+            color: #8b5cf6;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .code-block {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            padding: 12px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: #a78bfa;
+            overflow-x: auto;
+            margin: 8px 0;
+        }
+        .alert {
+            background: rgba(34, 197, 94, 0.1);
+            border-left: 3px solid #22c55e;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #86efac;
+        }
+        .warning {
+            background: rgba(249, 115, 22, 0.1);
+            border-left: 3px solid #f97316;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #fb923c;
+        }
+        .info-box {
+            background: rgba(59, 130, 246, 0.05);
+            border-left: 3px solid #3b82f6;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #93c5fd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(139, 92, 246, 0.1);
+        }
+        th {
+            background: rgba(139, 92, 246, 0.1);
+            color: #8b5cf6;
+            font-weight: 600;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(139, 92, 246, 0.2);
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 12px 0;
+        }
+        .feature-item {
+            background: rgba(139, 92, 246, 0.05);
+            padding: 12px;
+            border-radius: 4px;
+            border-left: 2px solid #8b5cf6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Guia de Configuração: Botpress Cloud</h1>
+            <p class="subtitle">Atendimento Automático para Fenice Brain TIM</p>
+            <p style="font-size: 12px; color: #999; margin-top: 12px;">Integração de Chatbot com IA | Vendas Consultivas B2B</p>
+        </header>
+
+        <div class="section">
+            <h2>❓ O que é Botpress Cloud?</h2>
+
+            <div class="card">
+                <div class="card-title">Plataforma de IA para Atendimento Automático</div>
+                <div class="card-content">
+                    <p><strong>Botpress Cloud</strong> é uma plataforma enterprise de inteligência artificial especializada em automação de atendimento ao cliente e suporte. Oferece:</p>
+                    <ul style="margin-left: 20px; margin-top: 8px;">
+                        <li>✅ Chatbots inteligentes com IA generativa</li>
+                        <li>✅ Integração omnichannel (WhatsApp, telefone, chat web, email)</li>
+                        <li>✅ Escalação automática para agentes humanos</li>
+                        <li>✅ Análise de dados em tempo real</li>
+                        <li>✅ Integração com CRM, ERP, bases de conhecimento</li>
+                        <li>✅ Personalização sem necessidade de código</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="alert">
+                💡 <strong>Para Fenice Brain TIM:</strong> Ideal para automação de primeiro contato com clientes B2B, qualificação de leads e agendamento de reuniões consultivas.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Passo 1: Criar Conta e Acessar Botpress Cloud</h2>
+
+            <div class="step-box">
+                <div class="step-number">1️⃣ Acesse a plataforma</div>
+                <p>Visite <strong>app.botpress.cloud</strong> e crie uma conta com seu email corporativo (oiconsulbrasil@gmail.com).</p>
+                <div class="code-block">
+                    https://app.botpress.cloud/
+                </div>
+            </div>
+
+            <div class="step-box">
+                <div class="step-number">2️⃣ Configuração inicial</div>
+                <ul>
+                    <li>Defina seu workspace: "Fenice-Brain-TIM"</li>
+                    <li>Selecione indústria: "Telecommunications & Services"</li>
+                    <li>Escolha caso de uso: "Customer Support & Sales"</li>
+                </ul>
+            </div>
+
+            <div class="step-box">
+                <div class="step-number">3️⃣ Criar seu primeiro bot</div>
+                <p>Clique em "New Bot" e nomeie: <strong>"Fenice-Atendimento-TIM"</strong></p>
+                <p style="margin-top: 8px;">Selecione template: "Customer Service Bot" ou "Sales & Qualification"</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ Passo 2: Configurar Fluxo de Conversa (Conversation Flow)</h2>
+
+            <div class="card">
+                <div class="card-title">Estrutura do Bot para Fenice</div>
+                <div class="card-content">
+                    <h3>Fluxo Recomendado:</h3>
+                    <div class="step-box">
+                        <div class="step-number">Etapa 1: Saudação & Qualificação</div>
+                        <p>"Olá! Seja bem-vindo à Fenice Tech. Você busca informações sobre soluções de Governança de TI, Transformação Digital ou Consultoria Estratégica?"</p>
+                        <p style="margin-top: 8px;"><strong>Ação:</strong> Coletar interesse do cliente</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Etapa 2: Identificação da Necessidade</div>
+                        <p>"Qual é sua função na empresa? (Selecione: CTO | Diretor TI | Gerente Operações | Outro)"</p>
+                        <p style="margin-top: 8px;"><strong>Ação:</strong> Segmentar cliente para perfil correto</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Etapa 3: Coleta de Dados</div>
+                        <p>"Qual é o tamanho da sua empresa? (1-100 | 100-500 | 500-1000 | 1000+)"</p>
+                        <p>"Qual sua principal dor em TI ou Operações?"</p>
+                        <p style="margin-top: 8px;"><strong>Ação:</strong> Qualificar oportunidade</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Etapa 4: Proposta de Valor</div>
+                        <p>"Com base em suas necessidades, temos expertise em [solução específica]. Gostaria de conversar com um consultor especializado?"</p>
+                        <p style="margin-top: 8px;"><strong>Ação:</strong> Agendar reunião ou escalar</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Etapa 5: Agendamento</div>
+                        <p>Integração com calendário para agendar reunião diretamente com Ramão Bueno ou consultor disponível.</p>
+                        <p style="margin-top: 8px;"><strong>Ação:</strong> Criar evento no calendário</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📱 Passo 3: Integrar Canais de Comunicação</h2>
+
+            <div class="card">
+                <div class="card-title">WhatsApp Business (Recomendado)</div>
+                <div class="card-content">
+                    <h3>Configuração WhatsApp:</h3>
+                    <div class="step-box">
+                        <div class="step-number">Passo 1</div>
+                        <p>No dashboard do Botpress, vá para <strong>Integrations → WhatsApp</strong></p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Passo 2</div>
+                        <p>Conecte sua conta Meta (Facebook Business):</p>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li>Acesso a <strong>business.facebook.com</strong></li>
+                            <li>Crie/selecione WhatsApp Business Account</li>
+                            <li>Verifique seu número: <strong>+55 21967531414</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Passo 3</div>
+                        <p>Copie as credenciais do Meta para Botpress:</p>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li><strong>Phone Number ID</strong></li>
+                            <li><strong>Business Account ID</strong></li>
+                            <li><strong>Access Token</strong></li>
+                            <li><strong>Webhook Verify Token</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="alert">
+                        ✅ <strong>Custo:</strong> Meta cobra ~$0.008-$0.063 USD por mensagem (média R$ 100-150/mês com volume baixo)
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Telefone (Opcional)</div>
+                <div class="card-content">
+                    <p><strong>Integração com Sistema Telefônico:</strong> Botpress oferece integração com provedores como Twilio, RingCentral para IVR automático.</p>
+                    <div class="info-box">
+                        📌 <strong>Para Fenice TIM:</strong> Ideal para operadoras de telecom que desejam automação de atendimento telefônico em primeiro nível.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Chat Web / Website</div>
+                <div class="card-content">
+                    <p>Embed o chatbot no site corporativo com um widget configurável.</p>
+                    <div class="code-block">
+&lt;script src="https://cdn.botpress.cloud/webchat/v1/inject.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.botpressWebChat.init({
+    botId: 'SEU_BOT_ID',
+    hostUrl: 'https://cdn.botpress.cloud'
+  })
+&lt;/script&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Passo 4: Integração com Sistema CRM/Salesforce</h2>
+
+            <div class="card">
+                <div class="card-title">Conectar Dados de Clientes</div>
+                <div class="card-content">
+                    <h3>Via Webhook (Recomendado):</h3>
+                    <div class="step-box">
+                        <div class="step-number">1. Criar Webhook</div>
+                        <p>No Botpress: <strong>Integrations → Webhooks → Create New</strong></p>
+                        <p style="margin-top: 8px;"><strong>URL de Destino:</strong></p>
+                        <div class="code-block">
+https://seu-crm.salesforce.com/api/v57.0/sobjects/Lead/
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">2. Mapear Campos</div>
+                        <p>Configurar mapeamento de dados:</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Campo Botpress</th>
+                                    <th>Campo Salesforce</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>user.name</td>
+                                    <td>FirstName / LastName</td>
+                                </tr>
+                                <tr>
+                                    <td>user.email</td>
+                                    <td>Email</td>
+                                </tr>
+                                <tr>
+                                    <td>user.phone</td>
+                                    <td>Phone</td>
+                                </tr>
+                                <tr>
+                                    <td>user.company</td>
+                                    <td>Company</td>
+                                </tr>
+                                <tr>
+                                    <td>conversation.interest</td>
+                                    <td>LeadSource</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="alert">
+                        ✅ <strong>Resultado:</strong> Cada conversa gera automaticamente um Lead em Salesforce para follow-up consultivo.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📚 Passo 5: Integrar Base de Conhecimento</h2>
+
+            <div class="card">
+                <div class="card-title">Knowledge Base para Respostas Inteligentes</div>
+                <div class="card-content">
+                    <p>Configure uma base de conhecimento para o bot responder perguntas frequentes sobre Fenice:</p>
+
+                    <h3>Categorias Recomendadas:</h3>
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <strong>Soluções</strong>
+                            <p style="margin-top: 6px; font-size: 12px;">O&M, Governança TI, Compliance LGPD</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>Preços</strong>
+                            <p style="margin-top: 6px; font-size: 12px;">Tabelas de valor por projeto/tipo</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>Processos</strong>
+                            <p style="margin-top: 6px; font-size: 12px;">Como funciona uma consultoria Fenice</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>Contatos</strong>
+                            <p style="margin-top: 6px; font-size: 12px;">Ramão Bueno, áreas específicas</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        📌 <strong>Como Adicionar:</strong> Na aba "Knowledge Base", upload um documento PDF ou insira manualmente as respostas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Passo 6: Configurar Escalação para Agentes Humanos</h2>
+
+            <div class="card">
+                <div class="card-title">Transição Bot → Consultor</div>
+                <div class="card-content">
+                    <p>Configure regras para escalar para um humano quando necessário:</p>
+
+                    <div class="step-box">
+                        <div class="step-number">Trigger de Escalação 1: Complexidade</div>
+                        <p>Se o cliente fizer pergunta que o bot não consegue responder → escalar</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Trigger de Escalação 2: Intenção</div>
+                        <p>Se cliente expressar interesse em agendar reunião → escalar para Ramão ou consultor disponível</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">Configurar Fila de Agentes</div>
+                        <p>Em <strong>Integrations → Handoff Configuration</strong>:</p>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li><strong>Agente Primário:</strong> Ramão Bueno (ramao@fenice.tech)</li>
+                            <li><strong>Agentes Backup:</strong> Consultores Fenice</li>
+                            <li><strong>Mensagem de Espera:</strong> "Um consultor especializado está se conectando..."</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Passo 7: Analytics e Monitoramento</h2>
+
+            <div class="card">
+                <div class="card-title">Dashboard de Métricas</div>
+                <div class="card-content">
+                    <p>Configure dashboards para acompanhar performance:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Métrica</th>
+                                <th>O que Significa</th>
+                                <th>Meta Fenice</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Conversa Completadas</td>
+                                <td>Chats que resolveram o cliente sem escalação</td>
+                                <td>&gt; 45%</td>
+                            </tr>
+                            <tr>
+                                <td>Escalação para Humano</td>
+                                <td>Chats que precisaram de um consultor</td>
+                                <td>&lt; 35%</td>
+                            </tr>
+                            <tr>
+                                <td>Tempo Médio de Conversa</td>
+                                <td>Duração da interação bot-cliente</td>
+                                <td>&lt; 5 min</td>
+                            </tr>
+                            <tr>
+                                <td>Taxa de Satisfação</td>
+                                <td>Avaliação do cliente pós-conversa</td>
+                                <td>&gt; 4.0/5</td>
+                            </tr>
+                            <tr>
+                                <td>Lead Generation</td>
+                                <td>Leads qualificados criados</td>
+                                <td>&gt; 8/semana</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="alert">
+                        ✅ <strong>Exportar Relatórios:</strong> Botpress permite exportar dados para análise em Excel ou BI tools.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💰 Passo 8: Custos e Planos Botpress</h2>
+
+            <div class="card">
+                <div class="card-title">Opções de Preço (2026)</div>
+                <div class="card-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Plano</th>
+                                <th>Preço/Mês</th>
+                                <th>Ideal Para</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Starter</strong></td>
+                                <td>$0 (Free)</td>
+                                <td>Testes, POC</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pro</strong></td>
+                                <td>$500-1000</td>
+                                <td>1-10 bots, <100K conv/mês</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Enterprise</strong></td>
+                                <td>Custom</td>
+                                <td>Múltiplos bots, SLA, suporte</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="warning">
+                        ⚠️ <strong>Custos Adicionais:</strong>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li>WhatsApp: $50-150/mês (volume de mensagens)</li>
+                            <li>IA Generativa: conforme uso (GPT-4, etc.)</li>
+                            <li>Integrações: $0-200/mês (CRM, ERP, etc.)</li>
+                        </ul>
+                    </div>
+
+                    <div class="alert">
+                        💡 <strong>Recomendação Fenice:</strong> Iniciar com plano PRO ($500-700/mês) para 1 bot + WhatsApp. Justifica-se pelo volume de leads gerados.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>✅ Checklist de Implementação</h2>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Fase 1: Setup (Semana 1)</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>☐ Criar conta Botpress Cloud</li>
+                        <li>☐ Criar bot "Fenice-Atendimento-TIM"</li>
+                        <li>☐ Configurar fluxo de conversa básico</li>
+                        <li>☐ Testar em ambiente de sandbox</li>
+                    </ul>
+
+                    <h3 style="margin-top: 16px;">Fase 2: Integração (Semana 2)</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>☐ Integrar WhatsApp Business</li>
+                        <li>☐ Conectar Salesforce/CRM</li>
+                        <li>☐ Importar base de conhecimento</li>
+                        <li>☐ Configurar escalação de agentes</li>
+                    </ul>
+
+                    <h3 style="margin-top: 16px;">Fase 3: Otimização (Semana 3)</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>☐ Lançar em produção</li>
+                        <li>☐ Treinar equipe de escalação</li>
+                        <li>☐ Monitorar analytics</li>
+                        <li>☐ Ajustar fluxo conforme feedback</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📞 Contatos e Suporte</h2>
+
+            <div class="card">
+                <div class="card-content">
+                    <p><strong>Suporte Botpress:</strong> <a href="https://botpress.com/" style="color: #8b5cf6;">botpress.com</a></p>
+                    <p style="margin-top: 8px;"><strong>Responsável Implementação (Fenice):</strong> Ramão Bueno</p>
+                    <p style="margin-top: 8px;">📧 oiconsulbrasil@gmail.com | 📞 +55 21967531414</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>📖 Guia Completo de Configuração Botpress Cloud para Fenice Brain TIM</p>
+            <p style="margin-top: 8px;">Atualizado: 08 de junho de 2026 | Versão: 1.0</p>
+        </div>
+    </div>
+</body>
+</html>

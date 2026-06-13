@@ -1,0 +1,59 @@
+---
+artigo: '1913'
+lei: Lei 10.406/2002 (Código Civil)
+tipo: direito-civil
+livro: LIVRO-V
+status: vigente
+tags:
+- cc
+- direito-civil
+- livro-v
+- vigente
+created: '2026-06-06'
+---
+
+# CC Art. 1913 — Se o testador ordenar que o herdeiro ou legatário entregue coisa de sua propriedade a outrem, não o cumprindo ele, enten
+
+**Lei:** Lei 10.406/2002 (Código Civil)
+**Livro:** LIVRO-V — Direito das Sucessões
+**Status:** ✅ VIGENTE
+
+---
+
+## 📋 REDAÇÃO LEGAL
+
+> Se o testador ordenar que o herdeiro ou legatário entregue coisa de sua propriedade a outrem, não o cumprindo ele, entender-se-á que renunciou à herança ou ao legado.
+
+---
+
+## 🔍 ANÁLISE TÉCNICA
+
+### Conceito Central
+
+[Análise do artigo em linguagem jurídica clara]
+
+### Elementos-Chave
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Aspecto 1** | Descrição |
+| **Aspecto 2** | Descrição |
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 1912]] — Artigo anterior
+- [[Art. 1914]] — Artigo seguinte
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+[STF/STJ precedentes a adicionar]
+
+---
+
+**Última atualização:** 2026-06-06
+**Fonte:** Planalto.gov.br
+**Vigência:** Confirmada até hoje

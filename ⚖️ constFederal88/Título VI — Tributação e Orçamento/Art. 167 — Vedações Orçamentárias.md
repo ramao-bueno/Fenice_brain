@@ -1,0 +1,56 @@
+---
+artigo: "167"
+nomen: "Vedações Orçamentárias"
+titulo_num: 6
+titulo: "DA TRIBUTAÇÃO E DO ORÇAMENTO"
+capitulo: "DAS FINANÇAS PÚBLICAS"
+secao: "DOS ORÇAMENTOS"
+disciplina: constitucional
+grupo: "Sistema Tributário Nacional"
+tags:
+  - cf88
+  - constitucional
+  - sistema-tributario
+  - tributacao
+  - orcamento
+  - art167
+data: 2026-05-31
+---
+
+# Art. 167º CF/88 — Vedações Orçamentárias
+
+> [!info] Localização na CF/88
+> **Título 6** — DA TRIBUTAÇÃO E DO ORÇAMENTO
+> **Capítulo 2** — DAS FINANÇAS PÚBLICAS
+> **Seção 2** — DOS ORÇAMENTOS
+
+## Texto Constitucional
+
+> [!quote] Caput
+> São vedados:
+
+- I – o início de programas ou projetos não incluídos na lei orçamentária anual;
+  - II – a realização de despesas ou a assunção de obrigações diretas que excedam os créditos orçamentários ou adicionais;
+  - III – a realização de operações de créditos que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta;
+  - IV – a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas a repartição do produto da arrecadação dos impostos a que se referem os arts. 158 e 159, a destinação de recursos para as ações e serviços públicos de saúde, para manutenção e desenvolvimento do ensino e para realização de atividades da administração tributária, como determinado, respectivamente, pelos arts. 198, § 2º, 212 e 37, XXII, e a prestação de garantias às operações de crédito por antecipação de receita, previstas no art. 165, § 8º, bem como o disposto no § 4º deste artigo; (Redação dada pela Emenda Constitucional nº 42, de 19.12.2003)
+  - V – a abertura de crédito suplementar ou especial sem prévia autorização legislativa e sem indicação dos recursos correspondentes;
+  - VI – a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra ou de um órgão para outro, sem prévia autorização legislativa;
+  - VII – a concessão ou utilização de créditos ilimitados;
+  - VIII – a utilização, sem autorização legislativa específica, de recursos dos orçamentos fiscal e da seguridade social para suprir necessidade ou cobrir déficit de empresas, fundações e fundos, inclusive dos mencionados no art. 165, § 5º;
+  - IX – a instituição de fundos de qualquer natureza, sem prévia autorização legislativa.
+  - X – a transferência voluntária de recursos e a concessão de empréstimos, inclusive por antecipação de receita, pelos Governos Federal e Estaduais e suas instituições financeiras, para pagamento de despesas com pessoal ativo, inativo e pensionista, dos Estados, do Distrito Federal e dos Municípios. (Incluído pela Emenda Constitucional nº 19, de 1998)
+  - XI – a utilização dos recursos provenientes das contribuições sociais de que trata o art. 195, I, a, e II, para a realização de despesas distintas do pagamento de benefícios do regime geral de previdência social de que trata o art. 201. (Incluído pela Emenda Constitucional nº 20, de 1998)
+- §  1º Nenhum  investimento  cuja  execução  ultrapasse  um  exercício  financeiro  poderá  ser  iniciado  sem  prévia inclusão no plano plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
+- § 2º Os créditos especiais e extraordinários terão vigência no exercício financeiro em que forem autorizados, salvo se o ato de autorização for promulgado nos últimos quatro meses daquele exercício, caso em que, reabertos nos limites de seus saldos, serão incorporados ao orçamento do exercício financeiro subseqüente.
+- § 3º A abertura de crédito extraordinário somente será admitida para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública, observado o disposto no art. 62.
+- § 4º É permitida a vinculação de receitas próprias geradas pelos impostos a que se referem os arts. 155 e 156, e dos recursos de que tratam os arts. 157, 158 e 159, I, a e b, e II, para a prestação de garantia ou contragarantia à União e para pagamento de débitos para com esta. (Incluído pela Emenda Constitucional nº 3, de 1993)
+- § 5º A transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra poderão ser admitidos, no âmbito das atividades de ciência, tecnologia e inovação, com o objetivo de viabilizar os resultados  de  projetos  restritos  a  essas  funções,  mediante  ato  do  Poder  Executivo,  sem  necessidade  da  prévia autorização legislativa prevista no inciso VI deste artigo.   (Incluído pela Emenda Constitucional nº 85, de 2015)
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título VI — Da Tributação e do Orçamento**. Integra o STN ou as normas financeiro-orçamentárias. Essencial para competência tributária, limitações ao poder de tributar e repartição de receitas.
+
+## Links Relacionados
+
+- ← [[Art. 166 — Processo Legislativo Orçamentário]] | [[INDEX — Constituição Federal]] | [[Art. 168 — Autonomia Financeira dos Poderes]] →

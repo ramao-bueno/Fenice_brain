@@ -1,0 +1,52 @@
+---
+artigo: "195"
+nomen: "Financiamento da Seguridade Social"
+titulo_num: 8
+titulo: "Da Ordem Social"
+capitulo: "DA SEGURIDADE SOCIAL"
+secao: "DISPOSIÇÕES GERAIS"
+disciplina: constitucional
+grupo: "Ordem Social"
+tags:
+  - cf88
+  - constitucional
+  - ordem-social
+  - direitos-prestacionais
+  - art195
+data: 2026-05-31
+---
+
+# Art. 195º CF/88 — Financiamento da Seguridade Social
+
+> [!info] Localização na CF/88
+> **Título 8** — Da Ordem Social
+> **Capítulo 2** — DA SEGURIDADE SOCIAL
+> **Seção 1** — DISPOSIÇÕES GERAIS
+
+## Texto Constitucional
+
+> [!quote] Caput
+> A seguridade social será financiada por toda a sociedade, de forma direta e indireta, nos termos da lei, mediante recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, e das seguintes contribuições sociais:
+
+- I – do empregador, da empresa e da entidade a ela equiparada na forma da lei, incidentes sobre: (Redação dada pela Emenda Constitucional nº 20, de 1998) a) a folha de salários e demais rendimentos do trabalho pagos ou creditados, a qualquer título, à pessoa física que lhe preste serviço, mesmo sem vínculo empregatício; (Incluído pela Emenda Constitucional nº 20, de 1998) b) a receita ou o faturamento; (Incluído pela Emenda Constitucional nº 20, de 1998) c) o lucro; (Incluído pela Emenda Constitucional nº 20, de 1998)
+  - II – do trabalhador e dos demais segurados da previdência social, não incidindo contribuição sobre aposentadoria e pensão  concedidas  pelo  regime  geral  de  previdência  social  de  que  trata  o  art.  201;  (Redação  dada  pela  Emenda Constitucional nº 20, de 1998)
+  - III – sobre a receita de concursos de prognósticos.
+  - IV – do importador de bens ou serviços do exterior, ou de quem a lei a ele equiparar. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003)
+- § 1º - As receitas dos Estados, do Distrito Federal e dos Municípios destinadas à seguridade social constarão dos respectivos orçamentos, não integrando o orçamento da União.
+- § 2º A proposta de orçamento da seguridade social será elaborada de forma integrada pelos órgãos responsáveis pela saúde, previdência social e assistência social, tendo em vista as metas e prioridades estabelecidas na lei de diretrizes orçamentárias,      assegurada a cada área a gestão de seus recursos.
+- § 3º A pessoa jurídica em débito com o sistema da seguridade social, como estabelecido em lei, não poderá contratar com o Poder Público nem dele receber benefícios ou incentivos fiscais ou creditícios.
+- § 4º A lei poderá instituir outras fontes destinadas a garantir a manutenção ou expansão da seguridade social, obedecido o disposto no art. 154, I.
+- §  5º Nenhum  benefício  ou  serviço  da  seguridade  social  poderá  ser  criado,  majorado  ou  estendido  sem  a correspondente fonte de custeio total.
+- § 6º As contribuições sociais de que trata este artigo só poderão ser exigidas após decorridos noventa dias da data da publicação da lei que as houver instituído ou modificado, não se lhes aplicando o disposto no art. 150, III, "b".
+- § 7º São isentas de contribuição para a seguridade social as entidades beneficentes de assistência social que atendam às exigências estabelecidas em lei.
+- § 8º O produtor, o parceiro, o meeiro e o arrendatário rurais e o pescador artesanal, bem como os respectivos cônjuges, que exerçam suas atividades em regime de economia familiar, sem empregados permanentes, contribuirão para a seguridade social mediante a aplicação de uma alíquota sobre o resultado da comercialização da produção e farão jus aos benefícios nos termos da lei. (Redação dada pela Emenda Constitucional nº 20, de 1998)
+- § 9º As contribuições sociais previstas no inciso I do caput deste artigo poderão ter alíquotas ou bases de cálculo diferenciadas, em razão da atividade econômica, da utilização intensiva de mão-deobra, do porte da empresa ou da condição estrutural do mercado de trabalho. (Redação dada pela Emenda Constitucional nº 47, de 2005) § 10. A lei definirá os critérios de transferência de recursos para o sistema único de saúde e ações de assistência social da União para os Estados, o Distrito Federal e os Municípios, e dos Estados para os Municípios, observada a respectiva contrapartida de recursos. (Incluído pela Emenda Constitucional nº 20, de 1998) § 11. É vedada a concessão de remissão ou anistia das contribuições sociais de que tratam os incisos I, a, e II deste artigo, para débitos em montante superior ao fixado em lei complementar. (Incluído pela Emenda Constitucional nº 20, de 1998) § 12. A lei definirá os setores de atividade econômica para os quais as contribuições incidentes na forma dos incisos I, b; e IV do caput, serão não-cumulativas. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003) § 13. Aplica-se o disposto no § 12 inclusive na hipótese de substituição gradual, total ou parcial, da contribuição incidente na forma do inciso I, a, pela incidente sobre a receita ou o faturamento. (Incluído pela Emenda Constitucional nº 42, de 19.12.2003)
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título VIII — Da Ordem Social**. Direitos sociais prestacionais: saúde, previdência, assistência, educação, cultura, meio ambiente, família. Eficácia progressiva.
+
+## Links Relacionados
+
+- ← [[Art. 194 — Seguridade Social]] | [[INDEX — Constituição Federal]] | [[Art. 196 — Saúde — Direito Fundamental]] →

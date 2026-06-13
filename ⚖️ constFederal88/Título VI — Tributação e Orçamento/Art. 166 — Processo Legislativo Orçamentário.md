@@ -1,0 +1,59 @@
+---
+artigo: "166"
+nomen: "Processo Legislativo Orçamentário"
+titulo_num: 6
+titulo: "DA TRIBUTAÇÃO E DO ORÇAMENTO"
+capitulo: "DAS FINANÇAS PÚBLICAS"
+secao: "DOS ORÇAMENTOS"
+disciplina: constitucional
+grupo: "Sistema Tributário Nacional"
+tags:
+  - cf88
+  - constitucional
+  - sistema-tributario
+  - tributacao
+  - orcamento
+  - art166
+data: 2026-05-31
+---
+
+# Art. 166º CF/88 — Processo Legislativo Orçamentário
+
+> [!info] Localização na CF/88
+> **Título 6** — DA TRIBUTAÇÃO E DO ORÇAMENTO
+> **Capítulo 2** — DAS FINANÇAS PÚBLICAS
+> **Seção 2** — DOS ORÇAMENTOS
+
+## Texto Constitucional
+
+> [!quote] Caput
+> Os projetos de lei relativos ao plano plurianual, às diretrizes orçamentárias, ao orçamento anual e aos créditos adicionais serão apreciados pelas duas Casas do Congresso Nacional, na forma do regimento comum.
+
+- § 1º Caberá a uma Comissão mista permanente de Senadores e Deputados:
+  - I – examinar e emitir parecer sobre os projetos referidos neste artigo e sobre as contas apresentadas anualmente pelo Presidente da República;
+  - II – examinar  e  emitir  parecer  sobre  os  planos  e  programas  nacionais,  regionais  e  setoriais  previstos  nesta Constituição  e  exercer  o  acompanhamento  e  a  fiscalização  orçamentária,  sem  prejuízo  da  atuação  das  demais comissões do Congresso Nacional e de suas Casas, criadas de acordo com o art. 58.
+- § 2º As emendas serão apresentadas na Comissão mista, que sobre elas emitirá parecer, e apreciadas, na forma regimental, pelo Plenário das duas Casas do Congresso Nacional.
+- § 3º As emendas ao projeto de lei do orçamento anual ou aos projetos que o modifiquem somente podem ser aprovadas caso:
+  - I – sejam compatíveis com o plano plurianual e com a lei de diretrizes orçamentárias;
+  - II – indiquem os recursos necessários, admitidos apenas os provenientes de anulação de despesa, excluídas as que incidam sobre: a) dotações para pessoal e seus encargos; b) serviço da dívida; c) transferências tributárias constitucionais para Estados, Municípios e Distrito Federal; ou
+  - III – sejam relacionadas:
+    - a) com a correção de erros ou omissões; ou b) com os dispositivos do texto do projeto de lei.
+- § 4º As emendas ao projeto de lei de diretrizes orçamentárias não poderão ser aprovadas quando incompatíveis com o plano plurianual.
+- § 5º O Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação nos projetos a que se refere este artigo enquanto não iniciada a votação, na Comissão mista, da parte cuja alteração é proposta.
+- § 6º Os projetos de lei do plano plurianual, das diretrizes orçamentárias e do orçamento anual serão enviados pelo Presidente da República ao Congresso Nacional, nos termos da lei complementar a que se refere o art. 165, § 9º.
+- § 7º Aplicam-se aos projetos mencionados neste artigo, no que não contrariar o disposto nesta seção, as demais normas relativas ao processo legislativo.
+- § 8º Os recursos que, em decorrência de veto, emenda ou rejeição do projeto de lei orçamentária anual, ficarem sem  despesas  correspondentes  poderão  ser  utilizados,  conforme  o  caso,  mediante  créditos  especiais  ou suplementares, com prévia e específica autorização legislativa.
+- § 9º As emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de 1,2% (um inteiro e dois décimos por cento) da receita corrente líquida prevista no projeto encaminhado pelo Poder Executivo, sendo que a metade deste percentual será destinada a ações e serviços públicos de saúde.  (Incluído pela Emenda Constitucional nº 86, de 2015) §  10.  A  execução  do  montante  destinado  a  ações  e  serviços  públicos  de  saúde  previsto  no  §  9º,  inclusive custeio, será computada para fins do cumprimento do inciso I do § 2º do art. 198, vedada a destinação para pagamento de pessoal ou encargos sociais.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 11. É obrigatória a execução orçamentária e financeira das programações a que se refere o § 9º deste artigo, em montante correspondente a 1,2% (um inteiro e dois décimos por cento) da receita corrente líquida realizada no exercício  anterior,  conforme  os  critérios  para  a  execução  equitativa  da  programação  definidos  na  lei  complementar prevista no § 9º do art. 165.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 12. As programações orçamentárias previstas no § 9º deste artigo não serão de execução obrigatória nos casos dos impedimentos de ordem técnica.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 13. Quando a transferência obrigatória da União, para a execução da programação prevista no §11 deste artigo, for destinada a Estados, ao Distrito Federal e a Municípios, independerá da adimplência do ente federativo destinatário e não integrará a base de cálculo da receita corrente líquida para fins de aplicação dos limites de despesa de pessoal de que trata o caput do art. 169.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 14. No caso de impedimento de ordem técnica, no empenho de despesa que integre a programação, na forma do § 11 deste artigo, serão adotadas as seguintes medidas:  (Incluído pela Emenda Constitucional nº 86, de 2015)
+  - I – até 120 (cento e vinte) dias após a publicação da lei orçamentária, o Poder Executivo, o Poder Legislativo, o Poder  Judiciário,  o  Ministério  Público  e  a  Defensoria  Pública  enviarão  ao  Poder  Legislativo  as  justificativas  do impedimento;  (Incluído pela Emenda Constitucional nº 86, de 2015)
+  - II – até 30 (trinta) dias após  o  término  do  prazo  previsto  no  inciso  I,  o  Poder  Legislativo  indicará  ao  Poder Executivo o remanejamento da programação cujo impedimento seja insuperável;  (Incluído pela Emenda Constitucional nº 86, de 2015)
+  - III – até 30 de setembro ou até 30 (trinta) dias após o prazo previsto no inciso II, o Poder Executivo encaminhará projeto  de  lei  sobre  o  remanejamento  da  programação  cujo  impedimento  seja  insuperável;    (Incluído  pela  Emenda Constitucional nº 86, de 2015)
+  - IV – se, até 20 de novembro ou até 30 (trinta) dias após o término do prazo previsto no inciso III, o Congresso Nacional não deliberar sobre o projeto, o remanejamento será implementado por ato do Poder Executivo, nos termos previstos na lei orçamentária.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 15. Após o prazo previsto no inciso IV do § 14, as programações orçamentárias previstas no § 11 não serão de execução obrigatória nos casos dos impedimentos justificados na notificação prevista no inciso I do § 14.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 16. Os restos a pagar poderão ser considerados para fins de cumprimento da execução financeira prevista no § 11 deste artigo, até o limite de 0,6% (seis décimos por cento) da receita corrente líquida realizada no exercício anterior. (Incluído pela Emenda Constitucional nº 86, de 2015) § 17. Se for verificado que a reestimativa da receita e da despesa poderá resultar no não cumprimento da meta de resultado fiscal estabelecida na lei de diretrizes orçamentárias, o montante previsto no § 11 deste artigo poderá ser reduzido em até a mesma proporção da limitação incidente sobre o conjunto das despesas discricionárias.  (Incluído pela Emenda Constitucional nº 86, de 2015) § 18. Considera-se equitativa a execução das programações de caráter obrigatório que atenda de forma igualitária e impessoal às emendas apresentadas, independentemente da autoria.  (Incluído pela Emenda Constitucional nº 86, de 2015)
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título VI — Da Tributação e do Orçamento**. Integra o STN ou as normas financeiro-orçamentárias. Essencial para competência tributária, limitações ao poder de tributar e repartição de receitas.
+
+## Links Relacionados
+
+- ← [[Art. 165 — Leis Orçamentárias — PPA LDO LOA]] | [[INDEX — Constituição Federal]] | [[Art. 167 — Vedações Orçamentárias]] →

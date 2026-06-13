@@ -1,0 +1,53 @@
+---
+artigo: "49"
+nomen: "Competência Exclusiva do Congresso"
+titulo_num: 4
+titulo: "DA ORGANIZAÇÃO DOS PODERES"
+capitulo: "DO PODER LEGISLATIVO"
+secao: "DAS ATRIBUIÇÕES DO CONGRESSO NACIONAL"
+disciplina: constitucional
+grupo: "Organização dos Poderes"
+tags:
+  - cf88
+  - constitucional
+  - organizacao-poderes
+  - tripartição
+  - checks-and-balances
+  - art49
+data: 2026-05-31
+---
+
+# Art. 49º CF/88 — Competência Exclusiva do Congresso
+
+> [!info] Localização na CF/88
+> **Título 4** — DA ORGANIZAÇÃO DOS PODERES
+> **Capítulo 1** — DO PODER LEGISLATIVO
+> **Seção 2** — DAS ATRIBUIÇÕES DO CONGRESSO NACIONAL
+
+## Texto Constitucional
+
+> [!quote] Caput
+> É da competência exclusiva do Congresso Nacional:
+
+- I – resolver  definitivamente  sobre  tratados,  acordos  ou  atos  internacionais  que  acarretem  encargos  ou compromissos gravosos ao patrimônio nacional;
+  - II – autorizar o Presidente da República a declarar guerra, a celebrar a paz, a permitir que forças estrangeiras transitem  pelo  território  nacional  ou  nele  permaneçam  temporariamente,  ressalvados  os  casos  previstos  em  lei complementar;
+  - III – autorizar o Presidente e o Vice-Presidente da República a se ausentarem do País, quando a ausência exceder a quinze dias;
+  - IV – aprovar o estado de defesa e a intervenção federal, autorizar o estado de sítio, ou suspender qualquer uma dessas medidas;
+  - V – sustar  os  atos  normativos  do  Poder  Executivo  que  exorbitem  do  poder  regulamentar  ou  dos  limites  de delegação legislativa;
+  - VI – mudar temporariamente sua sede;
+  - VII – fixar idêntico subsídio para os Deputados Federais e os Senadores, observado o que dispõem os arts. 37, XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I;  (Redação dada pela Emenda Constitucional nº 19, de 1998)
+  - VIII – fixar os subsídios do Presidente e do Vice-Presidente da República e dos Ministros de Estado, observado o que dispõem os arts. 37, XI, 39, § 4º, 150, II, 153, III, e 153, § 2º, I; (Redação dada pela Emenda Constitucional nº 19, de 1998)
+  - IX – julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo;
+  - X – fiscalizar e controlar, diretamente, ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da administração indireta;
+  - XI – zelar pela preservação de sua competência legislativa em face da atribuição normativa dos outros Poderes;
+  - XII – apreciar os atos de concessão e renovação de concessão de emissoras de rádio e televisão;
+  - XIII – escolher dois terços dos membros do Tribunal de Contas da União; XIV - aprovar iniciativas do Poder Executivo referentes a atividades nucleares; XV - autorizar referendo e convocar plebiscito; XVI - autorizar, em terras indígenas, a exploração e o aproveitamento de recursos hídricos e a pesquisa e lavra de riquezas minerais; XVII  -  aprovar,  previamente,  a  alienação  ou  concessão  de  terras  públicas  com  área  superior  a  dois  mil  e quinhentos hectares.
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título IV — Organização dos Poderes**. Regula Legislativo, Executivo, Judiciário e Funções Essenciais. Base do sistema de freios e contrapesos (*checks and balances*).
+
+## Links Relacionados
+
+- ← [[Art. 048 — Competência Legislativa com Sanção]] | [[INDEX — Constituição Federal]] | [[Art. 050 — Convocação de Ministros de Estado]] →

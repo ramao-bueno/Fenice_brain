@@ -1,0 +1,39 @@
+---
+artigo: "82"
+nomen: "Reeleição Presidencial"
+titulo_num: 10
+titulo: "ATO DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS"
+capitulo: null
+secao: null
+disciplina: constitucional
+grupo: "ADCT"
+tags:
+  - cf88
+  - constitucional
+  - adct
+  - norma-transitoria
+  - art82
+data: 2026-05-31
+---
+
+# Art. 82 ADCT — Reeleição Presidencial
+
+> [!info] Localização na CF/88
+> **Título 10** — ATO DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS
+
+## Texto Constitucional
+
+> [!quote] Caput
+> Os Estados, o Distrito Federal e os Municípios devem instituir Fundos de Combate á Pobreza, com os recursos de que trata este artigo e outros que vierem a destinar, devendo os referidos Fundos ser geridos por entidades que contem com a participação da sociedade civil. (Incluído pela Emenda Constitucional nº 31, de 2000)
+
+- § 1º Para o financiamento dos Fundos Estaduais e Distrital, poderá ser criado adicional de até dois pontos percentuais na alíquota do Imposto sobre Circulação de Mercadorias e Serviços - ICMS, sobre os produtos e serviços supérfluos e nas condições definidas na lei complementar de que trata o art. 155, § 2º, XII, da Constituição, não se aplicando, sobre este percentual, o disposto no art. 158, IV, da Constituição. (Redação dada pela Emenda Constitucional nº 42, de 19.12.2003)
+- § 2º Para o financiamento dos Fundos Municipais, poderá ser criado adicional de até meio ponto percentual na alíquota do Imposto sobre serviços ou do imposto que vier a substituí-lo, sobre serviços supérfluos. (Incluído  pela Emenda Constitucional nº 31, de 2000)
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **ADCT — Ato das Disposições Constitucionais Transitórias**. Direito intertemporal constitucional. Regula transição entre o ordenamento anterior e a CF/88. Alguns dispositivos já esgotaram eficácia; outros têm aplicação permanente.
+
+## Links Relacionados
+
+- ← [[Art. ADCT-081 — Nova Eleição Presidencial]] | [[INDEX — Constituição Federal]] | [[Art. ADCT-083 — Sede do Governo Federal]] →

@@ -1,0 +1,48 @@
+---
+artigo: "30"
+nomen: "Competências Municipais"
+titulo_num: 3
+titulo: "Da Organização do Estado"
+capitulo: "Dos Municípios"
+secao: null
+disciplina: constitucional
+grupo: "Organização do Estado"
+tags:
+  - cf88
+  - constitucional
+  - organizacao-estado
+  - federalismo
+  - competencias
+  - art30
+data: 2026-05-31
+---
+
+# Art. 30º CF/88 — Competências Municipais
+
+> [!info] Localização na CF/88
+> **Título 3** — Da Organização do Estado
+> **Capítulo 4** — Dos Municípios
+
+## Texto Constitucional
+
+> [!quote] Caput
+> Compete aos Municípios:
+
+- I – legislar sobre assuntos de interesse local;
+  - II – suplementar a legislação federal e a estadual no que couber;
+  - III – instituir  e  arrecadar  os  tributos  de  sua  competência,  bem  como  aplicar  suas  rendas,  sem  prejuízo  da obrigatoriedade de prestar contas e publicar balancetes nos prazos fixados em lei;
+  - IV – criar, organizar e suprimir distritos, observada a legislação estadual;
+  - V – organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial;
+  - VI – manter, com a cooperação técnica e financeira da União e do Estado, programas de educação infantil e de ensino fundamental; (Redação dada pela Emenda Constitucional nº 53, de 2006)
+  - VII – prestar, com a cooperação técnica e financeira da União e do Estado, serviços de atendimento à saúde da população;
+  - VIII – promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano;
+  - IX – promover a proteção do patrimônio histórico-cultural local, observada a legislação e a ação fiscalizadora federal e estadual.
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título III — Da Organização do Estado**. Define a estrutura federativa e a repartição de competências entre União, Estados, DF e Municípios — modelo federativo cooperativo.
+
+## Links Relacionados
+
+- ← [[Art. 029-A — Município — Lei Orgânica]] | [[INDEX — Constituição Federal]] | [[Art. 031 — Controle Externo Municipal]] →

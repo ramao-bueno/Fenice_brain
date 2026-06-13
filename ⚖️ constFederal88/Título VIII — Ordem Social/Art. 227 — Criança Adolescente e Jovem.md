@@ -1,0 +1,57 @@
+---
+artigo: "227"
+nomen: "Criança Adolescente e Jovem"
+titulo_num: 8
+titulo: "Da Ordem Social"
+capitulo: "Da Família, da Criança, do Adolescente, do Jovem e do Idoso"
+secao: null
+disciplina: constitucional
+grupo: "Ordem Social"
+tags:
+  - cf88
+  - constitucional
+  - ordem-social
+  - direitos-prestacionais
+  - art227
+data: 2026-05-31
+---
+
+# Art. 227º CF/88 — Criança Adolescente e Jovem
+
+> [!info] Localização na CF/88
+> **Título 8** — Da Ordem Social
+> **Capítulo 7** — Da Família, da Criança, do Adolescente, do Jovem e do Idoso
+
+## Texto Constitucional
+
+> [!quote] Caput
+> É dever da família, da sociedade e do Estado assegurar à criança, ao adolescente e ao jovem, com absoluta prioridade, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, além de colocá-los a salvo de toda forma de negligência, discriminação, exploração, violência, crueldade e opressão. (Redação dada Pela Emenda Constitucional nº 65, de 2010)
+
+- § 1º O Estado promoverá programas de assistência integral à saúde da criança, do adolescente e do jovem, admitida a participação de entidades não governamentais, mediante políticas específicas e obedecendo aos seguintes preceitos: (Redação dada Pela Emenda Constitucional nº 65, de 2010)
+  - I – aplicação de percentual dos recursos públicos destinados à saúde na assistência materno-infantil;
+  - II – criação de programas de prevenção e atendimento especializado para as pessoas portadoras de deficiência física, sensorial ou mental, bem como de integração social do adolescente e do jovem portador de deficiência, mediante o  treinamento  para  o  trabalho  e  a  convivência,  e  a  facilitação  do  acesso  aos  bens  e  serviços  coletivos,  com  a eliminação  de  obstáculos  arquitetônicos  e  de  todas  as  formas  de  discriminação.  (Redação  dada  Pela  Emenda Constitucional nº 65, de 2010)
+- § 2º A lei disporá sobre normas de construção dos logradouros e dos edifícios de uso público e de fabricação de veículos de transporte coletivo, a fim de garantir acesso adequado às pessoas portadoras de deficiência.
+- § 3º O direito a proteção especial abrangerá os seguintes aspectos:
+  - I – idade mínima de quatorze anos para admissão ao trabalho, observado o disposto no art. 7º, XXXIII;
+  - II – garantia de direitos previdenciários e trabalhistas;
+  - III – garantia de acesso do trabalhador adolescente e jovem à escola; (Redação dada Pela Emenda Constitucional nº 65, de 2010)
+  - IV – garantia de pleno e formal conhecimento da atribuição de ato infracional, igualdade na relação processual e defesa técnica por profissional habilitado, segundo dispuser a legislação tutelar específica;
+  - V – obediência  aos  princípios  de  brevidade,  excepcionalidade  e  respeito  à  condição  peculiar  de  pessoa  em desenvolvimento, quando da aplicação de qualquer medida privativa da liberdade;
+  - VI – estímulo do Poder Público, através de assistência jurídica, incentivos fiscais e subsídios, nos termos da lei, ao acolhimento, sob a forma de guarda, de criança ou adolescente órfão ou abandonado;
+  - VII – programas de prevenção e atendimento especializado à criança, ao adolescente e ao jovem dependente de entorpecentes e drogas afins. (Redação dada Pela Emenda Constitucional nº 65, de 2010)
+- § 4º A lei punirá severamente o abuso, a violência e a exploração sexual da criança e do adolescente.
+- § 5º A adoção será assistida pelo Poder Público, na forma da lei, que estabelecerá casos e condições de sua efetivação por parte de estrangeiros.
+- § 6º Os filhos, havidos ou não da relação do casamento, ou por adoção, terão os mesmos direitos e qualificações, proibidas quaisquer designações discriminatórias relativas à filiação.
+- § 7º No atendimento dos direitos da criança e do adolescente levar-se- á em consideração o disposto no art. 204.
+- § 8º A lei estabelecerá: (Incluído Pela Emenda Constitucional nº 65, de 2010)
+  - I – o estatuto da juventude, destinado a regular os direitos dos jovens; (Incluído Pela Emenda Constitucional nº 65, de 2010)
+  - II – o plano nacional de juventude, de duração decenal, visando à articulação das várias esferas do poder público para a execução de políticas públicas. (Incluído Pela Emenda Constitucional nº 65, de 2010)
+
+## Por que importa?
+
+> [!tip] Relevância Constitucional
+> Artigo do **Título VIII — Da Ordem Social**. Direitos sociais prestacionais: saúde, previdência, assistência, educação, cultura, meio ambiente, família. Eficácia progressiva.
+
+## Links Relacionados
+
+- ← [[Art. 226 — Família]] | [[INDEX — Constituição Federal]] | [[Art. 228 — Inimputabilidade Penal do Menor]] →

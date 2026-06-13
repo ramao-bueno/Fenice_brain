@@ -1,0 +1,44 @@
+---
+sumula: '15'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=15
+tags:
+- stf
+- sumula
+- sumula-15
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 15
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=15)
+
+---
+
+## ENUNCIADO
+
+> Dentro do prazo de validade do concurso, o candidato aprovado tem direito à nomeação, quando o cargo for preenchido sem observância da classificação. Teses de Repercussão Geral ● O surgimento de novas vagas ou a abertura de novo concurso para o mesmo cargo, durante o prazo de validade do certame anterior, não gera automaticamente o direito à nomeação dos candidatos aprovados fora das vagas previstas no edital, ressalvadas as hipóteses de preterição arbitrária e imotivada por parte da administração, caracterizada por comportamento tácito ou expresso do Poder Público capaz de revelar a inequívoca necessidade de nomeação do aprovado durante o período de validade do certame, a ser demonstrada de forma cabal pelo candidato. Assim, o direito subjetivo à nomeação do candidato aprovado em concurso público exsurge nas seguintes hipóteses: I – Quando a aprovação ocorrer dentro do número de vagas dentro do edital; II – Quando houver preterição na nomeação por não observância da ordem de classificação; III – Quando surgirem novas vagas, ou for aberto novo concurso durante a validade do certame anterior, e ocorrer a preterição de candidatos de forma arbitrária e imotivada por parte da administração nos termos acima. [Tese definida no RE 837.311 , rel. min. Luiz Fux , P, j. 9-12-2015, DJE 72 de 18-4-2016, Tema 784 .] A tese objetiva assentada em sede desta repercussão geral é a de que o surgimento de novas vagas ou a abertura de novo concurso para o mesmo cargo, durante o prazo de validade do certame anterior, não gera automaticamente o direito à nomeação dos candidatos aprovados fora das vagas previstas no edital, ressalvadas as hipóteses de preterição arbitrária e imotivada por parte da administração, caracterizadas por comportamento tácito ou expresso do Poder Público capaz de revelar a inequívoca necessidade de nomeação do aprovado durante o período de validade do certame, a ser demonstrada de forma cabal pelo candidato. Assim, a discricionariedade da Administração quanto à convocação de aprovados em concurso público fica reduzida ao patamar zero ( Ermessensreduzierung auf Null ), fazendo exsurgir o direito subjetivo à nomeação, verbi gratia , nas seguintes hipóteses excepcionais: i) Quando a aprovação ocorrer dentro do número de vagas dentro do edital ( RE 598.099 ); ii) Quando houver preterição na nomeação por não observância da ordem de classificação ( Súmula 15 do STF); iii) Quando surgirem novas vagas, ou for aberto novo concurso durante a validade do certame anterior, e ocorrer a preterição de candidatos aprovados fora das vagas de forma arbitrária e imotivada por parte da administração nos termos acima. [ RE 837.311 , rel. min. Luiz Fux , P, j. 9-12-2015, DJE 72 de 18-4-2016, Tema 784 .] ● Na hipótese de posse em cargo público determinada por decisão judicial, o servidor não faz jus a indenização, sob fundamento de que deveria ter sido investido em momento anterior, salvo situação de arbitrariedade flagrante. [Tese definida no RE 724.347 , rel. min. Marco Aurélio , red. p/ o ac. min. Roberto Barroso , P, j. 26-2-2015, DJE 88 de 13-5-2015, Tema 671 .] ● O candidato aprovado em concurso público dentro do número de vagas previsto no edital possui direito subjetivo à nomeação. [Tese definida no RE 598.099 , rel. min. Gilmar Mendes , P, j. 10-8-2011, DJE 189 de 3-10-2011, Tema 161 .] Dentro do prazo de validade do concurso, a Administração poderá escolher o momento no qual se realizará a nomeação, mas não poderá dispor sobre a própria nomeação, a qual, de acordo com o edital, passa a constituir um direito do concursando aprovado e, dessa forma, um dever imposto ao poder público. Uma vez publicado o edital do concurso com número específico de vagas, o ato da Administração que declara os candidatos aprovados no certame cria um dever de nomeação para a própria Administração e, portanto, um direito à nomeação titularizado pelo candidato aprovado dentro desse número de vagas. [ RE 598.099 , rel. min. Gilmar Mendes , P, j. 10-8-2011, DJE 189 de 3-10-2011, Tema 161 .] Quando se afirma que a Administração Pública tem a obrigação de nomear os aprovados dentro do número de vagas previsto no edital, deve-se levar em consideração a possibilidade de situações excepcionalíssimas que justifiquem soluções diferenciadas , devidamente motivadas de acordo com o interesse público. Não se pode ignorar que determinadas situações excepcionais podem exigir a recusa da Administração Pública de nomear novos servidores. Para justificar o excepcionalíssimo não cumprimento do dever de nomeação por parte da Administração Pública, é necessário que a situação justificadora seja dotada das seguintes características: a) Superveniência : os eventuais fatos ensejadores de uma situação excepcional devem ser necessariamente posteriores à publicação do edital do certame público; b) Imprevisibilidade : a situação deve ser determinada por circunstâncias extraordinárias, imprevisíveis à época da publicação do edital; c) Gravidade : os acontecimentos extraordinários e imprevisíveis devem ser extremamente graves, implicando onerosidade excessiva, dificuldade ou mesmo impossibilidade de cumprimento efetivo das regras do edital; d) Necessidade : a solução drástica e excepcional de não cumprimento do dever de nomeação deve ser extremamente necessária, de forma que a Administração somente pode adotar tal medida quando absolutamente não existirem outros meios menos gravosos para lidar com a situação excepcional e imprevisível. De toda forma, a recusa de nomear candidato aprovado dentro do número de vagas deve ser devidamente motivada e, dessa forma, passível de controle pelo Poder Judiciário. [ RE 598.099 , rel. min. Gilmar Mendes , P, j. 10-8-2011, DJE de 189 de 3-10-2011, Tema 161 .]
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

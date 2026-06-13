@@ -1,0 +1,44 @@
+---
+sumula: '372'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=372
+tags:
+- stf
+- sumula
+- sumula-372
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 372
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=372)
+
+---
+
+## ENUNCIADO
+
+> A Lei 2.752, de 10-4-1956, sobre dupla aposentadoria, aproveita, quando couber, a servidores aposentados antes de sua publicação. Tese de Repercussão Geral ● Para o cálculo da renda mensal inicial, cumpre observar o quadro mais favorável ao beneficiário, pouco importando o decesso remuneratório ocorrido em data posterior ao implemento das condições legais para a aposentadoria, respeitadas a decadência do direito à revisão e a prescrição quanto às prestações vencidas. [Tese definida no RE 630.501 , rel. min. Ellen Gracie , red. p/ o ac. min. Marco Aurélio , P, j. 21-2-2013, DJE 166 de 26-08-2013, Tema 334 .] (...) se nós analisarmos a principiologia da Constituição Federal , que visa à valorização do trabalhador, que visa à proteção da dignidade da pessoa humana, efetivamente ressoa antitético imaginar que uma pessoa que já tinha o direito adquirido de exercê-lo em condições favoráveis não possa mais fazê-lo porque ela resolveu requerer a aposentadoria num momento posterior. A Súmula 359 tem exatamente como ratio essendi garantir esse direito, tanto que ela substituiu a Súmula 372 . E há vários julgados, aqui, inclusive desde a época dos Ministros Xavier de Albuquerque e Moreira Alves, no sentido de que, se já houve aquisição desse direito, não pode estar condicionado à outra exigência. Por isso é que, ressalvada a revisão prevista em lei, os proventos da inatividade regulam-se pela lei vigente ao tempo em que se reuniram os requisitos necessários, até porque isso é um princípio geral de Direito. É um princípio geral que se aplica ao servidor militar, ao servidor civil e, a fortiori, ao empregado. Na realidade, pela redação do artigo 6º da Lei de Introdução ao Código Civil , esse direito já estava incorporado ao patrimônio do empregado. E ele não pode ser punido, como Vossa Excelência destacou no início, porque ele requereu, posteriormente, a aposentadoria. Então se esse direito já estava integrado no seu patrimônio e, como bem destacou o Ministro Teori Zavascki, se não ocorreu nenhuma interferência de prazo decadencial, ele ainda pode ser exercido. No meu modo de ver, essa é a solução mais justa. [ RE 630.501 , rel. min. Ellen Gracie , red. p/ o ac. min. Marco Aurélio , voto do min. Luiz Fux , P, j. 21-2-2013, DJE 166 de 26-8-2013, Tema 334 .] Observação ● Vide Súmula 359 . ● Tese de Repercussão Geral definida no Tema 334 , aprovada nos termos do item 2 da Ata da 12ª Sessão Administrativa do STF, realizada em 9-12-2015. Data de publicação do enunciado: Sessão Plenária de 13-12-1963. Para informações adicionais, clique aqui . Para pesquisar menções a esta súmula no banco de jurisprudência do STF, utilizando o nosso critério de pesquisa, clique aqui .
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

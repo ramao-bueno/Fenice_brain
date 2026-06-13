@@ -1,0 +1,44 @@
+---
+sumula: '343'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=343
+tags:
+- stf
+- sumula
+- sumula-343
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 343
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=343)
+
+---
+
+## ENUNCIADO
+
+> Não cabe ação rescisória por ofensa a literal disposição de lei, quando a decisão rescindenda se tiver baseado em texto legal de interpretação controvertida nos tribunais. Teses de Repercussão Geral ● A decisão do Supremo Tribunal Federal declarando a constitucionalidade ou a inconstitucionalidade de preceito normativo não produz a automática reforma ou rescisão das decisões anteriores que tenham adotado entendimento diferente. Para que tal ocorra, será indispensável a interposição de recurso próprio ou, se for o caso, a propositura de ação rescisória própria, nos termos do art. 485 do CPC, observado o respectivo prazo decadencial (CPC, art. 495). [Tese definida no RE 730.462 , rel. min. Teori Zavascki , P, j. 28-5-2015, DJE 177 de 9-9-2015, Tema 733 .] ● Não cabe ação rescisória quando o julgado estiver em harmonia com o entendimento firmado pelo Plenário do Supremo à época da formalização do acórdão rescindendo, ainda que ocorra posterior superação do precedente. [Tese definida no RE 590.809 , rel. min. Marco Aurélio , P, j. 22-10-2014, DJE 230 de 24-11-2014, Tema 136 .] No que tange à alegação de que a Súmula 343 do STF deve ser afastada em caso de decisão em sede de controle abstrato de constitucionalidade sobre a matéria, tendo em vista o seu efeito ex tunc , constato que tal assertiva não se aplica ao presente caso. É que as manifestações em sede de controle concentrado apontadas ( ADI n° 5.367 , ADC 36 e ADPF n° 357 ) resultaram na declaração da constitucionalidade do art. 58, § 3°, da Lei n° 9.649/1998 . Não há que se falar, portanto, em nulidade da norma desde a sua edição, como decorreria de uma declaração de inconstitucionalidade, inexistente, in casu . Nesse sentido, colaciono trecho esclarecedor do voto proferido pelo Min. Marco Aurélio, no julgamento do RE 590.809 ( Tema 136 da RG, grifei): (...). Fica claro, consectariamente, que a Súmula 343 do STF é aplicável ao caso em exame, devendo ser mantida a decisão monocrática que, nela fundamentada, negou seguimento à ação rescisória. [ AR 2.377-AgR , rel. min. Luiz Fux , P, j. 13-6-2023, DJE s/n de 27-6-2023.] (...) tendo em vista considerações de segurança jurídica, esta Suprema Corte passou a entender aplicável a Súmula 343/STF às matérias de índole constitucional, desde que houvesse divergência de entendimentos no âmbito do próprio plenário do Supremo Tribunal Federal. Nesse contexto, foi editado o tema 136 da repercussão geral (...). No caso concreto, tanto as decisões proferidas pelo Plenário do STF (vide ACO 1.039/MS , de minha relatoria, e STP 107/GO , Rel. Min. Dias Toffoli) quanto pelas Turmas assentavam a validade dos adicionais criados pelos Estados e pelo Distrito Federal destinados aos Fundos de Combate e Erradicação à Pobreza, ainda que instituídos após às Emendas Constitucionais 33/2001 e 42/2003 , desde que não conflitantes com elas. Na realidade, a única decisão por meio da qual esta Corte consignou a impossibilidade de convalidação do adicional destinado ao Fundo de Combate à Pobreza que se tem notícia é a que ora se pretende rescindir, que foi proferida monocraticamente. Paradoxalmente, a decisão que se busca rescindir reconhece que a jurisprudência de ambas as Turmas do STF é pacífica no sentido pleiteado pela então recorrente, mas mesmo assim deixa de aplicá-la. (...) Na realidade, não obstante a possibilidade de se entender que a declaração de inconstitucionalidade, pelo TJGO, do adicional destinado ao Fundo de Combate à Pobreza vir a ter repercussão geral presumida, penso que, caso o relator quisesse efetivamente superar o entendimento do STF, o rito procedimental que o feito deveria ter seguido seria o de reconhecer-se expressamente a repercussão geral do tema, em âmbito virtual, para, então, viabilizar-se a deliberação colegiada sobre o assunto. Decidir monocraticamente de maneira divergente ao entendimento pacífico de ambas as Turmas do Supremo Tribunal Federal e do próprio Plenário da Corte, com todas as vênias, não me parece o melhor caminho. Reitere-se que já havia, inclusive, precedentes do Plenário desta Suprema Corte em sentido contrário ao decidido pelo relator, conforme se observa da STP 107-AgR , Rel. Min. Dias Toffoli, Tribunal Pleno, DJe 18.12.2019, além da ACO 1.039 , da minha relatoria. Ante o exposto, peço vênia ao entendimento da relatora, e, aplicando, a contrario sensu, a ratio decidendi do tema 136 da repercussão geral ao caso, voto para dar provimento ao agravo regimental e determinar o regular processamento da presente ação rescisória. [ AR 2.928-AgR , rel. min. Rosa Weber , red. p/ o ac. min. Gilmar Mendes , P, j. 13-12-2022, DJE 13 de 25-1-2023.]
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

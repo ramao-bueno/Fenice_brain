@@ -1,0 +1,43 @@
+---
+sumula: '359'
+tipo: sumula-stf
+tribunal: STF
+status: alterada
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=359
+tags:
+- stf
+- sumula
+- sumula-359
+- jurisprudencia
+- alterada
+created: '2026-06-04'
+---
+
+# STF Súmula 359
+
+**Status:** ⚠️ ALTERADA
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=359)
+
+---
+
+## ENUNCIADO
+
+> (alterada) Ressalvada a revisão prevista em lei, os proventos da inatividade regulam-se pela lei vigente ao tempo em que o militar, ou o servidor civil, reuniu os requisitos necessários. (alterada) Teses de Repercussão Geral ● No âmbito do Regime Geral de Previdência Social - RGPS, somente lei pode criar benefícios e vantagens previdenciárias, não havendo, por ora, previsão legal do direito à "desaposentação", sendo constitucional a regra do art. 18, § 2º, da Lei 8.213/1991. [Tese definida no RE 661.256 , rel. min. Roberto Barroso , red p/ o ac. min. Dias Toffoli , P, j. 27-10-2016, DJE de 28-9-2017, Tema 503 .] A natureza estatutária do RGPS tem consequências importantes em relação à formação, à aquisição, à modificação e ao exercício dos correspondentes direitos subjetivos. (...). (...) nas situações jurídicas estatutárias os direitos subjetivos somente nascem (= tornam-se direitos adquiridos) quando inteiramente aperfeiçoados os requisitos próprios previstos na lei (= o ato-condição). (...). E também por isso se afirma, para o que interessa ao caso, que a aposentadoria se regula pela lei vigente ao tempo em que forem implementados todos os requisitos necessários (...). Portanto, no âmbito do Regime Geral da Previdência Social, que é estatutário, os direitos subjetivos estão integralmente disciplinados pelo ordenamento jurídico (...). (...). Em suma: o que se tem atualmente (a partir da Lei 9.032/1995 ), em relação ao aposentado que permanece ou retorna ao trabalho, é um regime jurídico que não prevê a concessão de outros benefícios que não os do § 2º do art. 18 da Lei 8.213/1991 e cujas contribuições se destinam aos custos presentes do sistema da Seguridade Social (e não de benefícios previdenciários futuros, seja ao contribuinte, seja a terceiros). [ RE 381.367 , rel. min. Marco Aurélio , red. p/ o ac. min. Dias Toffoli , voto do min. Teori Zavascki , P, j. 26-10-2016, DJE 250 de 31-10-2017.] ● Para o cálculo da renda mensal inicial, cumpre observar o quadro mais favorável ao beneficiário, pouco importando o decesso remuneratório ocorrido em data posterior ao implemento das condições legais para a aposentadoria, respeitadas a decadência do direito à revisão e a prescrição quanto às prestações vencidas. [Tese definida no RE 630.501 , rel. min. Ellen Gracie , red. p/ o ac. min. Marco Aurélio , P, j. 21-2-2013, DJE de 26-8-2013, Tema 334 .] (...) o segurado adquiriu o direito de se aposentar, mas permaneceu trabalhando sem se aposentar. Os cálculos foram feitos levando em conta a data, não da aquisição do direito, mas a data em que houve o exercício do direito - data superveniente. E essa data acabou sendo considerada por prejudicial. A pergunta que se faz é se ele pode exercer o direito de se aposentar, calculando esse direito, inclusive os proventos, na data anterior, ou seja, na data em que ele veio a adquirir o direito. Reafirmo que o direito que se adquire pode ser exercido nos termos e com a configuração da data da aquisição, quando se implementaram os respectivos requisitos. Trata-se, todavia, de um direito potestativo – ou seja, um direito formativo gerador -, a significar que não gera, desde logo, um dever de satisfazer a prestação por parte do sujeito passivo. (...). Todavia, em se tratando de direito já incorporado ao patrimônio jurídico, a falta de exercício não acarreta, por si só, a sua perda, (...) a não ser quando a lei fixa um prazo para o exercício do direito, que não é o caso. O direito assim adquirido pode, portanto, ser exercido a qualquer tempo, ressalvada a decadência. [ RE 630.501 , rel. min. Ricardo Lewandowski , red. p/ o ac. min. Marco Aurélio , voto do min. Teori Zavascki, P, j. 21-2-2013, DJE 166 de 26-8-2013, Tema 334 .]
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

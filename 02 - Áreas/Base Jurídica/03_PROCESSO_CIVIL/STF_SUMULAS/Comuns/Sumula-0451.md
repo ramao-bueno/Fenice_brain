@@ -1,0 +1,44 @@
+---
+sumula: '451'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=451
+tags:
+- stf
+- sumula
+- sumula-451
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 451
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=451)
+
+---
+
+## ENUNCIADO
+
+> A competência especial por prerrogativa de função não se estende ao crime cometido após a cessação definitiva do exercício funcional. Tese de Repercussão Geral ● O foro especial por prerrogativa de função não se estende a magistrados aposentados. [Tese definida no RE 549.560 , rel. min. Ricardo Lewandowski , P, j. 22-3-2012, DJE 104 de 30-5-2014, Tema 453. ] I - A vitaliciedade é garantia inerente ao exercício do cargo pelos magistrados e tem como objetivo prover a jurisdição de independência e imparcialidade. II - Exercem a jurisdição, tão-somente, os magistrados na atividade, não se estendendo aos inativos o foro especial por prerrogativa de função. III - A aposentadoria do magistrado, ainda que voluntária, transfere a competência para processamento e julgamento de eventual ilícito penal para o primeiro grau de jurisdição. IV - Recurso extraordinário a que se nega provimento. [Tese definida no RE 549.560 , rel. min. Ricardo Lewandowski , P, j. 22-3-2012, DJE 104 de 30-5-2014, Tema 453. ] (I) O foro por prerrogativa de função aplica-se apenas aos crimes cometidos durante o exercício do cargo e relacionados às funções desempenhadas; e (II) Após o final da instrução processual, com a publicação do despacho de intimação para apresentação de alegações finais, a competência para processar e julgar ações penais não será mais afetada em razão de o agente público vir a ocupar outro cargo ou deixar o cargo que ocupava, qualquer que seja o motivo. [Tese definida na AP 937 QO , rel. min. Roberto Barroso , P, j. 3-5-2018, DJE 265 de 11-12-2018, Tema 453. ] Observação ● Vide Súmula 394 (cancelada), Súmula 396 e Súmula 704 . ● Tese de Repercussão Geral definida no Tema 453 , aprovada nos termos do item 2 da Ata da 12ª Sessão Administrativa do STF, realizada em 9-12-2015. Data de publicação do enunciado: DJ de 12-10-1964. Para informações adicionais, clique aqui . Para pesquisar menções a esta súmula no banco de jurisprudência do STF, utilizando o nosso critério de pesquisa, clique aqui .
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

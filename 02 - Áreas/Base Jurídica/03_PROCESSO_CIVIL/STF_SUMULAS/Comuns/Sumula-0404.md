@@ -1,0 +1,44 @@
+---
+sumula: '404'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=404
+tags:
+- stf
+- sumula
+- sumula-404
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 404
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=404)
+
+---
+
+## ENUNCIADO
+
+> Não contrariam a Constituição os arts. 3º, 22 e 27 da Lei 3.244, de 14-8-1957, que definem as atribuições do Conselho de Política Aduaneira quanto à tarifa flexível. Aplicação em Teses de Repercussão Geral ● É compatível com a Constituição Federal a norma infraconstitucional que atribui a órgão integrante do Poder Executivo da União a faculdade de alterar as alíquotas do Imposto de Exportação. [Tese definda no RE 570.680 , rel. min. Ricardo Lewandowski , P, j. 28-10-2009, DJE 228 de 4-12-2009, Tema 53 .] A Câmara de Comércio Exterior - CAMEX, nesse diapasão, é um órgão especializado, vinculado ao Ministério da Indústria e Comércio Exterior, ao qual incumbe, dentre outras atribuições a formulação, adoção, implementação e a coordenação de políticas e atividades relativas ao comércio exterior de bens e serviços, nos termos do ato normativo que a criou. Ao contrário do que alega a recorrente, pois, não há qualquer óbice constitucional a que tal órgão, integrante da estrutura do Poder Executivo, estabeleça as alíquotas do Imposto de Exportação em consonância com as condições legais e as demandas da política comercial externa do País. Esse entendimento, aliás, não é novo nesta Corte, tendo encontrado abrigo na Súmula 404 , que definiu a constitucionalidade da fixação de tarifas pelo Conselho de Política Aduaneira, in verbis: Não contrariam a Constituição os arts. 3º, 22 e 27 da Lei 3.244, de 14.08.1957 , que definem as atribuições do Conselho de Política Aduaneira quanto à tarifa flexível. Em resumo, segundo penso, a competência estabelecida no art. 153, § 1°, da Constituição Federal para alterar as alíquotas de determinados tributos, dentre os quais o Imposto de Exportação, não é exclusiva do Presidente da República, porquanto foi deferida, genericamente, ao Executivo, permitindo tal formulação que ela seja exercida por órgão que integre a estrutura deste Poder, a exemplo da CAMEX. Em face do exposto, conheço do recurso, negando-lhe provimento. [ RE 570.680 , rel. min. Ricardo Lewandowski , P, j. 28-10-2009, DJE 228 de 4-12-2009, Tema 53 .] Observação ● Tese de Repercussão Geral definida no Tema 53 , aprovada nos termos do item 2 da Ata da 12ª Sessão Administrativa do STF, realizada em 9-12-2015. Data de publicação do enunciado: DJ de 12-05-1964. Para informações adicionais, clique aqui . Para pesquisar menções a esta súmula no banco de jurisprudência do STF, utilizando o nosso critério de pesquisa, clique aqui .
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

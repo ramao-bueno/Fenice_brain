@@ -1,0 +1,44 @@
+---
+sumula: '672'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=672
+tags:
+- stf
+- sumula
+- sumula-672
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 672
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=672)
+
+---
+
+## ENUNCIADO
+
+> O reajuste de 28,86%, concedido aos servidores militares pelas leis 8622/1993 e 8627/1993, estende-se aos servidores civis do Poder Executivo, observadas as eventuais compensações decorrentes dos reajustes diferenciados concedidos pelos mesmos diplomas legais. Tese de Repercussão Geral ● Estende-se o reajuste de 28,86% aos servidores militares contemplados com índices inferiores pelas Leis 8.622/1993 e 8.627/1993 , já que se trata de revisão geral dos servidores públicos, observadas, entretanto, as compensações dos reajustes concedidos e a limitação temporal da Medida Provisória 2.131/2000 , atual Medida Provisória 2.215-10/2001. [Tese definida no RE 584.313 QO RG , rel. min. Gilmar Mendes , P, j. 6-10-2010, DJE 200 de 22-10-2010, Tema 340 .] Questão de ordem. Recurso Extraordinário. 2. Alegação de ofensa aos artigos 5º e 37, X, da Constituição Federal . Inexistência. 3. Há de estender-se o reajuste de 28,86% aos servidores militares contemplados com índices inferiores pelas Leis 8.622/1993 e 8.627/1993 , já que se trata de revisão geral dos servidores públicos, observadas, entretanto, as compensações dos reajustes concedidos e a limitação temporal da Medida Provisória 2.131 , de 28.12.2000, atual Medida Provisória 2.215-10, de 15.9.2001. 4. Questão de ordem acolhida para: (1) reconhecer a repercussão geral quanto à extensão do reajuste de 28,86% aos servidores civis e militares; (2) reafirmar a jurisprudência do Tribunal; (3) prover parcialmente o recurso, apenas para limitar as diferenças devidas à data em que entrou em vigor a Medida Provisória 2.131 , de 28.12.2000, atual Medida Provisória 2.215-10 , de 15.9.2001, que reestruturou as carreiras e a remuneração dos servidores militares; e (4) para autorizar a adoção dos procedimentos relacionados à repercussão geral. [ RE 584.313 QO RG , rel. min. Gilmar Mendes , P, j. 6-10-2010, DJE 200 de 22-10-2010, Tema 340 .] Observação ● A Súmula 672 foi convertida na Súmula Vinculante 51 . Data de publicação do enunciado: DJ de 3-6-2004. Para informações adicionais, clique aqui . Para pesquisar menções a esta súmula no banco de jurisprudência do STF, utilizando o nosso critério de pesquisa, clique aqui .
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

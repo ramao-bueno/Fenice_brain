@@ -1,0 +1,44 @@
+---
+sumula: '445'
+tipo: sumula-stf
+tribunal: STF
+status: vigente
+planalto_url: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=445
+tags:
+- stf
+- sumula
+- sumula-445
+- jurisprudencia
+- vigente
+- stf-vigente
+created: '2026-06-04'
+---
+
+# STF Súmula 445
+
+**Status:** ✅ VIGENTE
+**Fonte:** [STF — Súmulas](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&numero=445)
+
+---
+
+## ENUNCIADO
+
+> A Lei 2.437, de 7-3-1955, que reduz prazo prescricional, é aplicável às prescrições em curso na data de sua vigência (1º-1-1956), salvo quanto aos processos então pendentes. Tese de Repercussão Geral ● É inconstitucional o art. 4º, segunda parte, da Lei Complementar 118/2005, de modo que, para os tributos sujeitos a homologação, o novo prazo de 5 anos para a repetição ou compensação de indébito aplica-se tão somente às ações ajuizadas após o decurso da vacatio legis de 120 dias, ou seja, a partir de 9 de junho de 2005. [Tese definida no RE 566.621 , rel. min. Ellen Gracie, P, j. 4-8-2011, DJE 195 de 11-10-2011, Tema 4 .] É relevante ter em conta que o legislador, ao aprovar a LC 118/05 , não pretendeu aderir à regra de transição do art. 2.028 do Código Civil . Não o fez expressamente, tampouco por omissão. Tivesse estabelecido o novo prazo para repetição e compensação de tributos sem determinar sua aplicação retroativa, quedando silente no ponto, permitiria a aplicação do art. 2.028 do CC por analogia, mecanismo que se viabilizaria tendo em conta o princípio da unidade do ordenamento jurídico e a própria regra constante do art. 108, I, do CTN , que coloca a analogia como método preferencial de integração da legislação tributária. Ocorre que não o fez e que a utilização da analogia pressupõe lacuna, o que, no caso da LC 118/05 , inexiste. Efetivamente, não há dúvida de que a intenção do legislador foi aplicar, na maior dimensão possível, o novo prazo, inclusive, retroativamente. Se, de um lado, como já afirmado, a aplicação retroativa e a aplicação imediata às ações ajuizadas em seguida à sua publicação implicariam violação à segurança jurídica, de outro, é certo que não há direito adquirido a regime jurídico e que, como visto no caso da Súmula 445 , não ofende a Constituição a aplicação do prazo reduzido às pretensões pendentes nas ações ajuizadas após a vacatio legis . Tenho que se impõe tal solução porque cabe a esta Corte expurgar, da iniciativa legislativa, o que nela há de inconstitucional e somente isso, permitindo a aplicação da LC 118/05 tão logo se verifique válida. E, para tanto, como se viu, não é necessário seguir regra de transição tal como a do art. 2.028 do Código Civil bastando, isto sim, aguardar o decurso da vacatio legis . (...) Isso posto, conheço do recurso extraordinário da União, mas, reconhecendo a inconstitucionalidade do art. 4º, segunda parte, da LC 118/05 por violação do princípio da segurança jurídica, nos seus conteúdos de proteção da confiança e de acesso à Justiça, com suporte implícito e expresso nos arts. 1º e 5º, inciso XXXV, e considerando válida a aplicação do novo prazo de 5 anos tão-somente às ações ajuizadas após o decurso da vacatio legis de 120 dias, ou seja, a partir de 9 de junho de 2005, nego-lhe provimento. [ RE 566.621 , rel. min. Ellen Gracie , P, j. 4-8-2011, DJE 195 de 11-10-2011, Tema 4 .] Observação Data de publicação do enunciado: DJ de 12-10-1964. Para informações adicionais, clique aqui. Para pesquisar menções a esta súmula no banco de jurisprudência do STF, utilizando o nosso critério de pesquisa, clique aqui.
+
+---
+
+## APLICAÇÃO
+
+[Notas de aplicação e contexto]
+
+---
+
+## JURISPRUDÊNCIA RELACIONADA
+
+[Precedentes que deram origem a esta súmula]
+
+---
+
+**Tribunal:** Supremo Tribunal Federal
+**Tipo:** Súmula (não vinculante — persuasiva)
+**Última atualização:** 2026-06-04

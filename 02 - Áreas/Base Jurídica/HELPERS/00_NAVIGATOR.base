@@ -1,0 +1,81 @@
+filters:
+  and:
+    - 'artigo != ""'
+    - 'status == "vigente"'
+
+formulas:
+  codigo_icon: 'if(file.hasTag("cf88"), "CF/88", if(file.hasTag("cc"), "CC", if(file.hasTag("direito-penal"), "CP", if(file.hasTag("cpc"), "CPC", "Outro"))))'
+  num_artigo: 'if(artigo, artigo, "")'
+  titulo_display: 'if(titulo_cf, titulo_cf, if(livro, livro, ""))'
+
+properties:
+  formula.codigo_icon:
+    displayName: "Codigo"
+  formula.num_artigo:
+    displayName: "Art."
+  formula.titulo_display:
+    displayName: "Titulo/Livro"
+  lei:
+    displayName: "Lei"
+  planalto_url:
+    displayName: "Planalto"
+
+views:
+  - type: table
+    name: "Busca Universal"
+    order:
+      - formula.codigo_icon
+      - formula.num_artigo
+      - file.name
+      - formula.titulo_display
+      - lei
+
+  - type: table
+    name: "CF/88 - Constituicao"
+    filters:
+      and:
+        - file.hasTag("cf88")
+    groupBy:
+      property: titulo_cf
+      direction: ASC
+    order:
+      - formula.num_artigo
+      - file.name
+      - planalto_url
+
+  - type: table
+    name: "Codigo Civil (CC)"
+    filters:
+      and:
+        - file.hasTag("cc")
+    groupBy:
+      property: livro
+      direction: ASC
+    order:
+      - formula.num_artigo
+      - file.name
+
+  - type: table
+    name: "Codigo Penal (CP)"
+    filters:
+      and:
+        - file.hasTag("direito-penal")
+    order:
+      - formula.num_artigo
+      - file.name
+
+  - type: table
+    name: "CPC - Processo Civil"
+    filters:
+      and:
+        - file.hasTag("cpc")
+    order:
+      - formula.num_artigo
+      - file.name
+
+  - type: cards
+    name: "Galeria por Codigo"
+    order:
+      - formula.codigo_icon
+      - file.name
+      - formula.titulo_display

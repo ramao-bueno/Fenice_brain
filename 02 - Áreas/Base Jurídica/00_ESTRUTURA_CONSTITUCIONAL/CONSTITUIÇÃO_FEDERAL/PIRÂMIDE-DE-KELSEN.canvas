@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "grupo_topo",
+      "type": "group",
+      "x": -320,
+      "y": -600,
+      "width": 640,
+      "height": 160,
+      "label": "NIVEL 1 — NORMA FUNDAMENTAL",
+      "color": "3"
+    },
+    {
+      "id": "cf88_node",
+      "type": "file",
+      "x": -240,
+      "y": -570,
+      "width": 480,
+      "height": 100,
+      "file": "FENICE bRain/00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/INDEX.md",
+      "color": "3"
+    },
+    {
+      "id": "grupo_nivel2",
+      "type": "group",
+      "x": -700,
+      "y": -360,
+      "width": 1400,
+      "height": 180,
+      "label": "NIVEL 2 — EMENDAS E LEIS COMPLEMENTARES",
+      "color": "5"
+    },
+    {
+      "id": "ec_node",
+      "type": "text",
+      "x": -680,
+      "y": -330,
+      "width": 300,
+      "height": 120,
+      "text": "# Emendas Constitucionais\n\nEC 1 a EC 127\nModificam diretamente a CF/88\n\nEx: EC 45/2004, EC 103/2019",
+      "color": "5"
+    },
+    {
+      "id": "lc_node",
+      "type": "text",
+      "x": -330,
+      "y": -330,
+      "width": 300,
+      "height": 120,
+      "text": "# Leis Complementares\n\nRegulamentam artigos da CF\nEx: LC 116 (ISS), LC 123 (Simples)\nRequerem maioria absoluta",
+      "color": "5"
+    },
+    {
+      "id": "tratados_node",
+      "type": "text",
+      "x": 20,
+      "y": -330,
+      "width": 300,
+      "height": 120,
+      "text": "# Tratados Internacionais\n\nDireitos Humanos = nivel EC\n(Art. 5 §3 CF — EC 45/2004)\nEx: Convencao de Viena",
+      "color": "5"
+    },
+    {
+      "id": "grupo_nivel3",
+      "type": "group",
+      "x": -700,
+      "y": -80,
+      "width": 1400,
+      "height": 200,
+      "label": "NIVEL 3 — LEIS ORDINARIAS (Codigos)",
+      "color": "4"
+    },
+    {
+      "id": "cc_node",
+      "type": "file",
+      "x": -680,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "file": "FENICE bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I/INDEX.md",
+      "color": "4"
+    },
+    {
+      "id": "cp_node",
+      "type": "file",
+      "x": -450,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "file": "FENICE bRain/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes/Art. 121 — Homicídio simples.md",
+      "color": "4"
+    },
+    {
+      "id": "cpc_node",
+      "type": "text",
+      "x": -220,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "text": "# CPC\nLei 13.105/2015\nProcesso Civil\n1.072 artigos",
+      "color": "4"
+    },
+    {
+      "id": "clt_node",
+      "type": "text",
+      "x": 10,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "text": "# CLT\nDec-Lei 5.452/1943\nDireito do Trabalho\n920 artigos",
+      "color": "4"
+    },
+    {
+      "id": "ctn_node",
+      "type": "text",
+      "x": 240,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "text": "# CTN\nLei 5.172/1966\nDireito Tributario\n218 artigos",
+      "color": "4"
+    },
+    {
+      "id": "cpp_node",
+      "type": "text",
+      "x": 470,
+      "y": -50,
+      "width": 200,
+      "height": 80,
+      "text": "# CPP\nDec-Lei 3.689/1941\nProcesso Penal\n810 artigos",
+      "color": "4"
+    },
+    {
+      "id": "grupo_nivel4",
+      "type": "group",
+      "x": -700,
+      "y": 200,
+      "width": 1400,
+      "height": 160,
+      "label": "NIVEL 4 — ATOS ADMINISTRATIVOS",
+      "color": "2"
+    },
+    {
+      "id": "decretos_node",
+      "type": "text",
+      "x": -680,
+      "y": 230,
+      "width": 280,
+      "height": 100,
+      "text": "# Decretos Federais\nRegulamentam leis ordinarias\nEx: Decreto 9.580/2018 (IR)",
+      "color": "2"
+    },
+    {
+      "id": "portarias_node",
+      "type": "text",
+      "x": -370,
+      "y": 230,
+      "width": 280,
+      "height": 100,
+      "text": "# Portarias / Resolucoes\nAtos ministeriais\nEx: Portaria MTE, Resolucao BACEN",
+      "color": "2"
+    },
+    {
+      "id": "instrucoes_node",
+      "type": "text",
+      "x": -60,
+      "y": 230,
+      "width": 280,
+      "height": 100,
+      "text": "# Instrucoes Normativas\nRFB, SUSEP, ANS, ANATEL\nRegulamentacao setorial",
+      "color": "2"
+    },
+    {
+      "id": "grupo_nivel5",
+      "type": "group",
+      "x": -700,
+      "y": 440,
+      "width": 1400,
+      "height": 160,
+      "label": "NIVEL 5 — JURISPRUDENCIA (interpretacao)",
+      "color": "1"
+    },
+    {
+      "id": "stf_node",
+      "type": "text",
+      "x": -680,
+      "y": 470,
+      "width": 300,
+      "height": 100,
+      "text": "# STF\nSupremo Tribunal Federal\nGuarda da CF\nSumulas Vinculantes",
+      "color": "1"
+    },
+    {
+      "id": "stj_node",
+      "type": "text",
+      "x": -350,
+      "y": 470,
+      "width": 300,
+      "height": 100,
+      "text": "# STJ\nSuperior Tribunal de Justica\nUniformiza lei federal\nRecurso Especial",
+      "color": "1"
+    },
+    {
+      "id": "trf_node",
+      "type": "text",
+      "x": -20,
+      "y": 470,
+      "width": 300,
+      "height": 100,
+      "text": "# TRF / TRT / TRE\nTribunais Regionais\nJustica Federal, Trabalhista,\ne Eleitoral",
+      "color": "1"
+    },
+    {
+      "id": "navigator_node",
+      "type": "file",
+      "x": 420,
+      "y": 470,
+      "width": 260,
+      "height": 100,
+      "file": "FENICE bRain/HELPERS/00_NAVIGATOR.md",
+      "color": "6"
+    },
+    {
+      "id": "legenda_node",
+      "type": "text",
+      "x": 380,
+      "y": -600,
+      "width": 300,
+      "height": 580,
+      "text": "# PIRAMIDE DE KELSEN\n## Hierarquia das Normas\n\n**Principio:** Norma superior\nfundamenta a inferior.\n\n**Nivel 1 (Amarelo)**\nCF/88 — Norma Fundamental\nToda lei deve obedecer a CF\n\n**Nivel 2 (Ciano)**\nEmendas + Leis Complementares\nModificam/regulamentam a CF\n\n**Nivel 3 (Verde)**\nLeis Ordinarias (Codigos)\nCC, CP, CPC, CLT, CTN, CPP\n\n**Nivel 4 (Laranja)**\nAtos Administrativos\nDecretos, Portarias, Resolucoes\n\n**Nivel 5 (Vermelho)**\nJurisprudencia\nInterpreta toda a piramide\n\n---\n\nUse [[00_NAVIGATOR]] para\nbuscar artigos por codigo.\n\nUse Ctrl+P > Buscar Artigo\npara acesso rapido.",
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_cf_ec",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "ec_node",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "modifica"
+    },
+    {
+      "id": "e_cf_lc",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "lc_node",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "regulamenta"
+    },
+    {
+      "id": "e_cf_tratados",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "tratados_node",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "incorpora"
+    },
+    {
+      "id": "e_lc_cc",
+      "fromNode": "lc_node",
+      "fromSide": "bottom",
+      "toNode": "cc_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cf_cp",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "cp_node",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "deriva"
+    },
+    {
+      "id": "e_cf_cpc",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "cpc_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cf_clt",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "clt_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cf_ctn",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "ctn_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cf_cpp",
+      "fromNode": "cf88_node",
+      "fromSide": "bottom",
+      "toNode": "cpp_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cc_dec",
+      "fromNode": "cc_node",
+      "fromSide": "bottom",
+      "toNode": "decretos_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_cp_port",
+      "fromNode": "cp_node",
+      "fromSide": "bottom",
+      "toNode": "portarias_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_dec_stf",
+      "fromNode": "decretos_node",
+      "fromSide": "bottom",
+      "toNode": "stf_node",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "controle"
+    },
+    {
+      "id": "e_port_stj",
+      "fromNode": "portarias_node",
+      "fromSide": "bottom",
+      "toNode": "stj_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e_instrucoes_trf",
+      "fromNode": "instrucoes_node",
+      "fromSide": "bottom",
+      "toNode": "trf_node",
+      "toSide": "top",
+      "toEnd": "arrow"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+# BASE-Crimes — Código Penal
+
+filters:
+  and:
+    - 'file.path contains "Crimes/"'
+
+views:
+  - type: table
+    name: Todos os Crimes
+    order:
+      - artigo
+      - nomen
+      - tipo_pena
+      - pena_min
+      - pena_max
+      - acao_penal
+      - hediondo
+
+  - type: table
+    name: Crimes Hediondos
+    filters:
+      and:
+        - 'hediondo == true'
+    order:
+      - artigo
+      - nomen
+      - pena_min
+      - pena_max
+
+  - type: table
+    name: Penas Acima de 8 Anos
+    filters:
+      and:
+        - 'pena_max > 8'
+    order:
+      - artigo
+      - nomen
+      - pena_min
+      - pena_max
+      - tipo_pena
+
+  - type: table
+    name: Por Ação Penal
+    groupBy: acao_penal
+    order:
+      - artigo
+      - nomen
+      - tipo_pena
+      - pena_min
+      - pena_max
+
+  - type: cards
+    name: Por Grupo de Crimes
+    groupBy: grupo
+    order:
+      - nomen
+      - pena_min
+      - pena_max
+      - hediondo
+
+properties:
+  artigo:
+    displayName: Artigo
+  nomen:
+    displayName: Crime
+  tipo_pena:
+    displayName: Tipo
+  pena_min:
+    displayName: Mín (anos)
+  pena_max:
+    displayName: Máx (anos)
+  acao_penal:
+    displayName: Ação Penal
+  hediondo:
+    displayName: Hediondo
+  grupo:
+    displayName: Grupo
+  prescricao_anos:
+    displayName: Prescrição (anos)

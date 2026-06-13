@@ -1,0 +1,86 @@
+# Cap II - Ato Juridico Licito
+
+## Artigos
+
+- Art. 421. — A liberdade de contratar será exercida em razão e nos limites da função social d
+- Art. 422. — Os contratantes são obrigados a guardar, assim na conclusão do contrato, como em
+- Art. 423. — Quando houver no contrato de adesão cláusulas ambíguas ou contraditórias, dever-
+- Art. 424. — Nos contratos de adesão, são nulas as cláusulas que estipulem a renúncia antecip
+- Art. 425. — É lícito às partes estipular contratos atípicos, observadas as normas gerais fix
+- Art. 426. — Não pode ser objeto de contrato a herança de pessoa viva.
+- Art. 427. — A proposta de contrato obriga o proponente, se o contrário não resultar dos term
+- Art. 428. — Deixa de ser obrigatória a proposta:
+- Art. 429. — A oferta ao público equivale a proposta quando encerra os requisitos essenciais 
+- Art. 430. — Se a aceitação, por circunstância imprevista, chegar tarde ao conhecimento do pr
+- Art. 431. — A aceitação fora do prazo, com adições, restrições, ou modificações, importará n
+- Art. 432. — Se o negócio for daqueles em que não seja costume a aceitação expressa, ou o pro
+- Art. 433. — Considera-se inexistente a aceitação, se antes dela ou com ela chegar ao propone
+- Art. 434. — Os contratos entre ausentes tornam-se perfeitos desde que a aceitação é expedida
+- Art. 435. — Reputar-se-á celebrado o contrato no lugar em que foi proposto.
+- Art. 436. — O que estipula em favor de terceiro pode exigir o cumprimento da obrigação.
+- Art. 437. — Se ao terceiro, em favor de quem se fez o contrato, se deixar o direito de recla
+- Art. 438. — O estipulante pode reservar-se o direito de substituir o terceiro designado no c
+- Art. 439. — Aquele que tiver prometido fato de terceiro responderá por perdas e danos, quand
+- Art. 440. — Nenhuma obrigação haverá para quem se comprometer por outrem, se este, depois de
+- Art. 441. — A coisa recebida em virtude de contrato comutativo pode ser enjeitada por vícios
+- Art. 442. — Em vez de rejeitar a coisa, redibindo o contrato (art. 441), pode o adquirente r
+- Art. 443. — Se o alienante conhecia o vício ou defeito da coisa, restituirá o que recebeu co
+- Art. 444. — A responsabilidade do alienante subsiste ainda que a coisa pereça em poder do al
+- Art. 445. — O adquirente decai do direito de obter a redibição ou abatimento no preço no pra
+- Art. 446. — Não correrão os prazos do artigo antecedente na constância de cláusula de garant
+- Art. 447. — Nos contratos onerosos, o alienante responde pela evicção. Subsiste esta garanti
+- Art. 448. — Podem as partes, por cláusula expressa, reforçar, diminuir ou excluir a responsa
+- Art. 449. — Não obstante a cláusula que exclui a garantia contra a evicção, se esta se der, 
+- Art. 450. — Salvo estipulação em contrário, tem direito o evicto, além da restituição integr
+- Art. 451. — Subsiste para o alienante esta obrigação, ainda que a coisa alienada esteja dete
+- Art. 452. — Se o adquirente tiver auferido vantagens das deteriorações, e não tiver sido con
+- Art. 453. — As benfeitorias necessárias ou úteis, não abonadas ao que sofreu a evicção, serã
+- Art. 454. — Se as benfeitorias abonadas ao que sofreu a evicção tiverem sido feitas pelo ali
+- Art. 455. — Se parcial, mas considerável, for a evicção, poderá o evicto optar entre a resci
+- Art. 456. — 
+- Art. 457. — Não pode o adquirente demandar pela evicção, se sabia que a coisa era alheia ou 
+- Art. 458. — Se o contrato for aleatório, por dizer respeito a coisas ou fatos futuros, cujo 
+- Art. 459. — Se for aleatório, por serem objeto dele coisas futuras, tomando o adquirente a s
+- Art. 460. — Se for aleatório o contrato, por se referir a coisas existentes, mas expostas a 
+- Art. 461. — A alienação aleatória a que se refere o artigo antecedente poderá ser anulada co
+- Art. 462. — O contrato preliminar, exceto quanto à forma, deve conter todos os requisitos es
+- Art. 463. — Concluído o contrato preliminar, com observância do disposto no artigo anteceden
+- Art. 464. — Esgotado o prazo, poderá o juiz, a pedido do interessado, suprir a vontade da pa
+- Art. 465. — Se o estipulante não der execução ao contrato preliminar, poderá a outra parte c
+- Art. 466. — Se a promessa de contrato for unilateral, o credor, sob pena de ficar a mesma se
+- Art. 467. — No momento da conclusão do contrato, pode uma das partes reservar-se a faculdade
+- Art. 468. — Essa indicação deve ser comunicada à outra parte no prazo de cinco dias da concl
+- Art. 469. — A pessoa, nomeada de conformidade com os artigos antecedentes, adquire os direit
+- Art. 470. — O contrato será eficaz somente entre os contratantes originários:
+- Art. 471. — Se a pessoa a nomear era incapaz ou insolvente no momento da nomeação, o contrat
+- Art. 472. — O distrato faz-se pela mesma forma exigida para o contrato.
+- Art. 473. — A resilição unilateral, nos casos em que a lei expressa ou implicitamente o perm
+- Art. 474. — A cláusula resolutiva expressa opera de pleno direito; a tácita depende de inter
+- Art. 475. — A parte lesada pelo inadimplemento pode pedir a resolução do contrato, se não pr
+- Art. 476. — Nos contratos bilaterais, nenhum dos contratantes, antes de cumprida a sua obrig
+- Art. 477. — Se, depois de concluído o contrato, sobrevier a uma das partes contratantes dimi
+- Art. 478. — Nos contratos de execução continuada ou diferida, se a prestação de uma das part
+- Art. 479. — A resolução poderá ser evitada, oferecendo-se o réu a modificar eqüitativamente 
+- Art. 480. — Se no contrato as obrigações couberem a apenas uma das partes, poderá ela pleite
+- Art. 481. — Pelo contrato de compra e venda, um dos contratantes se obriga a transferir o do
+- Art. 482. — A compra e venda, quando pura, considerar-se-á obrigatória e perfeita, desde que
+- Art. 483. — A compra e venda pode ter por objeto coisa atual ou futura. Neste caso, ficará s
+- Art. 484. — Se a venda se realizar à vista de amostras, protótipos ou modelos, entender-se-á
+- Art. 485. — A fixação do preço pode ser deixada ao arbítrio de terceiro, que os contratantes
+- Art. 486. — Também se poderá deixar a fixação do preço à taxa de mercado ou de bolsa, em cer
+- Art. 487. — É lícito às partes fixar o preço em função de índices ou parâmetros, desde que s
+- Art. 488. — Convencionada a venda sem fixação de preço ou de critérios para a sua determinaç
+- Art. 489. — Nulo é o contrato de compra e venda, quando se deixa ao arbítrio exclusivo de um
+- Art. 490. — Salvo cláusula em contrário, ficarão as despesas de escritura e registro a cargo
+- Art. 491. — Não sendo a venda a crédito, o vendedor não é obrigado a entregar a coisa antes 
+- Art. 492. — Até o momento da tradição, os riscos da coisa correm por conta do vendedor, e os
+- Art. 493. — A tradição da coisa vendida, na falta de estipulação expressa, dar-se-á no lugar
+- Art. 494. — Se a coisa for expedida para lugar diverso, por ordem do comprador, por sua cont
+- Art. 495. — Não obstante o prazo ajustado para o pagamento, se antes da tradição o comprador
+- Art. 496. — É anulável a venda de ascendente a descendente, salvo se os outros descendentes 
+- Art. 497. — Sob pena de nulidade, não podem ser comprados, ainda que em hasta pública:
+- Art. 498. — A proibição contida no inciso III do artigo antecedente, não compreende os casos
+- Art. 499. — É lícita a compra e venda entre cônjuges, com relação a bens excluídos da comunh
+- Art. 500. — Se, na venda de um imóvel, se estipular o preço por medida de extensão, ou se de
+- Art. 501. — Decai do direito de propor as ações previstas no artigo antecedente o vendedor o
+- Art. 502. — O vendedor, salvo convenção em contrário, responde por todos os débitos que grav

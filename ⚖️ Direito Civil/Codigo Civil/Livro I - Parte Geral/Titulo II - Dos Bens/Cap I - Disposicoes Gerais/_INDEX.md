@@ -1,0 +1,158 @@
+# Cap I - Disposicoes Gerais
+
+## Artigos
+
+- Art. 79. — São bens imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmen
+- Art. 80. — Consideram-se imóveis para os efeitos legais:
+- Art. 81. — Não perdem o caráter de imóveis:
+- Art. 82. — São móveis os bens suscetíveis de movimento próprio, ou de remoção por força alh
+- Art. 83. — Consideram-se móveis para os efeitos legais:
+- Art. 84. — Os materiais destinados a alguma construção, enquanto não forem empregados, cons
+- Art. 85. — São fungíveis os móveis que podem substituir-se por outros da mesma espécie, qua
+- Art. 86. — São consumíveis os bens móveis cujo uso importa destruição imediata da própria s
+- Art. 87. — Bens divisíveis são os que se podem fracionar sem alteração na sua substância, d
+- Art. 88. — Os bens naturalmente divisíveis podem tornar-se indivisíveis por determinação da
+- Art. 89. — São singulares os bens que, embora reunidos, se consideram de per si, independen
+- Art. 90. — Constitui universalidade de fato a pluralidade de bens singulares que, pertinent
+- Art. 91. — Constitui universalidade de direito o complexo de relações jurídicas, de uma pes
+- Art. 92. — Principal é o bem que existe sobre si, abstrata ou concretamente; acessório, aqu
+- Art. 93. — São pertenças os bens que, não constituindo partes integrantes, se destinam, de 
+- Art. 94. — Os negócios jurídicos que dizem respeito ao bem principal não abrangem as perten
+- Art. 95. — Apesar de ainda não separados do bem principal, os frutos e produtos podem ser o
+- Art. 96. — As benfeitorias podem ser voluptuárias, úteis ou necessárias.
+- Art. 97. — Não se consideram benfeitorias os melhoramentos ou acréscimos sobrevindos ao bem
+- Art. 98. — São públicos os bens do domínio nacional pertencentes às pessoas jurídicas de di
+- Art. 99. — São bens públicos:
+- Art. 100. — Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enq
+- Art. 101. — Os bens públicos dominicais podem ser alienados, observadas as exigências da lei
+- Art. 102. — Os bens públicos não estão sujeitos a usucapião.
+- Art. 103. — O uso comum dos bens públicos pode ser gratuito ou retribuído, conforme for esta
+- Art. 104. — A validade do negócio jurídico requer:
+- Art. 105. — A incapacidade relativa de uma das partes não pode ser invocada pela outra em be
+- Art. 106. — A impossibilidade inicial do objeto não invalida o negócio jurídico se for relat
+- Art. 107. — A validade da declaração de vontade não dependerá de forma especial, senão quand
+- Art. 108. — Não dispondo a lei em contrário, a escritura pública é essencial à validade dos 
+- Art. 109. — No negócio jurídico celebrado com a cláusula de não valer sem instrumento públic
+- Art. 110. — A manifestação de vontade subsiste ainda que o seu autor haja feito a reserva me
+- Art. 111. — O silêncio importa anuência, quando as circunstâncias ou os usos o autorizarem, 
+- Art. 112. — Nas declarações de vontade se atenderá mais à intenção nelas consubstanciada do 
+- Art. 113. — Os negócios jurídicos devem ser interpretados conforme a boa-fé e os usos do lug
+- Art. 114. — Os negócios jurídicos benéficos e a renúncia interpretam-se estritamente.
+- Art. 115. — Os poderes de representação conferem-se por lei ou pelo interessado.
+- Art. 116. — A manifestação de vontade pelo representante, nos limites de seus poderes, produ
+- Art. 117. — Salvo se o permitir a lei ou o representado, é anulável o negócio jurídico que o
+- Art. 118. — O representante é obrigado a provar às pessoas, com quem tratar em nome do repre
+- Art. 119. — É anulável o negócio concluído pelo representante em conflito de interesses com 
+- Art. 120. — Os requisitos e os efeitos da representação legal são os estabelecidos nas norma
+- Art. 121. — Considera-se condição a cláusula que, derivando exclusivamente da vontade das pa
+- Art. 122. — São lícitas, em geral, todas as condições não contrárias à lei, à ordem pública 
+- Art. 123. — Invalidam os negócios jurídicos que lhes são subordinados:
+- Art. 124. — Têm-se por inexistentes as condições impossíveis, quando resolutivas, e as de nã
+- Art. 125. — Subordinando-se a eficácia do negócio jurídico à condição suspensiva, enquanto e
+- Art. 126. — Se alguém dispuser de uma coisa sob condição suspensiva, e, pendente esta, fizer
+- Art. 127. — Se for resolutiva a condição, enquanto esta se não realizar, vigorará o negócio 
+- Art. 128. — Sobrevindo a condição resolutiva, extingue-se, para todos os efeitos, o direito 
+- Art. 129. — Reputa-se verificada, quanto aos efeitos jurídicos, a condição cujo implemento f
+- Art. 130. — Ao titular do direito eventual, nos casos de condição suspensiva ou resolutiva, 
+- Art. 131. — O termo inicial suspende o exercício, mas não a aquisição do direito.
+- Art. 132. — Salvo disposição legal ou convencional em contrário, computam-se os prazos, excl
+- Art. 133. — Nos testamentos, presume-se o prazo em favor do herdeiro, e, nos contratos, em p
+- Art. 134. — Os negócios jurídicos entre vivos, sem prazo, são exeqüíveis desde logo, salvo s
+- Art. 135. — Ao termo inicial e final aplicam-se, no que couber, as disposições relativas à c
+- Art. 136. — O encargo não suspende a aquisição nem o exercício do direito, salvo quando expr
+- Art. 137. — Considera-se não escrito o encargo ilícito ou impossível, salvo se constituir o 
+- Art. 138. — São anuláveis os negócios jurídicos, quando as declarações de vontade emanarem d
+- Art. 139. — O erro é substancial quando:
+- Art. 140. — O falso motivo só vicia a declaração de vontade quando expresso como razão deter
+- Art. 141. — A transmissão errônea da vontade por meios interpostos é anulável nos mesmos cas
+- Art. 142. — O erro de indicação da pessoa ou da coisa, a que se referir a declaração de vont
+- Art. 143. — O erro de cálculo apenas autoriza a retificação da declaração de vontade.
+- Art. 144. — O erro não prejudica a validade do negócio jurídico quando a pessoa, a quem a ma
+- Art. 145. — São os negócios jurídicos anuláveis por dolo, quando este for a sua causa.
+- Art. 146. — O dolo acidental só obriga à satisfação das perdas e danos, e é acidental quando
+- Art. 147. — Nos negócios jurídicos bilaterais, o silêncio intencional de uma das partes a re
+- Art. 148. — Pode também ser anulado o negócio jurídico por dolo de terceiro, se a parte a qu
+- Art. 149. — O dolo do representante legal de uma das partes só obriga o representado a respo
+- Art. 150. — Se ambas as partes procederem com dolo, nenhuma pode alegá-lo para anular o negó
+- Art. 151. — A coação, para viciar a declaração da vontade, há de ser tal que incuta ao pacie
+- Art. 152. — No apreciar a coação, ter-se-ão em conta o sexo, a idade, a condição, a saúde, o
+- Art. 153. — Não se considera coação a ameaça do exercício normal de um direito, nem o simple
+- Art. 154. — Vicia o negócio jurídico a coação exercida por terceiro, se dela tivesse ou deve
+- Art. 155. — Subsistirá o negócio jurídico, se a coação decorrer de terceiro, sem que a parte
+- Art. 156. — Configura-se o estado de perigo quando alguém, premido da necessidade de salvar-
+- Art. 157. — Ocorre a lesão quando uma pessoa, sob premente necessidade, ou por inexperiência
+- Art. 158. — Os negócios de transmissão gratuita de bens ou remissão de dívida, se os pratica
+- Art. 159. — Serão igualmente anuláveis os contratos onerosos do devedor insolvente, quando a
+- Art. 160. — Se o adquirente dos bens do devedor insolvente ainda não tiver pago o preço e es
+- Art. 161. — A ação, nos casos dos arts. 158 e 159, poderá ser intentada contra o devedor ins
+- Art. 162. — O credor quirografário, que receber do devedor insolvente o pagamento da dívida 
+- Art. 163. — Presumem-se fraudatórias dos direitos dos outros credores as garantias de dívida
+- Art. 164. — Presumem-se, porém, de boa-fé e valem os negócios ordinários indispensáveis à ma
+- Art. 165. — Anulados os negócios fraudulentos, a vantagem resultante reverterá em proveito d
+- Art. 166. — É nulo o negócio jurídico quando:
+- Art. 167. — É nulo o negócio jurídico simulado, mas subsistirá o que se dissimulou, se válid
+- Art. 168. — As nulidades dos artigos antecedentes podem ser alegadas por qualquer interessad
+- Art. 169. — O negócio jurídico nulo não é suscetível de confirmação, nem convalesce pelo dec
+- Art. 170. — Se, porém, o negócio jurídico nulo contiver os requisitos de outro, subsistirá e
+- Art. 171. — Além dos casos expressamente declarados na lei, é anulável o negócio jurídico:
+- Art. 172. — O negócio anulável pode ser confirmado pelas partes, salvo direito de terceiro.
+- Art. 173. — O ato de confirmação deve conter a substância do negócio celebrado e a vontade e
+- Art. 174. — É escusada a confirmação expressa, quando o negócio já foi cumprido em parte pel
+- Art. 175. — A confirmação expressa, ou a execução voluntária de negócio anulável, nos termos
+- Art. 176. — Quando a anulabilidade do ato resultar da falta de autorização de terceiro, será
+- Art. 177. — A anulabilidade não tem efeito antes de julgada por sentença, nem se pronuncia d
+- Art. 178. — É de quatro anos o prazo de decadência para pleitear-se a anulação do negócio ju
+- Art. 179. — Quando a lei dispuser que determinado ato é anulável, sem estabelecer prazo para
+- Art. 180. — O menor, entre dezesseis e dezoito anos, não pode, para eximir-se de uma obrigaç
+- Art. 181. — Ninguém pode reclamar o que, por uma obrigação anulada, pagou a um incapaz, se n
+- Art. 182. — Anulado o negócio jurídico, restituir-se-ão as partes ao estado em que antes del
+- Art. 183. — A invalidade do instrumento não induz a do negócio jurídico sempre que este pude
+- Art. 184. — Respeitada a intenção das partes, a invalidade parcial de um negócio jurídico nã
+- Art. 185. — Aos atos jurídicos lícitos, que não sejam negócios jurídicos, aplicam-se, no que
+- Art. 186. — Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar d
+- Art. 187. — Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede mani
+- Art. 188. — Não constituem atos ilícitos:
+- Art. 189. — Violado o direito, nasce para o titular a pretensão, a qual se extingue, pela pr
+- Art. 190. — A exceção prescreve no mesmo prazo em que a pretensão.
+- Art. 191. — A renúncia da prescrição pode ser expressa ou tácita, e só valerá, sendo feita, 
+- Art. 192. — Os prazos de prescrição não podem ser alterados por acordo das partes.
+- Art. 193. — A prescrição pode ser alegada em qualquer grau de jurisdição, pela parte a quem 
+- Art. 194. — (Revogado pela Lei nº 11.280, de 2006)
+- Art. 195. — Os relativamente incapazes e as pessoas jurídicas têm ação contra os seus assist
+- Art. 196. — A prescrição iniciada contra uma pessoa continua a correr contra o seu sucessor.
+- Art. 197. — Não corre a prescrição:
+- Art. 198. — Também não corre a prescrição:
+- Art. 199. — Não corre igualmente a prescrição:
+- Art. 200. — Quando a ação se originar de fato que deva ser apurado no juízo criminal, não co
+- Art. 201. — Suspensa a prescrição em favor de um dos credores solidários, só aproveitam os o
+- Art. 202. — A interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á:
+- Art. 203. — A prescrição pode ser interrompida por qualquer interessado.
+- Art. 204. — A interrupção da prescrição por um credor não aproveita aos outros; semelhanteme
+- Art. 205. — A prescrição ocorre em dez anos, quando a lei não lhe haja fixado prazo menor.
+- Art. 206. — Prescreve:
+- Art. 207. — Salvo disposição legal em contrário, não se aplicam à decadência as normas que i
+- Art. 208. — Aplica-se à decadência o disposto nos arts. 195 e 198, inciso I.
+- Art. 209. — É nula a renúncia à decadência fixada em lei.
+- Art. 210. — Deve o juiz, de ofício, conhecer da decadência, quando estabelecida por lei.
+- Art. 211. — Se a decadência for convencional, a parte a quem aproveita pode alegá-la em qual
+- Art. 212. — Salvo o negócio a que se impõe forma especial, o fato jurídico pode ser provado 
+- Art. 213. — Não tem eficácia a confissão se provém de quem não é capaz de dispor do direito 
+- Art. 214. — A confissão é irrevogável, mas pode ser anulada se decorreu de erro de fato ou d
+- Art. 215. — A escritura pública, lavrada em notas de tabelião, é documento dotado de fé públ
+- Art. 216. — Farão a mesma prova que os originais as certidões textuais de qualquer peça judi
+- Art. 217. — Terão a mesma força probante os traslados e as certidões, extraídos por tabelião
+- Art. 218. — Os traslados e as certidões considerar-se-ão instrumentos públicos, se os origin
+- Art. 219. — As declarações constantes de documentos assinados presumem-se verdadeiras em rel
+- Art. 220. — A anuência ou a autorização de outrem, necessária à validade de um ato, provar-s
+- Art. 221. — O instrumento particular, feito e assinado, ou somente assinado por quem esteja 
+- Art. 222. — O telegrama, quando lhe for contestada a autenticidade, faz prova mediante confe
+- Art. 223. — A cópia fotográfica de documento, conferida por tabelião de notas, valerá como p
+- Art. 224. — Os documentos redigidos em língua estrangeira serão traduzidos para o português 
+- Art. 225. — As reproduções fotográficas, cinematográficas, os registros fonográficos e, em g
+- Art. 226. — Os livros e fichas dos empresários e sociedades provam contra as pessoas a que p
+- Art. 227. — 
+- Art. 228. — Não podem ser admitidos como testemunhas:
+- Art. 229. — 
+- Art. 230. — 
+- Art. 231. — Aquele que se nega a submeter-se a exame médico necessário não poderá aproveitar
+- Art. 232. — A recusa à perícia médica ordenada pelo juiz poderá suprir a prova que se preten

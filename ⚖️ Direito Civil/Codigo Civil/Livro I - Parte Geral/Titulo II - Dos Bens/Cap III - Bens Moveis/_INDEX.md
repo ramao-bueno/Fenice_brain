@@ -1,0 +1,61 @@
+# Cap III - Bens Moveis
+
+## Artigos
+
+- Art. 281. — O devedor demandado pode opor ao credor as exceções que lhe forem pessoais e as 
+- Art. 282. — O credor pode renunciar à solidariedade em favor de um, de alguns ou de todos os
+- Art. 283. — O devedor que satisfez a dívida por inteiro tem direito a exigir de cada um dos 
+- Art. 284. — No caso de rateio entre os co-devedores, contribuirão também os exonerados da so
+- Art. 285. — Se a dívida solidária interessar exclusivamente a um dos devedores, responderá e
+- Art. 286. — O credor pode ceder o seu crédito, se a isso não se opuser a natureza da obrigaç
+- Art. 287. — Salvo disposição em contrário, na cessão de um crédito abrangem-se todos os seus
+- Art. 288. — É ineficaz, em relação a terceiros, a transmissão de um crédito, se não celebrar
+- Art. 289. — O cessionário de crédito hipotecário tem o direito de fazer averbar a cessão no 
+- Art. 290. — A cessão do crédito não tem eficácia em relação ao devedor, senão quando a este 
+- Art. 291. — Ocorrendo várias cessões do mesmo crédito, prevalece a que se completar com a tr
+- Art. 292. — Fica desobrigado o devedor que, antes de ter conhecimento da cessão, paga ao cre
+- Art. 293. — Independentemente do conhecimento da cessão pelo devedor, pode o cessionário exe
+- Art. 294. — O devedor pode opor ao cessionário as exceções que lhe competirem, bem como as q
+- Art. 295. — Na cessão por título oneroso, o cedente, ainda que não se responsabilize, fica r
+- Art. 296. — Salvo estipulação em contrário, o cedente não responde pela solvência do devedor
+- Art. 297. — O cedente, responsável ao cessionário pela solvência do devedor, não responde po
+- Art. 298. — O crédito, uma vez penhorado, não pode mais ser transferido pelo credor que tive
+- Art. 299. — É facultado a terceiro assumir a obrigação do devedor, com o consentimento expre
+- Art. 300. — Salvo assentimento expresso do devedor primitivo, consideram-se extintas, a part
+- Art. 301. — Se a substituição do devedor vier a ser anulada, restaura-se o débito, com todas
+- Art. 302. — O novo devedor não pode opor ao credor as exceções pessoais que competiam ao dev
+- Art. 303. — O adquirente de imóvel hipotecado pode tomar a seu cargo o pagamento do crédito 
+- Art. 304. — Qualquer interessado na extinção da dívida pode pagá-la, usando, se o credor se 
+- Art. 305. — O terceiro não interessado, que paga a dívida em seu próprio nome, tem direito a
+- Art. 306. — O pagamento feito por terceiro, com desconhecimento ou oposição do devedor, não 
+- Art. 307. — Só terá eficácia o pagamento que importar transmissão da propriedade, quando fei
+- Art. 308. — O pagamento deve ser feito ao credor ou a quem de direito o represente, sob pena
+- Art. 309. — O pagamento feito de boa-fé ao credor putativo é válido, ainda provado depois qu
+- Art. 310. — Não vale o pagamento cientemente feito ao credor incapaz de quitar, se o devedor
+- Art. 311. — Considera-se autorizado a receber o pagamento o portador da quitação, salvo se a
+- Art. 312. — Se o devedor pagar ao credor, apesar de intimado da penhora feita sobre o crédit
+- Art. 313. — O credor não é obrigado a receber prestação diversa da que lhe é devida, ainda q
+- Art. 314. — Ainda que a obrigação tenha por objeto prestação divisível, não pode o credor se
+- Art. 315. — As dívidas em dinheiro deverão ser pagas no vencimento, em moeda corrente e pelo
+- Art. 316. — É lícito convencionar o aumento progressivo de prestações sucessivas.
+- Art. 317. — Quando, por motivos imprevisíveis, sobrevier desproporção manifesta entre o valo
+- Art. 318. — São nulas as convenções de pagamento em ouro ou em moeda estrangeira, bem como p
+- Art. 319. — O devedor que paga tem direito a quitação regular, e pode reter o pagamento, enq
+- Art. 320. — A quitação, que sempre poderá ser dada por instrumento particular, designará o v
+- Art. 321. — Nos débitos, cuja quitação consista na devolução do título, perdido este, poderá
+- Art. 322. — Quando o pagamento for em quotas periódicas, a quitação da última estabelece, at
+- Art. 323. — Sendo a quitação do capital sem reserva dos juros, estes presumem-se pagos.
+- Art. 324. — A entrega do título ao devedor firma a presunção do pagamento.
+- Art. 325. — Presumem-se a cargo do devedor as despesas com o pagamento e a quitação; se ocor
+- Art. 326. — Se o pagamento se houver de fazer por medida, ou peso, entender-se-á, no silênci
+- Art. 327. — Efetuar-se-á o pagamento no domicílio do devedor, salvo se as partes convenciona
+- Art. 328. — Se o pagamento consistir na tradição de um imóvel, ou em prestações relativas a 
+- Art. 329. — Ocorrendo motivo grave para que se não efetue o pagamento no lugar determinado, 
+- Art. 330. — O pagamento reiteradamente feito em outro local faz presumir renúncia do credor
+- Art. 331. — Salvo disposição legal em contrário, não tendo sido ajustada época para o pagame
+- Art. 332. — As obrigações condicionais cumprem-se na data do implemento da condição, cabendo
+- Art. 333. — Ao credor assistirá o direito de cobrar a dívida antes de vencido o prazo estipu
+- Art. 334. — Considera-se pagamento, e extingue a obrigação, o depósito judicial ou em estabe
+- Art. 335. — A consignação tem lugar:
+- Art. 336. — Para que a consignação tenha força de pagamento, será mister concorram, em relaç
+- Art. 337. — O depósito requerer-se-á no lugar do pagamento, cessando, tanto que se efetue, p

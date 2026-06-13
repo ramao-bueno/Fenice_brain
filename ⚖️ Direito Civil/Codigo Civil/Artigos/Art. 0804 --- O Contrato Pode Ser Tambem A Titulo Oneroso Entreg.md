@@ -1,0 +1,49 @@
+---
+artigo: "0804"
+numero_completo: "Art. 804."
+nomen: "O contrato pode ser também a título oneroso, entregando-se bens móveis ou imóveis à pessoa"
+livro: "LIVRO I - I - I - V - I"
+tags:
+  - direito-civil
+  - art-0804
+tipo_documento: artigo
+status: pronto
+publicacao: "LEI No 10.406, DE 10 DE JANEIRO DE 2002"
+---
+
+# Art. 804. — O contrato pode ser também a título oneroso, entregando-se bens móveis ou imóveis à pessoa
+
+> [!info] Texto Legal
+> O contrato pode ser também a título oneroso, entregando-se bens móveis ou imóveis à pessoa
+
+## Analise Estruturada
+
+### Conceito
+Analise do conceito de o contrato pode ser também a título oneroso, entregando-se bens móveis ou imóvei.
+
+### Elementos Essenciais
+1. Primeiro elemento
+2. Segundo elemento
+3. Terceiro elemento
+
+### Casos Praticos
+**Exemplo 1**: Aplicacao pratica...
+**Exemplo 2**: Outro caso...
+
+### Jurisprudencia
+Consultar jurisprudência relevante.
+
+### Artigos Correlatos
+- Art. anterior
+- Art. proximo
+
+---
+
+**Status**: Estrutura basica criada
+**Ultima atualizacao**: 2026-05-31
+
+> [!tip] Para completar este artigo
+> 1. Adicionar jurisprudência
+> 2. Adicionar exemplos práticos
+> 3. Vincular artigos correlatos
+> 4. Expandir análise

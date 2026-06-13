@@ -1,0 +1,49 @@
+---
+artigo: "0402"
+numero_completo: "Art. 402."
+nomen: "Salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao credor"
+livro: "LIVRO I - I - I - V"
+tags:
+  - direito-civil
+  - art-0402
+tipo_documento: artigo
+status: pronto
+publicacao: "LEI No 10.406, DE 10 DE JANEIRO DE 2002"
+---
+
+# Art. 402. — Salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao credor
+
+> [!info] Texto Legal
+> Salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao credor
+
+## Analise Estruturada
+
+### Conceito
+Analise do conceito de salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao c.
+
+### Elementos Essenciais
+1. Primeiro elemento
+2. Segundo elemento
+3. Terceiro elemento
+
+### Casos Praticos
+**Exemplo 1**: Aplicacao pratica...
+**Exemplo 2**: Outro caso...
+
+### Jurisprudencia
+Consultar jurisprudência relevante.
+
+### Artigos Correlatos
+- Art. anterior
+- Art. proximo
+
+---
+
+**Status**: Estrutura basica criada
+**Ultima atualizacao**: 2026-05-31
+
+> [!tip] Para completar este artigo
+> 1. Adicionar jurisprudência
+> 2. Adicionar exemplos práticos
+> 3. Vincular artigos correlatos
+> 4. Expandir análise

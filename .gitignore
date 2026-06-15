@@ -35,3 +35,6 @@ build/
 # Binarios grandes / downloads parciais
 *.exe
 *.crdownload
+
+# Saida temporaria da busca academica (gerar-busca.js)
+02 - Áreas/Base Jurídica/BUSCA-TEMP/

@@ -607,6 +607,30 @@ class InfoModal extends Modal {
           if (e.tribunal) p.appendText(` (${e.tribunal})`);
         }
       }
+
+      // Artigos relacionados do frontmatter (referências cruzadas reais)
+      const acRel = ac.artigos_relacionados || [];
+      if (acRel.length) {
+        const sec = contentEl.createEl('div');
+        Object.assign(sec.style, {
+          borderTop: '1px solid var(--background-modifier-border)',
+          paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+        });
+        sec.createEl('span', { text: '🔗 ' }).style.fontSize = '12px';
+        sec.createEl('strong', { text: 'Relacionados  ' });
+        acRel.forEach((r, i) => {
+          if (i) sec.appendText(' · ');
+          const label = `Art. ${r.artigo}${r.titulo ? ' — ' + r.titulo : ''}`;
+          const a = sec.createEl('span', { text: label });
+          a.style.color = 'var(--text-accent)';
+          a.style.cursor = 'pointer';
+          a.title = r.nota || `Abrir Art. ${r.artigo}`;
+          a.addEventListener('click', () => {
+            this.close();
+            this.app.workspace.openLinkText(`Art. ${r.artigo}`, '', false);
+          });
+        });
+      }
     }
 
     // ── Botões ──

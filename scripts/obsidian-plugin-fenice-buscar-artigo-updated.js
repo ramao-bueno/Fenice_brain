@@ -854,7 +854,7 @@ class FeniceBuscarArtigo extends Plugin {
     const num = String(meta.artigo ?? meta.sumula);
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [] };
     try {
-      const content = await this.app.vault.read(activeFile);
+      const content = await this.app.vault.adapter.read(activeFile.path);
       parsed = parseArtigoMD(content);
     } catch (e) { console.error('Fenice info:', e); }
 
@@ -930,7 +930,7 @@ class FeniceBuscarArtigo extends Plugin {
 
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [], videLeis: [], emendas: [] };
     try {
-      const content = await this.app.vault.read(found);
+      const content = await this.app.vault.adapter.read(found.path);
       parsed = parseArtigoMD(content);
     } catch (e) { console.error('Fenice buscar:', e); }
 
@@ -1041,7 +1041,7 @@ class FeniceBuscarArtigo extends Plugin {
 
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [] };
     try {
-      const content = await this.app.vault.read(result.file);
+      const content = await this.app.vault.adapter.read(result.file.path);
       parsed = parseArtigoMD(content);
     } catch (e) { console.error('Fenice buscar tema:', e); }
 

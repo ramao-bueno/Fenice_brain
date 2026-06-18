@@ -664,7 +664,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v10 — Pronto! (LIVRO-* Fenice bRain incluídos)');
+    console.log('✅ Fenice Buscar Artigo v11 — Pronto! (artigos_relacionados no InfoModal)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

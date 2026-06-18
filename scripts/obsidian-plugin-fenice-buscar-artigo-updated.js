@@ -84,12 +84,13 @@ function parseArtigoMD(content) {
 
   const result = {
     textoBase: '',
-    paragrafos: [],  // [{label, texto}]
-    incisos:    [],  // [{label, texto}]
-    alineas:    [],  // [{label, texto}]
-    correlatos: [],  // strings (wikilinks + texto)
-    videLeis:   [],  // [{numero, ano, label}]
-    emendas:    [],  // [{numero, descricao}]
+    paragrafos: [],       // [{label, texto}]
+    incisos:    [],       // [{label, texto}]
+    alineas:    [],       // [{label, texto}]
+    correlatos: [],       // strings (wikilinks + texto)
+    videLeis:   [],       // [{numero, ano, label}]
+    emendas:    [],       // [{numero, descricao}]
+    analiseTecnica: null, // {[titulo]: [linhas]}
   };
 
   // ── Extrai redação (bloco "> " após "## REDACAO LEGAL") ──
@@ -214,6 +215,25 @@ function parseArtigoMD(content) {
         result.emendas.push({ numero, descricao });
       }
     }
+  }
+
+  // ── Análise Técnica: subseções ### dentro de ## ANÁLISE TÉCNICA ──
+  const mAnalise = content.match(/##[^\n]*AN[ÁA]LISE\s+T[ÉE]CNICA[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
+  if (mAnalise) {
+    const bloco = mAnalise[1];
+    const secoes = {};
+    const partes = bloco.split(/(?=\n### )/);
+    for (const parte of partes) {
+      const mTit = parte.match(/^###\s+(.+?)\n([\s\S]*)/);
+      if (!mTit) continue;
+      const titulo = mTit[1].trim();
+      const linhas = (mTit[2] || '').split('\n').filter(l => {
+        const t = l.trim();
+        return t && !/^\|[\s\-:]+\|/.test(t); // remove separadores de tabela
+      });
+      if (linhas.length) secoes[titulo] = linhas;
+    }
+    if (Object.keys(secoes).length) result.analiseTecnica = secoes;
   }
 
   // ── Correlatos: wikilinks da seção ARTIGOS CORRELATOS ──
@@ -360,7 +380,7 @@ class InfoModal extends Modal {
     contentEl.empty();
     Object.assign(contentEl.style, { maxHeight: '80vh', overflowY: 'auto', paddingRight: '4px' });
 
-    const { textoBase, paragrafos, incisos, alineas, correlatos, videLeis, jurisCorpo } = this.parsed;
+    const { textoBase, paragrafos, incisos, alineas, correlatos, videLeis, jurisCorpo, analiseTecnica } = this.parsed;
 
     // ── Cabeçalho ──
     const h = contentEl.createEl('div');
@@ -437,6 +457,52 @@ class InfoModal extends Modal {
           p.style.marginBottom = '4px';
           p.createEl('strong', { text: `${pg.label}. ` });
           p.appendText(pg.texto);
+        }
+      }
+    }
+
+    // ── Análise Técnica ──
+    if (analiseTecnica) {
+      for (const [titulo, linhas] of Object.entries(analiseTecnica)) {
+        const isTable = linhas.some(l => l.trim().startsWith('|'));
+        const sec = contentEl.createEl('div');
+        Object.assign(sec.style, {
+          borderTop: '1px solid var(--background-modifier-border)',
+          paddingTop: '8px', marginBottom: '10px', fontSize: '12px',
+        });
+        sec.createEl('strong', { text: `📘 ${titulo}` }).style.fontSize = '13px';
+        if (isTable) {
+          const tbl = sec.createEl('table');
+          Object.assign(tbl.style, {
+            width: '100%', borderCollapse: 'collapse',
+            marginTop: '6px', fontSize: '11px',
+          });
+          for (const linha of linhas) {
+            if (!linha.trim().startsWith('|')) continue;
+            const cells = linha.split('|').map(c => c.trim()).filter(Boolean);
+            const tr = tbl.createEl('tr');
+            for (const cell of cells) {
+              const td = tr.createEl('td');
+              Object.assign(td.style, {
+                border: '1px solid var(--background-modifier-border)',
+                padding: '3px 6px',
+              });
+              td.appendText(cell.replace(/\*\*/g, ''));
+            }
+          }
+        } else {
+          for (const linha of linhas) {
+            const t = linha.trim();
+            if (!t) continue;
+            const p = sec.createEl('p');
+            Object.assign(p.style, {
+              marginTop: '4px', marginLeft: '4px',
+              borderLeft: '2px solid var(--interactive-accent)',
+              paddingLeft: '8px', lineHeight: '1.5',
+              color: t.startsWith('[') ? 'var(--text-muted)' : 'inherit',
+            });
+            p.appendText(t);
+          }
         }
       }
     }
@@ -664,7 +730,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v11 — Pronto! (artigos_relacionados no InfoModal)');
+    console.log('✅ Fenice Buscar Artigo v12 — Pronto! (Análise Técnica no InfoModal)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

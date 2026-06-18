@@ -753,79 +753,65 @@ class FeniceBuscarArtigo extends Plugin {
     const allFiles = this.app.vault.getFiles();
     const temaBaixo = tema.toLowerCase();
     const resultados = [];
+    const MAX_LEITURAS = 300; // teto para não travar o vault
 
     const pastas = obterPastas(config);
-
-    // Normalizar caminhos (converter \\ para /)
     const pastasNorm = pastas.map(p => p.replace(/\\\\/g, '/'));
 
-    // Debug: log pastas sendo buscadas
-    console.log(`🔍 Buscando "${tema}" em ${config.codigo}`);
-    console.log(`   Pastas: ${pastasNorm.join(', ')}`);
-    console.log(`   Total de arquivos: ${allFiles.length}`);
+    console.log(`🔍 Buscando "${tema}" em ${config.codigo} (${allFiles.length} arquivos total)`);
 
-    let arquivosTestados = 0;
-    let arquivosEmPasta = 0;
-
-    for (const file of allFiles) {
-      // Normaliza caminho do arquivo
+    // Filtra primeiro por pasta usando só metadados (sem ler conteúdo)
+    const candidatos = allFiles.filter(file => {
       const filePath = file.path.replace(/\\\\/g, '/');
+      return pastasNorm.length === 0 || pastasNorm.some(p => filePath.startsWith(p.replace(/\/+$/, '') + '/'));
+    });
 
-      // Verifica se arquivo está EXATAMENTE na pasta configurada
-      // (sem pastas configuradas → busca em todo o vault, ex: buscarPorLei)
-      const emPastaCorreta = pastasNorm.length === 0 || pastasNorm.some(p => {
-        const pastaNorm = p.replace(/\/+$/, '');
-        return filePath.startsWith(pastaNorm + '/');
-      });
-
-      if (!emPastaCorreta) continue;
-
-      arquivosEmPasta++;
-      arquivosTestados++;
-
-      try {
-        const meta = this.app.metadataCache.getFileCache(file)?.frontmatter || {};
-        const content = await this.app.vault.read(file);
-
-        // Debug: mostrar primeiro arquivo
-        if (arquivosTestados === 1) {
-          console.log(`   📄 Arquivo 1: ${file.basename}`);
-          console.log(`      Caminho: ${filePath}`);
-          console.log(`      Conteúdo tem "${temaBaixo}"? ${content.toLowerCase().includes(temaBaixo)}`);
-        }
-
-        // Busca em: título, tags, conteúdo (prioridade nesta ordem)
-        const titulo = file.basename.toLowerCase();
-        const tags = Array.isArray(meta.tags) ? meta.tags.join(' ').toLowerCase() : '';
-        const conteudoLower = content.toLowerCase();
-
-        // Busca por termo exato ou palavras-chave relacionadas
-        const temNoTitulo = titulo.includes(temaBaixo);
-        const temNasTags = tags.includes(temaBaixo);
-        const temNoConteudo = conteudoLower.includes(temaBaixo);
-
-        // Evita falsos positivos - busca deve ser bem direcionada
-        const relevancia = (temNoTitulo ? 100 : 0) + (temNasTags ? 50 : 0) + (temNoConteudo ? 10 : 0);
-
-        if (relevancia > 0) {
-          // Extrai número do artigo se existir
-          const num = meta.numero || meta.artigo || meta.sumula || '';
-
-          resultados.push({
-            file: file,
-            label: num ? `Art. ${num} — ${file.basename}` : file.basename,
-            titulo: file.basename,
-            relevancia: relevancia,
-            meta: meta,
-            caminho: file.path
-          });
-
-          console.log(`   ✓ Encontrado: ${file.basename} (relevância: ${relevancia})`);
-        }
-      } catch (e) { console.error(`   ❌ Erro ao ler ${file.basename}:`, e); }
+    // Fase 1: busca rápida por título e tags (sem ler arquivo)
+    for (const file of candidatos) {
+      const meta = this.app.metadataCache.getFileCache(file)?.frontmatter || {};
+      const titulo = file.basename.toLowerCase();
+      const tags = Array.isArray(meta.tags) ? meta.tags.join(' ').toLowerCase() : '';
+      const temNoTitulo = titulo.includes(temaBaixo);
+      const temNasTags = tags.includes(temaBaixo);
+      if (temNoTitulo || temNasTags) {
+        const num = meta.numero || meta.artigo || meta.sumula || '';
+        resultados.push({
+          file, meta,
+          label: num ? `Art. ${num} — ${file.basename}` : file.basename,
+          titulo: file.basename,
+          relevancia: (temNoTitulo ? 100 : 0) + (temNasTags ? 50 : 0),
+          caminho: file.path,
+        });
+      }
     }
 
-    console.log(`   Total em pasta: ${arquivosEmPasta} arquivo(s)`);
+    // Fase 2: leitura de conteúdo só se não achou nada na fase 1 (limitado)
+    if (resultados.length === 0) {
+      let lidos = 0;
+      for (const file of candidatos) {
+        if (lidos >= MAX_LEITURAS) break;
+        try {
+          const content = await this.app.vault.read(file);
+          lidos++;
+          if (content.toLowerCase().includes(temaBaixo)) {
+            const meta = this.app.metadataCache.getFileCache(file)?.frontmatter || {};
+            const num = meta.numero || meta.artigo || meta.sumula || '';
+            resultados.push({
+              file, meta,
+              label: num ? `Art. ${num} — ${file.basename}` : file.basename,
+              titulo: file.basename,
+              relevancia: 10,
+              caminho: file.path,
+            });
+          }
+        } catch (e) { console.error(`Erro ao ler ${file.basename}:`, e); }
+      }
+      if (lidos >= MAX_LEITURAS) {
+        new Notice(`⚠ Busca limitada a ${MAX_LEITURAS} arquivos. Refine o termo.`, 4000);
+      }
+    }
+
+    console.log(`   Candidatos: ${candidatos.length} | Resultados: ${resultados.length}`);
 
     if (resultados.length === 0) {
       new Notice(`⚠ Nenhum resultado para "${tema}" em ${config.codigo}.`, 4000);

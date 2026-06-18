@@ -7,46 +7,64 @@ const CODIGOS = [
   { label: 'CF/88 — Constituição Federal',  tag: 'cf88',          pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/Artigos', codigo: 'CF/88' },
 
   // ━━━ DIREITO CIVIL ━━━
-  { label: 'Código Civil (CC)',              tag: 'cc',            pastas: ['02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I', '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-II', '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III', '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV', '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V', '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406'], codigo: 'CC'   },
-  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pasta: '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB',  codigo: 'LINDB'},
-  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/D9830',  codigo: 'D9830'},
+  { label: 'Código Civil (CC)',              tag: 'cc',            pastas: [
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I',
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-II',
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III',
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV',
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V',
+      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
+    ], codigo: 'CC' },
+  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pastas: ['02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB', 'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB'], codigo: 'LINDB'},
+  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: 'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/D9830',  codigo: 'D9830'},
 
   // ━━━ DIREITO PENAL ━━━
-  { label: 'Código Penal (CP)',              tag: 'direito-penal', pastas: ['02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes', '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Artigos/DEL2848'], codigo: 'CP'   },
+  { label: 'Código Penal (CP)',              tag: 'direito-penal', pastas: [
+      '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes',
+      'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PENAL/Artigos/DEL2848',
+    ], codigo: 'CP' },
 
   // ━━━ DIREITO PROCESSUAL ━━━
-  { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',        codigo: 'CPC'  },
-  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL', codigo: 'CPP', avisoNucleoAusente: true },
+  { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pastas: [
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',
+      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
+      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
+      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
+      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
+      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
+    ], codigo: 'CPC' },
+  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: 'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL', codigo: 'CPP' },
 
   // ━━━ DIREITO CONSUMERISTA & COMERCIAL ━━━
-  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pasta: '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR',            codigo: 'CDC'  },
+  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pastas: ['02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR', 'Fenice bRain/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR'], codigo: 'CDC' },
 
   // ━━━ DIREITO ADMINISTRATIVO ━━━
-  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: '02 - Áreas/Base Jurídica/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L8429',       codigo: 'L8429'},
-  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: '02 - Áreas/Base Jurídica/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12846',       codigo: 'L12846'},
-  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: '02 - Áreas/Base Jurídica/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12527',       codigo: 'L12527'},
+  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L8429',  codigo: 'L8429'},
+  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12846', codigo: 'L12846'},
+  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12527', codigo: 'L12527'},
 
   // ━━━ DIREITO PREVIDENCIÁRIO ━━━
-  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8212',      codigo: 'L8212'},
-  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8213',      codigo: 'L8213'},
+  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8212', codigo: 'L8212'},
+  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8213', codigo: 'L8213'},
 
   // ━━━ DIREITO DIGITAL & TECNOLOGIA ━━━
-  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L12965',              codigo: 'MCI'  },
-  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L13709',              codigo: 'LGPD' },
+  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L12965', codigo: 'MCI'  },
+  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L13709', codigo: 'LGPD' },
 
   // ━━━ DIREITO INTERNACIONAL & TRATADOS ━━━
-  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos',       codigo: 'CADH', isReferencia: true },
-  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados',       codigo: 'CVDT', isReferencia: true },
+  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos', codigo: 'CADH', isReferencia: true },
+  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados', codigo: 'CVDT', isReferencia: true },
 
   // ━━━ JURISPRUDÊNCIA STF ━━━
-  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/STF_SUMULAS/Vinculantes', codigo: 'SV',     buscaPorSumula: true },
+  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/STF_SUMULAS/Vinculantes', codigo: 'SV',    buscaPorSumula: true },
   { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
 
   // ━━━ PROFISSÕES & ENTIDADES ━━━
-  { label: 'OAB — Ordem dos Advogados',     tag: 'oab',           pasta: '02 - Áreas/Base Jurídica/09_REFERENCIAS/OAB',       codigo: 'OAB', isReferencia: true },
+  { label: 'OAB — Ordem dos Advogados',     tag: 'oab',           pasta: '02 - Áreas/Base Jurídica/09_REFERENCIAS/OAB', codigo: 'OAB', isReferencia: true },
 
   // ━━━ ESPECIAL: ENUNCIADOS ━━━
-  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF',            codigo: 'ENUM', isEnunciados: true },
+  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF', codigo: 'ENUM', isEnunciados: true },
   { label: '⚡ ATOMIZAR — Skill de IA',     tag: 'atomizar',       pasta: '', codigo: 'ATOM', isAtomizar: true },
 ];
 
@@ -132,6 +150,22 @@ function parseArtigoMD(content) {
         result.paragrafos.push({ label: `§ ${m[1]}°`, texto: m[2].replace(/\s+/g, ' ').trim() });
       }
     }
+  }
+
+  // ── Jurisprudência do corpo: seção ## JURISPRUDENCIA ou ## ⚖️ JURISPRUDÊNCIA ──
+  // Só extrai se houver blockquotes reais (não placeholder)
+  const mJurisCorpo = content.match(/##[^\n]*JURISPRUD[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
+  if (mJurisCorpo) {
+    const bloco = mJurisCorpo[1];
+    const jurisCorpo = [];
+    // Padrão: **TRIBUNAL — label**\n> texto
+    const bolqRE = /\*\*([^*\n]+)\*\*[^\n]*\n((?:>[^\n]*\n?)+)/g;
+    for (const m of [...bloco.matchAll(bolqRE)]) {
+      const tribunal = m[1].trim();
+      const texto = m[2].split('\n').map(l => l.replace(/^>\s?/, '').trim()).filter(Boolean).join(' ');
+      if (texto && !texto.startsWith('[')) jurisCorpo.push({ tribunal, resumo: texto });
+    }
+    if (jurisCorpo.length) result.jurisCorpo = jurisCorpo;
   }
 
   // ── Súmulas: seção ## ENUNCIADO (quando não há REDACAO LEGAL) ──
@@ -314,8 +348,9 @@ class InfoModal extends Modal {
   onOpen() {
     const { contentEl } = this;
     contentEl.empty();
+    Object.assign(contentEl.style, { maxHeight: '80vh', overflowY: 'auto', paddingRight: '4px' });
 
-    const { textoBase, paragrafos, incisos, alineas, correlatos, videLeis } = this.parsed;
+    const { textoBase, paragrafos, incisos, alineas, correlatos, videLeis, jurisCorpo } = this.parsed;
 
     // ── Cabeçalho ──
     const h = contentEl.createEl('div');
@@ -502,6 +537,26 @@ class InfoModal extends Modal {
       }
     }
 
+    // ── Jurisprudência do corpo do artigo (seção ## JURISPRUDENCIA real) ──
+    if (jurisCorpo && jurisCorpo.length && !this.acessorios?.jurisprudencia?.length) {
+      const sec = contentEl.createEl('div');
+      Object.assign(sec.style, {
+        borderTop: '1px solid var(--background-modifier-border)',
+        paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+      });
+      sec.createEl('strong', { text: '⚖️ Jurisprudência  ' });
+      for (const j of jurisCorpo) {
+        const p = sec.createEl('p');
+        Object.assign(p.style, {
+          marginLeft: '4px', marginBottom: '4px',
+          borderLeft: '2px solid var(--interactive-accent)',
+          paddingLeft: '8px', lineHeight: '1.4', fontSize: '12px',
+        });
+        p.createEl('strong', { text: `${j.tribunal}: ` });
+        p.appendText(j.resumo || '');
+      }
+    }
+
     // ── Acessórios do frontmatter (LIVRO-* format) ──
     const ac = this.acessorios;
     if (ac) {
@@ -575,7 +630,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v8 — Pronto!');
+    console.log('✅ Fenice Buscar Artigo v9 — Pronto! (paths corrigidos)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -754,9 +809,12 @@ class FeniceBuscarArtigo extends Plugin {
     }
     if (!found) { this.avisarNaoEncontrado(config, num); return; }
 
+    console.log(`✅ Encontrado: ${found.path}`);
+    new Notice(`✅ Art. ${num} — ${config.codigo}`, 2000);
+
     await this.app.workspace.openLinkText(found.basename, '', false);
 
-    let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [] };
+    let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [], videLeis: [], emendas: [] };
     try {
       const content = await this.app.vault.read(found);
       parsed = parseArtigoMD(content);
@@ -766,7 +824,9 @@ class FeniceBuscarArtigo extends Plugin {
     const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
     const acessorios2 = this.app.metadataCache.getFileCache(found)?.frontmatter?.acessorios || null;
 
-    console.log(`✅ Encontrado: Art. ${num}`);
+    console.log(`   textoBase: ${parsed.textoBase?.slice(0,60)}...`);
+    console.log(`   incisos: ${parsed.incisos.length} | paragrafos: ${parsed.paragrafos.length} | correlatos: ${parsed.correlatos.length}`);
+    console.log(`   acessorios:`, acessorios2);
 
     new InfoModal(this.app, found, config, num, parsed, enunciados, acessorios2,
       () => {

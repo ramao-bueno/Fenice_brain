@@ -12,6 +12,7 @@ tags:
 created: '2026-06-06'
 ---
 
+
 # CC Art. 299 — É facultado a terceiro assumir a obrigação do devedor, com o consentimento expresso do credor, ficando exonerado o deved
 
 **Lei:** Lei 10.406/2002 (Código Civil)

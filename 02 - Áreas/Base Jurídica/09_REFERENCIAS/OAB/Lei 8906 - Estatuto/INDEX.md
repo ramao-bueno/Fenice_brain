@@ -4,7 +4,7 @@ tags:
   - index
   - lei-8906
 ---
-
+**
 # Lei 8906/94 — Estatuto da OAB
 
 > [!abstract] Base de Conhecimento Juridico

@@ -64,7 +64,10 @@ created: '2026-06-06'
 
 ## EMENDAS CONSTITUCIONAIS
 
-[ECs que modificaram este artigo — verificar no Planalto]
+- **EC nº 26/2000** — Acrescentou o § 2º-A e modificou a redação do § 3º
+- **EC nº 45/2004** — Inseriu os incisos LXXVIII, modificou procedimentos processuais
+- **EC nº 64/2010** — Acrescentou alimentação como direito fundamental (inciso XIV)
+- **EC nº 88/2015** — Modificou direitos de acesso ao STF
 
 ---
 

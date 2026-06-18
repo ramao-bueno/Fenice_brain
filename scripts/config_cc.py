@@ -3,8 +3,9 @@ from pathlib import Path
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
-PDF_PATH = r"C:\Users\oicon\OneDrive\Allah - Islamismo\Univille SFS\BIBLIOTECA JURIDICA\Codigo Civil\L10406.pdf"
-OUTPUT_BASE = PROJECT_ROOT / "FENICE bRain" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "Artigos"
+# PDF_PATH: localizar na biblioteca local do vault (C:\Fenice_bRain\02 - Áreas\Base Jurídica\)
+PDF_PATH = PROJECT_ROOT / "02 - Áreas" / "Base Jurídica" / "02_DIREITO_PRIVADO" / "CÓDIGO_CIVIL" / "Código Civil.pdf"
+OUTPUT_BASE = PROJECT_ROOT / "Fenice bRain" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "Artigos"
 
 # Mapeamento de Livros (Código Civil tem 2.046 artigos)
 LIVRO_MAPEAMENTO = {

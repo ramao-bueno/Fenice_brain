@@ -24,16 +24,16 @@ tags:
 
 ## As 8 circunstâncias do Art. 59
 
-| # | Circunstância |
-|---|---|
-| 1 | Culpabilidade |
-| 2 | Antecedentes |
-| 3 | Conduta social |
-| 4 | Personalidade do agente |
-| 5 | Motivos do crime |
-| 6 | Circunstâncias do crime |
-| 7 | Consequências do crime |
-| 8 | Comportamento da vítima |
+| #   | Circunstância           |
+| --- | ----------------------- |
+| 1   | Culpabilidade           |
+| 2   | Antecedentes            |
+| 3   | Conduta social          |
+| 4   | Personalidade do agente |
+| 5   | Motivos do crime        |
+| 6   | Circunstâncias do crime |
+| 7   | Consequências do crime  |
+| 8   | Comportamento da vítima |
 
 ## Links
 

@@ -574,6 +574,7 @@ tags:
 created: '2026-06-03'
 ---
 
+
 # CPC Art. 667 — Aplicam-se subsidiariamente a esta Seção as disposições das Seções VII e VIII deste Capítulo.
 
 **Lei:** Lei 13.105/2015 (Código de Processo Civil)

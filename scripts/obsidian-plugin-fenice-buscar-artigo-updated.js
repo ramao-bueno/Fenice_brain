@@ -273,14 +273,15 @@ class ArtigoModal extends Modal {
 // ─── Modal 3: Painel compacto — sem scroll ───────────────────
 // Mostra apenas estrutura + correlatos (o texto está na nota aberta)
 class InfoModal extends Modal {
-  constructor(app, found, config, num, parsed, enunciados, onNovaBusca, onBuscarLei) {
+  constructor(app, found, config, num, parsed, enunciados, acessorios, onNovaBusca, onBuscarLei) {
     super(app);
-    this.found      = found;
-    this.config     = config;
-    this.num        = num;
-    this.parsed     = parsed;
-    this.enunciados = enunciados || [];
-    this.emendas    = parsed.emendas || [];
+    this.found       = found;
+    this.config      = config;
+    this.num         = num;
+    this.parsed      = parsed;
+    this.enunciados  = enunciados || [];
+    this.acessorios  = acessorios || null;
+    this.emendas     = parsed.emendas || [];
     this.onNovaBusca = onNovaBusca;
     this.onBuscarLei = onBuscarLei;
     this.modalEl.style.maxWidth = '600px';
@@ -474,6 +475,48 @@ class InfoModal extends Modal {
       }
     }
 
+    // ── Acessórios do frontmatter (LIVRO-* format) ──
+    const ac = this.acessorios;
+    if (ac) {
+      // Jurisprudência
+      const juris = ac.jurisprudencia || [];
+      if (juris.length) {
+        const sec = contentEl.createEl('div');
+        Object.assign(sec.style, {
+          borderTop: '1px solid var(--background-modifier-border)',
+          paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+        });
+        sec.createEl('strong', { text: '⚖️ Jurisprudência  ' });
+        for (const j of juris) {
+          const p = sec.createEl('p');
+          Object.assign(p.style, {
+            marginLeft: '4px', marginBottom: '4px',
+            borderLeft: '2px solid var(--interactive-accent)',
+            paddingLeft: '8px', lineHeight: '1.4', fontSize: '12px',
+          });
+          p.createEl('strong', { text: `${j.tribunal}: ` });
+          p.appendText(j.resumo || '');
+        }
+      }
+
+      // Enunciados do frontmatter (complementa o índice JSON)
+      const acEnums = ac.enunciados || [];
+      if (acEnums.length && !this.enunciados.length) {
+        const sec = contentEl.createEl('div');
+        Object.assign(sec.style, {
+          borderTop: '1px solid var(--background-modifier-border)',
+          paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+        });
+        sec.createEl('strong', { text: '📋 Enunciados  ' });
+        for (const e of acEnums) {
+          const p = sec.createEl('p');
+          Object.assign(p.style, { marginLeft: '4px', marginBottom: '3px', fontSize: '12px' });
+          p.createEl('strong', { text: `Enunciado ${e.numero}` });
+          if (e.tribunal) p.appendText(` (${e.tribunal})`);
+        }
+      }
+    }
+
     // ── Botões ──
     const row = contentEl.createEl('div');
     Object.assign(row.style, { display: 'flex', gap: '8px' });
@@ -623,7 +666,8 @@ class FeniceBuscarArtigo extends Plugin {
     const chaveIdx = `${config.tag}:${num}`;
     const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
 
-    new InfoModal(this.app, activeFile, config, num, parsed, enunciados,
+    const acessorios1 = meta.acessorios || null;
+    new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1,
       () => this.iniciarBusca(),
       (lei) => this.buscarPorLei(lei)).open();
   }
@@ -693,10 +737,11 @@ class FeniceBuscarArtigo extends Plugin {
 
     const chaveIdx = `${config.tag}:${num}`;
     const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
+    const acessorios2 = this.app.metadataCache.getFileCache(found)?.frontmatter?.acessorios || null;
 
     console.log(`✅ Encontrado: Art. ${num}`);
 
-    new InfoModal(this.app, found, config, num, parsed, enunciados,
+    new InfoModal(this.app, found, config, num, parsed, enunciados, acessorios2,
       () => {
         console.clear();
         this.iniciarBusca();
@@ -817,7 +862,8 @@ class FeniceBuscarArtigo extends Plugin {
     console.clear();
     console.log(`✅ Aberto: ${result.titulo}`);
 
-    new InfoModal(this.app, result.file, config, num, parsed, [],
+    const acessorios3 = result.meta?.acessorios || null;
+    new InfoModal(this.app, result.file, config, num, parsed, [], acessorios3,
       () => {
         console.clear();
         this.iniciarBusca();

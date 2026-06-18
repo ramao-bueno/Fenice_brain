@@ -30,27 +30,46 @@ created: '2026-06-06'
 
 ### Conceito Central
 
-[Análise do artigo em linguagem jurídica clara]
+A usucapião extraordinária é modo originário de aquisição da propriedade imóvel pela posse prolongada e qualificada, dispensando justo título e boa-fé. Distingue-se da usucapião ordinária (art. 1.242) pela desnecessidade desses requisitos, compensada pelo prazo superior de 15 anos. O parágrafo único consagra a modalidade privilegiada — redução a 10 anos para quem estabelece moradia habitual (usucapião pro habitatione) ou realiza obras e serviços produtivos (usucapião pro labore), reconhecendo o valor social da posse-trabalho e da posse-moradia sobre a propriedade estática.
 
 ### Elementos-Chave
 
 | Elemento | Descrição |
 |----------|-----------|
-| **Aspecto 1** | Descrição |
-| **Aspecto 2** | Descrição |
+| **Prazo** | 15 anos (caput) ou 10 anos com moradia habitual ou obras produtivas (§ único) |
+| **Animus domini** | Posse com intenção de dono — exclui locação, comodato e posse precária |
+| **Mansa e pacífica** | Sem oposição efetiva do proprietário durante todo o prazo |
+| **Ininterrupta** | Sem interrupção civil (citação — art. 202, I CC) ou perda material da posse |
+| **Justo título** | Dispensado — diferencia da usucapião ordinária (art. 1.242) |
+| **Boa-fé** | Dispensada — idem |
+| **Objeto** | Imóvel privado alienável; bem público é inusucapível (art. 102 CC + S. 340 STJ) |
+| **Sentença** | Declaratória (efeito ex tunc), serve de título para registro no CRI |
 
 ---
 
 ## 🔗 ARTIGOS CORRELATOS
 
-- [[Art. 1237]] — Artigo anterior
-- [[Art. 1239]] — Artigo seguinte
+### Usucapião no CC
+- [[Art. 1237]] — Artigo anterior (efeitos da posse)
+- [[Art. 1239]] — Usucapião rural pro labore (5 anos + terra produtiva)
+- [[Art. 1240]] — Usucapião especial urbana (5 anos + moradia)
+- [[Art. 1242]] — Usucapião ordinária (10 anos + justo título + boa-fé)
+
+### Pressupostos gerais
+- [[Art. 102]] — Bens públicos: não sujeitos a usucapião
+- [[Art. 1196]] — Conceito de possuidor (animus domini)
+- [[Art. 1200]] — Posse justa vs. injusta
+
+### Constituição Federal
+- [[Art. 183 — CF]] — Usucapião constitucional urbana (5 anos + moradia)
+- [[Art. 191 — CF]] — Usucapião constitucional rural (5 anos + produtividade)
 
 ---
 
 ## ⚖️ JURISPRUDÊNCIA
 
-[STF/STJ precedentes a adicionar]
+[STF/STJ precedentes a adici
+onar]
 
 ---
 

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-areia: #faf7f2;
+  --color-ink: #1a1a1a;
+  --color-verde: #006847;
+  --color-verde-light: #7fba00;
+  --color-verde-tint: #eaf3ec;
+  --color-alerta: #b23a48;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
+
+::selection {
+  background-color: var(--color-verde);
+  color: #fff;
+}

@@ -1,0 +1,12 @@
+[
+  { "competencia": "Comum", "qtd": 96, "pct": 24.1 },
+  { "competencia": "Juizado Especial Criminal", "qtd": 87, "pct": 21.8 },
+  { "competencia": "Maria da Penha", "qtd": 85, "pct": 21.3, "destaque": true },
+  { "competencia": "Contra Dignidade Sexual", "qtd": 39, "pct": 9.8, "destaque": true },
+  { "competencia": "Tribunal do Juri", "qtd": 26, "pct": 6.5 },
+  { "competencia": "Ambientais", "qtd": 16, "pct": 4.0 },
+  { "competencia": "Entorpecentes", "qtd": 15, "pct": 3.8 },
+  { "competencia": "Administracao Publica", "qtd": 13, "pct": 3.3 },
+  { "competencia": "Transito", "qtd": 9, "pct": 2.3 },
+  { "competencia": "Crimes contra Crianca/Adolescente", "qtd": 8, "pct": 2.0 }
+]

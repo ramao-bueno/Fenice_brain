@@ -13,6 +13,11 @@ const CODIGOS = [
       '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III',
       '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV',
       '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-II',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV',
+      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V',
       '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
       'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
     ], codigo: 'CC' },
@@ -27,12 +32,17 @@ const CODIGOS = [
 
   // ━━━ DIREITO PROCESSUAL ━━━
   { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pastas: [
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',
       '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
       '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
       '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
       '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
       '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
+      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',
     ], codigo: 'CPC' },
   { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: 'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL', codigo: 'CPP' },
 
@@ -630,7 +640,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v9 — Pronto! (paths corrigidos)');
+    console.log('✅ Fenice Buscar Artigo v10 — Pronto! (LIVRO-* Fenice bRain incluídos)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

@@ -10,7 +10,7 @@ from pathlib import Path
 from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).parent.parent
-HTML_PATH    = PROJECT_ROOT / "02 - Áreas" / "Base Jurídica" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "D9830.html"
+HTML_PATH    = PROJECT_ROOT / "Fenice bRain" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "D9830.html"
 OUTPUT_BASE  = PROJECT_ROOT / 'Fenice bRain' / '02_DIREITO_PRIVADO' / 'DIREITO_CIVIL' / 'Artigos' / 'D9830'
 
 LEI_NOME     = 'Decreto 9.830/2019 (Regulamenta LINDB)'

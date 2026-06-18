@@ -1,7 +1,7 @@
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-PDF_PATH = PROJECT_ROOT / "Fenice bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL" / "Constituição.pdf"
+PDF_PATH = PROJECT_ROOT / "02 - Áreas" / "Base Jurídica" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL" / "Constituição.pdf"
 OUTPUT_BASE = PROJECT_ROOT / "Fenice bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL" / "Artigos"
 
 TITULO_MAPEAMENTO = {

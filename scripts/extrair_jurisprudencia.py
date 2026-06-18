@@ -32,11 +32,15 @@ Saída: scripts/jurisprudencia_index.json
   }
 """
 
+import io
 import json
 import re
 import sys
 from datetime import datetime
 from pathlib import Path
+
+# Forçar UTF-8 no stdout (Windows cp1252 não suporta emojis)
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 try:
     from bs4 import BeautifulSoup

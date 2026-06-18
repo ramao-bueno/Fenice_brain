@@ -358,7 +358,7 @@ class ArtigoModal extends Modal {
 // ─── Modal 3: Painel compacto — sem scroll ───────────────────
 // Mostra apenas estrutura + correlatos (o texto está na nota aberta)
 class InfoModal extends Modal {
-  constructor(app, found, config, num, parsed, enunciados, acessorios, onNovaBusca, onBuscarLei) {
+  constructor(app, found, config, num, parsed, enunciados, acessorios, jurisIdx, onNovaBusca, onBuscarLei) {
     super(app);
     this.found       = found;
     this.config      = config;
@@ -366,6 +366,7 @@ class InfoModal extends Modal {
     this.parsed      = parsed;
     this.enunciados  = enunciados || [];
     this.acessorios  = acessorios || null;
+    this.jurisIdx    = jurisIdx   || [];
     this.emendas     = parsed.emendas || [];
     this.onNovaBusca = onNovaBusca;
     this.onBuscarLei = onBuscarLei;
@@ -611,49 +612,52 @@ class InfoModal extends Modal {
       }
     }
 
-    // ── Jurisprudência do corpo do artigo (seção ## JURISPRUDENCIA real) ──
-    if (jurisCorpo && jurisCorpo.length && !this.acessorios?.jurisprudencia?.length) {
-      const sec = contentEl.createEl('div');
-      Object.assign(sec.style, {
-        borderTop: '1px solid var(--background-modifier-border)',
-        paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
-      });
-      sec.createEl('strong', { text: '⚖️ Jurisprudência  ' });
-      for (const j of jurisCorpo) {
-        const p = sec.createEl('p');
-        Object.assign(p.style, {
-          marginLeft: '4px', marginBottom: '4px',
-          borderLeft: '2px solid var(--interactive-accent)',
-          paddingLeft: '8px', lineHeight: '1.4', fontSize: '12px',
-        });
-        p.createEl('strong', { text: `${j.tribunal}: ` });
-        p.appendText(j.resumo || '');
+    // ── Jurisprudência consolidada: índice JSON > frontmatter > corpo ──
+    {
+      const todasJuris = [];
+      if (this.jurisIdx.length) {
+        // Fonte primária: jurisprudencia_index.json (mais rico)
+        for (const j of this.jurisIdx)
+          todasJuris.push({ header: `${j.tribunal}${j.numero ? ' — ' + j.numero : ''}`, texto: j.ementa || '', link: j.link || '' });
+      } else if (this.acessorios?.jurisprudencia?.length) {
+        // Fonte secundária: acessorios frontmatter
+        for (const j of this.acessorios.jurisprudencia)
+          todasJuris.push({ header: j.tribunal, texto: j.resumo || '', link: '' });
+      } else if (jurisCorpo?.length) {
+        // Fonte terciária: corpo do artigo (## JURISPRUDENCIA)
+        for (const j of jurisCorpo)
+          todasJuris.push({ header: j.tribunal, texto: j.resumo || '', link: '' });
       }
-    }
-
-    // ── Acessórios do frontmatter (LIVRO-* format) ──
-    const ac = this.acessorios;
-    if (ac) {
-      // Jurisprudência
-      const juris = ac.jurisprudencia || [];
-      if (juris.length) {
+      if (todasJuris.length) {
         const sec = contentEl.createEl('div');
         Object.assign(sec.style, {
           borderTop: '1px solid var(--background-modifier-border)',
           paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
         });
         sec.createEl('strong', { text: '⚖️ Jurisprudência  ' });
-        for (const j of juris) {
+        for (const j of todasJuris) {
           const p = sec.createEl('p');
           Object.assign(p.style, {
             marginLeft: '4px', marginBottom: '4px',
             borderLeft: '2px solid var(--interactive-accent)',
             paddingLeft: '8px', lineHeight: '1.4', fontSize: '12px',
           });
-          p.createEl('strong', { text: `${j.tribunal}: ` });
-          p.appendText(j.resumo || '');
+          p.createEl('strong', { text: j.header + ': ' });
+          p.appendText(j.texto);
+          if (j.link) {
+            p.appendText(' ');
+            const a = p.createEl('a', { text: '[↗]' });
+            a.href = j.link;
+            a.style.color = 'var(--text-accent)';
+            a.target = '_blank';
+          }
         }
       }
+    }
+
+    // ── Acessórios do frontmatter (enunciados + relacionados) ──
+    const ac = this.acessorios;
+    if (ac) {
 
       // Enunciados do frontmatter (complementa o índice JSON)
       const acEnums = ac.enunciados || [];
@@ -728,7 +732,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v12 — Pronto! (Análise Técnica no InfoModal)');
+    console.log('✅ Fenice Buscar Artigo v13 — Pronto! (jurisprudencia_index.json integrado)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -756,6 +760,17 @@ class FeniceBuscarArtigo extends Plugin {
           Object.keys(this.enunciadosIndex).length, 'artigos');
       })
       .catch(() => console.log('Fenice: enunciados_index.json nao encontrado'));
+
+    // Carrega index de jurisprudência
+    this.jurisprudenciaIndex = {};
+    this.app.vault.adapter
+      .read('scripts/jurisprudencia_index.json')
+      .then(txt => {
+        this.jurisprudenciaIndex = JSON.parse(txt);
+        console.log('Fenice: jurisprudência carregada —',
+          Object.keys(this.jurisprudenciaIndex).length, 'artigos');
+      })
+      .catch(() => console.log('Fenice: jurisprudencia_index.json nao encontrado (normal — ainda nao gerado)'));
   }
 
   iniciarBusca() {
@@ -844,10 +859,11 @@ class FeniceBuscarArtigo extends Plugin {
     } catch (e) { console.error('Fenice info:', e); }
 
     const chaveIdx = `${config.tag}:${num}`;
-    const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
+    const enunciados = (this.enunciadosIndex    || {})[chaveIdx] || [];
+    const jurisIdx   = (this.jurisprudenciaIndex || {})[chaveIdx] || [];
 
     const acessorios1 = meta.acessorios || null;
-    new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1,
+    new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1, jurisIdx,
       () => this.iniciarBusca(),
       (lei) => this.buscarPorLei(lei)).open();
   }
@@ -919,14 +935,16 @@ class FeniceBuscarArtigo extends Plugin {
     } catch (e) { console.error('Fenice buscar:', e); }
 
     const chaveIdx = `${config.tag}:${num}`;
-    const enunciados = (this.enunciadosIndex || {})[chaveIdx] || [];
+    const enunciados = (this.enunciadosIndex    || {})[chaveIdx] || [];
+    const jurisIdx   = (this.jurisprudenciaIndex || {})[chaveIdx] || [];
     const acessorios2 = this.app.metadataCache.getFileCache(found)?.frontmatter?.acessorios || null;
 
     console.log(`   textoBase: ${parsed.textoBase?.slice(0,60)}...`);
     console.log(`   incisos: ${parsed.incisos.length} | paragrafos: ${parsed.paragrafos.length} | correlatos: ${parsed.correlatos.length}`);
     console.log(`   acessorios:`, acessorios2);
+    console.log(`   jurisIdx: ${jurisIdx.length} entradas`);
 
-    new InfoModal(this.app, found, config, num, parsed, enunciados, acessorios2,
+    new InfoModal(this.app, found, config, num, parsed, enunciados, acessorios2, jurisIdx,
       () => {
         console.clear();
         this.iniciarBusca();

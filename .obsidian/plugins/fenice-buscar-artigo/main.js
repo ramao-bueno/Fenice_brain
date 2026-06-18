@@ -222,14 +222,12 @@ function parseArtigoMD(content) {
   if (mAnalise) {
     const bloco = mAnalise[1];
     const secoes = {};
-    const partes = bloco.split(/(?=\n### )/);
-    for (const parte of partes) {
-      const mTit = parte.match(/^###\s+(.+?)\n([\s\S]*)/);
-      if (!mTit) continue;
-      const titulo = mTit[1].trim();
-      const linhas = (mTit[2] || '').split('\n').filter(l => {
+    const reSubsec = /###\s+(.+?)\n([\s\S]*?)(?=\n###\s|$)/gi;
+    for (const m of [...bloco.matchAll(reSubsec)]) {
+      const titulo = m[1].trim();
+      const linhas = (m[2] || '').split('\n').filter(l => {
         const t = l.trim();
-        return t && !/^\|[\s\-:]+\|/.test(t); // remove separadores de tabela
+        return t && !/^\|[\s\-:]+\|/.test(t) && !/^-{3,}$/.test(t); // remove separadores de tabela e <hr>
       });
       if (linhas.length) secoes[titulo] = linhas;
     }

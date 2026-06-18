@@ -38,3 +38,10 @@ build/
 
 # Saida temporaria da busca academica (gerar-busca.js)
 02 - Áreas/Base Jurídica/BUSCA-TEMP/
+
+# Artefatos do Obsidian — arquivos "Sem título" criados acidentalmente
+Sem título*
+**/Sem título*
+
+# Notas de data soltas na raiz (criadas acidentalmente pelo Obsidian)
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].md

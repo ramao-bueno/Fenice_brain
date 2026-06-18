@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).parent.parent
-OUTPUT_BASE  = PROJECT_ROOT / 'FENICE bRain' / '05_STF_SUMULAS' / 'Vinculantes'
+OUTPUT_BASE  = PROJECT_ROOT / 'Fenice bRain' / '05_STF_SUMULAS' / 'Vinculantes'
 STF_URL      = 'https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26'
 
 # ─── Súmulas Vinculantes — texto oficial completo ────────────

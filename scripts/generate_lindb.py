@@ -9,9 +9,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 from pathlib import Path
 from datetime import datetime
 
-HTML_PATH    = Path(r'C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech\Fenice brain\FENICE bRain\02_DIREITO_PRIVADO\DIREITO_CIVIL\L13655.html')
 PROJECT_ROOT = Path(__file__).parent.parent
-OUTPUT_BASE  = PROJECT_ROOT / 'FENICE bRain' / '02_DIREITO_PRIVADO' / 'DIREITO_CIVIL' / 'Artigos' / 'LINDB'
+HTML_PATH    = PROJECT_ROOT / "02 - Áreas" / "Base Jurídica" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "L13655.html"
+OUTPUT_BASE  = PROJECT_ROOT / 'Fenice bRain' / '02_DIREITO_PRIVADO' / 'DIREITO_CIVIL' / 'Artigos' / 'LINDB'
 
 LEI_NOME     = 'Decreto-Lei 4.657/1942 (LINDB) — Lei 13.655/2018'
 PLANALTO_URL = 'https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del4657.htm'

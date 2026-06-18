@@ -29,7 +29,7 @@
 
 ```bash
 # 1. Entrar em scripts
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 
 # 2. Rodar processador
 python stf_sumula_processor.py
@@ -285,7 +285,7 @@ SUMMARY-STF-SYSTEM.md          — Este arquivo
 git pull
 
 # Entrar em scripts
-cd "FENICE bRain/scripts"
+cd "Fenice bRain/scripts"
 
 # Executar
 python stf_sumula_processor.py

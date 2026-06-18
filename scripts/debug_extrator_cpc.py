@@ -4,7 +4,7 @@ sys.path.insert(0, '.')
 from pathlib import Path
 from extrator_html_generico import extrair_artigos_html
 
-html_file = Path("../FENICE bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/L13105.html")
+html_file = Path("../Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/L13105.html")
 artigos = extrair_artigos_html(html_file)
 print(f"Total extraído: {len(artigos)} artigos")
 if artigos:

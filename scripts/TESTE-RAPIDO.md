@@ -20,7 +20,7 @@ python --version  # Deve ser 3.8+
 ### 1. Verificar arquivo de entrada
 
 ```bash
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 ls -la sumulas_input.txt  # Deve existir (9 súmulas de exemplo)
 ```
 
@@ -186,8 +186,8 @@ EOF
    • arquivos_criados_rg: 4
 
 📁 OUTPUT:
-   • Súmulas Vinculantes: C:\...\FENICE bRain\05_STJ_SUMULAS\STF-SUMULAS-VINCULANTES
-   • Teses RG: C:\...\FENICE bRain\05_STJ_SUMULAS\STF-REPERCUSSAO-GERAL
+   • Súmulas Vinculantes: C:\...\Fenice bRain\05_STJ_SUMULAS\STF-SUMULAS-VINCULANTES
+   • Teses RG: C:\...\Fenice bRain\05_STJ_SUMULAS\STF-REPERCUSSAO-GERAL
    • JSON Export: C:\...\scripts\exports
 ```
 
@@ -227,7 +227,7 @@ Após validar tudo, você pode:
 
 1. ✅ **Abrir em Obsidian**
    ```
-   Vault → FENICE bRain/05_STJ_SUMULAS/
+   Vault → Fenice bRain/05_STJ_SUMULAS/
    Graph View → Ver conexões entre súmulas
    ```
 

@@ -103,7 +103,7 @@ def regenerar_artigos(full=False):
     print(f"✅ {len(artigos)} artigos extraídos\n")
 
     # Determina pasta base
-    fenice_base = Path(__file__).parent.parent / "FENICE bRain" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
+    fenice_base = Path(__file__).parent.parent / "Fenice bRain" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
 
     # Processa artigos
     print("📝 ETAPA 2: Gerando e salvando markdown...")

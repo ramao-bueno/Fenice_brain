@@ -10,7 +10,7 @@ penais (Art. 154-A, 171 §2º-A) no Código Penal; são processadas via skill
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 DD_BASE = FENICE_BASE / "08_DIREITOS_ESPECIALIZADOS" / "DIREITO_DIGITAL"
 OUTPUT_BASE = DD_BASE / "Artigos"
 

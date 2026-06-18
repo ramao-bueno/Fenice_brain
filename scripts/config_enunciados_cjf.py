@@ -10,7 +10,7 @@ Composição:
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 ENUNCIADOS_BASE = FENICE_BASE / "00_ESTRUTURA_CONSTITUCIONAL" / "ENUNCIADOS_CJF"
 OUTPUT_BASE = ENUNCIADOS_BASE / "Notas"
 JSON_FILE = ENUNCIADOS_BASE / "enunciados_index.json"

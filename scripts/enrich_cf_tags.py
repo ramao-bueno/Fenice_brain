@@ -122,9 +122,6 @@ if __name__ == "__main__":
     parser.add_argument("--limit", type=int, default=10)
     args = parser.parse_args()
 
-    base = Path(
-        r"C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech"
-        r"\Fenice brain\FENICE bRain\00_CONSTITUIÇÃO_FEDERAL\Artigos"
-    )
+    base = Path(__file__).parent.parent / "Fenice bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL" / "Artigos"
     e = EnriquecedorTagsCF(base)
     e.processar_todos(limit=None if args.full else args.limit)

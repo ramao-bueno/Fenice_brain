@@ -8,7 +8,7 @@ núcleo do Direito Previdenciário brasileiro.
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 DP_BASE = FENICE_BASE / "08_DIREITOS_ESPECIALIZADOS" / "DIREITO_PREVIDENCIARIO"
 OUTPUT_BASE = DP_BASE / "Artigos"
 

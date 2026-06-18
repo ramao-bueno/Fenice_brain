@@ -132,7 +132,7 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
 
     # Teste
-    teste_html = Path("../FENICE bRain/00_ESTRUTURA_CONSTITUCIONAL/DIREITO_CONSTITUCIONAL/L12016.html").resolve()
+    teste_html = Path("../Fenice bRain/00_ESTRUTURA_CONSTITUCIONAL/DIREITO_CONSTITUCIONAL/L12016.html").resolve()
     if teste_html.exists():
         artigos = extrair_artigos_html(teste_html)
         print(f"Extraído {len(artigos)} artigos de {teste_html.name}")

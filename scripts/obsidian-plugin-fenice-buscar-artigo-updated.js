@@ -389,7 +389,7 @@ class FeniceBuscarArtigo extends Plugin {
     // Carrega index de enunciados CJF
     this.enunciadosIndex = {};
     this.app.vault.adapter
-      .read('FENICE bRain/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
+      .read('Fenice bRain/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
       .then(txt => {
         this.enunciadosIndex = JSON.parse(txt);
         console.log('Fenice: enunciados CJF carregados —',

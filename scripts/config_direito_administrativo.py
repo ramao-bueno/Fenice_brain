@@ -10,7 +10,7 @@ volume muito maior, ~250 e ~194 artigos respectivamente.)
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 DA_BASE = FENICE_BASE / "07_DIREITO_ADMINISTRATIVO" / "DIREITO_ADMINISTRATIVO"
 OUTPUT_BASE = DA_BASE / "Artigos"
 

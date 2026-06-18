@@ -29,7 +29,7 @@ python --version  # 3.8+
 
 ### Estrutura de pastas
 ```
-FENICE bRain/
+Fenice bRain/
 ├── scripts/
 │   ├── stf_sumula_analyzer.py      ✅ Existe
 │   ├── config_stf_analyzer.py      ✅ Existe
@@ -78,7 +78,7 @@ Critério para o reconhecimento da repercussão geral...
 ### 2. Executar análise
 
 ```bash
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 python stf_sumula_processor.py
 ```
 
@@ -402,8 +402,8 @@ Sistema de geração automática de petições:
 ### Integração com Obsidian
 ```bash
 # Os arquivos MD criados automaticamente aparecem em:
-FENICE bRain/05_STJ_SUMULAS/STF-SUMULAS-VINCULANTES/
-FENICE bRain/05_STJ_SUMULAS/STF-REPERCUSSAO-GERAL/
+Fenice bRain/05_STJ_SUMULAS/STF-SUMULAS-VINCULANTES/
+Fenice bRain/05_STJ_SUMULAS/STF-REPERCUSSAO-GERAL/
 
 # Use Graph View para ver conexões entre súmulas
 ```

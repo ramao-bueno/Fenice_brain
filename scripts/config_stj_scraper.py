@@ -7,7 +7,7 @@ from pathlib import Path
 
 # ─── Paths ──────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 HSE_OUTPUT = FENICE_BASE / "03_PROCESSO_CIVIL" / "STJ_HSE"
 HSE_CACHE = Path(__file__).parent / "_cache_stj_hse"
 

@@ -7,7 +7,7 @@ from pathlib import Path
 from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).parent.parent
-INDEX_PATH = PROJECT_ROOT / 'FENICE bRain' / '00_ENUNCIADOS_CJF' / 'enunciados_index.json'
+INDEX_PATH = PROJECT_ROOT / 'Fenice bRain' / '00_ENUNCIADOS_CJF' / 'enunciados_index.json'
 OUT_BASE   = INDEX_PATH.parent
 
 CODIGO_NOMES = {

@@ -26,7 +26,7 @@ pip install requests beautifulsoup4
 
 ### Estrutura de pastas (criar se não existir)
 ```
-FENICE bRain/
+Fenice bRain/
 ├── scripts/
 │   ├── config_stj_scraper.py      ✅ Existe
 │   ├── stj_hse_normalizer.py       ✅ Existe
@@ -48,7 +48,7 @@ FENICE bRain/
 ### 1. Execução Padrão (60 resultados, 3 páginas)
 
 ```bash
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 python stj_hse_scraper.py
 ```
 
@@ -61,7 +61,7 @@ python stj_hse_scraper.py
 Buscando página 1...
   [1/20] Buscando /SCON/...
   ✅ Normalizada: HDE 1.234
-  Salvo: C:\...\FENICE bRain\05_STJ_SUMULAS\HSE\HDE-1.234.md
+  Salvo: C:\...\Fenice bRain\05_STJ_SUMULAS\HSE\HDE-1.234.md
 ...
 
 ======================================================================
@@ -71,7 +71,7 @@ Buscando página 1...
 📊 ESTATÍSTICAS:
    • HSEs extraídas: 47
    • Arquivos salvos: 47
-   • Output: C:\...\FENICE bRain\05_STJ_SUMULAS\HSE\
+   • Output: C:\...\Fenice bRain\05_STJ_SUMULAS\HSE\
 ```
 
 ---

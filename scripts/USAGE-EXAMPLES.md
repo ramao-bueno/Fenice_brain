@@ -9,7 +9,7 @@ Guia prático com exemplos de código para usar os 3 scripts em diferentes cená
 ### Buscar 60 HSEs (3 páginas padrão)
 
 ```bash
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 python stj_hse_scraper.py
 ```
 

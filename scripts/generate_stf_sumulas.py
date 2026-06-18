@@ -20,7 +20,7 @@ import urllib3; urllib3.disable_warnings()
 PROJECT_ROOT = Path(__file__).parent.parent
 IDS_PATH     = Path(__file__).parent / '_stf_sumulas_ids.json'
 CACHE_DIR    = Path(__file__).parent / '_cache_stf_sumulas'
-OUTPUT_BASE  = PROJECT_ROOT / 'FENICE bRain' / '05_STF_SUMULAS' / 'Comuns'
+OUTPUT_BASE  = PROJECT_ROOT / 'Fenice bRain' / '05_STF_SUMULAS' / 'Comuns'
 STF_URL_BASE = 'https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp'
 
 HEADERS = {

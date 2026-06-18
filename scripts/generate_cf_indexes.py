@@ -13,7 +13,7 @@ from datetime import datetime
 from config_cf import OUTPUT_BASE, TITULO_MAPEAMENTO, LEI_NOME
 
 PROJECT_ROOT = Path(__file__).parent.parent
-CF_ROOT = PROJECT_ROOT / "FENICE bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL"
+CF_ROOT = PROJECT_ROOT / "Fenice bRain" / "00_ESTRUTURA_CONSTITUCIONAL" / "CONSTITUIÇÃO_FEDERAL"
 
 PLANALTO_ANCORA = {
     "TITULO-I":    "#titulo1",
@@ -178,7 +178,7 @@ def gerar_index_geral(contagens: dict) -> str:
 
 ```dataview
 TABLE lei, artigo
-FROM "FENICE bRain"
+FROM "Fenice bRain"
 WHERE contains(base_constitucional, "CF Art.")
 SORT lei ASC
 LIMIT 20

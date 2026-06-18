@@ -231,7 +231,7 @@ Se **todos os itens ✅**, sistema está operacional.
 ## 🗂️ Estrutura de Diretórios (Final)
 
 ```
-FENICE bRain/
+Fenice bRain/
 ├── scripts/
 │   ├── config_stj_scraper.py                    (99 linhas)
 │   ├── stj_hse_normalizer.py                    (288 linhas)

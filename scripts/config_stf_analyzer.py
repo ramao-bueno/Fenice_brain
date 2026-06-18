@@ -8,7 +8,7 @@ from datetime import datetime
 
 # ─── Paths ──────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 
 # Output paths
 STF_OUTPUT_SV = FENICE_BASE / "03_PROCESSO_CIVIL" / "STF_SUMULAS" / "STF-SUMULAS-VINCULANTES"

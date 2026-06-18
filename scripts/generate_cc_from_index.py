@@ -161,7 +161,7 @@ def salvar_artigo(artigo: dict, conteudo: str, output_base: Path) -> Path:
 def pipeline_cc_gerador(limit=None):
     """Pipeline de geração CC."""
 
-    output_base = Path(r"C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech\Fenice brain\FENICE bRain\02_DIREITO_PRIVADO\DIREITO_CIVIL\Artigos")
+    output_base = Path(__file__).parent.parent / "Fenice bRain" / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL" / "Artigos"
 
     print("\n" + "="*60)
     print("🔄  GERADOR CC: Estrutura → Markdown")

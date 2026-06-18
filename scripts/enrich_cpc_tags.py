@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    base = Path(r"C:\Users\oicon\OneDrive\Allah - Islamismo\Stand Alone Legaltech\Fenice brain\FENICE bRain\03_PROCESSO_CIVIL\CÓDIGO_PROCESSO_CIVIL\Artigos")
+    base = Path(__file__).parent.parent / "Fenice bRain" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
 
     enriquecedor = EnriquecedorTagsCPC(base)
     limit_artigos = None if args.full else args.limit

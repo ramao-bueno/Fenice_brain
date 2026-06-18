@@ -18,7 +18,7 @@ BASE_URL    = 'https://www.cjf.jus.br/enunciados/'
 RESULTADO   = BASE_URL + 'pesquisa/resultado'
 CACHE_DIR   = Path(__file__).parent / '_cache_cjf'
 PROJECT_ROOT = Path(__file__).parent.parent
-INDEX_OUT   = PROJECT_ROOT / 'FENICE bRain' / '00_ENUNCIADOS_CJF' / 'enunciados_index.json'
+INDEX_OUT   = PROJECT_ROOT / 'Fenice bRain' / '00_ENUNCIADOS_CJF' / 'enunciados_index.json'
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Fenice Brain / Estudo Juridico)',

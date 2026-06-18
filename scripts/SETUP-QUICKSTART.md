@@ -21,7 +21,7 @@ pip install requests beautifulsoup4
 
 O sistema espera esta estrutura (criada automaticamente):
 ```
-FENICE bRain/
+Fenice bRain/
 ├── scripts/
 │   ├── config_stj_scraper.py      ✅
 │   ├── stj_hse_normalizer.py       ✅
@@ -36,7 +36,7 @@ FENICE bRain/
 ## 🚀 Execução Básica (2 minutos)
 
 ```bash
-cd "FENICE bRain\scripts"
+cd "Fenice bRain\scripts"
 python stj_hse_scraper.py
 ```
 
@@ -159,7 +159,7 @@ Depois de rodar a primeira vez:
 
 1. ✅ Verificar output em Obsidian
    ```
-   Abrir: FENICE bRain/05_STJ_SUMULAS/HSE/
+   Abrir: Fenice bRain/05_STJ_SUMULAS/HSE/
    Tudo em Markdown com frontmatter? Sim ✅
    ```
 

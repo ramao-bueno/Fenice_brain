@@ -13,7 +13,7 @@ texto local (decreto-wrapper) — candidato a atomização via skill no futuro.
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "FENICE bRain"
+FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
 DC_BASE = FENICE_BASE / "00_ESTRUTURA_CONSTITUCIONAL" / "DIREITO_CONSTITUCIONAL"
 OUTPUT_BASE = DC_BASE / "Artigos"
 

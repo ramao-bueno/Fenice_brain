@@ -54,20 +54,20 @@ if ($gdDest) {
     $roboOut = robocopy $VAULT $gdDest /MIR /XD ".git" ".obsidian\cache" /XF "*.tmp" "*.log" /NFL /NDL /NC 2>&1
     if ($LASTEXITCODE -le 7) {
         Log "GDrive: sync OK → $gdDest"
-        $roboOut | Where-Object { $_.Trim() -ne "" } | ForEach-Object { Log "GDrive:   $($_.Trim())" }
+        $roboOut | ForEach-Object { $s = "$_".Trim(); if ($s) { Log "GDrive:   $s" } }
     } else {
         Log "GDrive: robocopy FALHOU (código $LASTEXITCODE)"
-        $roboOut | Where-Object { $_.Trim() -ne "" } | ForEach-Object { Log "GDrive:   $($_.Trim())" }
+        $roboOut | ForEach-Object { $s = "$_".Trim(); if ($s) { Log "GDrive:   $s" } }
     }
 } elseif (Get-Command rclone -ErrorAction SilentlyContinue) {
     # Opção B: rclone configurado (rclone config → remote "gdrive")
     $rcloneOut = rclone sync $VAULT "gdrive:Fenice_bRain" --exclude ".git/**" --exclude ".obsidian/cache/**" --stats-one-line --stats 0 2>&1
     if ($LASTEXITCODE -eq 0) {
         Log "GDrive: rclone sync OK"
-        $rcloneOut | Where-Object { $_.Trim() -ne "" } | ForEach-Object { Log "GDrive:   $($_.Trim())" }
+        $rcloneOut | ForEach-Object { $s = "$_".Trim(); if ($s) { Log "GDrive:   $s" } }
     } else {
         Log "GDrive: rclone FALHOU"
-        $rcloneOut | Where-Object { $_.Trim() -ne "" } | ForEach-Object { Log "GDrive:   $($_.Trim())" }
+        $rcloneOut | ForEach-Object { $s = "$_".Trim(); if ($s) { Log "GDrive:   $s" } }
     }
 } else {
     Log "GDrive: PENDENTE — instalar Google Drive for Desktop OU rclone"

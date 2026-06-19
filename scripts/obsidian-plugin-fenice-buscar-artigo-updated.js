@@ -742,7 +742,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v13 — Pronto! (jurisprudencia_index.json integrado)');
+    console.log('✅ Fenice Buscar Artigo v15 — correlatos→modal | workspace limpo | indexes lazy-load');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

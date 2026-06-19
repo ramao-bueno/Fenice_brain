@@ -227,7 +227,8 @@ function parseArtigoMD(content) {
       const titulo = m[1].trim();
       const linhas = (m[2] || '').split('\n').filter(l => {
         const t = l.trim();
-        return t && !/^\|[\s\-:]+\|/.test(t) && !/^-{3,}$/.test(t); // remove separadores de tabela e <hr>
+        // remove separadores de tabela, <hr> e linhas de placeholder tipo "[texto...]"
+        return t && !/^\|[\s\-:]+\|/.test(t) && !/^-{3,}$/.test(t) && !t.startsWith('[');
       });
       if (linhas.length) secoes[titulo] = linhas;
     }
@@ -742,7 +743,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v15 — correlatos→modal | workspace limpo | indexes lazy-load');
+    console.log('✅ Fenice Buscar Artigo v16 — sem placeholders na Análise Técnica');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

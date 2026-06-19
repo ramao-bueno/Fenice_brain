@@ -358,7 +358,7 @@ class ArtigoModal extends Modal {
 // ─── Modal 3: Painel compacto — sem scroll ───────────────────
 // Mostra apenas estrutura + correlatos (o texto está na nota aberta)
 class InfoModal extends Modal {
-  constructor(app, found, config, num, parsed, enunciados, acessorios, jurisIdx, onNovaBusca, onBuscarLei) {
+  constructor(app, found, config, num, parsed, enunciados, acessorios, jurisIdx, onNovaBusca, onBuscarLei, onBuscarArt) {
     super(app);
     this.found       = found;
     this.config      = config;
@@ -370,6 +370,7 @@ class InfoModal extends Modal {
     this.emendas     = parsed.emendas || [];
     this.onNovaBusca = onNovaBusca;
     this.onBuscarLei = onBuscarLei;
+    this.onBuscarArt = onBuscarArt || null;
     this.modalEl.style.maxWidth = '600px';
     this.modalEl.style.width   = '92vw';
   }
@@ -525,7 +526,12 @@ class InfoModal extends Modal {
         a.addEventListener('click', () => {
           this.close();
           const nome = c.split(' — ')[0].trim();
-          this.app.workspace.openLinkText(nome, '', false);
+          const mNum = nome.match(/\d[\d.]*/);
+          if (mNum && this.onBuscarArt) {
+            setTimeout(() => this.onBuscarArt(mNum[0]), 120);
+          } else {
+            this.app.workspace.openLinkText(nome, '', false);
+          }
         });
       });
     }
@@ -695,7 +701,11 @@ class InfoModal extends Modal {
           a.title = r.nota || `Abrir Art. ${r.artigo}`;
           a.addEventListener('click', () => {
             this.close();
-            this.app.workspace.openLinkText(`Art. ${r.artigo}`, '', false);
+            if (this.onBuscarArt) {
+              setTimeout(() => this.onBuscarArt(String(r.artigo)), 120);
+            } else {
+              this.app.workspace.openLinkText(`Art. ${r.artigo}`, '', false);
+            }
           });
         });
       }
@@ -881,7 +891,8 @@ class FeniceBuscarArtigo extends Plugin {
     const acessorios1 = meta.acessorios || null;
     new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1, jurisIdx,
       () => this.iniciarBusca(),
-      (lei) => this.buscarPorLei(lei)).open();
+      (lei) => this.buscarPorLei(lei),
+      (n)   => this.buscarPorNumero(config, n)).open();
   }
 
   async buscarEAbrir(config, input) {
@@ -964,7 +975,8 @@ class FeniceBuscarArtigo extends Plugin {
         console.clear();
         this.iniciarBusca();
       },
-      (lei) => this.buscarPorLei(lei)).open();
+      (lei) => this.buscarPorLei(lei),
+      (n)   => this.buscarPorNumero(config, n)).open();
   }
 
   async buscarPorTema(config, tema) {
@@ -1073,7 +1085,8 @@ class FeniceBuscarArtigo extends Plugin {
         console.clear();
         this.iniciarBusca();
       },
-      (lei) => this.buscarPorLei(lei)).open();
+      (lei) => this.buscarPorLei(lei),
+      (n)   => this.buscarPorNumero(config, n)).open();
   }
 
   avisarNaoEncontrado(config, num) {

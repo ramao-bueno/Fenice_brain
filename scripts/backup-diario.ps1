@@ -21,7 +21,7 @@ Log "BACKUP INICIADO"
 # ── GIT ───────────────────────────────────────────────────────
 $alteracoes = git status --porcelain 2>&1
 if ($alteracoes) {
-    git add -A 2>&1 | Out-Null
+    git add -u 2>&1 | Out-Null
     $commitMsg = "backup: $DATA"
     git commit -m $commitMsg 2>&1 | Out-Null
     if ($LASTEXITCODE -eq 0) { Log "Git: commit OK — $commitMsg" }

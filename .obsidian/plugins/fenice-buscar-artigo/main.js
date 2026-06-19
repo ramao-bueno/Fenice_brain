@@ -773,6 +773,21 @@ class FeniceBuscarArtigo extends Plugin {
       .catch(() => console.log('Fenice: jurisprudencia_index.json nao encontrado (normal — ainda nao gerado)'));
   }
 
+  // Garante que os índices JSON estão carregados (evita race condition no onload)
+  async garantirIndexes() {
+    const ps = [];
+    if (!Object.keys(this.jurisprudenciaIndex).length)
+      ps.push(this.app.vault.adapter.read('scripts/jurisprudencia_index.json')
+        .then(t => { this.jurisprudenciaIndex = JSON.parse(t); })
+        .catch(() => {}));
+    if (!Object.keys(this.enunciadosIndex).length)
+      ps.push(this.app.vault.adapter
+        .read('02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
+        .then(t => { this.enunciadosIndex = JSON.parse(t); })
+        .catch(() => {}));
+    if (ps.length) await Promise.all(ps);
+  }
+
   iniciarBusca() {
     new CodigoModal(this.app, (config) => {
       // Se é Atomizar, abre painel de seleção
@@ -852,6 +867,7 @@ class FeniceBuscarArtigo extends Plugin {
                 || { codigo: 'Lei', tag: '', pasta: '' };
 
     const num = String(meta.artigo ?? meta.sumula);
+    await this.garantirIndexes();
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [] };
     try {
       const content = await this.app.vault.adapter.read(activeFile.path);
@@ -926,8 +942,7 @@ class FeniceBuscarArtigo extends Plugin {
     console.log(`✅ Encontrado: ${found.path}`);
     new Notice(`✅ Art. ${num} — ${config.codigo}`, 2000);
 
-    await this.app.workspace.openLinkText(found.basename, '', false);
-
+    await this.garantirIndexes();
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [], videLeis: [], emendas: [] };
     try {
       const content = await this.app.vault.adapter.read(found.path);
@@ -1037,8 +1052,7 @@ class FeniceBuscarArtigo extends Plugin {
   }
 
   async abrirArquivoTema(result, config) {
-    await this.app.workspace.openLinkText(result.file.basename, '', false);
-
+    await this.garantirIndexes();
     let parsed = { textoBase: '', paragrafos: [], incisos: [], alineas: [], correlatos: [] };
     try {
       const content = await this.app.vault.adapter.read(result.file.path);
@@ -1047,12 +1061,14 @@ class FeniceBuscarArtigo extends Plugin {
 
     const num = result.meta.numero || result.meta.artigo || result.titulo;
 
-    // Limpar console para não congestionar
     console.clear();
     console.log(`✅ Aberto: ${result.titulo}`);
 
+    const chaveIdxTema = `${config.tag}:${num}`;
+    const jurisIdxTema = (this.jurisprudenciaIndex || {})[chaveIdxTema] || [];
+    const enunciadosTema = (this.enunciadosIndex || {})[chaveIdxTema] || [];
     const acessorios3 = result.meta?.acessorios || null;
-    new InfoModal(this.app, result.file, config, num, parsed, [], acessorios3,
+    new InfoModal(this.app, result.file, config, num, parsed, enunciadosTema, acessorios3, jurisIdxTema,
       () => {
         console.clear();
         this.iniciarBusca();

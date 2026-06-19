@@ -12,6 +12,7 @@ tags:
 created: '2026-06-06'
 ---
 
+
 # CC Art. 1238 — Aquele que, por quinze anos, sem interrupção, nem oposição, possuir como seu um imóvel, adquire-lhe a propriedade, indep
 
 **Lei:** Lei 10.406/2002 (Código Civil)

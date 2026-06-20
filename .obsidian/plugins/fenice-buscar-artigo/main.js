@@ -747,7 +747,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v17 — console.clear() consistente em todos os modais');
+    console.log('✅ Fenice Buscar Artigo v18 — console.clear() na entrada de iniciarBusca');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -804,6 +804,7 @@ class FeniceBuscarArtigo extends Plugin {
   }
 
   iniciarBusca() {
+    console.clear();
     new CodigoModal(this.app, (config) => {
       // Se é Atomizar, abre painel de seleção
       if (config.isAtomizar) {

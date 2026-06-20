@@ -747,7 +747,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v16 — sem placeholders na Análise Técnica');
+    console.log('✅ Fenice Buscar Artigo v17 — console.clear() consistente em todos os modais');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

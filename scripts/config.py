@@ -4,8 +4,8 @@ from pathlib import Path
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
 # PDF_PATH: localizar na biblioteca local do vault (C:\Fenice_bRain\02 - Áreas\Base Jurídica\)
-PDF_PATH = PROJECT_ROOT / "02 - Áreas" / "Base Jurídica" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Código de Processo Civil.pdf"
-OUTPUT_BASE = PROJECT_ROOT / "Fenice bRain" / "03_PROCESSO_CIVIL" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
+PDF_PATH = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CPC" / "Código de Processo Civil.pdf"
+OUTPUT_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CPC" / "CÓDIGO_PROCESSO_CIVIL" / "Artigos"
 
 # Mapeamento de Livros
 LIVRO_MAPEAMENTO = {

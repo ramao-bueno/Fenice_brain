@@ -12,8 +12,8 @@ Instruções: Salve o HTML do SCON conforme descrito em INDEX-Sumulas-STJ.md
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
-SUMULAS_STJ_BASE = FENICE_BASE / "03_PROCESSO_CIVIL" / "STF_SUMULAS" / "STJ"
+FENICE_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CPC"
+SUMULAS_STJ_BASE = FENICE_BASE / "STF_SUMULAS" / "STJ"
 OUTPUT_BASE = SUMULAS_STJ_BASE / "Sumulas"
 HTML_SOURCE = Path(__file__).parent / "_stj_sumulas_page.html"
 

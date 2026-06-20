@@ -9,8 +9,8 @@ da pasta DIREITO_INTERNACIONAL).
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
-DI_BASE = FENICE_BASE / "08_DIREITOS_ESPECIALIZADOS" / "DIREITO_INTERNACIONAL"
+FENICE_BASE = PROJECT_ROOT / "05_ESPECIAL" / "Codigos"
+DI_BASE = FENICE_BASE / "DIREITO_INTERNACIONAL"
 OUTPUT_BASE = DI_BASE / "Artigos"
 
 # Leis nacionais com padrão "Art. N" — compatíveis com o extractor por regex

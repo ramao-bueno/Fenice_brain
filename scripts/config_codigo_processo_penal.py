@@ -16,8 +16,8 @@ Nota: CPP principal é o Decreto-Lei 3.689/1941, mas não há HTML salvo.
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
-CPP_BASE = FENICE_BASE / "04_DIREITO_PENAL" / "CÓDIGO_PROCESSO_PENAL"
+FENICE_BASE = PROJECT_ROOT / "02_PENAL" / "Codigos" / "CPP"
+CPP_BASE = FENICE_BASE
 OUTPUT_BASE = CPP_BASE / "Artigos"
 
 LEIS_NACIONAIS = {

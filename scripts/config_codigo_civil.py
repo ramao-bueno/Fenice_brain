@@ -10,8 +10,8 @@ Composição:
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FENICE_BASE = PROJECT_ROOT / "Fenice bRain"
-CC_BASE = FENICE_BASE / "02_DIREITO_PRIVADO" / "DIREITO_CIVIL"
+FENICE_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CC"
+CC_BASE = FENICE_BASE
 OUTPUT_BASE = CC_BASE / "Artigos"
 
 LEIS_NACIONAIS = {

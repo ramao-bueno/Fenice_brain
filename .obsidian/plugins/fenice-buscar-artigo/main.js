@@ -755,7 +755,7 @@ class FeniceBuscarArtigo extends Plugin {
     // Carrega index de enunciados CJF
     this.enunciadosIndex = {};
     this.app.vault.adapter
-      .read('02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
+      .read('00_APEX/ENUNCIADOS_CJF/enunciados_index.json')
       .then(txt => {
         this.enunciadosIndex = JSON.parse(txt);
         console.log('Fenice: enunciados CJF carregados —',
@@ -784,7 +784,7 @@ class FeniceBuscarArtigo extends Plugin {
         .catch(() => {}));
     if (!Object.keys(this.enunciadosIndex).length)
       ps.push(this.app.vault.adapter
-        .read('02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/enunciados_index.json')
+        .read('00_APEX/ENUNCIADOS_CJF/enunciados_index.json')
         .then(t => { this.enunciadosIndex = JSON.parse(t); })
         .catch(() => {}));
     if (ps.length) await Promise.all(ps);
@@ -811,7 +811,7 @@ class FeniceBuscarArtigo extends Plugin {
       // Se é Enunciados, vai direto ao INDEX
       if (config.isEnunciados) {
         new Notice('📋 Abrindo Enunciados CJF...');
-        this.app.workspace.openLinkText('02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF/INDEX-ENUNCIADOS', '', false);
+        this.app.workspace.openLinkText('00_APEX/ENUNCIADOS_CJF/INDEX-ENUNCIADOS', '', false);
         return;
       }
 
@@ -836,16 +836,16 @@ class FeniceBuscarArtigo extends Plugin {
   // Painel para escolher qual área atomizar
   abrirAtomizar() {
     const areas = [
-      { label: '📚 Direito Constitucional', pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL' },
-      { label: '📖 Código Civil', pasta: '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL' },
-      { label: '⚖️  Código Penal', pasta: '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL' },
-      { label: '📋 Processo Civil', pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL' },
-      { label: '🔨 Processo Penal', pasta: '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL' },
-      { label: '🛡️  Direito Administrativo', pasta: '02 - Áreas/Base Jurídica/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO' },
-      { label: '💼 Direito Previdenciário', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO' },
-      { label: '🌐 Direito Digital', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL' },
-      { label: '🌍 Direito Internacional', pasta: '02 - Áreas/Base Jurídica/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL' },
-      { label: '🏪 Código Consumidor', pasta: '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR' },
+      { label: '📚 Direito Constitucional', pasta: '00_APEX/CONSTITUIÇÃO_FEDERAL' },
+      { label: '📖 Código Civil', pasta: '01_PRIVADO/Codigos/CC' },
+      { label: '⚖️  Código Penal', pasta: '02_PENAL/Codigos/CP' },
+      { label: '📋 Processo Civil', pasta: '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL' },
+      { label: '🔨 Processo Penal', pasta: '02_PENAL/Codigos/CPP' },
+      { label: '🛡️  Direito Administrativo', pasta: '03_PUBLICO/Codigos/Admin/DIREITO_ADMINISTRATIVO' },
+      { label: '💼 Direito Previdenciário', pasta: '05_ESPECIAL/Codigos/DIREITO_PREVIDENCIARIO' },
+      { label: '🌐 Direito Digital', pasta: '05_ESPECIAL/Codigos/DIREITO_DIGITAL' },
+      { label: '🌍 Direito Internacional', pasta: '05_ESPECIAL/Codigos/DIREITO_INTERNACIONAL' },
+      { label: '🏪 Código Consumidor', pasta: '05_ESPECIAL/Codigos/DIREITO_DIGITAL' },
     ];
 
     const modal = new SuggestModal(this.app);

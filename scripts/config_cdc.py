@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
-OUTPUT_BASE = PROJECT_ROOT / "Fenice bRain" / "02_DIREITO_PRIVADO" / "CÓDIGO_CONSUMIDOR" / "Artigos"
+OUTPUT_BASE = PROJECT_ROOT / "05_ESPECIAL" / "Codigos" / "DIREITO_DIGITAL" / "Artigos"
 
 # Mapeamento de Livros (CDC tem 119 artigos)
 LIVRO_MAPEAMENTO = {

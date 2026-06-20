@@ -4,77 +4,66 @@ const { Plugin, SuggestModal, Modal, Notice } = require('obsidian');
 
 const CODIGOS = [
   // ━━━ DIREITO CONSTITUCIONAL ━━━
-  { label: 'CF/88 — Constituição Federal',  tag: 'cf88',          pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/CONSTITUIÇÃO_FEDERAL/Artigos', codigo: 'CF/88' },
+  { label: 'CF/88 — Constituição Federal',  tag: 'cf88',          pasta: '00_APEX/CONSTITUIÇÃO_FEDERAL/Artigos', codigo: 'CF/88' },
 
   // ━━━ DIREITO CIVIL ━━━
   { label: 'Código Civil (CC)',              tag: 'cc',            pastas: [
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I',
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-II',
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III',
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV',
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-I',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-II',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-III',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-IV',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LIVRO-V',
-      '02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
-      'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/L10406',
+      '01_PRIVADO/Codigos/CC/Artigos/LIVRO-I',
+      '01_PRIVADO/Codigos/CC/Artigos/LIVRO-II',
+      '01_PRIVADO/Codigos/CC/Artigos/LIVRO-III',
+      '01_PRIVADO/Codigos/CC/Artigos/LIVRO-IV',
+      '01_PRIVADO/Codigos/CC/Artigos/LIVRO-V',
+      '01_PRIVADO/Codigos/CC/Artigos/L10406',
     ], codigo: 'CC' },
-  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pastas: ['02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB', 'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/LINDB'], codigo: 'LINDB'},
-  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: 'Fenice bRain/02_DIREITO_PRIVADO/DIREITO_CIVIL/Artigos/D9830',  codigo: 'D9830'},
+  { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pasta: '01_PRIVADO/Codigos/CC/Artigos/LINDB', codigo: 'LINDB'},
+  { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: '01_PRIVADO/Codigos/CC/Artigos/D9830',  codigo: 'D9830'},
 
   // ━━━ DIREITO PENAL ━━━
   { label: 'Código Penal (CP)',              tag: 'direito-penal', pastas: [
-      'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PENAL/Artigos/DEL2848',
-      '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes',
+      '02_PENAL/Codigos/CP/DEL2848',
+      '02_PENAL/Codigos/CP/Crimes',
     ], codigo: 'CP' },
 
   // ━━━ DIREITO PROCESSUAL ━━━
   { label: 'CPC — Código Processo Civil',    tag: 'cpc',           pastas: [
-      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
-      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
-      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
-      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
-      '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
-      'Fenice bRain/03_PROCESSO_CIVIL/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-I',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-II',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-III',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-IV',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/LIVRO-V',
+      '01_PRIVADO/Codigos/CPC/CÓDIGO_PROCESSO_CIVIL/Artigos/L13105',
     ], codigo: 'CPC' },
-  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: 'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PROCESSO_PENAL', codigo: 'CPP' },
+  { label: 'CPP — Código Processo Penal',    tag: 'cpp',           pasta: '02_PENAL/Codigos/CPP/Artigos', codigo: 'CPP' },
 
   // ━━━ DIREITO CONSUMERISTA & COMERCIAL ━━━
-  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pastas: ['02 - Áreas/Base Jurídica/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR', 'Fenice bRain/02_DIREITO_PRIVADO/CÓDIGO_CONSUMIDOR'], codigo: 'CDC' },
+  { label: 'Código do Consumidor (CDC)',     tag: 'cdc',           pasta: '05_ESPECIAL/Codigos/DIREITO_DIGITAL', codigo: 'CDC' },
 
   // ━━━ DIREITO ADMINISTRATIVO ━━━
-  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L8429',  codigo: 'L8429'},
-  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12846', codigo: 'L12846'},
-  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: 'Fenice bRain/07_DIREITO_ADMINISTRATIVO/DIREITO_ADMINISTRATIVO/Artigos/L12527', codigo: 'L12527'},
+  { label: 'Lei Improbidade (L8429)',        tag: 'improbidade',   pasta: '03_PUBLICO/Codigos/Admin/DIREITO_ADMINISTRATIVO/Artigos/L8429',  codigo: 'L8429'},
+  { label: 'Lei Anticorrupção (L12846)',     tag: 'anticorrupção', pasta: '03_PUBLICO/Codigos/Admin/DIREITO_ADMINISTRATIVO/Artigos/L12846', codigo: 'L12846'},
+  { label: 'Lei Acesso Info (L12527)',       tag: 'lai',           pasta: '03_PUBLICO/Codigos/Admin/DIREITO_ADMINISTRATIVO/Artigos/L12527', codigo: 'L12527'},
 
   // ━━━ DIREITO PREVIDENCIÁRIO ━━━
-  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8212', codigo: 'L8212'},
-  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_PREVIDENCIARIO/Artigos/L8213', codigo: 'L8213'},
+  { label: 'Lei Custeio (L8212)',            tag: 'previdenciario', pasta: '05_ESPECIAL/Codigos/DIREITO_PREVIDENCIARIO/Artigos/L8212', codigo: 'L8212'},
+  { label: 'Lei Benefício (L8213)',          tag: 'previdenciario', pasta: '05_ESPECIAL/Codigos/DIREITO_PREVIDENCIARIO/Artigos/L8213', codigo: 'L8213'},
 
   // ━━━ DIREITO DIGITAL & TECNOLOGIA ━━━
-  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L12965', codigo: 'MCI'  },
-  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_DIGITAL/Artigos/L13709', codigo: 'LGPD' },
+  { label: 'Marco Civil da Internet',        tag: 'marco-civil',   pasta: '05_ESPECIAL/Codigos/DIREITO_DIGITAL/Artigos/L12965', codigo: 'MCI'  },
+  { label: 'LGPD — Lei Proteção Dados',      tag: 'lgpd',          pasta: '05_ESPECIAL/Codigos/DIREITO_DIGITAL/Artigos/L13709', codigo: 'LGPD' },
 
   // ━━━ DIREITO INTERNACIONAL & TRATADOS ━━━
-  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos', codigo: 'CADH', isReferencia: true },
-  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: 'Fenice bRain/08_DIREITOS_ESPECIALIZADOS/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados', codigo: 'CVDT', isReferencia: true },
+  { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: '05_ESPECIAL/Codigos/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos', codigo: 'CADH', isReferencia: true },
+  { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: '05_ESPECIAL/Codigos/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados', codigo: 'CVDT', isReferencia: true },
 
   // ━━━ JURISPRUDÊNCIA STF ━━━
-  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/STF_SUMULAS/Vinculantes', codigo: 'SV',    buscaPorSumula: true },
-  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '02 - Áreas/Base Jurídica/03_PROCESSO_CIVIL/STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
+  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '01_PRIVADO/Codigos/CPC/STF_SUMULAS/Vinculantes', codigo: 'SV',    buscaPorSumula: true },
+  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '01_PRIVADO/Codigos/CPC/STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
 
   // ━━━ PROFISSÕES & ENTIDADES ━━━
-  { label: 'OAB — Ordem dos Advogados',     tag: 'oab',           pasta: '02 - Áreas/Base Jurídica/09_REFERENCIAS/OAB', codigo: 'OAB', isReferencia: true },
+  { label: 'OAB — Ordem dos Advogados',     tag: 'oab',           pasta: '_SISTEMA/OAB', codigo: 'OAB', isReferencia: true },
 
   // ━━━ ESPECIAL: ENUNCIADOS ━━━
-  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '02 - Áreas/Base Jurídica/00_ESTRUTURA_CONSTITUCIONAL/ENUNCIADOS_CJF', codigo: 'ENUM', isEnunciados: true },
+  { label: '📋 Enunciados CJF',             tag: 'enunciados-cjf', pasta: '00_APEX/ENUNCIADOS_CJF', codigo: 'ENUM', isEnunciados: true },
   { label: '⚡ ATOMIZAR — Skill de IA',     tag: 'atomizar',       pasta: '', codigo: 'ATOM', isAtomizar: true },
 ];
 
@@ -745,7 +734,7 @@ class InfoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v21 — fix: DEL2848 antes de Crimes na busca CP');
+    console.log('✅ Fenice Buscar Artigo v21b — paths migração kelseniana');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

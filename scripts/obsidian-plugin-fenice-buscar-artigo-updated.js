@@ -526,12 +526,16 @@ class InfoModal extends Modal {
         a.title = `Abrir ${c}`;
         a.addEventListener('click', () => {
           this.close();
-          const nome = c.split(' — ')[0].trim();
-          const mNum = nome.match(/\d[\d.]*/);
+          const partes = c.split(' — ');
+          const nomeRaw = partes[0].trim();
+          const mNum = nomeRaw.match(/\d[\d.]*/);
           if (mNum && this.onBuscarArt) {
-            setTimeout(() => this.onBuscarArt(mNum[0]), 120);
+            // Resolve config pelo código no correlato (ex: "Art. 183 — CF" → config CF)
+            const codigoHint = partes.slice(1).find(p => CODIGOS.some(cod => cod.codigo === p.trim()))?.trim();
+            const cfgAlvo = codigoHint ? CODIGOS.find(cod => cod.codigo === codigoHint) : null;
+            setTimeout(() => this.onBuscarArt(mNum[0], cfgAlvo), 120);
           } else {
-            this.app.workspace.openLinkText(nome, '', false);
+            this.app.workspace.openLinkText(nomeRaw, '', false);
           }
         });
       });
@@ -893,7 +897,7 @@ class FeniceBuscarArtigo extends Plugin {
     new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1, jurisIdx,
       () => this.iniciarBusca(),
       (lei) => this.buscarPorLei(lei),
-      (n)   => this.buscarPorNumero(config, n)).open();
+      (n, cfg) => this.buscarPorNumero(cfg || config, n)).open();
   }
 
   async buscarEAbrir(config, input) {
@@ -977,7 +981,7 @@ class FeniceBuscarArtigo extends Plugin {
         this.iniciarBusca();
       },
       (lei) => this.buscarPorLei(lei),
-      (n)   => this.buscarPorNumero(config, n)).open();
+      (n, cfg) => this.buscarPorNumero(cfg || config, n)).open();
   }
 
   async buscarPorTema(config, tema) {
@@ -1087,7 +1091,7 @@ class FeniceBuscarArtigo extends Plugin {
         this.iniciarBusca();
       },
       (lei) => this.buscarPorLei(lei),
-      (n)   => this.buscarPorNumero(config, n)).open();
+      (n, cfg) => this.buscarPorNumero(cfg || config, n)).open();
   }
 
   avisarNaoEncontrado(config, num) {

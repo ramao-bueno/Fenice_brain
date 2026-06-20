@@ -747,7 +747,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v19 — CLS do Copilot integrado em iniciarBusca');
+    console.log('✅ Fenice Buscar Artigo v20 — Copilot: clearMessages + openFile para contexto');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -803,12 +803,17 @@ class FeniceBuscarArtigo extends Plugin {
     if (ps.length) await Promise.all(ps);
   }
 
+  _limparCopilot() {
+    const cp = this.app.plugins.plugins['copilot'];
+    if (!cp?.chatUIState) return;
+    cp.chatUIState.clearMessages();
+    const leaf = this.app.workspace.getLeavesOfType('copilot-chat-view')[0];
+    if (leaf?.view?.updateView) leaf.view.updateView();
+  }
+
   iniciarBusca() {
     console.clear();
-    // CLS do Copilot — só limpa se o painel já estiver aberto (não abre)
-    if (this.app.workspace.getLeavesOfType('copilot-chat-view').length > 0) {
-      this.app.commands.executeCommandById('copilot:new-chat');
-    }
+    this._limparCopilot();
     new CodigoModal(this.app, (config) => {
       // Se é Atomizar, abre painel de seleção
       if (config.isAtomizar) {
@@ -979,6 +984,9 @@ class FeniceBuscarArtigo extends Plugin {
     console.log(`   incisos: ${parsed.incisos.length} | paragrafos: ${parsed.paragrafos.length} | correlatos: ${parsed.correlatos.length}`);
     console.log(`   acessorios:`, acessorios2);
     console.log(`   jurisIdx: ${jurisIdx.length} entradas`);
+
+    // Abre artigo na folha ativa → Copilot autoAddActiveContentToContext captura o conteúdo
+    await this.app.workspace.getLeaf(false).openFile(found);
 
     new InfoModal(this.app, found, config, num, parsed, enunciados, acessorios2, jurisIdx,
       () => {

@@ -8,12 +8,12 @@ const CODIGOS = [
 
   // ━━━ DIREITO CIVIL ━━━
   { label: 'Código Civil (CC)',              tag: 'cc',            pastas: [
+      '01_PRIVADO/Codigos/CC/Artigos/L10406',
       '01_PRIVADO/Codigos/CC/Artigos/LIVRO-I',
       '01_PRIVADO/Codigos/CC/Artigos/LIVRO-II',
       '01_PRIVADO/Codigos/CC/Artigos/LIVRO-III',
       '01_PRIVADO/Codigos/CC/Artigos/LIVRO-IV',
       '01_PRIVADO/Codigos/CC/Artigos/LIVRO-V',
-      '01_PRIVADO/Codigos/CC/Artigos/L10406',
     ], codigo: 'CC' },
   { label: 'LINDB — Lei de Introdução',      tag: 'lindb',         pasta: '01_PRIVADO/Codigos/CC/Artigos/LINDB', codigo: 'LINDB'},
   { label: 'D9830 — Decreto LINDB (2019)',   tag: 'd9830',         pasta: '01_PRIVADO/Codigos/CC/Artigos/D9830',  codigo: 'D9830'},
@@ -734,7 +734,7 @@ class InfoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v21b — paths migração kelseniana');
+    console.log('✅ Fenice Buscar Artigo v21c — fix: L10406 antes de LIVROs na busca CC');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

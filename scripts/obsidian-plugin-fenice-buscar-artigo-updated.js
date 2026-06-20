@@ -67,6 +67,17 @@ const CODIGOS = [
   { label: '⚡ ATOMIZAR — Skill de IA',     tag: 'atomizar',       pasta: '', codigo: 'ATOM', isAtomizar: true },
 ];
 
+const DOMINIOS = [
+  { label: '🏛️  00 · Constituição Federal',  key: 'apex',     codigos: ['CF/88'] },
+  { label: '📘  01 · Direito Privado',        key: 'privado',  codigos: ['CC','LINDB','D9830','CPC','CDC'] },
+  { label: '🔒  02 · Direito Penal',          key: 'penal',    codigos: ['CP','CPP'] },
+  { label: '🏢  03 · Direito Público',        key: 'publico',  codigos: ['L8429','L12846','L12527'] },
+  { label: '💼  04 · Direito do Trabalho',    key: 'trabalho', codigos: [] },
+  { label: '🛡️   05 · Legislação Especial',   key: 'especial', codigos: ['L8212','L8213','MCI','LGPD','CADH','CVDT'] },
+  { label: '📋  Enunciados & Súmulas',        key: 'juris',    codigos: ['SV','S-STF','OAB','ENUM'] },
+  { label: '⚡  ATOMIZAR — Skill de IA',      key: 'atom',     codigos: ['ATOM'] },
+];
+
 // ─── Parseia o conteúdo do arquivo .md ───────────────────────
 function parseArtigoMD(content) {
   content = content.replace(/\r\n/g, '\n');
@@ -254,15 +265,35 @@ function pastaEhAncestral(pasta, path) {
   return path === pastaNorm || path.startsWith(pastaNorm + '/');
 }
 
-// ─── Modal 1: Selecionar Código ──────────────────────────────
-class CodigoModal extends SuggestModal {
+// ─── Modal 0: Selecionar Domínio ─────────────────────────────
+class DomainModal extends SuggestModal {
   constructor(app, onEscolha) {
     super(app);
     this.onEscolha = onEscolha;
+    this.setPlaceholder('Selecione o ramo do Direito...');
+  }
+  getSuggestions(q) {
+    return DOMINIOS.filter(d => d.label.toLowerCase().includes(q.toLowerCase()));
+  }
+  renderSuggestion(item, el) {
+    const div = el.createEl('div');
+    div.createEl('strong', { text: item.label });
+  }
+  onChooseSuggestion(item) { this.onEscolha(item); }
+}
+
+// ─── Modal 1: Selecionar Código ──────────────────────────────
+class CodigoModal extends SuggestModal {
+  constructor(app, onEscolha, codigosKeys) {
+    super(app);
+    this.onEscolha  = onEscolha;
+    this.lista      = codigosKeys
+      ? CODIGOS.filter(c => codigosKeys.includes(c.codigo))
+      : CODIGOS;
     this.setPlaceholder('Selecione o Código Jurídico...');
   }
   getSuggestions(q) {
-    return CODIGOS.filter(c => c.label.toLowerCase().includes(q.toLowerCase()));
+    return this.lista.filter(c => c.label.toLowerCase().includes(q.toLowerCase()));
   }
   renderSuggestion(item, el) { el.createEl('div', { text: item.label }); }
   onChooseSuggestion(item) { this.onEscolha(item); }
@@ -734,7 +765,7 @@ class InfoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v21c — fix: L10406 antes de LIVROs na busca CC');
+    console.log('✅ Fenice Buscar Artigo v22 — DomainModal: ramo → código → artigo');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -801,36 +832,51 @@ class FeniceBuscarArtigo extends Plugin {
   iniciarBusca() {
     console.clear();
     this._limparCopilot();
-    new CodigoModal(this.app, (config) => {
-      // Se é Atomizar, abre painel de seleção
-      if (config.isAtomizar) {
+
+    new DomainModal(this.app, (dominio) => {
+      // ATOMIZAR — vai direto
+      if (dominio.key === 'atom') {
         this.abrirAtomizar();
         return;
       }
 
-      // Se é Enunciados, vai direto ao INDEX
-      if (config.isEnunciados) {
-        new Notice('📋 Abrindo Enunciados CJF...');
-        this.app.workspace.openLinkText('00_APEX/ENUNCIADOS_CJF/INDEX-ENUNCIADOS', '', false);
-        return;
-      }
+      // Abre CodigoModal filtrado pelo domínio escolhido
+      new CodigoModal(this.app, (config) => {
+        this._abrirConfig(config);
+      }, dominio.codigos.length ? dominio.codigos : null).open();
 
-      // Se é Referência (OAB, CADH, CVDT etc), vai direto ao INDEX
-      if (config.isReferencia) {
-        new Notice(`📚 Abrindo ${config.codigo}...`);
-        this.app.workspace.openLinkText(`${config.pasta}/INDEX`, '', false);
-        return;
-      }
-
-      // Casos normais: pede número do artigo ou tema
-      const placeholder = config.buscaPorSumula
-        ? `Número da Súmula (ex: 1, 10, 100)`
-        : `Número do Artigo (ex: 48, 121) ou Tema (ex: direitos, responsabilidade)`;
-
-      new ArtigoModal(this.app, config, (num) => {
-        this.buscarEAbrir(config, num);
-      }, placeholder).open();
     }).open();
+  }
+
+  _abrirConfig(config) {
+    // Se é Atomizar, abre painel de seleção
+    if (config.isAtomizar) {
+      this.abrirAtomizar();
+      return;
+    }
+
+    // Se é Enunciados, vai direto ao INDEX
+    if (config.isEnunciados) {
+      new Notice('📋 Abrindo Enunciados CJF...');
+      this.app.workspace.openLinkText('00_APEX/ENUNCIADOS_CJF/INDEX-ENUNCIADOS', '', false);
+      return;
+    }
+
+    // Se é Referência (OAB, CADH, CVDT etc), vai direto ao INDEX
+    if (config.isReferencia) {
+      new Notice(`📚 Abrindo ${config.codigo}...`);
+      this.app.workspace.openLinkText(`${config.pasta}/INDEX`, '', false);
+      return;
+    }
+
+    // Casos normais: pede número do artigo ou tema
+    const placeholder = config.buscaPorSumula
+      ? `Número da Súmula (ex: 1, 10, 100)`
+      : `Número do Artigo (ex: 48, 121) ou Tema (ex: direitos, responsabilidade)`;
+
+    new ArtigoModal(this.app, config, (num) => {
+      this.buscarEAbrir(config, num);
+    }, placeholder).open();
   }
 
   // Painel para escolher qual área atomizar

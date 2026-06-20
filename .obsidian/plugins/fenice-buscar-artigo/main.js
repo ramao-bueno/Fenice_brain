@@ -26,8 +26,8 @@ const CODIGOS = [
 
   // ━━━ DIREITO PENAL ━━━
   { label: 'Código Penal (CP)',              tag: 'direito-penal', pastas: [
-      '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes',
       'Fenice bRain/04_DIREITO_PENAL/CÓDIGO_PENAL/Artigos/DEL2848',
+      '02 - Áreas/Base Jurídica/04_DIREITO_PENAL/CÓDIGO_PENAL/Crimes',
     ], codigo: 'CP' },
 
   // ━━━ DIREITO PROCESSUAL ━━━
@@ -745,9 +745,7 @@ class InfoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    // Limpar console ao abrir Obsidian
-    console.clear();
-    console.log('✅ Fenice Buscar Artigo v20 — Copilot: clearMessages + openFile para contexto');
+    console.log('✅ Fenice Buscar Artigo v21 — fix: DEL2848 antes de Crimes na busca CP');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

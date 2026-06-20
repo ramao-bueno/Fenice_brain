@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '298'
 lei: Lei 10.406/2002 (Código Civil)

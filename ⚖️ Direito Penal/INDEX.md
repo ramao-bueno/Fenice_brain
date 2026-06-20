@@ -148,4 +148,23 @@ tags:
 - [[Art. 137 — Rixa|Art. 137 — Rixa]]
 
 ---
-*85 crimes catalogados · LegalTech CP*
+
+## Filosofia Penal e Teoria da Pena
+
+- [[INDEX-Filosofia-Penal]] — Beccaria, teorias da pena, princípios constitucionais
+- [[Beccaria — Dos Delitos e das Penas]] — hub do autor (1764)
+- [[Contrato-Social-Fundamento-Punir]] — Cap. II
+- [[Nullum-Crimen-Nulla-Poena-Sine-Lege]] — Caps. III e IV
+- [[Proporcionalidade-Crime-Pena]] — Cap. XXIII
+- [[Abolição-Tortura-Beccaria]] — Cap. XII
+- [[Pena-Morte-Critica-Beccaria]] — Cap. XVI
+- [[Certeza-vs-Severidade-Pena]] — Caps. XIX e XX
+- [[Presunção-Inocência-Prisão-Preventiva]] — Cap. VI
+- [[Publicidade-Processo-Beccaria]] — Caps. VII e IX
+- [[Prevenção-Geral-vs-Especial]] — Caps. XX e XLI
+- [[Provas-Perfeitas-vs-Imperfeitas]] — Cap. VII
+- [[Obscuridade-Leis-Beccaria]] — Cap. V
+- [[Teorias-Pena-CP-Art59]] — teoria mista (CP art. 59)
+
+---
+*85 crimes catalogados · 13 notas filosóficas (Beccaria) · LegalTech CP*

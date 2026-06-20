@@ -1,0 +1,128 @@
+
+════════════════════════════════════════════════════════════════════════════════
+🎓 ANÁLISE ACADÊMICA — ART. 350
+════════════════════════════════════════════════════════════════════════════════
+
+📜 Art. 350 — Coisa Julgada
+📚 Processo Civil
+⚖️  Lei: Lei 13.105/2015 (Código de Processo Civil)
+📖 Livro: LIVRO-II — Forma de Processo e Procedimento
+✅ Status: VIGENTE
+🏷️  Tags: cpc
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ 📋 CONTEÚDO COMPLETO
+└───────────────────────────────────────────────────────────────────────────────
+
+# Art. 350 CPC — Coisa Julgada
+
+**Lei:** Lei 13.105/2015 (Código de Processo Civil)  
+**Livro:** LIVRO-II — Forma de Processo e Procedimento  
+**Status:** ✅ VIGENTE
+
+---
+
+## 📄 TEXTO LEGAL
+
+**Caput:** A sentença que não comportar mais recurso ordinário torna-se imutável, sendo denominada sentença com trânsito em julgado.
+
+---
+
+## 🔍 ANÁLISE
+
+### O Que é Coisa Julgada?
+- **Conceito:** Imutabilidade da sentença após esgotamento de recursos
+- **Requisito:** Não há mais recurso ordinário possível
+- **Efeito:** Sentença não pode ser alterada
+
+### Tipos de Coisa Julgada
+1. **Formal** — Após esgotamento de recursos ordinários
+2. **Material** — Efeito duradouro mesmo em outros processos
+3. **Formal + Material** — A sentença definitiva
+
+---
+
+## 🔗 ARTIGOS CORRELATOS
+
+- [[Art. 299 — CPC]] — Tutela Provisória
+- [[Art. 501 — CPC]] — Efeitos da Sentença
+- [[Art. 966 — CPC]] — Recursos Extraordinários
+- [[CC Art. 299]] — Assunção de Dívida
+
+---
+
+## ⚖️ JURISPRUDÊNCIA
+
+**STJ — Jurisprudência Pacífica**
+> Coisa julgada é garantia de segurança jurídica. Impossível alterar sentença após trânsito em julgado.
+
+**STF — Precedentes**
+> Coisa julgada é cláusula pétrea da Constituição. Protege segurança jurídica.
+
+---
+
+## 💡 CONCEITO-CHAVE
+
+Coisa julgada é qualidade que adquire a sentença quando não cabe mais recurso ordinário, tornando-a imutável e definitiva, com eficácia erga omnes (em relação a todos).
+
+---
+
+## 📋 APLICAÇÃO PRÁTICA
+
+**Cenário 1:** Processo de indenização. Sentença condena réu. Réu não apela (prazo vence) → Coisa julgada
+
+**Cenário 2:** Processo trabalhista. Todas as instâncias julgaram. Não há recurso → Coisa julgada. Não pode abrir novo processo sobre o mesmo
+
+**Cenário 3:** Divórcio. Sentença transitada em julgado → Não pode mudar partilha anos depois
+
+---
+
+## 🎓 QUESTÕES
+
+**Q1:** Quando uma sentença fica com coisa julgada?
+> **R:** Quando não há mais recurso ordinário possível
+
+**Q2:** O que significa imutabilidade?
+> **R:** Não pode ser alterada, modificada ou revisada em novo processo
+
+**Q3:** Vale só para as partes ou para todos?
+> **R:** Material = vale para todos (erga omnes)
+
+---
+
+## ✅ CHECKLIST
+
+- [ ] Sentença foi proferida?
+- [ ] Esgotaram-se todos os recursos ordinários?
+- [ ] Prazo para recurso venceu?
+- [ ] Agora está com coisa julgada?
+- [ ] Pode abrir novo processo sobre o mesmo?
+
+---
+
+**Atualizado:** 2026-06-13 | **Vigência:** ATUAL  
+**Relacionado:** [[Art. 299 — CPC]]
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ 🔗 ACESSÓRIOS JURÍDICOS
+└───────────────────────────────────────────────────────────────────────────────
+
+📎 ARTIGOS RELACIONADOS:
+   • Art. 299 — Tutela Provisória
+   • Art. 501 — Efeitos da Sentença
+   • Art. 1º — Aplicação do CPC
+
+⚖️  JURISPRUDÊNCIA:
+   • STJ: Jurisprudência sobre coisa julgada
+   • STF: Precedentes sobre segurança jurídica
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ 🔗 LINKS DIRETOS
+└───────────────────────────────────────────────────────────────────────────────
+
+📂 Nota original: Fenice_brain\02 - Áreas\Base Jurídica\03_PROCESSO_CIVIL\CÓDIGO_PROCESSO_CIVIL\Artigos\LIVRO-II\Art. 350 — CPC.md
+🔗 Abrir nota original: obsidian://open?path=Fenice_brain%5C02%20-%20%C3%81reas%5CBase%20Jur%C3%ADdica%5C03_PROCESSO_CIVIL%5CC%C3%93DIGO_PROCESSO_CIVIL%5CArtigos%5CLIVRO-II%5CArt.%20350%20%E2%80%94%20CPC.md
+
+════════════════════════════════════════════════════════════════════════════════
+✅ Análise Completa | Pronto para Pesquisa Acadêmica
+════════════════════════════════════════════════════════════════════════════════

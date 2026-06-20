@@ -747,7 +747,7 @@ class FeniceBuscarArtigo extends Plugin {
   onload() {
     // Limpar console ao abrir Obsidian
     console.clear();
-    console.log('✅ Fenice Buscar Artigo v18 — console.clear() na entrada de iniciarBusca');
+    console.log('✅ Fenice Buscar Artigo v19 — CLS do Copilot integrado em iniciarBusca');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -805,6 +805,10 @@ class FeniceBuscarArtigo extends Plugin {
 
   iniciarBusca() {
     console.clear();
+    // CLS do Copilot — só limpa se o painel já estiver aberto (não abre)
+    if (this.app.workspace.getLeavesOfType('copilot-chat-view').length > 0) {
+      this.app.commands.executeCommandById('copilot:new-chat');
+    }
     new CodigoModal(this.app, (config) => {
       // Se é Atomizar, abre painel de seleção
       if (config.isAtomizar) {

@@ -895,7 +895,7 @@ class FeniceBuscarArtigo extends Plugin {
 
     const acessorios1 = meta.acessorios || null;
     new InfoModal(this.app, activeFile, config, num, parsed, enunciados, acessorios1, jurisIdx,
-      () => this.iniciarBusca(),
+      () => { console.clear(); this.iniciarBusca(); },
       (lei) => this.buscarPorLei(lei),
       (n, cfg) => this.buscarPorNumero(cfg || config, n)).open();
   }

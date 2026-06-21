@@ -18,4 +18,5 @@
 /scripts/*
 !/scripts/api_fenice_saas.py
 !/scripts/fenice_rag.py
+!/scripts/landing.html
 !/scripts/prompts

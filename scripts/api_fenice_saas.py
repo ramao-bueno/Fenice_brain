@@ -19,6 +19,7 @@ from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------------------------
@@ -400,29 +401,19 @@ async def tcc(
 # GET /  — info
 # ---------------------------------------------------------------------------
 
-@app.get("/", tags=["Infraestrutura"], summary="Info da API")
-async def root() -> Dict[str, Any]:
-    return {
-        "titulo":  "Fenice bRain — SaaS API",
-        "versao":  "1.0.0",
-        "docs":    "/docs",
-        "redoc":   "/redoc",
-        "endpoints": {
-            "GET  /health":       "Status da API e banco (sem auth)",
-            "POST /buscar":       "FTS na base de legislacao (Free — sem auth)",
-            "POST /analisar":     "Grounding juridico — prompt preenchido (Premium)",
-            "POST /hermeneutica": "Analise filosofica — prompt preenchido (Premium)",
-            "POST /tcc":          "Revisao de TCC — prompt preenchido (Premium)",
-        },
-        "autenticacao": {
-            "free":    "sem header",
-            "premium": "X-Fenice-Key: fenice_premium_<sua_chave>",
-        },
-        "nota": (
-            "Nenhum endpoint chama LLMs diretamente. "
-            "O campo 'prompt_preenchido' deve ser enviado ao LLM de sua escolha."
-        ),
-    }
+@app.get("/", tags=["Infraestrutura"], summary="Landing page", response_class=HTMLResponse)
+async def root() -> HTMLResponse:
+    """Serve a landing page visual da API Fenice bRain."""
+    landing = Path(__file__).parent / "landing.html"
+    if landing.exists():
+        return HTMLResponse(content=landing.read_text(encoding="utf-8"), status_code=200)
+    # fallback JSON se o arquivo não estiver disponível
+    from fastapi.responses import JSONResponse
+    return JSONResponse({
+        "titulo": "Fenice bRain — SaaS API",
+        "versao": "1.0.0",
+        "docs":   "/docs",
+    })
 
 
 # ---------------------------------------------------------------------------

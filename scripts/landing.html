@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenice bRain — SaaS API Jurídica</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:        #050a14;
+      --surface:   #0d1628;
+      --card:      rgba(255,255,255,0.04);
+      --border:    rgba(255,255,255,0.08);
+      --gold:      #f59e0b;
+      --gold-dim:  #d97706;
+      --gold-glow: rgba(245,158,11,0.12);
+      --blue:      #3b82f6;
+      --text:      #f1f5f9;
+      --muted:     #94a3b8;
+      --dim:       #475569;
+      --free:      #10b981;
+      --premium:   #8b5cf6;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    code {
+      font-family: "Cascadia Code", "Fira Code", "SF Mono", monospace;
+      font-size: 0.875em;
+      background: rgba(255,255,255,0.07);
+      padding: 0.1em 0.4em;
+      border-radius: 4px;
+      color: var(--gold);
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(5, 10, 20, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--gold);
+      letter-spacing: 0.04em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--text); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold);
+      color: #000;
+      padding: 0.5rem 1.375rem;
+      border-radius: 7px;
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+      box-shadow: 0 0 20px rgba(245,158,11,0.25);
+    }
+    .nav-cta:hover {
+      background: #fbbf24;
+      transform: translateY(-1px);
+      box-shadow: 0 0 35px rgba(245,158,11,0.45);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 9rem 2rem 5rem;
+      overflow: hidden;
+    }
+
+    .hero-glow-1 {
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(ellipse, rgba(245,158,11,0.13) 0%, rgba(217,119,6,0.05) 45%, transparent 70%);
+      animation: pulse 5s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .hero-glow-2 {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 380px;
+      height: 380px;
+      background: radial-gradient(ellipse, rgba(59,130,246,0.07) 0%, transparent 70%);
+      animation: pulse 7s ease-in-out infinite reverse;
+      pointer-events: none;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
+      50% { opacity: 0.65; transform: translateX(-50%) scale(1.12); }
+    }
+
+    .embers {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .ember {
+      position: absolute;
+      bottom: -10px;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: var(--gold);
+      opacity: 0;
+      animation: float-up linear infinite;
+    }
+    .ember:nth-child(1)  { left: 18%; animation-duration: 9s;  animation-delay: 0s;   width: 3px; height: 3px; }
+    .ember:nth-child(2)  { left: 33%; animation-duration: 6.5s; animation-delay: 1.8s; }
+    .ember:nth-child(3)  { left: 50%; animation-duration: 8s;  animation-delay: 0.4s; width: 3px; height: 3px; background: #fbbf24; }
+    .ember:nth-child(4)  { left: 63%; animation-duration: 7.5s; animation-delay: 2.5s; }
+    .ember:nth-child(5)  { left: 79%; animation-duration: 10s; animation-delay: 3.2s; width: 3px; height: 3px; }
+    .ember:nth-child(6)  { left: 12%; animation-duration: 7s;  animation-delay: 4.5s; background: #fb923c; }
+    .ember:nth-child(7)  { left: 44%; animation-duration: 9s;  animation-delay: 2.1s; }
+    .ember:nth-child(8)  { left: 71%; animation-duration: 6s;  animation-delay: 1.2s; background: #fbbf24; }
+    .ember:nth-child(9)  { left: 27%; animation-duration: 11s; animation-delay: 5s;   height: 4px; }
+    .ember:nth-child(10) { left: 57%; animation-duration: 8.5s; animation-delay: 3.8s; background: #fb923c; }
+    .ember:nth-child(11) { left: 88%; animation-duration: 7.5s; animation-delay: 6s; }
+    .ember:nth-child(12) { left: 5%;  animation-duration: 9.5s; animation-delay: 0.8s; width: 3px; height: 3px; background: #fbbf24; }
+
+    @keyframes float-up {
+      0%   { opacity: 0;   transform: translateY(0) translateX(0) scale(1); }
+      8%   { opacity: 0.9; }
+      85%  { opacity: 0.4; }
+      100% { opacity: 0;   transform: translateY(-100vh) translateX(25px) scale(0.2); }
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: rgba(245,158,11,0.09);
+      border: 1px solid rgba(245,158,11,0.28);
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.4rem 1.1rem;
+      border-radius: 999px;
+      margin-bottom: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-badge .dot {
+      width: 7px; height: 7px;
+      background: var(--gold);
+      border-radius: 50%;
+      animation: blink 2s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; box-shadow: 0 0 6px var(--gold); }
+      50% { opacity: 0.25; box-shadow: none; }
+    }
+
+    .hero h1 {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: clamp(3.5rem, 10vw, 7.5rem);
+      line-height: 1;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.25rem;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 .gold { color: var(--gold); }
+
+    .hero-sub {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: clamp(0.9rem, 2vw, 1.2rem);
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-desc {
+      max-width: 580px;
+      font-size: 1.125rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 3rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 4rem;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold);
+      color: #000;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.9rem 2.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      transition: all 0.2s;
+      box-shadow: 0 0 35px rgba(245,158,11,0.3);
+    }
+    .btn-primary:hover {
+      background: #fbbf24;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 50px rgba(245,158,11,0.55);
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: transparent;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.9rem 2.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      letter-spacing: 0.01em;
+      transition: all 0.2s;
+    }
+    .btn-secondary:hover {
+      border-color: rgba(245,158,11,0.5);
+      color: var(--gold);
+    }
+
+    /* ── STATS BAR ── */
+    .stats {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat {
+      background: var(--bg);
+      padding: 2.75rem 1rem;
+      text-align: center;
+    }
+    .stat-value {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 2.75rem;
+      color: var(--gold);
+      display: block;
+      line-height: 1;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+    }
+    .stat-label {
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    /* ── SECTION WRAPPER ── */
+    .section {
+      padding: 6rem 2rem;
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.875rem;
+    }
+    .section-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .section-desc {
+      font-size: 1.0625rem;
+      color: var(--muted);
+      max-width: 600px;
+      line-height: 1.75;
+      margin-bottom: 3.5rem;
+    }
+
+    /* ── ENDPOINTS GRID ── */
+    .endpoints-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 1.25rem;
+    }
+    .ep-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.25s, background 0.25s, transform 0.2s, box-shadow 0.25s;
+    }
+    .ep-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      border-radius: 2px 2px 0 0;
+    }
+    .ep-card.ep-free::before   { background: linear-gradient(90deg, var(--free), transparent); }
+    .ep-card.ep-premium::before { background: linear-gradient(90deg, var(--premium), rgba(245,158,11,0.6)); }
+    .ep-card:hover {
+      border-color: rgba(245,158,11,0.35);
+      background: rgba(245,158,11,0.03);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 48px rgba(0,0,0,0.3), 0 0 0 1px rgba(245,158,11,0.1);
+    }
+    .ep-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .method {
+      font-weight: 700;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      padding: 0.22rem 0.55rem;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+    .m-get  { background: rgba(16,185,129,0.15); color: #34d399; }
+    .m-post { background: rgba(59,130,246,0.15); color: #60a5fa; }
+    .ep-path {
+      font-family: "Cascadia Code", "Fira Code", monospace;
+      font-size: 0.9rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+    .tier {
+      margin-left: auto;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+    .t-free    { background: rgba(16,185,129,0.12); color: var(--free); border: 1px solid rgba(16,185,129,0.2); }
+    .t-premium { background: rgba(139,92,246,0.12); color: var(--premium); border: 1px solid rgba(139,92,246,0.2); }
+    .ep-title {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    .ep-desc {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    /* ── HOW IT WORKS ── */
+    .how-wrap {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      position: relative;
+    }
+    .steps::after {
+      content: '';
+      position: absolute;
+      top: 2.25rem;
+      left: calc(16.66% + 1rem);
+      right: calc(16.66% + 1rem);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(245,158,11,0.5) 30%, rgba(245,158,11,0.5) 70%, transparent);
+    }
+    .step { text-align: center; padding: 0.5rem; }
+    .step-num {
+      width: 4.5rem; height: 4.5rem;
+      border-radius: 50%;
+      border: 1px solid rgba(245,158,11,0.35);
+      background: var(--surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.75rem;
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 1.75rem;
+      color: var(--gold);
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 25px rgba(245,158,11,0.12);
+    }
+    .step-title {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+    }
+    .step-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+
+    /* ── CODE ── */
+    .code-wrap {
+      background: #040912;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .code-top {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.9rem 1.375rem;
+      background: rgba(255,255,255,0.025);
+      border-bottom: 1px solid var(--border);
+    }
+    .dot { width: 11px; height: 11px; border-radius: 50%; }
+    .dot:nth-child(1) { background: #ff5f57; }
+    .dot:nth-child(2) { background: #febc2e; }
+    .dot:nth-child(3) { background: #28c840; }
+    .code-label {
+      margin-left: auto;
+      font-size: 0.72rem;
+      color: var(--dim);
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+    .code-body {
+      padding: 1.75rem;
+      font-family: "Cascadia Code", "Fira Code", "SF Mono", monospace;
+      font-size: 0.875rem;
+      line-height: 1.85;
+      overflow-x: auto;
+      color: #cbd5e1;
+      tab-size: 2;
+    }
+    .c-k { color: #60a5fa; }
+    .c-u { color: #34d399; }
+    .c-s { color: #fb7185; }
+    .c-v { color: #f59e0b; }
+    .c-c { color: #475569; font-style: italic; }
+    .c-r { color: #64748b; }
+
+    /* ── TIERS ── */
+    .status-pill {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(16,185,129,0.07);
+      border: 1px solid rgba(16,185,129,0.18);
+      border-radius: 12px;
+      padding: 1.25rem 1.75rem;
+      margin-bottom: 4rem;
+    }
+    .status-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--free); animation: blink 2s ease-in-out infinite; flex-shrink: 0; }
+    .status-text { font-size: 0.9375rem; color: var(--muted); }
+    .status-text strong { color: var(--free); }
+    .status-link {
+      margin-left: auto;
+      font-size: 0.8125rem;
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 0.35rem 1rem;
+      border-radius: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .status-link:hover { border-color: rgba(245,158,11,0.5); color: var(--gold); }
+
+    .tiers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .tier-card {
+      border-radius: 18px;
+      padding: 2.75rem;
+      border: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .tier-card.tc-free { background: rgba(16,185,129,0.04); }
+    .tier-card.tc-premium {
+      background: linear-gradient(135deg, rgba(139,92,246,0.07) 0%, rgba(245,158,11,0.04) 100%);
+      border-color: rgba(139,92,246,0.3);
+    }
+    .tier-card.tc-premium::after {
+      content: 'PREMIUM';
+      position: absolute;
+      top: 1.75rem;
+      right: -2.25rem;
+      background: var(--gold);
+      color: #000;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 0.3rem 3.5rem;
+      transform: rotate(45deg);
+    }
+    .tier-name {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+    .tc-free .tier-name    { color: var(--free); }
+    .tc-premium .tier-name { color: var(--premium); }
+    .tier-price {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 3.25rem;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .tier-note { font-size: 0.875rem; color: var(--muted); margin-bottom: 2.25rem; line-height: 1.5; }
+    .features { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+    .features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.875rem;
+      font-size: 0.9375rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+    .features li::before { content: '✓'; font-weight: 700; flex-shrink: 0; margin-top: 0.05em; }
+    .tc-free .features li::before    { color: var(--free); }
+    .tc-premium .features li::before { color: var(--gold); }
+
+    /* ── FOOTER ── */
+    .footer-wrap {
+      border-top: 1px solid var(--border);
+      padding: 3rem 2rem;
+      max-width: 1160px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-brand {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--gold);
+      text-decoration: none;
+    }
+    .footer-links { display: flex; gap: 2rem; list-style: none; }
+    .footer-links a {
+      color: var(--dim);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy { color: var(--dim); font-size: 0.8rem; }
+
+    /* ── LOGO SEAL ── */
+    .nav-seal { width: 33px; height: 33px; flex-shrink: 0; }
+    .hero-seal-wrap {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .hero-seal {
+      width: 168px; height: 168px;
+      animation: sealGlow 5s ease-in-out infinite;
+    }
+    .hero-sabedoria {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 0.67rem;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: rgba(201,162,39,0.7);
+      margin-top: 0.5rem;
+    }
+    @keyframes sealGlow {
+      0%, 100% { filter: drop-shadow(0 0 22px rgba(201,162,39,0.28)); }
+      50%       { filter: drop-shadow(0 0 58px rgba(201,162,39,0.62)); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-links { display: none; }
+      .stats { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .steps::after { display: none; }
+      .tiers-grid { grid-template-columns: 1fr; }
+      .footer-wrap { flex-direction: column; text-align: center; }
+      .status-link { display: none; }
+      .hero h1 { font-size: clamp(3rem, 15vw, 5rem); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo" style="display:flex;align-items:center;gap:0.45rem;">
+    <svg class="nav-seal" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="19" fill="#050a14" stroke="#c9a227" stroke-width="1.4"/>
+      <circle cx="20" cy="20" r="14" fill="none" stroke="#c9a227" stroke-width="0.55"/>
+      <line x1="8" y1="19.5" x2="32" y2="19.5" stroke="#c9a227" stroke-width="1.1"/>
+      <line x1="20" y1="13" x2="20" y2="27" stroke="#c9a227" stroke-width="1.1"/>
+      <path d="M 6,19.5 Q 12,24.5 18,19.5" stroke="#c9a227" stroke-width="1" fill="none"/>
+      <path d="M 22,19.5 Q 28,24.5 34,19.5" stroke="#c9a227" stroke-width="1" fill="none"/>
+      <polygon points="20,11 17.5,15 22.5,15" fill="#c9a227"/>
+      <line x1="17" y1="27" x2="23" y2="27" stroke="#c9a227" stroke-width="1.1"/>
+    </svg>
+    Fenice <span>bRain</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#endpoints">Endpoints</a></li>
+    <li><a href="#como-funciona">Como funciona</a></li>
+    <li><a href="#tiers">Planos</a></li>
+  </ul>
+  <a href="/docs" class="nav-cta">Swagger UI →</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-glow-1"></div>
+  <div class="hero-glow-2"></div>
+  <div class="embers">
+    <div class="ember"></div><div class="ember"></div><div class="ember"></div>
+    <div class="ember"></div><div class="ember"></div><div class="ember"></div>
+    <div class="ember"></div><div class="ember"></div><div class="ember"></div>
+    <div class="ember"></div><div class="ember"></div><div class="ember"></div>
+  </div>
+
+  <!-- LOGO SEAL -->
+  <div class="hero-seal-wrap">
+    <svg class="hero-seal" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="arcT" d="M 16,100 A 84,84 0 0,0 184,100"/>
+        <radialGradient id="gC" cx="50%" cy="50%" r="35%">
+          <stop offset="0%" stop-color="#c9a227" stop-opacity="0.08"/>
+          <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <!-- Background + center ambient -->
+      <circle cx="100" cy="100" r="100" fill="#050a14"/>
+      <circle cx="100" cy="100" r="65" fill="url(#gC)"/>
+      <!-- Rings -->
+      <circle cx="100" cy="100" r="97" fill="none" stroke="#c9a227" stroke-width="0.7"/>
+      <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.2"/>
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+      <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+      <!-- Top arc text -->
+      <text font-family="Georgia,'Times New Roman',serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+        <textPath href="#arcT" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+      </text>
+      <!-- Bottom band text -->
+      <text x="100" y="135" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+      <!-- 9 and 3 o'clock bullets -->
+      <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+      <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+      <!-- ─ SCALES OF JUSTICE ─ -->
+      <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+      <rect x="98.5" y="62" width="3" height="58" rx="1.5" fill="#c9a227"/>
+      <rect x="66" y="75" width="68" height="2.5" rx="1.25" fill="#c9a227"/>
+      <line x1="74" y1="77.5" x2="67" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="74" y1="77.5" x2="81" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <path d="M 62,95 Q 74,106 86,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <line x1="126" y1="77.5" x2="119" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="126" y1="77.5" x2="133" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <path d="M 114,95 Q 126,106 138,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+      <rect x="84" y="123" width="32" height="2" rx="1" fill="#c9a227" opacity="0.5"/>
+      <!-- ─ OWL (left) ─ -->
+      <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+      <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+      <circle cx="52" cy="91" r="2.2" fill="#050a14"/><circle cx="58" cy="91" r="2.2" fill="#050a14"/>
+      <circle cx="52" cy="91" r="0.8" fill="#c9a227"/><circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+      <path d="M 53,96 L 55,98.5 L 57,96" stroke="#050a14" stroke-width="0.9" fill="none"/>
+      <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+      <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+      <path d="M 47,97 Q 55,91 63,97" stroke="#c9a227" stroke-width="0.8" fill="none" opacity="0.45"/>
+      <!-- ─ IONIC COLUMN (right) ─ -->
+      <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+      <path d="M 135,76.5 Q 144,80.5 153,76.5" stroke="#c9a227" stroke-width="0.8" fill="none" opacity="0.6"/>
+      <rect x="137" y="77" width="14" height="45" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+      <line x1="141" y1="78" x2="141" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <line x1="144" y1="78" x2="144" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <line x1="147" y1="78" x2="147" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <rect x="134" y="122" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      <rect x="131" y="124.5" width="26" height="2" rx="0.5" fill="#c9a227" opacity="0.5"/>
+    </svg>
+    <p class="hero-sabedoria">Sabedoria e Justiça</p>
+  </div>
+
+  <div class="hero-badge">
+    <span class="dot"></span>
+    API ao vivo · v1.0.0
+  </div>
+
+  <h1>
+    <span class="gold">Fenice</span><br>bRain
+  </h1>
+
+  <p class="hero-sub">Vade Mecum Dinâmico — SaaS API Jurídica</p>
+
+  <p class="hero-desc">
+    Full-Text Search em legislação brasileira com grounding jurídico para LLMs.
+    Busca com e sem acentuação. Prompts prontos para Claude, GPT e Gemini.
+  </p>
+
+  <div class="hero-actions">
+    <a href="/docs" class="btn-primary">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      Documentação interativa
+    </a>
+    <a href="/health" class="btn-secondary">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+      Status da API
+    </a>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat">
+    <span class="stat-value" id="law-count">3</span>
+    <span class="stat-label">Leis Indexadas</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">5</span>
+    <span class="stat-label">Endpoints REST</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">FTS</span>
+    <span class="stat-label">Full-Text Search Português</span>
+  </div>
+</div>
+
+<!-- ENDPOINTS -->
+<div class="section" id="endpoints">
+  <p class="section-label">API REST</p>
+  <h2 class="section-title">Endpoints disponíveis</h2>
+  <p class="section-desc">
+    Nenhum endpoint chama LLMs diretamente.
+    O campo <code>prompt_preenchido</code> é retornado pronto para injetar no modelo de sua escolha.
+  </p>
+
+  <div class="endpoints-grid">
+    <div class="ep-card ep-free">
+      <div class="ep-header">
+        <span class="method m-get">GET</span>
+        <span class="ep-path">/health</span>
+        <span class="tier t-free">Free</span>
+      </div>
+      <h3 class="ep-title">Status da API</h3>
+      <p class="ep-desc">Verifica operacionalidade e retorna contagem de leis indexadas no banco Supabase.</p>
+    </div>
+
+    <div class="ep-card ep-free">
+      <div class="ep-header">
+        <span class="method m-post">POST</span>
+        <span class="ep-path">/buscar</span>
+        <span class="tier t-free">Free</span>
+      </div>
+      <h3 class="ep-title">Busca FTS — sem autenticação</h3>
+      <p class="ep-desc">Full-Text Search com <code>ts_headline</code> e <code>ts_rank</code>. Funciona com e sem acentuação. Retorna trechos destacados em <code>&lt;b&gt;</code>.</p>
+    </div>
+
+    <div class="ep-card ep-premium">
+      <div class="ep-header">
+        <span class="method m-post">POST</span>
+        <span class="ep-path">/analisar</span>
+        <span class="tier t-premium">Premium</span>
+      </div>
+      <h3 class="ep-title">Análise jurídica com grounding</h3>
+      <p class="ep-desc">Recupera legislação relevante e preenche o template <em>grounding_juridico</em> com contexto real para uso em LLMs.</p>
+    </div>
+
+    <div class="ep-card ep-premium">
+      <div class="ep-header">
+        <span class="method m-post">POST</span>
+        <span class="ep-path">/hermeneutica</span>
+        <span class="tier t-premium">Premium</span>
+      </div>
+      <h3 class="ep-title">Hermenêutica filosófica</h3>
+      <p class="ep-desc">Análise filosófica de textos jurídicos com contexto doutrinário recuperado do vault Fenice.</p>
+    </div>
+
+    <div class="ep-card ep-premium">
+      <div class="ep-header">
+        <span class="method m-post">POST</span>
+        <span class="ep-path">/tcc</span>
+        <span class="tier t-premium">Premium</span>
+      </div>
+      <h3 class="ep-title">Revisão de TCC jurídico</h3>
+      <p class="ep-desc">Agente revisor de rascunhos acadêmicos com suporte de legislação indexada pelo tema pesquisado.</p>
+    </div>
+
+    <div class="ep-card ep-free">
+      <div class="ep-header">
+        <span class="method m-get">GET</span>
+        <span class="ep-path">/docs</span>
+        <span class="tier t-free">Free</span>
+      </div>
+      <h3 class="ep-title">Swagger UI interativo</h3>
+      <p class="ep-desc">Interface visual para explorar e testar todos os endpoints diretamente no navegador, sem código.</p>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="how-wrap" id="como-funciona">
+  <div class="section">
+    <p class="section-label">Fluxo</p>
+    <h2 class="section-title">Como funciona</h2>
+    <p class="section-desc">Três passos do pedido ao prompt jurídico fundamentado em legislação real.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3 class="step-title">Busque a legislação</h3>
+        <p class="step-desc">Envie sua dúvida jurídica para <code>/buscar</code>. O FTS em português recupera os trechos mais relevantes com ranking semântico e destaques.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3 class="step-title">Receba o contexto</h3>
+        <p class="step-desc">Os endpoints Premium preenchem templates de prompt — grounding, hermenêutica ou TCC — com os trechos legais recuperados automaticamente.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3 class="step-title">Injete no LLM</h3>
+        <p class="step-desc">O campo <code>prompt_preenchido</code> está pronto para enviar ao Claude, GPT-4, Gemini ou qualquer modelo. Nenhuma chamada é feita internamente.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CODE EXAMPLE -->
+<div class="section">
+  <p class="section-label">Exemplo</p>
+  <h2 class="section-title">Teste agora mesmo</h2>
+  <p class="section-desc">Busca FTS sem autenticação — retorna em segundos com destaques no texto.</p>
+
+  <div class="code-wrap">
+    <div class="code-top">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      <span class="code-label">curl</span>
+    </div>
+    <div class="code-body"><span class="c-c"># Busca Free — sem autenticação, sem cadastro</span>
+<span class="c-k">curl</span> -X POST <span class="c-u">https://fenice-justech.vercel.app/buscar</span> \
+  -H <span class="c-s">"Content-Type: application/json"</span> \
+  -d <span class="c-s">'{"query": "improbidade administrativa", "limite": 3}'</span>
+
+<span class="c-c"># Resposta</span>
+<span class="c-r">[
+  {
+    "numero_ano": "Lei Federal 14230/2021",
+    "tipo_ato": "Lei Federal",
+    "ementa": "Altera a Lei n° 8.429 — improbidade administrativa",
+    "trecho_relevante": "... &lt;b&gt;improbidade&lt;/b&gt; &lt;b&gt;administrativa&lt;/b&gt; tipifica-se ...",
+    "relevancia": 1.0
+  }
+]</span></div>
+  </div>
+</div>
+
+<!-- TIERS -->
+<div class="section" id="tiers" style="padding-top:0">
+  <div class="status-pill">
+    <div class="status-dot"></div>
+    <span class="status-text">
+      API <strong>operacional</strong> — Supabase conectado — FTS português ativo
+    </span>
+    <a href="/health" class="status-link">Ver status ao vivo →</a>
+  </div>
+
+  <p class="section-label">Planos</p>
+  <h2 class="section-title">Free &amp; Premium</h2>
+  <p class="section-desc">Comece grátis sem cadastro. Acesse os agentes jurídicos com uma API Key.</p>
+
+  <div class="tiers-grid">
+    <div class="tier-card tc-free">
+      <p class="tier-name">Free</p>
+      <p class="tier-price">Grátis</p>
+      <p class="tier-note">Sem cadastro · Sem limite de requisições</p>
+      <ul class="features">
+        <li>GET /health — status ao vivo</li>
+        <li>POST /buscar — FTS ilimitado</li>
+        <li>Busca com e sem acentuação</li>
+        <li>ts_headline com destaques</li>
+        <li>Swagger UI interativo em /docs</li>
+      </ul>
+    </div>
+
+    <div class="tier-card tc-premium">
+      <p class="tier-name">Premium</p>
+      <p class="tier-price">API Key</p>
+      <p class="tier-note">Header: <code>X-Fenice-Key: fenice_premium_&lt;chave&gt;</code></p>
+      <ul class="features">
+        <li>Tudo do Free incluso</li>
+        <li>POST /analisar — grounding jurídico</li>
+        <li>POST /hermeneutica — análise filosófica</li>
+        <li>POST /tcc — revisão acadêmica</li>
+        <li>Prompts pré-preenchidos para LLMs</li>
+        <li>Contexto recuperado automaticamente</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-wrap">
+    <a href="/" class="footer-brand">Fenice bRain</a>
+    <ul class="footer-links">
+      <li><a href="/docs">Swagger</a></li>
+      <li><a href="/redoc">ReDoc</a></li>
+      <li><a href="/health">Health</a></li>
+      <li><a href="/openapi.json">OpenAPI</a></li>
+    </ul>
+    <p class="footer-copy">v1.0.0 &nbsp;·&nbsp; Supabase + Vercel &nbsp;·&nbsp; FTS português</p>
+  </div>
+</footer>
+
+<script>
+  fetch('/health')
+    .then(r => r.json())
+    .then(d => {
+      const m = (d?.banco?.detalhe || '').match(/(\d+)/);
+      if (m) document.getElementById('law-count').textContent = m[1];
+    })
+    .catch(() => {});
+</script>
+
+</body>
+</html>

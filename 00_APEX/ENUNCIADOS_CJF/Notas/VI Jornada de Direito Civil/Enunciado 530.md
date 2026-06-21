@@ -12,7 +12,7 @@ tags:
 - enunciado-530
 - direito-civil
 - cjf
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # Enunciado CJF 530
@@ -60,4 +60,4 @@ que confirma, afasta ou relativiza a orientação do CJF]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-21

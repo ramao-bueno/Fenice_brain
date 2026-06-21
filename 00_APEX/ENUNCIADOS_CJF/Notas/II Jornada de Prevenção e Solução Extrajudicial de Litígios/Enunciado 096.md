@@ -12,7 +12,7 @@ tags:
 - enunciado-96
 - acesso-à-justiça
 - cjf
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # Enunciado CJF 96
@@ -60,4 +60,4 @@ que confirma, afasta ou relativiza a orientação do CJF]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-21

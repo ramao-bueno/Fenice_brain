@@ -346,25 +346,39 @@ def _db_conn() -> Optional[dict]:
     }
 
 
-def _extrair_tipo_ato(titulo: str) -> str:
+def _extrair_tipo_ato(titulo: str, url: str = "") -> str:
+    """Classifica o tipo do ato normativo via título e/ou URL do Planalto."""
     t = titulo.lower()
+    u = url.lower()
+    # Via título (quando disponível com texto completo)
     if "lei complementar" in t:
         return "Lei Complementar"
     if "decreto-lei" in t or "decreto lei" in t:
         return "Decreto-Lei"
-    if "decreto" in t:
-        return "Decreto"
     if "medida provisória" in t or "medida provisoria" in t:
         return "Medida Provisória"
     if "instrução normativa" in t or "instrucao normativa" in t:
         return "Instrução Normativa"
+    if "decreto" in t:
+        return "Decreto"
     if "lei" in t:
+        return "Lei Federal"
+    # Via URL (fallback quando título é só o código, ex: "L14230")
+    if "/lei/lcp/" in u or "lcp" in u.split("/")[-1]:
+        return "Lei Complementar"
+    if "/decreto-lei/" in u or "/del" in u:
+        return "Decreto-Lei"
+    if "/medida-provisoria/" in u or "/mpv" in u:
+        return "Medida Provisória"
+    if "/decreto/" in u:
+        return "Decreto"
+    if "/lei/" in u:
         return "Lei Federal"
     return "Ato Normativo"
 
 
 def _numero_ano_chave(dados: Dict) -> str:
-    tipo = _extrair_tipo_ato(dados.get("titulo", ""))
+    tipo = _extrair_tipo_ato(dados.get("titulo", ""), dados.get("url_origem", ""))
     return f"{tipo} {dados.get('numero', '')}/{dados.get('ano', '')}"
 
 
@@ -376,7 +390,7 @@ def upsert_legislacao(dados: Dict, conn: dict) -> bool:
     chave = _numero_ano_chave(dados)
     payload = {
         "esfera":               "Federal",
-        "tipo_ato":             _extrair_tipo_ato(dados.get("titulo", "")),
+        "tipo_ato":             _extrair_tipo_ato(dados.get("titulo", ""), dados.get("url_origem", "")),
         "numero_ano":           chave,
         "ementa":               dados.get("ementa", ""),
         "texto_vigente":        dados["texto_vigente"],

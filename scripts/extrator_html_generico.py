@@ -99,8 +99,17 @@ def extrair_artigos_html(caminho_html: Path) -> List[Dict]:
 
 
 def _limpar_redacao(redacao_raw: str) -> str:
-    """Remove HTML tags, entidades e limpa whitespace."""
-    redacao = re.sub(r"<[^>]+>", " ", redacao_raw)
+    """Remove HTML tags, entidades e limpa whitespace.
+
+    IMPORTANTE: remove <s>...</s> e <del>...</del> ANTES de strip tags,
+    pois essas marcações indicam texto revogado no HTML do Planalto.
+    Sem esta etapa, texto revogado seria indexado como vigente.
+    """
+    # Remove texto revogado (tags <s> e <del> com todo seu conteúdo)
+    redacao = re.sub(r"<s\b[^>]*>.*?</s>", " ", redacao_raw, flags=re.DOTALL | re.IGNORECASE)
+    redacao = re.sub(r"<del\b[^>]*>.*?</del>", " ", redacao, flags=re.DOTALL | re.IGNORECASE)
+    # Agora remove as demais tags HTML
+    redacao = re.sub(r"<[^>]+>", " ", redacao)
     # Entidades HTML comuns
     redacao = redacao.replace("&nbsp;", " ").replace("&amp;", "&")
     redacao = redacao.replace("&lt;", "<").replace("&gt;", ">")

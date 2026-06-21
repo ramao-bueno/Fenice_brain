@@ -59,3 +59,19 @@ relacionados:
 - [ ] *Dos Delitos e das Penas* — Beccaria
 - [ ] *Vigiar e Punir* — Foucault
 - [ ] *Manual de Direito Penal Brasileiro* — Zaffaroni/Pierangeli
+
+---
+
+## NOTAS PESSOAIS
+
+<!-- Insira aqui anotações sobre leituras concluídas, trechos marcantes ou conexões com casos práticos -->
+
+---
+
+## ARTIGOS ANEXADOS
+
+| Arquivo | Autor / Tema | Data |
+|---|---|---|
+|  |  |  |
+
+<!-- Para anexar: arraste o PDF para o vault e use ![[nome-do-arquivo.pdf]] -->

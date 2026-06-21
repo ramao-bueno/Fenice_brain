@@ -59,3 +59,19 @@ Três viradas filosóficas moldam o Direito Penal: o **Iluminismo** ([[Beccaria]
 ## Ver também
 
 - [[Sugestão de Leitura — Direito Penal]]
+
+---
+
+## NOTAS PESSOAIS
+
+<!-- Insira aqui suas reflexões, conexões com outros ramos do direito ou sínteses de leitura -->
+
+---
+
+## ARTIGOS ANEXADOS
+
+| Arquivo | Autor / Tema | Data |
+|---|---|---|
+|  |  |  |
+
+<!-- Para anexar: arraste o PDF para o vault e use ![[nome-do-arquivo.pdf]] -->

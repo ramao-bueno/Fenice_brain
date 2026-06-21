@@ -164,9 +164,7 @@ async def health() -> Dict[str, Any]:
         try:
             with FeniceRAG() as rag:
                 if rag.conn:
-                    with rag.conn.cursor() as cur:
-                        cur.execute("SELECT COUNT(*) FROM legislacao_brasileira")
-                        contagem = cur.fetchone()[0]
+                    contagem = rag.contar_leis()
                     db_ok  = True
                     db_msg = f"{contagem} leis indexadas"
         except Exception as exc:

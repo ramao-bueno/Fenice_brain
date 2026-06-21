@@ -13,7 +13,7 @@ tags:
 - art-3
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 3 — Art. 3
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> o A lei será estruturada em três partes básicas: I - parte preliminar, compreendendo a epígrafe, a ementa, o preâmbulo, o enunciado do objeto e a indicação do âmbito de aplicação das disposições normativas; II - parte normativa, compreendendo o texto das normas de conteúdo substantivo relacionadas com a matéria regulada; III - parte final, compreendendo as disposições pertinentes às medidas necessárias à implementação das normas de conteúdo substantivo, às disposições transitórias, se for o caso
+> o A lei serÃ¡ estruturada em trÃªs partes bÃ¡sicas: I - parte preliminar, compreendendo a epÃ­grafe, a ementa, o preÃ¢mbulo, o enunciado do objeto e a indicaÃ§Ã£o do Ã¢mbito de aplicaÃ§Ã£o das disposiÃ§Ãµes normativas; II - parte normativa, compreendendo o texto das normas de conteÃºdo substantivo relacionadas com a matÃ©ria regulada; III - parte final, compreendendo as disposiÃ§Ãµes pertinentes Ã s medidas necessÃ¡rias Ã implementaÃ§Ã£o das normas de conteÃºdo substantivo, Ã s disposiÃ§Ãµes tra
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 2]] — artigo anterior
 - [[LCP95 Art. 4]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

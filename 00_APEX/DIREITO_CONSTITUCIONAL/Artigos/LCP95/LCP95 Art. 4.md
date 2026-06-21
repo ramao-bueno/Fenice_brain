@@ -13,7 +13,7 @@ tags:
 - art-4
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 4 — Art. 4
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> o A epígrafe, grafada em caracteres maiúsculos, propiciará identificação numérica singular à lei e será formada pelo título designativo da espécie normativa, pelo número respectivo e pelo ano de promulgação.
+> o A epÃ­grafe, grafada em caracteres maiÃºsculos, propiciarÃ¡ identificaÃ§Ã£o numÃ©rica singular Ã lei e serÃ¡ formada pelo tÃ­tulo designativo da espÃ©cie normativa, pelo nÃºmero respectivo e pelo ano de promulgaÃ§Ã£o.
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 3]] — artigo anterior
 - [[LCP95 Art. 5]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

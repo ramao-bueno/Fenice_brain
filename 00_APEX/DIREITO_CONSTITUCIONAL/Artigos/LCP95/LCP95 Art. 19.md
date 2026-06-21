@@ -13,7 +13,7 @@ tags:
 - art-19
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 19 — Art. 19
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> . Esta Lei Complementar entra em vigor no prazo de noventa dias, a partir da data de sua publicação. Brasília,&nbsp;26&nbsp;de fevereiro&nbsp;de 1998; 177 o da Independência e 110 o da República. FERNANDO HENRIQUE CARDOSO Iris Rezende Este texto não substitui o publicado no D.O.U. de 27.2.1998. * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (function(){var f5_cspm={f5_p:'OPEDIPNHIBCMHHBMJFIPEFPPGHAJBNHHPIOEKEANLLLIFGEBAMAKCJGLHKGKANODBIGBHAFLBBOHKGEEHGFAMBICACKJDPBGEMPHLLLLJCDPJHFJJGDKEAOKBIFBFDKD'
+> . Esta Lei Complementar entra em vigor no prazo de noventa dias, a partir da data de sua publicaÃ§Ã£o. BrasÃ­lia,&nbsp;26&nbsp;de fevereiro&nbsp;de 1998; 177 o da IndependÃªncia e 110 o da RepÃºblica. FERNANDO HENRIQUE CARDOSO Iris Rezende Este texto nÃ£o substitui o publicado no D.O.U. de 27.2.1998. * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 18]] — artigo anterior
 - [[LCP95 Art. 20]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

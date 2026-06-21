@@ -13,7 +13,7 @@ tags:
 - art-1
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 1 — Art. 1
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> o A elaboração, a redação, a alteração e a consolidação das leis obedecerão ao disposto nesta Lei Complementar. Parágrafo único. As disposições desta Lei Complementar aplicam-se, ainda, às medidas provisórias e demais atos normativos referidos no art. 59 da Constituição Federal , bem como, no que couber, aos decretos e aos demais atos de regulamentação expedidos por órgãos do Poder Executivo.
+> o A elaboraÃ§Ã£o, a redaÃ§Ã£o, a alteraÃ§Ã£o e a consolidaÃ§Ã£o das leis obedecerÃ£o ao disposto nesta Lei Complementar. ParÃ¡grafo Ãºnico. As disposiÃ§Ãµes desta Lei Complementar aplicam-se, ainda, Ã s medidas provisÃ³rias e demais atos normativos referidos no art. 59 da ConstituiÃ§Ã£o Federal , bem como, no que couber, aos decretos e aos demais atos de regulamentaÃ§Ã£o expedidos por Ã³rgÃ£os do Poder Executivo.
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 1]] — artigo anterior
 - [[LCP95 Art. 2]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

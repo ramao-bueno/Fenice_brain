@@ -13,7 +13,7 @@ tags:
 - art-11
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 11 — Art. 11
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> . As disposições normativas serão redigidas com clareza, precisão e ordem lógica, observadas, para esse propósito, as seguintes normas: I - para a obtenção de clareza: a) usar as palavras e as expressões em seu sentido comum, salvo quando a norma versar sobre assunto técnico, hipótese em que se empregará a nomenclatura própria da área em que se esteja legislando; b) usar frases curtas e concisas; c) construir as orações na ordem direta, evitando preciosismo, neologismo e adjetivações dispensávei
+> . As disposiÃ§Ãµes normativas serÃ£o redigidas com clareza, precisÃ£o e ordem lÃ³gica, observadas, para esse propÃ³sito, as seguintes normas: I - para a obtenÃ§Ã£o de clareza: a) usar as palavras e as expressÃµes em seu sentido comum, salvo quando a norma versar sobre assunto tÃ©cnico, hipÃ³tese em que se empregarÃ¡ a nomenclatura prÃ³pria da Ã¡rea em que se esteja legislando; b) usar frases curtas e concisas; c) construir as oraÃ§Ãµes na ordem direta, evitando preciosismo, neologismo e adjetiva
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 10]] — artigo anterior
 - [[LCP95 Art. 12]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

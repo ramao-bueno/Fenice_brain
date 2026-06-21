@@ -13,7 +13,7 @@ tags:
 - art-16
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 16 — Art. 16
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> . Os órgãos diretamente subordinados à Presidência da República e os Ministérios, assim como as entidades da administração indireta, adotarão, em prazo estabelecido em decreto, as providências necessárias para, observado, no que couber, o procedimento a que se refere o art. 14, ser efetuada a triagem, o exame e a consolidação dos decretos de conteúdo normativo e geral e demais atos normativos inferiores em vigor, vinculados às respectivas áreas de competência, remetendo os textos consolidados à
+> . Os Ã³rgÃ£os diretamente subordinados Ã PresidÃªncia da RepÃºblica e os MinistÃ©rios, assim como as entidades da administraÃ§Ã£o indireta, adotarÃ£o, em prazo estabelecido em decreto, as providÃªncias necessÃ¡rias para, observado, no que couber, o procedimento a que se refere o art. 14, ser efetuada a triagem, o exame e a consolidaÃ§Ã£o dos decretos de conteÃºdo normativo e geral e demais atos normativos inferiores em vigor, vinculados Ã s respectivas Ã¡reas de competÃªncia, remetendo os textos
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 15]] — artigo anterior
 - [[LCP95 Art. 17]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

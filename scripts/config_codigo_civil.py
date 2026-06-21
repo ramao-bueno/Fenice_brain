@@ -12,11 +12,12 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 FENICE_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CC"
 CC_BASE = FENICE_BASE
-OUTPUT_BASE = CC_FONTES / "Artigos"
 
 # HTMLs baixados via scripts/baixar_fontes.py
 FONTES_BASE = Path(__file__).parent / "fontes"
 CC_FONTES = FONTES_BASE / "cc"
+
+OUTPUT_BASE = FENICE_BASE
 
 LEIS_NACIONAIS = {
     "L10406": {

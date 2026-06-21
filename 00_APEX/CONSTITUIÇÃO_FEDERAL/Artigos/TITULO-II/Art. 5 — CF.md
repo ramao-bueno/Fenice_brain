@@ -5,13 +5,16 @@ titulo_cf: TITULO-II
 parte: Dos Direitos e Garantias Fundamentais
 status: vigente
 cf88: true
+emendas: []
+planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-ii
+- art-5
 - direitos-fundamentais
-created: '2026-06-06'
+created: '2026-06-21'
 ---
 
 # CF/88 Art. 5 — Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros res
@@ -19,12 +22,13 @@ created: '2026-06-06'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-II — Dos Direitos e Garantias Fundamentais
 **Status:** VIGENTE
+**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5)
 
 ---
 
 ## REDACAO LEGAL
 
-> Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição; II - ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei; III - ninguém será submetido a tortura nem a tratamento desumano ou degradante; IV - é livre a manifestação do pensamento, sendo vedado o anonimato; V - é assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem; VI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias; VII - é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva; VIII - ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei; IX - é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença; X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação; XI - a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial; (Vide Lei nº 13.105, de 2015) (Vigência) XII - é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judi
+> Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição; II - ninguém será obrigado a fazer ou deixar de fazer alguma...
 
 ---
 
@@ -50,15 +54,29 @@ created: '2026-06-06'
 - [[Art. 4 — CF]] — artigo anterior
 - [[Art. 6 — CF]] — artigo seguinte
 
-### Legislação Derivada
-[Leis ordinárias que regulamentam este artigo]
+### Legislação derivada
+- [[L13105 Art. 1]] — constitucionalização do processo (CPC)
+- [[DEL2848 Art. 1]] — princípio da legalidade penal
+- [[L13105 Art. 1]] — interpretação conforme CF (CPC art. 1°)
 
 ---
 
 ## JURISPRUDENCIA STF
 
-### Teses e Precedentes
-[Precedentes do STF sobre este artigo]
+- STF — Súmula Vinculante 11: o uso de algemas só é admitido em situações excecionais de resistência, fuga ou risco à integridade; o desrespeito gera nulidade do ato e responsabilidade da autoridade.
+- STF — Súmula Vinculante 14: é direito do defensor ter acesso a todos os elementos de informação já documentados em procedimento investigatório que recaiam sobre o interesse do representado.
+- STF — ADI 3.510: direitos fundamentais podem ser expandidos mas não reduzidos pelo legislador infraconstitucional (proibição de retrocesso).
+- STF — A teoria da eficácia horizontal dos direitos fundamentais: os direitos do art. 5° vinculam também os particulares em relações privadas.
+
+[Conferir atualização: STF — Teses de Repercussão Geral; Súmulas Vinculantes]
+
+---
+
+## OBSERVACOES PRATICAS
+
+- **Peticionamento/Autor:** Ao invocar direito fundamental, indicar o inciso específico do art. 5° e a eficácia da norma (plena, contida ou limitada); no STF, demonstrar que houve violação direta da CF, não apenas de lei.
+- **Defesa/Estado:** Arguir proporcionalidade e razoabilidade quando o Estado restringir direito fundamental; demonstrar que a medida é necessária, adequada e proporcional em sentido estrito.
+- **Prática:** Habeas Corpus (art. 5°, LXVIII): remédio para liberdade de locomoção; Mandado de Segurança (LXIX): para direito líquido e certo não amparado por HC. Ambos têm prazo decadencial de 120 dias.
 
 ---
 
@@ -68,5 +86,5 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
+**Última atualização:** 2026-06-21
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5)

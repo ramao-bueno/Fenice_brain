@@ -13,7 +13,7 @@ tags:
 - art-14
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 14 — Art. 14
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> . Para a consolidação de que trata o art. 13 serão observados os seguintes procedimentos:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei Complementar nº 107, de 26.4.2001) I - os órgãos diretamente subordinados à Presidência da República e os Ministérios, no prazo de cento e oitenta dias, contado da vigência desta Lei Complementar, procederão ao exame, triagem e seleção das leis complementares, delegadas, ordinárias e decretos-leis relacionados com as respectivas áreas de competência, agru
+> . Para a consolidaÃ§Ã£o de que trata o art. 13 serÃ£o observados os seguintes procedimentos:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (RedaÃ§Ã£o dada pela Lei Complementar nÂº 107, de 26.4.2001) I - os Ã³rgÃ£os diretamente subordinados Ã PresidÃªncia da RepÃºblica e os MinistÃ©rios, no prazo de cento e oitenta dias, contado da vigÃªncia desta Lei Complementar, procederÃ£o ao exame, triagem e seleÃ§Ã£o das leis complementares, delegadas, ordinÃ¡rias e decretos-leis relacionados com as respectivas Ã¡reas de
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,28 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 13]] — artigo anterior
 - [[LCP95 Art. 15]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+- STJ — Tese: a responsabilidade do fornecedor de serviços (art. 14) é objetiva; exclui-se apenas por culpa exclusiva do consumidor, fato de terceiro ou caso fortuito externo.
+- STJ — Súmula 221: são civilmente responsáveis pelo ressarcimento de dano, decorrente de publicação pela imprensa, tanto o autor do escrito quanto o proprietário do veículo de divulgação.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+- **Autor/Consumidor:** Demonstrar o defeito do serviço (falha na execução ou inadequação ao fim esperado), o dano e o nexo causal; na responsabilidade objetiva, não é necessário provar culpa.
+- **Réu/Fornecedor:** Provar culpa exclusiva do consumidor, caso fortuito externo ou fato de terceiro. A culpa concorrente do consumidor reduz a indenização proporcionalmente (art. 12, §3° por analogia).
+- **Prática:** Dano moral nas relações de consumo: é in re ipsa em casos de negativação indevida, cobranças vexatórias e recusas de atendimento emergencial. O valor deve ser fixado com caráter pedagógico e não resultar em enriquecimento sem causa.
+
+---
+
+**Última atualização:** 2026-06-21

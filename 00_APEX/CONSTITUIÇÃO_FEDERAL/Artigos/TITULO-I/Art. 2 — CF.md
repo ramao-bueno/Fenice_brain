@@ -5,13 +5,16 @@ titulo_cf: TITULO-I
 parte: Dos Princípios Fundamentais
 status: vigente
 cf88: true
+emendas: []
+planalto_url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art2
 tags:
 - cf88
 - constituicao
 - vigente
 - titulo-i
+- art-2
 - principios-fundamentais
-created: '2026-06-06'
+created: '2026-06-21'
 ---
 
 # CF/88 Art. 2 — São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário
@@ -19,6 +22,7 @@ created: '2026-06-06'
 **Lei:** Constituição Federal de 1988
 **Título:** TITULO-I — Dos Princípios Fundamentais
 **Status:** VIGENTE
+**Planalto:** [Texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art2)
 
 ---
 
@@ -50,15 +54,20 @@ created: '2026-06-06'
 - [[Art. 1 — CF]] — artigo anterior
 - [[Art. 3 — CF]] — artigo seguinte
 
-### Legislação Derivada
-[Leis ordinárias que regulamentam este artigo]
+### Legislação derivada
+- [[L13105 Art. 1]] — interpretação conforme CF (CPC art. 1°)
 
 ---
 
 ## JURISPRUDENCIA STF
 
-### Teses e Precedentes
-[Precedentes do STF sobre este artigo]
+[Conferir atualização: STF — Teses de Repercussão Geral; Súmulas Vinculantes]
+
+---
+
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática constitucional — preencher com experiência do caso concreto]
 
 ---
 
@@ -68,5 +77,5 @@ created: '2026-06-06'
 
 ---
 
-**Última atualização:** 2026-06-06
-**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
+**Última atualização:** 2026-06-21
+**Fonte oficial:** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art2)

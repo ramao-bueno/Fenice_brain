@@ -13,7 +13,7 @@ tags:
 - art-9
 - processo-legislativo
 - lcp95
-created: '2026-06-07'
+created: '2026-06-21'
 ---
 
 # LCP95 Art. 9 — Art. 9
@@ -26,7 +26,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> o A cláusula de revogação deverá enumerar, expressamente, as leis ou disposições legais revogadas.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei Complementar nº 107, de 26.4.2001) Parágrafo único. (VETADO)&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei Complementar nº 107, de 26.4.2001) Seção II Da Articulação e da Redação das Leis
+> o A clÃ¡usula de revogaÃ§Ã£o deverÃ¡ enumerar, expressamente, as leis ou disposiÃ§Ãµes legais revogadas.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (RedaÃ§Ã£o dada pela Lei Complementar nÂº 107, de 26.4.2001) ParÃ¡grafo Ãºnico. (VETADO)&nbsp;&nbsp;&nbsp;&nbsp; (IncluÃ­do pela Lei Complementar nÂº 107, de 26.4.2001) SeÃ§Ã£o II Da ArticulaÃ§Ã£o e da RedaÃ§Ã£o das Leis
 
 ---
 
@@ -37,9 +37,9 @@ created: '2026-06-07'
 [Síntese do conteúdo normativo do artigo]
 
 ### Co-dependência normativa
+
 [Esta regra depende de qual outro instrumento — qual artigo da CF/88 esta ação
-regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
-`atomizar-juridico` para mapeamento relacional completo]
+regulamenta? Como se relaciona com o CPC (rito subsidiário)?]
 
 ---
 
@@ -49,17 +49,23 @@ regulamenta? Como se relaciona com o CPC (rito subsidiário)? Ver
 - [[LCP95 Art. 8]] — artigo anterior
 - [[LCP95 Art. 10]] — artigo seguinte
 
-### Outros remédios/ações constitucionais
-[Ligar aqui dispositivos correlatos — MS, HD, Ação Popular, ADI/ADC/ADPF e
-Mandado de Injunção frequentemente se cruzam na prática do controle de
-constitucionalidade e da tutela de direitos fundamentais]
+### Outros ramos
+- [[CF88 Art. 5]] — direitos fundamentais do consumidor
+- [[L10406 Art. 186]] — responsabilidade civil (CC)
+- [[L13105 Art. 373]] — inversão do ônus da prova (CPC)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF sobre este artigo — área de intensa formação jurisprudencial]
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
-**Última atualização:** 2026-06-07
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense — preencher com experiência do caso concreto]
+
+---
+
+**Última atualização:** 2026-06-21

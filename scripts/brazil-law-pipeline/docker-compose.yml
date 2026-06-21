@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: fenice_planalto_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-fenice_brain}
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-fenice_brain}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pipeline:
+    build: .
+    container_name: fenice_planalto_pipeline
+    restart: "no"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_NAME: ${DB_NAME:-fenice_brain}
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASS: ${DB_PASS}
+      DB_PORT: ${DB_PORT:-5432}
+      PIPELINE_ANO: ${PIPELINE_ANO:-2026}
+    volumes:
+      - ./src:/app/src:ro
+      - cache_planalto:/app/_cache_planalto
+
+volumes:
+  postgres_data:
+  cache_planalto:

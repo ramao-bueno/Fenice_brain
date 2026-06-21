@@ -125,6 +125,9 @@ def parsear_lei(caminho_html: Path) -> Dict:
       <s>...</s>      → texto revogado/riscado
       <strike>...</strike> → idem (formato antigo)
       <del>...</del>  → idem (padrão HTML5)
+
+    Extrai também a ementa da lei (campo "ementa") e corrige o campo "ano"
+    a partir do path do cache (ex: _ato2019-2022/2021/lei/l14133.htm).
     """
     html = caminho_html.read_text(encoding="utf-8", errors="replace")
     soup = BeautifulSoup(html, "html.parser")
@@ -134,10 +137,13 @@ def parsear_lei(caminho_html: Path) -> Dict:
 
     # Extrai número e ano do título, URL ou nome do arquivo
     num_lei = _extrair_numero_lei(titulo, caminho_html.stem)
-    # Tenta extrair o ano do caminho (ex: _ato2019-2022/2021/lei/l14133.htm)
+    # Extrai o ano do path do cache (ex: _ato2019-2022/2021/lei/l14133.htm)
     caminho_str = str(caminho_html)
-    m_ano_path = re.search(r"[/\\](\d{4})[/\\]lei[/\\]", caminho_str)
+    m_ano_path = re.search(r"[/\\](\d{4})[/\\]", caminho_str)
     ano_lei = m_ano_path.group(1) if m_ano_path else _extrair_ano(titulo, caminho_html.stem)
+
+    # Extrai ementa antes de modificar o DOM com decompose()
+    ementa = _extrair_ementa(soup, titulo)
 
     texto_vigente_blocos: List[str] = []
     fragmentos_revogados: List[str] = []
@@ -171,11 +177,53 @@ def parsear_lei(caminho_html: Path) -> Dict:
         "titulo": titulo,
         "numero": num_lei,
         "ano": ano_lei,
+        "ementa": ementa,
         "texto_vigente": "\n\n".join(vigente_unico),
         "fragmentos_revogados": fragmentos_revogados,
         "url_origem": f"{PLANALTO_BASE}/ccivil_03/leis/{ano_lei}/L{num_lei}.htm",
         "ultima_atualizacao": datetime.now().strftime("%Y-%m-%d"),
     }
+
+
+def _extrair_ementa(soup: BeautifulSoup, titulo: str) -> str:
+    """
+    Extrai a ementa da lei pelo HTML do Planalto.
+
+    Estratégias (em ordem de prioridade):
+      1. Elemento com classe contendo "ementa"
+      2. Primeiro <p> longo antes do "Art. 1º"
+      3. Primeiro <p> começando com verbo legislativo típico
+      4. Título como fallback
+    """
+    # Estratégia 1: classe "ementa" (div ou p)
+    for tag in soup.find_all(True, class_=True):
+        classes = " ".join(tag.get("class", [])).lower()
+        if "ementa" in classes:
+            txt = tag.get_text(separator=" ", strip=True)
+            txt = re.sub(r"\s+", " ", txt).strip()
+            if txt and len(txt) > 20:
+                return txt
+
+    # Estratégia 2: primeiro <p> longo antes de "Art. 1"
+    corpo = soup.find("body") or soup
+    for p in corpo.find_all("p"):
+        txt = p.get_text(separator=" ", strip=True)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if re.search(r"Art\.\s*1[oº°]?\b", txt):
+            break
+        if len(txt) > 80 and not re.match(r"^(Lei|Decreto|Medida)\s+n", txt, re.I):
+            return txt
+
+    # Estratégia 3: <p> começando com verbo legislativo típico
+    for p in corpo.find_all("p"):
+        txt = p.get_text(separator=" ", strip=True)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if re.match(r"(Disp[oõ]e|Institui|Estabelece|Cria|Altera|Regulamenta)", txt):
+            if len(txt) > 30:
+                return txt
+
+    # Fallback: título
+    return titulo
 
 
 def _extrair_numero_lei(titulo: str, stem: str) -> str:
@@ -263,6 +311,7 @@ def gerar_nota_lei(dados: Dict) -> str:
     num = dados["numero"]
     ano = dados["ano"]
     titulo = dados["titulo"]
+    ementa = dados.get("ementa", titulo)
     vigente = dados["texto_vigente"][:5000]  # trunca para nota enxuta
     revogados = dados["fragmentos_revogados"]
 
@@ -279,6 +328,7 @@ ano: '{ano}'
 tipo: lei-federal
 status: vigente
 url_origem: "{dados['url_origem']}"
+ementa: "{ementa.replace('"', "'")}"
 fragmentos_revogados: {n_revogados}
 relacionados: []
 tags:
@@ -293,6 +343,9 @@ created: '{dados['ultima_atualizacao']}'
 **Lei Federal {num}/{ano}**
 **Fonte:** [Planalto]({dados['url_origem']})
 **Última atualização:** {dados['ultima_atualizacao']}
+
+> [!ABSTRACT] Ementa
+> {ementa}
 {aviso_revogados}
 ---
 

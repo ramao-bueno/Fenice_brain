@@ -1,6 +1,6 @@
 ---
 artigo: "3"
-titulo: ""-A."
+titulo: "'-A."
 grupo: "Lei 8906/94"
 tags:
   - art-3

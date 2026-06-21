@@ -1,6 +1,6 @@
 ---
 artigo: "7"
-titulo: ""-B"
+titulo: "'-B"
 grupo: "Lei 8906/94"
 tags:
   - art-7

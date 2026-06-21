@@ -2,8 +2,8 @@
 artigo: "1414"
 nomen: "Art. 1414"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "VIII — Da Habitação" if c['titulo'] else ""
+livro: "III — "
+titulo: "VIII — Da Habitação"
 capitulo: ""
 secao: ""
 disciplina: civil

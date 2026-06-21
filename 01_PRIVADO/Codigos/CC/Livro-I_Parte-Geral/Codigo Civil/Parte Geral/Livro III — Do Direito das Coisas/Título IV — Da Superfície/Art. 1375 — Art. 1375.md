@@ -2,8 +2,8 @@
 artigo: "1375"
 nomen: "Art. 1375"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "IV — Da Superfície" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "IV — Da Superfície"
 capitulo: ""
 secao: ""
 disciplina: civil

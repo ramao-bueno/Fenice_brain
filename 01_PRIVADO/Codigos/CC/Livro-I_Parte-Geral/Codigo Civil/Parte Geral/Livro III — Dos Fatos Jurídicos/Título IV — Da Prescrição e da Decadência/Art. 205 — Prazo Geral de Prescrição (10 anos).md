@@ -2,8 +2,8 @@
 artigo: "205"
 nomen: "Prazo Geral de Prescrição (10 anos)"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "IV — Da Prescrição e da Decadência" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "IV — Da Prescrição e da Decadência"
 capitulo: "Da Prescrição"
 secao: "Dos Prazos da Prescrição"
 disciplina: civil

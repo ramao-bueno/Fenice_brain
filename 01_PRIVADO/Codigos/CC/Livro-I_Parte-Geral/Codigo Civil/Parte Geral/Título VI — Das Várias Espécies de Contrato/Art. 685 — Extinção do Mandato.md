@@ -2,8 +2,8 @@
 artigo: "685"
 nomen: "Extinção do Mandato"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Do Mandato"
 secao: "Da Extinção do Mandato"
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "277"
 nomen: "Solidariedade Passiva"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "I — "
+titulo: "I — "
 capitulo: ""
 secao: "Da Solidariedade Passiva"
 disciplina: civil

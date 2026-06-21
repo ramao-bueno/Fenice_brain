@@ -2,8 +2,8 @@
 artigo: "2025"
 nomen: "Garantia dos Quinhões Hereditários"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Da Garantia dos Quinhões Hereditários"
 secao: ""
 disciplina: civil

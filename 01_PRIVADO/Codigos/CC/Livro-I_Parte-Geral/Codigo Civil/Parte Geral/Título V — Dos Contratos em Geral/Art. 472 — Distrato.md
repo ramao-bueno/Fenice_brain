@@ -2,8 +2,8 @@
 artigo: "472"
 nomen: "Distrato"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Da Extinção do Contrato"
 secao: "Do Distrato"
 disciplina: civil

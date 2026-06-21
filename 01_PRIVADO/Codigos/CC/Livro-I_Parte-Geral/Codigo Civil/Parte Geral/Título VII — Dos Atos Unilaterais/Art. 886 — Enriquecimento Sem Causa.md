@@ -2,8 +2,8 @@
 artigo: "886"
 nomen: "Enriquecimento Sem Causa"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VII — Dos Atos Unilaterais" if c['titulo'] else ""
+livro: "I — "
+titulo: "VII — Dos Atos Unilaterais"
 capitulo: "Do Enriquecimento Sem Causa"
 secao: ""
 disciplina: civil

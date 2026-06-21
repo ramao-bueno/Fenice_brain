@@ -2,8 +2,8 @@
 artigo: "365"
 nomen: "Novação"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "III — Do Adimplemento e Extinção das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "III — Do Adimplemento e Extinção das Obrigações"
 capitulo: "Da Novação"
 secao: ""
 disciplina: civil

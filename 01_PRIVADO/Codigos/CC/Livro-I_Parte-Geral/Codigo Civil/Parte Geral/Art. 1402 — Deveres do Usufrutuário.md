@@ -2,8 +2,8 @@
 artigo: "1402"
 nomen: "Deveres do Usufrutuário"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "III — "
+titulo: "VI — "
 capitulo: "Dos Deveres do Usufrutuário"
 secao: ""
 disciplina: civil

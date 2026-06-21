@@ -2,8 +2,8 @@
 artigo: "1948"
 nomen: "Substituição Vulgar e da Recíproca"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Das Substituições"
 secao: "Da Substituição Vulgar e da Recíproca"
 disciplina: civil

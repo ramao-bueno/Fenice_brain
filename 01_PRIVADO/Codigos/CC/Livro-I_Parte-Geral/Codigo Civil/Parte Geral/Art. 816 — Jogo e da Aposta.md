@@ -2,8 +2,8 @@
 artigo: "816"
 nomen: "Jogo e da Aposta"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Do Jogo e da Aposta"
 secao: ""
 disciplina: civil

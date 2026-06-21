@@ -2,8 +2,8 @@
 artigo: "971"
 nomen: "Caracterização e da Inscrição"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "I — Do Empresário" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "I — Do Empresário"
 capitulo: "Da Caracterização e da Inscrição"
 secao: ""
 disciplina: civil

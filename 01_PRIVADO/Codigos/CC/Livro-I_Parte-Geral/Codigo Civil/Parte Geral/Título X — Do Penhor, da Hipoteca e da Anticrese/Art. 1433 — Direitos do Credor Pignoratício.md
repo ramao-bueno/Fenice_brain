@@ -2,8 +2,8 @@
 artigo: "1433"
 nomen: "Direitos do Credor Pignoratício"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Do Penhor"
 secao: "Dos Direitos do Credor Pignoratício"
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1586"
 nomen: "Proteção da Pessoa dos Filhos"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Da Proteção da Pessoa dos Filhos"
 secao: ""
 disciplina: civil

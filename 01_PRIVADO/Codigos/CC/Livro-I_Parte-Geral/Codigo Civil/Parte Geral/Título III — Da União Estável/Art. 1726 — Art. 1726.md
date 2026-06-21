@@ -2,8 +2,8 @@
 artigo: "1726"
 nomen: "Art. 1726"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "III — Da União Estável" if c['titulo'] else ""
+livro: "IV — "
+titulo: "III — Da União Estável"
 capitulo: ""
 secao: ""
 disciplina: civil

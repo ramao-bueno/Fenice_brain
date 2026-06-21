@@ -2,8 +2,8 @@
 artigo: "1857"
 nomen: "Testamento — Liberdade de Testar"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Do Testamento Em Geral"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1546"
 nomen: "Provas do Casamento"
 parte: "Parte Geral"
-livro: "IV — Do Direito de Família" if c['livro'] else ""
-titulo: "I — Do Direito Pessoal" if c['titulo'] else ""
+livro: "IV — Do Direito de Família"
+titulo: "I — Do Direito Pessoal"
 capitulo: "Das Provas do Casamento"
 secao: ""
 disciplina: civil

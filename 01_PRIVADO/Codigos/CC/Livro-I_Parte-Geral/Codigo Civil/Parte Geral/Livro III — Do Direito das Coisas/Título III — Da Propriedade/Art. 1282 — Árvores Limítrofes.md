@@ -2,8 +2,8 @@
 artigo: "1282"
 nomen: "Árvores Limítrofes"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Dos Direitos de Vizinhança"
 secao: "Das Árvores Limítrofes"
 disciplina: civil

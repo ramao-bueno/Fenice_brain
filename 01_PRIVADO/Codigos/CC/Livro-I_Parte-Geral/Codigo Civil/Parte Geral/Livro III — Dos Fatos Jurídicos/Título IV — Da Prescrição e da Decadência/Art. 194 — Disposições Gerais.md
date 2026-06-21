@@ -2,8 +2,8 @@
 artigo: "194"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "IV — Da Prescrição e da Decadência" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "IV — Da Prescrição e da Decadência"
 capitulo: "Da Prescrição"
 secao: "Disposições Gerais"
 disciplina: civil

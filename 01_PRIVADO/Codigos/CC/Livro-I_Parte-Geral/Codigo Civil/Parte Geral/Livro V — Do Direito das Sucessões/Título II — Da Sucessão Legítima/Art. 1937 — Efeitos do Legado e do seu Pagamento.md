@@ -2,8 +2,8 @@
 artigo: "1937"
 nomen: "Efeitos do Legado e do seu Pagamento"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Legados"
 secao: "Dos Efeitos do Legado e do seu Pagamento"
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1431"
 nomen: "Constituição do Penhor"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Do Penhor"
 secao: "Da Constituição do Penhor"
 disciplina: civil

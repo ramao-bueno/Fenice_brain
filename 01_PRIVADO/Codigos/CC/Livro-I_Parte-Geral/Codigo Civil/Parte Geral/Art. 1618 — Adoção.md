@@ -2,8 +2,8 @@
 artigo: "1618"
 nomen: "Adoção"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Da Adoção"
 secao: ""
 disciplina: civil

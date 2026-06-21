@@ -2,8 +2,8 @@
 artigo: "712"
 nomen: "Agência e Distribuição"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Da Agência e Distribuição"
 secao: ""
 disciplina: civil

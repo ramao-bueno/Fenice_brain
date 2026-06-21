@@ -2,8 +2,8 @@
 artigo: "227"
 nomen: "Art. 227"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "V — Da Prova" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "V — Da Prova"
 capitulo: ""
 secao: ""
 disciplina: civil

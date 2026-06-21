@@ -2,8 +2,8 @@
 artigo: "1991"
 nomen: "Inventário"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Do Inventário"
 secao: ""
 disciplina: civil

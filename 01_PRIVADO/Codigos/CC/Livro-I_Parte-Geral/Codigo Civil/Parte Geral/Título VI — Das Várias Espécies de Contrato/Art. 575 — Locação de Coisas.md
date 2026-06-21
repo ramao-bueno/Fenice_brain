@@ -2,8 +2,8 @@
 artigo: "575"
 nomen: "Locação de Coisas"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Da Locação de Coisas"
 secao: ""
 disciplina: civil

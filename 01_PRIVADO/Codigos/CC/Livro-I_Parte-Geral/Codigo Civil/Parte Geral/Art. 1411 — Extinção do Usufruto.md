@@ -2,8 +2,8 @@
 artigo: "1411"
 nomen: "Extinção do Usufruto"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "III — "
+titulo: "VI — "
 capitulo: "Da Extinção do Usufruto"
 secao: ""
 disciplina: civil

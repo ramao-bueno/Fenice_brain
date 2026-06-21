@@ -2,8 +2,8 @@
 artigo: "66"
 nomen: "Fundações"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "II — Das Pessoas Jurídicas" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "II — Das Pessoas Jurídicas"
 capitulo: "Das Fundações"
 secao: ""
 disciplina: civil

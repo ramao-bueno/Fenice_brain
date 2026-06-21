@@ -2,8 +2,8 @@
 artigo: "6"
 nomen: "Morte e Morte Presumida"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "I — Das Pessoas Naturais" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "I — Das Pessoas Naturais"
 capitulo: "Da Personalidade E Da Capacidade"
 secao: ""
 disciplina: civil

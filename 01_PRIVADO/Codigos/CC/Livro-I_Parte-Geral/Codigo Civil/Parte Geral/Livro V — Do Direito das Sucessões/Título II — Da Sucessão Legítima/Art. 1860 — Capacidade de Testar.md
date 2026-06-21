@@ -2,8 +2,8 @@
 artigo: "1860"
 nomen: "Capacidade de Testar"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Da Capacidade de Testar"
 secao: ""
 disciplina: civil

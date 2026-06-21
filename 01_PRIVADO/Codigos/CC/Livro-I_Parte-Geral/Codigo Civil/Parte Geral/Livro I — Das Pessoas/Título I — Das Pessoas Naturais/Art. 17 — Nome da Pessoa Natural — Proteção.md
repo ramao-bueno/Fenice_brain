@@ -2,8 +2,8 @@
 artigo: "17"
 nomen: "Nome da Pessoa Natural — Proteção"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "I — Das Pessoas Naturais" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "I — Das Pessoas Naturais"
 capitulo: "Dos Direitos Da Personalidade"
 secao: ""
 disciplina: civil

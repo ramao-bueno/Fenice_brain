@@ -2,8 +2,8 @@
 artigo: "868"
 nomen: "Gestão de Negócios"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VII — Dos Atos Unilaterais" if c['titulo'] else ""
+livro: "I — "
+titulo: "VII — Dos Atos Unilaterais"
 capitulo: "Da Gestão de Negócios"
 secao: ""
 disciplina: civil

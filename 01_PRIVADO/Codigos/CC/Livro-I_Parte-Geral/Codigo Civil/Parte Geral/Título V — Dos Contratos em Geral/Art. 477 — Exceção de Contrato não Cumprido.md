@@ -2,8 +2,8 @@
 artigo: "477"
 nomen: "Exceção de Contrato não Cumprido"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Da Extinção do Contrato"
 secao: "Da Exceção de Contrato não Cumprido"
 disciplina: civil

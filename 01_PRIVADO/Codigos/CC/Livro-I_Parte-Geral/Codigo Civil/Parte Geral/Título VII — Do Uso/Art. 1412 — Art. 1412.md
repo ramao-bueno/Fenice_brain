@@ -2,8 +2,8 @@
 artigo: "1412"
 nomen: "Art. 1412"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "VII — Do Uso" if c['titulo'] else ""
+livro: "III — "
+titulo: "VII — Do Uso"
 capitulo: ""
 secao: ""
 disciplina: civil

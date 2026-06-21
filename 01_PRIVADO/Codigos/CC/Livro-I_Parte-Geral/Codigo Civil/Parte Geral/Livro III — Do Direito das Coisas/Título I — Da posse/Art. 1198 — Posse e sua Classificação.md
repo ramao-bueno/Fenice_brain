@@ -2,8 +2,8 @@
 artigo: "1198"
 nomen: "Posse e sua Classificação"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "I — Da posse" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "I — Da posse"
 capitulo: "Da Posse e sua Classificação"
 secao: ""
 disciplina: civil

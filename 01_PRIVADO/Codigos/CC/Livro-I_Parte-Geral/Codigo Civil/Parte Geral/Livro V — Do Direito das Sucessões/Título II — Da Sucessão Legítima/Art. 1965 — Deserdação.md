@@ -2,8 +2,8 @@
 artigo: "1965"
 nomen: "Deserdação"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Da Deserdação"
 secao: ""
 disciplina: civil

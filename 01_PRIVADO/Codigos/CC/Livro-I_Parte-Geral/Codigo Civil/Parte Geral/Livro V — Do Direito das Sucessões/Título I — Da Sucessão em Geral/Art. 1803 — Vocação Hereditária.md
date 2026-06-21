@@ -2,8 +2,8 @@
 artigo: "1803"
 nomen: "Vocação Hereditária"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "I — Da Sucessão em Geral" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "I — Da Sucessão em Geral"
 capitulo: "Da Vocação Hereditária"
 secao: ""
 disciplina: civil

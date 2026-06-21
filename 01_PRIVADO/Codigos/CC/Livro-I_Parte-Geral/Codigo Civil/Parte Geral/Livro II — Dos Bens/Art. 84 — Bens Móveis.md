@@ -2,8 +2,8 @@
 artigo: "84"
 nomen: "Bens Móveis"
 parte: "Parte Geral"
-livro: "II — Dos Bens" if c['livro'] else ""
-titulo: " — " if c['titulo'] else ""
+livro: "II — Dos Bens"
+titulo: " — "
 capitulo: "Dos Bens Considerados em Si Mesmos"
 secao: "Dos Bens Móveis"
 disciplina: civil

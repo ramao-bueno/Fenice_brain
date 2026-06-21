@@ -2,8 +2,8 @@
 artigo: "1224"
 nomen: "Perda da Posse"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "I — Da posse" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "I — Da posse"
 capitulo: "Da Perda da Posse"
 secao: ""
 disciplina: civil

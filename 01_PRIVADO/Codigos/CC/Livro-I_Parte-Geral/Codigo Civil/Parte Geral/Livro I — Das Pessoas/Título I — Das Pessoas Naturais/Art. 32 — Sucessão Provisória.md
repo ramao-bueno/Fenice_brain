@@ -2,8 +2,8 @@
 artigo: "32"
 nomen: "Sucessão Provisória"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "I — Das Pessoas Naturais" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "I — Das Pessoas Naturais"
 capitulo: "Da Ausência"
 secao: "Da Sucessão Provisória"
 disciplina: civil

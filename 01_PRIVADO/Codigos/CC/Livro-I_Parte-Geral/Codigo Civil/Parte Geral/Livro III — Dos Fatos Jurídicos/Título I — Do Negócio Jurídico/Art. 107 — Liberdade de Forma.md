@@ -2,8 +2,8 @@
 artigo: "107"
 nomen: "Liberdade de Forma"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "I — Do Negócio Jurídico" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "I — Do Negócio Jurídico"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

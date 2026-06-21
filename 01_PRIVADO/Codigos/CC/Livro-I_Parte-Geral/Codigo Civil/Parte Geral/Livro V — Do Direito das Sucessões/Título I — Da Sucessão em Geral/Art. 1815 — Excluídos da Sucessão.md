@@ -2,8 +2,8 @@
 artigo: "1815"
 nomen: "Excluídos da Sucessão"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "I — Da Sucessão em Geral" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "I — Da Sucessão em Geral"
 capitulo: "Dos Excluídos da Sucessão"
 secao: ""
 disciplina: civil

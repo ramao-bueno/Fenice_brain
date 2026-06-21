@@ -2,8 +2,8 @@
 artigo: "1444"
 nomen: "Penhor Rural"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Do Penhor"
 secao: "Do Penhor Rural"
 disciplina: civil

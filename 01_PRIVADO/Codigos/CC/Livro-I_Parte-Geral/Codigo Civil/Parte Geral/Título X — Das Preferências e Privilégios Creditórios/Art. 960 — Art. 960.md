@@ -2,8 +2,8 @@
 artigo: "960"
 nomen: "Art. 960"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "X — Das Preferências e Privilégios Creditórios" if c['titulo'] else ""
+livro: "I — "
+titulo: "X — Das Preferências e Privilégios Creditórios"
 capitulo: ""
 secao: ""
 disciplina: civil

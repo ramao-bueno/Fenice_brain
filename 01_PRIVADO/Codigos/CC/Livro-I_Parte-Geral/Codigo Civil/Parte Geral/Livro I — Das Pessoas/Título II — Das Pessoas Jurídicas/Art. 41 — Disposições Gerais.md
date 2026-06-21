@@ -2,8 +2,8 @@
 artigo: "41"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "II — Das Pessoas Jurídicas" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "II — Das Pessoas Jurídicas"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

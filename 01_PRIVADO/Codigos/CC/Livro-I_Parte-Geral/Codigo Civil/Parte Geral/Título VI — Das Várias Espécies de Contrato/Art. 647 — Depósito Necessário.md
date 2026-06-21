@@ -2,8 +2,8 @@
 artigo: "647"
 nomen: "Depósito Necessário"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Do Depósito"
 secao: "Do Depósito Necessário"
 disciplina: civil

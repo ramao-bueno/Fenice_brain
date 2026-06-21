@@ -2,8 +2,8 @@
 artigo: "1939"
 nomen: "Caducidade dos Legados"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Legados"
 secao: "Da Caducidade dos Legados"
 disciplina: civil

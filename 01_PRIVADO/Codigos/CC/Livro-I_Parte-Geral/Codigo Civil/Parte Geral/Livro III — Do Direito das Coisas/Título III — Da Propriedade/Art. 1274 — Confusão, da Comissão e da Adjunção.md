@@ -2,8 +2,8 @@
 artigo: "1274"
 nomen: "Confusão, da Comissão e da Adjunção"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Da Aquisição da Propriedade Móvel"
 secao: "Da Confusão, da Comissão e da Adjunção"
 disciplina: civil

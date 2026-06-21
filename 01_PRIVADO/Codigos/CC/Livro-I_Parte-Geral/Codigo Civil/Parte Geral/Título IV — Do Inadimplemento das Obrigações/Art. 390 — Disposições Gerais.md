@@ -2,8 +2,8 @@
 artigo: "390"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IV — Do Inadimplemento das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "IV — Do Inadimplemento das Obrigações"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1145"
 nomen: "Art. 1145"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "III — Do Estabelecimento" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "III — Do Estabelecimento"
 capitulo: ""
 secao: ""
 disciplina: civil

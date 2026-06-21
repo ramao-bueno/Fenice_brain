@@ -2,8 +2,8 @@
 artigo: "1392"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "VI — Do Usufruto" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "VI — Do Usufruto"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

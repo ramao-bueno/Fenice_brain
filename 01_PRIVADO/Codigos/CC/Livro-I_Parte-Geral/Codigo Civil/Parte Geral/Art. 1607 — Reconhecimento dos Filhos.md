@@ -2,8 +2,8 @@
 artigo: "1607"
 nomen: "Reconhecimento dos Filhos"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Do Reconhecimento dos Filhos"
 secao: ""
 disciplina: civil

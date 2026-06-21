@@ -2,8 +2,8 @@
 artigo: "1671"
 nomen: "Regime de Comunhão Universal"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "II — Do Direito Patrimonial" if c['titulo'] else ""
+livro: "IV — "
+titulo: "II — Do Direito Patrimonial"
 capitulo: "Do Regime de Comunhão Universal"
 secao: ""
 disciplina: civil

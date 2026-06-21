@@ -2,8 +2,8 @@
 artigo: "2046"
 nomen: "Anulação da Partilha"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Da Anulação da Partilha"
 secao: ""
 disciplina: civil

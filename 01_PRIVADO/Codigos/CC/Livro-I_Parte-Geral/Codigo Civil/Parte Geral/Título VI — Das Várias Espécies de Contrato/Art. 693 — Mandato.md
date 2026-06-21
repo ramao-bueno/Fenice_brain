@@ -2,8 +2,8 @@
 artigo: "693"
 nomen: "Mandato"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Da Comissão"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1074"
 nomen: "Deliberações dos Sócios"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "II — Da Sociedade" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "II — Da Sociedade"
 capitulo: "Da Sociedade Limitada"
 secao: "Das Deliberações dos Sócios"
 disciplina: civil

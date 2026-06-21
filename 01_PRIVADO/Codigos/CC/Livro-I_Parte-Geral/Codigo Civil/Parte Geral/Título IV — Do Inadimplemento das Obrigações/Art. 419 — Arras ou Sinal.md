@@ -2,8 +2,8 @@
 artigo: "419"
 nomen: "Arras ou Sinal"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IV — Do Inadimplemento das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "IV — Do Inadimplemento das Obrigações"
 capitulo: "Das Arras ou Sinal"
 secao: ""
 disciplina: civil

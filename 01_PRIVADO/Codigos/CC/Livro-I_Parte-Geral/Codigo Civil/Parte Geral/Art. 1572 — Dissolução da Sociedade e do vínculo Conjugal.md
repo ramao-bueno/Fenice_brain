@@ -2,8 +2,8 @@
 artigo: "1572"
 nomen: "Dissolução da Sociedade e do vínculo Conjugal"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Da Dissolução da Sociedade e do vínculo Conjugal"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1596"
 nomen: "Filiação — Igualdade"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Da Filiação"
 secao: ""
 disciplina: civil

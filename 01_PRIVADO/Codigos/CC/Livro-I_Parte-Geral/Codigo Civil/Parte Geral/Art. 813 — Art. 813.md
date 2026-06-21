@@ -2,8 +2,8 @@
 artigo: "813"
 nomen: "Art. 813"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: ""
 secao: ""
 disciplina: civil

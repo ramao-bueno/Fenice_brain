@@ -2,8 +2,8 @@
 artigo: "424"
 nomen: "Contrato de Adesão"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Disposições Gerais"
 secao: "Preliminares"
 disciplina: civil

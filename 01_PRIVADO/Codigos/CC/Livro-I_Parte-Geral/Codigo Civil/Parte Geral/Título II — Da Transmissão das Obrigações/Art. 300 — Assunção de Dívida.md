@@ -2,8 +2,8 @@
 artigo: "300"
 nomen: "Assunção de Dívida"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "II — Da Transmissão das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "II — Da Transmissão das Obrigações"
 capitulo: "Da Assunção de Dívida"
 secao: ""
 disciplina: civil

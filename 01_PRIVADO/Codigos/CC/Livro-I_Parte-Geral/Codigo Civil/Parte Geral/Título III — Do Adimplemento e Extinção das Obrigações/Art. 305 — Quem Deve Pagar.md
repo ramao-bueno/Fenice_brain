@@ -2,8 +2,8 @@
 artigo: "305"
 nomen: "Quem Deve Pagar"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "III — Do Adimplemento e Extinção das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "III — Do Adimplemento e Extinção das Obrigações"
 capitulo: "Do Pagamento"
 secao: "De Quem Deve Pagar"
 disciplina: civil

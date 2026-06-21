@@ -2,8 +2,8 @@
 artigo: "851"
 nomen: "Compromisso"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Do Compromisso"
 secao: ""
 disciplina: civil

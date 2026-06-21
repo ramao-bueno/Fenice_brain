@@ -2,8 +2,8 @@
 artigo: "756"
 nomen: "Transporte de Coisas"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Do Transporte"
 secao: "Do Transporte de Coisas"
 disciplina: civil

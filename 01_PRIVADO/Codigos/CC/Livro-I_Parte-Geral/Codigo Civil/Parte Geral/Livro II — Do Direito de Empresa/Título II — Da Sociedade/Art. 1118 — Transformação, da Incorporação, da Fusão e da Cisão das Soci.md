@@ -2,8 +2,8 @@
 artigo: "1118"
 nomen: "Transformação, da Incorporação, da Fusão e da Cisão das Soci"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "II — Da Sociedade" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "II — Da Sociedade"
 capitulo: "Da Transformação, da Incorporação, da Fusão e da Cisão das Sociedades"
 secao: ""
 disciplina: civil

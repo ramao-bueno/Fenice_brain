@@ -2,8 +2,8 @@
 artigo: "839"
 nomen: "Extinção da Fiança"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Da Fiança"
 secao: "Da Extinção da Fiança"
 disciplina: civil

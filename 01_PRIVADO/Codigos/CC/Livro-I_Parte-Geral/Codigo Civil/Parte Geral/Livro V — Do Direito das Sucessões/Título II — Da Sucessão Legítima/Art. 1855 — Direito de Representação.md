@@ -2,8 +2,8 @@
 artigo: "1855"
 nomen: "Direito de Representação"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Do Direito de Representação"
 secao: ""
 disciplina: civil

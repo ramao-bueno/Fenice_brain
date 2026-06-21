@@ -2,8 +2,8 @@
 artigo: "405"
 nomen: "Perdas e Danos"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IV — Do Inadimplemento das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "IV — Do Inadimplemento das Obrigações"
 capitulo: "Das Perdas e Danos"
 secao: ""
 disciplina: civil

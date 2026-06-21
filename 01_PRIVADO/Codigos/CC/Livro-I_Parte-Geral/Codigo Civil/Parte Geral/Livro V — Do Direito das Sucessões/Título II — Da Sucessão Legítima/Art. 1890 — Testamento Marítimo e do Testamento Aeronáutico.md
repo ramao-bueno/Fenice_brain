@@ -2,8 +2,8 @@
 artigo: "1890"
 nomen: "Testamento Marítimo e do Testamento Aeronáutico"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Testamentos Especiais"
 secao: "Do Testamento Marítimo e do Testamento Aeronáutico"
 disciplina: civil

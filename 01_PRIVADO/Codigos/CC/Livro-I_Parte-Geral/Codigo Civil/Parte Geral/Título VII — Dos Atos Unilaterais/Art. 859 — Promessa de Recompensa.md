@@ -2,8 +2,8 @@
 artigo: "859"
 nomen: "Promessa de Recompensa"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VII — Dos Atos Unilaterais" if c['titulo'] else ""
+livro: "I — "
+titulo: "VII — Dos Atos Unilaterais"
 capitulo: "Da Promessa de Recompensa"
 secao: ""
 disciplina: civil

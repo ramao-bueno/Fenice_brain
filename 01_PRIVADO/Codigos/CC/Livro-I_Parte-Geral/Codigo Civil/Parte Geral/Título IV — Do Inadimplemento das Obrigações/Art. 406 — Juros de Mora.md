@@ -2,8 +2,8 @@
 artigo: "406"
 nomen: "Juros de Mora"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IV — Do Inadimplemento das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "IV — Do Inadimplemento das Obrigações"
 capitulo: "Dos Juros Legais"
 secao: ""
 disciplina: civil

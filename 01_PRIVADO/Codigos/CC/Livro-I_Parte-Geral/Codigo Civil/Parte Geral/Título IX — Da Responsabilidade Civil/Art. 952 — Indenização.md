@@ -2,8 +2,8 @@
 artigo: "952"
 nomen: "Indenização"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IX — Da Responsabilidade Civil" if c['titulo'] else ""
+livro: "I — "
+titulo: "IX — Da Responsabilidade Civil"
 capitulo: "Da Indenização"
 secao: ""
 disciplina: civil

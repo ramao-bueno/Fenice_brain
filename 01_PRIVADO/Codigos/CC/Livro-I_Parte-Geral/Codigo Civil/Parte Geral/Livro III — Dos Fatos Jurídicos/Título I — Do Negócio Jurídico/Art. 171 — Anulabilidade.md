@@ -2,8 +2,8 @@
 artigo: "171"
 nomen: "Anulabilidade"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "I — Do Negócio Jurídico" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "I — Do Negócio Jurídico"
 capitulo: "Da Invalidade do Negócio Jurídico"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1210"
 nomen: "Interditos Possessórios"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "I — Da posse" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "I — Da posse"
 capitulo: "Dos Efeitos da Posse"
 secao: ""
 disciplina: civil

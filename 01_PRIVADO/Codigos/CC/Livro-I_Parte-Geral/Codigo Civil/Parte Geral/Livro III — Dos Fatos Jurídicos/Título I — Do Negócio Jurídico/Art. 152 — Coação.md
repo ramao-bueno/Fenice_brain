@@ -2,8 +2,8 @@
 artigo: "152"
 nomen: "Coação"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "I — Do Negócio Jurídico" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "I — Do Negócio Jurídico"
 capitulo: "Dos Defeitos do Negócio Jurídico"
 secao: "Da Coação"
 disciplina: civil

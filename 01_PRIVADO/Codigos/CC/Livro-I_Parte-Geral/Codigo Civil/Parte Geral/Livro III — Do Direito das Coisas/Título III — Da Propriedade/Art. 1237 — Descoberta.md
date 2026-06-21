@@ -2,8 +2,8 @@
 artigo: "1237"
 nomen: "Descoberta"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Da Propriedade em Geral"
 secao: "Da Descoberta"
 disciplina: civil

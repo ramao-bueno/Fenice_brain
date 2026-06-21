@@ -2,8 +2,8 @@
 artigo: "840"
 nomen: "Transação"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Da Transação"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "876"
 nomen: "Pagamento Indevido"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VII — Dos Atos Unilaterais" if c['titulo'] else ""
+livro: "I — "
+titulo: "VII — Dos Atos Unilaterais"
 capitulo: "Do Pagamento Indevido"
 secao: ""
 disciplina: civil

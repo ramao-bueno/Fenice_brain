@@ -2,8 +2,8 @@
 artigo: "1748"
 nomen: "Exercício da Tutela"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada" if c['titulo'] else ""
+livro: "IV — "
+titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada"
 capitulo: "Da Tutela"
 secao: "Do Exercício da Tutela"
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1735"
 nomen: "Incapazes de Exercer a Tutela"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada" if c['titulo'] else ""
+livro: "IV — "
+titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada"
 capitulo: "Da Tutela"
 secao: "Dos Incapazes de Exercer a Tutela"
 disciplina: civil

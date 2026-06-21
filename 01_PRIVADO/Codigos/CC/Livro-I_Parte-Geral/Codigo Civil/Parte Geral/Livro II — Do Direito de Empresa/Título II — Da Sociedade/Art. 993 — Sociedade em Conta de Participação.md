@@ -2,8 +2,8 @@
 artigo: "993"
 nomen: "Sociedade em Conta de Participação"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "II — Da Sociedade" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "II — Da Sociedade"
 capitulo: "Da Sociedade em Conta de Participação"
 secao: ""
 disciplina: civil

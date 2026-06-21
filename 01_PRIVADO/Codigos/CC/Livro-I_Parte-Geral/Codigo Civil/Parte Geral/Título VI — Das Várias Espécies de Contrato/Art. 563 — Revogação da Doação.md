@@ -2,8 +2,8 @@
 artigo: "563"
 nomen: "Revogação da Doação"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Da Doação"
 secao: "Da Revogação da Doação"
 disciplina: civil

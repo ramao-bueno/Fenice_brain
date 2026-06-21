@@ -2,8 +2,8 @@
 artigo: "471"
 nomen: "Contrato com Pessoa a Declarar"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Disposições Gerais"
 secao: "Do Contrato com Pessoa a Declarar"
 disciplina: civil

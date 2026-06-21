@@ -2,8 +2,8 @@
 artigo: "645"
 nomen: "Depósito Voluntário"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — Das Várias Espécies de Contrato" if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — Das Várias Espécies de Contrato"
 capitulo: "Do Depósito"
 secao: "Do Depósito Voluntário"
 disciplina: civil

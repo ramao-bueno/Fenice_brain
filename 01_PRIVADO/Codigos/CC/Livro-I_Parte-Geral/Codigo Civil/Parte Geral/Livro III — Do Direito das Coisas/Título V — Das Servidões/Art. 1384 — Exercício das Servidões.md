@@ -2,8 +2,8 @@
 artigo: "1384"
 nomen: "Exercício das Servidões"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "V — Das Servidões" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "V — Das Servidões"
 capitulo: "Do Exercício das Servidões"
 secao: ""
 disciplina: civil

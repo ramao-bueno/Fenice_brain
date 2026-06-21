@@ -2,8 +2,8 @@
 artigo: "1849"
 nomen: "Herdeiros Necessários"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Herdeiros Necessários"
 secao: ""
 disciplina: civil

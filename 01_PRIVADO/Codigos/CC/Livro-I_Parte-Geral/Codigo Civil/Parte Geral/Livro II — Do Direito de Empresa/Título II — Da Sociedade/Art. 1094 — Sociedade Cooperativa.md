@@ -2,8 +2,8 @@
 artigo: "1094"
 nomen: "Sociedade Cooperativa"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "II — Da Sociedade" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "II — Da Sociedade"
 capitulo: "Da Sociedade Cooperativa"
 secao: ""
 disciplina: civil

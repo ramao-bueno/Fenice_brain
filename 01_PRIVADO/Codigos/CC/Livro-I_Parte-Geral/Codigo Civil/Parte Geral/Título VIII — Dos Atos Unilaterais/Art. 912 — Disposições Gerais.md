@@ -2,8 +2,8 @@
 artigo: "912"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VIII — Dos Atos Unilaterais" if c['titulo'] else ""
+livro: "I — "
+titulo: "VIII — Dos Atos Unilaterais"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

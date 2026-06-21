@@ -2,8 +2,8 @@
 artigo: "2009"
 nomen: "Colação"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Da Colação"
 secao: ""
 disciplina: civil

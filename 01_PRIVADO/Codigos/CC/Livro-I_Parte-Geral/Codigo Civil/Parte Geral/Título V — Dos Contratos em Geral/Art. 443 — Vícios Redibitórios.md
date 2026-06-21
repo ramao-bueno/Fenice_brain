@@ -2,8 +2,8 @@
 artigo: "443"
 nomen: "Vícios Redibitórios"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Disposições Gerais"
 secao: "Dos Vícios Redibitórios"
 disciplina: civil

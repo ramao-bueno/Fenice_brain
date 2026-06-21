@@ -2,8 +2,8 @@
 artigo: "266"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "I — Do Direito Das Obrigações" if c['livro'] else ""
-titulo: "I — Das Modalidades Das Obrigações" if c['titulo'] else ""
+livro: "I — Do Direito Das Obrigações"
+titulo: "I — Das Modalidades Das Obrigações"
 capitulo: "Das Obrigações Solidárias"
 secao: "Disposições Gerais"
 disciplina: civil

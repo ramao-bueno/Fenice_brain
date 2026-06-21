@@ -2,8 +2,8 @@
 artigo: "824"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Da Fiança"
 secao: "Disposições Gerais"
 disciplina: civil

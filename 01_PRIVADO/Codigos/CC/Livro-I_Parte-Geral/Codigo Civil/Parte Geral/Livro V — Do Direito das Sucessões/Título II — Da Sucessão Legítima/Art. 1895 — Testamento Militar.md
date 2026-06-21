@@ -2,8 +2,8 @@
 artigo: "1895"
 nomen: "Testamento Militar"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Testamentos Especiais"
 secao: "Do Testamento Militar"
 disciplina: civil

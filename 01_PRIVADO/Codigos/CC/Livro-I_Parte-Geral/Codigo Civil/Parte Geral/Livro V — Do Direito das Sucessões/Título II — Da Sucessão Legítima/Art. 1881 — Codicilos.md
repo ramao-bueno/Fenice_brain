@@ -2,8 +2,8 @@
 artigo: "1881"
 nomen: "Codicilos"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Dos Codicilos"
 secao: ""
 disciplina: civil

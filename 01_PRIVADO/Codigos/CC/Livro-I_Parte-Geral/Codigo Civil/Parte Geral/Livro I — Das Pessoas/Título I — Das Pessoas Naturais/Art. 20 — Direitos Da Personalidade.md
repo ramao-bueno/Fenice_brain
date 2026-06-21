@@ -2,8 +2,8 @@
 artigo: "20"
 nomen: "Direitos Da Personalidade"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "I — Das Pessoas Naturais" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "I — Das Pessoas Naturais"
 capitulo: "Dos Direitos Da Personalidade"
 secao: ""
 disciplina: civil

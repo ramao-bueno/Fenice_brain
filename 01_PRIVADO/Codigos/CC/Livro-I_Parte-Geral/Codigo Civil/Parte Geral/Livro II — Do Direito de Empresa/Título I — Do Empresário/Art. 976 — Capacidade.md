@@ -2,8 +2,8 @@
 artigo: "976"
 nomen: "Capacidade"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "I — Do Empresário" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "I — Do Empresário"
 capitulo: "Da Capacidade"
 secao: ""
 disciplina: civil

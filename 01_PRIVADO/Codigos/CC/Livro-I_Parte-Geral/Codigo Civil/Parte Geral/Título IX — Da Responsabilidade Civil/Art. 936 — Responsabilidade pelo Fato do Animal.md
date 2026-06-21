@@ -2,8 +2,8 @@
 artigo: "936"
 nomen: "Responsabilidade pelo Fato do Animal"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "IX — Da Responsabilidade Civil" if c['titulo'] else ""
+livro: "I — "
+titulo: "IX — Da Responsabilidade Civil"
 capitulo: "Da Obrigação de Indenizar"
 secao: ""
 disciplina: civil

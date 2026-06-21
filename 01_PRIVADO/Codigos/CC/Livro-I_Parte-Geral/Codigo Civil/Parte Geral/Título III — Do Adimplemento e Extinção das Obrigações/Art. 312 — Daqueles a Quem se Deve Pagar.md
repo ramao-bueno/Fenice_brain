@@ -2,8 +2,8 @@
 artigo: "312"
 nomen: "Daqueles a Quem se Deve Pagar"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "III — Do Adimplemento e Extinção das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "III — Do Adimplemento e Extinção das Obrigações"
 capitulo: "Do Pagamento"
 secao: "Daqueles a Quem se Deve Pagar"
 disciplina: civil

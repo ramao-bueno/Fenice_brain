@@ -2,8 +2,8 @@
 artigo: "1230"
 nomen: "Disposições Preliminares"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Da Propriedade em Geral"
 secao: "Disposições Preliminares"
 disciplina: civil

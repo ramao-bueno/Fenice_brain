@@ -2,8 +2,8 @@
 artigo: "1679"
 nomen: "Regime de Participação Final nos Aqüestos"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "II — Do Direito Patrimonial" if c['titulo'] else ""
+livro: "IV — "
+titulo: "II — Do Direito Patrimonial"
 capitulo: "Do Regime de Participação Final nos Aqüestos"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "2020"
 nomen: "Partilha"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Da Partilha"
 secao: ""
 disciplina: civil

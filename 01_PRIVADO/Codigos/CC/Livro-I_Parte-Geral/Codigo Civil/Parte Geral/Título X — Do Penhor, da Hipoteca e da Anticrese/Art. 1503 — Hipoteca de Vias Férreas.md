@@ -2,8 +2,8 @@
 artigo: "1503"
 nomen: "Hipoteca de Vias Férreas"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Da Hipoteca"
 secao: "Da Hipoteca de Vias Férreas"
 disciplina: civil

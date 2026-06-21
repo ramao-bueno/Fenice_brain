@@ -2,8 +2,8 @@
 artigo: "186"
 nomen: "Ato Ilícito"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "III — Dos Atos Ilícitos" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "III — Dos Atos Ilícitos"
 capitulo: ""
 secao: ""
 disciplina: civil

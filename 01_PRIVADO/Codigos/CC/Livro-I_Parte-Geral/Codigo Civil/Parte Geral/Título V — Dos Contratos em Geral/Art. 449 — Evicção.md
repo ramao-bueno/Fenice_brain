@@ -2,8 +2,8 @@
 artigo: "449"
 nomen: "Evicção"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "V — Dos Contratos em Geral" if c['titulo'] else ""
+livro: "I — "
+titulo: "V — Dos Contratos em Geral"
 capitulo: "Disposições Gerais"
 secao: "Da Evicção"
 disciplina: civil

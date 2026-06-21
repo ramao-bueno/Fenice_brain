@@ -2,8 +2,8 @@
 artigo: "2035"
 nomen: "Validade dos Atos Anteriores ao CC/2002"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "IV — Do Inventário e da Partilha" if c['titulo'] else ""
+livro: "V — "
+titulo: "IV — Do Inventário e da Partilha"
 capitulo: "Da Anulação da Partilha"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "22"
 nomen: "Curadoria dos Bens do Ausente"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "I — Das Pessoas Naturais" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "I — Das Pessoas Naturais"
 capitulo: "Da Ausência"
 secao: "Da Curadoria dos Bens do Ausente"
 disciplina: civil

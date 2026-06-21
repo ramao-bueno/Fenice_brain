@@ -2,8 +2,8 @@
 artigo: "1417"
 nomen: "Promessa de Compra e Venda"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "IX — Do Direito do Promitente Comprador" if c['titulo'] else ""
+livro: "III — "
+titulo: "IX — Do Direito do Promitente Comprador"
 capitulo: ""
 secao: ""
 disciplina: civil

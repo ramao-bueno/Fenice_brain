@@ -2,8 +2,8 @@
 artigo: "832"
 nomen: "Efeitos da Fiança"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "VI — " if c['titulo'] else ""
+livro: "I — "
+titulo: "VI — "
 capitulo: "Da Fiança"
 secao: "Dos Efeitos da Fiança"
 disciplina: civil

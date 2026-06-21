@@ -2,8 +2,8 @@
 artigo: "1946"
 nomen: "Direito de Acrescer entre Herdeiros e Legatários"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Do Direito de Acrescer entre Herdeiros e Legatários"
 secao: ""
 disciplina: civil

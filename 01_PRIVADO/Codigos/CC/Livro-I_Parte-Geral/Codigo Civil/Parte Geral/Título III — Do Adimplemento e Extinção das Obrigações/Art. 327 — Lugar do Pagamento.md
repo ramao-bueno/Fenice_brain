@@ -2,8 +2,8 @@
 artigo: "327"
 nomen: "Lugar do Pagamento"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "III — Do Adimplemento e Extinção das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "III — Do Adimplemento e Extinção das Obrigações"
 capitulo: "Do Pagamento"
 secao: "Do Lugar do Pagamento"
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1509"
 nomen: "Anticrese"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Da Anticrese"
 secao: ""
 disciplina: civil

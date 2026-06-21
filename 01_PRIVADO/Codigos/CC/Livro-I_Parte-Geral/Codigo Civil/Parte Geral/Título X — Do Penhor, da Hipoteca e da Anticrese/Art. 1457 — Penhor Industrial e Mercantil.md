@@ -2,8 +2,8 @@
 artigo: "1457"
 nomen: "Penhor Industrial e Mercantil"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Do Penhor"
 secao: "Do Penhor Industrial e Mercantil"
 disciplina: civil

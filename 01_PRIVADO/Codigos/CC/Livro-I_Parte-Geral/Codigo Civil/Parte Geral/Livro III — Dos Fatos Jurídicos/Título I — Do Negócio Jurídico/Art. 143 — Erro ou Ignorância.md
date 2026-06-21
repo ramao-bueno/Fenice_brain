@@ -2,8 +2,8 @@
 artigo: "143"
 nomen: "Erro ou Ignorância"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "I — Do Negócio Jurídico" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "I — Do Negócio Jurídico"
 capitulo: "Dos Defeitos do Negócio Jurídico"
 secao: "Do Erro ou Ignorância"
 disciplina: civil

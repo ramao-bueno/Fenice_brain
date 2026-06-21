@@ -2,8 +2,8 @@
 artigo: "1200"
 nomen: "Posse de Boa-fé × Má-fé"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "I — Da posse" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "I — Da posse"
 capitulo: "Da Posse e sua Classificação"
 secao: ""
 disciplina: civil

@@ -2,8 +2,8 @@
 artigo: "1644"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "II — Do Direito Patrimonial" if c['titulo'] else ""
+livro: "IV — "
+titulo: "II — Do Direito Patrimonial"
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

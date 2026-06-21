@@ -2,8 +2,8 @@
 artigo: "1531"
 nomen: "Processo de Habilitação PARA O CASAMENTO"
 parte: "Parte Geral"
-livro: "IV — Do Direito de Família" if c['livro'] else ""
-titulo: "I — Do Direito Pessoal" if c['titulo'] else ""
+livro: "IV — Do Direito de Família"
+titulo: "I — Do Direito Pessoal"
 capitulo: "Do Processo de Habilitação PARA O CASAMENTO"
 secao: ""
 disciplina: civil

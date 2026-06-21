@@ -2,8 +2,8 @@
 artigo: "1286"
 nomen: "Passagem de Cabos e Tubulações"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Dos Direitos de Vizinhança"
 secao: "Da Passagem de Cabos e Tubulações"
 disciplina: civil

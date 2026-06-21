@@ -2,8 +2,8 @@
 artigo: "1824"
 nomen: "petição de herança"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "I — Da Sucessão em Geral" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "I — Da Sucessão em Geral"
 capitulo: "Da petição de herança"
 secao: ""
 disciplina: civil

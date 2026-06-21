@@ -2,8 +2,8 @@
 artigo: "200"
 nomen: "Causas que Impedem ou Suspendem a Prescrição"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "IV — Da Prescrição e da Decadência" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "IV — Da Prescrição e da Decadência"
 capitulo: "Da Prescrição"
 secao: "Das Causas que Impedem ou Suspendem a Prescrição"
 disciplina: civil

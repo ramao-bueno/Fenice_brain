@@ -2,8 +2,8 @@
 artigo: "1566"
 nomen: "Art. 1566"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: ""
 secao: ""
 disciplina: civil

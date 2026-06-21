@@ -2,8 +2,8 @@
 artigo: "1388"
 nomen: "Extinção das Servidões"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "V — Das Servidões" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "V — Das Servidões"
 capitulo: "Da Extinção das Servidões"
 secao: ""
 disciplina: civil

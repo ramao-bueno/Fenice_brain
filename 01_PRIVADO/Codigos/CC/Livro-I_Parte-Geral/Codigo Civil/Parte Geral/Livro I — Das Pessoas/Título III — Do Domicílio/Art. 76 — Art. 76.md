@@ -2,8 +2,8 @@
 artigo: "76"
 nomen: "Art. 76"
 parte: "Parte Geral"
-livro: "I — Das Pessoas" if c['livro'] else ""
-titulo: "III — Do Domicílio" if c['titulo'] else ""
+livro: "I — Das Pessoas"
+titulo: "III — Do Domicílio"
 capitulo: ""
 secao: ""
 disciplina: civil

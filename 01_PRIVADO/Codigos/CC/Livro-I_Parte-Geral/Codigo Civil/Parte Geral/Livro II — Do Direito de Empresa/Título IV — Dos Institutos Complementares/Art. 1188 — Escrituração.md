@@ -2,8 +2,8 @@
 artigo: "1188"
 nomen: "Escrituração"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "IV — Dos Institutos Complementares" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "IV — Dos Institutos Complementares"
 capitulo: "Da Escrituração"
 secao: ""
 disciplina: civil

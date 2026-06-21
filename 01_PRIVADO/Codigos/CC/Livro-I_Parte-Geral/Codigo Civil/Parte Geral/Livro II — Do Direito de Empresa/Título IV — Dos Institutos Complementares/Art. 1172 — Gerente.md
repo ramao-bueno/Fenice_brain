@@ -2,8 +2,8 @@
 artigo: "1172"
 nomen: "Gerente"
 parte: "Parte Geral"
-livro: "II — Do Direito de Empresa" if c['livro'] else ""
-titulo: "IV — Dos Institutos Complementares" if c['titulo'] else ""
+livro: "II — Do Direito de Empresa"
+titulo: "IV — Dos Institutos Complementares"
 capitulo: "Dos Prepostos"
 secao: "Do Gerente"
 disciplina: civil

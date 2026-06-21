@@ -2,8 +2,8 @@
 artigo: "1638"
 nomen: "Suspensão e Extinção do Poder Familiar"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Do Poder FAMILIAR"
 secao: "Da Suspensão e Extinção do Poder Familiar"
 disciplina: civil

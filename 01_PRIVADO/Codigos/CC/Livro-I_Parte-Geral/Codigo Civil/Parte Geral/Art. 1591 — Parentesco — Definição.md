@@ -2,8 +2,8 @@
 artigo: "1591"
 nomen: "Parentesco — Definição"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Disposições Gerais"
 secao: ""
 disciplina: civil

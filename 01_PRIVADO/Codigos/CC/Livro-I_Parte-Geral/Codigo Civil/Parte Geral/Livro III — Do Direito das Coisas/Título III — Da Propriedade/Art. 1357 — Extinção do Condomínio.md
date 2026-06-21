@@ -2,8 +2,8 @@
 artigo: "1357"
 nomen: "Extinção do Condomínio"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "III — Da Propriedade" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "III — Da Propriedade"
 capitulo: "Do Condomínio Edilício"
 secao: "Da Extinção do Condomínio"
 disciplina: civil

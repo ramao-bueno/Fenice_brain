@@ -2,8 +2,8 @@
 artigo: "273"
 nomen: "Art. 273"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "I — "
+titulo: "I — "
 capitulo: ""
 secao: ""
 disciplina: civil

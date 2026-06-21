@@ -2,8 +2,8 @@
 artigo: "1632"
 nomen: "Disposições Gerais"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "I — " if c['titulo'] else ""
+livro: "IV — "
+titulo: "I — "
 capitulo: "Do Poder FAMILIAR"
 secao: "Disposições Gerais"
 disciplina: civil

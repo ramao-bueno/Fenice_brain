@@ -2,8 +2,8 @@
 artigo: "1780"
 nomen: "Curatela do Nascituro e do Enfermo ou Portador de Deficiênci"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada" if c['titulo'] else ""
+livro: "IV — "
+titulo: "IV — Da Tutela, da Curatela e da Tomada de Decisão Apoiada"
 capitulo: "Da Curatela"
 secao: "Da Curatela do Nascituro e do Enfermo ou Portador de Deficiência Física"
 disciplina: civil

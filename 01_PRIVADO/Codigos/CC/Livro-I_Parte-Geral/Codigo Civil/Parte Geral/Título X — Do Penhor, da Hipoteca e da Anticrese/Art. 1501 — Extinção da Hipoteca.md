@@ -2,8 +2,8 @@
 artigo: "1501"
 nomen: "Extinção da Hipoteca"
 parte: "Parte Geral"
-livro: "III — " if c['livro'] else ""
-titulo: "X — Do Penhor, da Hipoteca e da Anticrese" if c['titulo'] else ""
+livro: "III — "
+titulo: "X — Do Penhor, da Hipoteca e da Anticrese"
 capitulo: "Da Hipoteca"
 secao: "Da Extinção da Hipoteca"
 disciplina: civil

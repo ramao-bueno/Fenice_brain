@@ -2,8 +2,8 @@
 artigo: "1878"
 nomen: "Testamento Particular"
 parte: "Parte Geral"
-livro: "V — Do Direito das Sucessões" if c['livro'] else ""
-titulo: "II — Da Sucessão Legítima" if c['titulo'] else ""
+livro: "V — Do Direito das Sucessões"
+titulo: "II — Da Sucessão Legítima"
 capitulo: "Das formas ordinárias do testamento"
 secao: "Do Testamento Particular"
 disciplina: civil

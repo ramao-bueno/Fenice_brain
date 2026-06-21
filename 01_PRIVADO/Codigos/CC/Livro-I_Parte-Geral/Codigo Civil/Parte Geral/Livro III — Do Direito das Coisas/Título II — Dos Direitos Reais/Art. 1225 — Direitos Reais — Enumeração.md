@@ -2,8 +2,8 @@
 artigo: "1225"
 nomen: "Direitos Reais — Enumeração"
 parte: "Parte Geral"
-livro: "III — Do Direito das Coisas" if c['livro'] else ""
-titulo: "II — Dos Direitos Reais" if c['titulo'] else ""
+livro: "III — Do Direito das Coisas"
+titulo: "II — Dos Direitos Reais"
 capitulo: ""
 secao: ""
 disciplina: civil

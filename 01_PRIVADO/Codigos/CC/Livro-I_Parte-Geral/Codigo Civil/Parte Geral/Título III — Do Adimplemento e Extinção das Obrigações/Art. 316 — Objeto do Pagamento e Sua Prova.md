@@ -2,8 +2,8 @@
 artigo: "316"
 nomen: "Objeto do Pagamento e Sua Prova"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "III — Do Adimplemento e Extinção das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "III — Do Adimplemento e Extinção das Obrigações"
 capitulo: "Do Pagamento"
 secao: "Do Objeto do Pagamento e Sua Prova"
 disciplina: civil

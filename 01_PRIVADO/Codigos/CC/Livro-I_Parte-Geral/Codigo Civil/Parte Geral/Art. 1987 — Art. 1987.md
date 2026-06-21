@@ -2,8 +2,8 @@
 artigo: "1987"
 nomen: "Art. 1987"
 parte: "Parte Geral"
-livro: "V — " if c['livro'] else ""
-titulo: "II — " if c['titulo'] else ""
+livro: "V — "
+titulo: "II — "
 capitulo: ""
 secao: ""
 disciplina: civil

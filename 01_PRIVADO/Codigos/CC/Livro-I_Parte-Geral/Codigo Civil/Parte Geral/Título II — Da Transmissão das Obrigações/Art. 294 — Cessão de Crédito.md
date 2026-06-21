@@ -2,8 +2,8 @@
 artigo: "294"
 nomen: "Cessão de Crédito"
 parte: "Parte Geral"
-livro: "I — " if c['livro'] else ""
-titulo: "II — Da Transmissão das Obrigações" if c['titulo'] else ""
+livro: "I — "
+titulo: "II — Da Transmissão das Obrigações"
 capitulo: "Da Cessão de Crédito"
 secao: ""
 disciplina: civil

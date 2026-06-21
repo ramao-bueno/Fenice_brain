@@ -2,8 +2,8 @@
 artigo: "96"
 nomen: "Bens Públicos"
 parte: "Parte Geral"
-livro: "II — Dos Bens" if c['livro'] else ""
-titulo: " — " if c['titulo'] else ""
+livro: "II — Dos Bens"
+titulo: " — "
 capitulo: "Dos Bens Reciprocamente Considerados"
 secao: ""
 disciplina: civil

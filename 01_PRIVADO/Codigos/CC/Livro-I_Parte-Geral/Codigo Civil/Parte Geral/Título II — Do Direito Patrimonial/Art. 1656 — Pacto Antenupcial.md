@@ -2,8 +2,8 @@
 artigo: "1656"
 nomen: "Pacto Antenupcial"
 parte: "Parte Geral"
-livro: "IV — " if c['livro'] else ""
-titulo: "II — Do Direito Patrimonial" if c['titulo'] else ""
+livro: "IV — "
+titulo: "II — Do Direito Patrimonial"
 capitulo: "Do Pacto Antenupcial"
 secao: ""
 disciplina: civil

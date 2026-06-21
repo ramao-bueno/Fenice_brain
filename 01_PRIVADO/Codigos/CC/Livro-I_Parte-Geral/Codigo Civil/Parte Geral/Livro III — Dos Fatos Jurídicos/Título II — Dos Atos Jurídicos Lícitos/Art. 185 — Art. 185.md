@@ -2,8 +2,8 @@
 artigo: "185"
 nomen: "Art. 185"
 parte: "Parte Geral"
-livro: "III — Dos Fatos Jurídicos" if c['livro'] else ""
-titulo: "II — Dos Atos Jurídicos Lícitos" if c['titulo'] else ""
+livro: "III — Dos Fatos Jurídicos"
+titulo: "II — Dos Atos Jurídicos Lícitos"
 capitulo: ""
 secao: ""
 disciplina: civil

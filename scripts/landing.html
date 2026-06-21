@@ -569,6 +569,218 @@
       font-size: 0.68rem; letter-spacing: 0.1em;
       color: rgba(201,162,39,0.22); text-transform: uppercase;
     }
+
+    /* ── NAV SEARCH BUTTON ── */
+    .obs-nav-btn {
+      background: rgba(201,162,39,0.08);
+      border: 1px solid rgba(201,162,39,0.2);
+      border-radius: 8px;
+      color: var(--gold);
+      width: 34px; height: 34px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+      flex-shrink: 0;
+    }
+    .obs-nav-btn:hover { background: rgba(201,162,39,0.16); border-color: rgba(201,162,39,0.4); }
+
+    /* ── OBSIDIAN OVERLAY ── */
+    #obs-overlay {
+      position: fixed; inset: 0;
+      background: rgba(4,8,15,0.92);
+      backdrop-filter: blur(10px);
+      z-index: 500;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 9vh;
+    }
+    #obs-overlay.obs-open { display: flex; }
+
+    .obs-panel {
+      width: min(860px, 96vw);
+      background: #0b1525;
+      border: 1px solid rgba(201,162,39,0.22);
+      border-radius: 14px;
+      overflow: hidden;
+      max-height: 78vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 32px 100px rgba(0,0,0,0.8), 0 0 0 1px rgba(201,162,39,0.06);
+    }
+    .obs-topbar {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .obs-topbar-icon { color: var(--gold); flex-shrink: 0; }
+    .obs-qinput {
+      flex: 1; background: transparent; border: none; outline: none;
+      font-family: "acumin-pro", sans-serif; font-size: 1.1rem;
+      color: var(--text);
+    }
+    .obs-qinput::placeholder { color: var(--dim); }
+    .obs-esc-key {
+      font-size: 0.7rem; color: var(--dim);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.09);
+      padding: 0.2em 0.55em; border-radius: 4px; cursor: pointer;
+    }
+    .obs-body { display: flex; overflow: hidden; flex: 1; min-height: 0; }
+
+    /* sidebar filters */
+    .obs-sidebar {
+      width: 190px; flex-shrink: 0;
+      border-right: 1px solid rgba(255,255,255,0.07);
+      padding: 0.6rem 0; overflow-y: auto;
+    }
+    .obs-sidebar-label {
+      font-size: 0.63rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--dim);
+      padding: 0.5rem 1rem 0.25rem;
+    }
+    .obs-fbtn {
+      display: flex; align-items: center; gap: 0.5rem;
+      width: 100%; padding: 0.42rem 1rem;
+      background: transparent; border: none; cursor: pointer;
+      color: var(--muted); font-family: "acumin-pro", sans-serif;
+      font-size: 0.83rem; text-align: left;
+      transition: background 0.12s, color 0.12s;
+    }
+    .obs-fbtn:hover, .obs-fbtn.active {
+      background: rgba(201,162,39,0.07); color: var(--gold);
+    }
+    .obs-fdot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+    /* results pane */
+    .obs-results { flex: 1; overflow-y: auto; min-height: 0; }
+    .obs-empty {
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; gap: 0.6rem; min-height: 200px;
+      color: var(--dim); text-align: center; padding: 2rem;
+    }
+    .obs-empty svg { opacity: 0.25; }
+    .obs-ri {
+      padding: 0.72rem 1.25rem;
+      border-left: 3px solid transparent;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .obs-ri:hover, .obs-ri.focused {
+      background: rgba(245,158,11,0.06);
+      border-left-color: var(--gold);
+    }
+    .obs-ri-title {
+      font-family: "adelle", serif; font-weight: 700;
+      font-size: 0.9rem; color: var(--text);
+      display: flex; align-items: center; gap: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .obs-ri-path {
+      font-size: 0.7rem; color: var(--dim);
+      font-family: monospace; margin-bottom: 0.3rem;
+    }
+    .obs-ri-excerpt {
+      font-size: 0.8rem; color: var(--muted); line-height: 1.5;
+    }
+    .obs-ri-excerpt b {
+      color: var(--gold2); font-weight: 700;
+      background: rgba(245,158,11,0.1);
+      padding: 0 2px; border-radius: 2px;
+    }
+    .obs-tag {
+      font-size: 0.62rem; padding: 0.15em 0.55em;
+      border-radius: 999px; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase; flex-shrink: 0;
+    }
+    .obs-footer {
+      padding: 0.55rem 1.25rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.7rem; color: var(--dim);
+    }
+    .obs-krow { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    .obs-krow kbd {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 4px; padding: 0.1em 0.4em;
+      font-size: 0.68rem; color: var(--muted);
+    }
+
+    /* detail modal */
+    #obs-detail {
+      position: fixed; inset: 0;
+      background: rgba(4,8,15,0.97);
+      z-index: 600;
+      display: none;
+      align-items: center; justify-content: center;
+      padding: 4vh 1rem; overflow-y: auto;
+    }
+    #obs-detail.obs-open { display: flex; }
+    .obs-detail-card {
+      width: min(760px,96vw);
+      background: #0b1525;
+      border: 1px solid rgba(201,162,39,0.22);
+      border-radius: 14px; overflow: hidden;
+    }
+    .obs-detail-head {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding: 1.1rem 1.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      gap: 1rem;
+    }
+    .obs-detail-title {
+      font-family: "adelle", serif; font-weight: 700;
+      font-size: 1.05rem; color: var(--text); line-height: 1.35;
+    }
+    .obs-detail-close {
+      background: none; border: none; color: var(--muted);
+      cursor: pointer; font-size: 1.2rem; padding: 0; flex-shrink: 0;
+    }
+    .obs-detail-body {
+      padding: 1.4rem 1.5rem;
+      font-size: 0.88rem; color: var(--muted);
+      line-height: 1.8; white-space: pre-wrap;
+      font-family: "acumin-pro", sans-serif;
+      max-height: 60vh; overflow-y: auto;
+    }
+    .obs-detail-foot {
+      padding: 0.65rem 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      font-size: 0.72rem; color: var(--dim);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+
+    /* search section inline */
+    .obs-section-widget {
+      max-width: 680px; margin: 2.5rem auto 0;
+    }
+    .obs-open-row {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 1rem 1.4rem;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(201,162,39,0.18);
+      border-radius: 12px; cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .obs-open-row:hover { border-color: rgba(201,162,39,0.4); background: rgba(201,162,39,0.04); }
+    .obs-open-row-icon { color: var(--gold); flex-shrink: 0; }
+    .obs-open-row-text { flex: 1; color: var(--dim); font-size: 0.95rem; }
+    .obs-open-row-shortcut {
+      font-size: 0.7rem; color: var(--dim);
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 5px; padding: 0.2em 0.6em;
+    }
+    .obs-module-tags {
+      display: flex; flex-wrap: wrap; gap: 0.5rem;
+      margin-top: 1rem; justify-content: center;
+    }
+    .obs-mtag {
+      font-size: 0.72rem; padding: 0.3em 0.9em;
+      border-radius: 999px; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      cursor: pointer; transition: opacity 0.15s;
+    }
+    .obs-mtag:hover { opacity: 0.8; }
   </style>
 </head>
 <body>
@@ -667,7 +879,11 @@
     <li><a href="#endpoints">Endpoints</a></li>
     <li><a href="#como-funciona">Como funciona</a></li>
     <li><a href="#tiers">Planos</a></li>
+    <li><a href="#buscar">Pesquisar</a></li>
   </ul>
+  <button id="obs-open-btn" class="obs-nav-btn" title="Buscar no vault (/ ou Ctrl+F)">
+    <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+  </button>
   <a href="/docs" class="nav-cta">Swagger UI →</a>
 </nav>
 
@@ -947,6 +1163,28 @@
   </div>
 </div>
 
+<!-- ══ BUSCA OBSIDIAN SECTION ══ -->
+<div class="section" id="buscar">
+  <p class="section-label reveal">Vault Jurídico</p>
+  <h2 class="section-title reveal">Pesquisa Obsidian</h2>
+  <p class="section-desc reveal">Busque legislação, súmulas STJ/STF e doutrina com Full-Text Search — exatamente como no vault Obsidian, agora no navegador.</p>
+
+  <div class="obs-section-widget reveal">
+    <div class="obs-open-row" id="obs-page-open">
+      <svg class="obs-open-row-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <span class="obs-open-row-text">Pesquisar no vault jurídico...</span>
+      <kbd class="obs-open-row-shortcut">/ ou Ctrl+F</kbd>
+    </div>
+    <div class="obs-module-tags">
+      <span class="obs-mtag" style="background:rgba(16,185,129,0.12);color:#10b981;border:1px solid rgba(16,185,129,0.25);" data-open-filter="stj">Súmulas STJ</span>
+      <span class="obs-mtag" style="background:rgba(59,130,246,0.12);color:#3b82f6;border:1px solid rgba(59,130,246,0.25);" data-open-filter="stf">Súmulas STF</span>
+      <span class="obs-mtag" style="background:rgba(139,92,246,0.12);color:#8b5cf6;border:1px solid rgba(139,92,246,0.25);" data-open-filter="lei">Legislação</span>
+      <span class="obs-mtag" style="background:rgba(249,115,22,0.12);color:#f97316;border:1px solid rgba(249,115,22,0.25);" data-open-filter="jur">Jurisconsultos</span>
+      <span class="obs-mtag" style="background:rgba(236,72,153,0.12);color:#ec4899;border:1px solid rgba(236,72,153,0.25);" data-open-filter="fil">Filosofia</span>
+    </div>
+  </div>
+</div>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-wrap">
@@ -961,6 +1199,64 @@
     <p class="footer-copy" style="margin-top:0.4rem;opacity:0.55;">© 2026 Fenice It Justech.ia &nbsp;·&nbsp; Todos os direitos reservados<br>Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
   </div>
 </footer>
+
+<!-- ══ OBSIDIAN SEARCH OVERLAY ══ -->
+<div id="obs-overlay" role="dialog" aria-modal="true" aria-label="Busca jurídica">
+  <div class="obs-panel">
+    <div class="obs-topbar">
+      <svg class="obs-topbar-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input id="obs-qinput" class="obs-qinput" type="text" placeholder="Pesquisar legislação, súmulas, doutrina..." autocomplete="off" spellcheck="false">
+      <span class="obs-esc-key" id="obs-esc-btn">Esc</span>
+    </div>
+    <div class="obs-body">
+      <aside class="obs-sidebar">
+        <p class="obs-sidebar-label">Módulos</p>
+        <button class="obs-fbtn active" data-filter="">
+          <span class="obs-fdot" style="background:#f59e0b"></span>Todos
+        </button>
+        <button class="obs-fbtn" data-filter="stj">
+          <span class="obs-fdot" style="background:#10b981"></span>Súmulas STJ
+        </button>
+        <button class="obs-fbtn" data-filter="stf">
+          <span class="obs-fdot" style="background:#3b82f6"></span>Súmulas STF
+        </button>
+        <button class="obs-fbtn" data-filter="lei">
+          <span class="obs-fdot" style="background:#8b5cf6"></span>Legislação
+        </button>
+        <button class="obs-fbtn" data-filter="jur">
+          <span class="obs-fdot" style="background:#f97316"></span>Jurisconsultos
+        </button>
+        <button class="obs-fbtn" data-filter="fil">
+          <span class="obs-fdot" style="background:#ec4899"></span>Filosofia
+        </button>
+      </aside>
+      <div class="obs-results" id="obs-results"></div>
+    </div>
+    <div class="obs-footer">
+      <div class="obs-krow">
+        <span><kbd>↑</kbd><kbd>↓</kbd> navegar</span>
+        <span><kbd>Enter</kbd> abrir</span>
+        <span><kbd>Esc</kbd> fechar</span>
+      </div>
+      <span id="obs-count"></span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ DETAIL MODAL ══ -->
+<div id="obs-detail" role="dialog" aria-modal="true" aria-label="Detalhe do resultado">
+  <div class="obs-detail-card">
+    <div class="obs-detail-head">
+      <div class="obs-detail-title" id="obs-detail-title"></div>
+      <button class="obs-detail-close" id="obs-detail-close" title="Fechar (Esc)">✕</button>
+    </div>
+    <div class="obs-detail-body" id="obs-detail-body"></div>
+    <div class="obs-detail-foot">
+      <span id="obs-detail-tag"></span>
+      <span style="opacity:0.5">Fenice bRain · Vault Jurídico</span>
+    </div>
+  </div>
+</div>
 
 <script>
 /* ── STARFIELD ── */
@@ -1105,6 +1401,195 @@
       btn.textContent = 'Entrar';
     }
   });
+})();
+
+/* ── OBSIDIAN SEARCH ── */
+(function () {
+  const overlay  = document.getElementById('obs-overlay');
+  const detail   = document.getElementById('obs-detail');
+  const qinput   = document.getElementById('obs-qinput');
+  const resPane  = document.getElementById('obs-results');
+  const countEl  = document.getElementById('obs-count');
+  const dtTitle  = document.getElementById('obs-detail-title');
+  const dtBody   = document.getElementById('obs-detail-body');
+  const dtTag    = document.getElementById('obs-detail-tag');
+  const filterBtns = document.querySelectorAll('.obs-fbtn');
+
+  let activeFilter = '';
+  let allResults   = [];
+  let visResults   = [];
+  let focus        = -1;
+  let debTimer;
+
+  /* ── helpers ── */
+  const TAG_MAP = {
+    stj:  { label:'STJ',  color:'#10b981' },
+    stf:  { label:'STF',  color:'#3b82f6' },
+    lei:  { label:'LEI',  color:'#8b5cf6' },
+    jur:  { label:'JUS',  color:'#f97316' },
+    fil:  { label:'FIL',  color:'#ec4899' },
+  };
+
+  function detectTag(tipo) {
+    const t = (tipo || '').toLowerCase();
+    if (t.includes('stj')) return 'stj';
+    if (t.includes('stf')) return 'stf';
+    if (t.includes('lei') || t.includes('cod') || t.includes('decr') || t.includes('legis')) return 'lei';
+    if (t.includes('juri') || t.includes('consul')) return 'jur';
+    if (t.includes('fil') || t.includes('filo')) return 'fil';
+    return '';
+  }
+
+  function tagHtml(key) {
+    const m = TAG_MAP[key] || { label: key.toUpperCase().slice(0,3), color:'#f59e0b' };
+    return `<span class="obs-tag" style="background:${m.color}22;color:${m.color};border:1px solid ${m.color}44">${m.label}</span>`;
+  }
+
+  /* ── empty / loading states ── */
+  function emptyHtml(msg, sub) {
+    return `<div class="obs-empty">
+      <svg width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <span>${msg}</span>
+      ${sub ? `<span style="font-size:.73rem;color:#475569">${sub}</span>` : ''}
+    </div>`;
+  }
+
+  /* ── open / close overlay ── */
+  function openOverlay(preFilter) {
+    overlay.classList.add('obs-open');
+    if (preFilter) setFilter(preFilter);
+    setTimeout(() => qinput.focus(), 60);
+  }
+  function closeOverlay() {
+    overlay.classList.remove('obs-open');
+    qinput.value = '';
+    resPane.innerHTML = emptyHtml('Digite para buscar no vault jurídico', '674 Súmulas STJ · 736 STF · Legislação Federal');
+    countEl.textContent = '';
+    focus = -1; allResults = []; visResults = [];
+  }
+  function openDetail(r) {
+    if (!r) return;
+    const key = detectTag(r.tipo_ato);
+    dtTitle.textContent = r.numero_ano || '—';
+    dtBody.textContent  = r.ementa || r.trecho_relevante || '(sem conteúdo)';
+    dtTag.innerHTML     = key ? tagHtml(key) + ' · ' + (r.tipo_ato || '') : (r.tipo_ato || '');
+    detail.classList.add('obs-open');
+  }
+  function closeDetail() { detail.classList.remove('obs-open'); }
+
+  /* ── filter ── */
+  function setFilter(key) {
+    activeFilter = key;
+    filterBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === key));
+    applyFilter();
+  }
+  function applyFilter() {
+    visResults = activeFilter
+      ? allResults.filter(r => detectTag(r.tipo_ato) === activeFilter)
+      : allResults;
+    renderResults();
+  }
+
+  /* ── fetch ── */
+  async function doSearch(q) {
+    if (q.length < 2) {
+      resPane.innerHTML = emptyHtml('Digite para buscar no vault jurídico', '674 Súmulas STJ · 736 STF · Legislação Federal');
+      countEl.textContent = ''; return;
+    }
+    resPane.innerHTML = `<div class="obs-empty"><span style="color:var(--gold)">Buscando…</span></div>`;
+    try {
+      const res  = await fetch('/buscar', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: q, limite: 50 })
+      });
+      allResults = await res.json();
+      if (!Array.isArray(allResults)) allResults = [];
+      applyFilter();
+    } catch {
+      resPane.innerHTML = `<div class="obs-empty"><span style="color:#ef4444">Erro de conexão</span></div>`;
+    }
+  }
+
+  /* ── render ── */
+  function renderResults() {
+    focus = -1;
+    if (!visResults.length) {
+      resPane.innerHTML = emptyHtml('Nenhum resultado', 'Tente outros termos ou mude o filtro');
+      countEl.textContent = ''; return;
+    }
+    countEl.textContent = `${visResults.length} resultado${visResults.length !== 1 ? 's' : ''}`;
+    resPane.innerHTML = visResults.map((r, i) => {
+      const key     = detectTag(r.tipo_ato);
+      const excerpt = (r.trecho_relevante || '').replace(/<b>/g,'<b>').replace(/<\/b>/g,'</b>');
+      return `<div class="obs-ri" data-i="${i}">
+        <div class="obs-ri-title">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="flex-shrink:0;color:var(--dim)"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          ${r.numero_ano || '—'}
+          ${key ? tagHtml(key) : ''}
+        </div>
+        ${r.tipo_ato ? `<div class="obs-ri-path">${r.tipo_ato}</div>` : ''}
+        <div class="obs-ri-excerpt">${excerpt || '<em style="color:var(--dim)">sem prévia</em>'}</div>
+      </div>`;
+    }).join('');
+
+    resPane.querySelectorAll('.obs-ri').forEach(el => {
+      el.addEventListener('click', () => openDetail(visResults[+el.dataset.i]));
+    });
+  }
+
+  /* ── keyboard nav ── */
+  function moveFocus(d) {
+    const items = resPane.querySelectorAll('.obs-ri');
+    if (!items.length) return;
+    items[focus]?.classList.remove('focused');
+    focus = Math.max(0, Math.min(items.length - 1, focus + d));
+    items[focus].classList.add('focused');
+    items[focus].scrollIntoView({ block: 'nearest' });
+  }
+
+  /* ── event wiring ── */
+  filterBtns.forEach(b => b.addEventListener('click', () => setFilter(b.dataset.filter)));
+
+  qinput.addEventListener('input', () => {
+    clearTimeout(debTimer);
+    debTimer = setTimeout(() => doSearch(qinput.value.trim()), 300);
+  });
+  qinput.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); moveFocus(1); }
+    if (e.key === 'ArrowUp')   { e.preventDefault(); moveFocus(-1); }
+    if (e.key === 'Enter' && focus >= 0) openDetail(visResults[focus]);
+    if (e.key === 'Escape') closeOverlay();
+  });
+
+  document.getElementById('obs-esc-btn')?.addEventListener('click', closeOverlay);
+  document.getElementById('obs-open-btn')?.addEventListener('click', () => openOverlay(''));
+  document.getElementById('obs-page-open')?.addEventListener('click', () => openOverlay(''));
+  document.getElementById('obs-detail-close')?.addEventListener('click', closeDetail);
+
+  /* module tag shortcuts on section */
+  document.querySelectorAll('[data-open-filter]').forEach(el => {
+    el.addEventListener('click', () => openOverlay(el.dataset.openFilter));
+  });
+
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeOverlay(); });
+  detail.addEventListener('click', e => { if (e.target === detail) closeDetail(); });
+
+  document.addEventListener('keydown', e => {
+    /* detail modal Esc */
+    if (detail.classList.contains('obs-open') && e.key === 'Escape') { closeDetail(); return; }
+    /* overlay Esc */
+    if (overlay.classList.contains('obs-open') && e.key === 'Escape') { closeOverlay(); return; }
+    /* open shortcuts */
+    if (!overlay.classList.contains('obs-open')) {
+      const tag = document.activeElement.tagName;
+      if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') { e.preventDefault(); openOverlay(''); }
+      if ((e.ctrlKey || e.metaKey) && e.key === 'f') { e.preventDefault(); openOverlay(''); }
+    }
+  });
+
+  /* init empty state */
+  resPane.innerHTML = emptyHtml('Digite para buscar no vault jurídico', '674 Súmulas STJ · 736 STF · Legislação Federal');
 })();
 
 /* ── LIVE LAW COUNT ── */

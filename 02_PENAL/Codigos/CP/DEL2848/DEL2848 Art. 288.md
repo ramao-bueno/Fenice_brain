@@ -67,15 +67,18 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 288-A]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Tese: o crime de associação criminosa é autônomo e punível ainda que os membros não sejam condenados pelos crimes praticados pela associação.
+- STJ — Tese: exige-se estabilidade e permanência do vínculo; encontro eventual de três ou mais pessoas não configura o tipo.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

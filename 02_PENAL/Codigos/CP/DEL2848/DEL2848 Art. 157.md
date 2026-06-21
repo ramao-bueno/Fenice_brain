@@ -67,15 +67,18 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 158]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 582: consuma-se o roubo com a inversão da posse mediante violência ou ameaça, ainda que breve e mesmo que a coisa seja recuperada em seguida.
+- STJ — Súmula 443: o aumento na terceira fase para roubo circunstanciado exige fundamentação explícita; não basta indicar o número de majorantes.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

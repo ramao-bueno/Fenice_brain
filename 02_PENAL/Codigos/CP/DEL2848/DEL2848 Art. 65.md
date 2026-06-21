@@ -74,8 +74,7 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
 
 ---
 

@@ -67,15 +67,19 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 171-A]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 155]] — mencionado na redação
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 554: o pagamento do cheque sem fundos após o recebimento da denúncia não obsta ao prosseguimento da ação penal.
+- STJ — Tese: estelionato previdenciário é crime permanente enquanto perdurar o recebimento do benefício indevido; prescrição não flui antes da cessação.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

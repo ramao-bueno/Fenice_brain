@@ -66,15 +66,18 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 313]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 599: o princípio da insignificância é inaplicável aos crimes contra a administração pública.
+- STJ — Tese: peculato-desvio (§1°) consuma-se quando o funcionário dá ao bem destinação diversa da legal; não exige locupletamento pessoal.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

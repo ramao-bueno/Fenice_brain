@@ -68,15 +68,18 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 121-A]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Tese: feminicídio (§2°-VI) e motivo torpe (§2°-I) são qualificadoras compatíveis e podem coexistir no mesmo fato.
+- STJ — Tese: o reconhecimento do dolo eventual no homicídio de trânsito não afasta a competência do Tribunal do Júri.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

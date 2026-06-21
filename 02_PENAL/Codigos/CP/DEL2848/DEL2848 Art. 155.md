@@ -67,15 +67,18 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 156]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 14]] — tentativa (art. 14 CP)
+- [[DEL2848 Art. 23]] — excludentes de ilicitude (arts. 23-25 CP)
+- [[DEL2848 Art. 29]] — concurso de pessoas (art. 29 CP)
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 511: é possível reconhecer o privilégio (§2°) no furto qualificado, se presentes primariedade, pequeno valor e qualificadora de ordem objetiva.
+- STJ — Súmula 442: é inadmissível aplicar no furto qualificado a causa de aumento do §1° (noturno) pelo simples fato de o crime ser qualificado.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

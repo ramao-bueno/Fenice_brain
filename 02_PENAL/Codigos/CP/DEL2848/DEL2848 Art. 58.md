@@ -65,15 +65,15 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 59]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 49]] — mencionado na redação
+- [[DEL2848 Art. 44]] — mencionado na redação
+- [[DEL2848 Art. 60]] — mencionado na redação
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
 
 ---
 

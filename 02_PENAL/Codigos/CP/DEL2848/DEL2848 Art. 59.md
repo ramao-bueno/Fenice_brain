@@ -72,8 +72,10 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 444: é vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.
+- STJ — Tese firmada: cada circunstância judicial (art. 59) deve ser fundamentada concretamente; motivação genérica é nula.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

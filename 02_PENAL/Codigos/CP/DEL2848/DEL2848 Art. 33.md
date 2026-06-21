@@ -65,15 +65,16 @@ A tentativa é punível conforme art. 14 do CP?]
 - [[DEL2848 Art. 34]] — artigo seguinte
 
 ### Outros crimes
-[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
-causas de exclusão de ilicitude ou culpabilidade]
+- [[DEL2848 Art. 59]] — mencionado na redação
 
 ---
 
 ## JURISPRUDENCIA
 
-[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
-mudanças de orientação]
+- STJ — Súmula 440: fixada a pena-base no mínimo legal, é vedado o regime mais gravoso com fundamento apenas na gravidade abstrata do delito.
+- STF — Súmula 718: a opinião do julgador sobre a gravidade em abstrato do crime não constitui motivação idônea para regime mais severo do que o cabível.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 

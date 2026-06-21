@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-334-A
 - del2848
-created: '2026-06-20'
+created: '2026-06-21'
 ---
 
 # DEL2848 Art. 334-A — Art. 334-A
@@ -84,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-337-O
 - del2848
-created: '2026-06-20'
+created: '2026-06-21'
 ---
 
 # DEL2848 Art. 337-O — Art. 337-O
@@ -84,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

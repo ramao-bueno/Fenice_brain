@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-136
 - del2848
-created: '2026-06-20'
+created: '2026-06-21'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -88,4 +88,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

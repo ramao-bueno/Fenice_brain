@@ -1,5 +1,5 @@
 ---
-artigo: "121"
+artigo: '121'
 lei: DL 2.848/1940 — Código Penal
 sigla: DEL2848
 categoria: CODIGO_PENAL
@@ -7,12 +7,12 @@ status: vigente
 direito_penal: true
 relacionados: []
 tags:
-  - direito-penal
-  - vigente
-  - codigo_penal
-  - art-121
-  - del2848
-created: 2026-06-20
+- direito-penal
+- vigente
+- codigo_penal
+- art-121
+- del2848
+created: '2026-06-21'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -91,4 +91,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

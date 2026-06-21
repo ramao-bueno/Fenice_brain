@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-129
 - del2848
-created: '2026-06-20'
+created: '2026-06-21'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -97,4 +97,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

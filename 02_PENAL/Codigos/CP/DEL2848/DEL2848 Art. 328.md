@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-328
 - del2848
-created: '2026-06-20'
+created: '2026-06-21'
 ---
 
 # DEL2848 Art. 328 — Art. 328
@@ -83,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-21

@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Na aplicação da substituição prevista no artigo anterior, proceder-se-á na forma deste e dos arts. 46, 47 e 48. (Redação dada pela Lei nº 9.714, de 1998) § 1 o A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a 1 (um) salário mínimo nem superior a 360 (trezentos e sessenta) salários mínimos. O valor pago será deduzido do montante de eventual condenação em açã
+> Na aplicação da substituição prevista no artigo anterior, proceder-se-á na forma deste e dos arts. 46, 47 e 48. (Redação dada pela Lei nº 9.714, de 1998) § 1 o A prestação pecuniária consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada com destinação social, de importância fixada pelo juiz, não inferior a 1 (um) salário mínimo nem superior a 360 (trezentos e sessenta) salários mínimos. O valor pago será deduzido do montante de eventual condenação em ação de reparação civil, se coincidentes os beneficiários. (Incluído pela Lei nº 9.714, de 1998) § 2 o ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

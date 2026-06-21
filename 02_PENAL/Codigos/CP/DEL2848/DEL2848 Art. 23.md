@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; (Incluído pela Lei nº 7.209, de 11.7.1984) (Vide ADPF 779) III - em estrito cumprimento de dever legal ou no exercício regular de direito. (Incluído pela Lei nº 7.209, de 11.7.1984) Excesso punível (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - O agente, em qualquer das hipóteses deste artigo, r
+> Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; (Incluído pela Lei nº 7.209, de 11.7.1984) (Vide ADPF 779) III - em estrito cumprimento de dever legal ou no exercício regular de direito. (Incluído pela Lei nº 7.209, de 11.7.1984) Excesso punível (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - O agente, em qualquer das hipóteses deste artigo, responderá pelo excesso doloso ou culposo. (Incluído pela Lei nº 7.209, de 11.7.1984) Estado de neces...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

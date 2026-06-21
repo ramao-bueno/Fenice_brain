@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O desconhecimento da lei é inescusável. O erro sobre a ilicitude do fato, se inevitável, isenta de pena; se evitável, poderá diminuí-la de um sexto a um terço. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Considera-se evitável o erro se o agente atua ou se omite sem a consciência da ilicitude do fato, quando lhe era possível, nas circunstâncias, ter ou atingir essa consciência. (Redação dada pela Lei nº 7.209, de 11.7.1984) Coação irresistível e obediência hierárquica (Redaçã
+> O desconhecimento da lei é inescusável. O erro sobre a ilicitude do fato, se inevitável, isenta de pena; se evitável, poderá diminuí-la de um sexto a um terço. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Considera-se evitável o erro se o agente atua ou se omite sem a consciência da ilicitude do fato, quando lhe era possível, nas circunstâncias, ter ou atingir essa consciência. (Redação dada pela Lei nº 7.209, de 11.7.1984) Coação irresistível e obediência hierárquica (Redação dada pela Lei nº 7.209, de 11.7.1984)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

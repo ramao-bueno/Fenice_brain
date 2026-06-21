@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Durante o prazo da suspensão, o condenado ficará sujeito à observação e ao cumprimento das condições estabelecidas pelo juiz. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - No primeiro ano do prazo, deverá o condenado prestar serviços à comunidade (art. 46) ou submeter-se à limitação de fim de semana (art. 48). (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2° Se o condenado houver reparado o dano, salvo impossibilidade de fazê-lo, e se as circunstâncias do art. 59 deste Código lhe fore
+> Durante o prazo da suspensão, o condenado ficará sujeito à observação e ao cumprimento das condições estabelecidas pelo juiz. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - No primeiro ano do prazo, deverá o condenado prestar serviços à comunidade (art. 46) ou submeter-se à limitação de fim de semana (art. 48). (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2° Se o condenado houver reparado o dano, salvo impossibilidade de fazê-lo, e se as circunstâncias do art. 59 deste Código lhe forem inteiramente favoráveis, o juiz poderá substituir a exigência do parágrafo anterior pelas seguinte...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

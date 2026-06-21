@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 10 (dez) a 15 (quinze) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º - Nas mesmas penas incorre quem importa, vende, expõe à venda, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo o produto falsificado, corrompido, adulterado ou alterado. (Redação dada pela Lei nº 9.677, de 2.7.1998
+> Falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 10 (dez) a 15 (quinze) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º - Nas mesmas penas incorre quem importa, vende, expõe à venda, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo o produto falsificado, corrompido, adulterado ou alterado. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º-A - Incluem-se entre os produtos a que se refere este artigo os medicamentos, as matérias-pri...
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 10 (dez) a 15 (quinze) anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 10 (dez) a 15 (quinze) anos, e multa.
+- **Qualificadora/modalidade:** detenção, de 1 (um) a 3 (três) anos, e multa.
 
 ---
 

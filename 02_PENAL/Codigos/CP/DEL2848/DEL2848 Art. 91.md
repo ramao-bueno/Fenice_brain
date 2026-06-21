@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> São efeitos da condenação: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - tornar certa a obrigação de indenizar o dano causado pelo crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a perda em favor da União, ressalvado o direito do lesado ou de terceiro de boa-fé: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) dos instrumentos do crime, desde que consistam em coisas cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito; b) do produto do crime ou de qualquer bem
+> São efeitos da condenação: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - tornar certa a obrigação de indenizar o dano causado pelo crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a perda em favor da União, ressalvado o direito do lesado ou de terceiro de boa-fé: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) dos instrumentos do crime, desde que consistam em coisas cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito; b) do produto do crime ou de qualquer bem ou valor que constitua proveito auferido pelo agente com a prática do fato criminoso. (Vide ADPF 569...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

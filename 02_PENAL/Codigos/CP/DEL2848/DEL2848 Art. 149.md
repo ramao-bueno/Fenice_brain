@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Reduzir alguém a condição análoga à de escravo, quer submetendo-o a trabalhos forçados ou a jornada exaustiva, quer sujeitando-o a condições degradantes de trabalho, quer restringindo, por qualquer meio, sua locomoção em razão de dívida contraída com o empregador ou preposto: (Redação dada pela Lei nº 10.803, de 11.12.2003) Pena - reclusão, de dois a oito anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 10.803, de 11.12.2003) § 1 o Nas mesmas penas incorre quem:
+> Reduzir alguém a condição análoga à de escravo, quer submetendo-o a trabalhos forçados ou a jornada exaustiva, quer sujeitando-o a condições degradantes de trabalho, quer restringindo, por qualquer meio, sua locomoção em razão de dívida contraída com o empregador ou preposto: (Redação dada pela Lei nº 10.803, de 11.12.2003) Pena - reclusão, de dois a oito anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 10.803, de 11.12.2003) § 1 o Nas mesmas penas incorre quem: (Incluído pela Lei nº 10.803, de 11.12.2003) I &#150; cerceia o uso de qualquer meio de transporte p...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de dois a oito anos, e multa, além da pena correspondente à violência.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento e causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

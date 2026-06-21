@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O regime aberto baseia-se na autodisciplina e senso de responsabilidade do condenado. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O condenado deverá, fora do estabelecimento e sem vigilância, trabalhar, freqüentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O condenado será transferido do regime aberto, se praticar fato definido como crime doloso, se frustrar os
+> O regime aberto baseia-se na autodisciplina e senso de responsabilidade do condenado. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O condenado deverá, fora do estabelecimento e sem vigilância, trabalhar, freqüentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O condenado será transferido do regime aberto, se praticar fato definido como crime doloso, se frustrar os fins da execução ou se, podendo, não pagar a multa cumulativamente aplicada. (Redação dada pela Lei ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

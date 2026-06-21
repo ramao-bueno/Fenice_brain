@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia: (Incluído pela Lei nº 13.718, de 2018) Pena – reclusão, de 4 (quatr
+> Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia: (Incluído pela Lei nº 13.718, de 2018) Pena – reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o fato não constitui crime mais grave. (Redação dada pela Lei nº 15....
 
 ---
 
@@ -54,7 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o fato não constitui crime mais grave.
+
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

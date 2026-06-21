@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Causar incêndio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de três a seis anos, e multa. Aumento de pena § 1º - As penas aumentam-se de um terço: I - se o crime é cometido com intuito de obter vantagem pecuniária em proveito próprio ou alheio; II - se o incêndio é: a) em casa habitada ou destinada a habitação; b) em edifício público ou destinado a uso público ou a obra de assistência social ou de cultura; c) em embarcação, aeronave, comboio ou veíc
+> Causar incêndio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de três a seis anos, e multa. Aumento de pena § 1º - As penas aumentam-se de um terço: I - se o crime é cometido com intuito de obter vantagem pecuniária em proveito próprio ou alheio; II - se o incêndio é: a) em casa habitada ou destinada a habitação; b) em edifício público ou destinado a uso público ou a obra de assistência social ou de cultura; c) em embarcação, aeronave, comboio ou veículo de transporte coletivo; d) em estação ferroviária ou aeródromo; e) em estaleiro, fábrica ou ofic...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de três a seis anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

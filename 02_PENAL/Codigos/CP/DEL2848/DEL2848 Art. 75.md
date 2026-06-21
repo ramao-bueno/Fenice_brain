@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O tempo de cumprimento das penas privativas de liberdade não pode ser superior a 40 (quarenta) anos. (Redação dada pela Lei nº 13.964, de 2019) § 1º Quando o agente for condenado a penas privativas de liberdade cuja soma seja superior a 40 (quarenta) anos, devem elas ser unificadas para atender ao limite máximo deste artigo. (Redação dada pela Lei nº 13.964, de 2019) § 2º - Sobrevindo condenação por fato posterior ao início do cumprimento da pena, far-se-á nova unificação, desprezando-se, para e
+> O tempo de cumprimento das penas privativas de liberdade não pode ser superior a 40 (quarenta) anos. (Redação dada pela Lei nº 13.964, de 2019) § 1º Quando o agente for condenado a penas privativas de liberdade cuja soma seja superior a 40 (quarenta) anos, devem elas ser unificadas para atender ao limite máximo deste artigo. (Redação dada pela Lei nº 13.964, de 2019) § 2º - Sobrevindo condenação por fato posterior ao início do cumprimento da pena, far-se-á nova unificação, desprezando-se, para esse fim, o período de pena já cumprido. (Redação dada pela Lei nº 7.209, de 11.7.1984) Concurso de i...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

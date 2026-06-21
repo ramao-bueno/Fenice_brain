@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: I - contra o Presidente da República, ou contra chefe de governo estrangeiro; II - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal; (Redação dada pela Lei nº 14.197, de 2021) (Vigência) III - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria.
+> As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: I - contra o Presidente da República, ou contra chefe de governo estrangeiro; II - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal; (Redação dada pela Lei nº 14.197, de 2021) (Vigência) III - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria. IV - contra criança, adolescente, pessoa maior de 60 (sessenta) anos ou pessoa com deficiência, exce...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

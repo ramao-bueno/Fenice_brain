@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Diz-se o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime consumado (Incluído pela Lei nº 7.209, de 11.7.1984) I - consumado, quando nele se reúnem todos os elementos de sua definição legal; (Incluído pela Lei nº 7.209, de 11.7.1984) Tentativa (Incluído pela Lei nº 7.209, de 11.7.1984) II - tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. (Incluído pela Lei nº 7.209, de 11.7.1984) Pena de tentativa (Incluído pela Lei nº 7.209, de 11.
+> Diz-se o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime consumado (Incluído pela Lei nº 7.209, de 11.7.1984) I - consumado, quando nele se reúnem todos os elementos de sua definição legal; (Incluído pela Lei nº 7.209, de 11.7.1984) Tentativa (Incluído pela Lei nº 7.209, de 11.7.1984) II - tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. (Incluído pela Lei nº 7.209, de 11.7.1984) Pena de tentativa (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Salvo disposição em contrário, pune-se a tentativa com a pena corresponden...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

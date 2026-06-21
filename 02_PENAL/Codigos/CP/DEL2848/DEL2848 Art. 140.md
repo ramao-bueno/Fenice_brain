@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Injuriar alguém, ofendendo-lhe a dignidade ou o decoro: Pena - detenção, de um a seis meses, ou multa. § 1º - O juiz pode deixar de aplicar a pena: I - quando o ofendido, de forma reprovável, provocou diretamente a injúria; II - no caso de retorsão imediata, que consista em outra injúria. § 2º - Se a injúria consiste em violência ou vias de fato, que, por sua natureza ou pelo meio empregado, se considerem aviltantes: Pena - detenção, de três meses a um ano, e multa, além da pena correspondente à
+> Injuriar alguém, ofendendo-lhe a dignidade ou o decoro: Pena - detenção, de um a seis meses, ou multa. § 1º - O juiz pode deixar de aplicar a pena: I - quando o ofendido, de forma reprovável, provocou diretamente a injúria; II - no caso de retorsão imediata, que consista em outra injúria. § 2º - Se a injúria consiste em violência ou vias de fato, que, por sua natureza ou pelo meio empregado, se considerem aviltantes: Pena - detenção, de três meses a um ano, e multa, além da pena correspondente à violência. § 3º Se a injúria consiste na utilização de elementos referentes a religião ou à condiçã...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de um a seis meses, ou multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** detenção, de um a seis meses, ou multa.
+- **Qualificadora/modalidade:** I - quando o ofendido, de forma reprovável, provocou diretamente a injúria; II - no caso de retorsão imediata, que consista em outra injúria.
+- **Qualificadora/modalidade:** detenção, de três meses a um ano, e multa, além da pena correspondente à violência.
+- **Qualificadora/modalidade:** reclusão, de 1 (um) a 3 (três) anos, e multa.
 
 ---
 

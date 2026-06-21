@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Promover ou facilitar a fuga de pessoa legalmente presa ou submetida a medida de segurança detentiva: Pena - detenção, de seis meses a dois anos. § 1º - Se o crime é praticado a mão armada, ou por mais de uma pessoa, ou mediante arrombamento, a pena é de reclusão, de dois a seis anos. § 2º - Se há emprego de violência contra pessoa, aplica-se também a pena correspondente à violência. § 3º - A pena é de reclusão, de um a quatro anos, se o crime é praticado por pessoa sob cuja custódia ou guarda e
+> Promover ou facilitar a fuga de pessoa legalmente presa ou submetida a medida de segurança detentiva: Pena - detenção, de seis meses a dois anos. § 1º - Se o crime é praticado a mão armada, ou por mais de uma pessoa, ou mediante arrombamento, a pena é de reclusão, de dois a seis anos. § 2º - Se há emprego de violência contra pessoa, aplica-se também a pena correspondente à violência. § 3º - A pena é de reclusão, de um a quatro anos, se o crime é praticado por pessoa sob cuja custódia ou guarda está o preso ou o internado. § 4º - No caso de culpa do funcionário incumbido da custódia ou guarda, ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de seis meses a dois anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

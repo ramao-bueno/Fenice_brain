@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> O curso da prescrição interrompe-se: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - pelo recebimento da denúncia ou da queixa; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - pela pronúncia; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - pela decisão confirmatória da pronúncia; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - pela publicação da sentença ou acórdão condenatórios recorríveis; (Redação dada pela Lei nº 11.596, de 2007). V - pelo início ou continuação do cumprimento
+> O curso da prescrição interrompe-se: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - pelo recebimento da denúncia ou da queixa; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - pela pronúncia; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - pela decisão confirmatória da pronúncia; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - pela publicação da sentença ou acórdão condenatórios recorríveis; (Redação dada pela Lei nº 11.596, de 2007). V - pelo início ou continuação do cumprimento da pena; (Redação dada pela Lei nº 9.268, de 1º.4.1996) VI - pela reincidência. (Redação dada pela ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

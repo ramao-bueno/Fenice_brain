@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Ficam sujeitos à lei brasileira, embora cometidos no estrangeiro: (Redação dada pela Lei nº 7.209, de 1984) I - os crimes: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) contra a vida ou a liberdade do Presidente da República; (Incluído pela Lei nº 7.209, de 1984) b) contra o patrimônio ou a fé pública da União, do Distrito Federal, de Estado, de Território, de Município, de empresa pública, sociedade de economia mista, autarquia ou fundação instituída pelo Poder Público; (Incluído pela Lei n
+> Ficam sujeitos à lei brasileira, embora cometidos no estrangeiro: (Redação dada pela Lei nº 7.209, de 1984) I - os crimes: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) contra a vida ou a liberdade do Presidente da República; (Incluído pela Lei nº 7.209, de 1984) b) contra o patrimônio ou a fé pública da União, do Distrito Federal, de Estado, de Território, de Município, de empresa pública, sociedade de economia mista, autarquia ou fundação instituída pelo Poder Público; (Incluído pela Lei nº 7.209, de 1984) c) contra a administração pública, por quem está a seu serviço; (Incluído pela Lei...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

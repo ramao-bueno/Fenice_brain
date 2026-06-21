@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A multa deve ser paga dentro de 10 (dez) dias depois de transitada em julgado a sentença. A requerimento do condenado e conforme as circunstâncias, o juiz pode permitir que o pagamento se realize em parcelas mensais. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - A cobrança da multa pode efetuar-se mediante desconto no vencimento ou salário do condenado quando: (Incluído pela Lei nº 7.209, de 11.7.1984) a) aplicada isoladamente; (Incluído pela Lei nº 7.209, de 11.7.1984) b) aplicada cumul
+> A multa deve ser paga dentro de 10 (dez) dias depois de transitada em julgado a sentença. A requerimento do condenado e conforme as circunstâncias, o juiz pode permitir que o pagamento se realize em parcelas mensais. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - A cobrança da multa pode efetuar-se mediante desconto no vencimento ou salário do condenado quando: (Incluído pela Lei nº 7.209, de 11.7.1984) a) aplicada isoladamente; (Incluído pela Lei nº 7.209, de 11.7.1984) b) aplicada cumulativamente com pena restritiva de direitos; (Incluído pela Lei nº 7.209, de 11.7.1984) c) concedida ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

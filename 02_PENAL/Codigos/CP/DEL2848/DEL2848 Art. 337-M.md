@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Admitir à licitação empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 1 (um) ano a 3 (três) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 1º Celebrar contrato com empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 3 (três) anos a 6 (seis) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 2º Incide na mesma pena do caput deste artigo aquele que, declarado inidôneo, venha a part
+> Admitir à licitação empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 1 (um) ano a 3 (três) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 1º Celebrar contrato com empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 3 (três) anos a 6 (seis) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 2º Incide na mesma pena do caput deste artigo aquele que, declarado inidôneo, venha a participar de licitação e, na mesma pena do § 1º deste artigo, aquele que, declarado inidôneo, venha a c...
 
 ---
 
@@ -52,9 +52,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 1 (um) ano a 3 (três) anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 1 (um) ano a 3 (três) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) anos a 6 (seis) anos, e multa.
 
 ---
 

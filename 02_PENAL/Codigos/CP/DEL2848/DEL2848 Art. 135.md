@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Deixar de prestar assistência, quando possível fazê-lo sem risco pessoal, à criança abandonada ou extraviada, ou à pessoa inválida ou ferida, ao desamparo ou em grave e iminente perigo; ou não pedir, nesses casos, o socorro da autoridade pública: Pena - detenção, de um a seis meses, ou multa. Parágrafo único - A pena é aumentada de metade, se da omissão resulta lesão corporal de natureza grave, e triplicada, se resulta a morte. Condicionamento de atendimento médico-hospitalar emergencial (Incluí
+> Deixar de prestar assistência, quando possível fazê-lo sem risco pessoal, à criança abandonada ou extraviada, ou à pessoa inválida ou ferida, ao desamparo ou em grave e iminente perigo; ou não pedir, nesses casos, o socorro da autoridade pública: Pena - detenção, de um a seis meses, ou multa. Parágrafo único - A pena é aumentada de metade, se da omissão resulta lesão corporal de natureza grave, e triplicada, se resulta a morte. Condicionamento de atendimento médico-hospitalar emergencial (Incluído pela Lei nº 12.653, de 2012). Art. 135-A. Exigir cheque-caução, nota promissória ou qualquer gara...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de um a seis meses, ou multa.
+- **Caput:** detenção, de um a seis meses, ou multa.
+- **Qualificadora/modalidade:** detenção, de 3 (três) meses a 1 (um) ano, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

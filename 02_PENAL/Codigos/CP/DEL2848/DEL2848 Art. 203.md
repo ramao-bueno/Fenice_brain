@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Frustrar, mediante fraude ou violência, direito assegurado pela legislação do trabalho: Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Na mesma pena incorre quem: (Incluído pela Lei nº 9.777, de 1998) I - obriga ou coage alguém a usar mercadorias de determinado estabelecimento, para impossibilitar o desligamento do serviço em virtude de dívida; (Incluído pela Lei nº 9.777, de 1998) II - impede alguém d
+> Frustrar, mediante fraude ou violência, direito assegurado pela legislação do trabalho: Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Na mesma pena incorre quem: (Incluído pela Lei nº 9.777, de 1998) I - obriga ou coage alguém a usar mercadorias de determinado estabelecimento, para impossibilitar o desligamento do serviço em virtude de dívida; (Incluído pela Lei nº 9.777, de 1998) II - impede alguém de se desligar de serviços de qualquer natureza, mediante coação ou por meio da retenção de seus docu...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção de um ano a dois anos, e multa, além da pena correspondente à violência.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

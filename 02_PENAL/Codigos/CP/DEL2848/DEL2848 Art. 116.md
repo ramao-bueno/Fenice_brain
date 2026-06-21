@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Antes de passar em julgado a sentença final, a prescrição não corre: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - enquanto o agente cumpre pena no exterior; (Redação dada pela Lei nº 13.964, de 2019) III - na pendência de embargos de declaração ou de recursos aos Tribunais Superiores, quando inadmissíveis; e (Incluído pela Lei nº 13.
+> Antes de passar em julgado a sentença final, a prescrição não corre: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - enquanto o agente cumpre pena no exterior; (Redação dada pela Lei nº 13.964, de 2019) III - na pendência de embargos de declaração ou de recursos aos Tribunais Superiores, quando inadmissíveis; e (Incluído pela Lei nº 13.964, de 2019) IV - enquanto não cumprido ou não rescindido o acordo de não persecução penal. (Incluí...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Ordenar ou autorizar a assunção de obrigação, nos dois últimos quadrimestres do último ano do mandato ou legislatura, cuja despesa não possa ser paga no mesmo exercício financeiro ou, caso reste parcela a ser paga no exercício seguinte, que não tenha contrapartida suficiente de disponibilidade de caixa: (Incluído pela Lei nº 10.028, de 2000) Pena - reclusão, de 1 (um) a 4 (quatro) anos. (Incluído pela Lei nº 10.028, de 2000) Ordenação de despesa não autorizada (Incluído pela Lei nº 10.028, de 20
+> Ordenar ou autorizar a assunção de obrigação, nos dois últimos quadrimestres do último ano do mandato ou legislatura, cuja despesa não possa ser paga no mesmo exercício financeiro ou, caso reste parcela a ser paga no exercício seguinte, que não tenha contrapartida suficiente de disponibilidade de caixa: (Incluído pela Lei nº 10.028, de 2000) Pena - reclusão, de 1 (um) a 4 (quatro) anos. (Incluído pela Lei nº 10.028, de 2000) Ordenação de despesa não autorizada (Incluído pela Lei nº 10.028, de 2000)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 1 (um) a 4 (quatro) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de três meses a um ano, se o fato não constitui crime mais grave.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

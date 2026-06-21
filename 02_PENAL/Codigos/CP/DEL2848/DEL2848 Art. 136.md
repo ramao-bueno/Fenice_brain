@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Expor a perigo a vida ou a saúde de pessoa sob sua autoridade, guarda ou vigilância, para fim de educação, ensino, tratamento ou custódia, quer privando-a de alimentação ou cuidados indispensáveis, quer sujeitando-a a trabalho excessivo ou inadequado, quer abusando de meios de correção ou disciplina: Pena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do fato resulta lesão corporal de natureza grave: Pena - reclusão, de 3 (três) a 7 (sete) anos. (R
+> Expor a perigo a vida ou a saúde de pessoa sob sua autoridade, guarda ou vigilância, para fim de educação, ensino, tratamento ou custódia, quer privando-a de alimentação ou cuidados indispensáveis, quer sujeitando-a a trabalho excessivo ou inadequado, quer abusando de meios de correção ou disciplina: Pena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do fato resulta lesão corporal de natureza grave: Pena - reclusão, de 3 (três) a 7 (sete) anos. (Redação dada pela Lei nº 15.163, de 2025) § 2º - Se resulta a morte: Pena - reclusão, de 8 (oito) a 1...
 
 ---
 
@@ -54,9 +54,11 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 2 (dois) a 5 (cinco) anos.
+- **Caput:** reclusão, de 2 (dois) a 5 (cinco) anos.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) a 7 (sete) anos.
+- **Qualificadora/modalidade:** reclusão, de 8 (oito) a 14 (quatorze) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

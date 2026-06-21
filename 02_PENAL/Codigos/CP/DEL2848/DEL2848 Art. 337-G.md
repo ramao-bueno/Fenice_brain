@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 6 (seis) meses a 3 (três) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

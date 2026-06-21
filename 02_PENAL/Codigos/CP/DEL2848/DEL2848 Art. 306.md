@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem: Pena - reclusão, de dois a seis anos, e multa. Parágrafo único - Se a marca ou sinal falsificado é o que usa a autoridade pública para o fim de fiscalização sanitária, ou para autenticar ou encerrar determinados objetos, ou comprovar o cumprimento de formalidade legal: Pena - reclusão ou
+> Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem: Pena - reclusão, de dois a seis anos, e multa. Parágrafo único - Se a marca ou sinal falsificado é o que usa a autoridade pública para o fim de fiscalização sanitária, ou para autenticar ou encerrar determinados objetos, ou comprovar o cumprimento de formalidade legal: Pena - reclusão ou detenção, de um a três anos, e multa. Falsa identidade
 
 ---
 
@@ -52,9 +52,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de dois a seis anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de dois a seis anos, e multa.
+- **Qualificadora/modalidade:** reclusão ou detenção, de um a três anos, e multa.
 
 ---
 

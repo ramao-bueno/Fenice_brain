@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências: Pena - detenção, de um a três meses, ou multa. § 1º - Se o crime é cometido durante a noite, ou em lugar ermo, ou com o emprego de violência ou de arma, ou por duas ou mais pessoas: Pena - detenção, de seis meses a dois anos, além da pena correspondente à violência. § 2º - (Revogado pela Lei nº 13.869, de 2019) (Vigência) § 3º - Não constitui cri
+> Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências: Pena - detenção, de um a três meses, ou multa. § 1º - Se o crime é cometido durante a noite, ou em lugar ermo, ou com o emprego de violência ou de arma, ou por duas ou mais pessoas: Pena - detenção, de seis meses a dois anos, além da pena correspondente à violência. § 2º - (Revogado pela Lei nº 13.869, de 2019) (Vigência) § 3º - Não constitui crime a entrada ou permanência em casa alheia ou em suas dependências: I - durante o dia, com observânc...
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de um a três meses, ou multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** detenção, de um a três meses, ou multa.
+- **Qualificadora/modalidade:** detenção, de seis meses a dois anos, além da pena correspondente à violência.
 
 ---
 

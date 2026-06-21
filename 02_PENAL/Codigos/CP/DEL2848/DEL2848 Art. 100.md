@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - A ação de iniciativa privada é promovida mediante queixa do ofendido ou de quem tenha qualidade para representá-lo. (Redação dada pela Lei nº 7.20
+> A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - A ação de iniciativa privada é promovida mediante queixa do ofendido ou de quem tenha qualidade para representá-lo. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 3º - A ação de iniciativa privada pode intentar-se nos crimes de ação pública, se...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

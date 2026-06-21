@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> O perdão, no processo ou fora dele, expresso ou tácito: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - se concedido a qualquer dos querelados, a todos aproveita; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - se concedido por um dos ofendidos, não prejudica o direito dos outros; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - se o querelado o recusa, não produz efeito. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - Perdão tácito é o que resulta da prática de ato incompatível
+> O perdão, no processo ou fora dele, expresso ou tácito: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - se concedido a qualquer dos querelados, a todos aproveita; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - se concedido por um dos ofendidos, não prejudica o direito dos outros; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - se o querelado o recusa, não produz efeito. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - Perdão tácito é o que resulta da prática de ato incompatível com a vontade de prosseguir na ação. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - Não é ad...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> As penas restritivas de direitos são: (Redação dada pela Lei nº 9.714, de 1998) I - prestação pecuniária; (Incluído pela Lei nº 9.714, de 1998) II - perda de bens e valores; (Incluído pela Lei nº 9.714, de 1998) III - limitação de fim de semana. (Incluído pela Lei nº 7.209, de 1984) IV - prestação de serviço à comunidade ou a entidades públicas; (Incluído pela Lei nº 9.714, de 25.11.1998) V - interdição temporária de direitos; (Incluído pela Lei nº 9.714, de 25.11.1998) VI - limitação de fim de
+> As penas restritivas de direitos são: (Redação dada pela Lei nº 9.714, de 1998) I - prestação pecuniária; (Incluído pela Lei nº 9.714, de 1998) II - perda de bens e valores; (Incluído pela Lei nº 9.714, de 1998) III - limitação de fim de semana. (Incluído pela Lei nº 7.209, de 1984) IV - prestação de serviço à comunidade ou a entidades públicas; (Incluído pela Lei nº 9.714, de 25.11.1998) V - interdição temporária de direitos; (Incluído pela Lei nº 9.714, de 25.11.1998) VI - limitação de fim de semana. (Incluído pela Lei nº 9.714, de 25.11.1998)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

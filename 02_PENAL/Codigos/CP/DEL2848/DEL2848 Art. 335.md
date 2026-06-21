@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Impedir, perturbar ou fraudar concorrência pública ou venda em hasta pública, promovida pela administração federal, estadual ou municipal, ou por entidade paraestatal; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência. Parágrafo único - Incorre na mesma pena quem se abstém de concorrer ou licitar, em razão da vantagem oferecida
+> Impedir, perturbar ou fraudar concorrência pública ou venda em hasta pública, promovida pela administração federal, estadual ou municipal, ou por entidade paraestatal; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência. Parágrafo único - Incorre na mesma pena quem se abstém de concorrer ou licitar, em razão da vantagem oferecida. Inutilização de edital ou de sinal
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> As penas de interdição temporária de direitos são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de licença ou autorização do poder público; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - suspensão de autorização ou de habilitação para dirigir veículo
+> As penas de interdição temporária de direitos são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de licença ou autorização do poder público; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - suspensão de autorização ou de habilitação para dirigir veículo. (Redação dada pela Lei nº 7.209, de 11.7.1984) IV &#150; proibição de freqüentar determinados luga...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

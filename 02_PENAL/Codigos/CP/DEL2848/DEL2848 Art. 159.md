@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Seqüestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate: Vide Lei nº 8.072, de 25.7.90 (Vide Lei nº 10.446, de 2002) Pena - reclusão, de oito a quinze anos. . (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1 o Se o seqüestro dura mais de 24 (vinte e quatro) horas, se o seqüestrado é menor de 18 (dezoito) ou maior de 60 (sessenta) anos, ou se o crime é cometido por bando ou quadrilha. Vide Lei nº 8.072, de 25.7.90 (Redação dada pela Lei
+> Seqüestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate: Vide Lei nº 8.072, de 25.7.90 (Vide Lei nº 10.446, de 2002) Pena - reclusão, de oito a quinze anos. . (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1 o Se o seqüestro dura mais de 24 (vinte e quatro) horas, se o seqüestrado é menor de 18 (dezoito) ou maior de 60 (sessenta) anos, ou se o crime é cometido por bando ou quadrilha. Vide Lei nº 8.072, de 25.7.90 (Redação dada pela Lei nº 10.741, de 2003) Pena - reclusão, de doze a vinte anos. (Redação dada pela Lei nº 8.072, de 25.7...
 
 ---
 
@@ -54,9 +54,12 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de oito a quinze anos.
+- **Caput:** reclusão, de oito a quinze anos.
+- **Qualificadora/modalidade:** reclusão, de doze a vinte anos.
+- **Qualificadora/modalidade:** reclusão, de dezesseis a vinte e quatro anos.
+- **Qualificadora/modalidade:** reclusão, de vinte e quatro a trinta anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento e causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Promover a fundação de sociedade por ações, fazendo, em prospecto ou em comunicação ao público ou à assembléia, afirmação falsa sobre a constituição da sociedade, ou ocultando fraudulentamente fato a ela relativo: Pena - reclusão, de um a quatro anos, e multa, se o fato não constitui crime contra a economia popular. § 1º - Incorrem na mesma pena, se o fato não constitui crime contra a economia popular: (Vide Lei nº 1.521, de 1951) I - o diretor, o gerente ou o fiscal de sociedade por ações, que,
+> Promover a fundação de sociedade por ações, fazendo, em prospecto ou em comunicação ao público ou à assembléia, afirmação falsa sobre a constituição da sociedade, ou ocultando fraudulentamente fato a ela relativo: Pena - reclusão, de um a quatro anos, e multa, se o fato não constitui crime contra a economia popular. § 1º - Incorrem na mesma pena, se o fato não constitui crime contra a economia popular: (Vide Lei nº 1.521, de 1951) I - o diretor, o gerente ou o fiscal de sociedade por ações, que, em prospecto, relatório, parecer, balanço ou comunicação ao público ou à assembléia, faz afirmação ...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de um a quatro anos, e multa, se o fato não constitui crime contra a economia popular.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

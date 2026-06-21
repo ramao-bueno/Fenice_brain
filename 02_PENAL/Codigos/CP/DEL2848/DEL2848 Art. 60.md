@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Na fixação da pena de multa o juiz deve atender, principalmente, à situação econômica do réu. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - A multa pode ser aumentada até o triplo, se o juiz considerar que, em virtude da situação econômica do réu, é ineficaz, embora aplicada no máximo. (Redação dada pela Lei nº 7.209, de 11.7.1984) Multa substitutiva § 2º - A pena privativa de liberdade aplicada, não superior a 6 (seis) meses, pode ser substituída pela de multa, observados os critérios
+> Na fixação da pena de multa o juiz deve atender, principalmente, à situação econômica do réu. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - A multa pode ser aumentada até o triplo, se o juiz considerar que, em virtude da situação econômica do réu, é ineficaz, embora aplicada no máximo. (Redação dada pela Lei nº 7.209, de 11.7.1984) Multa substitutiva § 2º - A pena privativa de liberdade aplicada, não superior a 6 (seis) meses, pode ser substituída pela de multa, observados os critérios dos incisos II e III do art. 44 deste Código. (Redação dada pela Lei nº 7.209, de 11.7.1984) Circuns...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

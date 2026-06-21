@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Considera-se em estado de necessidade quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Não pode alegar estado de necessidade quem tinha o dever legal de enfrentar o perigo. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - Embora seja razoável exigir-se o sacrifício do direito amea
+> Considera-se em estado de necessidade quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Não pode alegar estado de necessidade quem tinha o dever legal de enfrentar o perigo. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - Embora seja razoável exigir-se o sacrifício do direito ameaçado, a pena poderá ser reduzida de um a dois terços. (Redação dada pela Lei nº 7.209, de 11.7.1984)...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

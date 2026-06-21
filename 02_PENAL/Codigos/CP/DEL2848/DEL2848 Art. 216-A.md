@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. (Incluído pela Lei nº 10.224, de 15 de 2001) Pena &#150; detenção, de 1 (um) a 2 (dois) anos. (Incluído pela Lei nº 10.224, de 15 de 2001) Parágrafo único. (VETADO) (Incluído pela Lei nº 10.224, de 15 de 2001) § 2 o A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos.
+> Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. (Incluído pela Lei nº 10.224, de 15 de 2001) Pena &#150; detenção, de 1 (um) a 2 (dois) anos. (Incluído pela Lei nº 10.224, de 15 de 2001) Parágrafo único. (VETADO) (Incluído pela Lei nº 10.224, de 15 de 2001) § 2 o A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos. (Incluído pela Lei nº 12.015, de 2009) CAPÍTULO I-A (Incluído pela Lei nº 13.772, de 2018) DA EXPOS...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

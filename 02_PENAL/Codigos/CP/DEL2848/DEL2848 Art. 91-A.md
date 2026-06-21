@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Na hipótese de condenação por infrações às quais a lei comine pena máxima superior a 6 (seis) anos de reclusão, poderá ser decretada a perda, como produto ou proveito do crime, dos bens correspondentes à diferença entre o valor do patrimônio do condenado e aquele que seja compatível com o seu rendimento lícito. (Incluído pela Lei nº 13.964, de 2019) § 1º Para efeito da perda prevista no caput deste artigo, entende-se por patrimônio do condenado todos os bens: (Incluído pela Lei nº 13.964, de 201
+> Na hipótese de condenação por infrações às quais a lei comine pena máxima superior a 6 (seis) anos de reclusão, poderá ser decretada a perda, como produto ou proveito do crime, dos bens correspondentes à diferença entre o valor do patrimônio do condenado e aquele que seja compatível com o seu rendimento lícito. (Incluído pela Lei nº 13.964, de 2019) § 1º Para efeito da perda prevista no caput deste artigo, entende-se por patrimônio do condenado todos os bens: (Incluído pela Lei nº 13.964, de 2019) I - de sua titularidade, ou em relação aos quais ele tenha o domínio e o benefício direto ou indi...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

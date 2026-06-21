@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida: Pena - reclusão, de 2 (dois) a 12 (doze) anos, e multa. (Redação dada pela Lei nº 13.964, de 2019) Excesso de exação § 1º - Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza: (Redação dada pela Lei nº 8.137, de 27.12.1990) Pena
+> Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida: Pena - reclusão, de 2 (dois) a 12 (doze) anos, e multa. (Redação dada pela Lei nº 13.964, de 2019) Excesso de exação § 1º - Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza: (Redação dada pela Lei nº 8.137, de 27.12.1990) Pena - reclusão, de 3 (três) a 8 (oito) anos, e multa. (Redação dada pela Lei nº 8.137, de 27.12.1990) § ...
 
 ---
 
@@ -52,9 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 2 (dois) a 12 (doze) anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 2 (dois) a 12 (doze) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) a 8 (oito) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de dois a doze anos, e multa.
 
 ---
 

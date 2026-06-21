@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Associarem-se 3 (três) ou mais pessoas, para o fim específico de cometer crimes: (Redação dada pela Lei nº 12.850, de 2013) (Vigência) Pena - reclusão, de 1 (um) a 3 (três) anos. (Redação dada pela Lei nº 12.850, de 2013) (Vigência) § 1º A pena aumenta-se até a metade se a associação é armada ou se houver a participação de criança ou adolescente. (Incluído pela Lei nº 15.245, de 2025) § 2º Incorre na pena prevista no caput deste artigo quem, de qualquer modo, solicitar ou contratar o cometimento
+> Associarem-se 3 (três) ou mais pessoas, para o fim específico de cometer crimes: (Redação dada pela Lei nº 12.850, de 2013) (Vigência) Pena - reclusão, de 1 (um) a 3 (três) anos. (Redação dada pela Lei nº 12.850, de 2013) (Vigência) § 1º A pena aumenta-se até a metade se a associação é armada ou se houver a participação de criança ou adolescente. (Incluído pela Lei nº 15.245, de 2025) § 2º Incorre na pena prevista no caput deste artigo quem, de qualquer modo, solicitar ou contratar o cometimento de crime a integrante de associação criminosa, independentemente da aplicação da pena correspondent...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 1 (um) a 3 (três) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

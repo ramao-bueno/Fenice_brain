@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Deixar, sem justa causa, de prover a subsistência do cônjuge, ou de filho menor de 18 (dezoito) anos ou inapto para o trabalho, ou de ascendente inválido ou maior de 60 (sessenta) anos, não lhes proporcionando os recursos necessários ou faltando ao pagamento de pensão alimentícia judicialmente acordada, fixada ou majorada; deixar, sem justa causa, de socorrer descendente ou ascendente, gravemente enfermo: (Redação dada pela Lei nº 10.741, de 2003) Pena - detenção, de 1 (um) a 4 (quatro) anos e m
+> Deixar, sem justa causa, de prover a subsistência do cônjuge, ou de filho menor de 18 (dezoito) anos ou inapto para o trabalho, ou de ascendente inválido ou maior de 60 (sessenta) anos, não lhes proporcionando os recursos necessários ou faltando ao pagamento de pensão alimentícia judicialmente acordada, fixada ou majorada; deixar, sem justa causa, de socorrer descendente ou ascendente, gravemente enfermo: (Redação dada pela Lei nº 10.741, de 2003) Pena - detenção, de 1 (um) a 4 (quatro) anos e multa, de uma a dez vezes o maior salário mínimo vigente no País. (Redação dada pela Lei nº 5.478, de...
 
 ---
 
@@ -54,7 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** detenção, de 1 (um) a 4 (quatro) anos e multa, de uma a dez vezes o maior salário mínimo vigente no País.
+
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

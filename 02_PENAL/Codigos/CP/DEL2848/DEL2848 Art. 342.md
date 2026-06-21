@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Fazer afirmação falsa, ou negar ou calar a verdade como testemunha, perito, contador, tradutor ou intérprete em processo judicial, ou administrativo, inquérito policial, ou em juízo arbitral: (Redação dada pela Lei nº 10.268, de 28.8.2001) Pena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa. (Redação dada pela Lei nº 12.850, de 2013) (Vigência) § 1 o As penas aumentam-se de um sexto a um terço, se o crime é praticado mediante suborno ou se cometido com o fim de obter prova destinada a produz
+> Fazer afirmação falsa, ou negar ou calar a verdade como testemunha, perito, contador, tradutor ou intérprete em processo judicial, ou administrativo, inquérito policial, ou em juízo arbitral: (Redação dada pela Lei nº 10.268, de 28.8.2001) Pena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa. (Redação dada pela Lei nº 12.850, de 2013) (Vigência) § 1 o As penas aumentam-se de um sexto a um terço, se o crime é praticado mediante suborno ou se cometido com o fim de obter prova destinada a produzir efeito em processo penal, ou em processo civil em que for parte entidade da administração pública...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 4 (quatro) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

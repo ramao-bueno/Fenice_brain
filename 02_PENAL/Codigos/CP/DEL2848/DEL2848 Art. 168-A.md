@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Deixar de repassar à previdência social as contribuições recolhidas dos contribuintes, no prazo e forma legal ou convencional: (Incluído pela Lei nº 9.983, de 2000) Pena &#150; reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 9.983, de 2000) § 1 o Nas mesmas penas incorre quem deixar de: (Incluído pela Lei nº 9.983, de 2000) I &#150; recolher, no prazo legal, contribuição ou outra importância destinada à previdência social que tenha sido descontada de pagamento efetuado a s
+> Deixar de repassar à previdência social as contribuições recolhidas dos contribuintes, no prazo e forma legal ou convencional: (Incluído pela Lei nº 9.983, de 2000) Pena &#150; reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 9.983, de 2000) § 1 o Nas mesmas penas incorre quem deixar de: (Incluído pela Lei nº 9.983, de 2000) I &#150; recolher, no prazo legal, contribuição ou outra importância destinada à previdência social que tenha sido descontada de pagamento efetuado a segurados, a terceiros ou arrecadada do público; (Incluído pela Lei nº 9.983, de 2000) II &#150; reco...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

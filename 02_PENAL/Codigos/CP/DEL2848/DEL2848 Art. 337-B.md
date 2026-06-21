@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Prometer, oferecer ou dar, direta ou indiretamente, vantagem indevida a funcionário público estrangeiro, ou a terceira pessoa, para determiná-lo a praticar, omitir ou retardar ato de ofício relacionado à transação comercial internacional: (Incluído pela Lei nº 10.467, de 11.6.2002) Pena &#150; reclusão, de 1 (um) a 8 (oito) anos, e multa. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. A pena é aumentada de 1/3 (um terço), se, em razão da vantagem ou promessa, o funcionário público
+> Prometer, oferecer ou dar, direta ou indiretamente, vantagem indevida a funcionário público estrangeiro, ou a terceira pessoa, para determiná-lo a praticar, omitir ou retardar ato de ofício relacionado à transação comercial internacional: (Incluído pela Lei nº 10.467, de 11.6.2002) Pena &#150; reclusão, de 1 (um) a 8 (oito) anos, e multa. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. A pena é aumentada de 1/3 (um terço), se, em razão da vantagem ou promessa, o funcionário público estrangeiro retarda ou omite o ato de ofício, ou o pratica infringindo dever funcional. (Incluído pe...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

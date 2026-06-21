@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 18 (dezoito) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone: (Incluído pela Lei nº 12.015, de 2009) Pena – reclusão, de 7 (sete) a 16 (dezesseis) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025) § 1º (Revogado). (Redação dada pela Lei nº 15.280, de 2025) § 2 o Incorre nas mesmas pen
+> Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual alguém menor de 18 (dezoito) anos ou que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, facilitá-la, impedir ou dificultar que a abandone: (Incluído pela Lei nº 12.015, de 2009) Pena – reclusão, de 7 (sete) a 16 (dezesseis) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025) § 1º (Revogado). (Redação dada pela Lei nº 15.280, de 2025) § 2 o Incorre nas mesmas penas: (Incluído pela Lei nº 12.015, de 2009) I - quem pratica conjunção carnal ou outro ato libidinoso...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 7 (sete) a 16 (dezesseis) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

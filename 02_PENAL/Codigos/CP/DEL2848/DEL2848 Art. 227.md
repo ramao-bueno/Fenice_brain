@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Induzir alguém a satisfazer a lascívia de outrem: Pena - reclusão, de um a três anos. § 1 o Se a vítima é maior de 14 (catorze) e menor de 18 (dezoito) anos, ou se o agente é seu ascendente, descendente, cônjuge ou companheiro, irmão, tutor ou curador ou pessoa a quem esteja confiada para fins de educação, de tratamento ou de guarda: (Redação dada pela Lei nº 11.106, de 2005) Pena - reclusão, de dois a cinco anos. § 2º - Se o crime é cometido com emprego de violência, grave ameaça ou fraude: Pen
+> Induzir alguém a satisfazer a lascívia de outrem: Pena - reclusão, de um a três anos. § 1 o Se a vítima é maior de 14 (catorze) e menor de 18 (dezoito) anos, ou se o agente é seu ascendente, descendente, cônjuge ou companheiro, irmão, tutor ou curador ou pessoa a quem esteja confiada para fins de educação, de tratamento ou de guarda: (Redação dada pela Lei nº 11.106, de 2005) Pena - reclusão, de dois a cinco anos. § 2º - Se o crime é cometido com emprego de violência, grave ameaça ou fraude: Pena - reclusão, de dois a oito anos, além da pena correspondente à violência. § 3º - Se o crime é come...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de um a três anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de um a três anos.
+- **Qualificadora/modalidade:** reclusão, de dois a cinco anos.
+- **Qualificadora/modalidade:** reclusão, de dois a oito anos, além da pena correspondente à violência.
 
 ---
 

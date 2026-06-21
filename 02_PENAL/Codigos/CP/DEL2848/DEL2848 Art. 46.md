@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade. (Redação dada pela Lei nº 9.714, de 1998) § 1 o A prestação de serviços à comunidade ou a entidades públicas consiste na atribuição de tarefas gratuitas ao condenado. (Incluído pela Lei nº 9.714, de 1998) § 2 o A prestação de serviço à comunidade dar-se-á em entidades assistenciais, hospitais, escolas, orfanatos e outros estabelecimentos congêneres, em program
+> A prestação de serviços à comunidade ou a entidades públicas é aplicável às condenações superiores a seis meses de privação da liberdade. (Redação dada pela Lei nº 9.714, de 1998) § 1 o A prestação de serviços à comunidade ou a entidades públicas consiste na atribuição de tarefas gratuitas ao condenado. (Incluído pela Lei nº 9.714, de 1998) § 2 o A prestação de serviço à comunidade dar-se-á em entidades assistenciais, hospitais, escolas, orfanatos e outros estabelecimentos congêneres, em programas comunitários ou estatais. (Incluído pela Lei nº 9.714, de 1998) § 3 o As tarefas a que se refere ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

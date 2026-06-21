@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem: Pena &#150; reclusão, de 2 (dois) a 12 (doze) anos, e multa. (Redação dada pela Lei nº 10.763, de 12.11.2003) § 1º - A pena é aumentada de um terço, se, em conseqüência da vantagem ou promessa, o funcionário retarda ou deixa de praticar qualquer ato de ofício ou o pratica infringindo dever funcional. § 2º
+> Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem: Pena &#150; reclusão, de 2 (dois) a 12 (doze) anos, e multa. (Redação dada pela Lei nº 10.763, de 12.11.2003) § 1º - A pena é aumentada de um terço, se, em conseqüência da vantagem ou promessa, o funcionário retarda ou deixa de praticar qualquer ato de ofício ou o pratica infringindo dever funcional. § 2º - Se o funcionário pratica, deixa de praticar ou retarda ato de ofício, com infração de dever funci...
 
 ---
 
@@ -52,7 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** detenção, de três meses a um ano, ou multa.
+
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

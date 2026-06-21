@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Expor a perigo embarcação ou aeronave, própria ou alheia, ou praticar qualquer ato tendente a impedir ou dificultar navegação marítima, fluvial ou aérea: Pena - reclusão, de dois a cinco anos. Sinistro em transporte marítimo, fluvial ou aéreo § 1º - Se do fato resulta naufrágio, submersão ou encalhe de embarcação ou a queda ou destruição de aeronave: Pena - reclusão, de quatro a doze anos. Prática do crime com o fim de lucro § 2º - Aplica-se, também, a pena de multa, se o agente pratica o crime
+> Expor a perigo embarcação ou aeronave, própria ou alheia, ou praticar qualquer ato tendente a impedir ou dificultar navegação marítima, fluvial ou aérea: Pena - reclusão, de dois a cinco anos. Sinistro em transporte marítimo, fluvial ou aéreo § 1º - Se do fato resulta naufrágio, submersão ou encalhe de embarcação ou a queda ou destruição de aeronave: Pena - reclusão, de quatro a doze anos. Prática do crime com o fim de lucro § 2º - Aplica-se, também, a pena de multa, se o agente pratica o crime com intuito de obter vantagem econômica, para si ou para outrem. Modalidade culposa § 3º - No caso d...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de dois a cinco anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de dois a cinco anos.
+- **Qualificadora/modalidade:** reclusão, de quatro a doze anos.
+- **Qualificadora/modalidade:** detenção, de seis meses a dois anos.
 
 ---
 

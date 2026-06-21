@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Descumprir decisão judicial que defere medidas protetivas de urgência: (Incluído pela Lei nº 15.280, de 2025) Pena – reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 15.280, de 2025) § 1º A configuração do crime independe da competência civil ou criminal do juiz que deferiu as medidas. (Incluído pela Lei nº 15.280, de 2025) § 2º Na hipótese de prisão em flagrante, apenas a autoridade judicial pode conceder fiança. (Incluído pela Lei nº 15.280, de 2025) § 3º O disposto neste
+> Descumprir decisão judicial que defere medidas protetivas de urgência: (Incluído pela Lei nº 15.280, de 2025) Pena – reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 15.280, de 2025) § 1º A configuração do crime independe da competência civil ou criminal do juiz que deferiu as medidas. (Incluído pela Lei nº 15.280, de 2025) § 2º Na hipótese de prisão em flagrante, apenas a autoridade judicial pode conceder fiança. (Incluído pela Lei nº 15.280, de 2025) § 3º O disposto neste artigo não exclui a aplicação de outras sanções cabíveis. (Incluído pela Lei nº 15.280, de 2025) De...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Não constituem injúria ou difamação punível: I - a ofensa irrogada em juízo, na discussão da causa, pela parte ou por seu procurador; II - a opinião desfavorável da crítica literária, artística ou científica, salvo quando inequívoca a intenção de injuriar ou difamar; III - o conceito desfavorável emitido por funcionário público, em apreciação ou informação que preste no cumprimento de dever do ofício. Parágrafo único - Nos casos dos ns. I e III, responde pela injúria ou pela difamação quem lhe d
+> Não constituem injúria ou difamação punível: I - a ofensa irrogada em juízo, na discussão da causa, pela parte ou por seu procurador; II - a opinião desfavorável da crítica literária, artística ou científica, salvo quando inequívoca a intenção de injuriar ou difamar; III - o conceito desfavorável emitido por funcionário público, em apreciação ou informação que preste no cumprimento de dever do ofício. Parágrafo único - Nos casos dos ns. I e III, responde pela injúria ou pela difamação quem lhe dá publicidade. Retratação
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

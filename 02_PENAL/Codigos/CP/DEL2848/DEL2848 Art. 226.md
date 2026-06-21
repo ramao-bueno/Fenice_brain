@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> A pena é aumentada: (Redação dada pela Lei nº 11.106, de 2005) I &#150; de quarta parte, se o crime é cometido com o concurso de 2 (duas) ou mais pessoas; (Redação dada pela Lei nº 11.106, de 2005) II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela; (Redação dada pela Lei nº 13.718, de 2018) III - (Revogado pela Lei nº 11.106, de 2005) IV - de 1
+> A pena é aumentada: (Redação dada pela Lei nº 11.106, de 2005) I &#150; de quarta parte, se o crime é cometido com o concurso de 2 (duas) ou mais pessoas; (Redação dada pela Lei nº 11.106, de 2005) II - de metade, se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima ou por qualquer outro título tiver autoridade sobre ela; (Redação dada pela Lei nº 13.718, de 2018) III - (Revogado pela Lei nº 11.106, de 2005) IV - de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado: (Incluído pela Lei nº 13.718, de 2018) Es...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

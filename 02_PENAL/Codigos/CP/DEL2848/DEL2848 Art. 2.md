@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução e os efeitos penais da sentença condenatória. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado. (Redação dada pela Lei nº 7.209, de 11.7.1984) Lei excepcional ou temporária (Incluído pela Lei nº 7.209, de 11.7.19
+> Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução e os efeitos penais da sentença condenatória. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado. (Redação dada pela Lei nº 7.209, de 11.7.1984) Lei excepcional ou temporária (Incluído pela Lei nº 7.209, de 11.7.1984)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

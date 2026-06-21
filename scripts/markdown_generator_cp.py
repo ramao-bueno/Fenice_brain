@@ -52,11 +52,40 @@ class MarkdownGeneratorCP:
         redacao = artigo.get("redacao", "[Conferir redação no Planalto]")
         titulo_artigo = artigo.get("titulo", f"Art. {num}")
 
-        pena = self._extrair_pena(redacao)
-        if pena:
-            pena_bloco = f"**Pena:** {pena}\n\n[Há qualificadoras ou causas de aumento/diminuição?]"
+        # Exibe até 600 chars na nota; usa texto completo (3000) para extrações
+        redacao_display = (redacao[:600] + "...") if len(redacao) > 600 else redacao
+
+        penas = self._extrair_pena(redacao)
+        tem_aumento = bool(re.search(
+            r'aumenta(?:-se)?|pena.{0,25}aumentada|dobra(?:-se)?', redacao, re.IGNORECASE))
+        tem_reducao = bool(re.search(
+            r'reduz(?:-se)?|pena.{0,25}reduzida|redução de pena|pode ser reduzida', redacao, re.IGNORECASE))
+
+        if not penas:
+            pena_bloco = "[Pena não localizada — artigo não comina pena diretamente.]"
+        elif len(penas) == 1:
+            mods = []
+            if tem_aumento:
+                mods.append("causas de aumento")
+            if tem_reducao:
+                mods.append("causas de diminuição")
+            pena_bloco = f"**Pena:** {penas[0]}"
+            if mods:
+                pena_bloco += f"\n\n*Há {' e '.join(mods)} — conferir §§ na redação acima.*"
+            else:
+                pena_bloco += "\n\n[Verificar §§ para qualificadoras ou causas de modificação.]"
         else:
-            pena_bloco = "[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]"
+            linhas = [f"- **Caput:** {penas[0]}"]
+            for p in penas[1:]:
+                linhas.append(f"- **Qualificadora/modalidade:** {p}")
+            pena_bloco = "\n".join(linhas)
+            mods = []
+            if tem_aumento:
+                mods.append("causas de aumento")
+            if tem_reducao:
+                mods.append("causas de diminuição")
+            if mods:
+                pena_bloco += f"\n\n*Há {' e '.join(mods)} — conferir §§ na redação acima.*"
 
         # prev/next pela ordem real da lei (calculado no pipeline com lista completa)
         if artigo.get("prev_num") is not None:
@@ -79,7 +108,7 @@ class MarkdownGeneratorCP:
 
 ## REDACAO LEGAL
 
-> {redacao}
+> {redacao_display}
 
 ---
 
@@ -156,11 +185,17 @@ em denúncias, defesas, sentenças?]
             return None
 
     @staticmethod
-    def _extrair_pena(redacao: str) -> str:
-        """Extrai a cláusula de pena da redação (para até a primeira ocorrência)."""
+    def _extrair_pena(redacao: str) -> list:
+        """Extrai todas as cláusulas de pena únicas da redação legal."""
         pat = re.compile(r'Pena\s*[-–—:]\s*(.+?\.)', re.IGNORECASE | re.DOTALL)
-        m = pat.search(redacao)
-        return m.group(1).strip() if m else ""
+        vistas: set = set()
+        penas = []
+        for m in pat.finditer(redacao):
+            p = m.group(1).strip()
+            if p not in vistas:
+                vistas.add(p)
+                penas.append(p)
+        return penas
 
     @staticmethod
     def _detectar_parte_cp(num: int) -> Dict:

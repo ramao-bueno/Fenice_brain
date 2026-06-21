@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Caluniar alguém, imputando-lhe falsamente fato definido como crime: Pena - detenção, de seis meses a dois anos, e multa. § 1º - Na mesma pena incorre quem, sabendo falsa a imputação, a propala ou divulga. § 2º - É punível a calúnia contra os mortos. Exceção da verdade § 3º - Admite-se a prova da verdade, salvo: I - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível; II - se o fato é imputado a qualquer das pessoas indicadas no nº I do a
+> Caluniar alguém, imputando-lhe falsamente fato definido como crime: Pena - detenção, de seis meses a dois anos, e multa. § 1º - Na mesma pena incorre quem, sabendo falsa a imputação, a propala ou divulga. § 2º - É punível a calúnia contra os mortos. Exceção da verdade § 3º - Admite-se a prova da verdade, salvo: I - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível; II - se o fato é imputado a qualquer das pessoas indicadas no nº I do art. 141; III - se do crime imputado, embora de ação pública, o ofendido foi absolvido por sentença i...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de seis meses a dois anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

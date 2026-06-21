@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Ordenar, autorizar ou promover a oferta pública ou a colocação no mercado financeiro de títulos da dívida pública sem que tenham sido criados por lei ou sem que estejam registrados em sistema centralizado de liquidação e de custódia: (Incluído pela Lei nº 10.028, de 2000) Pena &#150; reclusão, de 1 (um) a 4 (quatro) anos. (Incluído pela Lei nº 10.028, de 2000) TÍTULO XII (Incluído pela Lei nº 14.197, de 2021) (Vigência) DOS CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO CAPÍTULO I (Incluído pela
+> Ordenar, autorizar ou promover a oferta pública ou a colocação no mercado financeiro de títulos da dívida pública sem que tenham sido criados por lei ou sem que estejam registrados em sistema centralizado de liquidação e de custódia: (Incluído pela Lei nº 10.028, de 2000) Pena &#150; reclusão, de 1 (um) a 4 (quatro) anos. (Incluído pela Lei nº 10.028, de 2000) TÍTULO XII (Incluído pela Lei nº 14.197, de 2021) (Vigência) DOS CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO CAPÍTULO I (Incluído pela Lei nº 14.197, de 2021) (Vigência) DOS CRIMES CONTRA A SOBERANIA NACIONAL Atentado à soberania (Incl...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

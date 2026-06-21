@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Expor a perigo a vida, a integridade física ou o patrimônio de outrem, mediante explosão, arremesso ou simples colocação de engenho de dinamite ou de substância de efeitos análogos: Pena - reclusão, de três a seis anos, e multa. § 1º - Se a substância utilizada não é dinamite ou explosivo de efeitos análogos: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 2º - As penas aumentam-se de um terço, se ocorre qualquer das hipóteses previstas no § 1º, I, do artigo anterior, ou é visad
+> Expor a perigo a vida, a integridade física ou o patrimônio de outrem, mediante explosão, arremesso ou simples colocação de engenho de dinamite ou de substância de efeitos análogos: Pena - reclusão, de três a seis anos, e multa. § 1º - Se a substância utilizada não é dinamite ou explosivo de efeitos análogos: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 2º - As penas aumentam-se de um terço, se ocorre qualquer das hipóteses previstas no § 1º, I, do artigo anterior, ou é visada ou atingida qualquer das coisas enumeradas no nº II do mesmo parágrafo. Modalidade culposa § 3º - ...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de três a seis anos, e multa.
+- **Caput:** reclusão, de três a seis anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de um a quatro anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

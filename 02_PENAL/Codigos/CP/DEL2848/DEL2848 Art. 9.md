@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A sentença estrangeira, quando a aplicação da lei brasileira produz na espécie as mesmas conseqüências, pode ser homologada no Brasil para: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - obrigar o condenado à reparação do dano, a restituições e a outros efeitos civis; (Incluído pela Lei nº 7.209, de 11.7.1984) II - sujeitá-lo a medida de segurança. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - A homologação depende: (Incluído pela Lei nº 7.209, de 11.7.1984) a) para os efeitos
+> A sentença estrangeira, quando a aplicação da lei brasileira produz na espécie as mesmas conseqüências, pode ser homologada no Brasil para: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - obrigar o condenado à reparação do dano, a restituições e a outros efeitos civis; (Incluído pela Lei nº 7.209, de 11.7.1984) II - sujeitá-lo a medida de segurança. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - A homologação depende: (Incluído pela Lei nº 7.209, de 11.7.1984) a) para os efeitos previstos no inciso I, de pedido da parte interessada; (Incluído pela Lei nº 7.209, de 11.7.1984) b...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

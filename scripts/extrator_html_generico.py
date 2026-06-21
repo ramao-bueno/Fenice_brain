@@ -107,7 +107,7 @@ def _limpar_redacao(redacao_raw: str) -> str:
     redacao = redacao.replace("&quot;", '"').replace("&#39;", "'")
     redacao = re.sub(r"&[a-z]+;", " ", redacao)  # demais entidades
     redacao = re.sub(r"\s+", " ", redacao).strip()
-    redacao = redacao[:500].strip() if len(redacao) > 500 else redacao
+    redacao = redacao[:3000].strip() if len(redacao) > 3000 else redacao
     return redacao
 
 

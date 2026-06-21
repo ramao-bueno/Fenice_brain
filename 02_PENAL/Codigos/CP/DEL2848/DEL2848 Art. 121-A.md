@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Matar mulher por razões da condição do sexo feminino: (Incluído pela Lei nº 14.994, de 2024) Pena – reclusão, de 20 (vinte) a 40 (quarenta) anos. (Incluído pela Lei nº 14.994, de 2024) § 1º Considera-se que há razões da condição do sexo feminino quando o crime envolve: (Incluído pela Lei nº 14.994, de 2024) I – violência doméstica e familiar; (Incluído pela Lei nº 14.994, de 2024) II – menosprezo ou discriminação à condição de mulher. (Incluído pela Lei nº 14.994, de 2024) § 2º A pena do feminic
+> Matar mulher por razões da condição do sexo feminino: (Incluído pela Lei nº 14.994, de 2024) Pena – reclusão, de 20 (vinte) a 40 (quarenta) anos. (Incluído pela Lei nº 14.994, de 2024) § 1º Considera-se que há razões da condição do sexo feminino quando o crime envolve: (Incluído pela Lei nº 14.994, de 2024) I – violência doméstica e familiar; (Incluído pela Lei nº 14.994, de 2024) II – menosprezo ou discriminação à condição de mulher. (Incluído pela Lei nº 14.994, de 2024) § 2º A pena do feminici&#769;dio e&#769; aumentada de 1/3 (um terço) até a metade se o crime e&#769; praticado: (Incluído ...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 20 (vinte) a 40 (quarenta) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

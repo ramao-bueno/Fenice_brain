@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O juiz, atendendo à culpabilidade, aos antecedentes, à conduta social, à personalidade do agente, aos motivos, às circunstâncias e conseqüências do crime, bem como ao comportamento da vítima, estabelecerá, conforme seja necessário e suficiente para reprovação e prevenção do crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) (Vide ADPF 1107) I - as penas aplicáveis dentre as cominadas; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a quantidade de pena aplicável, dentro dos limites previs
+> O juiz, atendendo à culpabilidade, aos antecedentes, à conduta social, à personalidade do agente, aos motivos, às circunstâncias e conseqüências do crime, bem como ao comportamento da vítima, estabelecerá, conforme seja necessário e suficiente para reprovação e prevenção do crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) (Vide ADPF 1107) I - as penas aplicáveis dentre as cominadas; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a quantidade de pena aplicável, dentro dos limites previstos; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - o regime inicial de cumprimento da pena pr...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

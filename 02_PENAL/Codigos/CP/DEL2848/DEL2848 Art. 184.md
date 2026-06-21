@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Violar direitos de autor e os que lhe são conexos: (Redação dada pela Lei nº 10.695, de 1º.7.2003) Pena &#150; detenção, de 3 (três) meses a 1 (um) ano, ou multa. (Redação dada pela Lei nº 10.695, de 1º.7.2003) § 1 o Se a violação consistir em reprodução total ou parcial, com intuito de lucro direto ou indireto, por qualquer meio ou processo, de obra intelectual, interpretação, execução ou fonograma, sem autorização expressa do autor, do artista intérprete ou executante, do produtor, conforme o
+> Violar direitos de autor e os que lhe são conexos: (Redação dada pela Lei nº 10.695, de 1º.7.2003) Pena &#150; detenção, de 3 (três) meses a 1 (um) ano, ou multa. (Redação dada pela Lei nº 10.695, de 1º.7.2003) § 1 o Se a violação consistir em reprodução total ou parcial, com intuito de lucro direto ou indireto, por qualquer meio ou processo, de obra intelectual, interpretação, execução ou fonograma, sem autorização expressa do autor, do artista intérprete ou executante, do produtor, conforme o caso, ou de quem os represente: (Redação dada pela Lei nº 10.695, de 1º.7.2003) Pena &#150; reclusão...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

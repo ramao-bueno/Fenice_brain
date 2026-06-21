@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a reincidência; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - ter o agente cometido o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) por motivo fútil ou torpe; b) para facilitar ou assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime; c) à traição, de emboscada, ou mediante dissimulação, ou outro recurso que dificultou
+> São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a reincidência; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - ter o agente cometido o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) por motivo fútil ou torpe; b) para facilitar ou assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime; c) à traição, de emboscada, ou mediante dissimulação, ou outro recurso que dificultou ou tornou impossível a defesa do ofendido; d) com emprego de veneno, fogo, explosivo, tortura ou ou...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

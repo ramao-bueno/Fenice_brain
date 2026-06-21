@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Aliciar trabalhadores, com o fim de levá-los de uma para outra localidade do território nacional: Pena - detenção de um a três anos, e multa. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Incorre na mesma pena quem recrutar trabalhadores fora da localidade de execução do trabalho, dentro do território nacional, mediante fraude ou cobrança de qualquer quantia do trabalhador, ou, ainda, não assegurar condições do seu retorno ao local de origem. (Incluído pela Lei nº 9.777, de 1998) § 2º A p
+> Aliciar trabalhadores, com o fim de levá-los de uma para outra localidade do território nacional: Pena - detenção de um a três anos, e multa. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Incorre na mesma pena quem recrutar trabalhadores fora da localidade de execução do trabalho, dentro do território nacional, mediante fraude ou cobrança de qualquer quantia do trabalhador, ou, ainda, não assegurar condições do seu retorno ao local de origem. (Incluído pela Lei nº 9.777, de 1998) § 2º A pena é aumentada de um sexto a um terço se a vítima é menor de dezoito anos, idosa, gestante, indígen...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção de um a três anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

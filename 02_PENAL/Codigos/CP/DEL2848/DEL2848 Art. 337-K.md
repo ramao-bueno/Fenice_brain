@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Afastar ou tentar afastar licitante por meio de violência, grave ameaça, fraude ou oferecimento de vantagem de qualquer tipo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 3 (três) anos a 5 (cinco) anos, e multa, além da pena correspondente à violência. (Incluído pela Lei nº 14.133, de 2021) Parágrafo único. Incorre na mesma pena quem se abstém ou desiste de licitar em razão de vantagem oferecida. (Incluído pela Lei nº 14.133, de 2021) Fraude em licitação ou contrato (Incluído pela
+> Afastar ou tentar afastar licitante por meio de violência, grave ameaça, fraude ou oferecimento de vantagem de qualquer tipo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 3 (três) anos a 5 (cinco) anos, e multa, além da pena correspondente à violência. (Incluído pela Lei nº 14.133, de 2021) Parágrafo único. Incorre na mesma pena quem se abstém ou desiste de licitar em razão de vantagem oferecida. (Incluído pela Lei nº 14.133, de 2021) Fraude em licitação ou contrato (Incluído pela Lei nº 14.133, de 2021)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 3 (três) anos a 5 (cinco) anos, e multa, além da pena correspondente à violência.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> São circunstâncias que sempre atenuam a pena: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - ser o agente menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentença, salvo se o crime envolver violência sexual contra a mulher; (Redação dada pela Lei nº 15.160, de 2025) II - o desconhecimento da lei; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - ter o agente: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) cometido o crime por motivo de relevant
+> São circunstâncias que sempre atenuam a pena: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - ser o agente menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentença, salvo se o crime envolver violência sexual contra a mulher; (Redação dada pela Lei nº 15.160, de 2025) II - o desconhecimento da lei; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - ter o agente: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) cometido o crime por motivo de relevante valor social ou moral; b) procurado, por sua espontânea vontade e com eficiência, logo após o crim...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** (Redação dada pela Lei nº 7.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

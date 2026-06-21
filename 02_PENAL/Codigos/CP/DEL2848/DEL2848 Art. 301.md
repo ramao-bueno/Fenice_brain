@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem: Pena - detenção, de dois meses a um ano. Falsidade material de atestado ou certidão § 1º - Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ôn
+> Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem: Pena - detenção, de dois meses a um ano. Falsidade material de atestado ou certidão § 1º - Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem: Pena - detenção, de três meses a do...
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de dois meses a um ano.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** detenção, de dois meses a um ano.
+- **Qualificadora/modalidade:** detenção, de três meses a dois anos.
 
 ---
 

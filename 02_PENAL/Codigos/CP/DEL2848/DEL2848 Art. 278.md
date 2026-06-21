@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de um a três anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** detenção, de um a três anos, e multa.
+- **Qualificadora/modalidade:** detenção, de dois meses a um ano.
 
 ---
 

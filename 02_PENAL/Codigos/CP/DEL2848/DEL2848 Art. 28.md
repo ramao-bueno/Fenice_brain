@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a emoção ou a paixão; (Redação dada pela Lei nº 7.209, de 11.7.1984) Embriaguez II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito
+> Não excluem a imputabilidade penal: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a emoção ou a paixão; (Redação dada pela Lei nº 7.209, de 11.7.1984) Embriaguez II - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. (Redação dada pela Lei nº 7.209, de 11....
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

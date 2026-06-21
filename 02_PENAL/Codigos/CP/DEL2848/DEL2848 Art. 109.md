@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> A prescrição, antes de transitar em julgado a sentença final, salvo o disposto no § 1 o do art. 110 deste Código, regula-se pelo máximo da pena privativa de liberdade cominada ao crime, verificando-se: (Redação dada pela Lei nº 12.234, de 2010). I - em vinte anos, se o máximo da pena é superior a doze; II - em dezesseis anos, se o máximo da pena é superior a oito anos e não excede a doze; III - em doze anos, se o máximo da pena é superior a quatro anos e não excede a oito; IV - em oito anos, se
+> A prescrição, antes de transitar em julgado a sentença final, salvo o disposto no § 1 o do art. 110 deste Código, regula-se pelo máximo da pena privativa de liberdade cominada ao crime, verificando-se: (Redação dada pela Lei nº 12.234, de 2010). I - em vinte anos, se o máximo da pena é superior a doze; II - em dezesseis anos, se o máximo da pena é superior a oito anos e não excede a doze; III - em doze anos, se o máximo da pena é superior a quatro anos e não excede a oito; IV - em oito anos, se o máximo da pena é superior a dois anos e não excede a quatro; V - em quatro anos, se o máximo da pe...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

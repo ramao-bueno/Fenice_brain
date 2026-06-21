@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Dar, oferecer ou prometer dinheiro ou qualquer outra vantagem a testemunha, perito, contador, tradutor ou intérprete, para fazer afirmação falsa, negar ou calar a verdade em depoimento, perícia, cálculos, tradução ou interpretação: (Redação dada pela Lei nº 10.268, de 28.8.2001) Pena - reclusão, de três a quatro anos, e multa. (Redação dada pela Lei nº 10.268, de 28.8.2001) Parágrafo único. As penas aumentam-se de um sexto a um terço, se o crime é cometido com o fim de obter prova destinada a pr
+> Dar, oferecer ou prometer dinheiro ou qualquer outra vantagem a testemunha, perito, contador, tradutor ou intérprete, para fazer afirmação falsa, negar ou calar a verdade em depoimento, perícia, cálculos, tradução ou interpretação: (Redação dada pela Lei nº 10.268, de 28.8.2001) Pena - reclusão, de três a quatro anos, e multa. (Redação dada pela Lei nº 10.268, de 28.8.2001) Parágrafo único. As penas aumentam-se de um sexto a um terço, se o crime é cometido com o fim de obter prova destinada a produzir efeito em processo penal ou em processo civil em que for parte entidade da administração públ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de três a quatro anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

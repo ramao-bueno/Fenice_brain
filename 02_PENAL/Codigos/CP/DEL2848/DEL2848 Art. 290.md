@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Formar cédula, nota ou bilhete representativo de moeda com fragmentos de cédulas, notas ou bilhetes verdadeiros; suprimir, em nota, cédula ou bilhete recolhidos, para o fim de restituí-los à circulação, sinal indicativo de sua inutilização; restituir à circulação cédula, nota ou bilhete em tais condições, ou já recolhidos para o fim de inutilização: Pena - reclusão, de dois a oito anos, e multa. Parágrafo único - O máximo da reclusão é elevado a doze anos e multa, se o crime é cometido por funci
+> Formar cédula, nota ou bilhete representativo de moeda com fragmentos de cédulas, notas ou bilhetes verdadeiros; suprimir, em nota, cédula ou bilhete recolhidos, para o fim de restituí-los à circulação, sinal indicativo de sua inutilização; restituir à circulação cédula, nota ou bilhete em tais condições, ou já recolhidos para o fim de inutilização: Pena - reclusão, de dois a oito anos, e multa. Parágrafo único - O máximo da reclusão é elevado a doze anos e multa, se o crime é cometido por funcionário que trabalha na repartição onde o dinheiro se achava recolhido, ou nela tem fácil ingresso, e...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de dois a oito anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

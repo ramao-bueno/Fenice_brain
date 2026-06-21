@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Devassar indevidamente o conteúdo de correspondência fechada, dirigida a outrem: Pena - detenção, de um a seis meses, ou multa. Sonegação ou destruição de correspondência § 1º - Na mesma pena incorre: I - quem se apossa indevidamente de correspondência alheia, embora não fechada e, no todo ou em parte, a sonega ou destrói; Violação de comunicação telegráfica, radioelétrica ou telefônica II - quem indevidamente divulga, transmite a outrem ou utiliza abusivamente comunicação telegráfica ou radioel
+> Devassar indevidamente o conteúdo de correspondência fechada, dirigida a outrem: Pena - detenção, de um a seis meses, ou multa. Sonegação ou destruição de correspondência § 1º - Na mesma pena incorre: I - quem se apossa indevidamente de correspondência alheia, embora não fechada e, no todo ou em parte, a sonega ou destrói; Violação de comunicação telegráfica, radioelétrica ou telefônica II - quem indevidamente divulga, transmite a outrem ou utiliza abusivamente comunicação telegráfica ou radioelétrica dirigida a terceiro, ou conversação telefônica entre outras pessoas; III - quem impede a comu...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de um a seis meses, ou multa.
+- **Caput:** detenção, de um a seis meses, ou multa.
+- **Qualificadora/modalidade:** detenção, de um a três anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

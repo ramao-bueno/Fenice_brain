@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Matar alguem: Pena - reclusão, de seis a vinte anos. Caso de diminuição de pena § 1º Se o agente comete o crime impelido por motivo de relevante valor social ou moral, ou sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço. Homicídio qualificado § 2° Se o homicídio é cometido: I - mediante paga ou promessa de recompensa, ou por outro motivo torpe; II - por motivo futil; III - com emprego de veneno, fogo, explosivo, a
+> Matar alguem: Pena - reclusão, de seis a vinte anos. Caso de diminuição de pena § 1º Se o agente comete o crime impelido por motivo de relevante valor social ou moral, ou sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço. Homicídio qualificado § 2° Se o homicídio é cometido: I - mediante paga ou promessa de recompensa, ou por outro motivo torpe; II - por motivo futil; III - com emprego de veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum; IV - à trai...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de seis a vinte anos.
+- **Caput:** reclusão, de seis a vinte anos.
+- **Qualificadora/modalidade:** reclusão, de doze a trinta anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento e causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

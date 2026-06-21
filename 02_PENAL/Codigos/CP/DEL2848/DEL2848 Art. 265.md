@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Atentar contra a segurança ou o funcionamento de serviço de água, luz, força ou calor, ou qualquer outro de utilidade pública: Pena - reclusão, de um a cinco anos, e multa. Parágrafo único - Aumentar-se-á a pena de 1/3 (um terço) até a metade, se o dano ocorrer em virtude de subtração de material essencial ao funcionamento dos serviços. (Incluído pela Lei nº 5.346, de 3.11.1967) Interrupção ou perturbação de serviço telegráfico, telefônico, informático, telemático ou de informação de utilidade p
+> Atentar contra a segurança ou o funcionamento de serviço de água, luz, força ou calor, ou qualquer outro de utilidade pública: Pena - reclusão, de um a cinco anos, e multa. Parágrafo único - Aumentar-se-á a pena de 1/3 (um terço) até a metade, se o dano ocorrer em virtude de subtração de material essencial ao funcionamento dos serviços. (Incluído pela Lei nº 5.346, de 3.11.1967) Interrupção ou perturbação de serviço telegráfico, telefônico, informático, telemático ou de informação de utilidade pública (Redação dada pela Lei nº 12.737, de 2012) Vigência
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de um a cinco anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Induzir ou instigar alguém a suicidar-se ou a praticar automutilação ou prestar-lhe auxílio material para que o faça: (Redação dada pela Lei nº 13.968, de 2019) Pena - reclusão, de 6 (seis) meses a 2 (dois) anos. (Redação dada pela Lei nº 13.968, de 2019) § 1º Se da automutilação ou da tentativa de suicídio resulta lesão corporal de natureza grave ou gravíssima, nos termos dos §§ 1º e 2º do art. 129 deste Código: (Incluído pela Lei nº 13.968, de 2019) Pena - reclusão, de 1 (um) a 3 (três) anos.
+> Induzir ou instigar alguém a suicidar-se ou a praticar automutilação ou prestar-lhe auxílio material para que o faça: (Redação dada pela Lei nº 13.968, de 2019) Pena - reclusão, de 6 (seis) meses a 2 (dois) anos. (Redação dada pela Lei nº 13.968, de 2019) § 1º Se da automutilação ou da tentativa de suicídio resulta lesão corporal de natureza grave ou gravíssima, nos termos dos §§ 1º e 2º do art. 129 deste Código: (Incluído pela Lei nº 13.968, de 2019) Pena - reclusão, de 1 (um) a 3 (três) anos. (Incluído pela Lei nº 13.968, de 2019) § 2º Se o suicídio se consuma ou se da automutilação resulta ...
 
 ---
 
@@ -54,9 +54,11 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 6 (seis) meses a 2 (dois) anos.
+- **Caput:** reclusão, de 6 (seis) meses a 2 (dois) anos.
+- **Qualificadora/modalidade:** reclusão, de 1 (um) a 3 (três) anos.
+- **Qualificadora/modalidade:** reclusão, de 2 (dois) a 6 (seis) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

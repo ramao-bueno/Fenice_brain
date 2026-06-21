@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de 6 (seis) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia. (Redação dada pela Lei nº 7.209, de 11.7.1984) Renúncia expressa ou tácita do direito de queixa Parágrafo único. Nos crimes praticados no âmbito de violência doméstica e familiar con
+> Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de 6 (seis) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia. (Redação dada pela Lei nº 7.209, de 11.7.1984) Renúncia expressa ou tácita do direito de queixa Parágrafo único. Nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, a ofendida decai do direito de queixa ou de representação se não o exerce no prazo de ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Promover, por qualquer meio, com o fim de obter vantagem econômica, a entrada ilegal de estrangeiro em território nacional ou de brasileiro em país estrangeiro: Incluído pela Lei nº 13.445, de 2017 Vigência Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. Incluído pela Lei nº 13.445, de 2017 Vigência § 1º Na mesma pena incorre quem promover, por qualquer meio, com o fim de obter vantagem econômica, a saída de estrangeiro do território nacional para ingressar ilegalmente em país estrangeir
+> Promover, por qualquer meio, com o fim de obter vantagem econômica, a entrada ilegal de estrangeiro em território nacional ou de brasileiro em país estrangeiro: Incluído pela Lei nº 13.445, de 2017 Vigência Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. Incluído pela Lei nº 13.445, de 2017 Vigência § 1º Na mesma pena incorre quem promover, por qualquer meio, com o fim de obter vantagem econômica, a saída de estrangeiro do território nacional para ingressar ilegalmente em país estrangeiro. Incluído pela Lei nº 13.445, de 2017 Vigência § 2º A pena é aumentada de 1/6 (um sexto) a 1/3 (um...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

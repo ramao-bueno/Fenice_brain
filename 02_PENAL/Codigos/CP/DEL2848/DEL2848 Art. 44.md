@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: (Redação dada pela Lei nº 9.714, de 1998) I &#150; aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo; (Redação dada pela Lei nº 9.714, de 1998) II &#150; o réu não for reincidente em crime doloso; (Redação dada pela Lei nº 9.714, de 1998) III &#150; a culpabilid
+> As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando: (Redação dada pela Lei nº 9.714, de 1998) I &#150; aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo; (Redação dada pela Lei nº 9.714, de 1998) II &#150; o réu não for reincidente em crime doloso; (Redação dada pela Lei nº 9.714, de 1998) III &#150; a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

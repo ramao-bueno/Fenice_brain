@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> As medidas de segurança são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - sujeição a tratamento ambulatorial. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta. (Redação dada pela Lei nº 7.209, de 11.7.1984) Imposição da me
+> As medidas de segurança são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - sujeição a tratamento ambulatorial. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta. (Redação dada pela Lei nº 7.209, de 11.7.1984) Imposição da medida de segurança para inimputável
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

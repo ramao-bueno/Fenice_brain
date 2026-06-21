@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei. (Redação dada pela Lei nº 7.209, de 11.7.1984) Descriminantes putativas (Incluído pela Lei nº 7.209, de 11.7.1984) § 1º - É isento de pena quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima. Não há isenção de pena quando o erro deriva de culpa e o fato é punível como crime culposo. (Redaçã
+> O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei. (Redação dada pela Lei nº 7.209, de 11.7.1984) Descriminantes putativas (Incluído pela Lei nº 7.209, de 11.7.1984) § 1º - É isento de pena quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima. Não há isenção de pena quando o erro deriva de culpa e o fato é punível como crime culposo. (Redação dada pela Lei nº 7.209, de 11.7.1984) Erro determinado por terceiro (Incluído pela Lei nº 7.209, d...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

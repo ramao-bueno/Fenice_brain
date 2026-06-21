@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Solicitar, exigir, cobrar ou obter, para si ou para outrem, direta ou indiretamente, vantagem ou promessa de vantagem a pretexto de influir em ato praticado por funcionário público estrangeiro no exercício de suas funções, relacionado a transação comercial internacional: (Incluído pela Lei nº 10.467, de 11.6.2002) Pena &#150; reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. A pena é aumentada da metade, se o agente alega ou insinua que
+> Solicitar, exigir, cobrar ou obter, para si ou para outrem, direta ou indiretamente, vantagem ou promessa de vantagem a pretexto de influir em ato praticado por funcionário público estrangeiro no exercício de suas funções, relacionado a transação comercial internacional: (Incluído pela Lei nº 10.467, de 11.6.2002) Pena &#150; reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. A pena é aumentada da metade, se o agente alega ou insinua que a vantagem é também destinada a funcionário estrangeiro. (Incluído pela Lei nº 10467, de 11.6.2002)...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

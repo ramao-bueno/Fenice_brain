@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Importar ou exportar mercadoria proibida: (Incluído pela Lei nº 13.008, de 26.6.2014) Pena - reclusão, de 2 (dois) a 5 ( cinco) anos. (Incluído pela Lei nº 13.008, de 26.6.2014) § 1 o Incorre na mesma pena quem: (Incluído pela Lei nº 13.008, de 26.6.2014) I - pratica fato assimilado, em lei especial, a contrabando; (Incluído pela Lei nº 13.008, de 26.6.2014) II - importa ou exporta clandestinamente mercadoria que dependa de registro, análise ou autorização de órgão público competente; (Incluído
+> Importar ou exportar mercadoria proibida: (Incluído pela Lei nº 13.008, de 26.6.2014) Pena - reclusão, de 2 (dois) a 5 ( cinco) anos. (Incluído pela Lei nº 13.008, de 26.6.2014) § 1 o Incorre na mesma pena quem: (Incluído pela Lei nº 13.008, de 26.6.2014) I - pratica fato assimilado, em lei especial, a contrabando; (Incluído pela Lei nº 13.008, de 26.6.2014) II - importa ou exporta clandestinamente mercadoria que dependa de registro, análise ou autorização de órgão público competente; (Incluído pela Lei nº 13.008, de 26.6.2014) III - reinsere no território nacional mercadoria brasileira destin...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 5 ( cinco) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

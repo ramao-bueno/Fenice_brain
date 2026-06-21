@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. (Redação dada pela Lei nº 7.209, de 11.7.1984) Superveniência de causa independente (Incluído pela Lei nº 7.209, de 11.7.1984) § 1º - A superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou. (Incluído pela L
+> O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. (Redação dada pela Lei nº 7.209, de 11.7.1984) Superveniência de causa independente (Incluído pela Lei nº 7.209, de 11.7.1984) § 1º - A superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou. (Incluído pela Lei nº 7.209, de 11.7.1984) Relevância da omissão (Incluído pela Lei nº 7.209, de 11.7.1984) § 2 º - ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

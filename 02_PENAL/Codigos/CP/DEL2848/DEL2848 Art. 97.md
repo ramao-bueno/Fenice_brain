@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial. (Redação dada pela Lei nº 7.209, de 11.7.1984) Prazo § 1 º - A internação, ou tratamento ambulatorial, será por tempo indeterminado, perdurando enquanto não for averiguada, mediante perícia médica, a cessação de periculosidade. O prazo mínimo deverá ser de 1 (um) a 3 (três) anos. (Redação dada pela Lei nº 7
+> Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial. (Redação dada pela Lei nº 7.209, de 11.7.1984) Prazo § 1 º - A internação, ou tratamento ambulatorial, será por tempo indeterminado, perdurando enquanto não for averiguada, mediante perícia médica, a cessação de periculosidade. O prazo mínimo deverá ser de 1 (um) a 3 (três) anos. (Redação dada pela Lei nº 7.209, de 11.7.1984) Perícia médica § 2º - A perícia médica realizar-se-á ao termo do prazo mínimo fi...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

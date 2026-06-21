@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria (Redação dada pela Lei nº 13.008, de 26.6.2014) Pena - reclusão, de 1 (um) a 4 (quatro) anos. (Redação dada pela Lei nº 13.008, de 26.6.2014) § 1 o Incorre na mesma pena quem: (Redação dada pela Lei nº 13.008, de 26.6.2014) I - pratica navegação de cabotagem, fora dos casos permitidos em lei; (Redação dada pela Lei nº 13.008, de 26.6.2014) II - pratica fato assimilado, em
+> Iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria (Redação dada pela Lei nº 13.008, de 26.6.2014) Pena - reclusão, de 1 (um) a 4 (quatro) anos. (Redação dada pela Lei nº 13.008, de 26.6.2014) § 1 o Incorre na mesma pena quem: (Redação dada pela Lei nº 13.008, de 26.6.2014) I - pratica navegação de cabotagem, fora dos casos permitidos em lei; (Redação dada pela Lei nº 13.008, de 26.6.2014) II - pratica fato assimilado, em lei especial, a descaminho; (Redação dada pela Lei nº 13.008, de 26.6.2014) III - vende, expõe à ven...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 1 (um) a 4 (quatro) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

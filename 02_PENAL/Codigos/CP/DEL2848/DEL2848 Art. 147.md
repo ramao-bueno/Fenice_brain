@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Ameaçar alguém, por palavra, escrito ou gesto, ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave: Pena - detenção, de um a seis meses, ou multa. § 1º Se o crime é cometido contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, aplica-se a pena em dobro. (Incluído pela Lei nº 14.994, de 2024) § 2º Somente se procede mediante representação, exceto na hipótese prevista no § 1º deste artigo. (Incluído pela Lei nº 14.994, de 2024) Per
+> Ameaçar alguém, por palavra, escrito ou gesto, ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave: Pena - detenção, de um a seis meses, ou multa. § 1º Se o crime é cometido contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, aplica-se a pena em dobro. (Incluído pela Lei nº 14.994, de 2024) § 2º Somente se procede mediante representação, exceto na hipótese prevista no § 1º deste artigo. (Incluído pela Lei nº 14.994, de 2024) Perseguição
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de um a seis meses, ou multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

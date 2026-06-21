@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Omitir, modificar ou entregar à Administração Pública levantamento cadastral ou condição de contorno em relevante dissonância com a realidade, em frustração ao caráter competitivo da licitação ou em detrimento da seleção da proposta mais vantajosa para a Administração Pública, em contratação para a elaboração de projeto básico, projeto executivo ou anteprojeto, em diálogo competitivo ou em procedimento de manifestação de interesse: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 6 (se
+> Omitir, modificar ou entregar à Administração Pública levantamento cadastral ou condição de contorno em relevante dissonância com a realidade, em frustração ao caráter competitivo da licitação ou em detrimento da seleção da proposta mais vantajosa para a Administração Pública, em contratação para a elaboração de projeto básico, projeto executivo ou anteprojeto, em diálogo competitivo ou em procedimento de manifestação de interesse: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 6 (seis) meses a 3 (três) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 1º Consideram-se condiç...
 
 ---
 
@@ -52,7 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** reclusão, de 6 (seis) meses a 3 (três) anos, e multa.
+
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

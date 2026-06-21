@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Enganar, no exercício de atividade comercial, o adquirente ou consumidor: I - vendendo, como verdadeira ou perfeita, mercadoria falsificada ou deteriorada; II - entregando uma mercadoria por outra: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Alterar em obra que lhe é encomendada a qualidade ou o peso de metal ou substituir, no mesmo caso, pedra verdadeira por falsa ou por outra de menor valor; vender pedra falsa por verdadeira; vender, como precioso, metal de ou outra qualidade:
+> Enganar, no exercício de atividade comercial, o adquirente ou consumidor: I - vendendo, como verdadeira ou perfeita, mercadoria falsificada ou deteriorada; II - entregando uma mercadoria por outra: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Alterar em obra que lhe é encomendada a qualidade ou o peso de metal ou substituir, no mesmo caso, pedra verdadeira por falsa ou por outra de menor valor; vender pedra falsa por verdadeira; vender, como precioso, metal de ou outra qualidade: Pena - reclusão, de um a cinco anos, e multa. § 2º - É aplicável o disposto no art. 155, § 2º. Outr...
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** detenção, de seis meses a dois anos, ou multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** detenção, de seis meses a dois anos, ou multa.
+- **Qualificadora/modalidade:** reclusão, de um a cinco anos, e multa.
 
 ---
 

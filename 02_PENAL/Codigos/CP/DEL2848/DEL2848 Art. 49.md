@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de 10 (dez) e, no máximo, de 360 (trezentos e sessenta) dias-multa. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a 5 (cinco) vezes esse salário. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O va
+> A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de 10 (dez) e, no máximo, de 360 (trezentos e sessenta) dias-multa. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a 5 (cinco) vezes esse salário. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O valor da multa será atualizado, quando da execução, pelos índices de correção monetária. (Redação dada...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

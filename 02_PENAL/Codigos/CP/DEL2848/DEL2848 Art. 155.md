@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Subtrair, para si ou para outrem, coisa alheia móvel: Pena – reclusão, de 1 (um) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) § 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno. (Redação dada pela Lei nº 15.397, de 2026) § 2º - Se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa. § 3º - Equipara-se à co
+> Subtrair, para si ou para outrem, coisa alheia móvel: Pena – reclusão, de 1 (um) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) § 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno. (Redação dada pela Lei nº 15.397, de 2026) § 2º - Se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa. § 3º - Equipara-se à coisa móvel a energia elétrica ou qualquer outra que tenha valor econômico. Furto qualificado § 4º A p...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 1 (um) a 6 (seis) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

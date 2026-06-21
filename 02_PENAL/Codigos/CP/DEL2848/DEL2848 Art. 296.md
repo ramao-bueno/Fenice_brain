@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Falsificar, fabricando-os ou alterando-os: I - selo público destinado a autenticar atos oficiais da União, de Estado ou de Município; II - selo ou sinal atribuído por lei a entidade de direito público, ou a autoridade, ou sinal público de tabelião: Pena - reclusão, de dois a seis anos, e multa. § 1º - Incorre nas mesmas penas: I - quem faz uso do selo ou sinal falsificado; II - quem utiliza indevidamente o selo ou sinal verdadeiro em prejuízo de outrem ou em proveito próprio ou alheio. III - que
+> Falsificar, fabricando-os ou alterando-os: I - selo público destinado a autenticar atos oficiais da União, de Estado ou de Município; II - selo ou sinal atribuído por lei a entidade de direito público, ou a autoridade, ou sinal público de tabelião: Pena - reclusão, de dois a seis anos, e multa. § 1º - Incorre nas mesmas penas: I - quem faz uso do selo ou sinal falsificado; II - quem utiliza indevidamente o selo ou sinal verdadeiro em prejuízo de outrem ou em proveito próprio ou alheio. III - quem altera, falsifica ou faz uso indevido de marcas, logotipos, siglas ou quaisquer outros símbolos ut...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de dois a seis anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

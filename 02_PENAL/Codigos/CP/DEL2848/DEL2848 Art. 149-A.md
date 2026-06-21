@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Agenciar, aliciar, recrutar, transportar, transferir, comprar, alojar ou acolher pessoa, mediante grave ameaça, violência, coação, fraude ou abuso, com a finalidade de: (Incluído pela Lei nº 13.344, de 2016) (Vigência) I - remover-lhe órgãos, tecidos ou partes do corpo; (Incluído pela Lei nº 13.344, de 2016) (Vigência) II - submetê-la a trabalho em condições análogas à de escravo; (Incluído pela Lei nº 13.344, de 2016) (Vigência) III - submetê-la a qualquer tipo de servidão; (Incluído pela Lei n
+> Agenciar, aliciar, recrutar, transportar, transferir, comprar, alojar ou acolher pessoa, mediante grave ameaça, violência, coação, fraude ou abuso, com a finalidade de: (Incluído pela Lei nº 13.344, de 2016) (Vigência) I - remover-lhe órgãos, tecidos ou partes do corpo; (Incluído pela Lei nº 13.344, de 2016) (Vigência) II - submetê-la a trabalho em condições análogas à de escravo; (Incluído pela Lei nº 13.344, de 2016) (Vigência) III - submetê-la a qualquer tipo de servidão; (Incluído pela Lei nº 13.344, de 2016) (Vigência) IV - adoção ilegal; ou (Incluído pela Lei nº 13.344, de 2016) (Vigênci...
 
 ---
 
@@ -54,7 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** reclusão, de 4 (quatro) a 8 (oito) anos, e multa.
+
+*Há causas de aumento e causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

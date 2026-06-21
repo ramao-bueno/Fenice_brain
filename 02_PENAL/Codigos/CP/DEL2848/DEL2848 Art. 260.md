@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Impedir ou perturbar serviço de estrada de ferro: I - destruindo, danificando ou desarranjando, total ou parcialmente, linha férrea, material rodante ou de tração, obra-de-arte ou instalação; II - colocando obstáculo na linha; III - transmitindo falso aviso acerca do movimento dos veículos ou interrompendo ou embaraçando o funcionamento de telégrafo, telefone ou radiotelegrafia; IV - praticando outro ato de que possa resultar desastre: Pena - reclusão, de dois a cinco anos, e multa. Desastre fer
+> Impedir ou perturbar serviço de estrada de ferro: I - destruindo, danificando ou desarranjando, total ou parcialmente, linha férrea, material rodante ou de tração, obra-de-arte ou instalação; II - colocando obstáculo na linha; III - transmitindo falso aviso acerca do movimento dos veículos ou interrompendo ou embaraçando o funcionamento de telégrafo, telefone ou radiotelegrafia; IV - praticando outro ato de que possa resultar desastre: Pena - reclusão, de dois a cinco anos, e multa. Desastre ferroviário § 1º - Se do fato resulta desastre: Pena - reclusão, de quatro a doze anos e multa. § 2º - ...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de dois a cinco anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de dois a cinco anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de quatro a doze anos e multa.
+- **Qualificadora/modalidade:** detenção, de seis meses a dois anos.
 
 ---
 

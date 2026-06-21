@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado ma
+> Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave. (Redação dada pela Lei nº 7.209, de 11.7.1984) Circunstâncias incomunicáveis
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

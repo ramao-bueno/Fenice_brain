@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 6 (seis) a 10 (dez) anos. (Redação dada pela Lei nº 12.015, de 2009) § 1 o Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos: (Incluído pela Lei nº 12.015, de 2009) Pena - reclusão, de 8 (oito) a 12 (doze) anos.
+> Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 6 (seis) a 10 (dez) anos. (Redação dada pela Lei nº 12.015, de 2009) § 1 o Se da conduta resulta lesão corporal de natureza grave ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos: (Incluído pela Lei nº 12.015, de 2009) Pena - reclusão, de 8 (oito) a 12 (doze) anos. (Incluído pela Lei nº 12.015, de 2009) § 2 o Se da conduta resulta morte: (Incluído pela Lei nº 12.0...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 6 (seis) a 10 (dez) anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 6 (seis) a 10 (dez) anos.
+- **Qualificadora/modalidade:** reclusão, de 8 (oito) a 12 (doze) anos.
+- **Qualificadora/modalidade:** reclusão, de 12 (doze) a 30 (trinta) anos (Incluído pela Lei nº 12.
 
 ---
 

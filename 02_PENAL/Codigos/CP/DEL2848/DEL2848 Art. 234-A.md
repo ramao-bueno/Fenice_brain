@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Nos crimes previstos neste Título a pena é aumentada: (Incluído pela Lei nº 12.015, de 2009) I – (VETADO) ; (Incluído pela Lei nº 12.015, de 2009) II – (VETADO) ; (Incluído pela Lei nº 12.015, de 2009) III - de metade a 2/3 (dois terços), se do crime resulta gravidez; (Redação dada pela Lei nº 13.718, de 2018) IV - de 1/3 (um terço) a 2/3 (dois terços), se o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador, ou se a vítima é idosa ou pessoa com
+> Nos crimes previstos neste Título a pena é aumentada: (Incluído pela Lei nº 12.015, de 2009) I – (VETADO) ; (Incluído pela Lei nº 12.015, de 2009) II – (VETADO) ; (Incluído pela Lei nº 12.015, de 2009) III - de metade a 2/3 (dois terços), se do crime resulta gravidez; (Redação dada pela Lei nº 13.718, de 2018) IV - de 1/3 (um terço) a 2/3 (dois terços), se o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador, ou se a vítima é idosa ou pessoa com deficiência. (Redação dada pela Lei nº 13.718, de 2018)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

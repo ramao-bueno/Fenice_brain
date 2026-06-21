@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> A reabilitação poderá ser requerida, decorridos 2 (dois) anos do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução, computando-se o período de prova da suspensão e o do livramento condicional, se não sobrevier revogação, desde que o condenado: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - tenha tido domicílio no País no prazo acima referido; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - tenha dado, durante esse tempo, demonstração efetiva e constante de bom com
+> A reabilitação poderá ser requerida, decorridos 2 (dois) anos do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução, computando-se o período de prova da suspensão e o do livramento condicional, se não sobrevier revogação, desde que o condenado: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - tenha tido domicílio no País no prazo acima referido; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - tenha dado, durante esse tempo, demonstração efetiva e constante de bom comportamento público e privado; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - tenha ressarcido ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

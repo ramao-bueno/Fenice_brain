@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Diz-se o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime doloso (Incluído pela Lei nº 7.209, de 11.7.1984) I - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo; (Incluído pela Lei nº 7.209, de 11.7.1984) Crime culposo (Incluído pela Lei nº 7.209, de 11.7.1984) II - culposo, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Salvo os casos expressos em lei, ninguém pode
+> Diz-se o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime doloso (Incluído pela Lei nº 7.209, de 11.7.1984) I - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo; (Incluído pela Lei nº 7.209, de 11.7.1984) Crime culposo (Incluído pela Lei nº 7.209, de 11.7.1984) II - culposo, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Salvo os casos expressos em lei, ninguém pode ser punido por fato previsto como crime, senão quando o pratica dolosamente. (Incluído pela Lei nº ...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

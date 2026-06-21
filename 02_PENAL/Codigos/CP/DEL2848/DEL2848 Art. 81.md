@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A suspensão será revogada se, no curso do prazo, o beneficiário: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - é condenado, em sentença irrecorrível, por crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - frustra, embora solvente, a execução de pena de multa ou não efetua, sem motivo justificado, a reparação do dano; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - descumpre a condição do § 1º do art. 78 deste Código. (Redação dada pela Lei nº 7.209, de 11.7.1984) Revogaç
+> A suspensão será revogada se, no curso do prazo, o beneficiário: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - é condenado, em sentença irrecorrível, por crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - frustra, embora solvente, a execução de pena de multa ou não efetua, sem motivo justificado, a reparação do dano; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - descumpre a condição do § 1º do art. 78 deste Código. (Redação dada pela Lei nº 7.209, de 11.7.1984) Revogação facultativa § 1º - A suspensão poderá ser revogada se o condenado descumpre qualquer outra condiç...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

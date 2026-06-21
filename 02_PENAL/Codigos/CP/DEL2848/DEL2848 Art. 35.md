@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Aplica-se a norma do art. 34 deste Código, caput, ao condenado que inicie o cumprimento da pena em regime semi-aberto. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - O condenado fica sujeito a trabalho em comum durante o período diurno, em colônia agrícola, industrial ou estabelecimento similar. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - O trabalho externo é admissível, bem como a freqüência a cursos supletivos profissionalizantes, de instrução de segundo grau ou superior. (R
+> Aplica-se a norma do art. 34 deste Código, caput, ao condenado que inicie o cumprimento da pena em regime semi-aberto. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - O condenado fica sujeito a trabalho em comum durante o período diurno, em colônia agrícola, industrial ou estabelecimento similar. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - O trabalho externo é admissível, bem como a freqüência a cursos supletivos profissionalizantes, de instrução de segundo grau ou superior. (Redação dada pela Lei nº 7.209, de 11.7.1984) Regras do regime aberto
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

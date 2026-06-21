@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Solicitar, exigir, cobrar ou obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função: (Redação dada pela Lei nº 9.127, de 1995) Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Redação dada pela Lei nº 9.127, de 1995) Parágrafo único - A pena é aumentada da metade, se o agente alega ou insinua que a vantagem é também destinada ao funcionário. (Redação dada pela Lei nº 9.127, de 1995) Corrupção
+> Solicitar, exigir, cobrar ou obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função: (Redação dada pela Lei nº 9.127, de 1995) Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Redação dada pela Lei nº 9.127, de 1995) Parágrafo único - A pena é aumentada da metade, se o agente alega ou insinua que a vantagem é também destinada ao funcionário. (Redação dada pela Lei nº 9.127, de 1995) Corrupção ativa
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro: Pena - reclusão, de três a doze anos, e multa. § 1º - Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa. § 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis
+> Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro: Pena - reclusão, de três a doze anos, e multa. § 1º - Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa. § 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis meses a dois anos, e multa. § 3º - É punido com reclusão, de três a quinze anos, e multa, o funcion...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de três a doze anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Tirar proveito da prostituição alheia, participando diretamente de seus lucros ou fazendo-se sustentar, no todo ou em parte, por quem a exerça: Pena - reclusão, de um a quatro anos, e multa. § 1 o Se a vítima é menor de 18 (dezoito) e maior de 14 (catorze) anos ou se o crime é cometido por ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou por quem assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilân
+> Tirar proveito da prostituição alheia, participando diretamente de seus lucros ou fazendo-se sustentar, no todo ou em parte, por quem a exerça: Pena - reclusão, de um a quatro anos, e multa. § 1 o Se a vítima é menor de 18 (dezoito) e maior de 14 (catorze) anos ou se o crime é cometido por ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou por quem assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 3 (três) a 6 (seis) anos, e mult...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de um a quatro anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de um a quatro anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) a 6 (seis) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 2 (dois) a 8 (oito) anos, sem prejuízo da pena correspondente à violência.
 
 ---
 

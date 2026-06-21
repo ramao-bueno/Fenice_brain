@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Intimidar sistematicamente, individualmente ou em grupo, mediante violência física ou psicológica, uma ou mais pessoas, de modo intencional e repetitivo, sem motivação evidente, por meio de atos de intimidação, de humilhação ou de discriminação ou de ações verbais, morais, sexuais, sociais, psicológicas, físicas, materiais ou virtuais: (Incluído pela Lei nº 14.811, de 2024) Pena - multa, se a conduta não constituir crime mais grave. (Incluído pela Lei nº 14.811, de 2024) Intimidação sistemática
+> Intimidar sistematicamente, individualmente ou em grupo, mediante violência física ou psicológica, uma ou mais pessoas, de modo intencional e repetitivo, sem motivação evidente, por meio de atos de intimidação, de humilhação ou de discriminação ou de ações verbais, morais, sexuais, sociais, psicológicas, físicas, materiais ou virtuais: (Incluído pela Lei nº 14.811, de 2024) Pena - multa, se a conduta não constituir crime mais grave. (Incluído pela Lei nº 14.811, de 2024) Intimidação sistemática virtual (cyberbullying) (Incluído pela Lei nº 14.811, de 2024) Parágrafo único. Se a conduta é reali...
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** multa, se a conduta não constituir crime mais grave.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** multa, se a conduta não constituir crime mais grave.
+- **Qualificadora/modalidade:** reclusão, de 2 (dois) anos a 4 (quatro) anos, e multa, se a conduta não constituir crime mais grave.
 
 ---
 

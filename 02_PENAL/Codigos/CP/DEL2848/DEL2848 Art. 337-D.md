@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Considera-se funcionário público estrangeiro, para os efeitos penais, quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. Equipara-se a funcionário público estrangeiro quem exerce cargo, emprego ou função em empresas controladas, diretamente ou indiretamente, pelo Poder Público de país estrangeiro ou em organizações púb
+> Considera-se funcionário público estrangeiro, para os efeitos penais, quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro. (Incluído pela Lei nº 10.467, de 11.6.2002) Parágrafo único. Equipara-se a funcionário público estrangeiro quem exerce cargo, emprego ou função em empresas controladas, diretamente ou indiretamente, pelo Poder Público de país estrangeiro ou em organizações públicas internacionais. (Incluído pela Lei nº 10.467, de 11.6.2002) CAPÍTULO II-B DOS CRIMES EM LICITA...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Procede-se mediante: (Redação dada pela Lei nº 10.695, de 1º.7.2003) I &#150; queixa, nos crimes previstos no caput do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) II &#150; ação penal pública incondicionada, nos crimes previstos nos §§ 1 o e 2 o do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) III &#150; ação penal pública incondicionada, nos crimes cometidos em desfavor de entidades de direito público, autarquia, empresa pública, sociedade de economia mista ou fundação institu
+> Procede-se mediante: (Redação dada pela Lei nº 10.695, de 1º.7.2003) I &#150; queixa, nos crimes previstos no caput do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) II &#150; ação penal pública incondicionada, nos crimes previstos nos §§ 1 o e 2 o do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) III &#150; ação penal pública incondicionada, nos crimes cometidos em desfavor de entidades de direito público, autarquia, empresa pública, sociedade de economia mista ou fundação instituída pelo Poder Público; (Incluído pela Lei nº 10.695, de 1º.7.2003) IV &#150; ação penal pública con...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

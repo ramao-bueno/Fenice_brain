@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A pena será ainda agravada em relação ao agente que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - promove, ou organiza a cooperação no crime ou dirige a atividade dos demais agentes; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - coage ou induz outrem à execução material do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - instiga ou determina a cometer o crime alguém sujeito à sua autoridade ou não-punível em virtude de condição ou qualidade pessoal; (Redação dada pela Lei
+> A pena será ainda agravada em relação ao agente que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - promove, ou organiza a cooperação no crime ou dirige a atividade dos demais agentes; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - coage ou induz outrem à execução material do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - instiga ou determina a cometer o crime alguém sujeito à sua autoridade ou não-punível em virtude de condição ou qualidade pessoal; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - executa o crime, ou nele participa, mediante paga ou promessa de recomp...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Falsificar, fabricando-os ou alterando-os: I &#150; selo destinado a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo; (Redação dada pela Lei nº 11.035, de 2004) II - papel de crédito público que não seja moeda de curso legal; III - vale postal; IV - cautela de penhor, caderneta de depósito de caixa econômica ou de outro estabelecimento mantido por entidade de direito público; V - talão, recibo, guia, alvará ou qualquer outro documento relat
+> Falsificar, fabricando-os ou alterando-os: I &#150; selo destinado a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo; (Redação dada pela Lei nº 11.035, de 2004) II - papel de crédito público que não seja moeda de curso legal; III - vale postal; IV - cautela de penhor, caderneta de depósito de caixa econômica ou de outro estabelecimento mantido por entidade de direito público; V - talão, recibo, guia, alvará ou qualquer outro documento relativo a arrecadação de rendas públicas ou a depósito ou caução por que o poder público seja responsáve...
 
 ---
 
@@ -54,7 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+- **Caput:** reclusão, de dois a oito anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de um a quatro anos, e multa.
 
 ---
 

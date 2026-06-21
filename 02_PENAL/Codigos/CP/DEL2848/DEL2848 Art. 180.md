@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte: (Redação dada pela Lei nº 9.426, de 1996) Pena – reclusão, de 2 (dois) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) Receptação qualificada (Redação dada pela Lei nº 9.426, de 1996) § 1º - Adquirir, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar,
+> Adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte: (Redação dada pela Lei nº 9.426, de 1996) Pena – reclusão, de 2 (dois) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) Receptação qualificada (Redação dada pela Lei nº 9.426, de 1996) § 1º - Adquirir, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, vender, expor à venda, ou de qualquer forma utilizar, em proveito próprio ou alheio, no exercício de...
 
 ---
 
@@ -54,9 +54,11 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 2 (dois) a 6 (seis) anos, e multa.
+- **Caput:** reclusão, de 2 (dois) a 6 (seis) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de três a oito anos, e multa.
+- **Qualificadora/modalidade:** detenção, de um mês a um ano, ou multa, ou ambas as penas.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

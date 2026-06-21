@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Os processos em que se apuram crimes definidos neste Título correrão em segredo de justiça. (Incluído pela Lei nº 12.015, de 2009) § 1º O sistema de consulta processual tornará de acesso público o nome completo do réu, seu número de inscrição no Cadastro de Pessoas Físicas (CPF) e a tipificação penal do fato a partir da condenação em primeira instância pelos crimes tipificados nos arts. 213, 216-B, 217-A, 218-B, 227, 228, 229 e 230 deste Código, inclusive com os dados da pena ou da medida de seg
+> Os processos em que se apuram crimes definidos neste Título correrão em segredo de justiça. (Incluído pela Lei nº 12.015, de 2009) § 1º O sistema de consulta processual tornará de acesso público o nome completo do réu, seu número de inscrição no Cadastro de Pessoas Físicas (CPF) e a tipificação penal do fato a partir da condenação em primeira instância pelos crimes tipificados nos arts. 213, 216-B, 217-A, 218-B, 227, 228, 229 e 230 deste Código, inclusive com os dados da pena ou da medida de segurança imposta, ressalvada a possibilidade de o juiz fundamentadamente determinar a manutenção do si...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

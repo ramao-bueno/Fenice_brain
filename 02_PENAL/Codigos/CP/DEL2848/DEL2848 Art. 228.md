@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Induzir ou atrair alguém à prostituição ou outra forma de exploração sexual, facilitá-la, impedir ou dificultar que alguém a abandone: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Redação dada pela Lei nº 12.015, de 2009) § 1 o Se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou se assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilân
+> Induzir ou atrair alguém à prostituição ou outra forma de exploração sexual, facilitá-la, impedir ou dificultar que alguém a abandone: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa. (Redação dada pela Lei nº 12.015, de 2009) § 1 o Se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor ou curador, preceptor ou empregador da vítima, ou se assumiu, por lei ou outra forma, obrigação de cuidado, proteção ou vigilância: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 3 (três) a 8 (oito) anos. (Redaç...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) a 8 (oito) anos.
+- **Qualificadora/modalidade:** reclusão, de quatro a dez anos, além da pena correspondente à violência.
 
 ---
 

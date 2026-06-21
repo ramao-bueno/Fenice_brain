@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Perseguir alguém, reiteradamente e por qualquer meio, ameaçando-lhe a integridade física ou psicológica, restringindo-lhe a capacidade de locomoção ou, de qualquer forma, invadindo ou perturbando sua esfera de liberdade ou privacidade. (Incluído pela Lei nº 14.132, de 2021) Pena – reclusão, de 6 (seis) meses a 2 (dois) anos, e multa. (Incluído pela Lei nº 14.132, de 2021) § 1º A pena é aumentada de metade se o crime é cometido: (Incluído pela Lei nº 14.132, de 2021) I – contra criança, adolescen
+> Perseguir alguém, reiteradamente e por qualquer meio, ameaçando-lhe a integridade física ou psicológica, restringindo-lhe a capacidade de locomoção ou, de qualquer forma, invadindo ou perturbando sua esfera de liberdade ou privacidade. (Incluído pela Lei nº 14.132, de 2021) Pena – reclusão, de 6 (seis) meses a 2 (dois) anos, e multa. (Incluído pela Lei nº 14.132, de 2021) § 1º A pena é aumentada de metade se o crime é cometido: (Incluído pela Lei nº 14.132, de 2021) I – contra criança, adolescente ou idoso; (Incluído pela Lei nº 14.132, de 2021) II – contra mulher por razões da condição de sex...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 6 (seis) meses a 2 (dois) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

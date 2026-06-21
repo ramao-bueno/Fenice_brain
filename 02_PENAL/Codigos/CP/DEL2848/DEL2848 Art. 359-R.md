@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Destruir ou inutilizar meios de comunicação ao público, estabelecimentos, instalações ou serviços destinados à defesa nacional, com o fim de abolir o Estado Democrático de Direito: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 2 (dois) a 8 (oito) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) CAPÍTULO V (Incluído pela Lei nº 14.197, de 2021) (Vigência) (VETADO) (Incluído pela Lei nº 14.197, de 2021) (Vigência) CAPÍTULO VI (Incluído pela Lei nº 14.197, de 2021) (V
+> Destruir ou inutilizar meios de comunicação ao público, estabelecimentos, instalações ou serviços destinados à defesa nacional, com o fim de abolir o Estado Democrático de Direito: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 2 (dois) a 8 (oito) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) CAPÍTULO V (Incluído pela Lei nº 14.197, de 2021) (Vigência) (VETADO) (Incluído pela Lei nº 14.197, de 2021) (Vigência) CAPÍTULO VI (Incluído pela Lei nº 14.197, de 2021) (Vigência) DISPOSIÇÕES COMUNS
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 2 (dois) a 8 (oito) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

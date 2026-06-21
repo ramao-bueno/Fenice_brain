@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nociva à saúde ou reduzindo-lhe o valor nutritivo: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º-A - Incorre nas penas deste artigo quem fabrica, vende, expõe à venda, importa, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo a substância alimentíci
+> Corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nociva à saúde ou reduzindo-lhe o valor nutritivo: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º-A - Incorre nas penas deste artigo quem fabrica, vende, expõe à venda, importa, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo a substância alimentícia ou o produto falsificado, corrompido ou adulterado. (Incluído pela Lei nº 9.677, de 2.7.1998) § 1º...
 
 ---
 
@@ -54,9 +54,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 4 (quatro) a 8 (oito) anos, e multa.
+- **Caput:** reclusão, de 4 (quatro) a 8 (oito) anos, e multa.
+- **Qualificadora/modalidade:** detenção, de 1 (um) a 2 (dois) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

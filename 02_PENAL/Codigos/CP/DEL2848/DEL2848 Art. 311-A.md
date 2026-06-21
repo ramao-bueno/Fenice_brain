@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de: (Incluído pela Lei 12.550. de 2011) I - concurso público; (Incluído pela Lei 12.550. de 2011) II - avaliação ou exame públicos; (Incluído pela Lei 12.550. de 2011) III - processo seletivo para ingresso no ensino superior; ou (Incluído pela Lei 12.550. de 2011) IV - exame ou processo seletivo previstos em lei: (Incluído pela Lei 12.550. de 2011) Pena -
+> Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de: (Incluído pela Lei 12.550. de 2011) I - concurso público; (Incluído pela Lei 12.550. de 2011) II - avaliação ou exame públicos; (Incluído pela Lei 12.550. de 2011) III - processo seletivo para ingresso no ensino superior; ou (Incluído pela Lei 12.550. de 2011) IV - exame ou processo seletivo previstos em lei: (Incluído pela Lei 12.550. de 2011) Pena - reclusão, de 1 (um) a 4 (quatro) anos, e multa. (Incluído pela Lei 12.550. de 2011) § 1 o Nas mesma...
 
 ---
 
@@ -52,7 +52,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+- **Caput:** reclusão, de 1 (um) a 4 (quatro) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 2 (dois) a 6 (seis) anos, e multa.
+
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

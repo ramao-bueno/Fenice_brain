@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O juiz poderá conceder livramento condicional ao condenado a pena privativa de liberdade igual ou superior a 2 (dois) anos, desde que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - cumprida mais de um terço da pena se o condenado não for reincidente em crime doloso e tiver bons antecedentes; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - cumprida mais da metade se o condenado for reincidente em crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - comprovado: (Redação dada
+> O juiz poderá conceder livramento condicional ao condenado a pena privativa de liberdade igual ou superior a 2 (dois) anos, desde que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - cumprida mais de um terço da pena se o condenado não for reincidente em crime doloso e tiver bons antecedentes; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - cumprida mais da metade se o condenado for reincidente em crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - comprovado: (Redação dada pela Lei nº 13.964, de 2019) a) bom comportamento durante a execução da pena; (Incluído pela Lei nº...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

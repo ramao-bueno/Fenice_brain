@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Ordenar, autorizar ou realizar operação de crédito, interno ou externo, sem prévia autorização legislativa: (Incluído pela Lei nº 10.028, de 2000) Pena &#150; reclusão, de 1 (um) a 2 (dois) anos. (Incluído pela Lei nº 10.028, de 2000) Parágrafo único. Incide na mesma pena quem ordena, autoriza ou realiza operação de crédito, interno ou externo: (Incluído pela Lei nº 10.028, de 2000) I &#150; com inobservância de limite, condição ou montante estabelecido em lei ou em resolução do Senado Federal;
+> Ordenar, autorizar ou realizar operação de crédito, interno ou externo, sem prévia autorização legislativa: (Incluído pela Lei nº 10.028, de 2000) Pena &#150; reclusão, de 1 (um) a 2 (dois) anos. (Incluído pela Lei nº 10.028, de 2000) Parágrafo único. Incide na mesma pena quem ordena, autoriza ou realiza operação de crédito, interno ou externo: (Incluído pela Lei nº 10.028, de 2000) I &#150; com inobservância de limite, condição ou montante estabelecido em lei ou em resolução do Senado Federal; (Incluído pela Lei nº 10.028, de 2000) II &#150; quando o montante da dívida consolidada ultrapassa ...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Matar descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher, com o fim específico de causar-lhe sofrimento, punição ou controle, no contexto de violência doméstica e familiar. (Incluído pela Lei nº 15.384, de 2026) Pena – reclusão, de 20 (vinte) a 40 (quarenta) anos. (Incluído pela Lei nº 15.384, de 2026) Parágrafo único. A pena do vicaricídio é aumentada de 1/3 (um terço) até a metade se o crime for praticado: (Incluído pela Lei nº 15.384, de 202
+> Matar descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher, com o fim específico de causar-lhe sofrimento, punição ou controle, no contexto de violência doméstica e familiar. (Incluído pela Lei nº 15.384, de 2026) Pena – reclusão, de 20 (vinte) a 40 (quarenta) anos. (Incluído pela Lei nº 15.384, de 2026) Parágrafo único. A pena do vicaricídio é aumentada de 1/3 (um terço) até a metade se o crime for praticado: (Incluído pela Lei nº 15.384, de 2026) I – na presença da mulher a quem se pretende causar sofrimento, punição ou controle; (Incluído pe...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 20 (vinte) a 40 (quarenta) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Dar causa a&#768; instauração de inquérito policial, de procedimento investigatório criminal, de processo judicial, de processo administrativo disciplinar, de inquérito civil ou de ação de improbidade administrativa contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente: (Redação dada pela Lei nº 14.110, de 2020) Pena - reclusão, de dois a oito anos, e multa. § 1º - A pena é aumentada de sexta parte, se o agente se serve de anonimato ou de nome supos
+> Dar causa a&#768; instauração de inquérito policial, de procedimento investigatório criminal, de processo judicial, de processo administrativo disciplinar, de inquérito civil ou de ação de improbidade administrativa contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente: (Redação dada pela Lei nº 14.110, de 2020) Pena - reclusão, de dois a oito anos, e multa. § 1º - A pena é aumentada de sexta parte, se o agente se serve de anonimato ou de nome suposto. § 2º - A pena é diminuída de metade, se a imputação é de prática de contravenção. Comunicação fa...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de dois a oito anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

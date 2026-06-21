@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Suprimir ou reduzir contribuição social previdenciária e qualquer acessório, mediante as seguintes condutas: (Incluído pela Lei nº 9.983, de 2000) I &#150; omitir de folha de pagamento da empresa ou de documento de informações previsto pela legislação previdenciária segurados empregado, empresário, trabalhador avulso ou trabalhador autônomo ou a este equiparado que lhe prestem serviços; (Incluído pela Lei nº 9.983, de 2000) II &#150; deixar de lançar mensalmente nos títulos próprios da contabili
+> Suprimir ou reduzir contribuição social previdenciária e qualquer acessório, mediante as seguintes condutas: (Incluído pela Lei nº 9.983, de 2000) I &#150; omitir de folha de pagamento da empresa ou de documento de informações previsto pela legislação previdenciária segurados empregado, empresário, trabalhador avulso ou trabalhador autônomo ou a este equiparado que lhe prestem serviços; (Incluído pela Lei nº 9.983, de 2000) II &#150; deixar de lançar mensalmente nos títulos próprios da contabilidade da empresa as quantias descontadas dos segurados ou as devidas pelo empregador ou pelo tomador ...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Nos crimes previstos neste Capítulo somente se procede mediante queixa, salvo quando, no caso do art. 140, § 2º, da violência resulta lesão corporal. Parágrafo único. Procede-se mediante requisição do Ministro da Justiça, no caso do inciso I do caput do art. 141 deste Código, e mediante representação do ofendido, no caso do inciso II do mesmo artigo, bem como no caso do § 3 o do art. 140 deste Código. (Redação dada pela Lei nº 12.033. de 2009) CAPÍTULO VI DOS CRIMES CONTRA A LIBERDADE INDIVIDUAL
+> Nos crimes previstos neste Capítulo somente se procede mediante queixa, salvo quando, no caso do art. 140, § 2º, da violência resulta lesão corporal. Parágrafo único. Procede-se mediante requisição do Ministro da Justiça, no caso do inciso I do caput do art. 141 deste Código, e mediante representação do ofendido, no caso do inciso II do mesmo artigo, bem como no caso do § 3 o do art. 140 deste Código. (Redação dada pela Lei nº 12.033. de 2009) CAPÍTULO VI DOS CRIMES CONTRA A LIBERDADE INDIVIDUAL SEÇÃO I DOS CRIMES CONTRA A LIBERDADE PESSOAL Constrangimento ilegal
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

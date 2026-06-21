@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> A prescrição, antes de transitar em julgado a sentença final, começa a correr: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - do dia em que o crime se consumou; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - no caso de tentativa, do dia em que cessou a atividade criminosa; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - nos crimes permanentes, do dia em que cessou a permanência; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - nos de bigamia e nos de falsificação ou alteração de
+> A prescrição, antes de transitar em julgado a sentença final, começa a correr: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - do dia em que o crime se consumou; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - no caso de tentativa, do dia em que cessou a atividade criminosa; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - nos crimes permanentes, do dia em que cessou a permanência; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - nos de bigamia e nos de falsificação ou alteração de assentamento do registro civil, da data em que o fato se tornou conhecido. (Redação dada pela Lei n...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

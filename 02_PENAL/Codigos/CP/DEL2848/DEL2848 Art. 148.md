@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Privar alguém de sua liberdade, mediante seqüestro ou cárcere privado: (Vide Lei nº 10.446, de 2002) Pena - reclusão, de um a três anos. § 1º - A pena é de reclusão, de dois a cinco anos: I &#150; se a vítima é ascendente, descendente, cônjuge ou companheiro do agente ou maior de 60 (sessenta) anos; (Redação dada pela Lei nº 11.106, de 2005) II - se o crime é praticado mediante internação da vítima em casa de saúde ou hospital; III - se a privação da liberdade dura mais de quinze dias. IV &#150;
+> Privar alguém de sua liberdade, mediante seqüestro ou cárcere privado: (Vide Lei nº 10.446, de 2002) Pena - reclusão, de um a três anos. § 1º - A pena é de reclusão, de dois a cinco anos: I &#150; se a vítima é ascendente, descendente, cônjuge ou companheiro do agente ou maior de 60 (sessenta) anos; (Redação dada pela Lei nº 11.106, de 2005) II - se o crime é praticado mediante internação da vítima em casa de saúde ou hospital; III - se a privação da liberdade dura mais de quinze dias. IV &#150; se o crime é praticado contra menor de 18 (dezoito) anos; (Incluído pela Lei nº 11.106, de 2005) V ...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de um a três anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de um a três anos.
+- **Qualificadora/modalidade:** reclusão, de dois a oito anos.
+- **Qualificadora/modalidade:** reclusão, de 12 (doze) a 20 (vinte) anos.
 
 ---
 

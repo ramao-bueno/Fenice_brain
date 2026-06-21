@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Entregar filho menor de 18 (dezoito) anos a pessoa em cuja companhia saiba ou deva saber que o menor fica moral ou materialmente em perigo: (Redação dada pela Lei nº 7.251, de 1984) Pena - detenção, de 1 (um) a 2 (dois) anos. (Redação dada pela Lei nº 7.251, de 1984) § 1º - A pena é de 1 (um) a 4 (quatro) anos de reclusão, se o agente pratica delito para obter lucro, ou se o menor é enviado para o exterior. (Incluído pela Lei nº 7.251, de 1984) § 2º - Incorre, também, na pena do parágrafo anteri
+> Entregar filho menor de 18 (dezoito) anos a pessoa em cuja companhia saiba ou deva saber que o menor fica moral ou materialmente em perigo: (Redação dada pela Lei nº 7.251, de 1984) Pena - detenção, de 1 (um) a 2 (dois) anos. (Redação dada pela Lei nº 7.251, de 1984) § 1º - A pena é de 1 (um) a 4 (quatro) anos de reclusão, se o agente pratica delito para obter lucro, ou se o menor é enviado para o exterior. (Incluído pela Lei nº 7.251, de 1984) § 2º - Incorre, também, na pena do parágrafo anterior quem, embora excluído o perigo moral ou material, auxilia a efetivação de ato destinado ao envio ...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de 1 (um) a 2 (dois) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

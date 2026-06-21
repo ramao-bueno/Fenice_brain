@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Este Código entrará em vigor no dia 1º de janeiro de 1942. Rio de Janeiro, 7 de dezembro de 1940; 119º da Independência e 52º da República. GETÚLIO VARGAS Francisco Campos Este texto não substitui o publicado no DOU de 31.12.1940 e retificado em 3.1.1941 * (function(){var f5_cspm={f5_p:'MLIACNMIDMPBNAGGMFKKFILPKPGLGCCLFJFJLKHNEFKEPCMNDNJNIJIAKFPHBLKJJEGBCMICAAANNDFNCFPAOAGKAAFKNHGOGCHNEDOGOGKNIGEPEDENMPBMJFCLANJO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.subs
+> Este Código entrará em vigor no dia 1º de janeiro de 1942. Rio de Janeiro, 7 de dezembro de 1940; 119º da Independência e 52º da República. GETÚLIO VARGAS Francisco Campos Este texto não substitui o publicado no DOU de 31.12.1940 e retificado em 3.1.1941 * (function(){var f5_cspm={f5_p:'MLIACNMIDMPBNAGGMFKKFILPKPGLGCCLFJFJLKHNEFKEPCMNDNJNIJIAKFPHBLKJJEGBCMICAAANNDFNCFPAOAGKAAFKNHGOGCHNEDOGOGKNIGEPEDENMPBMJFCLANJO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return...
 
 ---
 
@@ -52,7 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

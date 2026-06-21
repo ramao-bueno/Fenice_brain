@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Fazer, importar, exportar, adquirir ou ter sob sua guarda, para fim de comércio, de distribuição ou de exposição pública, escrito, desenho, pintura, estampa ou qualquer objeto obsceno: Pena - detenção, de seis meses a dois anos, ou multa. Parágrafo único - Incorre na mesma pena quem: I - vende, distribui ou expõe à venda ou ao público qualquer dos objetos referidos neste artigo; II - realiza, em lugar público ou acessível ao público, representação teatral, ou exibição cinematográfica de caráter
+> Fazer, importar, exportar, adquirir ou ter sob sua guarda, para fim de comércio, de distribuição ou de exposição pública, escrito, desenho, pintura, estampa ou qualquer objeto obsceno: Pena - detenção, de seis meses a dois anos, ou multa. Parágrafo único - Incorre na mesma pena quem: I - vende, distribui ou expõe à venda ou ao público qualquer dos objetos referidos neste artigo; II - realiza, em lugar público ou acessível ao público, representação teatral, ou exibição cinematográfica de caráter obsceno, ou qualquer outro espetáculo, que tenha o mesmo caráter; III - realiza, em lugar público ou...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de seis meses a dois anos, ou multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

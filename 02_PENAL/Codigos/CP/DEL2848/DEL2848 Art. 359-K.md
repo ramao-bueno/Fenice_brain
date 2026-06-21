@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Entregar a governo estrangeiro, a seus agentes, ou a organização criminosa estrangeira, em desacordo com determinação legal ou regulamentar, documento ou informação classificados como secretos ou ultrassecretos nos termos da lei, cuja revelação possa colocar em perigo a preservação da ordem constitucional ou a soberania nacional: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 3 (três) a 12 (doze) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 1º Incorre na mesma
+> Entregar a governo estrangeiro, a seus agentes, ou a organização criminosa estrangeira, em desacordo com determinação legal ou regulamentar, documento ou informação classificados como secretos ou ultrassecretos nos termos da lei, cuja revelação possa colocar em perigo a preservação da ordem constitucional ou a soberania nacional: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 3 (três) a 12 (doze) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 1º Incorre na mesma pena quem presta auxílio a espião, conhecendo essa circunstância, para subtraí-lo à ação da autorid...
 
 ---
 
@@ -52,9 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 3 (três) a 12 (doze) anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 3 (três) a 12 (doze) anos.
+- **Qualificadora/modalidade:** reclusão, de 6 (seis) a 15 (quinze) anos.
+- **Qualificadora/modalidade:** detenção, de 1 (um) a 4 (quatro) anos.
 
 ---
 

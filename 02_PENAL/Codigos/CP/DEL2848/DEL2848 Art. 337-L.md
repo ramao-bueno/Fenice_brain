@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Fraudar, em prejuízo da Administração Pública, licitação ou contrato dela decorrente, mediante: (Incluído pela Lei nº 14.133, de 2021) I - entrega de mercadoria ou prestação de serviços com qualidade ou em quantidade diversas das previstas no edital ou nos instrumentos contratuais; (Incluído pela Lei nº 14.133, de 2021) II - fornecimento, como verdadeira ou perfeita, de mercadoria falsificada, deteriorada, inservível para consumo ou com prazo de validade vencido; (Incluído pela Lei nº 14.133, de
+> Fraudar, em prejuízo da Administração Pública, licitação ou contrato dela decorrente, mediante: (Incluído pela Lei nº 14.133, de 2021) I - entrega de mercadoria ou prestação de serviços com qualidade ou em quantidade diversas das previstas no edital ou nos instrumentos contratuais; (Incluído pela Lei nº 14.133, de 2021) II - fornecimento, como verdadeira ou perfeita, de mercadoria falsificada, deteriorada, inservível para consumo ou com prazo de validade vencido; (Incluído pela Lei nº 14.133, de 2021) III - entrega de uma mercadoria por outra; (Incluído pela Lei nº 14.133, de 2021) IV - altera...
 
 ---
 
@@ -52,7 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+**Pena:** reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa.
+
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

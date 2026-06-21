@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Para efeito de reincidência: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - não prevalece a condenação anterior, se entre a data do cumprimento ou extinção da pena e a infração posterior tiver decorrido período de tempo superior a 5 (cinco) anos, computado o período de prova da suspensão ou do livramento condicional, se não ocorrer revogação; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - não se consideram os crimes militares próprios e políticos. (Redação dada pela Lei nº 7.209, de 11.
+> Para efeito de reincidência: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - não prevalece a condenação anterior, se entre a data do cumprimento ou extinção da pena e a infração posterior tiver decorrido período de tempo superior a 5 (cinco) anos, computado o período de prova da suspensão ou do livramento condicional, se não ocorrer revogação; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - não se consideram os crimes militares próprios e políticos. (Redação dada pela Lei nº 7.209, de 11.7.1984) Circunstâncias atenuantes
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

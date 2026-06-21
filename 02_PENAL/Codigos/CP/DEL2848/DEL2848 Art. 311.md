@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente: (Redação dada pela Lei nº 14.562, de 2023) Pena - reclusão, de três a seis anos, e multa. (Redação dada pela Lei nº 9.426, de 1996) § 1º - Se o agente comete o crime no exercício da função pública ou
+> Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente: (Redação dada pela Lei nº 14.562, de 2023) Pena - reclusão, de três a seis anos, e multa. (Redação dada pela Lei nº 9.426, de 1996) § 1º - Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de um terço. (Incluído pela Lei nº 9.426, de 1996) § 2º Incorrem n...
 
 ---
 
@@ -52,9 +52,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de três a seis anos, e multa.
+- **Caput:** reclusão, de três a seis anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 4 (quatro) a 8 (oito) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Constranger alguém, mediante violência ou grave ameaça, ou depois de lhe haver reduzido, por qualquer outro meio, a capacidade de resistência, a não fazer o que a lei permite, ou a fazer o que ela não manda: Pena - detenção, de três meses a um ano, ou multa. Aumento de pena § 1º - As penas aplicam-se cumulativamente e em dobro, quando, para a execução do crime, se reúnem mais de três pessoas, ou há emprego de armas. § 2º - Além das penas cominadas, aplicam-se as correspondentes à violência. § 3º
+> Constranger alguém, mediante violência ou grave ameaça, ou depois de lhe haver reduzido, por qualquer outro meio, a capacidade de resistência, a não fazer o que a lei permite, ou a fazer o que ela não manda: Pena - detenção, de três meses a um ano, ou multa. Aumento de pena § 1º - As penas aplicam-se cumulativamente e em dobro, quando, para a execução do crime, se reúnem mais de três pessoas, ou há emprego de armas. § 2º - Além das penas cominadas, aplicam-se as correspondentes à violência. § 3º - Não se compreendem na disposição deste artigo: I - a intervenção médica ou cirúrgica, sem o conse...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de três meses a um ano, ou multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

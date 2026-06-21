@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Considera-se: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) regime fechado a execução da pena em estabelecimento de segurança máxima ou média; b) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar; c) regime aberto
+> A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - Considera-se: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) regime fechado a execução da pena em estabelecimento de segurança máxima ou média; b) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar; c) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado. § 2 º - As penas privativas de...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

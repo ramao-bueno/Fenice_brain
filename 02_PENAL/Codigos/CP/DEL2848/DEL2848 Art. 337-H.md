@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Admitir, possibilitar ou dar causa a qualquer modificação ou vantagem, inclusive prorrogação contratual, em favor do contratado, durante a execução dos contratos celebrados com a Administração Pública, sem autorização em lei, no edital da licitação ou nos respectivos instrumentos contratuais, ou, ainda, pagar fatura com preterição da ordem cronológica de sua exigibilidade: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa. (Incluído pela Lei nº 1
+> Admitir, possibilitar ou dar causa a qualquer modificação ou vantagem, inclusive prorrogação contratual, em favor do contratado, durante a execução dos contratos celebrados com a Administração Pública, sem autorização em lei, no edital da licitação ou nos respectivos instrumentos contratuais, ou, ainda, pagar fatura com preterição da ordem cronológica de sua exigibilidade: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) Perturbação de processo licitatório (Incluído pela Lei nº 14.133, de 2021)
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

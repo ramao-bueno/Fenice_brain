@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Tentar depor, por meio de violência ou grave ameaça, o governo legitimamente constituído: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 4 (quatro) a 12 (doze) anos, além da pena correspondente à violência. (Incluído pela Lei nº 14.197, de 2021) (Vigência) Art. 359-M-A. Quando os delitos deste Capítulo estão inseridos no mesmo contexto, a pena deverá ser aplicada, ainda que existente desígnio autônomo, na forma do concurso formal próprio de que trata a primeira parte do ar
+> Tentar depor, por meio de violência ou grave ameaça, o governo legitimamente constituído: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 4 (quatro) a 12 (doze) anos, além da pena correspondente à violência. (Incluído pela Lei nº 14.197, de 2021) (Vigência) Art. 359-M-A. Quando os delitos deste Capítulo estão inseridos no mesmo contexto, a pena deverá ser aplicada, ainda que existente desígnio autônomo, na forma do concurso formal próprio de que trata a primeira parte do art. 70, vedando-se a aplicação do cômputo cumulativo previsto na segunda parte desse dispositivo e no...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** reclusão, de 4 (quatro) a 12 (doze) anos, além da pena correspondente à violência.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de diminuição — conferir §§ na redação acima.*
 
 ---
 

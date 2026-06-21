@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Abandonar pessoa que está sob seu cuidado, guarda, vigilância ou autoridade, e, por qualquer motivo, incapaz de defender-se dos riscos resultantes do abandono: Pena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do abandono resulta lesão corporal de natureza grave: Pena - reclusão, de 3 (três) a 7 (sete) anos. (Redação dada pela Lei nº 15.163, de 2025) § 2º - Se resulta a morte: Pena - reclusão, de 8 (oito) a 14 (quatorze) anos. (Redação dada pela
+> Abandonar pessoa que está sob seu cuidado, guarda, vigilância ou autoridade, e, por qualquer motivo, incapaz de defender-se dos riscos resultantes do abandono: Pena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do abandono resulta lesão corporal de natureza grave: Pena - reclusão, de 3 (três) a 7 (sete) anos. (Redação dada pela Lei nº 15.163, de 2025) § 2º - Se resulta a morte: Pena - reclusão, de 8 (oito) a 14 (quatorze) anos. (Redação dada pela Lei nº 15.163, de 2025) Aumento de pena § 3º - As penas cominadas neste artigo aumentam-se de um ter...
 
 ---
 
@@ -54,9 +54,11 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 2 (dois) a 5 (cinco) anos.
+- **Caput:** reclusão, de 2 (dois) a 5 (cinco) anos.
+- **Qualificadora/modalidade:** reclusão, de 3 (três) a 7 (sete) anos.
+- **Qualificadora/modalidade:** reclusão, de 8 (oito) a 14 (quatorze) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Dar parto alheio como próprio; registrar como seu o filho de outrem; ocultar recém-nascido ou substituí-lo, suprimindo ou alterando direito inerente ao estado civil: (Redação dada pela Lei nº 6.898, de 1981) Pena - reclusão, de dois a seis anos. (Redação dada pela Lei nº 6.898, de 1981) Parágrafo único - Se o crime é praticado por motivo de reconhecida nobreza: (Redação dada pela Lei nº 6.898, de 1981) Pena - detenção, de um a dois anos, podendo o juiz deixar de aplicar a pena. (Redação dada pel
+> Dar parto alheio como próprio; registrar como seu o filho de outrem; ocultar recém-nascido ou substituí-lo, suprimindo ou alterando direito inerente ao estado civil: (Redação dada pela Lei nº 6.898, de 1981) Pena - reclusão, de dois a seis anos. (Redação dada pela Lei nº 6.898, de 1981) Parágrafo único - Se o crime é praticado por motivo de reconhecida nobreza: (Redação dada pela Lei nº 6.898, de 1981) Pena - detenção, de um a dois anos, podendo o juiz deixar de aplicar a pena. (Redação dada pela Lei nº 6.898, de 1981) Sonegação de estado de filiação
 
 ---
 
@@ -54,9 +54,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de dois a seis anos.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de dois a seis anos.
+- **Qualificadora/modalidade:** detenção, de um a dois anos, podendo o juiz deixar de aplicar a pena.
 
 ---
 

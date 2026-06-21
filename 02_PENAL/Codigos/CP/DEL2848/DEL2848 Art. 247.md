@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Permitir alguém que menor de dezoito anos, sujeito a seu poder ou confiado à sua guarda ou vigilância: I - freqüente casa de jogo ou mal-afamada, ou conviva com pessoa viciosa ou de má vida; II - freqüente espetáculo capaz de pervertê-lo ou de ofender-lhe o pudor, ou participe de representação de igual natureza; III - resida ou trabalhe em casa de prostituição; IV - mendigue ou sirva a mendigo para excitar a comiseração pública: Pena - detenção, de um a três meses, ou multa. CAPÍTULO IV DOS CRIM
+> Permitir alguém que menor de dezoito anos, sujeito a seu poder ou confiado à sua guarda ou vigilância: I - freqüente casa de jogo ou mal-afamada, ou conviva com pessoa viciosa ou de má vida; II - freqüente espetáculo capaz de pervertê-lo ou de ofender-lhe o pudor, ou participe de representação de igual natureza; III - resida ou trabalhe em casa de prostituição; IV - mendigue ou sirva a mendigo para excitar a comiseração pública: Pena - detenção, de um a três meses, ou multa. CAPÍTULO IV DOS CRIMES CONTRA O PÁTRIO PODER, TUTELA CURATELA Induzimento a fuga, entrega arbitrária ou sonegação de inc...
 
 ---
 
@@ -56,7 +56,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 **Pena:** detenção, de um a três meses, ou multa.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+[Verificar §§ para qualificadoras ou causas de modificação.]
 
 ---
 

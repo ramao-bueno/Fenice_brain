@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> A execução da pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser suspensa, por 2 (dois) a 4 (quatro) anos, desde que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - o condenado não seja reincidente em crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a culpabilidade, os antecedentes, a conduta social e personalidade do agente, bem como os motivos e as circunstâncias autorizem a concessão do benefício; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - Não
+> A execução da pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser suspensa, por 2 (dois) a 4 (quatro) anos, desde que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - o condenado não seja reincidente em crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a culpabilidade, os antecedentes, a conduta social e personalidade do agente, bem como os motivos e as circunstâncias autorizem a concessão do benefício; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - Não seja indicada ou cabível a substituição prevista no art. 44 deste Código. (Redação dada pela Lei nº...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

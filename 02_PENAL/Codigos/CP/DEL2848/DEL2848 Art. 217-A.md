@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos: (Incluído pela Lei nº 12.015, de 2009) Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025) § 1 o Incorre na mesma pena quem pratica as ações descritas no caput com alguém que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, ou que, por qualquer outra causa, não pode oferecer resistência. (Incluído pela Lei nº 12.0
+> Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 (catorze) anos: (Incluído pela Lei nº 12.015, de 2009) Pena – reclusão, de 10 (dez) a 18 (dezoito) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025) § 1 o Incorre na mesma pena quem pratica as ações descritas no caput com alguém que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato, ou que, por qualquer outra causa, não pode oferecer resistência. (Incluído pela Lei nº 12.015, de 2009) § 2 o (VETADO) (Incluído pela Lei nº 12.015, de 2009) § 3 o Se da conduta resulta lesão...
 
 ---
 
@@ -54,9 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 10 (dez) a 18 (dezoito) anos, e multa.
-
-[Há qualificadoras ou causas de aumento/diminuição?]
+- **Caput:** reclusão, de 10 (dez) a 18 (dezoito) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 12 (doze) a 24 (vinte e quatro) anos, e multa.
+- **Qualificadora/modalidade:** reclusão, de 20 (vinte) a 40 (quarenta) anos, e multa.
 
 ---
 

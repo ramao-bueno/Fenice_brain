@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da
+> O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da pena. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 3º - O trabalho externo é admissível, no reg...
 
 ---
 
@@ -54,7 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
+[Pena não localizada — artigo não comina pena diretamente.]
 
 ---
 

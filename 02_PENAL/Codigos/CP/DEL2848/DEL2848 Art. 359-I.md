@@ -25,7 +25,7 @@ created: '2026-06-20'
 
 ## REDACAO LEGAL
 
-> Negociar com governo ou grupo estrangeiro, ou seus agentes, com o fim de provocar atos típicos de guerra contra o País ou invadi-lo: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 3 (três) a 8 (oito) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 1º Aumenta-se a pena de metade até o dobro, se declarada guerra em decorrência das condutas previstas no caput deste artigo. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 2º Se o agente participa de operação bélic
+> Negociar com governo ou grupo estrangeiro, ou seus agentes, com o fim de provocar atos típicos de guerra contra o País ou invadi-lo: (Incluído pela Lei nº 14.197, de 2021) (Vigência) Pena - reclusão, de 3 (três) a 8 (oito) anos. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 1º Aumenta-se a pena de metade até o dobro, se declarada guerra em decorrência das condutas previstas no caput deste artigo. (Incluído pela Lei nº 14.197, de 2021) (Vigência) § 2º Se o agente participa de operação bélica com o fim de submeter o território nacional, ou parte dele, ao domínio ou à soberania de outro paí...
 
 ---
 
@@ -52,9 +52,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-**Pena:** reclusão, de 3 (três) a 8 (oito) anos.
+- **Caput:** reclusão, de 3 (três) a 8 (oito) anos.
+- **Qualificadora/modalidade:** reclusão, de 4 (quatro) a 12 (doze) anos.
 
-[Há qualificadoras ou causas de aumento/diminuição?]
+*Há causas de aumento — conferir §§ na redação acima.*
 
 ---
 

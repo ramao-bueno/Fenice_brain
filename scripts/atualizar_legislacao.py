@@ -129,9 +129,6 @@ def main():
             print(f"      [ERRO] {e}")
             erros += 1
 
-    if conn:
-        conn.close()
-
     # Relatorio final
     print("\n" + "=" * 70)
     print("RELATORIO FINAL")

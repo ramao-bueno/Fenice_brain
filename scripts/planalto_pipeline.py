@@ -311,15 +311,12 @@ def listar_leis_por_ano(ano: int) -> List[str]:
     return list(set(todos_links))
 
 
-# ── Persistência Supabase (opcional) ─────────────────────────────────────────
+# ── Persistência Supabase via REST API (opcional) ────────────────────────────
+# Usa SUPABASE_URL + SUPABASE_SERVICE_KEY do .env
+# Não requer senha do banco — apenas a service_role key do dashboard
+# (Settings → Chaves de API → service_role → Revelar)
 
-def _db_conn():
-    """Retorna conexão psycopg2 lendo credenciais do .env. Retorna None se não configurado."""
-    try:
-        import psycopg2
-    except ImportError:
-        return None
-
+def _load_env() -> None:
     env_file = PROJECT_ROOT / ".env"
     if env_file.exists():
         for linha in env_file.read_text(encoding="utf-8").splitlines():
@@ -327,25 +324,26 @@ def _db_conn():
                 k, _, v = linha.partition("=")
                 os.environ.setdefault(k.strip(), v.strip())
 
-    host = os.environ.get("DB_HOST", "")
-    if not host:
-        return None
 
-    try:
-        import psycopg2
-        conn = psycopg2.connect(
-            host=host,
-            port=int(os.environ.get("DB_PORT", "5432")),
-            dbname=os.environ.get("DB_NAME", "postgres"),
-            user=os.environ.get("DB_USER", "postgres"),
-            password=os.environ.get("DB_PASS", ""),
-            connect_timeout=10,
-            sslmode="require",
-        )
-        return conn
-    except Exception as e:
-        print(f"  ⚠️  Supabase: não conectado ({e})")
+def _db_conn() -> Optional[dict]:
+    """
+    Retorna um 'conn' dict com url+headers para a REST API do Supabase.
+    Retorna None se SUPABASE_URL ou SUPABASE_SERVICE_KEY não estiverem no .env.
+    """
+    _load_env()
+    url = os.environ.get("SUPABASE_URL", "")
+    key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not url or not key:
         return None
+    return {
+        "url": url.rstrip("/"),
+        "headers": {
+            "apikey": key,
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+            "Prefer": "resolution=merge-duplicates",
+        },
+    }
 
 
 def _extrair_tipo_ato(titulo: str) -> str:
@@ -370,44 +368,34 @@ def _numero_ano_chave(dados: Dict) -> str:
     return f"{tipo} {dados.get('numero', '')}/{dados.get('ano', '')}"
 
 
-_UPSERT_SQL = """
-INSERT INTO legislacao_brasileira
-    (esfera, tipo_ato, numero_ano, ementa, texto_vigente,
-     fragmentos_revogados, url_origem)
-VALUES
-    (%(esfera)s, %(tipo_ato)s, %(numero_ano)s, %(ementa)s, %(texto_vigente)s,
-     %(fragmentos_revogados)s, %(url_origem)s)
-ON CONFLICT (numero_ano) DO UPDATE SET
-    ementa               = EXCLUDED.ementa,
-    texto_vigente        = EXCLUDED.texto_vigente,
-    fragmentos_revogados = EXCLUDED.fragmentos_revogados,
-    url_origem           = EXCLUDED.url_origem,
-    data_captura         = CURRENT_TIMESTAMP;
-"""
-
-
-def upsert_legislacao(dados: Dict, conn) -> bool:
-    """Upsert da lei em legislacao_brasileira. Retorna True se bem-sucedido."""
+def upsert_legislacao(dados: Dict, conn: dict) -> bool:
+    """
+    Upsert via REST API (POST /rest/v1/legislacao_brasileira com Prefer: merge-duplicates).
+    Retorna True se bem-sucedido.
+    """
     chave = _numero_ano_chave(dados)
+    payload = {
+        "esfera":               "Federal",
+        "tipo_ato":             _extrair_tipo_ato(dados.get("titulo", "")),
+        "numero_ano":           chave,
+        "ementa":               dados.get("ementa", ""),
+        "texto_vigente":        dados["texto_vigente"],
+        "fragmentos_revogados": len(dados.get("fragmentos_revogados", [])),
+        "url_origem":           dados["url_origem"],
+    }
     try:
-        with conn.cursor() as cur:
-            cur.execute(_UPSERT_SQL, {
-                "esfera":               "Federal",
-                "tipo_ato":             _extrair_tipo_ato(dados.get("titulo", "")),
-                "numero_ano":           chave,
-                "ementa":               dados.get("ementa", ""),
-                "texto_vigente":        dados["texto_vigente"],
-                "fragmentos_revogados": len(dados.get("fragmentos_revogados", [])),
-                "url_origem":           dados["url_origem"],
-            })
-        conn.commit()
-        return True
+        resp = requests.post(
+            f"{conn['url']}/rest/v1/legislacao_brasileira",
+            json=payload,
+            headers=conn["headers"],
+            timeout=30,
+        )
+        if resp.status_code in (200, 201):
+            return True
+        print(f"  ⚠️  Supabase REST {resp.status_code}: {resp.text[:200]}")
+        return False
     except Exception as e:
         print(f"  ⚠️  Supabase upsert falhou ({chave}): {e}")
-        try:
-            conn.rollback()
-        except Exception:
-            pass
         return False
 
 
@@ -557,9 +545,6 @@ def main():
             path = salvar_nota(dados, OUTPUT_LEIS_DIR, conn=conn)
             if path:
                 print(f"   ✅ Salvo: {path}")
-
-        if conn:
-            conn.close()
 
     else:
         parser.print_help()

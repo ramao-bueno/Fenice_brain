@@ -1,0 +1,21 @@
+# Whitelist via exclusão de raiz (/* = apenas root, não recursivo)
+# Isso permite que negações dentro dos subdiretórios funcionem corretamente.
+
+# 1. Exclui tudo no nível raiz
+/*
+
+# 2. Mantém arquivos de configuração na raiz
+!/requirements.txt
+!/vercel.json
+
+# 3. Mantém o diretório api/ inteiro (index.py)
+!/api
+
+# 4. Mantém scripts/ mas restringe ao necessário
+!/scripts
+
+# Exclui tudo em scripts/, exceto os 3 arquivos da API + pasta prompts
+/scripts/*
+!/scripts/api_fenice_saas.py
+!/scripts/fenice_rag.py
+!/scripts/prompts

@@ -1,3 +1,8 @@
+# Credenciais (NUNCA commitar)
+.env
+*.env
+!.env.example
+
 # Obsidian
 .obsidian/
 .DS_Store
@@ -22,6 +27,25 @@
 # Caches
 .cache/
 *.cache
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache local do pipeline Planalto (downloads temporários)
+scripts/_cache_planalto/
+
+# Arquivos-fonte dos pipelines (PDFs/HTMLs grandes)
+# As notas geradas (.md) SÃO versionadas; os arquivos-fonte não.
+00_APEX/SUMULAS STJ/*.pdf
+00_APEX/SUMULAS STJ/*.html
+00_APEX/SUMULAS STJ/*_files/
+00_APEX/SUMULAS STJ/tratados internacionais STJ/
+scripts/súmulas STF/
+
+# Script de teste com credenciais — substituir por .env antes de versionar
+scripts/_testar_supabase.py
 
 # Logs
 *.log

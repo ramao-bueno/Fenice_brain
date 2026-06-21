@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-92
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 92 - São também efeitos da condenação:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a perda de cargo, função publica ou mandato eletivo, nos crimes praticados com abuso de poder ou violação de dever para com a Administração Publica quando a pena aplicada for superior a quatro anos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a perda de
+> São também efeitos da condenação: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a perda de cargo, função pública ou mandato eletivo: (Redação dada pela Lei nº 9.268, de 1º.4.1996 ) a) quando aplicada pena privativa de liberdade por tempo igual ou superior a um ano, nos crimes praticados com abuso de poder ou violação de dever para com a Administração Pública; (Incluído pela Lei nº 9.268, de 1º.4.1996) b) quando for aplicada pena privativa de liberdade por tempo superior a 4 (quatro) anos no
 
 ---
 
@@ -54,15 +54,14 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 91]] — artigo anterior
+- [[DEL2848 Art. 91-A]] — artigo anterior
 - [[DEL2848 Art. 93]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-221
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 221 - É diminuída de um terço a pena, se o rapto é para fim de casamento, e de metade, se o agente, sem ter praticado com a vítima qualquer ato libidinoso, a restitue à liberdade ou a coloca em lugar seguro, à disposição da família .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) Concurso de rapto e outro crime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) &nbsp;
+> (Revogado pela Lei nº 11.106, de 2005) Concurso de rapto e outro crime
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

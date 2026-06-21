@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-167
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 167 - Nos casos do art. 163, do inciso IV do seu parágrafo e do art. 164, somente se procede mediante queixa. CAPÍTULO V DA APROPRIAÇÃO INDÉBITA Apropriação indébita &nbsp;
+> Nos casos do art. 163, do inciso IV do seu parágrafo e do art. 164, somente se procede mediante queixa. CAPÍTULO V DA APROPRIAÇÃO INDÉBITA Apropriação indébita
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-22
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 22 - Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) Exclusão de ilicitude&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) &nbsp;
+> Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem. (Redação dada pela Lei nº 7.209, de 11.7.1984) Exclusão de ilicitude (Redação dada pela Lei nº 7.209, de 11.7.1984)
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

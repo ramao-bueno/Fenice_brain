@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-185
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 185 - Atribuir falsamente a alguém, mediante o uso de nome, pseudônimo ou sinal por ele adotado para designar seus trabalhos, a autoria de obra literária, científica ou artística: Pena - detenção, de 6 (seis) meses a 2 (dois) anos, e multa. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 10.695, de 1º.7.2003) Art 186. Nos crimes previstos neste capítulo, somente se procede mediante queixa, salvo quando praticados em prejuizo de entidade de direito pú
+> (Revogado pela Lei nº 10.695, de 1º.7.2003)
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

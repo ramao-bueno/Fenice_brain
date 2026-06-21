@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-203
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 203 - Frustrar, mediante fraude ou violência, direito assegurado pela legislação do trabalho: Pena - detenção, de um mês a um ano, e multa, de dois contos a dez contos de réis, alem da pena correspondente à violência. Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.777, de 1998) § 1º Na mesma pena incorre quem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> Frustrar, mediante fraude ou violência, direito assegurado pela legislação do trabalho: Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Na mesma pena incorre quem: (Incluído pela Lei nº 9.777, de 1998) I - obriga ou coage alguém a usar mercadorias de determinado estabelecimento, para impossibilitar o desligamento do serviço em virtude de dívida; (Incluído pela Lei nº 9.777, de 1998) II - impede alguém d
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção de um ano a dois anos, e multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

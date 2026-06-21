@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-288
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 288 - Associarem-se mais de três pessoas, em quadrilha ou bando, para o fim de cometer crimes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 12.850, de 2.013) &nbsp; (Vigência) Pena - reclusão, de um a três anos.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei 8.072, de 25.7.1990) Parágrafo único - A pena aplica-se em dobro, se a quadrilha ou bando é armado. Associação Criminosa &nbsp; Art. 288. &nbsp;Associarem-se 3 (
+> Associarem-se 3 (três) ou mais pessoas, para o fim específico de cometer crimes: (Redação dada pela Lei nº 12.850, de 2013) (Vigência) Pena - reclusão, de 1 (um) a 3 (três) anos. (Redação dada pela Lei nº 12.850, de 2013) (Vigência) § 1º A pena aumenta-se até a metade se a associação é armada ou se houver a participação de criança ou adolescente. (Incluído pela Lei nº 15.245, de 2025) § 2º Incorre na pena prevista no caput deste artigo quem, de qualquer modo, solicitar ou contratar o cometimento
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 1 (um) a 3 (três) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 287]] — artigo anterior
-- [[DEL2848 Art. 289]] — artigo seguinte
+- [[DEL2848 Art. 288-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

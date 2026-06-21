@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-286
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 286 - Incitar, publicamente, a prática de crime: Pena - detenção, de três a seis meses, ou multa. Parágrafo único. Incorre na mesma pena quem incita, publicamente, animosidade entre as Forças Armadas, ou delas contra os poderes constitucionais, as instituições civis ou a sociedade.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 14.197, de 2021) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vigência) Apologia de crime ou criminoso &nbsp; Art. 287 - Fazer, publicamente, a
+> Incitar, publicamente, a prática de crime: Pena - detenção, de três a seis meses, ou multa. Parágrafo único. Incorre na mesma pena quem incita, publicamente, animosidade entre as Forças Armadas, ou delas contra os poderes constitucionais, as instituições civis ou a sociedade. (Incluído pela Lei nº 14.197, de 2021) (Vigência) Apologia de crime ou criminoso
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três a seis meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

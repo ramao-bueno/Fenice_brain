@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-171
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento: Pena - reclusão, de um a cinco anos, e multa, de quinhentos mil réis a dez contos de réis.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 7.209, de 1984) Pena – reclusão, de 1 (um) a 5 (cinco) anos, e multa. &nbsp; &nbsp;&nbsp; (Redação dada pela Lei nº 15.397, de 2026
+> Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento: Pena – reclusão, de 1 (um) a 5 (cinco) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) § 1º - Se o criminoso é primário, e é de pequeno valor o prejuízo, o juiz pode aplicar a pena conforme o disposto no art. 155, § 2º. § 2º - Nas mesmas penas incorre quem: Disposição de coisa alheia como própria I - vende, permuta, dá
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 1 (um) a 5 (cinco) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 170]] — artigo anterior
-- [[DEL2848 Art. 172]] — artigo seguinte
+- [[DEL2848 Art. 171-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

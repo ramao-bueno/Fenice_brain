@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-356
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 356 — Art. 356
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 356 - Inutilizar, total ou parcialmente, ou deixar de restituir autos, documento ou objeto de valor probatório, que recebeu na qualidade de advogado ou procurador: Pena - detenção, de seis meses a três anos, e multa. Exploração de prestígio &nbsp;
+> Inutilizar, total ou parcialmente, ou deixar de restituir autos, documento ou objeto de valor probatório, que recebeu na qualidade de advogado ou procurador: Pena - detenção, de seis meses a três anos, e multa. Exploração de prestígio
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

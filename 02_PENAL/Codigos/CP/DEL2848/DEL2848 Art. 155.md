@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-155
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 155 - Subtrair, para si ou para outrem, coisa alheia móvel: Pena - reclusão, de um a quatro anos, e multa. Pena – reclusão, de 1 (um) a 6 (seis) anos, e multa.&nbsp;&nbsp; (Redação dada pela Lei nº 15.397, de 2026) § 1º - A pena aumenta-se de um terço, se o crime é praticado durante o repouso noturno. § 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno. &nbsp;&nbsp; (Redação dada pela Lei nº 15.397, de 2026) § 2º - Se o criminoso é primário, e é de pequeno val
+> Subtrair, para si ou para outrem, coisa alheia móvel: Pena – reclusão, de 1 (um) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) § 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno. (Redação dada pela Lei nº 15.397, de 2026) § 2º - Se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa. § 3º - Equipara-se à co
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 1 (um) a 6 (seis) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 154]] — artigo anterior
+- [[DEL2848 Art. 154-B]] — artigo anterior
 - [[DEL2848 Art. 156]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

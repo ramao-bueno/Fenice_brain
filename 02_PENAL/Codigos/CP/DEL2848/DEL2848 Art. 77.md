@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-77
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 77 - A execução da pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser suspensa, por 2 (dois) a 4 (quatro) anos, desde que:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - o condenado não seja reincidente em crime doloso;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a culpabilidade, os antecedentes, a conduta social e per
+> A execução da pena privativa de liberdade, não superior a 2 (dois) anos, poderá ser suspensa, por 2 (dois) a 4 (quatro) anos, desde que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - o condenado não seja reincidente em crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - a culpabilidade, os antecedentes, a conduta social e personalidade do agente, bem como os motivos e as circunstâncias autorizem a concessão do benefício; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - Não
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

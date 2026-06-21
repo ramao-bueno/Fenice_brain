@@ -13,9 +13,12 @@ FENICE_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CPC"
 CPC_BASE = FENICE_BASE / "CÓDIGO_PROCESSO_CIVIL"
 OUTPUT_BASE = CPC_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+CPC_FONTES = FONTES_BASE / "cpc"
+
 LEIS_NACIONAIS = {
     "L13105": {
-        "arquivo": CPC_BASE / "L13105.html",
+        "arquivo": CPC_FONTES / "L13105.html",
         "nome": "Código de Processo Civil",
         "lei_numero": "13.105/2015",
         "categoria": "CODIGO_PROCESSO_CIVIL",
@@ -23,7 +26,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-civil",
     },
     "L10259": {
-        "arquivo": CPC_BASE / "L10259.html",
+        "arquivo": CPC_FONTES / "L10259.html",
         "nome": "Código de Processo Civil (revogado)",
         "lei_numero": "10.259/1990",
         "categoria": "CODIGO_PROCESSO_CIVIL_ANTIGO",

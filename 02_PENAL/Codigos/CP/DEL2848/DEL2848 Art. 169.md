@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-169
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 169 - Apropriar-se alguém de coisa alheia vinda ao seu poder por erro, caso fortuito ou força da natureza: Pena - detenção, de um mês a um ano, ou multa. Parágrafo único - Na mesma pena incorre: Apropriação de tesouro I - quem acha tesouro em prédio alheio e se apropria, no todo ou em parte, da quota a que tem direito o proprietário do prédio; Apropriação de coisa achada II - quem acha coisa alheia perdida e dela se apropria, total ou parcialmente, deixando de restituí-la ao dono ou legítim
+> Apropriar-se alguém de coisa alheia vinda ao seu poder por erro, caso fortuito ou força da natureza: Pena - detenção, de um mês a um ano, ou multa. Parágrafo único - Na mesma pena incorre: Apropriação de tesouro I - quem acha tesouro em prédio alheio e se apropria, no todo ou em parte, da quota a que tem direito o proprietário do prédio; Apropriação de coisa achada II - quem acha coisa alheia perdida e dela se apropria, total ou parcialmente, deixando de restituí-la ao dono ou legítimo possuidor
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 168]] — artigo anterior
+- [[DEL2848 Art. 168-A]] — artigo anterior
 - [[DEL2848 Art. 170]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

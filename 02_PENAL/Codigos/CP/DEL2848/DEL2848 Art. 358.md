@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-358
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 358 — Art. 358
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 358 - Impedir, perturbar ou fraudar arrematação judicial; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de dois meses a um ano, ou multa, além da pena correspondente à violência. Desobediência a decisão judicial sobre perda ou suspensão de direito &nbsp;
+> Impedir, perturbar ou fraudar arrematação judicial; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de dois meses a um ano, ou multa, além da pena correspondente à violência. Desobediência a decisão judicial sobre perda ou suspensão de direito
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de dois meses a um ano, ou multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-310
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 310 — Art. 310
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 310 - Prestar-se a figurar como proprietário ou possuidor de ação, título ou valor pertencente a estrangeiro, nos casos em que a este é vedada por lei a propriedade ou a posse de tais bens:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.426, de 1996) Pena - detenção, de seis meses a três anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.426, de 1996) Falsidade em prejuizo da nacionalização de sociedade Art. 311. Prestar-s
+> Prestar-se a figurar como proprietário ou possuidor de ação, título ou valor pertencente a estrangeiro, nos casos em que a este é vedada por lei a propriedade ou a posse de tais bens: (Redação dada pela Lei nº 9.426, de 1996) Pena - detenção, de seis meses a três anos, e multa. (Redação dada pela Lei nº 9.426, de 1996) Adulteração de sinal identificador de veículo (Redação dada pela Lei nº 14.562, de 2023)
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

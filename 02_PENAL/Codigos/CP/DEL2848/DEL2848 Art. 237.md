@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-237
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 237 - Contrair casamento, conhecendo a existência de impedimento que lhe cause a nulidade absoluta: Pena - detenção, de três meses a um ano. Simulação de autoridade para celebração de casamento &nbsp;
+> Contrair casamento, conhecendo a existência de impedimento que lhe cause a nulidade absoluta: Pena - detenção, de três meses a um ano. Simulação de autoridade para celebração de casamento
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a um ano.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

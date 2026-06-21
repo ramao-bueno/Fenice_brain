@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-150
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 150 - Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências: Pena - detenção, de um a três meses, ou multa. § 1º - Se o crime é cometido durante a noite, ou em lugar ermo, ou com o emprego de violência ou de arma, ou por duas ou mais pessoas: Pena - detenção, de seis meses a dois anos, além da pena correspondente à violência. § 2º - Aumenta-se a pena de um terço, se o fato é cometido por funcion
+> Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências: Pena - detenção, de um a três meses, ou multa. § 1º - Se o crime é cometido durante a noite, ou em lugar ermo, ou com o emprego de violência ou de arma, ou por duas ou mais pessoas: Pena - detenção, de seis meses a dois anos, além da pena correspondente à violência. § 2º - (Revogado pela Lei nº 13.869, de 2019) (Vigência) § 3º - Não constitui cri
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 149]] — artigo anterior
+- [[DEL2848 Art. 149-A]] — artigo anterior
 - [[DEL2848 Art. 151]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

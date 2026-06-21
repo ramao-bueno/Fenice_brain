@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-344
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 344 — Art. 344
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 344 - Usar de violência ou grave ameaça, com o fim de favorecer interesse próprio ou alheio, contra autoridade, parte, ou qualquer outra pessoa que funciona ou é chamada a intervir em processo judicial, policial ou administrativo, ou em juízo arbitral: Pena - reclusão, de um a quatro anos, e multa, além da pena correspondente à violência. Parágrafo único. A pena aumenta-se de 1/3 (um terço) até a metade se o processo envolver crime contra a dignidade sexual.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
+> Usar de violência ou grave ameaça, com o fim de favorecer interesse próprio ou alheio, contra autoridade, parte, ou qualquer outra pessoa que funciona ou é chamada a intervir em processo judicial, policial ou administrativo, ou em juízo arbitral: Pena - reclusão, de um a quatro anos, e multa, além da pena correspondente à violência. Parágrafo único. A pena aumenta-se de 1/3 (um terço) até a metade se o processo envolver crime contra a dignidade sexual. (Incluído pela Lei nº 14.245, de 2021) Exer
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, e multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

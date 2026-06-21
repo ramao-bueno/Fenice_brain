@@ -26,12 +26,22 @@ def processar_lei(sigla: str, cfg: dict) -> int:
         print("⚠️  nenhum artigo extraído")
         return 0
 
+    # Monta lookup prev/next pela ordem real da lei (inclui sufixos como 121-A)
+    nums = [str(a["numero"]) for a in artigos]
+    prev_next = {
+        nums[i]: (nums[i - 1] if i > 0 else None,
+                  nums[i + 1] if i < len(nums) - 1 else None)
+        for i in range(len(nums))
+    }
+
     # Gera notas markdown
     gen = MarkdownGeneratorCP(OUTPUT_BASE)
     salves = 0
 
     for artigo in artigos:
         artigo["categoria"] = cfg.get("categoria", "DIREITO_PENAL")
+        num_str = str(artigo["numero"])
+        artigo["prev_num"], artigo["next_num"] = prev_next[num_str]
         conteudo = gen.gerar_nota_artigo(artigo, cfg, sigla)
         resultado = gen.salvar_artigo(artigo, conteudo, sigla)
         if resultado:

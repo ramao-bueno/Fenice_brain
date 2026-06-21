@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-312
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 312 — Art. 312
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 312 - Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio: Pena - reclusão, de dois a doze anos, e multa. § 1º - Aplica-se a mesma pena, se o funcionário público, embora não tendo a posse do dinheiro, valor ou bem, o subtrai, ou concorre para que seja subtraído, em proveito próprio ou alheio, valendo-se de facilidade que lhe proporciona a qualidade de funci
+> Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio: Pena - reclusão, de dois a doze anos, e multa. § 1º - Aplica-se a mesma pena, se o funcionário público, embora não tendo a posse do dinheiro, valor ou bem, o subtrai, ou concorre para que seja subtraído, em proveito próprio ou alheio, valendo-se de facilidade que lhe proporciona a qualidade de funcionário. Pec
 
 ---
 
@@ -52,15 +52,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a doze anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 311]] — artigo anterior
+- [[DEL2848 Art. 311-A]] — artigo anterior
 - [[DEL2848 Art. 313]] — artigo seguinte
 
 ### Outros crimes
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

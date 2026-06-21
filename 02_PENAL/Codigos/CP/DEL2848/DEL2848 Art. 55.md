@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-55
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 55 - As penas restritivas de direitos terão a mesma duração da pena privativa de liberdade substituída.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) &nbsp; Art. 55. As penas restritivas de direitos referidas nos incisos III, IV, V e VI do art. 43 terão a mesma duração da pena privativa de liberdade substituída, ressalvado o disposto no § 4 o do art. 46.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> As penas restritivas de direitos referidas nos incisos III, IV, V e VI do art. 43 terão a mesma duração da pena privativa de liberdade substituída, ressalvado o disposto no § 4 o do art. 46. (Redação dada pela Lei nº 9.714, de 1998)
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

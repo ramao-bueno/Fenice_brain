@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-134
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 134 - Expor ou abandonar recém-nascido, para ocultar desonra própria: Pena - detenção, de seis meses a dois anos. § 1º - Se do fato resulta lesão corporal de natureza grave: Pena - detenção, de um a três anos. § 2º - Se resulta a morte: Pena - detenção, de dois a seis anos. Omissão de socorro &nbsp;
+> Expor ou abandonar recém-nascido, para ocultar desonra própria: Pena - detenção, de seis meses a dois anos. § 1º - Se do fato resulta lesão corporal de natureza grave: Pena - detenção, de um a três anos. § 2º - Se resulta a morte: Pena - detenção, de dois a seis anos. Omissão de socorro
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

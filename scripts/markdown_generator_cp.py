@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Gera notas Markdown atômicas para artigos do Código Penal."""
+import re
 import yaml
 from datetime import datetime
 from pathlib import Path
@@ -27,7 +28,8 @@ class MarkdownGeneratorCP:
                 tags.append(t)
 
         # Detectar parte do CP (arts. 1-84: Parte Geral, 85-302: Parte Especial)
-        parte_info = self._detectar_parte_cp(num) if sigla == "DEL2848" else None
+        num_base = int(str(num).split("-")[0]) if str(num).split("-")[0].isdigit() else 0
+        parte_info = self._detectar_parte_cp(num_base) if sigla == "DEL2848" else None
 
         frontmatter = {
             "artigo": str(num),
@@ -49,8 +51,23 @@ class MarkdownGeneratorCP:
 
         redacao = artigo.get("redacao", "[Conferir redação no Planalto]")
         titulo_artigo = artigo.get("titulo", f"Art. {num}")
-        art_anterior = max(1, num - 1)
-        art_seguinte = num + 1
+
+        pena = self._extrair_pena(redacao)
+        if pena:
+            pena_bloco = f"**Pena:** {pena}\n\n[Há qualificadoras ou causas de aumento/diminuição?]"
+        else:
+            pena_bloco = "[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]"
+
+        # prev/next pela ordem real da lei (calculado no pipeline com lista completa)
+        if artigo.get("prev_num") is not None:
+            art_anterior = artigo["prev_num"]
+        else:
+            art_anterior = max(1, num_base - 1)
+
+        if artigo.get("next_num") is not None:
+            art_seguinte = artigo["next_num"]
+        else:
+            art_seguinte = num_base + 1
 
         corpo = f"""# {sigla} Art. {num} — {titulo_artigo}
 
@@ -89,8 +106,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+{pena_bloco}
 
 ---
 
@@ -138,6 +154,13 @@ em denúncias, defesas, sentenças?]
         except Exception as e:
             print(f"Erro ao salvar {filename}: {e}")
             return None
+
+    @staticmethod
+    def _extrair_pena(redacao: str) -> str:
+        """Extrai a cláusula de pena da redação (para até a primeira ocorrência)."""
+        pat = re.compile(r'Pena\s*[-–—:]\s*(.+?\.)', re.IGNORECASE | re.DOTALL)
+        m = pat.search(redacao)
+        return m.group(1).strip() if m else ""
 
     @staticmethod
     def _detectar_parte_cp(num: int) -> Dict:

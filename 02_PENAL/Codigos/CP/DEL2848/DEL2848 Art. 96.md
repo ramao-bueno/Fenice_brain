@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-96
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 96. As medidas de segurança são:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - sujeição a tratamento ambulatorial.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+> As medidas de segurança são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - sujeição a tratamento ambulatorial. (Redação dada pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta. (Redação dada pela Lei nº 7.209, de 11.7.1984) Imposição da me
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

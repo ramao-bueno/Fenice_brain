@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-61
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 61 - São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a reincidência;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - ter o agente cometido o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) por motivo fútil ou torpe; b) para facilitar ou assegur
+> São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - a reincidência; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - ter o agente cometido o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) a) por motivo fútil ou torpe; b) para facilitar ou assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime; c) à traição, de emboscada, ou mediante dissimulação, ou outro recurso que dificultou
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

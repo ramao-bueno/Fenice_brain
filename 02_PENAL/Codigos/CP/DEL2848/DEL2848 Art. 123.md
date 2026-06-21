@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-123
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 123 - Matar, sob a influência do estado puerperal, o próprio filho, durante o parto ou logo após: Pena - detenção, de dois a seis anos. Aborto provocado pela gestante ou com seu consentimento &nbsp;
+> Matar, sob a influência do estado puerperal, o próprio filho, durante o parto ou logo após: Pena - detenção, de dois a seis anos. Aborto provocado pela gestante ou com seu consentimento
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de dois a seis anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

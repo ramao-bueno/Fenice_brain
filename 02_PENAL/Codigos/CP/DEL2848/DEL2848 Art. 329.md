@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-329
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 329 — Art. 329
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 329 - Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio: Pena - detenção, de dois meses a dois anos. § 1º - Se o ato, em razão da resistência, não se executa: Pena - reclusão, de um a três anos. § 2º - As penas deste artigo são aplicáveis sem prejuízo das correspondentes à violência. Desobediência &nbsp;
+> Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio: Pena - detenção, de dois meses a dois anos. § 1º - Se o ato, em razão da resistência, não se executa: Pena - reclusão, de um a três anos. § 2º - As penas deste artigo são aplicáveis sem prejuízo das correspondentes à violência. Desobediência
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de dois meses a dois anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

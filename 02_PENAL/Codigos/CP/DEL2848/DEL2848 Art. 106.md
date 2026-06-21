@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-106
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 106 - O perdão, no processo ou fora dele, expresso ou tácito:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - se concedido a qualquer dos querelados, a todos aproveita;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - se concedido por um dos ofendidos, não prejudica o direito dos outros;&nbsp;&nb
+> O perdão, no processo ou fora dele, expresso ou tácito: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - se concedido a qualquer dos querelados, a todos aproveita; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - se concedido por um dos ofendidos, não prejudica o direito dos outros; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - se o querelado o recusa, não produz efeito. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - Perdão tácito é o que resulta da prática de ato incompatível
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -63,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 105]] — artigo anterior
-- [[DEL2848 Art. 107]] — artigo seguinte
+- [[DEL2848 Art. 108]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

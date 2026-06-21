@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-116
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 116 - Antes de passar em julgado a sentença final, a prescrição não corre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - enquanto o agente cumpre pena no estrangeiro.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
+> Antes de passar em julgado a sentença final, a prescrição não corre: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - enquanto o agente cumpre pena no exterior; (Redação dada pela Lei nº 13.964, de 2019) III - na pendência de embargos de declaração ou de recursos aos Tribunais Superiores, quando inadmissíveis; e (Incluído pela Lei nº 13.
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

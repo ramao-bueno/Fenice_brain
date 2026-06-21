@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-81
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 81 - A suspensão será revogada se, no curso do prazo, o beneficiário:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - é condenado, em sentença irrecorrível, por crime doloso;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - frustra, embora solvente, a execução de pena de multa ou não efetua, sem
+> A suspensão será revogada se, no curso do prazo, o beneficiário: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - é condenado, em sentença irrecorrível, por crime doloso; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - frustra, embora solvente, a execução de pena de multa ou não efetua, sem motivo justificado, a reparação do dano; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - descumpre a condição do § 1º do art. 78 deste Código. (Redação dada pela Lei nº 7.209, de 11.7.1984) Revogaç
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

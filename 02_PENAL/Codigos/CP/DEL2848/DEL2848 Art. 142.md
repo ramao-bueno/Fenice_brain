@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-142
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 142 - Não constituem injúria ou difamação punível: I - a ofensa irrogada em juízo, na discussão da causa, pela parte ou por seu procurador; II - a opinião desfavorável da crítica literária, artística ou científica, salvo quando inequívoca a intenção de injuriar ou difamar; III - o conceito desfavorável emitido por funcionário público, em apreciação ou informação que preste no cumprimento de dever do ofício. Parágrafo único - Nos casos dos ns. I e III, responde pela injúria ou pela difamação
+> Não constituem injúria ou difamação punível: I - a ofensa irrogada em juízo, na discussão da causa, pela parte ou por seu procurador; II - a opinião desfavorável da crítica literária, artística ou científica, salvo quando inequívoca a intenção de injuriar ou difamar; III - o conceito desfavorável emitido por funcionário público, em apreciação ou informação que preste no cumprimento de dever do ofício. Parágrafo único - Nos casos dos ns. I e III, responde pela injúria ou pela difamação quem lhe d
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

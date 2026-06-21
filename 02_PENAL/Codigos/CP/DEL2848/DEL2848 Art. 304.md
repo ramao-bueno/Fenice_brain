@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-304
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 304 — Art. 304
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 304 - Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os arts. 297 a 302: Pena - a cominada à falsificação ou à alteração. Supressão de documento &nbsp;
+> Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os arts. 297 a 302: Pena - a cominada à falsificação ou à alteração. Supressão de documento
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** a cominada à falsificação ou à alteração.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

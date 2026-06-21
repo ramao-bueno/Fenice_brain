@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-313
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 313 — Art. 313
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 313 - Apropriar-se de dinheiro ou qualquer utilidade que, no exercício do cargo, recebeu por erro de outrem: Pena - reclusão, de um a quatro anos, e multa. Inserção de dados falsos em sistema de informações &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 9.983, de 2000) &nbsp; Art. 313-A. Inserir ou facilitar, o funcionário autorizado, a inserção de dados falsos, alterar ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de
+> Apropriar-se de dinheiro ou qualquer utilidade que, no exercício do cargo, recebeu por erro de outrem: Pena - reclusão, de um a quatro anos, e multa. Inserção de dados falsos em sistema de informações (Incluído pela Lei nº 9.983, de 2000)
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -61,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 312]] — artigo anterior
-- [[DEL2848 Art. 314]] — artigo seguinte
+- [[DEL2848 Art. 313-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

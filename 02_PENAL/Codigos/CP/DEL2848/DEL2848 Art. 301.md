@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-301
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 301 - Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem: Pena - detenção, de dois meses a um ano. Falsidade material de atestado ou certidão § 1º - Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, is
+> Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem: Pena - detenção, de dois meses a um ano. Falsidade material de atestado ou certidão § 1º - Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro, para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ôn
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de dois meses a um ano.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

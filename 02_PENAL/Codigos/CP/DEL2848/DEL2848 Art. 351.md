@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-351
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 351 — Art. 351
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 351 - Promover ou facilitar a fuga de pessoa legalmente presa ou submetida a medida de segurança detentiva: Pena - detenção, de seis meses a dois anos. § 1º - Se o crime é praticado a mão armada, ou por mais de uma pessoa, ou mediante arrombamento, a pena é de reclusão, de 2 (dois) a 6 (seis) anos. § 2º - Se há emprego de violência contra pessoa, aplica-se também a pena correspondente à violência. § 3º - A pena é de reclusão, de um a quatro anos, se o crime é praticado por pessoa sob cuja c
+> Promover ou facilitar a fuga de pessoa legalmente presa ou submetida a medida de segurança detentiva: Pena - detenção, de seis meses a dois anos. § 1º - Se o crime é praticado a mão armada, ou por mais de uma pessoa, ou mediante arrombamento, a pena é de reclusão, de dois a seis anos. § 2º - Se há emprego de violência contra pessoa, aplica-se também a pena correspondente à violência. § 3º - A pena é de reclusão, de um a quatro anos, se o crime é praticado por pessoa sob cuja custódia ou guarda e
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

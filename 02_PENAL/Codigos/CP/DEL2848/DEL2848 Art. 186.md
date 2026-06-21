@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-186
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 186. Procede-se mediante:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 10.695, de 1º.7.2003) I - queixa, nos crimes previstos no caput do art. 184;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 10.695, de 1º.7.2003) II - ação penal pública incondicionada, nos crimes previstos nos §§ 1 o e 2 o do art. 184;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela
+> Procede-se mediante: (Redação dada pela Lei nº 10.695, de 1º.7.2003) I &#150; queixa, nos crimes previstos no caput do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) II &#150; ação penal pública incondicionada, nos crimes previstos nos §§ 1 o e 2 o do art. 184; (Incluído pela Lei nº 10.695, de 1º.7.2003) III &#150; ação penal pública incondicionada, nos crimes cometidos em desfavor de entidades de direito público, autarquia, empresa pública, sociedade de economia mista ou fundação institu
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -63,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 185]] — artigo anterior
-- [[DEL2848 Art. 187]] — artigo seguinte
+- [[DEL2848 Art. 189]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

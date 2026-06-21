@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-248
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> - Induzir menor de dezoito anos, ou interdito, a fugir do lugar em que se acha por determinação de quem sobre ele exerce autoridade, em virtude de lei ou de ordem judicial; confiar a outrem sem ordem do pai, do tutor ou do curador algum menor de dezoito anos ou interdito, ou deixar, sem justa causa, de entregá-lo a quem legitimamente o reclame:
+> Induzir menor de dezoito anos, ou interdito, a fugir do lugar em que se acha por determinação de quem sobre ele exerce autoridade, em virtude de lei ou de ordem judicial; confiar a outrem sem ordem do pai, do tutor ou do curador algum menor de dezoito anos ou interdito, ou deixar, sem justa causa, de entregá-lo a quem legitimamente o reclame: Pena - detenção, de um mês a um ano, ou multa. Subtração de in capazes
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

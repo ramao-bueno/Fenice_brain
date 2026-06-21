@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-282
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 282 - Exercer, ainda que a título gratuito, a profissão de médico, dentista ou farmacêutico, sem autorização legal ou excedendo-lhe os limites: Pena - detenção, de seis meses a dois anos. Parágrafo único - Se o crime é praticado com o fim de lucro, aplica-se também multa. Charlatanismo &nbsp;
+> Exercer, ainda que a título gratuito, a profissão de médico, médico veterinário, dentista ou farmacêutico, sem autorização legal ou excedendo-lhe os limites: (Redação dada pela Lei nº 15.425, de 2026) Pena – detenção, de 6 (seis) meses a 2 (dois) anos. (Redação dada pela Lei nº 15.425, de 2026) § 1º Se o crime é praticado com o fim de lucro, aplica-se também multa. (Redação dada pela Lei nº 15.425, de 2026) § 2º Se do crime resulta lesão corporal de natureza grave ou gravíssima, responde também
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de 6 (seis) meses a 2 (dois) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

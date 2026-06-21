@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-306
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 306 — Art. 306
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 306 - Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem: Pena - reclusão, de dois a seis anos, e multa. Parágrafo único - Se a marca ou sinal falsificado é o que usa a autoridade pública para o fim de fiscalização sanitária, ou para autenticar ou encerrar determinados objetos, ou comprovar o cumprimento de formalidade legal: Pena -
+> Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária, ou usar marca ou sinal dessa natureza, falsificado por outrem: Pena - reclusão, de dois a seis anos, e multa. Parágrafo único - Se a marca ou sinal falsificado é o que usa a autoridade pública para o fim de fiscalização sanitária, ou para autenticar ou encerrar determinados objetos, ou comprovar o cumprimento de formalidade legal: Pena - reclusão ou
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a seis anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

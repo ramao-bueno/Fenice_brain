@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-208
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 208 - Escarnecer de alguém publicamente, por motivo de crença ou função religiosa; impedir ou perturbar cerimônia ou prática de culto religioso; vilipendiar publicamente ato ou objeto de culto religioso: Pena - detenção, de um mês a um ano, ou multa. Parágrafo único - Se há emprego de violência, a pena é aumentada de um terço, sem prejuízo da correspondente à violência. CAPÍTULO II DOS CRIMES CONTRA O RESPEITO AOS MORTOS Impedimento ou perturbação de cerimônia funerária &nbsp;
+> Escarnecer de alguém publicamente, por motivo de crença ou função religiosa; impedir ou perturbar cerimônia ou prática de culto religioso; vilipendiar publicamente ato ou objeto de culto religioso: Pena - detenção, de um mês a um ano, ou multa. Parágrafo único - Se há emprego de violência, a pena é aumentada de um terço, sem prejuízo da correspondente à violência. CAPÍTULO II DOS CRIMES CONTRA O RESPEITO AOS MORTOS Impedimento ou perturbação de cerimônia funerária
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

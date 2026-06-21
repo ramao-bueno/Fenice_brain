@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-241
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 241 - Promover no registro civil a inscrição de nascimento inexistente: Pena - reclusão, de dois a seis anos. Parto suposto. Supressão ou alteração de direito inerente ao estado civil de recém-nascido Art. 242. Dar parto alheio como próprio; ocultar recem-nascido ou substituí-lo, suprimindo ou alterando direito inerente ao estado civil: Pena - reclusão, de dois a seis anos. Parágrafo único. Se o crime é praticado por motivo de reconhecida nobreza: Pena - detenção, de um a dois anos. &nbsp;
+> Promover no registro civil a inscrição de nascimento inexistente: Pena - reclusão, de dois a seis anos. Parto suposto. Supressão ou alteração de direito inerente ao estado civil de recém-nascido
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a seis anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-47
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 47 - As penas de interdição temporária de direitos são:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de lic
+> As penas de interdição temporária de direitos são: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de licença ou autorização do poder público; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - suspensão de autorização ou de habilitação para dirigir veículo
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-217
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 217 - Seduzir mulher virgem, menor de dezoito anos e maior de quatorze, e ter com ela conjunção carnal, aproveitando-se de sua inexperiência ou justificável confiança: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) Pena - reclusão, de dois a quatro anos. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) Estupro de vulnerável&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> (Revogado pela Lei nº 11.106, de 2005) Estupro de vulnerável (Incluído pela Lei nº 12.015, de 2009)
 
 ---
 
@@ -54,16 +54,15 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 216]] — artigo anterior
-- [[DEL2848 Art. 218]] — artigo seguinte
+- [[DEL2848 Art. 216-B]] — artigo anterior
+- [[DEL2848 Art. 217-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

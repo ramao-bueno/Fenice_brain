@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-338
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 338 — Art. 338
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 338 - Reingressar no território nacional o estrangeiro que dele foi expulso: Pena - reclusão, de um a quatro anos, sem prejuízo de nova expulsão após o cumprimento da pena. Descumprimento de medidas protetivas de urgência &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 15.280, de 2025) &nbsp; Art. 338-A. Descumprir decisão judicial que defere medidas protetivas de urgência:&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 15.280, de 2025) Pena – reclusão, de 2 (dois) a 5 (cinco) anos, e m
+> Reingressar no território nacional o estrangeiro que dele foi expulso: Pena - reclusão, de um a quatro anos, sem prejuízo de nova expulsão após o cumprimento da pena. Descumprimento de medidas protetivas de urgência (Incluído pela Lei nº 15.280, de 2025)
 
 ---
 
@@ -52,16 +52,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, sem prejuízo de nova expulsão após o cumprimento da pena.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 337]] — artigo anterior
-- [[DEL2848 Art. 339]] — artigo seguinte
+- [[DEL2848 Art. 337-P]] — artigo anterior
+- [[DEL2848 Art. 338-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

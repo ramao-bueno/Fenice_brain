@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-128
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 128 - Não se pune o aborto praticado por médico:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADPF 54) Aborto necessário I - se não há outro meio de salvar a vida da gestante; Aborto no caso de gravidez resultante de estupro II - se a gravidez resulta de estupro e o aborto é precedido de consentimento da gestante ou, quando incapaz, de seu representante legal. CAPÍTULO II DAS LESÕES CORPORAIS Lesão corporal &nbsp;
+> Não se pune o aborto praticado por médico: (Vide ADPF 54) Aborto necessário I - se não há outro meio de salvar a vida da gestante; Aborto no caso de gravidez resultante de estupro II - se a gravidez resulta de estupro e o aborto é precedido de consentimento da gestante ou, quando incapaz, de seu representante legal. CAPÍTULO II DAS LESÕES CORPORAIS Lesão corporal
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

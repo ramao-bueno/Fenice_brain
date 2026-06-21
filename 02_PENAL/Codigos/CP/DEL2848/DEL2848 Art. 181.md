@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-181
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 181 - É isento de pena quem comete qualquer dos crimes previstos neste título, em prejuízo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 10.741, de 2003) I - do cônjuge, na constância da sociedade conjugal; II - de ascendente ou descendente, seja o parentesco legítimo ou ilegítimo, seja civil ou natural. &nbsp;
+> É isento de pena quem comete qualquer dos crimes previstos neste título, em prejuízo: (Vide Lei nº 10.741, de 2003) I - do cônjuge, na constância da sociedade conjugal; II - de ascendente ou descendente, seja o parentesco legítimo ou ilegítimo, seja civil ou natural.
 
 ---
 
@@ -54,15 +54,14 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 180]] — artigo anterior
+- [[DEL2848 Art. 180-A]] — artigo anterior
 - [[DEL2848 Art. 182]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

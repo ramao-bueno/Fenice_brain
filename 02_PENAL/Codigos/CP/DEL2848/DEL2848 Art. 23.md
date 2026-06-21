@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-23
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 23 - Não há crime quando o agente pratica o fato:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 7.209, de 11.7.1984) &nbsp;&nbsp;&nbsp; (Vide ADPF 779) III -
+> Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; (Incluído pela Lei nº 7.209, de 11.7.1984) (Vide ADPF 779) III - em estrito cumprimento de dever legal ou no exercício regular de direito. (Incluído pela Lei nº 7.209, de 11.7.1984) Excesso punível (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - O agente, em qualquer das hipóteses deste artigo, r
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

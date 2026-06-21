@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-250
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 250 - Causar incêndio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de três a seis anos, e multa. Aumento de pena § 1º - As penas aumentam-se de um terço: I - se o crime é cometido com intuito de obter vantagem pecuniária em proveito próprio ou alheio; II - se o incêndio é: a) em casa habitada ou destinada a habitação; b) em edifício público ou destinado a uso público ou a obra de assistência social ou de cultura; c) em embarcação, aeronave, comb
+> Causar incêndio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de três a seis anos, e multa. Aumento de pena § 1º - As penas aumentam-se de um terço: I - se o crime é cometido com intuito de obter vantagem pecuniária em proveito próprio ou alheio; II - se o incêndio é: a) em casa habitada ou destinada a habitação; b) em edifício público ou destinado a uso público ou a obra de assistência social ou de cultura; c) em embarcação, aeronave, comboio ou veíc
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de três a seis anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-361
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 361 — Art. 361
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 361 - Este Código entrará em vigor no dia 1º de janeiro de 1942. Rio de Janeiro, 7 de dezembro de 1940; 119º da Independência e 52º da República. GETÚLIO VARGAS Francisco Campos Este texto não substitui o publicado no DOU de 31.12.1940 e retificado em 3.1.1941 * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (function(){var f5_cspm={f5_p:'BNIGDJPDKEAEKOAGLNCDOKMCAMHHJBABFCJBHGPDEJJDGIIJPOHJJMFIALEEOMEOBAEBKMMJBKECGNJGIHHABNLPANGPEJABLLNCOMDKLINBAFCPEJANPELFMFKLCPHP',s
+> Este Código entrará em vigor no dia 1º de janeiro de 1942. Rio de Janeiro, 7 de dezembro de 1940; 119º da Independência e 52º da República. GETÚLIO VARGAS Francisco Campos Este texto não substitui o publicado no DOU de 31.12.1940 e retificado em 3.1.1941 * (function(){var f5_cspm={f5_p:'MLIACNMIDMPBNAGGMFKKFILPKPGLGCCLFJFJLKHNEFKEPCMNDNJNIJIAKFPHBLKJJEGBCMICAAANNDFNCFPAOAGKAAFKNHGOGCHNEDOGOGKNIGEPEDENMPBMJFCLANJO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.subs
 
 ---
 
@@ -52,8 +52,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -83,4 +82,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-247
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 247 - Permitir alguém que menor de dezoito anos, sujeito a seu poder ou confiado à sua guarda ou vigilância: I - freqüente casa de jogo ou mal-afamada, ou conviva com pessoa viciosa ou de má vida; II - freqüente espetáculo capaz de pervertê-lo ou de ofender-lhe o pudor, ou participe de representação de igual natureza; III - resida ou trabalhe em casa de prostituição; IV - mendigue ou sirva a mendigo para excitar a comiseração pública: Pena - detenção, de um a três meses, ou multa. CAPÍTULO
+> Permitir alguém que menor de dezoito anos, sujeito a seu poder ou confiado à sua guarda ou vigilância: I - freqüente casa de jogo ou mal-afamada, ou conviva com pessoa viciosa ou de má vida; II - freqüente espetáculo capaz de pervertê-lo ou de ofender-lhe o pudor, ou participe de representação de igual natureza; III - resida ou trabalhe em casa de prostituição; IV - mendigue ou sirva a mendigo para excitar a comiseração pública: Pena - detenção, de um a três meses, ou multa. CAPÍTULO IV DOS CRIM
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

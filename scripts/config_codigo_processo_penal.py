@@ -20,9 +20,12 @@ FENICE_BASE = PROJECT_ROOT / "02_PENAL" / "Codigos" / "CPP"
 CPP_BASE = FENICE_BASE
 OUTPUT_BASE = CPP_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+CPP_FONTES = FONTES_BASE / "cpp"
+
 LEIS_NACIONAIS = {
     "L13869": {
-        "arquivo": CPP_BASE / "L13869.html",
+        "arquivo": CPP_FONTES / "L13869.html",
         "nome": "Lei de Reforma do Código de Processo Penal",
         "lei_numero": "13.869/2019",
         "categoria": "CODIGO_PROCESSO_PENAL",
@@ -30,7 +33,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-penal",
     },
     "L13964": {
-        "arquivo": CPP_BASE / "L13964.html",
+        "arquivo": CPP_FONTES / "L13964.html",
         "nome": "Lei de Reforma do Código de Processo Penal",
         "lei_numero": "13.964/2020",
         "categoria": "CODIGO_PROCESSO_PENAL",
@@ -38,7 +41,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-penal",
     },
     "L7210": {
-        "arquivo": CPP_BASE / "L7210.html",
+        "arquivo": CPP_FONTES / "L7210.html",
         "nome": "Lei contra a Tortura",
         "lei_numero": "7.210/1984",
         "categoria": "DIREITOS_HUMANOS",
@@ -46,7 +49,7 @@ LEIS_NACIONAIS = {
         "tema": "direitos-humanos",
     },
     "L7960": {
-        "arquivo": CPP_BASE / "L7960.html",
+        "arquivo": CPP_FONTES / "L7960.html",
         "nome": "Lei do Habeas Corpus",
         "lei_numero": "7.960/1989",
         "categoria": "HABEAS_CORPUS",
@@ -54,7 +57,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-penal",
     },
     "L9099": {
-        "arquivo": CPP_BASE / "L9099.html",
+        "arquivo": CPP_FONTES / "L9099.html",
         "nome": "Lei dos Juizados Especiais Criminais",
         "lei_numero": "9.099/1995",
         "categoria": "JUIZADOS_ESPECIAIS",
@@ -62,7 +65,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-penal",
     },
     "L11340": {
-        "arquivo": CPP_BASE / "Lei nº 11.340.html",
+        "arquivo": CPP_FONTES / "L11340.html",
         "nome": "Lei Maria da Penha",
         "lei_numero": "11.340/2006",
         "categoria": "VIOLENCIA_DOMESTICA",
@@ -70,7 +73,7 @@ LEIS_NACIONAIS = {
         "tema": "direitos-humanos",
     },
     "L12850": {
-        "arquivo": CPP_BASE / "L12850.html",
+        "arquivo": CPP_FONTES / "L12850.html",
         "nome": "Lei de Drogas (Tráfico vs. Usuário)",
         "lei_numero": "12.850/2013",
         "categoria": "LEI_DROGAS",

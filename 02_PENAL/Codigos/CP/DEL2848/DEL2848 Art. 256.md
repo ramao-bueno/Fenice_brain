@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-256
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 256 - Causar desabamento ou desmoronamento, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de um a quatro anos, e multa. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de seis meses a um ano. Subtração, ocultação ou inutilização de material de salvamento &nbsp;
+> Causar desabamento ou desmoronamento, expondo a perigo a vida, a integridade física ou o patrimônio de outrem: Pena - reclusão, de um a quatro anos, e multa. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de seis meses a um ano. Subtração, ocultação ou inutilização de material de salvamento
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

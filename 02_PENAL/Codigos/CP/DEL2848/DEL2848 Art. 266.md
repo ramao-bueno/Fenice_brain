@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-266
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 266 - Interromper ou perturbar serviço telegráfico, radiotelegráfico ou telefônico, impedir ou dificultar-lhe o restabelecimento: Pena - detenção, de um a três anos, e multa. Pena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa. &nbsp;&nbsp; (Redação dada pela Lei nº 15.397, de 2026) Parágrafo único - Aplicam-se as penas em dobro, se o crime é cometido por ocasião de calamidade pública. § 1 o Incorre na mesma pena quem interrompe serviço telemático ou de informação de utilidade pública,
+> Interromper ou perturbar serviço telegráfico, radiotelegráfico ou telefônico, impedir ou dificultar-lhe o restabelecimento: Pena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) § 1 o Incorre na mesma pena quem interrompe serviço telemático ou de informação de utilidade pública, ou impede ou dificulta-lhe o restabelecimento. (Incluído pela Lei nº 12.737, de 2012) Vigência § 2º Aplicam-se as penas em dobro se o crime é cometido: (Redação dada pela Lei
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 2 (dois) a 4 (quatro) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

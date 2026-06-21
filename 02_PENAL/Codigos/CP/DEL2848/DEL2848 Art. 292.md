@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-292
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 292 - Emitir, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte indicação do nome da pessoa a quem deva ser pago: Pena - detenção, de um a seis meses, ou multa. Parágrafo único - Quem recebe ou utiliza como dinheiro qualquer dos documentos referidos neste artigo incorre na pena de detenção, de quinze dias a três meses, ou multa. CAPÍTULO II DA FALSIDADE DE TÍTULOS E OUTROS PAPÉIS PÚBLICOS Falsificação de papéi
+> Emitir, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte indicação do nome da pessoa a quem deva ser pago: Pena - detenção, de um a seis meses, ou multa. Parágrafo único - Quem recebe ou utiliza como dinheiro qualquer dos documentos referidos neste artigo incorre na pena de detenção, de quinze dias a três meses, ou multa. CAPÍTULO II DA FALSIDADE DE TÍTULOS E OUTROS PAPÉIS PÚBLICOS Falsificação de papéis públicos
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a seis meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

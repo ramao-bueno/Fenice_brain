@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-235
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 235 - Contrair alguém, sendo casado, novo casamento: Pena - reclusão, de dois a seis anos. § 1º - Aquele que, não sendo casado, contrai casamento com pessoa casada, conhecendo essa circunstância, é punido com reclusão ou detenção, de um a três anos. § 2º - Anulado por qualquer motivo o primeiro casamento, ou o outro por motivo que não a bigamia, considera-se inexistente o crime. Induzimento a erro essencial e ocultação de impedimento &nbsp;
+> Contrair alguém, sendo casado, novo casamento: Pena - reclusão, de dois a seis anos. § 1º - Aquele que, não sendo casado, contrai casamento com pessoa casada, conhecendo essa circunstância, é punido com reclusão ou detenção, de um a três anos. § 2º - Anulado por qualquer motivo o primeiro casamento, ou o outro por motivo que não a bigamia, considera-se inexistente o crime. Induzimento a erro essencial e ocultação de impedimento
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a seis anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 234]] — artigo anterior
+- [[DEL2848 Art. 234-C]] — artigo anterior
 - [[DEL2848 Art. 236]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-249
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 249 - Subtrair menor de dezoito anos ou interdito ao poder de quem o tem sob sua guarda em virtude de lei ou de ordem judicial: Pena - detenção, de dois meses a dois anos, se o fato não constitui elemento de outro crime. § 1º - O fato de ser o agente pai ou tutor do menor ou curador do interdito não o exime de pena, se destituído ou temporariamente privado do pátrio poder, tutela, curatela ou guarda. § 2º - No caso de restituição do menor ou do interdito, se este não sofreu maus-tratos ou p
+> Subtrair menor de dezoito anos ou interdito ao poder de quem o tem sob sua guarda em virtude de lei ou de ordem judicial: Pena - detenção, de dois meses a dois anos, se o fato não constitui elemento de outro crime. § 1º - O fato de ser o agente pai ou tutor do menor ou curador do interdito não o exime de pena, se destituído ou temporariamente privado do pátrio poder, tutela, curatela ou guarda. § 2º - No caso de restituição do menor ou do interdito, se este não sofreu maus-tratos ou privações, o
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de dois meses a dois anos, se o fato não constitui elemento de outro crime.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

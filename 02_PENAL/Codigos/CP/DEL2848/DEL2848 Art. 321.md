@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-321
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 321 — Art. 321
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 321 - Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário: Pena - detenção, de um a três meses, ou multa. Parágrafo único - Se o interesse é ilegítimo: Pena - detenção, de três meses a um ano, além da multa. Violência arbitrária &nbsp;
+> Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário: Pena - detenção, de um a três meses, ou multa. Parágrafo único - Se o interesse é ilegítimo: Pena - detenção, de três meses a um ano, além da multa. Violência arbitrária
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

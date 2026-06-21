@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-183
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 183 - Não se aplica o disposto nos dois artigos anteriores: I - se o crime é de roubo ou de extorsão, ou, em geral, quando haja emprego de grave ameaça ou violência à pessoa; II - ao estranho que participa do crime. III - se o crime é praticado contra pessoa com idade igual ou superior a 60 (sessenta) anos.&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 10.741, de 2003) &nbsp; Art. 183-A. Nos crimes de que trata este Título, quando cometidos contra as instituições financeiras e os prestadore
+> Não se aplica o disposto nos dois artigos anteriores: I - se o crime é de roubo ou de extorsão, ou, em geral, quando haja emprego de grave ameaça ou violência à pessoa; II - ao estranho que participa do crime. III &#150; se o crime é praticado contra pessoa com idade igual ou superior a 60 (sessenta) anos. (Incluído pela Lei nº 10.741, de 2003)
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -63,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 182]] — artigo anterior
-- [[DEL2848 Art. 184]] — artigo seguinte
+- [[DEL2848 Art. 183-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

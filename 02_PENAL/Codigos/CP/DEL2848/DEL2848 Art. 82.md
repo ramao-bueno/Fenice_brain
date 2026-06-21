@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-82
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 82 - Expirado o prazo sem que tenha havido revogação, considera-se extinta a pena privativa de liberdade.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) CAPÍTULO V DO LIVRAMENTO CONDICIONAL Requisitos do livramento condicional &nbsp;
+> Expirado o prazo sem que tenha havido revogação, considera-se extinta a pena privativa de liberdade. (Redação dada pela Lei nº 7.209, de 11.7.1984) CAPÍTULO V DO LIVRAMENTO CONDICIONAL Requisitos do livramento condicional
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

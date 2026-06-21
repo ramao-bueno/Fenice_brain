@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-261
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 261 - Expor a perigo embarcação ou aeronave, própria ou alheia, ou praticar qualquer ato tendente a impedir ou dificultar navegação marítima, fluvial ou aérea: Pena - reclusão, de dois a cinco anos. Sinistro em transporte marítimo, fluvial ou aéreo § 1º - Se do fato resulta naufrágio, submersão ou encalhe de embarcação ou a queda ou destruição de aeronave: Pena - reclusão, de quatro a doze anos. Prática do crime com o fim de lucro § 2º - Aplica-se, também, a pena de multa, se o agente prati
+> Expor a perigo embarcação ou aeronave, própria ou alheia, ou praticar qualquer ato tendente a impedir ou dificultar navegação marítima, fluvial ou aérea: Pena - reclusão, de dois a cinco anos. Sinistro em transporte marítimo, fluvial ou aéreo § 1º - Se do fato resulta naufrágio, submersão ou encalhe de embarcação ou a queda ou destruição de aeronave: Pena - reclusão, de quatro a doze anos. Prática do crime com o fim de lucro § 2º - Aplica-se, também, a pena de multa, se o agente pratica o crime
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a cinco anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

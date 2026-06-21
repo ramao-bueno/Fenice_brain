@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-225
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 225.&nbsp; Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública condicionada à representação.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 12.015, de 2009) Parágrafo único.&nbsp; Procede-se, entretanto, mediante ação penal pública incondicionada se a vítima é menor de 18 (dezoito) anos ou pessoa vulnerável.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei
+> Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada. (Redação dada pela Lei nº 13.718, de 2018) Parágrafo único. (Revogado) . (Redação dada pela Lei nº 13.718, de 2018) Aumento de pena
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

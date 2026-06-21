@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-328
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 328 — Art. 328
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 328 - Usurpar o exercício de função pública: Pena - detenção, de três meses a dois anos, e multa. Parágrafo único - Se do fato o agente aufere vantagem: Pena - reclusão, de dois a cinco anos, e multa. Resistência &nbsp;
+> Usurpar o exercício de função pública: Pena - detenção, de três meses a dois anos, e multa. Parágrafo único - Se do fato o agente aufere vantagem: Pena - reclusão, de dois a cinco anos, e multa. Resistência
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a dois anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

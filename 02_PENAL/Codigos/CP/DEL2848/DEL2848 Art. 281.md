@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-281
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 281. Plantar, importar ou exportar, vender ou expor à venda, fornecer, ainda que a título gratuito, transportar, trazer consigo, ter em depósito, guardar, ministrar ou, de qualquer maneira, entregar a consumo, substância entorpecente, sem autorização ou em desacôrdo com determinação legal ou regulamentar: Pena - reclusão, de um a cinco anos, e multa de dois a dez mil cruzeiros.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 4.451, de 1964)
+> (Revogado pela Lei nº 6.368, 1976) Exercício ilegal da medicina, medicina veterinária, arte dentária ou farmacêutica (Redação dada pela Lei nº 15.425, de 2026)
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

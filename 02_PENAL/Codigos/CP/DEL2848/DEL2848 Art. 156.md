@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-156
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 156 - Subtrair o condômino, co-herdeiro ou sócio, para si ou para outrem, a quem legitimamente a detém, a coisa comum: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Somente se procede mediante representação. § 2º - Não é punível a subtração de coisa comum fungível, cujo valor não excede a quota a que tem direito o agente. CAPÍTULO II DO ROUBO E DA EXTORSÃO Roubo &nbsp;
+> Subtrair o condômino, co-herdeiro ou sócio, para si ou para outrem, a quem legitimamente a detém, a coisa comum: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Somente se procede mediante representação. § 2º - Não é punível a subtração de coisa comum fungível, cujo valor não excede a quota a que tem direito o agente. CAPÍTULO II DO ROUBO E DA EXTORSÃO Roubo
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

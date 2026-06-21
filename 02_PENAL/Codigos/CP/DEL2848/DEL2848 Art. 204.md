@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-204
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 204 - Frustrar, mediante fraude ou violência, obrigação legal relativa à nacionalização do trabalho: Pena - detenção, de um mês a um ano, e multa, além da pena correspondente à violência. Exercício de atividade com infração de decisão administrativa &nbsp;
+> Frustrar, mediante fraude ou violência, obrigação legal relativa à nacionalização do trabalho: Pena - detenção, de um mês a um ano, e multa, além da pena correspondente à violência. Exercício de atividade com infração de decisão administrativa
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano, e multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

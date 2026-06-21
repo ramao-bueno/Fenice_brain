@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-334
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 334 — Art. 334
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> A rt. 334 Importar ou exportar mercadoria proibida ou iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria: Pena - reclusão, de um a quatro anos. § 1º incorre na mesma pena quem pratica: a) navegação de cabotagem, fora dos casos permitidos em lei; b) fato assimilado em lei especial a contrabando ou descaminho. § 2º A pena aplica-se em dobro, se o crime de contrabando ou descaminho é praticado em transporte aéreo. § 1º - Inco
+> Iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria (Redação dada pela Lei nº 13.008, de 26.6.2014) Pena - reclusão, de 1 (um) a 4 (quatro) anos. (Redação dada pela Lei nº 13.008, de 26.6.2014) § 1 o Incorre na mesma pena quem: (Redação dada pela Lei nº 13.008, de 26.6.2014) I - pratica navegação de cabotagem, fora dos casos permitidos em lei; (Redação dada pela Lei nº 13.008, de 26.6.2014) II - pratica fato assimilado, em
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 1 (um) a 4 (quatro) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -61,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 333]] — artigo anterior
-- [[DEL2848 Art. 335]] — artigo seguinte
+- [[DEL2848 Art. 334-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

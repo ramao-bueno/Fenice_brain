@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-331
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 331 — Art. 331
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 331 - Desacatar funcionário público no exercício da função ou em razão dela: Pena - detenção, de seis meses a dois anos, ou multa. Exploração de prestígio Art. 332. Obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em funcionário público no exercício da função: Pena - reclusão, de um a cinco anos, e multa, de três contos a vinte contos de réis. Parágrafo único. A pena é aumentada de um terço, se o agente alega ou insinúa que a vantagem é tambem destinada
+> Desacatar funcionário público no exercício da função ou em razão dela: Pena - detenção, de seis meses a dois anos, ou multa. Tráfico de Influência (Redação dada pela Lei nº 9.127, de 1995)
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

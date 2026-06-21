@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-172
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 172 - Emitir fatura, duplicata ou nota de venda que não corresponda à mercadoria vendida, em quantidade ou qualidade, ou ao serviço prestado.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 8.137, de 27.12.1990) Pena - detenção, de 2 (dois) a 4 (quatro) anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 8.137, de 27.12.1990) Parágrafo único. Nas mesmas penas incorrerá aquêle que f
+> Emitir fatura, duplicata ou nota de venda que não corresponda à mercadoria vendida, em quantidade ou qualidade, ou ao serviço prestado. (Redação dada pela Lei nº 8.137, de 27.12.1990) Pena - detenção, de 2 (dois) a 4 (quatro) anos, e multa. (Redação dada pela Lei nº 8.137, de 27.12.1990) Parágrafo único. Nas mesmas penas incorrerá aquêle que falsificar ou adulterar a escrituração do Livro de Registro de Duplicatas. (Incluído pela Lei nº 5.474. de 1968) Abuso de incapazes
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de 2 (dois) a 4 (quatro) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 171]] — artigo anterior
+- [[DEL2848 Art. 171-A]] — artigo anterior
 - [[DEL2848 Art. 173]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

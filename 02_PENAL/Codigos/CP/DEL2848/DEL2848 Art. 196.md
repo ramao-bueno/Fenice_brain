@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-196
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 196. Fazer concorrência desleal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 9.279, de 14.5.1996) Pena - detenção, de três meses a um ano, ou multa, de um conto a dez contos de réis. § 1° Comete crime de concorrência desleal quem: Propaganda desleal I - publica pela imprensa, ou por outro meio, falsa afirmação, em detrimento de concorrente, com o fim de obter vantagem indevida; II - presta ou divulga, com intuito de lucro,
+> (Revogado pela Lei nº 9.279, de 14.5.1996) TÍTULO IV DOS CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO Atentado contra a liberdade de trabalho
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

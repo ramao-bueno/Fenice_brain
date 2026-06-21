@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-175
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 175 - Enganar, no exercício de atividade comercial, o adquirente ou consumidor: I - vendendo, como verdadeira ou perfeita, mercadoria falsificada ou deteriorada; II - entregando uma mercadoria por outra: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Alterar em obra que lhe é encomendada a qualidade ou o peso de metal ou substituir, no mesmo caso, pedra verdadeira por falsa ou por outra de menor valor; vender pedra falsa por verdadeira; vender, como precioso, metal de ou outra
+> Enganar, no exercício de atividade comercial, o adquirente ou consumidor: I - vendendo, como verdadeira ou perfeita, mercadoria falsificada ou deteriorada; II - entregando uma mercadoria por outra: Pena - detenção, de seis meses a dois anos, ou multa. § 1º - Alterar em obra que lhe é encomendada a qualidade ou o peso de metal ou substituir, no mesmo caso, pedra verdadeira por falsa ou por outra de menor valor; vender pedra falsa por verdadeira; vender, como precioso, metal de ou outra qualidade:
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

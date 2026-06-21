@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-239
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 239 - Simular casamento mediante engano de outra pessoa: Pena - detenção, de um a três anos, se o fato não constitui elemento de crime mais grave. Adultério &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) &nbsp;
+> Simular casamento mediante engano de outra pessoa: Pena - detenção, de um a três anos, se o fato não constitui elemento de crime mais grave. Adultério
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três anos, se o fato não constitui elemento de crime mais grave.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-318
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 318 — Art. 318
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 318 - Facilitar, com infração de dever funcional, a prática de contrabando ou descaminho (art. 334): Pena - reclusão, de dois a cinco anos, e multa, de um conto a dez contos de réis. Pena - reclusão, de 3 (três) a 8 (oito) anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 8.137, de 27.12.1990) Prevaricação &nbsp;
+> Facilitar, com infração de dever funcional, a prática de contrabando ou descaminho (art. 334): Pena - reclusão, de 3 (três) a 8 (oito) anos, e multa. (Redação dada pela Lei nº 8.137, de 27.12.1990) Prevaricação
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 3 (três) a 8 (oito) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

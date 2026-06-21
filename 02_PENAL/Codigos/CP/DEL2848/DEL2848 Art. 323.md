@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-323
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 323 — Art. 323
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 323 - Abandonar cargo público, fora dos casos permitidos em lei: Pena - detenção, de quinze dias a um mês, ou multa. § 1º - Se do fato resulta prejuízo público: Pena - detenção, de três meses a um ano, e multa. § 2º - Se o fato ocorre em lugar compreendido na faixa de fronteira: Pena - detenção, de um a três anos, e multa. Exercício funcional ilegalmente antecipado ou prolongado &nbsp;
+> Abandonar cargo público, fora dos casos permitidos em lei: Pena - detenção, de quinze dias a um mês, ou multa. § 1º - Se do fato resulta prejuízo público: Pena - detenção, de três meses a um ano, e multa. § 2º - Se o fato ocorre em lugar compreendido na faixa de fronteira: Pena - detenção, de um a três anos, e multa. Exercício funcional ilegalmente antecipado ou prolongado
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a um mês, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

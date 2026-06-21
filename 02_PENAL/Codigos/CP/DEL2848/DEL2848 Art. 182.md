@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-182
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 182 - Somente se procede mediante representação, se o crime previsto neste título é cometido em prejuízo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 10.741, de 2003) I - do cônjuge desquitado ou judicialmente separado; II - de irmão, legítimo ou ilegítimo; III - de tio ou sobrinho, com quem o agente coabita. &nbsp;
+> Somente se procede mediante representação, se o crime previsto neste título é cometido em prejuízo: (Vide Lei nº 10.741, de 2003) I - do cônjuge desquitado ou judicialmente separado; II - de irmão, legítimo ou ilegítimo; III - de tio ou sobrinho, com quem o agente coabita.
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

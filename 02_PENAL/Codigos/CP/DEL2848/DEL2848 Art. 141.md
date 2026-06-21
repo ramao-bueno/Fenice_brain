@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-141
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 141 - As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: I - contra o Presidente da República, ou contra chefe de governo estrangeiro; II - contra funcionário público, em razão de suas funções; II - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 14.197, de 2021) &nbsp;&nbsp;&n
+> As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: I - contra o Presidente da República, ou contra chefe de governo estrangeiro; II - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal; (Redação dada pela Lei nº 14.197, de 2021) (Vigência) III - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria.
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

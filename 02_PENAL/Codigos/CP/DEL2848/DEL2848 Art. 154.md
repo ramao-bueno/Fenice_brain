@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-154
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 154 - Revelar alguém, sem justa causa, segredo, de que tem ciência em razão de função, ministério, ofício ou profissão, e cuja revelação possa produzir dano a outrem: Pena - detenção, de três meses a um ano, ou multa de um conto a dez contos de réis.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 7.209, de 1984) Parágrafo único - Somente se procede mediante representação. Invasão de dispositivo informático&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> Revelar alguém, sem justa causa, segredo, de que tem ciência em razão de função, ministério, ofício ou profissão, e cuja revelação possa produzir dano a outrem: Pena - detenção, de três meses a um ano, ou multa de um conto a dez contos de réis. (Vide Lei nº 7.209, de 1984) Parágrafo único - Somente se procede mediante representação. Invasão de dispositivo informático (Incluído pela Lei nº 12.737, de 2012) Vigência
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a um ano, ou multa de um conto a dez contos de réis.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 153]] — artigo anterior
-- [[DEL2848 Art. 155]] — artigo seguinte
+- [[DEL2848 Art. 154-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

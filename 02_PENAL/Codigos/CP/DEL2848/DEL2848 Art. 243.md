@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-243
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 243 - Deixar em asilo de expostos ou outra instituição de assistência filho próprio ou alheio, ocultando-lhe a filiação ou atribuindo-lhe outra, com o fim de prejudicar direito inerente ao estado civil: Pena - reclusão, de um a cinco anos, e multa. CAPÍTULO III DOS CRIMES CONTRA A ASSISTÊNCIA FAMILIAR Abandono material Art. 244. Deixar, sem justa causa, de prover à subsistência do cônjuge, ou de filho menor de dezoito anos ou inapto para o trabalho, ou de ascendente inválido ou valetudinári
+> Deixar em asilo de expostos ou outra instituição de assistência filho próprio ou alheio, ocultando-lhe a filiação ou atribuindo-lhe outra, com o fim de prejudicar direito inerente ao estado civil: Pena - reclusão, de um a cinco anos, e multa. CAPÍTULO III DOS CRIMES CONTRA A ASSISTÊNCIA FAMILIAR Abandono material
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a cinco anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

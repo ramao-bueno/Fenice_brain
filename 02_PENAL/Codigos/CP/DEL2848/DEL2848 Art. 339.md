@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-339
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 339 — Art. 339
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 339. Dar causa à instauração de investigação policial, de processo judicial, instauração de investigação administrativa, inquérito civil ou ação de improbidade administrativa contra alguém, imputando-lhe crime de que o sabe inocente:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 10.028, de 2000) &nbsp; Art. 339. Dar causa a&#768; instauração de inquérito policial, de procedimento investigatório criminal, de processo judicial, de processo administrativo disciplina
+> Dar causa a&#768; instauração de inquérito policial, de procedimento investigatório criminal, de processo judicial, de processo administrativo disciplinar, de inquérito civil ou de ação de improbidade administrativa contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente: (Redação dada pela Lei nº 14.110, de 2020) Pena - reclusão, de dois a oito anos, e multa. § 1º - A pena é aumentada de sexta parte, se o agente se serve de anonimato ou de nome supos
 
 ---
 
@@ -52,15 +52,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a oito anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 338]] — artigo anterior
+- [[DEL2848 Art. 338-A]] — artigo anterior
 - [[DEL2848 Art. 340]] — artigo seguinte
 
 ### Outros crimes
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

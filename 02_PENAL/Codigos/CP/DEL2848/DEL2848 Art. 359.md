@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-359
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 359 — Art. 359
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 359 - Exercer função, atividade, direito, autoridade ou múnus, de que foi suspenso ou privado por decisão judicial: Pena - detenção, de três meses a dois anos, ou multa. CAPÍTULO IV DOS CRIMES CONTRA AS FINANÇAS PÚBLICAS (Incluído pela Lei nº 10.028, de 2000) Contratação de operação de crédito &nbsp; Art. 359-A. Ordenar, autorizar ou realizar operação de crédito, interno ou externo, sem prévia autorização legislativa:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 10.
+> Exercer função, atividade, direito, autoridade ou múnus, de que foi suspenso ou privado por decisão judicial: Pena - detenção, de três meses a dois anos, ou multa. CAPÍTULO IV DOS CRIMES CONTRA AS FINANÇAS PÚBLICAS (Incluído pela Lei nº 10.028, de 2000) Contratação de operação de crédito
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -61,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 358]] — artigo anterior
-- [[DEL2848 Art. 360]] — artigo seguinte
+- [[DEL2848 Art. 359-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

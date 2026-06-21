@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-222
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 222 - Se o agente, ao efetuar o rapto, ou em seguida a este, pratica outro crime contra a raptada, aplicam-se cumulativamente a pena correspondente ao rapto e a cominada ao outro crime. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 11.106, de 2005) CAPÍTULO IV DISPOSIÇÕES GERAIS Formas qualificadas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 12.015, de 2009) &nbsp;
+> (Revogado pela Lei nº 11.106, de 2005) CAPÍTULO IV DISPOSIÇÕES GERAIS
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

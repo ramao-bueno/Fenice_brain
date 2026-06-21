@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-192
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 192. Violar direito de marca de indústria ou de comércio: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 9.279, de 14.5.1996) I - reproduzindo, indevidamente, no todo, ou em parte, marca de outrem registrada, ou imitando-a, de modo que possa induzir em erro ou confusão: II - usando marca reproduzida ou imitada nos termos do nº I; III - usando marca legítima de outrem em produto ou artigo que não é de sua fabricação; IV - vend
+> (Revogado pela Lei nº 9.279, de 14.5.1996) Uso indevido de armas, brasões e distintivos públicos
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

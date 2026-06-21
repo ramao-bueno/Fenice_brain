@@ -12,11 +12,15 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 FENICE_BASE = PROJECT_ROOT / "01_PRIVADO" / "Codigos" / "CC"
 CC_BASE = FENICE_BASE
-OUTPUT_BASE = CC_BASE / "Artigos"
+OUTPUT_BASE = CC_FONTES / "Artigos"
+
+# HTMLs baixados via scripts/baixar_fontes.py
+FONTES_BASE = Path(__file__).parent / "fontes"
+CC_FONTES = FONTES_BASE / "cc"
 
 LEIS_NACIONAIS = {
     "L10406": {
-        "arquivo": CC_BASE / "L10406.html",
+        "arquivo": CC_FONTES / "L10406.html",
         "nome": "Código Civil",
         "lei_numero": "10.406/2002",
         "categoria": "CODIGO_CIVIL",
@@ -24,7 +28,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-civil",
     },
     "D9830": {
-        "arquivo": CC_BASE / "D9830.html",
+        "arquivo": CC_FONTES / "D9830.html",
         "nome": "Decreto de Introdução ao Código Civil",
         "lei_numero": "Dec. 9.830/1994",
         "categoria": "DECRETO_INTRODUCAO",
@@ -32,7 +36,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-civil",
     },
     "L13655": {
-        "arquivo": CC_BASE / "L13655.html",
+        "arquivo": CC_FONTES / "L13655.html",
         "nome": "Lei de Introdução às Normas do Direito Brasileiro",
         "lei_numero": "13.655/2018",
         "categoria": "LEI_INTRODUCAO",

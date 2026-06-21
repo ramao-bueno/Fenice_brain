@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-273
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 273 - Falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 10 (dez) a 15 (quinze) anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º - Nas mesmas penas incorre quem importa, vende, expõe à venda, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a cons
+> Falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 10 (dez) a 15 (quinze) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º - Nas mesmas penas incorre quem importa, vende, expõe à venda, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo o produto falsificado, corrompido, adulterado ou alterado. (Redação dada pela Lei nº 9.677, de 2.7.1998
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 10 (dez) a 15 (quinze) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

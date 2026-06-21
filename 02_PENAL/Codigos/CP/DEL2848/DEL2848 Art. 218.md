@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-218
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 218 - Corromper ou facilitar a corrupção de pessoa maior de quatorze e menor de dezoito anos, com ela praticando ato de libidinagem, ou induzindo-a a praticá-lo ou presenciá-lo: Pena - reclusão, de um a quatro anos. &nbsp; Art. 218.&nbsp; Induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 2 (dois) a 5 (cinco) anos.&nbsp;&nbsp;&nbsp;
+> Induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem: (Redação dada pela Lei nº 12.015, de 2009) Pena – reclusão, de 6 (seis) a 14 (quatorze) anos, e multa. (Redação dada pela Lei nº 15.280, de 2025) Parágrafo único. (VETADO) . (Incluído pela Lei nº 12.015, de 2009) Satisfação de lascívia mediante presença de criança ou adolescente (Incluído pela Lei nº 12.015, de 2009)
 
 ---
 
@@ -54,16 +54,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 6 (seis) a 14 (quatorze) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 217]] — artigo anterior
-- [[DEL2848 Art. 219]] — artigo seguinte
+- [[DEL2848 Art. 217-A]] — artigo anterior
+- [[DEL2848 Art. 218-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

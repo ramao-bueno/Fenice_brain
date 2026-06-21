@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-129
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 129. Ofender a integridade corporal ou a saúde de outrem: Pena - detenção, de três meses a um ano. Lesão corporal de natureza grave § 1º Se resulta: I - Incapacidade para as ocupações habituais, por mais de trinta dias; II - perigo de vida; III - debilidade permanente de membro, sentido ou função; IV - aceleração de parto: Pena - reclusão, de um a cinco anos. § 2° Se resulta: I - Incapacidade permanente para o trabalho; II - enfermidade incuravel; III - perda ou inutilização do membro, sent
+> Ofender a integridade corporal ou a saúde de outrem: Pena - detenção, de três meses a um ano. Lesão corporal de natureza grave § 1º Se resulta: I - Incapacidade para as ocupações habituais, por mais de trinta dias; II - perigo de vida; III - debilidade permanente de membro, sentido ou função; IV - aceleração de parto: Pena - reclusão, de um a cinco anos. § 2° Se resulta: I - Incapacidade permanente para o trabalho; II - enfermidade incuravel; III perda ou inutilização do membro, sentido ou funçã
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a um ano.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

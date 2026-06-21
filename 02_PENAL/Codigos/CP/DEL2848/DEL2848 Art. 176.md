@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-176
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 176 - Tomar refeição em restaurante, alojar-se em hotel ou utilizar-se de meio de transporte sem dispor de recursos para efetuar o pagamento: Pena - detenção, de quinze dias a dois meses, ou multa. Parágrafo único - Somente se procede mediante representação, e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena. Fraudes e abusos na fundação ou administração de sociedade por ações &nbsp;
+> Tomar refeição em restaurante, alojar-se em hotel ou utilizar-se de meio de transporte sem dispor de recursos para efetuar o pagamento: Pena - detenção, de quinze dias a dois meses, ou multa. Parágrafo único - Somente se procede mediante representação, e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena. Fraudes e abusos na fundação ou administração de sociedade por ações
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a dois meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

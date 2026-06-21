@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-302
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 302 - Dar o médico, no exercício da sua profissão, atestado falso: Pena - detenção, de um mês a um ano. Parágrafo único - Se o crime é cometido com o fim de lucro, aplica-se também multa. Reprodução ou adulteração de selo ou peça filatélica &nbsp;
+> Dar o médico, no exercício da sua profissão, atestado falso: Pena - detenção, de um mês a um ano. Parágrafo único - Se o crime é cometido com o fim de lucro, aplica-se também multa. Reprodução ou adulteração de selo ou peça filatélica
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

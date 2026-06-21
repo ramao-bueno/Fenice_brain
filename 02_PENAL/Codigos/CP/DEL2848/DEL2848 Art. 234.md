@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-234
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 234 - Fazer, importar, exportar, adquirir ou ter sob sua guarda, para fim de comércio, de distribuição ou de exposição pública, escrito, desenho, pintura, estampa ou qualquer objeto obsceno: Pena - detenção, de seis meses a dois anos, ou multa. § 1º. Incorre na mesma pena quem: I - vende, distribui ou expõe à venda ou ao público qualquer dos objetos referidos neste artigo; II - realiza, em lugar público ou acessível ao público, representação teatral, ou exibição cinematográfica de caráter o
+> Fazer, importar, exportar, adquirir ou ter sob sua guarda, para fim de comércio, de distribuição ou de exposição pública, escrito, desenho, pintura, estampa ou qualquer objeto obsceno: Pena - detenção, de seis meses a dois anos, ou multa. Parágrafo único - Incorre na mesma pena quem: I - vende, distribui ou expõe à venda ou ao público qualquer dos objetos referidos neste artigo; II - realiza, em lugar público ou acessível ao público, representação teatral, ou exibição cinematográfica de caráter
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 233]] — artigo anterior
-- [[DEL2848 Art. 235]] — artigo seguinte
+- [[DEL2848 Art. 234-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

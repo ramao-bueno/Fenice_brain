@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-193
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 193. Reproduzir, sem autorização, no todo ou em parte, ou imitar de modo que possa induzir em erro ou confusão, armas, brasões ou distintivos públicos, nacionais ou estrangeiros, em marca de indústria ou comércio: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 9.279, de 14.5.1996) Pena - detenção, de um a seis meses, ou multa, de quinhentos mil réis a cinco contos de réis. Parágrafo único. Incorre na mesma pena quem usa de marca reproduzida ou imita
+> (Revogado pela Lei nº 9.279, de 14.5.1996) Marca com falsa indicação de procedência
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

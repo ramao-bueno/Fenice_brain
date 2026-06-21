@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-189
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 189. Reproduzir, por qualquer meio, no todo ou em parte, sem autorização, desenho ou modelo de privilégio alheio; explorar, sem autorização, desenho ou modelo de privilégio alheio; vender, expor à venda ou introduzir no país objeto que é imitação ou cópia de modelo privilegiado: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 9.279, de 14.5.1996) Pena - detenção, de um a seis meses, ou multa, de quinhentos mil réis a cinco contos de réis. Falsa decla
+> (Revogado pela Lei nº 9.279, de 14.5.1996) Falsa declaração de depósito em modelo ou desenho
 
 ---
 
@@ -54,15 +54,14 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 188]] — artigo anterior
+- [[DEL2848 Art. 186]] — artigo anterior
 - [[DEL2848 Art. 190]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

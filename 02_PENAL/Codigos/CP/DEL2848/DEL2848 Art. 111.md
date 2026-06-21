@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-111
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 111 - A prescrição, antes de transitar em julgado a sentença final, começa a correr:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - do dia em que o crime se consumou;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - no caso de tentativa, do dia em que cessou a atividade criminosa;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
+> A prescrição, antes de transitar em julgado a sentença final, começa a correr: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - do dia em que o crime se consumou; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - no caso de tentativa, do dia em que cessou a atividade criminosa; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - nos crimes permanentes, do dia em que cessou a permanência; (Redação dada pela Lei nº 7.209, de 11.7.1984) IV - nos de bigamia e nos de falsificação ou alteração de
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

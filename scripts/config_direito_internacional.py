@@ -13,10 +13,13 @@ FENICE_BASE = PROJECT_ROOT / "05_ESPECIAL" / "Codigos"
 DI_BASE = FENICE_BASE / "DIREITO_INTERNACIONAL"
 OUTPUT_BASE = DI_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+DI_FONTES = FONTES_BASE / "internacional"
+
 # Leis nacionais com padrão "Art. N" — compatíveis com o extractor por regex
 LEIS_NACIONAIS = {
     "L9307": {
-        "arquivo": DI_BASE / "L9307.html",
+        "arquivo": DI_FONTES / "L9307.html",
         "nome": "Lei de Arbitragem",
         "lei_numero": "9.307/1996",
         "categoria": "ARBITRAGEM",
@@ -24,7 +27,7 @@ LEIS_NACIONAIS = {
         "tema": "arbitragem-internacional",
     },
     "L13445": {
-        "arquivo": DI_BASE / "L13445.html",
+        "arquivo": DI_FONTES / "L13445.html",
         "nome": "Lei de Migração",
         "lei_numero": "13.445/2017",
         "categoria": "MIGRACAO",

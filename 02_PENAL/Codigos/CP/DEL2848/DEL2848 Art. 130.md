@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-130
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 130 - Expor alguém, por meio de relações sexuais ou qualquer ato libidinoso, a contágio de moléstia venérea, de que sabe ou deve saber que está contaminado: Pena - detenção, de três meses a um ano, ou multa. § 1º - Se é intenção do agente transmitir a moléstia: Pena - reclusão, de um a quatro anos, e multa. § 2º - Somente se procede mediante representação. Perigo de contágio de moléstia grave &nbsp;
+> Expor alguém, por meio de relações sexuais ou qualquer ato libidinoso, a contágio de moléstia venérea, de que sabe ou deve saber que está contaminado: Pena - detenção, de três meses a um ano, ou multa. § 1º - Se é intenção do agente transmitir a moléstia: Pena - reclusão, de um a quatro anos, e multa. § 2º - Somente se procede mediante representação. Perigo de contágio de moléstia grave
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a um ano, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

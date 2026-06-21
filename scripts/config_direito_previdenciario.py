@@ -12,9 +12,12 @@ FENICE_BASE = PROJECT_ROOT / "05_ESPECIAL" / "Codigos"
 DP_BASE = FENICE_BASE / "DIREITO_PREVIDENCIARIO"
 OUTPUT_BASE = DP_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+DP_FONTES = FONTES_BASE / "especial"
+
 LEIS_NACIONAIS = {
     "L8212": {
-        "arquivo": DP_BASE / "L8212 - Consolidada.html",
+        "arquivo": DP_FONTES / "L8212.html",
         "nome": "Lei Orgânica da Seguridade Social (Custeio)",
         "lei_numero": "8.212/1991",
         "categoria": "CUSTEIO",
@@ -22,7 +25,7 @@ LEIS_NACIONAIS = {
         "tema": "custeio-da-seguridade-social",
     },
     "L8213": {
-        "arquivo": DP_BASE / "L8213consol.html",
+        "arquivo": DP_FONTES / "L8213.html",
         "nome": "Lei dos Planos de Benefícios da Previdência Social",
         "lei_numero": "8.213/1991",
         "categoria": "BENEFICIOS",

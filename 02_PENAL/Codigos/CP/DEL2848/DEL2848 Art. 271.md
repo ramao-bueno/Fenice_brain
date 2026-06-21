@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-271
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 271 - Corromper ou poluir água potável, de uso comum ou particular, tornando-a imprópria para consumo ou nociva à saúde: Pena - reclusão, de dois a cinco anos. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de dois meses a um ano. Corrupção, adulteração ou falsificação de substância alimentícia ou medicinal Art. 272. Corromper, adulterar ou falsificar substância alimentícia ou medicinal destinada a consumo, tornando-a nociva à saude: Pena - reclusão, de dois a s
+> Corromper ou poluir água potável, de uso comum ou particular, tornando-a imprópria para consumo ou nociva à saúde: Pena - reclusão, de dois a cinco anos. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de dois meses a um ano. Falsificação, corrupção, adulteração ou alteração de substância ou produtos alimentícios (Redação dada pela Lei nº 9.677, de 2.7.1998)
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a cinco anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-198
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 198 - Constranger alguém, mediante violência ou grave ameaça, a celebrar contrato de trabalho, ou a não fornecer a outrem ou não adquirir de outrem matéria-prima ou produto industrial ou agrícola: Pena - detenção, de um mês a um ano, e multa, além da pena correspondente à violência. Atentado contra a liberdade de associação &nbsp;
+> Constranger alguém, mediante violência ou grave ameaça, a celebrar contrato de trabalho, ou a não fornecer a outrem ou não adquirir de outrem matéria-prima ou produto industrial ou agrícola: Pena - detenção, de um mês a um ano, e multa, além da pena correspondente à violência. Atentado contra a liberdade de associação
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um mês a um ano, e multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

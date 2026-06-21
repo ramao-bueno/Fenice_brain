@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-311
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 311 — Art. 311
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 311 - Adulterar ou remarcar número de chassi ou qualquer sinal identificador de veículo automotor, de seu componente ou equipamento:&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.426, de 1996) Adulteração de sinal identificador de veículo &nbsp;&nbsp; (Redação dada pela Lei nº 14.562, de 2023) Art. 311. Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semi
+> Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente: (Redação dada pela Lei nº 14.562, de 2023) Pena - reclusão, de três a seis anos, e multa. (Redação dada pela Lei nº 9.426, de 1996) § 1º - Se o agente comete o crime no exercício da função pública ou
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de três a seis anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -61,7 +62,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 310]] — artigo anterior
-- [[DEL2848 Art. 312]] — artigo seguinte
+- [[DEL2848 Art. 311-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

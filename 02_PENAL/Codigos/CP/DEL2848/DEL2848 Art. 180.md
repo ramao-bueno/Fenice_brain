@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-180
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 180. Adquirir, receber ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa fé, a adquira, receba ou oculte:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 2.505, de 1955) Pena - reclusão de 1 (um) a 4 (quatro) anos e multa de Cr$ 500,00 (quinhentos cruzeiros) a Cr$ 10.000,00 (dez mil cruzeiros).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação d
+> Adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte: (Redação dada pela Lei nº 9.426, de 1996) Pena – reclusão, de 2 (dois) a 6 (seis) anos, e multa. (Redação dada pela Lei nº 15.397, de 2026) Receptação qualificada (Redação dada pela Lei nº 9.426, de 1996) § 1º - Adquirir, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar,
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 2 (dois) a 6 (seis) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 179]] — artigo anterior
-- [[DEL2848 Art. 181]] — artigo seguinte
+- [[DEL2848 Art. 180-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

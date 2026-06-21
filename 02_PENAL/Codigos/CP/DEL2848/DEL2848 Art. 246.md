@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-246
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 246 - Deixar, sem justa causa, de prover à instrução primária de filho em idade escolar: Pena - detenção, de quinze dias a um mês, ou multa. &nbsp;
+> Deixar, sem justa causa, de prover à instrução primária de filho em idade escolar: Pena - detenção, de quinze dias a um mês, ou multa.
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a um mês, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

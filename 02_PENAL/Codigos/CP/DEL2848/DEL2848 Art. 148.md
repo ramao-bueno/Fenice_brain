@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-148
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 148 - Privar alguém de sua liberdade, mediante seqüestro ou cárcere privado:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide Lei nº 10.446, de 2002) Pena - reclusão, de um a três anos. § 1º - A pena é de reclusão, de dois a cinco anos: I - se a vítima é ascendente, descendente ou cônjuge do agente; I - se a vítima é ascendente, descendente, cônjuge do agente ou maior de 60 (sessenta) anos.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> Privar alguém de sua liberdade, mediante seqüestro ou cárcere privado: (Vide Lei nº 10.446, de 2002) Pena - reclusão, de um a três anos. § 1º - A pena é de reclusão, de dois a cinco anos: I &#150; se a vítima é ascendente, descendente, cônjuge ou companheiro do agente ou maior de 60 (sessenta) anos; (Redação dada pela Lei nº 11.106, de 2005) II - se o crime é praticado mediante internação da vítima em casa de saúde ou hospital; III - se a privação da liberdade dura mais de quinze dias. IV &#150;
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a três anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 147]] — artigo anterior
+- [[DEL2848 Art. 147-C]] — artigo anterior
 - [[DEL2848 Art. 149]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

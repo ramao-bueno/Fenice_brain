@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-170
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 170 - Nos crimes previstos neste Capítulo, aplica-se o disposto no art. 155, § 2º. CAPÍTULO VI DO ESTELIONATO E OUTRAS FRAUDES Estelionato &nbsp;
+> Nos crimes previstos neste Capítulo, aplica-se o disposto no art. 155, § 2º. CAPÍTULO VI DO ESTELIONATO E OUTRAS FRAUDES Estelionato
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

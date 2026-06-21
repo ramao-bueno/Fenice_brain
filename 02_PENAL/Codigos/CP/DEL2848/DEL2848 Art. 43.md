@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-43
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 43. As penas restritivas de direitos são:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.714, de 1998) I - prestação pecuniária;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.714, de 1998) II - perda de bens e valores;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.714, de 1998) III - limitação de fim de semana.&nbsp;&nbsp;&nbsp;&nbs
+> As penas restritivas de direitos são: (Redação dada pela Lei nº 9.714, de 1998) I - prestação pecuniária; (Incluído pela Lei nº 9.714, de 1998) II - perda de bens e valores; (Incluído pela Lei nº 9.714, de 1998) III - limitação de fim de semana. (Incluído pela Lei nº 7.209, de 1984) IV - prestação de serviço à comunidade ou a entidades públicas; (Incluído pela Lei nº 9.714, de 25.11.1998) V - interdição temporária de direitos; (Incluído pela Lei nº 9.714, de 25.11.1998) VI - limitação de fim de
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-168
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 168 - Apropriar-se de coisa alheia móvel, de que tem a posse ou a detenção: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 1º - A pena é aumentada de um terço, quando o agente recebeu a coisa: I - em depósito necessário; II - na qualidade de tutor, curador, síndico, liquidatário, inventariante, testamenteiro ou depositário judicial; III - em razão de ofício, emprego ou profissão. Apropriação indébita previdenciária &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
+> Apropriar-se de coisa alheia móvel, de que tem a posse ou a detenção: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 1º - A pena é aumentada de um terço, quando o agente recebeu a coisa: I - em depósito necessário; II - na qualidade de tutor, curador, síndico, liquidatário, inventariante, testamenteiro ou depositário judicial; III - em razão de ofício, emprego ou profissão. Apropriação indébita previdenciária (Incluído pela Lei nº 9.983, de 2000)
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 167]] — artigo anterior
-- [[DEL2848 Art. 169]] — artigo seguinte
+- [[DEL2848 Art. 168-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-272
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 272 - Corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nociva à saúde ou reduzindo-lhe o valor nutritivo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º-A - Incorre nas penas deste artigo quem fabrica, vende, expõe à venda, importa
+> Corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nociva à saúde ou reduzindo-lhe o valor nutritivo: (Redação dada pela Lei nº 9.677, de 2.7.1998) Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa. (Redação dada pela Lei nº 9.677, de 2.7.1998) § 1º-A - Incorre nas penas deste artigo quem fabrica, vende, expõe à venda, importa, tem em depósito para vender ou, de qualquer forma, distribui ou entrega a consumo a substância alimentíci
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 4 (quatro) a 8 (oito) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

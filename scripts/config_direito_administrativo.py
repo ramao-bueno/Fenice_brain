@@ -14,9 +14,12 @@ FENICE_BASE = PROJECT_ROOT / "03_PUBLICO" / "Codigos" / "Admin"
 DA_BASE = FENICE_BASE / "DIREITO_ADMINISTRATIVO"
 OUTPUT_BASE = DA_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+DA_FONTES = FONTES_BASE / "publico"
+
 LEIS_NACIONAIS = {
     "L8429": {
-        "arquivo": DA_BASE / "L8429.html",
+        "arquivo": DA_FONTES / "L8429.html",
         "nome": "Lei de Improbidade Administrativa",
         "lei_numero": "8.429/1992",
         "categoria": "IMPROBIDADE",
@@ -24,7 +27,7 @@ LEIS_NACIONAIS = {
         "tema": "improbidade-administrativa",
     },
     "L9784": {
-        "arquivo": DA_BASE / "L9784.html",
+        "arquivo": DA_FONTES / "L9784.html",
         "nome": "Lei do Processo Administrativo Federal",
         "lei_numero": "9.784/1999",
         "categoria": "PROCESSO_ADMINISTRATIVO",
@@ -32,7 +35,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-administrativo",
     },
     "L12846": {
-        "arquivo": DA_BASE / "L12846.html",
+        "arquivo": DA_FONTES / "L12846.html",
         "nome": "Lei Anticorrupção (Lei da Empresa Limpa)",
         "lei_numero": "12.846/2013",
         "categoria": "ANTICORRUPCAO",
@@ -40,7 +43,7 @@ LEIS_NACIONAIS = {
         "tema": "responsabilizacao-de-pessoas-juridicas",
     },
     "L12527": {
-        "arquivo": DA_BASE / "L12527.html",
+        "arquivo": DA_FONTES / "L12527.html",
         "nome": "Lei de Acesso à Informação (LAI)",
         "lei_numero": "12.527/2011",
         "categoria": "ACESSO_A_INFORMACAO",

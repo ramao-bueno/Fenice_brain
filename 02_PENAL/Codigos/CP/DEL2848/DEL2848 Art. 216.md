@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-216
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 216. Induzir alguém, mediante fraude, a praticar ou submeter-se à prática de ato libidinoso diverso da conjunção carnal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 11.106, de 2005) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 12.015, de 2009) Pena - reclusão, de um a dois anos. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 12.015, de 2009) Parágrafo ú
+> (Revogado pela Lei nº 12.015, de 2009) Assédio sexual (Incluído pela Lei nº 10.224, de 15 de 2001)
 
 ---
 
@@ -54,16 +54,15 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 215]] — artigo anterior
-- [[DEL2848 Art. 217]] — artigo seguinte
+- [[DEL2848 Art. 215-A]] — artigo anterior
+- [[DEL2848 Art. 216-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

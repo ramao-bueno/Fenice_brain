@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-270
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 270 - Envenenar água potável, de uso comum ou particular, ou substância alimentícia ou medicinal destinada a consumo: Pena - reclusão, de cinco a quinze anos. Pena - reclusão, de dez a quinze anos.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1º - Está sujeito à mesma pena quem entrega a consumo ou tem em depósito, para o fim de ser distribuída, a água ou a substância envenenada. Modalidade culposa § 2º - Se o crime é culposo: Pena - deten
+> Envenenar água potável, de uso comum ou particular, ou substância alimentícia ou medicinal destinada a consumo: Pena - reclusão, de dez a quinze anos. (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1º - Está sujeito à mesma pena quem entrega a consumo ou tem em depósito, para o fim de ser distribuída, a água ou a substância envenenada. Modalidade culposa § 2º - Se o crime é culposo: Pena - detenção, de seis meses a dois anos. Corrupção ou poluição de água potável
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dez a quinze anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

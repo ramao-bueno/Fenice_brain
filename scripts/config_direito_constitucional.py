@@ -17,9 +17,12 @@ FENICE_BASE = PROJECT_ROOT / "00_APEX"
 DC_BASE = FENICE_BASE / "DIREITO_CONSTITUCIONAL"
 OUTPUT_BASE = DC_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+DC_FONTES = FONTES_BASE / "cf"
+
 LEIS_NACIONAIS = {
     "L12016": {
-        "arquivo": DC_BASE / "L12016.html",
+        "arquivo": DC_FONTES / "L12016.html",
         "nome": "Lei do Mandado de Segurança",
         "lei_numero": "12.016/2009",
         "categoria": "MANDADO_DE_SEGURANCA",
@@ -27,7 +30,7 @@ LEIS_NACIONAIS = {
         "tema": "remedios-constitucionais",
     },
     "L13300": {
-        "arquivo": DC_BASE / "L13300.html",
+        "arquivo": DC_FONTES / "L13300.html",
         "nome": "Lei do Mandado de Injunção",
         "lei_numero": "13.300/2016",
         "categoria": "MANDADO_DE_INJUNCAO",
@@ -35,7 +38,7 @@ LEIS_NACIONAIS = {
         "tema": "remedios-constitucionais",
     },
     "L4717": {
-        "arquivo": DC_BASE / "L4717.html",
+        "arquivo": DC_FONTES / "L4717.html",
         "nome": "Lei da Ação Popular",
         "lei_numero": "4.717/1965",
         "categoria": "ACAO_POPULAR",
@@ -43,7 +46,7 @@ LEIS_NACIONAIS = {
         "tema": "remedios-constitucionais",
     },
     "L9507": {
-        "arquivo": DC_BASE / "L9507.html",
+        "arquivo": DC_FONTES / "L9507.html",
         "nome": "Lei do Habeas Data",
         "lei_numero": "9.507/1997",
         "categoria": "HABEAS_DATA",
@@ -51,7 +54,7 @@ LEIS_NACIONAIS = {
         "tema": "remedios-constitucionais",
     },
     "L9709": {
-        "arquivo": DC_BASE / "L9709.html",
+        "arquivo": DC_FONTES / "L9709.html",
         "nome": "Lei do Plebiscito, Referendo e Iniciativa Popular",
         "lei_numero": "9.709/1998",
         "categoria": "DEMOCRACIA_DIRETA",
@@ -59,7 +62,7 @@ LEIS_NACIONAIS = {
         "tema": "soberania-popular",
     },
     "L9868": {
-        "arquivo": DC_BASE / "L9868.html",
+        "arquivo": DC_FONTES / "L9868.html",
         "nome": "Lei da ADI e ADC",
         "lei_numero": "9.868/1999",
         "categoria": "CONTROLE_CONCENTRADO",
@@ -67,7 +70,7 @@ LEIS_NACIONAIS = {
         "tema": "controle-de-constitucionalidade",
     },
     "L9882": {
-        "arquivo": DC_BASE / "L9882.html",
+        "arquivo": DC_FONTES / "L9882.html",
         "nome": "Lei da ADPF",
         "lei_numero": "9.882/1999",
         "categoria": "CONTROLE_CONCENTRADO",
@@ -75,7 +78,7 @@ LEIS_NACIONAIS = {
         "tema": "controle-de-constitucionalidade",
     },
     "LCP95": {
-        "arquivo": DC_BASE / "Lcp95.html",
+        "arquivo": DC_FONTES / "LCP95.html",
         "nome": "Lei Complementar de Elaboração das Leis (técnica legislativa)",
         "lei_numero": "LC 95/1998",
         "categoria": "TECNICA_LEGISLATIVA",
@@ -83,7 +86,7 @@ LEIS_NACIONAIS = {
         "tema": "processo-legislativo",
     },
     "L11417": {
-        "arquivo": DC_BASE / "Lei nº 11.417.html",
+        "arquivo": DC_FONTES / "L11417.html",
         "nome": "Lei da Súmula Vinculante",
         "lei_numero": "11.417/2006",
         "categoria": "SUMULA_VINCULANTE",

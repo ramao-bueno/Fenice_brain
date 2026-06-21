@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-207
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 207 - Aliciar trabalhadores, com o fim de levá-los de uma para outra localidade do território nacional: Pena - detenção, de dois meses a um ano, e multa, de quinhentos mil réis a cinco contos de réis. Pena - detenção de um a três anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.777, de 1998) § 1º Incorre na mesma pena quem recrutar trabalhadores fora da localidade de execução do trabalho, dentro do território nacional, median
+> Aliciar trabalhadores, com o fim de levá-los de uma para outra localidade do território nacional: Pena - detenção de um a três anos, e multa. (Redação dada pela Lei nº 9.777, de 29.12.1998) § 1º Incorre na mesma pena quem recrutar trabalhadores fora da localidade de execução do trabalho, dentro do território nacional, mediante fraude ou cobrança de qualquer quantia do trabalhador, ou, ainda, não assegurar condições do seu retorno ao local de origem. (Incluído pela Lei nº 9.777, de 1998) § 2º A p
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção de um a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

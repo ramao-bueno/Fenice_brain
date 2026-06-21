@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-314
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 314 — Art. 314
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 314 - Extraviar livro oficial ou qualquer documento, de que tem a guarda em razão do cargo; sonegá-lo ou inutilizá-lo, total ou parcialmente: Pena - reclusão, de um a quatro anos, se o fato não constitui crime mais grave. Emprego irregular de verbas ou rendas públicas &nbsp;
+> Extraviar livro oficial ou qualquer documento, de que tem a guarda em razão do cargo; sonegá-lo ou inutilizá-lo, total ou parcialmente: Pena - reclusão, de um a quatro anos, se o fato não constitui crime mais grave. Emprego irregular de verbas ou rendas públicas
 
 ---
 
@@ -52,15 +52,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, se o fato não constitui crime mais grave.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 313]] — artigo anterior
+- [[DEL2848 Art. 313-B]] — artigo anterior
 - [[DEL2848 Art. 315]] — artigo seguinte
 
 ### Outros crimes
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

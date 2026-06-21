@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-280
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 280 - Fornecer substância medicinal em desacordo com receita médica: Pena - detenção, de um a três anos, ou multa. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de dois meses a um ano. Comércio clandestino ou facilitação de uso de entorpecentes Art. 281. Importar ou exportar, vender ou expor à venda, fornecer, ainda que a título gratuito, transportar, trazer consigo, ter em depósito, guardar, ministrar ou, de qualquer maneira, entregar a consumo substância ento
+> Fornecer substância medicinal em desacordo com receita médica: Pena - detenção, de um a três anos, ou multa. Modalidade culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de dois meses a um ano. COMÉRCIO, POSSE OU USO DE ENTORPECENTE OU SUBSTÂNCIA QUE DETERMINE DEPENDÊNCIA FÍSICA OU PSÍQUICA. (Redação dada pela Lei nº 5.726, de 1971) (Revogado pela Lei nº 6.368, 1976)
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

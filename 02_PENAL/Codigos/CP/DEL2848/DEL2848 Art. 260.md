@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-260
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 260 - Impedir ou perturbar serviço de estrada de ferro: I - destruindo, danificando ou desarranjando, total ou parcialmente, linha férrea, material rodante ou de tração, obra-de-arte ou instalação; II - colocando obstáculo na linha; III - transmitindo falso aviso acerca do movimento dos veículos ou interrompendo ou embaraçando o funcionamento de telégrafo, telefone ou radiotelegrafia; IV - praticando outro ato de que possa resultar desastre: Pena - reclusão, de dois a cinco anos, e multa. D
+> Impedir ou perturbar serviço de estrada de ferro: I - destruindo, danificando ou desarranjando, total ou parcialmente, linha férrea, material rodante ou de tração, obra-de-arte ou instalação; II - colocando obstáculo na linha; III - transmitindo falso aviso acerca do movimento dos veículos ou interrompendo ou embaraçando o funcionamento de telégrafo, telefone ou radiotelegrafia; IV - praticando outro ato de que possa resultar desastre: Pena - reclusão, de dois a cinco anos, e multa. Desastre fer
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dois a cinco anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

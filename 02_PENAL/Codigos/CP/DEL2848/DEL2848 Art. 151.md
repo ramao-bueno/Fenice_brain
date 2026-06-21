@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-151
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 151 - Devassar indevidamente o conteúdo de correspondência fechada, dirigida a outrem: Pena - detenção, de um a seis meses, ou multa. Sonegação ou destruição de correspondência § 1º - Na mesma pena incorre: I - quem se apossa indevidamente de correspondência alheia, embora não fechada e, no todo ou em parte, a sonega ou destrói; Violação de comunicação telegráfica, radioelétrica ou telefônica II - quem indevidamente divulga, transmite a outrem ou utiliza abusivamente comunicação telegráfica
+> Devassar indevidamente o conteúdo de correspondência fechada, dirigida a outrem: Pena - detenção, de um a seis meses, ou multa. Sonegação ou destruição de correspondência § 1º - Na mesma pena incorre: I - quem se apossa indevidamente de correspondência alheia, embora não fechada e, no todo ou em parte, a sonega ou destrói; Violação de comunicação telegráfica, radioelétrica ou telefônica II - quem indevidamente divulga, transmite a outrem ou utiliza abusivamente comunicação telegráfica ou radioel
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a seis meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

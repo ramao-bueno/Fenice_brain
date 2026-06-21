@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-114
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 114 - A prescrição da pena de multa ocorrerá:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 9.268, de 1º.4.1996) I - em 2 (dois) anos, quando a multa for a única cominada ou aplicada;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 9.268, de 1º.4.1996) II - no mesmo prazo estabelecido para prescrição da pena privativa de liberdade, quando a multa for alternativa ou cumul
+> A prescrição da pena de multa ocorrerá: (Redação dada pela Lei nº 9.268, de 1º.4.1996) I - em 2 (dois) anos, quando a multa for a única cominada ou aplicada; (Incluído pela Lei nº 9.268, de 1º.4.1996) II - no mesmo prazo estabelecido para prescrição da pena privativa de liberdade, quando a multa for alternativa ou cumulativamente cominada ou cumulativamente aplicada. (Incluído pela Lei nº 9.268, de 1º.4.1996) Redução dos prazos de prescrição
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

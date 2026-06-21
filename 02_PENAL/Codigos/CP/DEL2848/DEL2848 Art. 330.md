@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-330
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 330 — Art. 330
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 330 - Desobedecer a ordem legal de funcionário público: Pena - detenção, de quinze dias a seis meses, e multa. Desacato &nbsp;
+> Desobedecer a ordem legal de funcionário público: Pena - detenção, de quinze dias a seis meses, e multa. Desacato
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a seis meses, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

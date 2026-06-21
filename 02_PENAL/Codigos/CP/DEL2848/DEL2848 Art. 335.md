@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-335
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 335 — Art. 335
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 335 - Impedir, perturbar ou fraudar concorrência pública ou venda em hasta pública, promovida pela administração federal, estadual ou municipal, ou por entidade paraestatal; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência. Parágrafo único - Incorre na mesma pena quem se abstém de concorrer ou licitar, em razão da vantage
+> Impedir, perturbar ou fraudar concorrência pública ou venda em hasta pública, promovida pela administração federal, estadual ou municipal, ou por entidade paraestatal; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem: Pena - detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência. Parágrafo único - Incorre na mesma pena quem se abstém de concorrer ou licitar, em razão da vantagem oferecida
 
 ---
 
@@ -52,15 +52,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 334]] — artigo anterior
+- [[DEL2848 Art. 334-A]] — artigo anterior
 - [[DEL2848 Art. 336]] — artigo seguinte
 
 ### Outros crimes
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

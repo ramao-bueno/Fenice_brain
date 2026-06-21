@@ -21,11 +21,15 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 FENICE_BASE = PROJECT_ROOT / "02_PENAL" / "Codigos" / "CP"
 CP_BASE = FENICE_BASE
-OUTPUT_BASE = CP_BASE / "Artigos"
+OUTPUT_BASE = CP_BASE
+
+# HTMLs baixados via scripts/baixar_fontes.py
+FONTES_BASE = Path(__file__).parent / "fontes"
+CP_FONTES = FONTES_BASE / "cp"
 
 LEIS_NACIONAIS = {
     "DEL2848": {
-        "arquivo": CP_BASE / "DEL2848.html",
+        "arquivo": CP_FONTES / "DEL2848.html",
         "nome": "Código Penal",
         "lei_numero": "DL 2.848/1940",
         "categoria": "CODIGO_PENAL",
@@ -33,7 +37,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L7492": {
-        "arquivo": CP_BASE / "L7492.html",
+        "arquivo": CP_FONTES / "L7492.html",
         "nome": "Lei de Crimes Contra o Sistema Financeiro",
         "lei_numero": "7.492/1986",
         "categoria": "CRIMES_FINANCEIROS",
@@ -41,7 +45,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L8072": {
-        "arquivo": CP_BASE / "L8072.html",
+        "arquivo": CP_FONTES / "L8072.html",
         "nome": "Lei de Crimes Hediondos",
         "lei_numero": "8.072/1990",
         "categoria": "CRIMES_HEDIONDOS",
@@ -49,7 +53,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L8137": {
-        "arquivo": CP_BASE / "L8137.html",
+        "arquivo": CP_FONTES / "L8137.html",
         "nome": "Lei de Crimes Contra a Ordem Tributária",
         "lei_numero": "8.137/1990",
         "categoria": "CRIMES_TRIBUTARIOS",
@@ -57,7 +61,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L9605": {
-        "arquivo": CP_BASE / "L9605.html",
+        "arquivo": CP_FONTES / "L9605.html",
         "nome": "Lei de Crimes Ambientais",
         "lei_numero": "9.605/1998",
         "categoria": "CRIMES_AMBIENTAIS",
@@ -65,7 +69,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L9613": {
-        "arquivo": CP_BASE / "L9613.html",
+        "arquivo": CP_FONTES / "L9613.html",
         "nome": "Lei de Lavagem de Dinheiro",
         "lei_numero": "9.613/1998",
         "categoria": "LAVAGEM_DINHEIRO",
@@ -73,7 +77,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L14132": {
-        "arquivo": CP_BASE / "L14132.html",
+        "arquivo": CP_FONTES / "L14132.html",
         "nome": "Lei de Reforma Penal",
         "lei_numero": "14.132/2021",
         "categoria": "REFORMA_PENAL",
@@ -81,7 +85,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L14155": {
-        "arquivo": CP_BASE / "L14155.html",
+        "arquivo": CP_FONTES / "L14155.html",
         "nome": "Lei de Reforma Penal",
         "lei_numero": "14.155/2021",
         "categoria": "REFORMA_PENAL",
@@ -89,7 +93,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L14811": {
-        "arquivo": CP_BASE / "L14811.html",
+        "arquivo": CP_FONTES / "L14811.html",
         "nome": "Lei de Reforma Penal (Segurança Pública)",
         "lei_numero": "14.811/2024",
         "categoria": "REFORMA_PENAL",
@@ -97,7 +101,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L15384": {
-        "arquivo": CP_BASE / "L15384.html",
+        "arquivo": CP_FONTES / "L15384.html",
         "nome": "Lei de Reforma Penal (Drogas/Segurança)",
         "lei_numero": "15.384/2024",
         "categoria": "REFORMA_PENAL",
@@ -105,7 +109,7 @@ LEIS_NACIONAIS = {
         "tema": "direito-penal",
     },
     "L11343": {
-        "arquivo": CP_BASE / "Lei nº 11.343.html",
+        "arquivo": CP_FONTES / "L11343.html",
         "nome": "Lei de Drogas (revogada)",
         "lei_numero": "11.343/2006",
         "categoria": "LEI_DROGAS",

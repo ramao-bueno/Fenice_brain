@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-245
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 245. Entregar filho menor de dezoito anos a pessoa, com a qual saiba ou deva saber que fica moral ou materialmente em perigo: Pena - detenção, de um a seis meses. Parágrafo único. A pena é aumentada de sexta parte, aplicando-se cumulativamente com a de multa, de um a dez contos de réis, se o agente é movido por fim de lucro. &nbsp; Art. 245 - Entregar filho menor de 18 (dezoito) anos a pessoa em cuja companhia saiba ou deva saber que o menor fica moral ou materialmente em perigo:&nbsp;&nbsp
+> Entregar filho menor de 18 (dezoito) anos a pessoa em cuja companhia saiba ou deva saber que o menor fica moral ou materialmente em perigo: (Redação dada pela Lei nº 7.251, de 1984) Pena - detenção, de 1 (um) a 2 (dois) anos. (Redação dada pela Lei nº 7.251, de 1984) § 1º - A pena é de 1 (um) a 4 (quatro) anos de reclusão, se o agente pratica delito para obter lucro, ou se o menor é enviado para o exterior. (Incluído pela Lei nº 7.251, de 1984) § 2º - Incorre, também, na pena do parágrafo anteri
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de 1 (um) a 2 (dois) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

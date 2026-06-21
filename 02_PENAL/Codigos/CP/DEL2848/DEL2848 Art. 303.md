@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-303
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 303 — Art. 303
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 303 - Reproduzir ou alterar selo ou peça filatélica que tenha valor para coleção, salvo quando a reprodução ou a alteração está visivelmente anotada na face ou no verso do selo ou peça: Pena - detenção, de um a três anos, e multa. Parágrafo único - Na mesma pena incorre quem, para fins de comércio, faz uso do selo ou peça filatélica. Uso de documento falso &nbsp;
+> Reproduzir ou alterar selo ou peça filatélica que tenha valor para coleção, salvo quando a reprodução ou a alteração está visivelmente anotada na face ou no verso do selo ou peça: Pena - detenção, de um a três anos, e multa. Parágrafo único - Na mesma pena incorre quem, para fins de comércio, faz uso do selo ou peça filatélica. Uso de documento falso
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

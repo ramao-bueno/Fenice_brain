@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-34
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 34 - O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O trab
+> O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1 º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2 º - O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

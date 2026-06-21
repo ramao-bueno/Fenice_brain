@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-191
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 191. Nos crimes previstos neste capítulo, excetuados os dos arts. 188, e seu parágrafo, e 190, somente se procede mediante queixa. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Revogado pela Lei nº 9.279, de 14.5.1996) CAPÍTULO III DOS CRIMES CONTRA AS MARCAS DE INDÚSTRIA E COMÉRCIO Violação do direito de marca &nbsp;
+> (Revogado pela Lei nº 9.279, de 14.5.1996) CAPÍTULO III DOS CRIMES CONTRA AS MARCAS DE INDÚSTRIA E COMÉRCIO Violação do direito de marca
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-227
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 227 - Induzir alguém a satisfazer a lascívia de outrem: Pena - reclusão, de um a três anos. § 1º - Se a vítima é maior de catorze e menor de dezoito anos, ou se o agente é seu ascendente, descendente, marido, irmão, tutor ou curador ou pessoa a que esteja confiada para fins de educação, de tratamento ou de guarda: § 1 o Se a vítima é maior de 14 (catorze) e menor de 18 (dezoito) anos, ou se o agente é seu ascendente, descendente, cônjuge ou companheiro, irmão, tutor ou curador ou pessoa a q
+> Induzir alguém a satisfazer a lascívia de outrem: Pena - reclusão, de um a três anos. § 1 o Se a vítima é maior de 14 (catorze) e menor de 18 (dezoito) anos, ou se o agente é seu ascendente, descendente, cônjuge ou companheiro, irmão, tutor ou curador ou pessoa a quem esteja confiada para fins de educação, de tratamento ou de guarda: (Redação dada pela Lei nº 11.106, de 2005) Pena - reclusão, de dois a cinco anos. § 2º - Se o crime é cometido com emprego de violência, grave ameaça ou fraude: Pen
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a três anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

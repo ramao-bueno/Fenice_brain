@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-163
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 163 - Destruir, inutilizar ou deteriorar coisa alheia: Pena - detenção, de um a seis meses, ou multa. Dano qualificado Parágrafo único - Se o crime é cometido: I - com violência à pessoa ou grave ameaça; II - com emprego de substância inflamável ou explosiva, se o fato não constitui crime mais grave III - contra o patrimônio da União, de Estado ou de Município; III - contra o patrimônio da União, Estado, Município, empresa concessionária de serviços públicos ou sociedade de economia mista;&
+> Destruir, inutilizar ou deteriorar coisa alheia: Pena - detenção, de um a seis meses, ou multa. Dano qualificado Parágrafo único - Se o crime é cometido: I - com violência à pessoa ou grave ameaça; II - com emprego de substância inflamável ou explosiva, se o fato não constitui crime mais grave III - contra o patrimônio da União, de Estado, do Distrito Federal, de Município ou de autarquia, fundação pública, empresa pública, sociedade de economia mista ou empresa concessionária de serviços públic
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a seis meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

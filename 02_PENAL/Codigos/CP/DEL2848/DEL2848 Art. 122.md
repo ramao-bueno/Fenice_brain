@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-122
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 122 - Induzir ou instigar alguém a suicidar-se ou prestar-lhe auxílio para que o faça: Pena - reclusão, de dois a seis anos, se o suicídio se consuma; ou reclusão, de um a três anos, se da tentativa de suicídio resulta lesão corporal de natureza grave. Parágrafo único - A pena é duplicada: Aumento de pena I - se o crime é praticado por motivo egoístico; II - se a vítima é menor ou tem diminuída, por qualquer causa, a capacidade de resistência. Induzimento, instigação ou auxílio a suicídio o
+> Induzir ou instigar alguém a suicidar-se ou a praticar automutilação ou prestar-lhe auxílio material para que o faça: (Redação dada pela Lei nº 13.968, de 2019) Pena - reclusão, de 6 (seis) meses a 2 (dois) anos. (Redação dada pela Lei nº 13.968, de 2019) § 1º Se da automutilação ou da tentativa de suicídio resulta lesão corporal de natureza grave ou gravíssima, nos termos dos §§ 1º e 2º do art. 129 deste Código: (Incluído pela Lei nº 13.968, de 2019) Pena - reclusão, de 1 (um) a 3 (três) anos.
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 6 (seis) meses a 2 (dois) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 121]] — artigo anterior
+- [[DEL2848 Art. 121-B]] — artigo anterior
 - [[DEL2848 Art. 123]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

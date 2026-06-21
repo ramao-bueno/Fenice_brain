@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-322
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 322 — Art. 322
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 322 - Praticar violência, no exercício de função ou a pretexto de exercê-la: Pena - detenção, de seis meses a três anos, além da pena correspondente à violência. Abandono de função &nbsp;
+> Praticar violência, no exercício de função ou a pretexto de exercê-la: Pena - detenção, de seis meses a três anos, além da pena correspondente à violência. Abandono de função
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a três anos, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

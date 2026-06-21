@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-251
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 251 - Expor a perigo a vida, a integridade física ou o patrimônio de outrem, mediante explosão, arremesso ou simples colocação de engenho de dinamite ou de substância de efeitos análogos: Pena - reclusão, de três a seis anos, e multa. § 1º - Se a substância utilizada não é dinamite ou explosivo de efeitos análogos: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 2º - As penas aumentam-se de um terço, se ocorre qualquer das hipóteses previstas no § 1º, I, do artigo anterior,
+> Expor a perigo a vida, a integridade física ou o patrimônio de outrem, mediante explosão, arremesso ou simples colocação de engenho de dinamite ou de substância de efeitos análogos: Pena - reclusão, de três a seis anos, e multa. § 1º - Se a substância utilizada não é dinamite ou explosivo de efeitos análogos: Pena - reclusão, de um a quatro anos, e multa. Aumento de pena § 2º - As penas aumentam-se de um terço, se ocorre qualquer das hipóteses previstas no § 1º, I, do artigo anterior, ou é visad
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de três a seis anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

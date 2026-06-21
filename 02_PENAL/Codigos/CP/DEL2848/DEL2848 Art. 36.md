@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-36
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 36 - O regime aberto baseia-se na autodisciplina e senso de responsabilidade do condenado.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O condenado deverá, fora do estabelecimento e sem vigilância, trabalhar, freqüentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redaçã
+> O regime aberto baseia-se na autodisciplina e senso de responsabilidade do condenado. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 1º - O condenado deverá, fora do estabelecimento e sem vigilância, trabalhar, freqüentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga. (Redação dada pela Lei nº 7.209, de 11.7.1984) § 2º - O condenado será transferido do regime aberto, se praticar fato definido como crime doloso, se frustrar os
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

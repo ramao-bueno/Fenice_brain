@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-252
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 252 - Expor a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante: Pena - reclusão, de um a quatro anos, e multa. Modalidade Culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de três meses a um ano. Fabrico, fornecimento, aquisição posse ou transporte de explosivos ou gás tóxico, ou asfixiante &nbsp;
+> Expor a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante: Pena - reclusão, de um a quatro anos, e multa. Modalidade Culposa Parágrafo único - Se o crime é culposo: Pena - detenção, de três meses a um ano. Fabrico, fornecimento, aquisição posse ou transporte de explosivos ou gás tóxico, ou asfixiante
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a quatro anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

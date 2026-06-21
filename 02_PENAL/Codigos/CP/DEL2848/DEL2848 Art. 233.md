@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-233
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 233 - Praticar ato obsceno em lugar público, ou aberto ou exposto ao público: Pena - detenção, de três meses a um ano, ou multa. Escrito ou objeto obsceno &nbsp;
+> Praticar ato obsceno em lugar público, ou aberto ou exposto ao público: Pena - detenção, de três meses a um ano, ou multa. Escrito ou objeto obsceno
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a um ano, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 232]] — artigo anterior
+- [[DEL2848 Art. 232-A]] — artigo anterior
 - [[DEL2848 Art. 234]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

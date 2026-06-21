@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-133
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 133 - Abandonar pessoa que está sob seu cuidado, guarda, vigilância ou autoridade, e, por qualquer motivo, incapaz de defender-se dos riscos resultantes do abandono: Pena - detenção, de seis meses a três anos. Pena - reclusão, de 2 (dois) a 5 (cinco) anos.&nbsp;&nbsp; (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do abandono resulta lesão corporal de natureza grave: Pena - reclusão, de um a cinco anos. Pena - reclusão, de 3 (três) a 7 (sete) anos.&nbsp;&nbsp; (Redação dada pela Lei n
+> Abandonar pessoa que está sob seu cuidado, guarda, vigilância ou autoridade, e, por qualquer motivo, incapaz de defender-se dos riscos resultantes do abandono: Pena - reclusão, de 2 (dois) a 5 (cinco) anos. (Redação dada pela Lei nº 15.163, de 2025) § 1º - Se do abandono resulta lesão corporal de natureza grave: Pena - reclusão, de 3 (três) a 7 (sete) anos. (Redação dada pela Lei nº 15.163, de 2025) § 2º - Se resulta a morte: Pena - reclusão, de 8 (oito) a 14 (quatorze) anos. (Redação dada pela
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 2 (dois) a 5 (cinco) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

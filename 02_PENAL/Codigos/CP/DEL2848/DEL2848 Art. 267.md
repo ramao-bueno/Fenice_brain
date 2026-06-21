@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-267
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 267 - Causar epidemia, mediante a propagação de germes patogênicos: Pena - reclusão, de cinco a quinze anos. Pena - reclusão, de dez a quinze anos.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1º - Se do fato resulta morte, a pena é aplicada em dobro. § 2º - No caso de culpa, a pena é de detenção, de um a dois anos, ou, se resulta morte, de dois a quatro anos. Infração de medida sanitária preventiva &nbsp;
+> Causar epidemia, mediante a propagação de germes patogênicos: Pena - reclusão, de dez a quinze anos. (Redação dada pela Lei nº 8.072, de 25.7.1990) § 1º - Se do fato resulta morte, a pena é aplicada em dobro. § 2º - No caso de culpa, a pena é de detenção, de um a dois anos, ou, se resulta morte, de dois a quatro anos. Infração de medida sanitária preventiva
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de dez a quinze anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

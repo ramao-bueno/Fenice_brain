@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-18
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 18 - Diz-se o crime:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime doloso &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 7.209, de 11.7.1984) I - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 7.209, de 11.7.1984) Crime culposo&nbsp;&nbsp;&nbsp;&nbsp;&
+> Diz-se o crime: (Redação dada pela Lei nº 7.209, de 11.7.1984) Crime doloso (Incluído pela Lei nº 7.209, de 11.7.1984) I - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo; (Incluído pela Lei nº 7.209, de 11.7.1984) Crime culposo (Incluído pela Lei nº 7.209, de 11.7.1984) II - culposo, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - Salvo os casos expressos em lei, ninguém pode
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-9
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 9º - A sentença estrangeira, quando a aplicação da lei brasileira produz na espécie as mesmas conseqüências, pode ser homologada no Brasil para:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - obrigar o condenado à reparação do dano, a restituições e a outros efeitos civis;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 7.209, de 11.7.1984) II - sujeitá-lo a medida de se
+> A sentença estrangeira, quando a aplicação da lei brasileira produz na espécie as mesmas conseqüências, pode ser homologada no Brasil para: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - obrigar o condenado à reparação do dano, a restituições e a outros efeitos civis; (Incluído pela Lei nº 7.209, de 11.7.1984) II - sujeitá-lo a medida de segurança. (Incluído pela Lei nº 7.209, de 11.7.1984) Parágrafo único - A homologação depende: (Incluído pela Lei nº 7.209, de 11.7.1984) a) para os efeitos
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

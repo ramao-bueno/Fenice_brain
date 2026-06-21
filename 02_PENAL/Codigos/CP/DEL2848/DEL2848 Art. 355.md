@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-355
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 355 — Art. 355
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 355 - Trair, na qualidade de advogado ou procurador, o dever profissional, prejudicando interesse, cujo patrocínio, em juízo, lhe é confiado: Pena - detenção, de seis meses a três anos, e multa. Patrocínio simultâneo ou tergiversação Parágrafo único - Incorre na pena deste artigo o advogado ou procurador judicial que defende na mesma causa, simultânea ou sucessivamente, partes contrárias. Sonegação de papel ou objeto de valor probatório &nbsp;
+> Trair, na qualidade de advogado ou procurador, o dever profissional, prejudicando interesse, cujo patrocínio, em juízo, lhe é confiado: Pena - detenção, de seis meses a três anos, e multa. Patrocínio simultâneo ou tergiversação Parágrafo único - Incorre na pena deste artigo o advogado ou procurador judicial que defende na mesma causa, simultânea ou sucessivamente, partes contrárias. Sonegação de papel ou objeto de valor probatório
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

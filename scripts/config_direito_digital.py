@@ -14,9 +14,12 @@ FENICE_BASE = PROJECT_ROOT / "05_ESPECIAL" / "Codigos"
 DD_BASE = FENICE_BASE / "DIREITO_DIGITAL"
 OUTPUT_BASE = DD_BASE / "Artigos"
 
+FONTES_BASE = Path(__file__).parent / "fontes"
+DD_FONTES = FONTES_BASE / "especial"
+
 LEIS_NACIONAIS = {
     "L12965": {
-        "arquivo": DD_BASE / "L12965.html",
+        "arquivo": DD_FONTES / "L12965.html",
         "nome": "Marco Civil da Internet",
         "lei_numero": "12.965/2014",
         "categoria": "MARCO_CIVIL",
@@ -24,7 +27,7 @@ LEIS_NACIONAIS = {
         "tema": "direitos-e-garantias-na-internet",
     },
     "L13709": {
-        "arquivo": DD_BASE / "L13709.html",
+        "arquivo": DD_FONTES / "L13709.html",
         "nome": "Lei Geral de Proteção de Dados (LGPD)",
         "lei_numero": "13.709/2018",
         "categoria": "PROTECAO_DE_DADOS",
@@ -32,7 +35,7 @@ LEIS_NACIONAIS = {
         "tema": "protecao-de-dados-pessoais",
     },
     "L9609": {
-        "arquivo": DD_BASE / "L9609.html",
+        "arquivo": DD_FONTES / "L9609.html",
         "nome": "Lei do Software",
         "lei_numero": "9.609/1998",
         "categoria": "PROPRIEDADE_INTELECTUAL",
@@ -40,7 +43,7 @@ LEIS_NACIONAIS = {
         "tema": "protecao-de-programas-de-computador",
     },
     "L9610": {
-        "arquivo": DD_BASE / "L9610.html",
+        "arquivo": DD_FONTES / "L9610.html",
         "nome": "Lei de Direitos Autorais",
         "lei_numero": "9.610/1998",
         "categoria": "PROPRIEDADE_INTELECTUAL",

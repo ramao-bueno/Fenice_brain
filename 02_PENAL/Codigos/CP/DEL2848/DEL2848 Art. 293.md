@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-293
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 293 - Falsificar, fabricando-os ou alterando-os: I - selo postal, estampilha, papel selado ou qualquer papel de emissão legal, destinado à arrecadação de imposto ou taxa; I - selo destinado a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 11.035, de 2004) II - papel de crédito público que não seja moeda de curso legal; III - vale postal; IV - cautela de penhor,
+> Falsificar, fabricando-os ou alterando-os: I &#150; selo destinado a controle tributário, papel selado ou qualquer papel de emissão legal destinado à arrecadação de tributo; (Redação dada pela Lei nº 11.035, de 2004) II - papel de crédito público que não seja moeda de curso legal; III - vale postal; IV - cautela de penhor, caderneta de depósito de caixa econômica ou de outro estabelecimento mantido por entidade de direito público; V - talão, recibo, guia, alvará ou qualquer outro documento relat
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

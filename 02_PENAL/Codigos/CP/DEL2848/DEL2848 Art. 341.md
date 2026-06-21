@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-341
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 341 — Art. 341
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 341 - Acusar-se, perante a autoridade, de crime inexistente ou praticado por outrem: Pena - detenção, de três meses a dois anos, ou multa. Falso testemunho ou falsa perícia Art. 342 - Fazer afirmação falsa, ou negar ou calar a verdade, como testemunha, perito, tradutor ou intérprete em processo judicial, policial ou administrativo, ou em juízo arbitral: &nbsp;
+> Acusar-se, perante a autoridade, de crime inexistente ou praticado por outrem: Pena - detenção, de três meses a dois anos, ou multa. Falso testemunho ou falsa perícia
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de três meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

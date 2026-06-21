@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-137
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 137 - Participar de rixa, salvo para separar os contendores: Pena - detenção, de quinze dias a dois meses, ou multa. Parágrafo único - Se ocorre morte ou lesão corporal de natureza grave, aplica-se, pelo fato da participação na rixa, a pena de detenção, de seis meses a dois anos. CAPÍTULO V DOS CRIMES CONTRA A HONRA Calúnia &nbsp;
+> Participar de rixa, salvo para separar os contendores: Pena - detenção, de quinze dias a dois meses, ou multa. Parágrafo único - Se ocorre morte ou lesão corporal de natureza grave, aplica-se, pelo fato da participação na rixa, a pena de detenção, de seis meses a dois anos. CAPÍTULO V DOS CRIMES CONTRA A HONRA Calúnia
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a dois meses, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

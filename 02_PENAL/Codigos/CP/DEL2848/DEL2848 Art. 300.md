@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-300
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 300 - Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja: Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular. Certidão ou atestado ideologicamente falso &nbsp;
+> Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja: Pena - reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular. Certidão ou atestado ideologicamente falso
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de um a cinco anos, e multa, se o documento é público; e de um a três anos, e multa, se o documento é particular.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

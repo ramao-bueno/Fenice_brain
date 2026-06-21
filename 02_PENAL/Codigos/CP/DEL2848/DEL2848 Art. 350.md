@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-350
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 350 — Art. 350
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 350 - Ordenar ou executar medida privativa de liberdade individual, sem as formalidades legais ou com abuso de poder: &nbsp;&nbsp; &nbsp; (Revogado pela Lei nº 13.869, de 2019) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vigência) Pena - detenção, de um mês a um ano. &nbsp;&nbsp; &nbsp; (Revogado pela Lei nº 13.869, de 2019) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vigência) Parágrafo único - Na mesma pena incorre o funcionário que: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; (Revogado pela Lei nº 13.869, de 2019) &n
+> (Revogado pela Lei nº 13.869, de 2019) (Vigência) Fuga de pessoa presa ou submetida a medida de segurança
 
 ---
 
@@ -52,15 +52,14 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 349]] — artigo anterior
+- [[DEL2848 Art. 349-A]] — artigo anterior
 - [[DEL2848 Art. 351]] — artigo seguinte
 
 ### Outros crimes
@@ -83,4 +82,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

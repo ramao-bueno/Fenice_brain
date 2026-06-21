@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-264
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 264 - Arremessar projétil contra veículo, em movimento, destinado ao transporte público por terra, por água ou pelo ar: Pena - detenção, de um a seis meses. Parágrafo único - Se do fato resulta lesão corporal, a pena é de detenção, de 6 (seis) meses a 2 (dois) anos; se resulta morte, a pena é a do art. 121, § 3º, aumentada de um terço. Atentado contra a segurança de serviço de utilidade pública &nbsp;
+> Arremessar projétil contra veículo, em movimento, destinado ao transporte público por terra, por água ou pelo ar: Pena - detenção, de um a seis meses. Parágrafo único - Se do fato resulta lesão corporal, a pena é de detenção, de seis meses a dois anos; se resulta morte, a pena é a do art. 121, § 3º, aumentada de um terço. Atentado contra a segurança de serviço de utilidade pública
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a seis meses.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

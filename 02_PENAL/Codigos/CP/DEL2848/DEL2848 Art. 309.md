@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-309
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 309 — Art. 309
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 309 - Usar o estrangeiro, para entrar ou permanecer no território nacional, nome que não é o seu: Pena - detenção, de um a três anos, e multa. Parágrafo único - Atribuir a estrangeiro falsa qualidade para promover-lhe a entrada em território nacional:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 9.426, de 1996) Pena - reclusão, de um a quatro anos, e multa.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Incluído pela Lei nº 9.426, de 1996) Art. 310. Atribuir a est
+> Usar o estrangeiro, para entrar ou permanecer no território nacional, nome que não é o seu: Pena - detenção, de um a três anos, e multa. Parágrafo único - Atribuir a estrangeiro falsa qualidade para promover-lhe a entrada em território nacional: (Incluído pela Lei nº 9.426, de 1996) Pena - reclusão, de um a quatro anos, e multa. (Incluído pela Lei nº 9.426, de 1996)
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

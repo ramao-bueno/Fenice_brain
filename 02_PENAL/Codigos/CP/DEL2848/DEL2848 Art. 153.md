@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-153
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 153 - Divulgar alguém, sem justa causa, conteúdo de documento particular ou de correspondência confidencial, de que é destinatário ou detentor, e cuja divulgação possa produzir dano a outrem: Pena - detenção, de um a seis meses, ou multa, de trezentos mil réis a dois contos de réis.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; (Vide Lei nº 7.209, de 1984) Parágrafo único - Somente se procede mediante representação. § 1º Somente se procede mediante represent
+> Divulgar alguém, sem justa causa, conteúdo de documento particular ou de correspondência confidencial, de que é destinatário ou detentor, e cuja divulgação possa produzir dano a outrem: Pena - detenção, de um a seis meses, ou multa, de trezentos mil réis a dois contos de réis . (Vide Lei nº 7.209, de 1984) § 1º Somente se procede mediante representação. (Parágrafo único renumerado pela Lei nº 9.983, de 2000) § 1 o -A. Divulgar, sem justa causa, informações sigilosas ou reservadas, assim definida
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a seis meses, ou multa, de trezentos mil réis a dois contos de réis .
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

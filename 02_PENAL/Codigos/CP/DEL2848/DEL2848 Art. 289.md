@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-289
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 289 - Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro: Pena - reclusão, de três a doze anos, e multa. § 1º - Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa. § 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenç
+> Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro: Pena - reclusão, de três a doze anos, e multa. § 1º - Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa. § 2º - Quem, tendo recebido de boa-fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis
 
 ---
 
@@ -54,15 +54,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de três a doze anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
 ## ARTIGOS CORRELATOS
 
 ### Mesma Lei
-- [[DEL2848 Art. 288]] — artigo anterior
+- [[DEL2848 Art. 288-A]] — artigo anterior
 - [[DEL2848 Art. 290]] — artigo seguinte
 
 ### Outros crimes
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

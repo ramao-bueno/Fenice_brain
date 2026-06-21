@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-37
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 37 - As mulheres cumprem pena em estabelecimento próprio, observando-se os deveres e direitos inerentes à sua condição pessoal, bem como, no que couber, o disposto neste Capítulo.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) Direitos do preso &nbsp;
+> As mulheres cumprem pena em estabelecimento próprio, observando-se os deveres e direitos inerentes à sua condição pessoal, bem como, no que couber, o disposto neste Capítulo. (Redação dada pela Lei nº 7.209, de 11.7.1984) Direitos do preso
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

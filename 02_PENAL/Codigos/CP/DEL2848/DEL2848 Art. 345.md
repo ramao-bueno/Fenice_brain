@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-345
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 ---
 
 # DEL2848 Art. 345 — Art. 345
@@ -25,7 +25,7 @@ created: '2026-06-07'
 
 ## REDACAO LEGAL
 
-> Art. 345 - Fazer justiça pelas próprias mãos, para satisfazer pretensão, embora legítima, salvo quando a lei o permite: Pena - detenção, de quinze dias a um mês, ou multa, além da pena correspondente à violência. Parágrafo único - Se não há emprego de violência, somente se procede mediante queixa. &nbsp;
+> Fazer justiça pelas próprias mãos, para satisfazer pretensão, embora legítima, salvo quando a lei o permite: Pena - detenção, de quinze dias a um mês, ou multa, além da pena correspondente à violência. Parágrafo único - Se não há emprego de violência, somente se procede mediante queixa.
 
 ---
 
@@ -52,8 +52,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de quinze dias a um mês, ou multa, além da pena correspondente à violência.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -83,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

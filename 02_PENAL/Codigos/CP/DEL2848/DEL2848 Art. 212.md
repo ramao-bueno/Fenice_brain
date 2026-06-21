@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-212
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 212 - Vilipendiar cadáver ou suas cinzas: Pena - detenção, de um a três anos, e multa. TÍTULO VI DOS CRIMES CONTRA OS COSTUMES CAPÍTULO I DOS CRIMES CONTRA A LIBERDADE SEXUAL TÍTULO VI DOS CRIMES CONTRA A DIGNIDADE SEXUAL (Redação dada pela Lei nº 12.015, de 2009) CAPÍTULO I DOS CRIMES CONTRA A LIBERDADE SEXUAL (Redação dada pela Lei nº 12.015, de 2009) Estupro
+> Vilipendiar cadáver ou suas cinzas: Pena - detenção, de um a três anos, e multa. TÍTULO VI DOS CRIMES CONTRA A DIGNIDADE SEXUAL (Redação dada pela Lei nº 12.015, de 2009) CAPÍTULO I DOS CRIMES CONTRA A LIBERDADE SEXUAL (Redação dada pela Lei nº 12.015, de 2009) Estupro
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de um a três anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-179
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 179 - Fraudar execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas: Pena - detenção, de seis meses a dois anos, ou multa. Parágrafo único - Somente se procede mediante queixa. CAPÍTULO VII DA RECEPTAÇÃO Receptação Art 180. Adquirir, receber ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro de boa fé a adquira, receba ou oculte: Pena - reclusão, de dois a quatro anos, e multa, de quinhentos mil réis a
+> Fraudar execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas: Pena - detenção, de seis meses a dois anos, ou multa. Parágrafo único - Somente se procede mediante queixa. CAPÍTULO VII DA RECEPTAÇÃO Receptação
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** detenção, de seis meses a dois anos, ou multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

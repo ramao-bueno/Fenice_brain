@@ -1,0 +1,87 @@
+---
+artigo: 337-M
+lei: DL 2.848/1940 — Código Penal
+sigla: DEL2848
+categoria: CODIGO_PENAL
+status: vigente
+direito_penal: true
+relacionados: []
+tags:
+- direito-penal
+- vigente
+- codigo_penal
+- art-337-M
+- del2848
+created: '2026-06-20'
+---
+
+# DEL2848 Art. 337-M — Art. 337-M
+
+**Lei:** DL 2.848/1940 — Código Penal
+**Categoria:** CODIGO_PENAL
+**Status:** VIGENTE
+
+---
+
+## REDACAO LEGAL
+
+> Admitir à licitação empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 1 (um) ano a 3 (três) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 1º Celebrar contrato com empresa ou profissional declarado inidôneo: (Incluído pela Lei nº 14.133, de 2021) Pena - reclusão, de 3 (três) anos a 6 (seis) anos, e multa. (Incluído pela Lei nº 14.133, de 2021) § 2º Incide na mesma pena do caput deste artigo aquele que, declarado inidôneo, venha a part
+
+---
+
+## ANALISE TECNICA
+
+### Bem Jurídico Tutelado
+
+[Qual bem jurídico penal este artigo protege?
+Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+
+### Tipo Penal
+
+[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+
+### Dolo/Culpa
+
+[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
+Há tipificação culposa em outro artigo?]
+
+### Tentativa e Consumação
+
+[Qual é o momento de consumação?
+A tentativa é punível conforme art. 14 do CP?]
+
+### Penas Cominadas
+
+**Pena:** reclusão, de 1 (um) ano a 3 (três) anos, e multa.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
+
+---
+
+## ARTIGOS CORRELATOS
+
+### Mesma Lei
+- [[DEL2848 Art. 337-L]] — artigo anterior
+- [[DEL2848 Art. 337-N]] — artigo seguinte
+
+### Outros crimes
+[Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
+causas de exclusão de ilicitude ou culpabilidade]
+
+---
+
+## JURISPRUDENCIA
+
+[Precedentes do STF/STJ sobre este crime — jurisprudência pacífica, controvérsias,
+mudanças de orientação]
+
+---
+
+## OBSERVACOES PRATICAS
+
+[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
+em denúncias, defesas, sentenças?]
+
+---
+
+**Última atualização:** 2026-06-20

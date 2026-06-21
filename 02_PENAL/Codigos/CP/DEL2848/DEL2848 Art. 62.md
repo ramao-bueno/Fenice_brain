@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-62
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Geral
 titulo: Disposições Gerais
 ---
@@ -27,7 +27,7 @@ titulo: Disposições Gerais
 
 ## REDACAO LEGAL
 
-> Art. 62 - A pena será ainda agravada em relação ao agente que:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) I - promove, ou organiza a cooperação no crime ou dirige a atividade dos demais agentes;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - coage ou induz outrem à execução material do crime;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> A pena será ainda agravada em relação ao agente que: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - promove, ou organiza a cooperação no crime ou dirige a atividade dos demais agentes; (Redação dada pela Lei nº 7.209, de 11.7.1984) II - coage ou induz outrem à execução material do crime; (Redação dada pela Lei nº 7.209, de 11.7.1984) III - instiga ou determina a cometer o crime alguém sujeito à sua autoridade ou não-punível em virtude de condição ou qualidade pessoal; (Redação dada pela Lei
 
 ---
 
@@ -54,8 +54,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+[Pena não localizada — artigo não comina pena diretamente ou texto truncado.]
 
 ---
 
@@ -85,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

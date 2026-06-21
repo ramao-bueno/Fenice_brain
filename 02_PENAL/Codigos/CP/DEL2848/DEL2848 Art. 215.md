@@ -12,7 +12,7 @@ tags:
 - codigo_penal
 - art-215
 - del2848
-created: '2026-06-07'
+created: '2026-06-20'
 parte: Especial
 titulo: Dos Crimes
 ---
@@ -27,7 +27,7 @@ titulo: Dos Crimes
 
 ## REDACAO LEGAL
 
-> Art. 215. Ter conjunção carnal com mulher, mediante fraude:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 11.106, de 2005) Pena - reclusão, de um a três anos. Parágrafo único - Se o crime é praticado contra mulher virgem, menor de 18 (dezoito) e maior de 14 (catorze) anos: Pena - reclusão, de dois a seis anos. Violação sexual mediante fraude&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Redação dada pela Lei nº 12.015
+> Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima: (Redação dada pela Lei nº 12.015, de 2009) Pena - reclusão, de 2 (dois) a 6 (seis) anos. (Redação dada pela Lei nº 12.015, de 2009) Parágrafo único. Se o crime é cometido com o fim de obter vantagem econômica, aplica-se também multa. (Redação dada pela Lei nº 12.015, de 2009) Importunação sexual (Incluído pela Lei nº 13.718, de 2018)
 
 ---
 
@@ -54,8 +54,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ### Penas Cominadas
 
-[Qual é a pena? Isolada ou cumulativa?
-Há circunstâncias agravantes/atenuantes?]
+**Pena:** reclusão, de 2 (dois) a 6 (seis) anos.
+
+[Há qualificadoras ou causas de aumento/diminuição?]
 
 ---
 
@@ -63,7 +64,7 @@ Há circunstâncias agravantes/atenuantes?]
 
 ### Mesma Lei
 - [[DEL2848 Art. 214]] — artigo anterior
-- [[DEL2848 Art. 216]] — artigo seguinte
+- [[DEL2848 Art. 215-A]] — artigo seguinte
 
 ### Outros crimes
 [Dispositivos do CP que se relacionam — crimes conexos, concurso de crimes,
@@ -85,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-07
+**Última atualização:** 2026-06-20

@@ -304,6 +304,106 @@ def listar_leis_por_ano(ano: int) -> List[str]:
     return list(set(todos_links))
 
 
+# ── Persistência Supabase (opcional) ─────────────────────────────────────────
+
+def _db_conn():
+    """Retorna conexão psycopg2 lendo credenciais do .env. Retorna None se não configurado."""
+    try:
+        import psycopg2
+    except ImportError:
+        return None
+
+    env_file = PROJECT_ROOT / ".env"
+    if env_file.exists():
+        for linha in env_file.read_text(encoding="utf-8").splitlines():
+            if "=" in linha and not linha.strip().startswith("#"):
+                k, _, v = linha.partition("=")
+                os.environ.setdefault(k.strip(), v.strip())
+
+    host = os.environ.get("DB_HOST", "")
+    if not host:
+        return None
+
+    try:
+        import psycopg2
+        conn = psycopg2.connect(
+            host=host,
+            port=int(os.environ.get("DB_PORT", "5432")),
+            dbname=os.environ.get("DB_NAME", "postgres"),
+            user=os.environ.get("DB_USER", "postgres"),
+            password=os.environ.get("DB_PASS", ""),
+            connect_timeout=10,
+            sslmode="require",
+        )
+        return conn
+    except Exception as e:
+        print(f"  ⚠️  Supabase: não conectado ({e})")
+        return None
+
+
+def _extrair_tipo_ato(titulo: str) -> str:
+    t = titulo.lower()
+    if "lei complementar" in t:
+        return "Lei Complementar"
+    if "decreto-lei" in t or "decreto lei" in t:
+        return "Decreto-Lei"
+    if "decreto" in t:
+        return "Decreto"
+    if "medida provisória" in t or "medida provisoria" in t:
+        return "Medida Provisória"
+    if "instrução normativa" in t or "instrucao normativa" in t:
+        return "Instrução Normativa"
+    if "lei" in t:
+        return "Lei Federal"
+    return "Ato Normativo"
+
+
+def _numero_ano_chave(dados: Dict) -> str:
+    tipo = _extrair_tipo_ato(dados.get("titulo", ""))
+    return f"{tipo} {dados.get('numero', '')}/{dados.get('ano', '')}"
+
+
+_UPSERT_SQL = """
+INSERT INTO legislacao_brasileira
+    (esfera, tipo_ato, numero_ano, ementa, texto_vigente,
+     fragmentos_revogados, url_origem)
+VALUES
+    (%(esfera)s, %(tipo_ato)s, %(numero_ano)s, %(ementa)s, %(texto_vigente)s,
+     %(fragmentos_revogados)s, %(url_origem)s)
+ON CONFLICT (numero_ano) DO UPDATE SET
+    ementa               = EXCLUDED.ementa,
+    texto_vigente        = EXCLUDED.texto_vigente,
+    fragmentos_revogados = EXCLUDED.fragmentos_revogados,
+    url_origem           = EXCLUDED.url_origem,
+    data_captura         = CURRENT_TIMESTAMP;
+"""
+
+
+def upsert_legislacao(dados: Dict, conn) -> bool:
+    """Upsert da lei em legislacao_brasileira. Retorna True se bem-sucedido."""
+    chave = _numero_ano_chave(dados)
+    try:
+        with conn.cursor() as cur:
+            cur.execute(_UPSERT_SQL, {
+                "esfera":               "Federal",
+                "tipo_ato":             _extrair_tipo_ato(dados.get("titulo", "")),
+                "numero_ano":           chave,
+                "ementa":               dados.get("ementa", ""),
+                "texto_vigente":        dados["texto_vigente"],
+                "fragmentos_revogados": len(dados.get("fragmentos_revogados", [])),
+                "url_origem":           dados["url_origem"],
+            })
+        conn.commit()
+        return True
+    except Exception as e:
+        print(f"  ⚠️  Supabase upsert falhou ({chave}): {e}")
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        return False
+
+
 # ── Gerador de Nota Markdown ──────────────────────────────────────────────────
 
 def gerar_nota_lei(dados: Dict) -> str:
@@ -374,8 +474,8 @@ created: '{dados['ultima_atualizacao']}'
     return f"{fm}\n\n{corpo}"
 
 
-def salvar_nota(dados: Dict, output_dir: Path) -> Optional[Path]:
-    """Salva a nota markdown da lei no vault."""
+def salvar_nota(dados: Dict, output_dir: Path, conn=None) -> Optional[Path]:
+    """Salva a nota markdown no vault e faz upsert no Supabase (se conn disponível)."""
     output_dir.mkdir(parents=True, exist_ok=True)
     num = dados["numero"]
     ano = dados["ano"]
@@ -384,10 +484,16 @@ def salvar_nota(dados: Dict, output_dir: Path) -> Optional[Path]:
 
     try:
         path.write_text(gerar_nota_lei(dados), encoding="utf-8")
-        return path
     except Exception as e:
         print(f"  ❌ Erro ao salvar {nome}: {e}")
         return None
+
+    if conn is not None:
+        ok = upsert_legislacao(dados, conn)
+        if ok:
+            print(f"  🗄️  Supabase: {_numero_ano_chave(dados)}")
+
+    return path
 
 
 # ── CLI Principal ─────────────────────────────────────────────────────────────
@@ -419,6 +525,12 @@ def main():
             print(f"   ... e mais {len(leis)-5}")
 
     elif args.url or args.lei:
+        conn = _db_conn()
+        if conn:
+            print("🗄️  Supabase: conectado")
+        else:
+            print("⚠️  Supabase: desativado (configure DB_* no .env)")
+
         if args.url:
             url = args.url
         else:
@@ -435,9 +547,12 @@ def main():
             print(f"   Revogados: {len(dados['fragmentos_revogados'])} fragmentos")
 
             print("📝 Gerando nota...")
-            path = salvar_nota(dados, OUTPUT_LEIS_DIR)
+            path = salvar_nota(dados, OUTPUT_LEIS_DIR, conn=conn)
             if path:
                 print(f"   ✅ Salvo: {path}")
+
+        if conn:
+            conn.close()
 
     else:
         parser.print_help()

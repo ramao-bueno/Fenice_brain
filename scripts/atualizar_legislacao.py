@@ -23,6 +23,7 @@ from planalto_pipeline import (
     baixar_html,
     parsear_lei,
     salvar_nota,
+    _db_conn,
     OUTPUT_LEIS_DIR,
 )
 
@@ -72,6 +73,12 @@ def main():
     print(f"Vault: {output_dir}")
     print("=" * 70)
 
+    conn = _db_conn()
+    if conn:
+        print("🗄️  Supabase: conectado — leis serão persistidas no banco")
+    else:
+        print("⚠️  Supabase: desativado (configure DB_* no .env)")
+
     # 1. Lista leis disponíveis no Planalto para o ano
     print(f"\n[1/3] Listando leis de {ano} no Planalto...")
     urls = listar_leis_por_ano(ano)
@@ -112,7 +119,7 @@ def main():
 
         try:
             dados = parsear_lei(caminho)
-            path = salvar_nota(dados, output_dir)
+            path = salvar_nota(dados, output_dir, conn=conn)
             if path:
                 print(f"      [OK] Salvo: {path.name}")
                 salvas += 1
@@ -121,6 +128,9 @@ def main():
         except Exception as e:
             print(f"      [ERRO] {e}")
             erros += 1
+
+    if conn:
+        conn.close()
 
     # Relatorio final
     print("\n" + "=" * 70)

@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: penal
-ramo: Direito Penal
-
+ramo: "Direito Penal"
+---
 # Súmula STJ 542
 
 **Tribunal:** Superior Tribunal de Justiça

@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: ambiental
-ramo: Direito Ambiental
-
+ramo: "Direito Ambiental"
+---
 # Súmula STJ 618
 
 **Tribunal:** Superior Tribunal de Justiça

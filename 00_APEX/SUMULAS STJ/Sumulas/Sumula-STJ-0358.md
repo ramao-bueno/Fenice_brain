@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: constitucional
-ramo: Direito Constitucional
-
+ramo: "Direito Constitucional"
+---
 # Súmula STJ 358
 
 **Tribunal:** Superior Tribunal de Justiça

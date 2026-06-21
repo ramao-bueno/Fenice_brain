@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: consumidor
-ramo: Direito do Consumidor
-
+ramo: "Direito do Consumidor"
+---
 # Súmula STJ 595
 
 **Tribunal:** Superior Tribunal de Justiça

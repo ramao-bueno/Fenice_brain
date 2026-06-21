@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: previdenciario
-ramo: Direito Previdenciário
-
+ramo: "Direito Previdenciário"
+---
 # Súmula STJ 663
 
 **Tribunal:** Superior Tribunal de Justiça

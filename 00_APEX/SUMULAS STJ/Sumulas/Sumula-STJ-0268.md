@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: processual-civil
-ramo: Direito Processual Civil
-
+ramo: "Direito Processual Civil"
+---
 # Súmula STJ 268
 
 **Tribunal:** Superior Tribunal de Justiça

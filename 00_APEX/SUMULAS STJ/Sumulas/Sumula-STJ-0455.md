@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: jurisprudencia-pacifica
-ramo: geral
-
+ramo: "geral"
+---
 # Súmula STJ 455
 
 **Tribunal:** Superior Tribunal de Justiça

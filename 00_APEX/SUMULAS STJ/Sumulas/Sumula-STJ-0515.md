@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: administrativo
-ramo: Direito Administrativo
-
+ramo: "Direito Administrativo"
+---
 # Súmula STJ 515
 
 **Tribunal:** Superior Tribunal de Justiça

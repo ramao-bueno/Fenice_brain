@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: empresarial
-ramo: Direito Empresarial
-
+ramo: "Direito Empresarial"
+---
 # Súmula STJ 581
 
 **Tribunal:** Superior Tribunal de Justiça

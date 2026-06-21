@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: tributario
-ramo: Direito Tributário
-
+ramo: "Direito Tributário"
+---
 # Súmula STJ 393
 
 **Tribunal:** Superior Tribunal de Justiça

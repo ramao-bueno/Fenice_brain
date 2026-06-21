@@ -116,12 +116,8 @@ def _ramo(tema: str) -> str:
     return RAMOS.get(tema, "Geral")
 
 
-RE_FM_START = re.compile(r"^---\n")
-RE_FM_END = re.compile(r"^---\n", re.MULTILINE)
-
-
 def enriquecer_arquivo(filepath: Path, dry_run: bool = False) -> bool:
-    """Lê o arquivo, classifica o tema, atualiza o frontmatter."""
+    """Lê o arquivo, classifica o tema, insere tema/ramo DENTRO do frontmatter."""
     texto = filepath.read_text(encoding="utf-8")
 
     # Extrai o texto da súmula da seção ## TEXTO DA SÚMULA
@@ -132,22 +128,33 @@ def enriquecer_arquivo(filepath: Path, dry_run: bool = False) -> bool:
     sumula_text = m_texto.group(1).strip()
     tema, ramo = classificar_tema(sumula_text)
 
-    # Atualiza o frontmatter: substitui tema e adiciona ramo
-    def _substituir_fm(m):
-        fm = m.group(0)
-        # Atualiza tema
-        if re.search(r'^tema:', fm, re.MULTILINE):
-            fm = re.sub(r'^tema:.*$', f'tema: {tema}', fm, flags=re.MULTILINE)
-        else:
-            fm = fm.rstrip('\n') + f'\ntema: {tema}\n'
-        # Atualiza ou adiciona ramo
-        if re.search(r'^ramo:', fm, re.MULTILINE):
-            fm = re.sub(r'^ramo:.*$', f'ramo: {ramo}', fm, flags=re.MULTILINE)
-        else:
-            fm = fm.rstrip('\n') + f'\nramo: {ramo}\n'
-        return fm
+    # Separa frontmatter do corpo
+    # Formato esperado: ---\n{yaml}\n---\n{corpo}
+    m_fm = re.match(r"(?s)^---\n(.*?)\n---\n(.*)", texto)
+    if not m_fm:
+        return False
 
-    novo_texto = re.sub(r"(?s)^---\n.*?---\n", _substituir_fm, texto, count=1)
+    yaml_content = m_fm.group(1)
+    corpo = m_fm.group(2)
+
+    # Remove tema/ramo soltos no início do corpo (bug da versão anterior)
+    corpo = re.sub(r"^tema:.*\n", "", corpo)
+    corpo = re.sub(r"^ramo:.*\n", "", corpo)
+    # Remove linhas vazias extras no início do corpo que ficaram do bug
+    corpo = corpo.lstrip("\n")
+
+    # Atualiza ou insere tema/ramo no bloco YAML
+    if re.search(r'^tema:', yaml_content, re.MULTILINE):
+        yaml_content = re.sub(r'^tema:.*$', f'tema: {tema}', yaml_content, flags=re.MULTILINE)
+    else:
+        yaml_content = yaml_content.rstrip('\n') + f'\ntema: {tema}'
+
+    if re.search(r'^ramo:', yaml_content, re.MULTILINE):
+        yaml_content = re.sub(r'^ramo:.*$', f'ramo: "{ramo}"', yaml_content, flags=re.MULTILINE)
+    else:
+        yaml_content = yaml_content.rstrip('\n') + f'\nramo: "{ramo}"'
+
+    novo_texto = f"---\n{yaml_content}\n---\n{corpo}"
 
     if novo_texto == texto:
         return False

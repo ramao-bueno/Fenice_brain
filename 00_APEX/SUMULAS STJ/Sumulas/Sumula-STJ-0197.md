@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: civil
-ramo: Direito Civil
-
+ramo: "Direito Civil"
+---
 # Súmula STJ 197
 
 **Tribunal:** Superior Tribunal de Justiça

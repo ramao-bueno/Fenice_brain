@@ -15,10 +15,9 @@ tags:
 - jurisprudencia-pacifica
 - stj
 created: '2026-06-21'
----
 tema: processual-penal
-ramo: Direito Processual Penal
-
+ramo: "Direito Processual Penal"
+---
 # Súmula STJ 21
 
 **Tribunal:** Superior Tribunal de Justiça

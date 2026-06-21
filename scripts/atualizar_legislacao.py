@@ -118,7 +118,7 @@ def main():
             continue
 
         try:
-            dados = parsear_lei(caminho)
+            dados = parsear_lei(caminho, url_origem=url)
             path = salvar_nota(dados, output_dir, conn=conn)
             if path:
                 print(f"      [OK] Salvo: {path.name}")

@@ -117,7 +117,7 @@ def baixar_html(url: str, forcar: bool = False) -> Optional[Path]:
 
 # ── Parser Semântico ──────────────────────────────────────────────────────────
 
-def parsear_lei(caminho_html: Path) -> Dict:
+def parsear_lei(caminho_html: Path, url_origem: str = None) -> Dict:
     """
     Parser semântico que separa texto vigente de texto revogado.
 
@@ -127,7 +127,7 @@ def parsear_lei(caminho_html: Path) -> Dict:
       <del>...</del>  → idem (padrão HTML5)
 
     Extrai também a ementa da lei (campo "ementa") e corrige o campo "ano"
-    a partir do path do cache (ex: _ato2019-2022/2021/lei/l14133.htm).
+    preferencialmente a partir da URL de origem (ex: .../2021/lei/l14133.htm).
     """
     html = caminho_html.read_text(encoding="utf-8", errors="replace")
     soup = BeautifulSoup(html, "html.parser")
@@ -135,12 +135,19 @@ def parsear_lei(caminho_html: Path) -> Dict:
     titulo_tag = soup.find("title")
     titulo = titulo_tag.get_text(strip=True) if titulo_tag else caminho_html.stem
 
-    # Extrai número e ano do título, URL ou nome do arquivo
+    # Extrai número da lei
     num_lei = _extrair_numero_lei(titulo, caminho_html.stem)
-    # Extrai o ano do path do cache (ex: _ato2019-2022/2021/lei/l14133.htm)
-    caminho_str = str(caminho_html)
-    m_ano_path = re.search(r"[/\\](\d{4})[/\\]", caminho_str)
-    ano_lei = m_ano_path.group(1) if m_ano_path else _extrair_ano(titulo, caminho_html.stem)
+
+    # Extrai ano: prioridade 1 = URL de origem (mais confiável)
+    ano_lei = None
+    if url_origem:
+        m = re.search(r"/(\d{4})/lei/", url_origem, re.IGNORECASE)
+        if m:
+            ano_lei = m.group(1)
+    if not ano_lei:
+        # Prioridade 2 = path do cache (funciona apenas se o cache preservar o path)
+        m_ano_path = re.search(r"[/\\](\d{4})[/\\]", str(caminho_html))
+        ano_lei = m_ano_path.group(1) if m_ano_path else _extrair_ano(titulo, caminho_html.stem)
 
     # Extrai ementa antes de modificar o DOM com decompose()
     ementa = _extrair_ementa(soup, titulo)
@@ -180,7 +187,7 @@ def parsear_lei(caminho_html: Path) -> Dict:
         "ementa": ementa,
         "texto_vigente": "\n\n".join(vigente_unico),
         "fragmentos_revogados": fragmentos_revogados,
-        "url_origem": f"{PLANALTO_BASE}/ccivil_03/leis/{ano_lei}/L{num_lei}.htm",
+        "url_origem": url_origem or f"{PLANALTO_BASE}/ccivil_03/leis/{ano_lei}/L{num_lei}.htm",
         "ultima_atualizacao": datetime.now().strftime("%Y-%m-%d"),
     }
 
@@ -541,7 +548,7 @@ def main():
 
         if caminho:
             print("🔍 Parsing semântico...")
-            dados = parsear_lei(caminho)
+            dados = parsear_lei(caminho, url_origem=url)
             print(f"   Título: {dados['titulo']}")
             print(f"   Vigente: {len(dados['texto_vigente'])} chars")
             print(f"   Revogados: {len(dados['fragmentos_revogados'])} fragmentos")

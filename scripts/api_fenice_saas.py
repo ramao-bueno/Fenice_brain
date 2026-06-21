@@ -12,7 +12,10 @@ Documentação interativa:
 """
 from __future__ import annotations
 
+import hashlib as _hashlib
+import hmac as _hmac
 import os
+import time as _time
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -79,6 +82,11 @@ def _carregar_prompt(nome: str) -> str:
 # ---------------------------------------------------------------------------
 # Modelos Pydantic — Request / Response
 # ---------------------------------------------------------------------------
+
+class AuthRequest(BaseModel):
+    usuario: str = Field(..., min_length=1, max_length=64, description="Nome de usuário")
+    senha:   str = Field(..., min_length=1, max_length=128, description="Senha")
+
 
 class BuscarRequest(BaseModel):
     query:  str = Field(..., min_length=2, max_length=500, description="Termos de busca juridica")
@@ -178,6 +186,35 @@ async def health() -> Dict[str, Any]:
         "banco":          {"ok": db_ok, "detalhe": db_msg},
         "rag_disponivel": _RAG_DISPONIVEL,
     }
+
+
+# ---------------------------------------------------------------------------
+# POST /auth  — login do painel
+# ---------------------------------------------------------------------------
+
+@app.post(
+    "/auth",
+    tags=["Acesso"],
+    summary="Autenticação do painel (modal de login)",
+)
+async def auth_login(body: AuthRequest):
+    """
+    Valida usuário/senha contra as variáveis de ambiente `SITE_USER` e `SITE_PASS`.
+    Retorna um token de sessão a ser armazenado no client (sessionStorage).
+    """
+    site_user = os.getenv("SITE_USER", "admin")
+    site_pass = os.getenv("SITE_PASS", "")
+
+    if not site_pass:
+        raise HTTPException(status_code=503, detail="SITE_PASS não configurado no servidor.")
+
+    if body.usuario != site_user or body.senha != site_pass:
+        raise HTTPException(status_code=401, detail="Usuário ou senha incorretos.")
+
+    secret = os.getenv("SITE_SECRET", "fenice_secret_fallback")
+    ts = str(int(_time.time()))
+    sig = _hmac.new(secret.encode(), f"{body.usuario}:{ts}".encode(), _hashlib.sha256).hexdigest()[:24]
+    return {"ok": True, "token": f"fenice_{ts}_{sig}"}
 
 
 # ---------------------------------------------------------------------------

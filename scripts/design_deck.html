@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenice bRain — Apresentação</title>
+  <meta name="hz:slide-selector" content=".slide">
+  <meta name="hz:canvas-width" content="1920">
+  <meta name="hz:canvas-height" content="1080">
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      background: #0b0f1a;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      padding: 48px;
+      align-items: center;
+    }
+
+    /* ── SLIDE BASE ── */
+    .slide {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      background: #04080f;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .top-line {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: rgba(201,162,39,0.25);
+    }
+    .slide-num {
+      position: absolute;
+      bottom: 48px; right: 72px;
+      font-family: "acumin-pro", sans-serif;
+      font-size: 18px;
+      color: rgba(201,162,39,0.35);
+      letter-spacing: 0.12em;
+    }
+    .logo-mark {
+      position: absolute;
+      bottom: 44px; left: 72px;
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: rgba(201,162,39,0.45);
+      letter-spacing: 0.05em;
+    }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 1 — TITLE                         */
+    /* ─────────────────────────────────────── */
+    .s1-glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -52%);
+      width: 960px; height: 960px;
+      background: radial-gradient(ellipse, rgba(201,162,39,0.11) 0%, transparent 65%);
+      border-radius: 50%;
+    }
+    .s1-content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 1400px;
+    }
+    .s1-seal { margin-bottom: 40px; }
+    .s1-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 168px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+    .s1-title .g { color: #f59e0b; }
+    .s1-title .w { color: #f1f5f9; }
+    .s1-tagline {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: #94a3b8;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 48px;
+    }
+    .s1-divider {
+      width: 240px;
+      height: 1px;
+      background: rgba(201,162,39,0.4);
+      margin: 0 auto 28px;
+    }
+    .s1-url {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 26px;
+      color: rgba(201,162,39,0.55);
+      letter-spacing: 0.04em;
+    }
+    /* corner accents */
+    .corner {
+      position: absolute;
+      width: 40px; height: 40px;
+    }
+    .corner-tl { top: 32px; left: 32px; border-top: 2px solid rgba(201,162,39,0.4); border-left: 2px solid rgba(201,162,39,0.4); }
+    .corner-tr { top: 32px; right: 32px; border-top: 2px solid rgba(201,162,39,0.4); border-right: 2px solid rgba(201,162,39,0.4); }
+    .corner-bl { bottom: 32px; left: 32px; border-bottom: 2px solid rgba(201,162,39,0.4); border-left: 2px solid rgba(201,162,39,0.4); }
+    .corner-br { bottom: 32px; right: 32px; border-bottom: 2px solid rgba(201,162,39,0.4); border-right: 2px solid rgba(201,162,39,0.4); }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 2 — PROBLEMA                      */
+    /* ─────────────────────────────────────── */
+    .s2-left {
+      position: absolute;
+      top: 0; left: 0;
+      width: 860px; height: 1080px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 100px 100px 100px 120px;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .s2-label {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f59e0b;
+      margin-bottom: 32px;
+    }
+    .s2-qm {
+      font-family: "skeena-display", serif;
+      font-size: 200px;
+      color: rgba(201,162,39,0.08);
+      line-height: 0.65;
+      margin-bottom: -32px;
+      display: block;
+    }
+    .s2-quote {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 46px;
+      line-height: 1.3;
+      color: #f1f5f9;
+      margin-bottom: 40px;
+    }
+    .s2-quote em { color: #f59e0b; font-style: normal; }
+    .s2-author {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 18px;
+      color: #475569;
+      letter-spacing: 0.06em;
+    }
+    .s2-right {
+      position: absolute;
+      top: 0; right: 0;
+      width: 1060px; height: 1080px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 100px 120px 100px 80px;
+      gap: 28px;
+    }
+    .s2-stat {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 32px 40px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+      border-left: 4px solid #f59e0b;
+    }
+    .s2-stat.s { border-left-color: #10b981; }
+    .s2-stat.p { border-left-color: #8b5cf6; }
+    .s2-num {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 72px;
+      color: #f59e0b;
+      line-height: 1;
+      min-width: 180px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .s2-stat.s .s2-num { color: #10b981; }
+    .s2-stat.p .s2-num { color: #8b5cf6; }
+    .s2-txt {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 24px;
+      color: #94a3b8;
+      line-height: 1.45;
+    }
+    .s2-txt strong { color: #f1f5f9; font-weight: 600; }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 3 — SOLUÇÃO                       */
+    /* ─────────────────────────────────────── */
+    .s3-header {
+      position: absolute;
+      top: 88px; left: 0; right: 0;
+      text-align: center;
+    }
+    .s3-label {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f59e0b;
+      margin-bottom: 16px;
+    }
+    .s3-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 80px;
+      letter-spacing: -0.025em;
+      color: #f1f5f9;
+    }
+    .s3-title em { color: #f59e0b; font-style: normal; }
+    .s3-sub {
+      font-family: "adelle", serif;
+      font-size: 26px;
+      color: #64748b;
+      margin-top: 12px;
+    }
+    .s3-flow {
+      position: absolute;
+      top: 340px;
+      left: 80px; right: 80px;
+      display: flex;
+      align-items: stretch;
+    }
+    .s3-step {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 56px 48px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      position: relative;
+    }
+    .s3-step:first-child { border-radius: 20px 0 0 20px; }
+    .s3-step:last-child  { border-radius: 0 20px 20px 0; }
+    .s3-step-top {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 3px 3px 0 0;
+    }
+    .s3-step:nth-child(1) .s3-step-top { background: #f59e0b; }
+    .s3-step:nth-child(3) .s3-step-top { background: #8b5cf6; }
+    .s3-step:nth-child(5) .s3-step-top { background: #10b981; }
+    .s3-num {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      background: rgba(201,162,39,0.08);
+      border: 1px solid rgba(201,162,39,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 36px;
+      color: #f59e0b;
+      margin-bottom: 28px;
+      flex-shrink: 0;
+    }
+    .s3-step-title {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 32px;
+      color: #f1f5f9;
+      margin-bottom: 16px;
+    }
+    .s3-step-desc {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 20px;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+    .s3-code {
+      font-family: "Courier New", monospace;
+      font-size: 22px;
+      color: #f59e0b;
+      background: rgba(245,158,11,0.08);
+      border: 1px solid rgba(245,158,11,0.15);
+      padding: 10px 24px;
+      border-radius: 8px;
+      letter-spacing: 0.02em;
+    }
+    .s3-arrow {
+      width: 64px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+    }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 4 — ENDPOINTS                     */
+    /* ─────────────────────────────────────── */
+    .s4-header {
+      position: absolute;
+      top: 80px; left: 120px;
+    }
+    .s4-label {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f59e0b;
+      margin-bottom: 16px;
+    }
+    .s4-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 72px;
+      letter-spacing: -0.02em;
+      color: #f1f5f9;
+    }
+    .s4-grid {
+      position: absolute;
+      top: 240px;
+      left: 80px; right: 80px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .s4-card {
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+      padding: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .s4-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 3px 3px 0 0;
+    }
+    .s4-card.free::before    { background: linear-gradient(90deg, #10b981, transparent 80%); }
+    .s4-card.premium::before { background: linear-gradient(90deg, #8b5cf6, rgba(245,158,11,0.5) 80%); }
+    .s4-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .s4-method {
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+    .get  { background: rgba(16,185,129,0.15); color: #34d399; }
+    .post { background: rgba(59,130,246,0.15);  color: #60a5fa; }
+    .s4-path {
+      font-family: "Courier New", monospace;
+      font-size: 20px;
+      color: #f1f5f9;
+      font-weight: 600;
+    }
+    .s4-tier {
+      margin-left: auto;
+      font-family: "acumin-pro", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+    .tf { background: rgba(16,185,129,0.12); color: #10b981; border: 1px solid rgba(16,185,129,0.2); }
+    .tp { background: rgba(139,92,246,0.12); color: #8b5cf6; border: 1px solid rgba(139,92,246,0.2); }
+    .s4-name {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+    .s4-desc {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 16px;
+      color: #64748b;
+      line-height: 1.55;
+    }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 5 — STACK TÉCNICO                 */
+    /* ─────────────────────────────────────── */
+    .s5-header {
+      position: absolute;
+      top: 80px; left: 0; right: 0;
+      text-align: center;
+    }
+    .s5-label {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #f59e0b;
+      margin-bottom: 16px;
+    }
+    .s5-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 72px;
+      letter-spacing: -0.025em;
+      color: #f1f5f9;
+    }
+    .s5-stack {
+      position: absolute;
+      top: 270px;
+      left: 80px; right: 80px;
+      display: flex;
+      gap: 24px;
+    }
+    .s5-card {
+      flex: 1;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 20px;
+      padding: 48px 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    .s5-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .s5-card:nth-child(1)::before { background: #10b981; }
+    .s5-card:nth-child(2)::before { background: #f59e0b; }
+    .s5-card:nth-child(3)::before { background: #3b82f6; }
+    .s5-card:nth-child(4)::before { background: #8b5cf6; }
+    .s5-card:nth-child(5)::before { background: #ec4899; }
+    .s5-icon {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 1;
+    }
+    .s5-card:nth-child(1) .s5-icon { color: #10b981; }
+    .s5-card:nth-child(2) .s5-icon { color: #f59e0b; }
+    .s5-card:nth-child(3) .s5-icon { color: #60a5fa; }
+    .s5-card:nth-child(4) .s5-icon { color: #8b5cf6; }
+    .s5-card:nth-child(5) .s5-icon { color: #f472b6; }
+    .s5-name {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #f1f5f9;
+    }
+    .s5-role {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 13px;
+      color: #475569;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .s5-detail {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 16px;
+      color: #94a3b8;
+      line-height: 1.55;
+      margin-top: auto;
+    }
+
+    /* ─────────────────────────────────────── */
+    /* SLIDE 6 — CTA                           */
+    /* ─────────────────────────────────────── */
+    .s6-glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1100px; height: 1100px;
+      background: radial-gradient(ellipse, rgba(201,162,39,0.1) 0%, transparent 60%);
+      border-radius: 50%;
+    }
+    .s6-content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -52%);
+      text-align: center;
+      width: 1400px;
+    }
+    .s6-eyebrow {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #f59e0b;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .s6-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 110px;
+      line-height: 1;
+      letter-spacing: -0.025em;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+    .s6-title em { color: #f59e0b; font-style: normal; }
+    .s6-sub {
+      font-family: "adelle", serif;
+      font-size: 32px;
+      color: #64748b;
+      margin-bottom: 56px;
+    }
+    .s6-btn {
+      display: inline-block;
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      color: #000;
+      background: #f59e0b;
+      padding: 24px 72px;
+      border-radius: 12px;
+      letter-spacing: 0.02em;
+      margin-bottom: 40px;
+      box-shadow: 0 0 80px rgba(245,158,11,0.3);
+    }
+    .s6-free {
+      display: block;
+      font-family: "acumin-pro", sans-serif;
+      font-size: 20px;
+      color: #10b981;
+      letter-spacing: 0.08em;
+    }
+    .s6-seal {
+      position: absolute;
+      right: 120px;
+      bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 1 — IDENTIDADE                     -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+  <div class="s1-glow"></div>
+
+  <div class="s1-content">
+    <div class="s1-seal">
+      <svg width="140" height="140" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;">
+        <defs>
+          <path id="aT1" d="M 16,100 A 84,84 0 0,0 184,100"/>
+          <radialGradient id="gC1" cx="50%" cy="50%" r="35%">
+            <stop offset="0%" stop-color="#c9a227" stop-opacity="0.12"/>
+            <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="100" fill="#04080f"/>
+        <circle cx="100" cy="100" r="65" fill="url(#gC1)"/>
+        <circle cx="100" cy="100" r="97" fill="none" stroke="#c9a227" stroke-width="0.7"/>
+        <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.2"/>
+        <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+        <text font-family="Georgia,'Times New Roman',serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+          <textPath href="#aT1" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+        </text>
+        <text x="100" y="135" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+        <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+        <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+        <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+        <rect x="98.5" y="62" width="3" height="58" rx="1.5" fill="#c9a227"/>
+        <rect x="66" y="75" width="68" height="2.5" rx="1.25" fill="#c9a227"/>
+        <line x1="74" y1="77.5" x2="67" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="74" y1="77.5" x2="81" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 62,95 Q 74,106 86,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <line x1="126" y1="77.5" x2="119" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="126" y1="77.5" x2="133" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 114,95 Q 126,106 138,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+        <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+        <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+        <circle cx="52" cy="91" r="2.2" fill="#04080f"/><circle cx="58" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="52" cy="91" r="0.8" fill="#c9a227"/><circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+        <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+        <rect x="137" y="77" width="14" height="45" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+        <rect x="134" y="122" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      </svg>
+    </div>
+
+    <p class="s1-title">
+      <span class="g">Fenice</span><span class="w"> bRain</span>
+    </p>
+    <p class="s1-tagline">Vade Mecum Dinâmico &nbsp;·&nbsp; SaaS API Jurídica</p>
+    <div class="s1-divider"></div>
+    <p class="s1-url">fenice-justech.vercel.app</p>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 2 — O PROBLEMA                     -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+
+  <div class="s2-left">
+    <p class="s2-label">O Desafio</p>
+    <span class="s2-qm">"</span>
+    <p class="s2-quote">
+      Pesquisar legislação consome <em>horas</em> que deveriam ser dedicadas à <em>estratégia jurídica.</em>
+    </p>
+    <p class="s2-author">— Realidade dos escritórios jurídicos brasileiros</p>
+  </div>
+
+  <div class="s2-right">
+    <div class="s2-stat">
+      <span class="s2-num">+10k</span>
+      <span class="s2-txt"><strong>normas federais</strong><br>em vigor no ordenamento jurídico brasileiro</span>
+    </div>
+    <div class="s2-stat s">
+      <span class="s2-num">674</span>
+      <span class="s2-txt"><strong>Súmulas STJ</strong> e <strong>736 Súmulas STF</strong><br>indexadas e pesquisáveis por texto</span>
+    </div>
+    <div class="s2-stat p">
+      <span class="s2-num">60%</span>
+      <span class="s2-txt">do tempo de pesquisa jurídica pode ser<br><strong>eliminado com FTS inteligente</strong></span>
+    </div>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 3 — A SOLUÇÃO                      -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+
+  <div class="s3-header">
+    <p class="s3-label">A Solução</p>
+    <p class="s3-title">Fenice bRain em <em>3 passos</em></p>
+    <p class="s3-sub">Do pedido ao prompt jurídico fundamentado em legislação real</p>
+  </div>
+
+  <div class="s3-flow">
+    <div class="s3-step">
+      <div class="s3-step-top"></div>
+      <div class="s3-num">1</div>
+      <p class="s3-step-title">Busque a Legislação</p>
+      <p class="s3-step-desc">Envie sua dúvida jurídica em texto livre. O Full-Text Search em português recupera trechos relevantes com ranking semântico — com ou sem acentuação.</p>
+      <span class="s3-code">POST /buscar</span>
+    </div>
+
+    <div class="s3-arrow">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <path d="M8 20 L28 20 M20 12 L28 20 L20 28" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div class="s3-step">
+      <div class="s3-step-top"></div>
+      <div class="s3-num">2</div>
+      <p class="s3-step-title">Receba o Contexto</p>
+      <p class="s3-step-desc">Os endpoints Premium preenchem templates de prompt — grounding jurídico, hermenêutica filosófica ou revisão de TCC — com os trechos legais recuperados.</p>
+      <span class="s3-code">POST /analisar</span>
+    </div>
+
+    <div class="s3-arrow">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <path d="M8 20 L28 20 M20 12 L28 20 L20 28" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div class="s3-step">
+      <div class="s3-step-top"></div>
+      <div class="s3-num">3</div>
+      <p class="s3-step-title">Injete no LLM</p>
+      <p class="s3-step-desc">O campo <code style="font-size:16px;background:rgba(245,158,11,0.1);padding:2px 8px;border-radius:4px;color:#f59e0b">prompt_preenchido</code> está pronto para Claude, GPT-4, Gemini. Nenhuma chamada de LLM é feita internamente.</p>
+      <span class="s3-code">→ Claude / GPT / Gemini</span>
+    </div>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 4 — ENDPOINTS                      -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+
+  <div class="s4-header">
+    <p class="s4-label">API REST</p>
+    <p class="s4-title">Endpoints disponíveis</p>
+  </div>
+
+  <div class="s4-grid">
+    <div class="s4-card free">
+      <div class="s4-row">
+        <span class="s4-method get">GET</span>
+        <span class="s4-path">/health</span>
+        <span class="s4-tier tf">Free</span>
+      </div>
+      <p class="s4-name">Status da API</p>
+      <p class="s4-desc">Verifica operacionalidade e contagem de leis indexadas no Supabase. Sem autenticação.</p>
+    </div>
+
+    <div class="s4-card free">
+      <div class="s4-row">
+        <span class="s4-method post">POST</span>
+        <span class="s4-path">/buscar</span>
+        <span class="s4-tier tf">Free</span>
+      </div>
+      <p class="s4-name">Busca FTS</p>
+      <p class="s4-desc">Full-Text Search com ts_headline e ts_rank. Aceita query com ou sem acentuação. Retorna trechos com destaques em &lt;b&gt;.</p>
+    </div>
+
+    <div class="s4-card premium">
+      <div class="s4-row">
+        <span class="s4-method post">POST</span>
+        <span class="s4-path">/analisar</span>
+        <span class="s4-tier tp">Premium</span>
+      </div>
+      <p class="s4-name">Grounding Jurídico</p>
+      <p class="s4-desc">Recupera legislação relevante e preenche o template grounding_juridico com contexto real para uso em LLMs.</p>
+    </div>
+
+    <div class="s4-card premium">
+      <div class="s4-row">
+        <span class="s4-method post">POST</span>
+        <span class="s4-path">/hermeneutica</span>
+        <span class="s4-tier tp">Premium</span>
+      </div>
+      <p class="s4-name">Hermenêutica Filosófica</p>
+      <p class="s4-desc">Análise filosófica de textos jurídicos com contexto doutrinário recuperado automaticamente do vault Fenice.</p>
+    </div>
+
+    <div class="s4-card premium">
+      <div class="s4-row">
+        <span class="s4-method post">POST</span>
+        <span class="s4-path">/tcc</span>
+        <span class="s4-tier tp">Premium</span>
+      </div>
+      <p class="s4-name">Revisão de TCC</p>
+      <p class="s4-desc">Agente revisor de rascunhos acadêmicos com suporte de legislação indexada pelo tema pesquisado.</p>
+    </div>
+
+    <div class="s4-card free">
+      <div class="s4-row">
+        <span class="s4-method get">GET</span>
+        <span class="s4-path">/docs</span>
+        <span class="s4-tier tf">Free</span>
+      </div>
+      <p class="s4-name">Swagger UI</p>
+      <p class="s4-desc">Interface interativa OpenAPI para explorar e testar todos os endpoints diretamente no navegador.</p>
+    </div>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 5 — STACK TÉCNICO                  -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+
+  <div class="s5-header">
+    <p class="s5-label">Tecnologia</p>
+    <p class="s5-title">Stack de produção</p>
+  </div>
+
+  <div class="s5-stack">
+    <div class="s5-card">
+      <span class="s5-icon">SB</span>
+      <p class="s5-name">Supabase</p>
+      <p class="s5-role">Banco de dados</p>
+      <p class="s5-detail">PostgreSQL gerenciado com REST API, RPC functions e GIN index para Full-Text Search em português</p>
+    </div>
+    <div class="s5-card">
+      <span class="s5-icon">FA</span>
+      <p class="s5-name">FastAPI</p>
+      <p class="s5-role">API framework</p>
+      <p class="s5-detail">Python 3.12, Pydantic v2, documentação automática OpenAPI, middleware CORS, tiers Free/Premium</p>
+    </div>
+    <div class="s5-card">
+      <span class="s5-icon">PG</span>
+      <p class="s5-name">PostgreSQL FTS</p>
+      <p class="s5-role">Busca semântica</p>
+      <p class="s5-detail">Configuração portuguese_unaccent: stemmer snowball + extensão unaccent para busca sem acento</p>
+    </div>
+    <div class="s5-card">
+      <span class="s5-icon">▲</span>
+      <p class="s5-name">Vercel</p>
+      <p class="s5-role">Deploy serverless</p>
+      <p class="s5-detail">Python serverless functions via @vercel/python, build em &lt;1s, CDN global, produção em fenice-justech.vercel.app</p>
+    </div>
+    <div class="s5-card">
+      <span class="s5-icon">AI</span>
+      <p class="s5-name">LLM Agnóstico</p>
+      <p class="s5-role">Claude · GPT · Gemini</p>
+      <p class="s5-detail">Nenhuma chamada de IA feita internamente. O prompt_preenchido é entregue ao cliente para injeção no modelo de escolha</p>
+    </div>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- SLIDE 6 — CTA                            -->
+<!-- ════════════════════════════════════════ -->
+<div class="slide" data-canvas-width="1920" data-canvas-height="1080">
+  <div class="top-line"></div>
+  <div class="bottom-bar"></div>
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+  <div class="s6-glow"></div>
+
+  <div class="s6-content">
+    <p class="s6-eyebrow">Comece agora</p>
+    <p class="s6-title">Busque. <em>Encontre.</em><br>Fundamenta.</p>
+    <p class="s6-sub">Full-Text Search jurídico gratuito — sem cadastro, sem limite</p>
+    <div class="s6-btn">fenice-justech.vercel.app</div>
+    <span class="s6-free">✓ Free tier disponível · POST /buscar sem autenticação</span>
+  </div>
+
+  <div class="s6-seal">
+    <svg width="120" height="120" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="aT6" d="M 16,100 A 84,84 0 0,0 184,100"/>
+      </defs>
+      <circle cx="100" cy="100" r="100" fill="#04080f"/>
+      <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.2"/>
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+      <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+      <text font-family="Georgia,serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+        <textPath href="#aT6" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+      </text>
+      <text x="100" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+      <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+      <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+      <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+      <rect x="98.5" y="62" width="3" height="58" rx="1.5" fill="#c9a227"/>
+      <rect x="66" y="75" width="68" height="2.5" rx="1.25" fill="#c9a227"/>
+      <path d="M 62,95 Q 74,106 86,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <line x1="74" y1="77.5" x2="67" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="74" y1="77.5" x2="81" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <path d="M 114,95 Q 126,106 138,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <line x1="126" y1="77.5" x2="119" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="126" y1="77.5" x2="133" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+    </svg>
+    <p style="font-family:'adelle',serif;font-size:10px;color:rgba(201,162,39,0.5);text-align:center;letter-spacing:0.15em;text-transform:uppercase;margin-top:8px;">Fenice bRain</p>
+  </div>
+
+  <div class="logo-mark">Fenice bRain</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

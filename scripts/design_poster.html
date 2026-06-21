@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenice bRain — Poster A4</title>
+  <meta name="hz:slide-selector" content=".poster">
+  <meta name="hz:canvas-width" content="794">
+  <meta name="hz:canvas-height" content="1123">
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background: #0b0f1a; padding: 40px; display: flex; justify-content: center; }
+
+    .poster {
+      position: relative;
+      width: 794px;
+      height: 1123px;
+      background: #04080f;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Background elements */
+    .bg-glow-top {
+      position: absolute;
+      top: -100px; left: 50%;
+      transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(ellipse, rgba(201,162,39,0.1) 0%, transparent 65%);
+      border-radius: 50%;
+    }
+    .bg-glow-bot {
+      position: absolute;
+      bottom: -80px; left: 50%;
+      transform: translateX(-50%);
+      width: 500px; height: 500px;
+      background: radial-gradient(ellipse, rgba(139,92,246,0.07) 0%, transparent 65%);
+      border-radius: 50%;
+    }
+
+    /* Top bar */
+    .top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .bot-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+
+    /* Corner accents */
+    .corner { position: absolute; width: 28px; height: 28px; }
+    .c-tl { top: 20px; left: 20px; border-top: 1.5px solid rgba(201,162,39,0.45); border-left: 1.5px solid rgba(201,162,39,0.45); }
+    .c-tr { top: 20px; right: 20px; border-top: 1.5px solid rgba(201,162,39,0.45); border-right: 1.5px solid rgba(201,162,39,0.45); }
+    .c-bl { bottom: 20px; left: 20px; border-bottom: 1.5px solid rgba(201,162,39,0.45); border-left: 1.5px solid rgba(201,162,39,0.45); }
+    .c-br { bottom: 20px; right: 20px; border-bottom: 1.5px solid rgba(201,162,39,0.45); border-right: 1.5px solid rgba(201,162,39,0.45); }
+
+    /* Header zone */
+    .header-zone {
+      position: absolute;
+      top: 48px; left: 0; right: 0;
+      text-align: center;
+    }
+    .eyebrow {
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(201,162,39,0.6);
+      margin-bottom: 24px;
+    }
+
+    /* Seal */
+    .seal-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    /* Hero title */
+    .hero-title {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+    .hero-title .g { color: #f59e0b; }
+    .hero-title .w { color: #f1f5f9; }
+
+    .hero-sub {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #64748b;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    /* Divider */
+    .divider-gold {
+      width: 120px;
+      height: 1px;
+      background: rgba(201,162,39,0.35);
+      margin: 28px auto;
+    }
+
+    /* Tagline */
+    .tagline-block {
+      position: absolute;
+      top: 520px; left: 60px; right: 60px;
+      text-align: center;
+    }
+    .tagline-main {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #f1f5f9;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+    .tagline-main em { color: #f59e0b; font-style: normal; }
+    .tagline-sub {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 15px;
+      color: #64748b;
+      letter-spacing: 0.03em;
+      line-height: 1.6;
+    }
+
+    /* Features grid */
+    .features {
+      position: absolute;
+      top: 660px;
+      left: 48px; right: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .feat {
+      padding: 20px 24px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+    .feat::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      border-radius: 2px 2px 0 0;
+    }
+    .feat:nth-child(1)::before { background: #f59e0b; }
+    .feat:nth-child(2)::before { background: #10b981; }
+    .feat:nth-child(3)::before { background: #8b5cf6; }
+    .feat:nth-child(4)::before { background: #3b82f6; }
+    .feat-title {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #f1f5f9;
+      margin-bottom: 6px;
+    }
+    .feat-desc {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 13px;
+      color: #64748b;
+      line-height: 1.5;
+    }
+
+    /* Footer CTA */
+    .footer-cta {
+      position: absolute;
+      bottom: 40px;
+      left: 0; right: 0;
+      text-align: center;
+    }
+    .cta-url {
+      display: inline-block;
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #000;
+      background: #f59e0b;
+      padding: 14px 40px;
+      border-radius: 8px;
+      letter-spacing: 0.02em;
+      margin-bottom: 12px;
+    }
+    .cta-note {
+      font-family: "acumin-pro", sans-serif;
+      font-size: 11px;
+      color: rgba(201,162,39,0.45);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* Tier badges inline */
+    .tier-row {
+      position: absolute;
+      top: 610px;
+      left: 0; right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+    .t-badge {
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 999px;
+    }
+    .t-free    { background: rgba(16,185,129,0.1); color: #10b981; border: 1px solid rgba(16,185,129,0.2); }
+    .t-premium { background: rgba(139,92,246,0.1); color: #8b5cf6; border: 1px solid rgba(139,92,246,0.2); }
+    .t-saas    { background: rgba(245,158,11,0.1);  color: #f59e0b; border: 1px solid rgba(245,158,11,0.2); }
+  </style>
+</head>
+<body>
+
+<div class="poster" data-canvas-width="794" data-canvas-height="1123">
+  <div class="top-bar"></div>
+  <div class="bot-bar"></div>
+  <div class="bg-glow-top"></div>
+  <div class="bg-glow-bot"></div>
+  <div class="corner c-tl"></div>
+  <div class="corner c-tr"></div>
+  <div class="corner c-bl"></div>
+  <div class="corner c-br"></div>
+
+  <div class="header-zone">
+    <p class="eyebrow">Apresentando</p>
+
+    <div class="seal-wrap">
+      <svg width="110" height="110" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="aPt" d="M 16,100 A 84,84 0 0,0 184,100"/>
+          <radialGradient id="gPt" cx="50%" cy="50%" r="35%">
+            <stop offset="0%" stop-color="#c9a227" stop-opacity="0.14"/>
+            <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="100" fill="#04080f"/>
+        <circle cx="100" cy="100" r="65" fill="url(#gPt)"/>
+        <circle cx="100" cy="100" r="97" fill="none" stroke="#c9a227" stroke-width="0.7"/>
+        <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+        <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+        <text font-family="Georgia,serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+          <textPath href="#aPt" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+        </text>
+        <text x="100" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+        <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+        <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+        <!-- Scales -->
+        <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+        <rect x="98.5" y="62" width="3" height="56" rx="1.5" fill="#c9a227"/>
+        <rect x="67" y="75" width="66" height="2.5" rx="1.25" fill="#c9a227"/>
+        <line x1="74" y1="77.5" x2="67" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="74" y1="77.5" x2="81" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 62,94 Q 74,105 86,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <line x1="126" y1="77.5" x2="119" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="126" y1="77.5" x2="133" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 114,94 Q 126,105 138,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+        <!-- Owl -->
+        <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+        <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+        <circle cx="52" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="58" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="52" cy="91" r="0.8" fill="#c9a227"/>
+        <circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+        <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <!-- Column -->
+        <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+        <rect x="137" y="77" width="14" height="44" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+        <rect x="134" y="121" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      </svg>
+    </div>
+
+    <p class="hero-title">
+      <span class="g">Fenice</span><span class="w"> bRain</span>
+    </p>
+    <p class="hero-sub">Vade Mecum Dinâmico · SaaS API Jurídica</p>
+    <div class="divider-gold"></div>
+  </div>
+
+  <div class="tagline-block">
+    <p class="tagline-main">Pesquisa jurídica com <em>Full-Text Search</em><br>em português. Fundamente seu LLM<br>com legislação real.</p>
+    <p class="tagline-sub">Busca FTS gratuita · Prompts Premium para Claude, GPT e Gemini · Sem cadastro</p>
+  </div>
+
+  <div class="tier-row">
+    <span class="t-badge t-free">Free</span>
+    <span class="t-badge t-saas">API REST</span>
+    <span class="t-badge t-premium">Premium</span>
+  </div>
+
+  <div class="features">
+    <div class="feat">
+      <p class="feat-title">Busca FTS — Free</p>
+      <p class="feat-desc">POST /buscar · português com ou sem acentuação · ts_rank + ts_headline</p>
+    </div>
+    <div class="feat">
+      <p class="feat-title">674 Súmulas STJ</p>
+      <p class="feat-desc">+ 736 Súmulas STF + legislação federal indexada no Supabase</p>
+    </div>
+    <div class="feat">
+      <p class="feat-title">Grounding Jurídico</p>
+      <p class="feat-desc">Templates de prompt preenchidos com trechos legais para LLMs — Premium</p>
+    </div>
+    <div class="feat">
+      <p class="feat-title">Hermenêutica &amp; TCC</p>
+      <p class="feat-desc">Análise filosófica e revisão acadêmica com suporte da base jurídica</p>
+    </div>
+  </div>
+
+  <div class="footer-cta">
+    <div class="cta-url">fenice-justech.vercel.app</div>
+    <p class="cta-note">Powered by FastAPI · Supabase · PostgreSQL FTS · Vercel</p>
+  </div>
+
+</div>
+
+</body>
+</html>

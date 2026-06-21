@@ -472,9 +472,170 @@
       .hero h1 { font-size: clamp(3rem, 15vw, 5rem); }
       .blob-2, .blob-3 { display: none; }
     }
+
+    /* ── LOGIN MODAL ── */
+    #fenice-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(4,8,15,0.97);
+      backdrop-filter: blur(16px) saturate(1.4);
+      opacity: 1; transition: opacity 0.5s ease;
+    }
+    #fenice-overlay.hide {
+      opacity: 0; pointer-events: none;
+    }
+    .login-card {
+      width: min(420px, 92vw);
+      background: #0b1525;
+      border: 1px solid rgba(201,162,39,0.22);
+      border-radius: 20px;
+      padding: 2.5rem 2.25rem 2rem;
+      box-shadow:
+        0 0 80px rgba(201,162,39,0.1),
+        0 0 0 1px rgba(201,162,39,0.07);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .login-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .login-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(201,162,39,0.3) 50%, transparent 100%);
+    }
+    .login-seal-wrap {
+      display: flex; justify-content: center; margin-bottom: 1.5rem;
+    }
+    .login-title {
+      font-family: "skeena-display", serif; font-weight: 700;
+      font-size: 2rem; letter-spacing: -0.02em;
+      color: var(--gold); margin-bottom: 0.2rem; line-height: 1;
+    }
+    .login-title span { color: var(--text); }
+    .login-subtitle {
+      font-family: "adelle", serif;
+      font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(201,162,39,0.45); margin-bottom: 2rem;
+    }
+    .login-field { margin-bottom: 0.9rem; text-align: left; }
+    .login-field label {
+      display: block;
+      font-family: "acumin-pro", sans-serif;
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--dim); margin-bottom: 0.4rem;
+    }
+    .login-field input {
+      width: 100%;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      color: var(--text);
+      font-family: "acumin-pro", sans-serif; font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .login-field input:focus {
+      border-color: rgba(245,158,11,0.5);
+      box-shadow: 0 0 0 3px rgba(245,158,11,0.08);
+    }
+    .login-field input::placeholder { color: var(--dim); }
+    .login-btn {
+      width: 100%; margin-top: 0.25rem;
+      background: var(--gold); color: #000;
+      border: none; border-radius: 10px;
+      padding: 0.9rem;
+      font-family: "adelle", serif; font-weight: 700;
+      font-size: 1rem; letter-spacing: 0.04em; cursor: pointer;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 0 24px rgba(245,158,11,0.28);
+    }
+    .login-btn:hover {
+      background: var(--gold2); transform: translateY(-1px);
+      box-shadow: 0 0 40px rgba(245,158,11,0.5);
+    }
+    .login-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .login-error {
+      margin-top: 0.9rem; min-height: 1.2em;
+      color: #f87171;
+      font-family: "acumin-pro", sans-serif; font-size: 0.85rem;
+    }
+    .login-footer {
+      margin-top: 1.5rem;
+      font-size: 0.68rem; letter-spacing: 0.1em;
+      color: rgba(201,162,39,0.22); text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
+
+<!-- ── LOGIN MODAL ── -->
+<div id="fenice-overlay">
+  <div class="login-card">
+    <div class="login-seal-wrap">
+      <svg width="90" height="90" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="aLM" d="M 16,100 A 84,84 0 0,0 184,100"/>
+          <radialGradient id="gLM" cx="50%" cy="50%" r="35%">
+            <stop offset="0%" stop-color="#c9a227" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="100" fill="#04080f"/>
+        <circle cx="100" cy="100" r="65" fill="url(#gLM)"/>
+        <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+        <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+        <text font-family="Georgia,serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+          <textPath href="#aLM" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+        </text>
+        <text x="100" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+        <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+        <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+        <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+        <rect x="98.5" y="62" width="3" height="56" rx="1.5" fill="#c9a227"/>
+        <rect x="67" y="75" width="66" height="2.5" rx="1.25" fill="#c9a227"/>
+        <line x1="74" y1="77.5" x2="67" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="74" y1="77.5" x2="81" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 62,94 Q 74,105 86,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <line x1="126" y1="77.5" x2="119" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="126" y1="77.5" x2="133" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 114,94 Q 126,105 138,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+        <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+        <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+        <circle cx="52" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="58" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="52" cy="91" r="0.8" fill="#c9a227"/>
+        <circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+        <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+        <rect x="137" y="77" width="14" height="44" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+        <rect x="134" y="121" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      </svg>
+    </div>
+    <h2 class="login-title">Fenice <span>bRain</span></h2>
+    <p class="login-subtitle">Área Restrita · Faça login para continuar</p>
+    <form id="fenice-login-form" autocomplete="on">
+      <div class="login-field">
+        <label for="login-usuario">Usuário</label>
+        <input id="login-usuario" name="usuario" type="text" placeholder="seu usuário" autocomplete="username" required>
+      </div>
+      <div class="login-field">
+        <label for="login-senha">Senha</label>
+        <input id="login-senha" name="senha" type="password" placeholder="••••••••" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="login-btn" id="login-btn">Entrar</button>
+      <p class="login-error" id="login-error"></p>
+    </form>
+    <p class="login-footer">© 2026 Fenice It Justech.ia · Todos os direitos reservados<br>Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
+  </div>
+</div>
 
 <!-- AURORA -->
 <div class="aurora-bar"></div>
@@ -797,6 +958,7 @@
       <li><a href="/openapi.json">OpenAPI</a></li>
     </ul>
     <p class="footer-copy">v1.0.0 &nbsp;·&nbsp; Supabase + Vercel &nbsp;·&nbsp; FTS português</p>
+    <p class="footer-copy" style="margin-top:0.4rem;opacity:0.55;">© 2026 Fenice It Justech.ia &nbsp;·&nbsp; Todos os direitos reservados<br>Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
   </div>
 </footer>
 
@@ -896,6 +1058,53 @@
       b.style.transform = `translate(${dx*factor}px, ${dy*factor}px)`;
     });
   }, { passive: true });
+})();
+
+/* ── LOGIN MODAL ── */
+(function () {
+  const overlay = document.getElementById('fenice-overlay');
+  const form    = document.getElementById('fenice-login-form');
+  const errEl   = document.getElementById('login-error');
+  const btn     = document.getElementById('login-btn');
+
+  function dismissModal() {
+    overlay.classList.add('hide');
+    overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
+  }
+
+  if (sessionStorage.getItem('fenice_auth')) {
+    dismissModal();
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errEl.textContent = '';
+    btn.disabled = true;
+    btn.textContent = 'Verificando…';
+
+    const usuario = document.getElementById('login-usuario').value.trim();
+    const senha   = document.getElementById('login-senha').value;
+
+    try {
+      const res  = await fetch('/auth', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ usuario, senha }),
+      });
+      const data = await res.json();
+      if (res.ok && data.ok) {
+        sessionStorage.setItem('fenice_auth', data.token);
+        dismissModal();
+      } else {
+        errEl.textContent = data.detail || 'Usuário ou senha incorretos.';
+      }
+    } catch {
+      errEl.textContent = 'Erro de conexão. Tente novamente.';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Entrar';
+    }
+  });
 })();
 
 /* ── LIVE LAW COUNT ── */

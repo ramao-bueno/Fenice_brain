@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenice bRain — Banner Social</title>
+  <meta name="hz:slide-selector" content=".banner">
+  <meta name="hz:canvas-width" content="1080">
+  <meta name="hz:canvas-height" content="1080">
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background: #0b0f1a; padding: 40px; display: flex; justify-content: center; }
+
+    .banner {
+      position: relative;
+      width: 1080px;
+      height: 1080px;
+      background: #04080f;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Large decorative background ring */
+    .bg-ring {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 900px; height: 900px;
+      border-radius: 50%;
+      border: 1px solid rgba(201,162,39,0.07);
+    }
+    .bg-ring-2 {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 760px; height: 760px;
+      border-radius: 50%;
+      border: 1px solid rgba(201,162,39,0.05);
+    }
+    .bg-glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 700px; height: 700px;
+      background: radial-gradient(ellipse, rgba(201,162,39,0.1) 0%, transparent 60%);
+      border-radius: 50%;
+    }
+
+    /* Edge bars */
+    .top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .bot-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .left-bar {
+      position: absolute;
+      top: 0; bottom: 0; left: 0;
+      width: 5px;
+      background: linear-gradient(180deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+    .right-bar {
+      position: absolute;
+      top: 0; bottom: 0; right: 0;
+      width: 5px;
+      background: linear-gradient(180deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+    }
+
+    /* Corner accents */
+    .corner { position: absolute; width: 36px; height: 36px; }
+    .c-tl { top: 24px; left: 24px; border-top: 2px solid rgba(201,162,39,0.5); border-left: 2px solid rgba(201,162,39,0.5); }
+    .c-tr { top: 24px; right: 24px; border-top: 2px solid rgba(201,162,39,0.5); border-right: 2px solid rgba(201,162,39,0.5); }
+    .c-bl { bottom: 24px; left: 24px; border-bottom: 2px solid rgba(201,162,39,0.5); border-left: 2px solid rgba(201,162,39,0.5); }
+    .c-br { bottom: 24px; right: 24px; border-bottom: 2px solid rgba(201,162,39,0.5); border-right: 2px solid rgba(201,162,39,0.5); }
+
+    /* Content center */
+    .center-content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -52%);
+      text-align: center;
+      width: 900px;
+    }
+
+    .eyebrow {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #f59e0b;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .seal-center {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .brand-name {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      font-size: 128px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      margin-bottom: 4px;
+    }
+    .brand-name .g { color: #f59e0b; }
+    .brand-name .w { color: #f1f5f9; }
+
+    .brand-tagline {
+      font-family: "adelle", serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #64748b;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 8px;
+      margin-bottom: 36px;
+    }
+
+    .divider {
+      width: 160px;
+      height: 1px;
+      background: rgba(201,162,39,0.35);
+      margin: 0 auto 36px;
+    }
+
+    .value-prop {
+      font-family: "adelle", serif;
+      font-size: 26px;
+      color: #94a3b8;
+      line-height: 1.45;
+      margin-bottom: 40px;
+    }
+    .value-prop em { color: #f1f5f9; font-style: normal; }
+    .value-prop strong { color: #f59e0b; font-weight: 700; }
+
+    /* URL pill */
+    .url-pill {
+      display: inline-block;
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #000;
+      background: #f59e0b;
+      padding: 16px 48px;
+      border-radius: 999px;
+      letter-spacing: 0.02em;
+      margin-bottom: 20px;
+    }
+
+    /* Stat chips at bottom */
+    .stat-chips {
+      position: absolute;
+      bottom: 56px;
+      left: 0; right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+    .chip {
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      padding: 8px 20px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #64748b;
+    }
+    .chip span { color: #f1f5f9; }
+
+    /* "NOVO" badge top-right area */
+    .novo-badge {
+      position: absolute;
+      top: 68px;
+      right: 68px;
+      font-family: "acumin-pro", sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #000;
+      background: #f59e0b;
+      padding: 6px 16px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="banner" data-canvas-width="1080" data-canvas-height="1080">
+  <div class="top-bar"></div>
+  <div class="bot-bar"></div>
+  <div class="left-bar"></div>
+  <div class="right-bar"></div>
+  <div class="bg-ring"></div>
+  <div class="bg-ring-2"></div>
+  <div class="bg-glow"></div>
+  <div class="corner c-tl"></div>
+  <div class="corner c-tr"></div>
+  <div class="corner c-bl"></div>
+  <div class="corner c-br"></div>
+
+  <div class="novo-badge">Novo</div>
+
+  <div class="center-content">
+    <p class="eyebrow">Lançamento</p>
+
+    <div class="seal-center">
+      <svg width="100" height="100" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="aBn" d="M 16,100 A 84,84 0 0,0 184,100"/>
+          <radialGradient id="gBn" cx="50%" cy="50%" r="35%">
+            <stop offset="0%" stop-color="#c9a227" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="100" fill="#04080f"/>
+        <circle cx="100" cy="100" r="65" fill="url(#gBn)"/>
+        <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+        <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+        <text font-family="Georgia,serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+          <textPath href="#aBn" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+        </text>
+        <text x="100" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+        <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+        <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+        <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+        <rect x="98.5" y="62" width="3" height="56" rx="1.5" fill="#c9a227"/>
+        <rect x="67" y="75" width="66" height="2.5" rx="1.25" fill="#c9a227"/>
+        <line x1="74" y1="77.5" x2="67" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="74" y1="77.5" x2="81" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 62,94 Q 74,105 86,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <line x1="126" y1="77.5" x2="119" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <line x1="126" y1="77.5" x2="133" y2="94" stroke="#c9a227" stroke-width="1.2"/>
+        <path d="M 114,94 Q 126,105 138,94" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+        <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+        <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+        <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+        <circle cx="52" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="58" cy="91" r="2.2" fill="#04080f"/>
+        <circle cx="52" cy="91" r="0.8" fill="#c9a227"/>
+        <circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+        <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+        <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+        <rect x="137" y="77" width="14" height="44" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+        <rect x="134" y="121" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      </svg>
+    </div>
+
+    <p class="brand-name">
+      <span class="g">Fenice</span><span class="w"> bRain</span>
+    </p>
+    <p class="brand-tagline">API Jurídica · Gratuito</p>
+
+    <div class="divider"></div>
+
+    <p class="value-prop">
+      <em>Full-Text Search</em> em legislação brasileira.<br>
+      <strong>Fundamente seu LLM</strong> com lei real.<br>
+      Sem cadastro. Sem limite.
+    </p>
+
+    <div class="url-pill">fenice-justech.vercel.app</div>
+  </div>
+
+  <div class="stat-chips">
+    <div class="chip"><span>+10k</span> normas federais</div>
+    <div class="chip"><span>674</span> Súmulas STJ</div>
+    <div class="chip"><span>736</span> Súmulas STF</div>
+    <div class="chip"><span>Free</span> POST /buscar</div>
+  </div>
+
+</div>
+
+</body>
+</html>

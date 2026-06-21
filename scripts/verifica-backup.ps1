@@ -45,8 +45,10 @@ foreach ($l in $ultimo) {
 
 $gitOK          = $ultimo | Where-Object { $_ -match "Git: (commit OK|sem alterações)" }
 $pushOK         = $ultimo | Where-Object { $_ -match "Git: push OK" }
-$gdriveOK       = $ultimo | Where-Object { $_ -match "GDrive: (sync OK|rclone sync OK)" }
+$gdriveOK       = $ultimo | Where-Object { $_ -match "GDrive: OK →" }
 $gdrivePendente = $ultimo | Where-Object { $_ -match "GDrive: PENDENTE" }
+# Conta quantos syncs OK (esperamos 2: Fenice_bRain + Fenice_Estudos)
+$gdriveTodos    = (@($gdriveOK)).Count -ge 2
 
 # Verifica se o backup é recente (≤ 26h para cobrir horários alternados)
 $recente = $false
@@ -59,10 +61,12 @@ if ($dataBackup) {
 }
 
 if ($recente -and $gitOK -and $pushOK) {
-    if ($gdriveOK) {
-        Write-Output "BACKUP_STATUS: ✅ Seus arquivos estão bem guardados — último backup: $dataBackup (Git ✓  GDrive ✓)"
+    if ($gdriveTodos) {
+        Write-Output "BACKUP_STATUS: ✅ Seus arquivos estão bem guardados — último backup: $dataBackup (Git ✓  GDrive ✓ x2)"
+    } elseif ($gdriveOK) {
+        Write-Output "BACKUP_STATUS: ✅ Git OK ($dataBackup) | ⚠️  GDrive parcial — apenas $(@($gdriveOK).Count)/2 vault(s) sincronizados"
     } elseif ($gdrivePendente) {
-        Write-Output "BACKUP_STATUS: ✅ Git OK ($dataBackup) | ⚠️  GDrive pendente — instale o Google Drive for Desktop"
+        Write-Output "BACKUP_STATUS: ✅ Git OK ($dataBackup) | ⚠️  GDrive pendente — rode setup-gdrive.ps1"
     } else {
         Write-Output "BACKUP_STATUS: ⚠️  Git OK ($dataBackup) | GDrive com problema — verifique o log"
     }

@@ -25,15 +25,32 @@ Write-Host "Testando acesso..." -ForegroundColor Cyan
 rclone lsd gdrive: --max-depth 1
 
 Write-Host ""
-Write-Host "Sincronizando Fenice_bRain agora (teste inicial)..." -ForegroundColor Cyan
-rclone sync "C:\Fenice_bRain" "gdrive:Fenice_bRain" `
-    --exclude ".git/**" `
-    --exclude ".obsidian/cache/**" `
-    --progress
+Write-Host "Sincronizando vaults para a raiz do Google Drive..." -ForegroundColor Cyan
 
-if ($LASTEXITCODE -eq 0) {
+$syncPairs = @(
+    @{ Local = "C:\Fenice_bRain";    Remote = "gdrive:Fenice_bRain"   },
+    @{ Local = "C:\Fenice_Estudos";  Remote = "gdrive:Fenice_Estudos" }
+)
+
+$erros = 0
+foreach ($pair in $syncPairs) {
+    if (-not (Test-Path $pair.Local)) {
+        Write-Host "⚠️  Pasta não encontrada: $($pair.Local) — pulando" -ForegroundColor Yellow
+        continue
+    }
     Write-Host ""
+    Write-Host "  $($pair.Local) → $($pair.Remote)" -ForegroundColor White
+    rclone sync $pair.Local $pair.Remote `
+        --exclude ".git/**" `
+        --exclude ".obsidian/cache/**" `
+        --exclude "*.tmp" `
+        --progress
+    if ($LASTEXITCODE -ne 0) { $erros++ }
+}
+
+Write-Host ""
+if ($erros -eq 0) {
     Write-Host "✅ Sync concluído! Próximo backup automático: hoje às 22:30" -ForegroundColor Green
 } else {
-    Write-Host "❌ Sync falhou — verifique a conexão e tente novamente." -ForegroundColor Red
+    Write-Host "❌ $erros sync(s) falharam — verifique a conexão e tente novamente." -ForegroundColor Red
 }

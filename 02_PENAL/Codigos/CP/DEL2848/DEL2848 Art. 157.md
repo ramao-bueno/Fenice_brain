@@ -84,8 +84,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** descrever a violência ou grave ameaça concretamente; no roubo majorado, indicar qual inciso do §2° aplica-se e fundamentar cada majorante na terceira fase da pena (Súmula 443 STJ).
+- **Defesa:** verificar se houve efetiva violência/ameaça grave; simulacro de arma de fogo não majora a pena (§2°-I exige arma real ou funcional — laudo pericial); tentativa possível (Súmula 582 STJ para consumação).
+- **Prática:** latrocínio (§3°) ocorre quando a morte resulta da violência, ainda que sem dolo de matar; competência do Tribunal do Júri apenas no latrocínio — roubo simples é da Vara Criminal comum.
 
 ---
 

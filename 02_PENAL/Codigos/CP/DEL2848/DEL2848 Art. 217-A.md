@@ -84,8 +84,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** presunção absoluta de vulnerabilidade (Súmula 593 STJ) — dispensada prova de violência; basta demonstrar a prática de ato libidinoso e que a vítima era menor de 14 anos.
+- **Defesa:** impugnar autoria; distinção entre conjunção carnal e ato libidinoso diverso (penas diferenciadas antes da Lei 12.015/09); verificar data do fato.
+- **Prática:** crime hediondo; ação penal pública incondicionada; vulnerabilidade inclui também enfermidade ou doença mental que impeça discernimento (§1°).
 
 ---
 

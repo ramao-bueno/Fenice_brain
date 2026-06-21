@@ -84,8 +84,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** quantificar o prejuízo e descrever o modus operandi; nas qualificadoras materiais (rompimento de obstáculo, escalada), apresentar laudo pericial — ausência pode nulificar a qualificadora.
+- **Defesa:** princípio da insignificância (STJ analisa valor do bem + condições da vítima + primariedade); privilégio do §2° (bem de pequeno valor + primariedade); arrependimento posterior (art. 16 CP) reduz a pena.
+- **Prática:** furto de energia elétrica é equiparado a coisa móvel (§3°); furto mediante fraude distingue-se do estelionato pelo meio de execução (subtração vs. entrega voluntária).
 
 ---
 

@@ -75,14 +75,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- Art. 121-B inserido pela Lei 14.994/2024 — jurisprudência ainda em formação; consultar STJ Informativos mais recentes.
+- STJ — Por extensão: teses do feminicídio (art. 121-A) sobre natureza objetiva da qualificadora e dispensa de coabitação aplicam-se por analogia.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar feminicídio (art. 121-A) + uma das causas qualificadoras do art. 121-B (vítima menor de 14 ou maior de 60 anos, gestante, deficiente, presença de filhos etc.).
+- **Defesa:** impugnar a presença das qualificadoras com prova documental (certidão de nascimento, laudo médico); distinguir do feminicídio simples (art. 121-A) caso ausente a causa qualificadora.
+- **Prática:** art. 121-B inserido pela Lei 14.994/2024 — verificar data do fato para aplicação da lei mais grave; pena mínima de 20 anos impede progressão de regime no menor prazo.
 
 ---
 

@@ -80,8 +80,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** crime formal — oferta ou promessa consuma o tipo, independente da aceitação; descrever o ato de ofício visado e o vínculo com a vantagem oferecida.
+- **Defesa:** ausência do elemento normativo 'ato de ofício' específico; distinguir de tráfico de influência (art. 332) quando não há servidor determinado.
+- **Prática:** corrupção ativa e passiva são crimes autônomos — processamento simultâneo de corruptor e corrompido não é bis in idem; Súmula 599 STJ veda insignificância.
 
 ---
 

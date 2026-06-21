@@ -85,8 +85,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** descrever conduta com especificação do dolo (direto ou eventual) e das qualificadoras incidentes; nos crimes qualificados, cada qualificadora do §2° é quesitada separadamente no Júri.
+- **Defesa:** teses frequentes — desclassificação para homicídio culposo (§3°), privilégio do §1° (relevante valor moral, violenta emoção logo após injusta provocação), legítima defesa (art. 25 CP).
+- **Tribunais:** competência constitucional do Tribunal do Júri (art. 5°, XXXVIII, CF); in dubio pro reo na pronúncia; qualificadoras de natureza subjetiva são decididas pelos jurados.
 
 ---
 

@@ -84,8 +84,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** com violência real, a ação é pública incondicionada (Súmula 608 STJ); descrever os atos executórios e a ausência de consentimento; crime hediondo (regime inicial fechado).
+- **Defesa:** verificar autoria e prova testemunhal; retratação da representação só cabe antes da denúncia; consentimento da vítima maior de 14 anos e capaz pode afastar o tipo.
+- **Prática:** concurso material quando há mais de uma vítima; estupro de vulnerável (art. 217-A) aplica-se quando a vítima é menor de 14 anos — tipos penais distintos.
 
 ---
 

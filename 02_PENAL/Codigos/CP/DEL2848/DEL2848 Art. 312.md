@@ -83,8 +83,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar o vínculo funcional (funcionário público para fins penais — art. 327 CP) e a relação de posse/administração com o bem; peculato-desvio dispensa prova de locupletamento pessoal.
+- **Defesa:** peculato culposo (§2°) admite extinção da punibilidade por reparação integral do dano antes da sentença irrecorrível; verificar se o agente tem a qualidade de funcionário público.
+- **Prática:** Súmula 599 STJ veda insignificância; colaboração premiada e acordo de não-persecução penal (ANPP) são instrumentos frequentes em investigações de improbidade-penal.
 
 ---
 

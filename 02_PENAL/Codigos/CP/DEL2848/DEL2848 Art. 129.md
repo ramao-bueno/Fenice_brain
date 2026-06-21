@@ -91,8 +91,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** nos casos de violência doméstica, ação penal é pública incondicionada — Lei 11.340/06 dispensa representação da vítima; classificar corretamente entre leve, grave (§1°) e gravíssima (§2°).
+- **Defesa:** legítima defesa é tese frequente; verificar laudo de lesões corporais — ausência de lesões pode impor desclassificação para vias de fato (LCP art. 21).
+- **Prática:** lesão leve em contexto de violência doméstica é de competência do Juizado de Violência Doméstica (não do JECRIM); Súmula 536 STJ veda suspensão condicional do processo nesses casos.
 
 ---
 

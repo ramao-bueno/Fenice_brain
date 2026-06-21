@@ -23,6 +23,14 @@ JURIS_CP = {
         "STJ — Tese: feminicídio (§2°-VI) e motivo torpe (§2°-I) são qualificadoras compatíveis e podem coexistir no mesmo fato.",
         "STJ — Tese: o reconhecimento do dolo eventual no homicídio de trânsito não afasta a competência do Tribunal do Júri.",
     ],
+    "121-A": [
+        "STJ — Tese: feminicídio é qualificadora de natureza objetiva (razão da condição do sexo feminino); compatível com qualificadoras subjetivas como motivo torpe.",
+        "STJ — Súmula 600: para configurar violência doméstica e familiar, não se exige coabitação entre vítima e agressor.",
+    ],
+    "121-B": [
+        "Art. 121-B inserido pela Lei 14.994/2024 — jurisprudência ainda em formação; consultar STJ Informativos mais recentes.",
+        "STJ — Por extensão: teses do feminicídio (art. 121-A) sobre natureza objetiva da qualificadora e dispensa de coabitação aplicam-se por analogia.",
+    ],
     "129": [
         "STJ — Súmula 536: suspensão condicional do processo e transação penal não se aplicam a delitos sujeitos ao rito da Lei Maria da Penha.",
         "STJ — Súmula 600: para violência doméstica, não se exige coabitação entre vítima e agressor no mesmo domicílio.",
@@ -67,10 +75,115 @@ JURIS_CP = {
         "STJ — Tese: na corrupção ativa, o crime consuma-se no momento da oferta ou promessa, independentemente da aceitação pelo funcionário.",
         "STJ — Súmula 599: inaplicabilidade do princípio da insignificância aos crimes contra a administração pública.",
     ],
-    "157": [
-        "STJ — Súmula 582: consuma-se o roubo com a inversão da posse mediante violência ou ameaça, ainda que breve e mesmo que a coisa seja recuperada em seguida.",
-        "STJ — Súmula 443: o aumento na terceira fase para roubo circunstanciado exige fundamentação explícita; não basta indicar o número de majorantes.",
-    ],
+}
+
+
+# Observações práticas curadas: perspectiva MP, Defesa e Tribunais por artigo DEL2848
+OBS_PRATICAS_CP = {
+    "121": (
+        "- **MP/Acusação:** descrever conduta com especificação do dolo (direto ou eventual) e das qualificadoras incidentes; "
+        "nos crimes qualificados, cada qualificadora do §2° é quesitada separadamente no Júri.\n"
+        "- **Defesa:** teses frequentes — desclassificação para homicídio culposo (§3°), privilégio do §1° "
+        "(relevante valor moral, violenta emoção logo após injusta provocação), legítima defesa (art. 25 CP).\n"
+        "- **Tribunais:** competência constitucional do Tribunal do Júri (art. 5°, XXXVIII, CF); "
+        "in dubio pro reo na pronúncia; qualificadoras de natureza subjetiva são decididas pelos jurados."
+    ),
+    "121-A": (
+        "- **MP/Acusação:** demonstrar as razões da condição do sexo feminino — violência doméstica/familiar (inciso I) "
+        "ou menosprezo/discriminação à mulher (inciso II); Súmula 600 STJ dispensa coabitação.\n"
+        "- **Defesa:** verificar se as razões do §1° estão efetivamente presentes e se não há mera violência interpessoal "
+        "sem motivação de gênero; possível desclassificação para homicídio simples (art. 121, caput).\n"
+        "- **Prática:** crime hediondo (Lei 8.072/90); competência do Tribunal do Júri; "
+        "Lei Maria da Penha (11.340/06) pode ser aplicada cumulativamente para medidas protetivas."
+    ),
+    "121-B": (
+        "- **MP/Acusação:** demonstrar feminicídio (art. 121-A) + uma das causas qualificadoras do art. 121-B "
+        "(vítima menor de 14 ou maior de 60 anos, gestante, deficiente, presença de filhos etc.).\n"
+        "- **Defesa:** impugnar a presença das qualificadoras com prova documental (certidão de nascimento, laudo médico); "
+        "distinguir do feminicídio simples (art. 121-A) caso ausente a causa qualificadora.\n"
+        "- **Prática:** art. 121-B inserido pela Lei 14.994/2024 — verificar data do fato para aplicação da lei mais grave; "
+        "pena mínima de 20 anos impede progressão de regime no menor prazo."
+    ),
+    "129": (
+        "- **MP/Acusação:** nos casos de violência doméstica, ação penal é pública incondicionada — Lei 11.340/06 "
+        "dispensa representação da vítima; classificar corretamente entre leve, grave (§1°) e gravíssima (§2°).\n"
+        "- **Defesa:** legítima defesa é tese frequente; verificar laudo de lesões corporais — ausência de lesões "
+        "pode impor desclassificação para vias de fato (LCP art. 21).\n"
+        "- **Prática:** lesão leve em contexto de violência doméstica é de competência do Juizado de Violência Doméstica "
+        "(não do JECRIM); Súmula 536 STJ veda suspensão condicional do processo nesses casos."
+    ),
+    "155": (
+        "- **MP/Acusação:** quantificar o prejuízo e descrever o modus operandi; nas qualificadoras materiais "
+        "(rompimento de obstáculo, escalada), apresentar laudo pericial — ausência pode nulificar a qualificadora.\n"
+        "- **Defesa:** princípio da insignificância (STJ analisa valor do bem + condições da vítima + primariedade); "
+        "privilégio do §2° (bem de pequeno valor + primariedade); arrependimento posterior (art. 16 CP) reduz a pena.\n"
+        "- **Prática:** furto de energia elétrica é equiparado a coisa móvel (§3°); "
+        "furto mediante fraude distingue-se do estelionato pelo meio de execução (subtração vs. entrega voluntária)."
+    ),
+    "157": (
+        "- **MP/Acusação:** descrever a violência ou grave ameaça concretamente; no roubo majorado, "
+        "indicar qual inciso do §2° aplica-se e fundamentar cada majorante na terceira fase da pena (Súmula 443 STJ).\n"
+        "- **Defesa:** verificar se houve efetiva violência/ameaça grave; simulacro de arma de fogo não majora a pena "
+        "(§2°-I exige arma real ou funcional — laudo pericial); tentativa possível (Súmula 582 STJ para consumação).\n"
+        "- **Prática:** latrocínio (§3°) ocorre quando a morte resulta da violência, ainda que sem dolo de matar; "
+        "competência do Tribunal do Júri apenas no latrocínio — roubo simples é da Vara Criminal comum."
+    ),
+    "171": (
+        "- **MP/Acusação:** demonstrar os três elementos cumulativos — artifício/ardil/meio fraudulento, "
+        "indução em erro da vítima e obtenção de vantagem ilícita em prejuízo alheio; dolo deve preexistir.\n"
+        "- **Defesa:** ausência do artifício fraudulento (mero inadimplemento civil não é estelionato); "
+        "pagamento do cheque antes da denúncia extingue a punibilidade (Súmula 554 STJ) nos crimes de cheque sem fundos.\n"
+        "- **Prática:** estelionato contra idoso tem pena aumentada de 1/3 (§4°); "
+        "estelionato por meio eletrônico (§2°-A, incluído pela Lei 14.155/21) tem pena aumentada de 1/3 a 2/3."
+    ),
+    "213": (
+        "- **MP/Acusação:** com violência real, a ação é pública incondicionada (Súmula 608 STJ); "
+        "descrever os atos executórios e a ausência de consentimento; crime hediondo (regime inicial fechado).\n"
+        "- **Defesa:** verificar autoria e prova testemunhal; retratação da representação só cabe antes da denúncia; "
+        "consentimento da vítima maior de 14 anos e capaz pode afastar o tipo.\n"
+        "- **Prática:** concurso material quando há mais de uma vítima; "
+        "estupro de vulnerável (art. 217-A) aplica-se quando a vítima é menor de 14 anos — tipos penais distintos."
+    ),
+    "217-A": (
+        "- **MP/Acusação:** presunção absoluta de vulnerabilidade (Súmula 593 STJ) — dispensada prova de violência; "
+        "basta demonstrar a prática de ato libidinoso e que a vítima era menor de 14 anos.\n"
+        "- **Defesa:** impugnar autoria; distinção entre conjunção carnal e ato libidinoso diverso "
+        "(penas diferenciadas antes da Lei 12.015/09); verificar data do fato.\n"
+        "- **Prática:** crime hediondo; ação penal pública incondicionada; "
+        "vulnerabilidade inclui também enfermidade ou doença mental que impeça discernimento (§1°)."
+    ),
+    "312": (
+        "- **MP/Acusação:** demonstrar o vínculo funcional (funcionário público para fins penais — art. 327 CP) "
+        "e a relação de posse/administração com o bem; peculato-desvio dispensa prova de locupletamento pessoal.\n"
+        "- **Defesa:** peculato culposo (§2°) admite extinção da punibilidade por reparação integral do dano "
+        "antes da sentença irrecorrível; verificar se o agente tem a qualidade de funcionário público.\n"
+        "- **Prática:** Súmula 599 STJ veda insignificância; colaboração premiada e acordo de não-persecução "
+        "penal (ANPP) são instrumentos frequentes em investigações de improbidade-penal."
+    ),
+    "317": (
+        "- **MP/Acusação:** demonstrar nexo entre a vantagem indevida e o ato de ofício; "
+        "crime formal — consuma-se com a solicitação ou recebimento, dispensando a prática do ato de ofício.\n"
+        "- **Defesa:** ausência de nexo entre a vantagem e ato de ofício específico; "
+        "distinção com advocacia administrativa (art. 321 CP) e tráfico de influência (art. 332 CP).\n"
+        "- **Prática:** AP 470 STF consolidou teoria do domínio do fato para chefes hierárquicos; "
+        "delação premiada e ANPP são instrumentos frequentes; Súmula 599 STJ veda insignificância."
+    ),
+    "333": (
+        "- **MP/Acusação:** crime formal — oferta ou promessa consuma o tipo, independente da aceitação; "
+        "descrever o ato de ofício visado e o vínculo com a vantagem oferecida.\n"
+        "- **Defesa:** ausência do elemento normativo 'ato de ofício' específico; "
+        "distinguir de tráfico de influência (art. 332) quando não há servidor determinado.\n"
+        "- **Prática:** corrupção ativa e passiva são crimes autônomos — processamento simultâneo de "
+        "corruptor e corrompido não é bis in idem; Súmula 599 STJ veda insignificância."
+    ),
+    "288": (
+        "- **MP/Acusação:** demonstrar estabilidade e permanência do vínculo associativo — não basta reunião "
+        "eventual; indicar os membros identificados (mínimo 3) e a finalidade de praticar crimes.\n"
+        "- **Defesa:** distinguir de concurso eventual de pessoas (art. 29 CP); "
+        "ausência de estabilidade e permanência afasta o tipo; organização criminosa (Lei 12.850/13) é figura distinta.\n"
+        "- **Prática:** autonomia do crime — punível ainda que os crimes-fim não sejam consumados; "
+        "pena aumentada de metade se a associação é armada (§1°)."
+    ),
 }
 
 
@@ -165,6 +278,11 @@ class MarkdownGeneratorCP:
         else:
             juris_str = "[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]"
 
+        # Observações práticas curadas ou placeholder
+        obs = self._obs_praticas(str(num), sigla)
+        obs_str = obs if obs else \
+            "[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo\nem denúncias, defesas, sentenças?]"
+
         # prev/next pela ordem real da lei (calculado no pipeline com lista completa)
         if artigo.get("prev_num") is not None:
             art_anterior = artigo["prev_num"]
@@ -236,8 +354,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+{obs_str}
 
 ---
 
@@ -309,6 +426,13 @@ em denúncias, defesas, sentenças?]
         if sigla != "DEL2848":
             return []
         return JURIS_CP.get(num_str, [])
+
+    @staticmethod
+    def _obs_praticas(num_str: str, sigla: str) -> str:
+        """Retorna observações práticas curadas (MP, Defesa, Tribunais) para o artigo."""
+        if sigla != "DEL2848":
+            return ""
+        return OBS_PRATICAS_CP.get(num_str, "")
 
     @staticmethod
     def _detectar_parte_cp(num: int) -> Dict:

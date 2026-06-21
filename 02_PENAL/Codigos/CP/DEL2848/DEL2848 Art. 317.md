@@ -82,8 +82,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar nexo entre a vantagem indevida e o ato de ofício; crime formal — consuma-se com a solicitação ou recebimento, dispensando a prática do ato de ofício.
+- **Defesa:** ausência de nexo entre a vantagem e ato de ofício específico; distinção com advocacia administrativa (art. 321 CP) e tráfico de influência (art. 332 CP).
+- **Prática:** AP 470 STF consolidou teoria do domínio do fato para chefes hierárquicos; delação premiada e ANPP são instrumentos frequentes; Súmula 599 STJ veda insignificância.
 
 ---
 

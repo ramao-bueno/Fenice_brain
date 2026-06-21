@@ -85,8 +85,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar os três elementos cumulativos — artifício/ardil/meio fraudulento, indução em erro da vítima e obtenção de vantagem ilícita em prejuízo alheio; dolo deve preexistir.
+- **Defesa:** ausência do artifício fraudulento (mero inadimplemento civil não é estelionato); pagamento do cheque antes da denúncia extingue a punibilidade (Súmula 554 STJ) nos crimes de cheque sem fundos.
+- **Prática:** estelionato contra idoso tem pena aumentada de 1/3 (§4°); estelionato por meio eletrônico (§2°-A, incluído pela Lei 14.155/21) tem pena aumentada de 1/3 a 2/3.
 
 ---
 

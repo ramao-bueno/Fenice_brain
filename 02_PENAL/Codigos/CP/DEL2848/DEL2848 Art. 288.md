@@ -84,8 +84,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar estabilidade e permanência do vínculo associativo — não basta reunião eventual; indicar os membros identificados (mínimo 3) e a finalidade de praticar crimes.
+- **Defesa:** distinguir de concurso eventual de pessoas (art. 29 CP); ausência de estabilidade e permanência afasta o tipo; organização criminosa (Lei 12.850/13) é figura distinta.
+- **Prática:** autonomia do crime — punível ainda que os crimes-fim não sejam consumados; pena aumentada de metade se a associação é armada (§1°).
 
 ---
 

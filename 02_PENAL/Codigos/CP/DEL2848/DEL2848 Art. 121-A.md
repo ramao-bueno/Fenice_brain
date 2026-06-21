@@ -77,14 +77,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: feminicídio é qualificadora de natureza objetiva (razão da condição do sexo feminino); compatível com qualificadoras subjetivas como motivo torpe.
+- STJ — Súmula 600: para configurar violência doméstica e familiar, não se exige coabitação entre vítima e agressor.
+
+[Conferir atualização: STJ «Jurisprudência em Teses»; Informativos STF/STJ]
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** demonstrar as razões da condição do sexo feminino — violência doméstica/familiar (inciso I) ou menosprezo/discriminação à mulher (inciso II); Súmula 600 STJ dispensa coabitação.
+- **Defesa:** verificar se as razões do §1° estão efetivamente presentes e se não há mera violência interpessoal sem motivação de gênero; possível desclassificação para homicídio simples (art. 121, caput).
+- **Prática:** crime hediondo (Lei 8.072/90); competência do Tribunal do Júri; Lei Maria da Penha (11.340/06) pode ser aplicada cumulativamente para medidas protetivas.
 
 ---
 

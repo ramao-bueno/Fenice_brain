@@ -29,6 +29,9 @@ class MarkdownGeneratorSumulaSTJ:
             "tribunal": "STJ",
             "tipo": "sumula-stj",
             "status": "vigente",
+            "secao": sumula.get("secao", ""),
+            "julgado_em": sumula.get("julgado_em", ""),
+            "dje": sumula.get("dje", ""),
             "relacionados": [],
             "tags": tags,
             "created": datetime.now().strftime("%Y-%m-%d"),
@@ -37,11 +40,20 @@ class MarkdownGeneratorSumulaSTJ:
         fm_str = yaml.dump(frontmatter, allow_unicode=True,
                            default_flow_style=False, sort_keys=False)
 
+        secao = sumula.get("secao", "")
+        julgado_em = sumula.get("julgado_em", "")
+        dje = sumula.get("dje", "")
+        meta_info = ""
+        if secao or julgado_em:
+            meta_info = f"\n**Seção:** {secao}" if secao else ""
+            meta_info += f"\n**Julgado em:** {julgado_em}" if julgado_em else ""
+            meta_info += f" | **DJe:** {dje}" if dje else ""
+
         corpo = f"""# Súmula STJ {num}
 
 **Tribunal:** Superior Tribunal de Justiça
 **Status:** VIGENTE
-**Jurisprudência Consolidada**
+**Jurisprudência Consolidada**{meta_info}
 
 ---
 

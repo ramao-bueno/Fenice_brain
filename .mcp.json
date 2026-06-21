@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "jurismcp": {
+      "command": "uv",
+      "args": ["--directory", "C:/ferramentas/jurismcp", "run", "serve"],
+      "description": "Pesquisa jurisprudencia STJ/STF/TST em tempo real. Requer: git clone https://github.com/ivancaron/jurismcp C:/ferramentas/jurismcp && cd C:/ferramentas/jurismcp && uv run patchright install"
+    }
+  }
+}

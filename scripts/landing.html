@@ -1580,11 +1580,20 @@
     if (detail.classList.contains('obs-open') && e.key === 'Escape') { closeDetail(); return; }
     /* overlay Esc */
     if (overlay.classList.contains('obs-open') && e.key === 'Escape') { closeOverlay(); return; }
-    /* open shortcuts */
+    /* open shortcuts — espelham atalhos do Obsidian */
     if (!overlay.classList.contains('obs-open')) {
       const tag = document.activeElement.tagName;
-      if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') { e.preventDefault(); openOverlay(''); }
-      if ((e.ctrlKey || e.metaKey) && e.key === 'f') { e.preventDefault(); openOverlay(''); }
+      const notInput = tag !== 'INPUT' && tag !== 'TEXTAREA';
+      /* / → busca inline */
+      if (e.key === '/' && notInput) { e.preventDefault(); openOverlay(''); }
+      /* Ctrl+F → busca na nota */
+      if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key === 'f') { e.preventDefault(); openOverlay(''); }
+      /* Ctrl+O → Quick Switcher */
+      if ((e.ctrlKey || e.metaKey) && e.key === 'o') { e.preventDefault(); openOverlay(''); }
+      /* Ctrl+Shift+F → Busca global em todas as notas */
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'f') { e.preventDefault(); openOverlay(''); }
+      /* Ctrl+P → Paleta de comandos */
+      if ((e.ctrlKey || e.metaKey) && e.key === 'p') { e.preventDefault(); openOverlay(''); }
     }
   });
 

@@ -163,6 +163,36 @@ function parseArtigoMD(content) {
     }
   }
 
+  // ── Fallback: formato dosimetria (Crimes/) — callouts [!info] + tabela Dados Essenciais ──
+  if (!result.textoBase) {
+    // Extrai texto do primeiro callout [!info] ou [!tip]
+    const mCallout = content.match(/>\s*\[!(?:info|tip|warning)[^\]]*\][^\n]*\n((?:>[^\n]*\n?)+)/i);
+    if (mCallout) {
+      result.textoBase = mCallout[1]
+        .split('\n')
+        .map(l => l.replace(/^>\s?/, '').replace(/\*{1,2}/g, '').trim())
+        .filter(Boolean).join(' ');
+    }
+    // Extrai tabela ## Dados Essenciais como analiseTecnica
+    if (!result.analiseTecnica) {
+      const mTab = content.match(/## ([^\n]+)\n((?:\|[^\n]+\n){2,})/);
+      if (mTab) {
+        const linhas = mTab[2].split('\n')
+          .filter(l => l.includes('|') && !/^\s*\|[\s\-:]+\|/.test(l) && l.trim());
+        if (linhas.length) result.analiseTecnica = { [mTab[1].trim()]: linhas };
+      }
+    }
+    // Extrai wikilinks do ## Links Relacionados como correlatos
+    if (!result.correlatos.length) {
+      const mLinks = content.match(/## Links[^\n]*\n([\s\S]*?)(?=\n##|$)/i);
+      if (mLinks) {
+        for (const m of [...mLinks[1].matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)]) {
+          result.correlatos.push(m[1].trim());
+        }
+      }
+    }
+  }
+
   // ── Jurisprudência do corpo: seção ## JURISPRUDENCIA ou ## ⚖️ JURISPRUDÊNCIA ──
   // Só extrai se houver blockquotes reais (não placeholder)
   const mJurisCorpo = content.match(/##[^\n]*JURISPRUD[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
@@ -327,7 +357,7 @@ class ArtigoModal extends Modal {
     super(app);
     this.config = config;
     this.onBuscar = onBuscar;
-    this.placeholderText = placeholder || 'Ex: 48  |  121  |  1.228';
+    this.placeholderText = placeholder || 'Ex: 48  |  121  |  121-A  |  1.228';
   }
   onOpen() {
     const { contentEl } = this;
@@ -761,11 +791,109 @@ class InfoModal extends Modal {
   onClose() { this.contentEl.empty(); }
 }
 
+// ─── Modal Graph: como visualizar? ──────────────────────────
+class GraphModal extends Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+    this.modalEl.style.maxWidth = '480px';
+    this.modalEl.style.width   = '90vw';
+  }
+
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+
+    const activeFile = this.app.workspace.getActiveFile();
+
+    const h = contentEl.createEl('h3', { text: '📊 Visualização em Grafo' });
+    h.style.marginBottom = '4px';
+
+    if (activeFile) {
+      const sub = contentEl.createEl('p', { text: activeFile.basename });
+      Object.assign(sub.style, { color: 'var(--text-muted)', fontSize: '12px', marginBottom: '16px', marginTop: '0' });
+    }
+
+    const opcoes = [
+      {
+        icon: '📄',
+        titulo: 'Artigo atual — links diretos',
+        desc: 'Grafo local depth 1: mostra só os artigos diretamente linkados (CP, CC, CF…). Rápido.',
+        badge: '⚡ rápido',
+        badgeColor: 'var(--color-green)',
+        action: () => {
+          this.close();
+          if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
+          this.plugin._abrirGrafoLocal(activeFile, 1);
+        },
+      },
+      {
+        icon: '🇧🇷',
+        titulo: 'Correlações entre ramos (depth 2)',
+        desc: 'Grafo local depth 2: artigo atual + links + links dos links. Veja CC, CP e CF conectados.',
+        badge: '🔍 correlações',
+        badgeColor: 'var(--text-accent)',
+        action: () => {
+          this.close();
+          if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
+          this.plugin._abrirGrafoLocal(activeFile, 2);
+        },
+      },
+      {
+        icon: '⚖️',
+        titulo: 'Código completo (global filtrado)',
+        desc: 'Escolha um código para ver todos os seus artigos. Só disponível para códigos pequenos.',
+        badge: '⚠ pode ser lento',
+        badgeColor: 'var(--color-orange)',
+        action: () => {
+          this.close();
+          this.plugin.abrirGraphCodigo();
+        },
+      },
+    ];
+
+    for (const opt of opcoes) {
+      const btn = contentEl.createEl('div');
+      Object.assign(btn.style, {
+        display: 'flex', alignItems: 'flex-start', gap: '12px',
+        padding: '12px', marginBottom: '8px', cursor: 'pointer',
+        borderRadius: '6px', border: '1px solid var(--background-modifier-border)',
+        background: 'var(--background-secondary)', transition: 'background 0.1s',
+      });
+      btn.addEventListener('mouseenter', () => btn.style.background = 'var(--background-modifier-hover)');
+      btn.addEventListener('mouseleave', () => btn.style.background = 'var(--background-secondary)');
+      btn.addEventListener('click', opt.action);
+
+      const icon = btn.createEl('div', { text: opt.icon });
+      Object.assign(icon.style, { fontSize: '22px', lineHeight: '1', paddingTop: '2px' });
+
+      const info = btn.createEl('div');
+      info.style.flex = '1';
+
+      const titulo = info.createEl('div', { text: opt.titulo });
+      Object.assign(titulo.style, { fontWeight: 'bold', marginBottom: '2px' });
+
+      const desc = info.createEl('div', { text: opt.desc });
+      Object.assign(desc.style, { fontSize: '12px', color: 'var(--text-muted)', lineHeight: '1.4' });
+
+      if (opt.badge) {
+        const badge = info.createEl('span', { text: opt.badge });
+        Object.assign(badge.style, {
+          fontSize: '10px', color: opt.badgeColor || 'var(--text-muted)',
+          marginTop: '4px', display: 'inline-block', fontWeight: 'bold',
+        });
+      }
+    }
+  }
+
+  onClose() { this.contentEl.empty(); }
+}
+
 // ─── Plugin Principal ────────────────────────────────────────
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v22 — DomainModal: ramo → código → artigo');
+    console.log('✅ Fenice Buscar Artigo v23 — GraphModal: local | correlações | código específico');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -781,6 +909,14 @@ class FeniceBuscarArtigo extends Plugin {
       name: 'Info do Artigo Atual (§ Incisos Correlatos)',
       hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'I' }],
       callback: () => this.mostrarInfoAtual(),
+    });
+
+    // Ctrl+Shift+G — abre GraphModal com opções de visualização
+    this.addCommand({
+      id: 'graph-modal',
+      name: 'Grafo Jurídico (escolher visualização)',
+      hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'G' }],
+      callback: () => new GraphModal(this.app, this).open(),
     });
 
     // Carrega index de enunciados CJF
@@ -945,7 +1081,8 @@ class FeniceBuscarArtigo extends Plugin {
 
   async buscarEAbrir(config, input) {
     const termo = input.trim();
-    const isNumero = /^[\d.]+$/.test(termo);
+    // Aceita: "121", "1.228", "121-A", "121-B", "1.228-A"
+    const isNumero = /^[\d.]+(-?[A-Za-z])?$/.test(termo);
 
     console.clear();
     console.log(`📥 Input: "${termo}"`);
@@ -975,13 +1112,21 @@ class FeniceBuscarArtigo extends Plugin {
     const allFiles = this.app.vault.getFiles();
 
     const campoChave = config.buscaPorSumula ? 'sumula' : 'artigo';
-    const numInt = parseInt(num, 10);
+    const numNorm = num.trim().toUpperCase();
+    const temSufixo = /[A-Za-z]$/.test(numNorm); // ex: "121-A", "121-B"
+    const numInt = parseInt(numNorm, 10);
     const bate = (meta) => {
       if (!meta) return false;
       const v = meta[campoChave];
       if (v == null) return false;
-      const vs = String(v);
-      return vs === num || parseInt(vs, 10) === numInt;
+      const vs = String(v).trim().toUpperCase();
+      // Match exato (cobre "121", "121-A", "1.228")
+      if (vs === numNorm) return true;
+      // Match numérico puro só quando não há sufixo (evita "121" bater em "121-A")
+      if (!temSufixo && /^[\d.]+$/.test(numNorm)) {
+        if (parseInt(vs, 10) === numInt && !/[A-Za-z]/.test(vs)) return true;
+      }
+      return false;
     };
 
     let found = null;
@@ -990,11 +1135,19 @@ class FeniceBuscarArtigo extends Plugin {
       if (found) break;
     }
     if (!found) {
-      found = allFiles.find(f => {
+      // Fallback por tag — prefere arquivos das pastas configuradas
+      const pastas = obterPastas(config);
+      const candidatos = allFiles.filter(f => {
         const meta = this.app.metadataCache.getFileCache(f)?.frontmatter;
         const tags = Array.isArray(meta?.tags) ? meta.tags : [];
         return bate(meta) && tags.includes(config.tag);
       });
+      candidatos.sort((a, b) => {
+        const aOrd = pastas.findIndex(p => pastaEhAncestral(p, a.path));
+        const bOrd = pastas.findIndex(p => pastaEhAncestral(p, b.path));
+        return (aOrd < 0 ? 999 : aOrd) - (bOrd < 0 ? 999 : bOrd);
+      });
+      found = candidatos[0] || null;
     }
     if (!found) { this.avisarNaoEncontrado(config, num); return; }
 
@@ -1138,6 +1291,139 @@ class FeniceBuscarArtigo extends Plugin {
       },
       (lei) => this.buscarPorLei(lei),
       (n, cfg) => this.buscarPorNumero(cfg || config, n)).open();
+  }
+
+  // ── Graph: grafo local com depth configurável ──
+  async _abrirGrafoLocal(activeFile, depth) {
+    const gp = this.app.internalPlugins?.plugins?.['graph'];
+    if (!gp?.enabled) { new Notice('⚠ Plugin de Grafo não está habilitado. Reinicie o Obsidian.', 6000); return; }
+
+    // Tenta abrir via setViewState passando file e depth
+    const leaf = this.app.workspace.getLeaf('tab');
+    await leaf.setViewState({
+      type: 'localgraph',
+      state: { file: activeFile.path },
+    });
+    this.app.workspace.revealLeaf(leaf);
+
+    // Após abrir, tenta ajustar depth no renderer do grafo local
+    if (depth > 1) {
+      await new Promise(r => setTimeout(r, 400));
+      try {
+        const view = leaf.view;
+        if (view?.renderer?.setOptions) {
+          view.renderer.setOptions({ depth });
+        } else if (view?.dataEngine) {
+          view.dataEngine.depth = depth;
+          view.dataEngine.updateWorker?.();
+        }
+      } catch (e) { /* API interna indisponível — usuário ajusta depth no slider */ }
+      new Notice(`📊 Grafo local aberto. Se quiser depth ${depth}, ajuste o slider "Profundidade" no painel de filtros do grafo.`, 5000);
+    }
+  }
+
+  // ── Graph: opção 1 — correlações entre ramos (smart filter) ──
+  async abrirGraphCorrelacoes(activeFile) {
+    if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
+
+    let content = '';
+    try { content = await this.app.vault.read(activeFile); } catch(e) { return; }
+
+    const wikilinks = [...content.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map(m => m[1].trim());
+
+    const pathsToShow = new Set();
+
+    // Pasta do artigo atual
+    const pastaAtual = this._resolverPastaDeArquivo(activeFile.path);
+    if (pastaAtual) pathsToShow.add(pastaAtual);
+
+    // Resolve cada wikilink → pasta do arquivo linkado
+    for (const link of wikilinks) {
+      const linkedFile = this.app.metadataCache.getFirstLinkpathDest(link, activeFile.path);
+      if (linkedFile) {
+        const pasta = this._resolverPastaDeArquivo(linkedFile.path);
+        if (pasta) pathsToShow.add(pasta);
+      }
+    }
+
+    if (pathsToShow.size === 0) {
+      new Notice('Nenhuma correlação encontrada. Verifique os wikilinks do artigo.', 4000);
+      return;
+    }
+
+    const query = [...pathsToShow].map(p => `path:"${p}"`).join(' OR ');
+    const modulos = [...pathsToShow].map(p => p.split('/')[0]).filter((v, i, a) => a.indexOf(v) === i);
+    new Notice(`📊 Grafo: ${modulos.join(' · ')} (${pathsToShow.size} pasta(s))`, 3000);
+    await this._abrirGraphComFiltro(query);
+  }
+
+  // Retorna a pasta CODIGOS mais específica que contém o arquivo
+  _resolverPastaDeArquivo(filePath) {
+    for (const cod of CODIGOS) {
+      const pastas = obterPastas(cod);
+      for (const pasta of pastas) {
+        if (filePath.startsWith(pasta.replace(/\/+$/, '') + '/')) return pasta;
+      }
+    }
+    // Fallback: primeiros 4 segmentos do path
+    const partes = filePath.split('/');
+    if (partes.length < 2) return null;
+    return partes.slice(0, Math.min(4, partes.length - 1)).join('/');
+  }
+
+  // ── Graph: opção 2 — código específico (picker) ──
+  abrirGraphCodigo() {
+    new DomainModal(this.app, (dominio) => {
+      new CodigoModal(this.app, async (config) => {
+        const pastas = obterPastas(config);
+        if (pastas.length === 0) { new Notice(`Sem pasta configurada para ${config.codigo}.`, 3000); return; }
+        const query = pastas.map(p => `path:"${p}"`).join(' OR ');
+        new Notice(`📊 Grafo: ${config.codigo} (${pastas.length} pasta(s))`, 2000);
+        await this._abrirGraphComFiltro(query);
+      }, dominio.codigos.length ? dominio.codigos : null).open();
+    }).open();
+  }
+
+  // ── Graph: escreve filtro em graph.json e reabre o grafo ──
+  async _abrirGraphComFiltro(query) {
+    // Verifica se o plugin de grafo está habilitado
+    const gPlugin = this.app.internalPlugins?.plugins?.['graph'];
+    if (!gPlugin?.enabled) {
+      new Notice('⚠ Plugin de Grafo não está habilitado. Reinicie o Obsidian.', 6000);
+      return;
+    }
+
+    // Escreve filtro em graph.json
+    const graphJsonPath = '.obsidian/graph.json';
+    let cfg = { search: query, close: false, showAttachments: false, showOrphans: false, hideUnresolved: true };
+    try {
+      const old = JSON.parse(await this.app.vault.adapter.read(graphJsonPath));
+      cfg = { ...old, search: query, close: false };
+    } catch (e) {}
+    await this.app.vault.adapter.write(graphJsonPath, JSON.stringify(cfg, null, 2));
+
+    // Fecha leaves existentes
+    this.app.workspace.getLeavesOfType('graph').forEach(l => l.detach());
+
+    await new Promise(r => setTimeout(r, 250));
+
+    // Tenta abrir via método do plugin interno
+    const inst = gPlugin.instance;
+    if (inst && typeof inst.openGlobalGraph === 'function') {
+      inst.openGlobalGraph();
+      return;
+    }
+
+    // Fallback: executa comando registrado pelo plugin
+    if (this.app.commands.commands['graph:open']) {
+      this.app.commands.executeCommandById('graph:open');
+      return;
+    }
+
+    // Fallback final: cria leaf diretamente
+    const leaf = this.app.workspace.getLeaf('tab');
+    await leaf.setViewState({ type: 'graph' });
+    this.app.workspace.revealLeaf(leaf);
   }
 
   avisarNaoEncontrado(config, num) {

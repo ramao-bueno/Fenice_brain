@@ -16,6 +16,7 @@ tags:
 created: '2026-06-03'
 ---
 
+
 # CPC Art. 1 — Terão prioridade de tramitação, em qualquer juízo ou tribunal, os procedimentos judiciais:
 
 **Lei:** Lei 13.105/2015 (Código de Processo Civil)

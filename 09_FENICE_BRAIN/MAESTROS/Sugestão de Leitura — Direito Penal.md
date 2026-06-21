@@ -64,7 +64,8 @@ relacionados:
 
 ## NOTAS PESSOAIS
 
-<!-- Insira aqui anotações sobre leituras concluídas, trechos marcantes ou conexões com casos práticos -->
+> [!note] Anotações livres
+> Insira aqui anotações sobre leituras concluídas, trechos marcantes ou conexões com casos práticos.
 
 ---
 
@@ -74,4 +75,5 @@ relacionados:
 |---|---|---|
 |  |  |  |
 
-<!-- Para anexar: arraste o PDF para o vault e use ![[nome-do-arquivo.pdf]] -->
+> [!tip] Como anexar
+> Arraste o PDF para o vault e use `![[nome-do-arquivo.pdf]]` para embedar diretamente na nota.

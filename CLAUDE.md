@@ -23,3 +23,56 @@
 | `Ctrl+L` | Alterna checkbox `- [ ]` ↔ `- [x]` |
 | `[[` | Cria wikilink — começa a digitar o nome da nota |
 | `![[` | Embed — incorpora outra nota ou imagem inline |
+
+## Obsidian — Formatação Markdown
+
+| Atalho / Sintaxe | Resultado |
+|---|---|
+| `Ctrl+B` | **Negrito** — envolve seleção em `**texto**` |
+| `Ctrl+I` | *Itálico* — envolve seleção em `*texto*` |
+| `Ctrl+Shift+H` | ==Destaque== — envolve seleção em `==texto==` |
+| `Ctrl+Shift+X` | ~~Tachado~~ — envolve seleção em `~~texto~~` |
+| `` Ctrl+` `` | `Código inline` — envolve seleção em `` `texto` `` |
+| `Ctrl+Shift+C` | Bloco de código — insere ` ```  ``` ` |
+| `# ` (espaço) | Título H1 |
+| `## ` | Título H2 |
+| `### ` | Título H3 |
+| `- ` | Lista com marcador |
+| `1. ` | Lista numerada |
+| `- [ ] ` | Checkbox vazia |
+| `- [x] ` | Checkbox marcada |
+| `> ` | Citação (blockquote) |
+| `---` | Linha horizontal (separador) |
+| `**texto**` | **Negrito** |
+| `*texto*` | *Itálico* |
+| `***texto***` | ***Negrito e itálico*** |
+| `==texto==` | ==Destaque amarelo== |
+| `~~texto~~` | ~~Tachado~~ |
+| `^texto^` | Sobrescrito |
+| `~texto~` | Subscrito |
+| `[texto](url)` | Link externo |
+| `![alt](url)` | Imagem externa |
+
+## Obsidian — Callouts (caixas visuais)
+
+```markdown
+> [!NOTE] Título
+> Conteúdo da caixa
+
+> [!WARNING] Atenção
+> Conteúdo de aviso
+
+> [!TIP] Dica
+> Conteúdo de dica
+```
+
+| Tipo | Uso sugerido no vault |
+|---|---|
+| `[!NOTE]` | Observação geral |
+| `[!TIP]` | Dica prática / tese favorável |
+| `[!WARNING]` | Pegadinha / ponto de atenção em concurso |
+| `[!DANGER]` | Erro fatal / posição sumulada contrária |
+| `[!INFO]` | Informação complementar |
+| `[!QUOTE]` | Citação de doutrina ou jurisprudência |
+| `[!ABSTRACT]` | Resumo / ementa |
+| `[!EXAMPLE]` | Exemplo prático / caso concreto |

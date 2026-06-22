@@ -1,0 +1,51 @@
+<svg class="hero-seal" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="arcT" d="M 16,100 A 84,84 0 0,0 184,100"/>
+        <radialGradient id="gC" cx="50%" cy="50%" r="35%">
+          <stop offset="0%" stop-color="#c9a227" stop-opacity="0.1"/>
+          <stop offset="100%" stop-color="#c9a227" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="100" cy="100" r="100" fill="#04080f"/>
+      <circle cx="100" cy="100" r="65" fill="url(#gC)"/>
+      <circle cx="100" cy="100" r="97" fill="none" stroke="#c9a227" stroke-width="0.7"/>
+      <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.2"/>
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+      <circle cx="100" cy="100" r="67" fill="none" stroke="#c9a227" stroke-width="0.5" stroke-dasharray="2,4"/>
+      <text font-family="Georgia,'Times New Roman',serif" font-size="10" fill="#c9a227" letter-spacing="2.5">
+        <textPath href="#arcT" startOffset="6%">FILOSOFIA E DIREITO</textPath>
+      </text>
+      <text x="100" y="135" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="8" fill="#c9a227" letter-spacing="2.5">EST. MCMLXII</text>
+      <circle cx="18" cy="100" r="2.5" fill="#c9a227"/>
+      <circle cx="182" cy="100" r="2.5" fill="#c9a227"/>
+      <!-- Scales -->
+      <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+      <rect x="98.5" y="62" width="3" height="58" rx="1.5" fill="#c9a227"/>
+      <rect x="66" y="75" width="68" height="2.5" rx="1.25" fill="#c9a227"/>
+      <line x1="74" y1="77.5" x2="67" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="74" y1="77.5" x2="81" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <path d="M 62,95 Q 74,106 86,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <line x1="126" y1="77.5" x2="119" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <line x1="126" y1="77.5" x2="133" y2="95" stroke="#c9a227" stroke-width="1.2"/>
+      <path d="M 114,95 Q 126,106 138,95" stroke="#c9a227" stroke-width="1.5" fill="none"/>
+      <rect x="89" y="120" width="22" height="3" rx="1.5" fill="#c9a227"/>
+      <rect x="84" y="123" width="32" height="2" rx="1" fill="#c9a227" opacity="0.5"/>
+      <!-- Owl -->
+      <ellipse cx="55" cy="100" rx="9" ry="11" fill="#c9a227" opacity="0.5"/>
+      <ellipse cx="55" cy="92" rx="7" ry="6.5" fill="#c9a227" opacity="0.62"/>
+      <circle cx="52" cy="91" r="2.2" fill="#04080f"/><circle cx="58" cy="91" r="2.2" fill="#04080f"/>
+      <circle cx="52" cy="91" r="0.8" fill="#c9a227"/><circle cx="58" cy="91" r="0.8" fill="#c9a227"/>
+      <path d="M 53,96 L 55,98.5 L 57,96" stroke="#04080f" stroke-width="0.9" fill="none"/>
+      <line x1="51" y1="88" x2="48" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+      <line x1="59" y1="88" x2="62" y2="84.5" stroke="#c9a227" stroke-width="1.4"/>
+      <path d="M 47,97 Q 55,91 63,97" stroke="#c9a227" stroke-width="0.8" fill="none" opacity="0.45"/>
+      <!-- Column -->
+      <rect x="134" y="73" width="20" height="3.5" rx="0.5" fill="#c9a227" opacity="0.7"/>
+      <path d="M 135,76.5 Q 144,80.5 153,76.5" stroke="#c9a227" stroke-width="0.8" fill="none" opacity="0.6"/>
+      <rect x="137" y="77" width="14" height="45" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
+      <line x1="141" y1="78" x2="141" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <line x1="144" y1="78" x2="144" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <line x1="147" y1="78" x2="147" y2="121" stroke="#c9a227" stroke-width="0.45" opacity="0.4"/>
+      <rect x="134" y="122" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
+      <rect x="131" y="124.5" width="26" height="2" rx="0.5" fill="#c9a227" opacity="0.5"/>
+    </svg>

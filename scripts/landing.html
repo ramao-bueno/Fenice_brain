@@ -486,36 +486,52 @@
     }
     .login-card {
       width: min(420px, 92vw);
-      background: #0b1525;
-      border: 1px solid rgba(201,162,39,0.22);
+      background: linear-gradient(160deg, #0d1f38 0%, #0b1525 50%, #0d1a2e 100%);
+      border: 1px solid rgba(201,162,39,0.3);
       border-radius: 20px;
       padding: 2.5rem 2.25rem 2rem;
       box-shadow:
-        0 0 80px rgba(201,162,39,0.1),
-        0 0 0 1px rgba(201,162,39,0.07);
+        0 0 0 1px rgba(201,162,39,0.12),
+        0 0 60px rgba(245,158,11,0.15),
+        0 0 120px rgba(139,92,246,0.08),
+        0 32px 80px rgba(0,0,0,0.6);
       text-align: center;
       position: relative;
       overflow: hidden;
+      animation: cardBreath 5s ease-in-out infinite;
+    }
+    @keyframes cardBreath {
+      0%, 100% { box-shadow: 0 0 0 1px rgba(201,162,39,0.12), 0 0 60px rgba(245,158,11,0.15), 0 0 120px rgba(139,92,246,0.08), 0 32px 80px rgba(0,0,0,0.6); }
+      50%       { box-shadow: 0 0 0 1px rgba(201,162,39,0.28), 0 0 90px rgba(245,158,11,0.28), 0 0 160px rgba(139,92,246,0.14), 0 32px 80px rgba(0,0,0,0.6); }
     }
     .login-card::before {
       content: '';
       position: absolute; top: 0; left: 0; right: 0; height: 3px;
-      background: linear-gradient(90deg, #f59e0b 0%, #8b5cf6 50%, #10b981 100%);
+      background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 20%, #8b5cf6 50%, #3b82f6 75%, #10b981 100%);
+      background-size: 200% 100%;
+      animation: aurora 3s linear infinite;
     }
     .login-card::after {
       content: '';
       position: absolute; bottom: 0; left: 0; right: 0; height: 1px;
-      background: linear-gradient(90deg, transparent 0%, rgba(201,162,39,0.3) 50%, transparent 100%);
+      background: linear-gradient(90deg, transparent 0%, rgba(201,162,39,0.4) 50%, transparent 100%);
     }
     .login-seal-wrap {
       display: flex; justify-content: center; margin-bottom: 1.5rem;
     }
     .login-title {
       font-family: "skeena-display", serif; font-weight: 700;
-      font-size: 2rem; letter-spacing: -0.02em;
-      color: var(--gold); margin-bottom: 0.2rem; line-height: 1;
+      font-size: 2.1rem; letter-spacing: -0.02em;
+      margin-bottom: 0.2rem; line-height: 1;
     }
-    .login-title span { color: var(--text); }
+    .login-title-gold {
+      background: linear-gradient(110deg, #d97706 0%, #f59e0b 30%, #fef3c7 50%, #fbbf24 70%, #d97706 100%);
+      background-size: 250% auto;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3s linear infinite;
+    }
+    .login-title span { color: var(--text); -webkit-text-fill-color: var(--text); }
     .login-subtitle {
       font-family: "adelle", serif;
       font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
@@ -530,18 +546,19 @@
     }
     .login-field input {
       width: 100%;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
       border-radius: 10px;
       padding: 0.85rem 1rem;
       color: var(--text);
       font-family: "acumin-pro", sans-serif; font-size: 1rem;
       outline: none;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
     }
     .login-field input:focus {
-      border-color: rgba(245,158,11,0.5);
-      box-shadow: 0 0 0 3px rgba(245,158,11,0.08);
+      border-color: rgba(245,158,11,0.6);
+      box-shadow: 0 0 0 3px rgba(245,158,11,0.12), 0 0 20px rgba(245,158,11,0.1);
+      background: rgba(245,158,11,0.04);
     }
     .login-field input::placeholder { color: var(--dim); }
     .login-btn {
@@ -565,9 +582,72 @@
       font-family: "acumin-pro", sans-serif; font-size: 0.85rem;
     }
     .login-footer {
-      margin-top: 1.5rem;
-      font-size: 0.68rem; letter-spacing: 0.1em;
-      color: rgba(201,162,39,0.22); text-transform: uppercase;
+      margin-top: 0.75rem;
+      font-size: 0.64rem; letter-spacing: 0.06em;
+      color: rgba(148,163,184,0.55);
+      line-height: 1.6;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 0.75rem;
+    }
+
+    /* ── LOGO SEAL ── */
+    .login-seal-svg {
+      animation: loginSealGlow 4s ease-in-out infinite;
+    }
+    @keyframes loginSealGlow {
+      0%, 100% { filter: drop-shadow(0 0 18px rgba(201,162,39,0.4)); }
+      50%       { filter: drop-shadow(0 0 45px rgba(201,162,39,0.75)); }
+    }
+    @keyframes loginSealGlow {
+      0%, 100% { box-shadow: 0 0 18px rgba(201,162,39,0.35), 0 0 0 2px rgba(201,162,39,0.18); }
+      50%       { box-shadow: 0 0 45px rgba(201,162,39,0.7),  0 0 0 2px rgba(201,162,39,0.45); }
+    }
+
+    /* ── PASSWORD TOGGLE ── */
+    .login-pwd-wrap { position: relative; }
+    .login-pwd-wrap input { padding-right: 2.8rem; }
+    .login-pwd-toggle {
+      position: absolute; right: 0.7rem; top: 50%;
+      transform: translateY(-50%);
+      background: none; border: none; cursor: pointer;
+      color: var(--dim); transition: color 0.2s;
+      padding: 0.2rem; display: flex; align-items: center;
+    }
+    .login-pwd-toggle:hover { color: var(--muted); }
+
+    /* ── FORGOT PASSWORD ── */
+    .login-forgot { text-align: right; margin-top: 0.3rem; margin-bottom: 0.2rem; }
+    .login-forgot a {
+      font-size: 0.72rem; color: var(--dim); text-decoration: none;
+      letter-spacing: 0.04em; transition: color 0.2s;
+    }
+    .login-forgot a:hover { color: var(--gold); }
+    .login-forgot-msg {
+      margin-top: 0.5rem; font-size: 0.78rem; color: var(--muted);
+      background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.15);
+      border-radius: 8px; padding: 0.6rem 0.9rem; text-align: left;
+      display: none; line-height: 1.5;
+    }
+    .login-forgot-msg.show { display: block; }
+
+    /* ── QR CODE ── */
+    .login-qr-section {
+      margin-top: 1.25rem; padding-top: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .login-qr-box {
+      background: #fff; border-radius: 8px; padding: 5px;
+      display: inline-block; flex-shrink: 0;
+    }
+    .login-qr-info { flex: 1; text-align: left; }
+    .login-qr-title {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.07em;
+      text-transform: uppercase; color: var(--muted); margin-bottom: 0.2rem;
+    }
+    .login-qr-url {
+      font-family: "Cascadia Code","Fira Code",monospace;
+      font-size: 0.75rem; color: var(--dim);
     }
 
     /* ── NAV SEARCH BUTTON ── */
@@ -1126,7 +1206,7 @@
 <div id="fenice-overlay">
   <div class="login-card">
     <div class="login-seal-wrap">
-      <svg width="90" height="90" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <svg class="login-seal-svg" width="100" height="100" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <path id="aLM" d="M 16,100 A 84,84 0 0,0 184,100"/>
           <radialGradient id="gLM" cx="50%" cy="50%" r="35%">
@@ -1167,8 +1247,8 @@
         <rect x="137" y="77" width="14" height="44" fill="none" stroke="#c9a227" stroke-width="0.9" opacity="0.65"/>
         <rect x="134" y="121" width="20" height="2.5" rx="0.5" fill="#c9a227" opacity="0.65"/>
       </svg>
-    </div></div>
-    <h2 class="login-title">Fenice <span>bRain</span></h2>
+    </div>
+    <h2 class="login-title"><span class="login-title-gold">Fenice</span> <span>bRain</span></h2>
     <p class="login-subtitle">Área Restrita · Faça login para continuar</p>
     <form id="fenice-login-form" autocomplete="on">
       <div class="login-field">
@@ -1177,12 +1257,34 @@
       </div>
       <div class="login-field">
         <label for="login-senha">Senha</label>
-        <input id="login-senha" name="senha" type="password" placeholder="••••••••" autocomplete="current-password" required>
+        <div class="login-pwd-wrap">
+          <input id="login-senha" name="senha" type="password" placeholder="••••••••" autocomplete="current-password" required>
+          <button type="button" class="login-pwd-toggle" id="login-pwd-toggle" aria-label="Mostrar senha">
+            <svg id="eye-icon-show" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <svg id="eye-icon-hide" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+          </button>
+        </div>
       </div>
+      <div class="login-forgot">
+        <a href="#" id="login-esqueceu">Esqueceu a senha?</a>
+      </div>
+      <p class="login-forgot-msg" id="login-forgot-msg">
+        Entre em contato com o administrador:<br>
+        <strong style="color:var(--gold)">oiconsulbrasil@gmail.com</strong>
+      </p>
       <button type="submit" class="login-btn" id="login-btn">Entrar</button>
       <p class="login-error" id="login-error"></p>
     </form>
-    <p class="login-footer">© 2026 Fenice It Justech.ia · Todos os direitos reservados<br>Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
+    <div class="login-qr-section">
+      <div class="login-qr-box">
+        <div id="login-qr"></div>
+      </div>
+      <div class="login-qr-info">
+        <p class="login-qr-title">Acesse pelo celular</p>
+        <p class="login-qr-url">fenice.ia.br</p>
+      </div>
+    </div>
+    <p class="login-footer">© 2026 Fenice IT Justech.IA. Todos os direitos reservados. Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
   </div>
 </div>
 
@@ -1692,6 +1794,7 @@
   </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
 /* ── STARFIELD ── */
 (function() {
@@ -1792,10 +1895,41 @@
 
 /* ── LOGIN MODAL ── */
 (function () {
-  const overlay = document.getElementById('fenice-overlay');
-  const form    = document.getElementById('fenice-login-form');
-  const errEl   = document.getElementById('login-error');
-  const btn     = document.getElementById('login-btn');
+  const overlay    = document.getElementById('fenice-overlay');
+  const form       = document.getElementById('fenice-login-form');
+  const errEl      = document.getElementById('login-error');
+  const btn        = document.getElementById('login-btn');
+  const pwdInput   = document.getElementById('login-senha');
+  const pwdToggle  = document.getElementById('login-pwd-toggle');
+  const eyeShow    = document.getElementById('eye-icon-show');
+  const eyeHide    = document.getElementById('eye-icon-hide');
+  const forgotLink = document.getElementById('login-esqueceu');
+  const forgotMsg  = document.getElementById('login-forgot-msg');
+
+  /* Toggle ver/ocultar senha */
+  pwdToggle.addEventListener('click', () => {
+    const isPassword = pwdInput.type === 'password';
+    pwdInput.type = isPassword ? 'text' : 'password';
+    eyeShow.style.display = isPassword ? 'none' : '';
+    eyeHide.style.display = isPassword ? '' : 'none';
+    pwdToggle.setAttribute('aria-label', isPassword ? 'Ocultar senha' : 'Mostrar senha');
+  });
+
+  /* Esqueceu a senha */
+  forgotLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    forgotMsg.classList.toggle('show');
+  });
+
+  /* QR Code do site */
+  try {
+    new QRCode(document.getElementById('login-qr'), {
+      text: 'https://fenice.ia.br',
+      width: 72, height: 72,
+      colorDark: '#04080f', colorLight: '#ffffff',
+      correctLevel: QRCode.CorrectLevel.M
+    });
+  } catch (e) { /* biblioteca não carregou */ }
 
   function dismissModal() {
     overlay.classList.add('hide');

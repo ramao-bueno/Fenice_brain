@@ -851,17 +851,6 @@ class GraphModal extends Modal {
           this.plugin._abrirGrafoLocal(activeFile, 2);
         },
       },
-      {
-        icon: '⚖️',
-        titulo: 'Código completo (global filtrado)',
-        desc: 'Escolha um código para ver todos os seus artigos. Só disponível para códigos pequenos.',
-        badge: '⚠ pode ser lento',
-        badgeColor: 'var(--color-orange)',
-        action: () => {
-          this.close();
-          this.plugin.abrirGraphCodigo();
-        },
-      },
     ];
 
     for (const opt of opcoes) {
@@ -905,7 +894,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v24 — STJ súmulas | filósofos | atalhos globais (graph-safe)');
+    console.log('✅ Fenice Buscar Artigo v25 — graph local only (sem global filtrado)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

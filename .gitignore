@@ -3,8 +3,11 @@
 *.env
 !.env.example
 
-# Obsidian
+# Obsidian (settings locais ignorados, exceto plugin Fenice)
 .obsidian/
+!.obsidian/plugins/fenice-buscar-artigo/
+!.obsidian/plugins/fenice-buscar-artigo/main.js
+!.obsidian/plugins/fenice-buscar-artigo/manifest.json
 .DS_Store
 *.tmp
 

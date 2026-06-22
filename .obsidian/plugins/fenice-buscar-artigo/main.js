@@ -55,9 +55,20 @@ const CODIGOS = [
   { label: 'CADH — Convenção Am. Dir. Hum.', tag: 'internacional', pasta: '05_ESPECIAL/Codigos/DIREITO_INTERNACIONAL/Tratados/Convencao-Americana-Direitos-Humanos', codigo: 'CADH', isReferencia: true },
   { label: 'CVDT — Conv. Viena Tratados',    tag: 'internacional', pasta: '05_ESPECIAL/Codigos/DIREITO_INTERNACIONAL/Tratados/Convencao-Viena-Direito-dos-Tratados', codigo: 'CVDT', isReferencia: true },
 
-  // ━━━ JURISPRUDÊNCIA STF ━━━
-  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '01_PRIVADO/Codigos/CPC/STF_SUMULAS/Vinculantes', codigo: 'SV',    buscaPorSumula: true },
-  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula',            pasta: '01_PRIVADO/Codigos/CPC/STF_SUMULAS/Comuns',    codigo: 'S-STF', buscaPorSumula: true },
+  // ━━━ JURISPRUDÊNCIA STF / STJ ━━━
+  { label: 'SV — Súmulas Vinculantes STF',  tag: 'sumula-vinculante', pasta: '00_APEX/SUMULAS STF/Sumulas', codigo: 'SV',    buscaPorSumula: true },
+  { label: 'S-STF — Súmulas Comuns STF',    tag: 'sumula-stf',        pasta: '00_APEX/SUMULAS STF/Sumulas', codigo: 'S-STF', buscaPorSumula: true },
+  { label: 'S-STJ — Súmulas STJ',           tag: 'sumula-stj',        pasta: '00_APEX/SUMULAS STJ/Sumulas', codigo: 'S-STJ', buscaPorSumula: true },
+
+  // ━━━ JURISCONSULTOS ━��━
+  { label: '⚖️ Jurisconsultos — Privado/Civil', tag: 'jurisconsultor', pastas: ['06_JURISCONSULTOS/Civil','06_JURISCONSULTOS/PRIVADO','06_JURISCONSULTOS/Processual'], codigo: 'JURISC-CIV', isReferencia: true },
+  { label: '⚖️ Jurisconsultos — Constitucional', tag: 'jurisconsultor', pasta: '06_JURISCONSULTOS/Constitucional', codigo: 'JURISC-CONST', isReferencia: true },
+  { label: '⚖️ Jurisconsultos — Penal',      tag: 'jurisconsultor', pasta: '06_JURISCONSULTOS/PENAL', codigo: 'JURISC-PEN', isReferencia: true },
+  { label: '⚖️ Jurisconsultos — Público',    tag: 'jurisconsultor', pastas: ['06_JURISCONSULTOS/PUBLICO','06_JURISCONSULTOS/Tributario','06_JURISCONSULTOS/Trabalhista','06_JURISCONSULTOS/TRABALHO'], codigo: 'JURISC-PUB', isReferencia: true },
+
+  // ━━━ FILÓSOFOS & MAESTROS ━━━
+  { label: '🧠 Filósofos do Direito',        tag: 'filosofia', pastas: ['07_FILOSOFIA/Antigos','07_FILOSOFIA/Iluministas','07_FILOSOFIA/Modernos','07_FILOSOFIA/Contemporaneos','07_FILOSOFIA/Penalistas'], codigo: 'FILOS', isReferencia: true },
+  { label: '🌟 MAESTROS — Guias Fenice',     tag: 'maestros',  pasta: '09_FENICE_BRAIN/MAESTROS', codigo: 'MAESTROS', isReferencia: true },
 
   // ━━━ PROFISSÕES & ENTIDADES ━━━
   { label: 'OAB — Ordem dos Advogados',     tag: 'oab',           pasta: '_SISTEMA/OAB', codigo: 'OAB', isReferencia: true },
@@ -68,14 +79,15 @@ const CODIGOS = [
 ];
 
 const DOMINIOS = [
-  { label: '🏛️  00 · Constituição Federal',  key: 'apex',     codigos: ['CF/88'] },
-  { label: '📘  01 · Direito Privado',        key: 'privado',  codigos: ['CC','LINDB','D9830','CPC','CDC'] },
-  { label: '🔒  02 · Direito Penal',          key: 'penal',    codigos: ['CP','CPP'] },
-  { label: '🏢  03 · Direito Público',        key: 'publico',  codigos: ['L8429','L12846','L12527'] },
-  { label: '💼  04 · Direito do Trabalho',    key: 'trabalho', codigos: [] },
-  { label: '🛡️   05 · Legislação Especial',   key: 'especial', codigos: ['L8212','L8213','MCI','LGPD','CADH','CVDT'] },
-  { label: '📋  Enunciados & Súmulas',        key: 'juris',    codigos: ['SV','S-STF','OAB','ENUM'] },
-  { label: '⚡  ATOMIZAR — Skill de IA',      key: 'atom',     codigos: ['ATOM'] },
+  { label: '🏛️  00 · Constituição Federal',  key: 'apex',      codigos: ['CF/88'] },
+  { label: '📘  01 · Direito Privado',        key: 'privado',   codigos: ['CC','LINDB','D9830','CPC','CDC'] },
+  { label: '🔒  02 · Direito Penal',          key: 'penal',     codigos: ['CP','CPP'] },
+  { label: '🏢  03 · Direito Público',        key: 'publico',   codigos: ['L8429','L12846','L12527'] },
+  { label: '💼  04 · Direito do Trabalho',    key: 'trabalho',  codigos: [] },
+  { label: '🛡️   05 · Legislação Especial',   key: 'especial',  codigos: ['L8212','L8213','MCI','LGPD','CADH','CVDT'] },
+  { label: '📋  Súmulas & Enunciados',        key: 'juris',     codigos: ['SV','S-STF','S-STJ','OAB','ENUM'] },
+  { label: '⚖️   Jurisconsultos & Filósofos', key: 'maestros',  codigos: ['JURISC-CIV','JURISC-CONST','JURISC-PEN','JURISC-PUB','FILOS','MAESTROS'] },
+  { label: '⚡  ATOMIZAR — Skill de IA',      key: 'atom',      codigos: ['ATOM'] },
 ];
 
 // ─── Parseia o conteúdo do arquivo .md ───────────────────────
@@ -893,7 +905,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v23 — GraphModal: local | correlações | código específico');
+    console.log('✅ Fenice Buscar Artigo v24 — STJ súmulas | filósofos | atalhos globais (graph-safe)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -917,6 +929,16 @@ class FeniceBuscarArtigo extends Plugin {
       name: 'Grafo Jurídico (escolher visualização)',
       hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'G' }],
       callback: () => new GraphModal(this.app, this).open(),
+    });
+
+    // Listener global — garante que os atalhos funcionam mesmo quando
+    // o Graph View está ativo (o canvas do grafo captura eventos de teclado
+    // antes do sistema de comandos do Obsidian, bloqueando os addCommand acima).
+    this.registerDomEvent(document, 'keydown', (e) => {
+      if (!e.ctrlKey || !e.shiftKey) return;
+      if (e.key === 'B') { e.preventDefault(); e.stopPropagation(); this.iniciarBusca(); }
+      else if (e.key === 'G') { e.preventDefault(); e.stopPropagation(); new GraphModal(this.app, this).open(); }
+      else if (e.key === 'I') { e.preventDefault(); e.stopPropagation(); this.mostrarInfoAtual(); }
     });
 
     // Carrega index de enunciados CJF

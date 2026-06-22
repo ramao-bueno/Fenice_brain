@@ -781,6 +781,343 @@
       cursor: pointer; transition: opacity 0.15s;
     }
     .obs-mtag:hover { opacity: 0.8; }
+
+    /* ── CODE SELECTOR OVERLAY ── */
+    #cod-overlay {
+      position: fixed; inset: 0;
+      background: rgba(4,8,15,0.88);
+      backdrop-filter: blur(6px);
+      z-index: 300;
+      display: flex; align-items: flex-start; justify-content: center;
+      padding: 5vh 1rem;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.18s;
+    }
+    #cod-overlay.cod-open { opacity: 1; pointer-events: all; }
+
+    .cod-panel {
+      width: 100%; max-width: 780px;
+      background: #0b1525;
+      border: 1px solid rgba(201,162,39,0.25);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.7);
+      max-height: 85vh; display: flex; flex-direction: column;
+    }
+    .cod-topbar {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 1rem 1.2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .cod-topbar-icon { color: var(--gold); flex-shrink: 0; }
+    .cod-topbar-title {
+      flex: 1;
+      font-size: 0.9rem; font-weight: 600; letter-spacing: 0.05em;
+      color: var(--gold); text-transform: uppercase;
+    }
+    .cod-topbar-kbd {
+      font-size: 0.65rem; color: var(--dim);
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 4px; padding: 0.15rem 0.45rem; white-space: nowrap;
+    }
+    .cod-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--dim); font-size: 1.1rem; line-height: 1; padding: 0.25rem;
+      transition: color 0.15s;
+    }
+    .cod-close:hover { color: var(--text); }
+
+    .cod-tabs {
+      display: flex; gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      overflow-x: auto; scrollbar-width: none;
+    }
+    .cod-tabs::-webkit-scrollbar { display: none; }
+    .cod-tab {
+      padding: 0.7rem 1.1rem;
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
+      color: var(--dim); background: none; border: none; cursor: pointer;
+      border-bottom: 2px solid transparent; white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .cod-tab:hover { color: var(--text); }
+    .cod-tab.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+    .cod-body { padding: 1.2rem; overflow-y: auto; flex: 1; }
+
+    .cod-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 0.75rem;
+    }
+    .cod-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px; padding: 1rem 0.9rem;
+      cursor: pointer; display: flex; flex-direction: column; gap: 0.4rem;
+      transition: background 0.18s, border-color 0.18s, transform 0.15s;
+    }
+    .cod-card:hover {
+      background: rgba(201,162,39,0.08);
+      border-color: rgba(201,162,39,0.3);
+      transform: translateY(-1px);
+    }
+    .cod-card.unavailable { opacity: 0.42; cursor: default; }
+    .cod-card.unavailable:hover {
+      background: rgba(255,255,255,0.03);
+      border-color: rgba(255,255,255,0.08); transform: none;
+    }
+    .cod-abbr {
+      font-size: 1.05rem; font-weight: 700;
+      font-family: "Cascadia Code","Fira Code","SF Mono",monospace;
+    }
+    .cod-name { font-size: 0.72rem; color: var(--muted); line-height: 1.3; }
+    .cod-badge {
+      margin-top: 0.2rem; display: inline-block; align-self: flex-start;
+      font-size: 0.62rem; letter-spacing: 0.06em; font-weight: 600;
+      padding: 0.12rem 0.4rem; border-radius: 4px;
+    }
+    .cod-empty-tab {
+      text-align: center; padding: 2.5rem 1rem;
+      color: var(--dim); font-size: 0.82rem;
+    }
+    .cod-footer {
+      padding: 0.65rem 1.2rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.72rem; color: var(--dim);
+    }
+
+    /* ── ARTICLE VIEWER OVERLAY ── */
+    #art-overlay {
+      position: fixed; inset: 0;
+      background: rgba(4,8,15,0.9);
+      backdrop-filter: blur(6px);
+      z-index: 310;
+      display: flex; align-items: flex-start; justify-content: center;
+      padding: 5vh 1rem;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.18s;
+    }
+    #art-overlay.art-open { opacity: 1; pointer-events: all; }
+
+    .art-panel {
+      width: 100%; max-width: 860px;
+      background: #0b1525;
+      border: 1px solid rgba(201,162,39,0.25);
+      border-radius: 14px; overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.7);
+      max-height: 85vh; display: flex; flex-direction: column;
+    }
+    .art-topbar {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.9rem 1.2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .art-back {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px; cursor: pointer; color: var(--muted);
+      padding: 0.3rem 0.65rem; font-size: 0.8rem;
+      transition: background 0.15s, color 0.15s;
+      display: flex; align-items: center; gap: 0.3rem;
+    }
+    .art-back:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+    .art-code-badge {
+      font-family: "Cascadia Code","Fira Code","SF Mono",monospace;
+      font-size: 0.8rem; font-weight: 700;
+      padding: 0.2rem 0.6rem; border-radius: 5px;
+      background: rgba(201,162,39,0.15);
+      color: var(--gold); border: 1px solid rgba(201,162,39,0.3);
+    }
+    .art-law-name {
+      flex: 1; font-size: 0.85rem; color: var(--muted);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .art-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--dim); font-size: 1.1rem; line-height: 1; padding: 0.25rem;
+      transition: color 0.15s;
+    }
+    .art-close:hover { color: var(--text); }
+
+    .art-search-row {
+      display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;
+      padding: 0.9rem 1.2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .art-input {
+      width: 130px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 7px; color: var(--text);
+      padding: 0.48rem 0.8rem; font-size: 0.88rem;
+      font-family: "Cascadia Code","Fira Code","SF Mono",monospace;
+      outline: none; transition: border-color 0.15s;
+    }
+    .art-input:focus { border-color: rgba(201,162,39,0.5); }
+    .art-input::placeholder { color: var(--dim); }
+    .art-go-btn {
+      background: rgba(201,162,39,0.15);
+      border: 1px solid rgba(201,162,39,0.3);
+      border-radius: 7px; color: var(--gold);
+      padding: 0.48rem 1rem; font-size: 0.82rem; font-weight: 600;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .art-go-btn:hover { background: rgba(201,162,39,0.28); }
+    .art-nav-btn {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px; color: var(--muted); cursor: pointer;
+      padding: 0.4rem 0.6rem; font-size: 0.8rem;
+      transition: background 0.15s, color 0.15s; line-height: 1;
+    }
+    .art-nav-btn:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+    .art-nav-info { font-size: 0.72rem; color: var(--dim); white-space: nowrap; }
+
+    .art-body { flex: 1; overflow-y: auto; padding: 1.4rem 1.6rem; }
+
+    .art-article-num {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em;
+      color: var(--gold-dim); text-transform: uppercase; margin-bottom: 0.6rem;
+    }
+    .art-caput {
+      font-size: 0.92rem; line-height: 1.78;
+      color: var(--text); margin-bottom: 0.5rem;
+    }
+    .art-para {
+      font-size: 0.87rem; line-height: 1.72; color: var(--muted);
+      padding: 0.28rem 0.8rem 0.28rem 1.1rem;
+      border-left: 2px solid rgba(201,162,39,0.22); margin: 0.35rem 0;
+    }
+    .art-inciso {
+      font-size: 0.85rem; line-height: 1.7; color: var(--muted);
+      padding: 0.22rem 0.8rem 0.22rem 2rem;
+      border-left: 2px solid rgba(59,130,246,0.2); margin: 0.25rem 0;
+    }
+    .art-alinea {
+      font-size: 0.83rem; line-height: 1.65; color: var(--muted);
+      padding: 0.18rem 0.8rem 0.18rem 3rem;
+      border-left: 2px solid rgba(139,92,246,0.15); margin: 0.2rem 0;
+    }
+    .art-loading {
+      display: flex; align-items: center; justify-content: center;
+      height: 180px; color: var(--gold); font-size: 0.88rem; gap: 0.5rem;
+    }
+    .art-error {
+      display: flex; align-items: center; justify-content: center;
+      height: 120px; color: #f87171; font-size: 0.88rem;
+    }
+    .art-empty {
+      text-align: center; padding: 3rem 1rem;
+      color: var(--dim); font-size: 0.85rem;
+    }
+    .art-footer {
+      padding: 0.65rem 1.2rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.72rem; color: var(--dim);
+    }
+
+    /* ── GRAPH VIEW OVERLAY ── */
+    #graph-overlay {
+      position: fixed; inset: 0;
+      background: rgba(4,8,15,0.92);
+      backdrop-filter: blur(4px);
+      z-index: 320;
+      display: flex; align-items: stretch; justify-content: stretch;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    #graph-overlay.graph-open { opacity: 1; pointer-events: all; }
+
+    .graph-panel {
+      flex: 1; display: flex; flex-direction: column;
+      background: #050d1a;
+      border: none;
+    }
+    .graph-topbar {
+      display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+      padding: 0.7rem 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      flex-shrink: 0; z-index: 2;
+    }
+    .graph-topbar-icon { color: var(--gold); flex-shrink: 0; }
+    .graph-topbar-title {
+      font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em;
+      color: var(--gold); text-transform: uppercase; white-space: nowrap;
+    }
+    .graph-filter-row { display: flex; gap: 0.35rem; flex-wrap: wrap; flex: 1; }
+    .graph-fbtn {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.04em;
+      padding: 0.25rem 0.65rem; border-radius: 5px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--dim); cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+      white-space: nowrap;
+    }
+    .graph-fbtn:hover { background: rgba(255,255,255,0.08); color: var(--text); }
+    .graph-fbtn.active { background: rgba(245,158,11,0.15); border-color: rgba(245,158,11,0.4); color: var(--gold); }
+    .graph-stats { font-size: 0.7rem; color: var(--dim); white-space: nowrap; }
+    .graph-zoom-row { display: flex; gap: 0.3rem; }
+    .graph-zoom-btn {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 5px; color: var(--muted); cursor: pointer;
+      padding: 0.2rem 0.5rem; font-size: 0.8rem; line-height: 1.4;
+      transition: background 0.15s, color 0.15s;
+    }
+    .graph-zoom-btn:hover { background: rgba(255,255,255,0.12); color: var(--text); }
+    .graph-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--dim); font-size: 1.1rem; line-height: 1; padding: 0.25rem;
+      transition: color 0.15s; flex-shrink: 0;
+    }
+    .graph-close:hover { color: var(--text); }
+
+    .graph-container {
+      flex: 1; position: relative; overflow: hidden;
+      background: radial-gradient(ellipse at 50% 50%, #07111f 0%, #04080f 100%);
+    }
+    .graph-container svg { display: block; }
+
+    .graph-loading, .graph-error {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem; gap: 0.5rem;
+    }
+    .graph-loading { color: var(--gold); }
+    .graph-error   { color: #f87171; }
+
+    .graph-tooltip {
+      position: absolute; z-index: 10;
+      background: rgba(11,21,37,0.97);
+      border: 1px solid rgba(201,162,39,0.3);
+      border-radius: 8px; padding: 0.55rem 0.8rem;
+      pointer-events: none; max-width: 220px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .gtt-title { font-size: 0.8rem; font-weight: 700; color: var(--text); margin-bottom: 0.2rem; }
+    .gtt-desc  { font-size: 0.7rem; color: var(--muted); line-height: 1.4; margin-bottom: 0.2rem; }
+    .gtt-tipo  { font-size: 0.62rem; letter-spacing: 0.08em; color: var(--dim); text-transform: uppercase; }
+
+    .graph-legend {
+      display: flex; gap: 0.8rem; flex-wrap: wrap;
+      padding: 0 1rem;
+    }
+    .graph-legend-item {
+      display: flex; align-items: center; gap: 0.35rem;
+      font-size: 0.68rem; color: var(--dim);
+    }
+    .graph-legend-dot {
+      width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0;
+    }
+
+    .graph-footer {
+      padding: 0.5rem 1rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; flex-shrink: 0;
+    }
+    .graph-footer-hint { font-size: 0.68rem; color: var(--dim); }
   </style>
 </head>
 <body>
@@ -881,8 +1218,14 @@
     <li><a href="#tiers">Planos</a></li>
     <li><a href="#buscar">Pesquisar</a></li>
   </ul>
-  <button id="obs-open-btn" class="obs-nav-btn" title="Buscar no vault (/ ou Ctrl+F)">
+  <button id="obs-open-btn" class="obs-nav-btn" title="Buscar no vault (/ ou Ctrl+Shift+F)">
     <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+  </button>
+  <button id="cod-nav-btn" class="obs-nav-btn" title="Consultar Código Jurídico (Ctrl+Shift+K)">
+    <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+  </button>
+  <button id="graph-nav-btn" class="obs-nav-btn" title="Graph View — mapa de conexões (Ctrl+G)">
+    <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12" r="2"/><line x1="7" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="17.2" y2="6.5"/><line x1="14" y1="12" x2="17.2" y2="17.5"/></svg>
   </button>
   <a href="/docs" class="nav-cta">Swagger UI →</a>
 </nav>
@@ -1258,6 +1601,97 @@
   </div>
 </div>
 
+<!-- ══ GRAPH VIEW OVERLAY ══ -->
+<div id="graph-overlay" role="dialog" aria-modal="true" aria-label="Graph View — Mapa de Conexões Jurídicas">
+  <div class="graph-panel">
+    <div class="graph-topbar">
+      <svg class="graph-topbar-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12" r="2"/><line x1="7" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="17.2" y2="6.5"/><line x1="14" y1="12" x2="17.2" y2="17.5"/></svg>
+      <span class="graph-topbar-title">Graph View</span>
+      <div class="graph-filter-row" id="graph-filter-row">
+        <button class="graph-fbtn active" data-gfilter="">Todos</button>
+        <button class="graph-fbtn" data-gfilter="stj" style="--gc:#10b981">STJ</button>
+        <button class="graph-fbtn" data-gfilter="stf" style="--gc:#3b82f6">STF</button>
+        <button class="graph-fbtn" data-gfilter="lei" style="--gc:#8b5cf6">LEI</button>
+        <button class="graph-fbtn" data-gfilter="filosofo" style="--gc:#ec4899">FIL</button>
+        <button class="graph-fbtn" data-gfilter="conceito" style="--gc:#06b6d4">CON</button>
+      </div>
+      <div class="graph-legend">
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#10b981"></span>STJ</span>
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#3b82f6"></span>STF</span>
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#8b5cf6"></span>Lei</span>
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#ec4899"></span>Fil.</span>
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#06b6d4"></span>Conc.</span>
+        <span class="graph-legend-item"><span class="graph-legend-dot" style="background:#f59e0b"></span>Art.</span>
+      </div>
+      <span class="graph-stats" id="graph-stats"></span>
+      <div class="graph-zoom-row">
+        <button class="graph-zoom-btn" id="graph-zoom-in" title="Zoom in">+</button>
+        <button class="graph-zoom-btn" id="graph-zoom-out" title="Zoom out">−</button>
+        <button class="graph-zoom-btn" id="graph-zoom-reset" title="Resetar view">⌂</button>
+      </div>
+      <button class="graph-close" id="graph-close-btn" title="Fechar (Esc)">✕</button>
+    </div>
+    <div class="graph-container" id="graph-container">
+      <div class="graph-loading">Inicializando grafo jurídico…</div>
+    </div>
+    <div class="graph-footer">
+      <span class="graph-footer-hint">Scroll → zoom · Arraste nós · Clique para buscar</span>
+      <div class="graph-legend" style="padding:0">
+        <span class="graph-footer-hint">Ctrl+G</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ CODE SELECTOR OVERLAY ══ -->
+<div id="cod-overlay" role="dialog" aria-modal="true" aria-label="Consulta de Código Jurídico">
+  <div class="cod-panel">
+    <div class="cod-topbar">
+      <svg class="cod-topbar-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span class="cod-topbar-title">Consulta de Código Jurídico</span>
+      <kbd class="cod-topbar-kbd">Ctrl+Shift+K</kbd>
+      <button class="cod-close" id="cod-close-btn" title="Fechar (Esc)">✕</button>
+    </div>
+    <div class="cod-tabs" id="cod-tabs"></div>
+    <div class="cod-body" id="cod-body">
+      <div class="cod-empty-tab">Selecione um ramo do Direito</div>
+    </div>
+    <div class="cod-footer">
+      <span>Clique no código para consultar artigos</span>
+      <span>Fenice bRain · Vault Jurídico</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ARTICLE VIEWER OVERLAY ══ -->
+<div id="art-overlay" role="dialog" aria-modal="true" aria-label="Consulta de Artigo">
+  <div class="art-panel">
+    <div class="art-topbar">
+      <button class="art-back" id="art-back-btn">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 5-7 7 7 7"/></svg>
+        Voltar
+      </button>
+      <span class="art-code-badge" id="art-code-badge">CC</span>
+      <span class="art-law-name" id="art-law-name">Código Civil</span>
+      <button class="art-close" id="art-close-btn" title="Fechar (Esc)">✕</button>
+    </div>
+    <div class="art-search-row">
+      <input id="art-num-input" class="art-input" type="number" min="1" max="9999" placeholder="Art. nº">
+      <button class="art-go-btn" id="art-go-btn">Consultar</button>
+      <button class="art-nav-btn" id="art-prev-btn" title="Artigo anterior">◀</button>
+      <button class="art-nav-btn" id="art-next-btn" title="Próximo artigo">▶</button>
+      <span class="art-nav-info" id="art-nav-info"></span>
+    </div>
+    <div class="art-body" id="art-body">
+      <div class="art-empty">Digite um número de artigo e clique em <strong>Consultar</strong></div>
+    </div>
+    <div class="art-footer">
+      <span id="art-footer-ref"></span>
+      <span>Fenice bRain · Vault Jurídico</span>
+    </div>
+  </div>
+</div>
+
 <script>
 /* ── STARFIELD ── */
 (function() {
@@ -1596,6 +2030,465 @@
 
   /* init empty state */
   resPane.innerHTML = emptyHtml('Digite para buscar no vault jurídico', '674 Súmulas STJ · 736 STF · Legislação Federal');
+
+  /* bridge para outros módulos abrirem a busca */
+  window._obsOpenSearch = function (q) {
+    openOverlay('');
+    if (q) setTimeout(() => { qinput.value = q; doSearch(q); }, 80);
+  };
+})();
+
+/* ── GRAPH VIEW ── */
+(function () {
+  const overlay   = document.getElementById('graph-overlay');
+  const container = document.getElementById('graph-container');
+  const statsEl   = document.getElementById('graph-stats');
+
+  let graphCache   = null;
+  let activeGFilter = '';
+  let zoomBeh, svgEl;
+
+  const COLOR = {
+    stj: '#10b981', stf: '#3b82f6', lei: '#8b5cf6',
+    filosofo: '#ec4899', artigo: '#f59e0b', conceito: '#06b6d4',
+    default: '#475569',
+  };
+  function nodeColor(d) {
+    if (d.tipo && COLOR[d.tipo]) return COLOR[d.tipo];
+    if (d.grupo && COLOR[d.grupo]) return COLOR[d.grupo];
+    if (typeof d.tipo === 'string' && d.tipo.startsWith('hub-')) {
+      return COLOR[d.tipo.replace('hub-', '')] || COLOR.default;
+    }
+    return COLOR.default;
+  }
+  function nodeR(d) {
+    return d.tamanho === 'hub' ? 16 : d.tamanho === 'conceito' ? 8 : 5;
+  }
+
+  /* D3 loader */
+  function loadD3(cb) {
+    if (window.d3) { cb(); return; }
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js';
+    s.onload  = cb;
+    s.onerror = () => { container.innerHTML = '<div class="graph-error">Falha ao carregar D3.js — verifique a conexão</div>'; };
+    document.head.appendChild(s);
+  }
+
+  /* fetch */
+  async function fetchGraph() {
+    container.innerHTML = '<div class="graph-loading">Carregando grafo jurídico…</div>';
+    try {
+      const res = await fetch('/grafo?limite=400');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      graphCache = await res.json();
+      renderGraph();
+    } catch (err) {
+      container.innerHTML = `<div class="graph-error">Erro: ${err.message}</div>`;
+    }
+  }
+
+  /* render */
+  function renderGraph() {
+    if (!graphCache || !window.d3) return;
+    const { nos, arestas } = graphCache;
+    const d3 = window.d3;
+
+    const filtered = activeGFilter
+      ? nos.filter(n => n.grupo === activeGFilter || (typeof n.tipo === 'string' && n.tipo.includes('hub')))
+      : nos;
+    const filtIds = new Set(filtered.map(n => n.id));
+    const filtLinks = arestas.filter(a => filtIds.has(a.origem) && filtIds.has(a.destino));
+
+    statsEl.textContent = `${filtered.length} nós · ${filtLinks.length} conexões`;
+
+    const W = container.clientWidth  || 1200;
+    const H = container.clientHeight || 680;
+
+    d3.select(container).selectAll('svg').remove();
+    d3.select(container).selectAll('.graph-tooltip').remove();
+
+    svgEl = d3.select(container).append('svg')
+      .attr('width', W).attr('height', H);
+
+    const g = svgEl.append('g');
+    zoomBeh = d3.zoom().scaleExtent([0.04, 10])
+      .on('zoom', e => g.attr('transform', e.transform));
+    svgEl.call(zoomBeh);
+
+    const nodes = filtered.map(n => ({ ...n }));
+    const links = filtLinks.map(a => ({ ...a, source: a.origem, target: a.destino }));
+
+    /* edges */
+    const link = g.append('g')
+      .selectAll('line').data(links).join('line')
+      .attr('stroke', d => d.tipo === 'contém' ? '#0d2040' : '#1e3a5f')
+      .attr('stroke-width', d => d.tipo === 'contém' ? 0.6 : 1.6)
+      .attr('opacity', d => d.tipo === 'contém' ? 0.45 : 0.75);
+
+    /* nodes */
+    const node = g.append('g')
+      .selectAll('circle').data(nodes).join('circle')
+      .attr('r', nodeR)
+      .attr('fill', nodeColor)
+      .attr('stroke', d => nodeColor(d) + '44')
+      .attr('stroke-width', d => d.tamanho === 'hub' ? 2.5 : 1)
+      .attr('opacity', d => d.tamanho === 'hub' ? 1 : 0.82)
+      .style('cursor', d => d.tamanho !== 'hub' ? 'pointer' : 'grab')
+      .call(d3.drag()
+        .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag',  (e, d) => { d.fx = e.x; d.fy = e.y; })
+        .on('end',   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      );
+
+    /* hub labels */
+    const label = g.append('g')
+      .selectAll('text').data(nodes.filter(d => d.tamanho === 'hub')).join('text')
+      .text(d => d.titulo.replace('Súmula ', ''))
+      .attr('font-size', '9.5px').attr('font-family', '"acumin-pro",sans-serif')
+      .attr('font-weight', '700').attr('fill', nodeColor)
+      .attr('text-anchor', 'middle').attr('dy', d => -(nodeR(d) + 5))
+      .style('pointer-events', 'none').style('user-select', 'none');
+
+    /* tooltip */
+    const tt = d3.select(container).append('div').attr('class', 'graph-tooltip')
+      .style('display', 'none');
+
+    node
+      .on('mouseover', function (e, d) {
+        d3.select(this).attr('opacity', 1).attr('r', nodeR(d) * 1.5);
+        tt.style('display', 'block')
+          .style('left', (e.offsetX + 14) + 'px').style('top', (e.offsetY - 10) + 'px')
+          .html(`<div class="gtt-title">${d.titulo}</div>${d.descricao ? `<div class="gtt-desc">${d.descricao.slice(0,88)}</div>` : ''}<div class="gtt-tipo">${d.tipo}</div>`);
+      })
+      .on('mousemove', e => tt.style('left', (e.offsetX + 14) + 'px').style('top', (e.offsetY - 10) + 'px'))
+      .on('mouseout', function (_, d) {
+        d3.select(this).attr('opacity', d.tamanho === 'hub' ? 1 : 0.82).attr('r', nodeR(d));
+        tt.style('display', 'none');
+      })
+      .on('click', (_, d) => {
+        if (d.tamanho !== 'hub' && window._obsOpenSearch) {
+          closeGraph();
+          window._obsOpenSearch(d.titulo);
+        }
+      });
+
+    /* simulation */
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id)
+        .distance(d => d.tipo === 'contém' ? 55 : 100)
+        .strength(d => d.tipo === 'contém' ? 0.35 : 0.65))
+      .force('charge', d3.forceManyBody()
+        .strength(d => d.tamanho === 'hub' ? -300 : -28))
+      .force('center', d3.forceCenter(W / 2, H / 2).strength(0.06))
+      .force('collide', d3.forceCollide(d => nodeR(d) + 2.5).strength(0.75));
+
+    sim.on('tick', () => {
+      link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      node.attr('cx', d => d.x).attr('cy', d => d.y);
+      label.attr('x', d => d.x).attr('y', d => d.y);
+    });
+
+    /* auto-fit */
+    setTimeout(() => {
+      svgEl.transition().duration(900).call(
+        zoomBeh.transform, d3.zoomIdentity.translate(W * 0.08, H * 0.08).scale(0.84)
+      );
+    }, 1400);
+  }
+
+  /* open / close */
+  function openGraph() {
+    overlay.classList.add('graph-open');
+    if (!graphCache) loadD3(() => fetchGraph());
+    else if (window.d3) renderGraph();
+    else loadD3(() => renderGraph());
+  }
+  function closeGraph() { overlay.classList.remove('graph-open'); }
+
+  /* filter buttons */
+  document.querySelectorAll('.graph-fbtn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeGFilter = btn.dataset.gfilter;
+      document.querySelectorAll('.graph-fbtn').forEach(b => b.classList.toggle('active', b.dataset.gfilter === activeGFilter));
+      if (graphCache && window.d3) renderGraph();
+    });
+  });
+
+  /* zoom controls */
+  document.getElementById('graph-zoom-in')?.addEventListener('click', () => {
+    svgEl?.transition().duration(250).call(zoomBeh.scaleBy, 1.6);
+  });
+  document.getElementById('graph-zoom-out')?.addEventListener('click', () => {
+    svgEl?.transition().duration(250).call(zoomBeh.scaleBy, 0.625);
+  });
+  document.getElementById('graph-zoom-reset')?.addEventListener('click', () => {
+    const W = container.clientWidth, H = container.clientHeight;
+    svgEl?.transition().duration(500).call(
+      zoomBeh.transform, window.d3?.zoomIdentity.translate(W * 0.08, H * 0.08).scale(0.84) || window.d3?.zoomIdentity
+    );
+  });
+
+  /* wiring */
+  document.getElementById('graph-close-btn')?.addEventListener('click', closeGraph);
+  document.getElementById('graph-nav-btn')?.addEventListener('click', openGraph);
+  overlay?.addEventListener('click', e => { if (e.target === overlay) closeGraph(); });
+
+  document.addEventListener('keydown', e => {
+    if (overlay?.classList.contains('graph-open') && e.key === 'Escape') { closeGraph(); return; }
+    if (!overlay?.classList.contains('graph-open')) {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'g' && !e.shiftKey) {
+        const tag = document.activeElement.tagName;
+        if (tag !== 'INPUT' && tag !== 'TEXTAREA') { e.preventDefault(); openGraph(); }
+      }
+    }
+  });
+})();
+
+/* ── CODE SELECTOR & ARTICLE VIEWER ── */
+(function () {
+  /* ─── data ─── */
+  const DOMINIOS = [
+    { label: 'Constituição', key: 'apex',     icon: '🏛️', color: '#c9a227', codigos: ['CF/88'] },
+    { label: 'Privado',      key: 'privado',  icon: '📘', color: '#3b82f6', codigos: ['CC','LINDB','D9830','CPC','CDC','L9307'] },
+    { label: 'Penal',        key: 'penal',    icon: '🔒', color: '#ef4444', codigos: ['CP','CPP','L11340','L8072','L12850','L11343'] },
+    { label: 'Público',      key: 'publico',  icon: '🏢', color: '#10b981', codigos: ['L8429','L14230','L14133','L8666','L12016','L8112','L9784'] },
+    { label: 'Especial',     key: 'especial', icon: '🛡️', color: '#8b5cf6', codigos: ['MCI','LGPD','L13146','L10741','L8069','L9394'] },
+    { label: 'Súmulas',      key: 'juris',    icon: '📋', color: '#f97316', codigos: ['SV','S-STF'] },
+  ];
+
+  const CODIGOS = {
+    'CF/88':  { abbr:'CF/88',   nome:'Constituição Federal',          dbKey:'Constituição Federal 1988',    searchTipo:'lei'  },
+    'CC':     { abbr:'CC',      nome:'Código Civil',                  dbKey:'Lei Federal 10406/2002'                          },
+    'LINDB':  { abbr:'LINDB',   nome:'Lei de Introdução às Normas',   dbKey:null                                              },
+    'D9830':  { abbr:'D9830',   nome:'Decreto LINDB 9830/2019',       dbKey:null                                              },
+    'CPC':    { abbr:'CPC',     nome:'Código de Processo Civil',      dbKey:'Lei Federal 13105/2015'                          },
+    'CDC':    { abbr:'CDC',     nome:'Código do Consumidor',          dbKey:'Lei Federal 8078/1990'                           },
+    'L9307':  { abbr:'L9307',   nome:'Lei de Arbitragem',             dbKey:'Lei Federal 9307/1996'                           },
+    'CP':     { abbr:'CP',      nome:'Código Penal',                  dbKey:'Decreto-Lei 2848/1940'                           },
+    'CPP':    { abbr:'CPP',     nome:'Código de Proc. Penal',         dbKey:'Decreto-Lei 3689/1941'                           },
+    'L11340': { abbr:'L11340',  nome:'Lei Maria da Penha',            dbKey:'Lei Federal 11340/2006'                          },
+    'L8072':  { abbr:'L8072',   nome:'Crimes Hediondos',              dbKey:'Lei Federal 8072/1990'                           },
+    'L12850': { abbr:'L12850',  nome:'Organizações Criminosas',       dbKey:'Lei Federal 12850/2013'                          },
+    'L11343': { abbr:'L11343',  nome:'Lei de Drogas',                 dbKey:'Lei Federal 11343/2006'                          },
+    'L8429':  { abbr:'L8429',   nome:'Improbidade Administrativa',    dbKey:'Lei Federal 8429/1992'                           },
+    'L14230': { abbr:'L14230',  nome:'Improbidade (nova 14230)',      dbKey:'Lei Federal 14230/2021'                          },
+    'L14133': { abbr:'L14133',  nome:'Nova Lei de Licitações',        dbKey:'Lei Federal 14133/2021'                          },
+    'L8666':  { abbr:'L8666',   nome:'Lei de Licitações (antiga)',    dbKey:'Lei Federal 8666/1993'                           },
+    'L12016': { abbr:'L12016',  nome:'Mandado de Segurança',          dbKey:'Lei Federal 12016/2009'                          },
+    'L8112':  { abbr:'L8112',   nome:'Regime Jurídico Servidores',    dbKey:'Lei Federal 8112/1990'                           },
+    'L9784':  { abbr:'L9784',   nome:'Processo Administrativo Fed.',  dbKey:'Lei Federal 9784/1999'                           },
+    'MCI':    { abbr:'MCI',     nome:'Marco Civil da Internet',       dbKey:'Lei Federal 12965/2014'                          },
+    'LGPD':   { abbr:'LGPD',    nome:'Lei de Proteção de Dados',      dbKey:'Lei Federal 13709/2018'                          },
+    'L13146': { abbr:'L13146',  nome:'Estatuto da Pessoa c/ Def.',    dbKey:'Lei Federal 13146/2015'                          },
+    'L10741': { abbr:'L10741',  nome:'Estatuto do Idoso',             dbKey:null                                              },
+    'L8069':  { abbr:'L8069',   nome:'ECA — Estatuto da Criança',     dbKey:'Lei Federal 8069/1990'                           },
+    'L9394':  { abbr:'L9394',   nome:'LDB — Lei Diretrizes Educ.',    dbKey:'Lei Federal 9394/1996'                           },
+    'SV':     { abbr:'SV',      nome:'Súmulas Vinculantes STF',       dbKey:null, searchTipo:'stf'                            },
+    'S-STF':  { abbr:'S-STF',   nome:'Súmulas Comuns STF',            dbKey:null, searchTipo:'stf'                            },
+  };
+
+  /* ─── state ─── */
+  let activeTab    = 'apex';
+  let activeCodigo = null;
+  let leiTexto     = null;   // legado, mantido para compatibilidade
+  let artigos      = [];     // legado
+  let artIdx       = -1;     // legado
+
+  /* ─── elements ─── */
+  const codOverlay   = document.getElementById('cod-overlay');
+  const codTabsEl    = document.getElementById('cod-tabs');
+  const codBodyEl    = document.getElementById('cod-body');
+  const artOverlay   = document.getElementById('art-overlay');
+  const artBodyEl    = document.getElementById('art-body');
+  const artNumInput  = document.getElementById('art-num-input');
+  const artNavInfoEl = document.getElementById('art-nav-info');
+  const artCodeBadge = document.getElementById('art-code-badge');
+  const artLawName   = document.getElementById('art-law-name');
+  const artFooterRef = document.getElementById('art-footer-ref');
+
+  /* ─── cod open / close ─── */
+  function openCod() {
+    codOverlay.classList.add('cod-open');
+    renderTabs();
+    renderCards(activeTab);
+  }
+  function closeCod() { codOverlay.classList.remove('cod-open'); }
+
+  /* ─── art open / close ─── */
+  function openArt(codigoKey) {
+    activeCodigo = codigoKey;
+    leiTexto = null; artigos = []; artIdx = -1; leiMeta = null; artNumAtual = 0;
+    const cfg = CODIGOS[codigoKey];
+    if (!cfg) return;
+    artCodeBadge.textContent = cfg.abbr;
+    artLawName.textContent   = cfg.nome;
+    artBodyEl.innerHTML = '<div class="art-empty">Digite um número de artigo e clique em <strong>Consultar</strong></div>';
+    artNavInfoEl.textContent = '';
+    artNumInput.value = '';
+    if (artFooterRef) artFooterRef.textContent = '';
+    artOverlay.classList.add('art-open');
+    setTimeout(() => artNumInput.focus(), 60);
+  }
+  function closeArt() { artOverlay.classList.remove('art-open'); leiTexto = null; artigos = []; leiMeta = null; artNumAtual = 0; }
+
+  /* ─── tab render ─── */
+  function renderTabs() {
+    codTabsEl.innerHTML = DOMINIOS.map(d =>
+      `<button class="cod-tab${d.key === activeTab ? ' active' : ''}" data-tab="${d.key}">${d.icon} ${d.label}</button>`
+    ).join('');
+    codTabsEl.querySelectorAll('.cod-tab').forEach(btn => {
+      btn.addEventListener('click', () => { activeTab = btn.dataset.tab; renderTabs(); renderCards(activeTab); });
+    });
+  }
+
+  /* ─── card render ─── */
+  function renderCards(domKey) {
+    const dom = DOMINIOS.find(d => d.key === domKey);
+    if (!dom || !dom.codigos.length) {
+      codBodyEl.innerHTML = '<div class="cod-empty-tab">Nenhum código disponível neste domínio</div>';
+      return;
+    }
+    const cards = dom.codigos.map(k => {
+      const c = CODIGOS[k];
+      if (!c) return '';
+      const avail = !!c.dbKey;
+      return `<div class="cod-card${avail ? '' : ' unavailable'}" data-codigo="${k}" title="${avail ? 'Consultar artigos de ' + c.nome : 'Disponível apenas no vault Obsidian'}">
+        <span class="cod-abbr" style="color:${dom.color}">${c.abbr}</span>
+        <span class="cod-name">${c.nome}</span>
+        <span class="cod-badge" style="background:${avail ? dom.color + '22' : 'rgba(255,255,255,0.04)'};color:${avail ? dom.color : 'var(--dim)'};border:1px solid ${avail ? dom.color + '44' : 'rgba(255,255,255,0.08)'}">
+          ${avail ? 'Disponível' : 'Vault apenas'}
+        </span>
+      </div>`;
+    }).join('');
+    codBodyEl.innerHTML = `<div class="cod-grid">${cards}</div>`;
+    codBodyEl.querySelectorAll('.cod-card:not(.unavailable)').forEach(el => {
+      el.addEventListener('click', () => { closeCod(); openArt(el.dataset.codigo); });
+    });
+  }
+
+  /* ─── estado indexado ─── */
+  let leiMeta   = null;   // { total, max_numero } da lei ativa
+  let artNumAtual = 0;
+
+  /* ─── fetch metadados da lei (total de artigos) ─── */
+  async function fetchLeiInfo(dbKey) {
+    try {
+      const res = await fetch(`/lei_info?lei=${encodeURIComponent(dbKey)}`);
+      if (!res.ok) return null;
+      return await res.json();
+    } catch { return null; }
+  }
+
+  /* ─── fetch artigo individual pelo número ─── */
+  async function fetchArtigo(dbKey, numero) {
+    const cfg = CODIGOS[activeCodigo];
+    artBodyEl.innerHTML = `<div class="art-loading"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Art. ${numero}…</div>`;
+    try {
+      const res = await fetch(`/artigo?lei=${encodeURIComponent(dbKey)}&numero=${numero}`);
+      if (res.status === 404) {
+        artBodyEl.innerHTML = `<div class="art-empty">Art. ${numero} não encontrado.<br><small style="color:var(--dim)">Total indexado: ${leiMeta?.total ?? '?'} artigos</small></div>`;
+        if (artFooterRef) artFooterRef.textContent = '';
+        return null;
+      }
+      if (!res.ok) throw new Error('err');
+      return await res.json();
+    } catch {
+      artBodyEl.innerHTML = `<div class="art-error">Erro ao carregar Art. ${numero}. Verifique a conexão.</div>`;
+      return null;
+    }
+  }
+
+  /* ─── render artigo ─── */
+  function renderArtigo(data) {
+    if (!data) return;
+    const num   = data.numero;
+    const texto = data.texto || '';
+    const linhas = texto.split('\n');
+    let html = `<p class="art-article-num">Artigo ${num}</p>`;
+    let caputEmitido = false;
+
+    for (const linha of linhas) {
+      const l = linha.trim();
+      if (!l) continue;
+      if (/^Art\.?\s*\d+/i.test(l)) {
+        const resto = l.replace(/^Art\.?\s*\d+[oº°]?\s*[.–—-]?\s*/i, '').trim();
+        if (resto) { html += `<p class="art-caput">${resto}</p>`; caputEmitido = true; }
+        continue;
+      }
+      if (/^§\s*\d+[oº°]?|^Parágrafo\s+único/i.test(l)) {
+        html += `<p class="art-para">${l}</p>`; caputEmitido = true; continue;
+      }
+      if (/^[IVXLCDM]+\s*[-–—]/.test(l) || /^\d+[oº°]?\s*[-–—]/.test(l)) {
+        html += `<p class="art-inciso">${l}</p>`; caputEmitido = true; continue;
+      }
+      if (/^[a-z]\)\s/.test(l)) {
+        html += `<p class="art-alinea">${l}</p>`; caputEmitido = true; continue;
+      }
+      if (!caputEmitido) {
+        html += `<p class="art-caput">${l}</p>`; caputEmitido = true;
+      } else {
+        html += `<p class="art-caput" style="margin-top:0.3rem">${l}</p>`;
+      }
+    }
+
+    artBodyEl.innerHTML = html;
+    artNumAtual = num;
+    artNumInput.value = num;
+    if (artFooterRef) artFooterRef.textContent = `${activeCodigo} · Art. ${num}`;
+    const info = leiMeta ? `Art. ${num} / ${leiMeta.max_numero}` : `Art. ${num}`;
+    artNavInfoEl.textContent = info;
+  }
+
+  /* ─── consultar artigo ─── */
+  async function consultarArt(numStr) {
+    const num = parseInt(numStr) || 0;
+    if (!num) return;
+    const cfg = CODIGOS[activeCodigo];
+    if (!cfg?.dbKey) {
+      artBodyEl.innerHTML = '<div class="art-empty">Este código está disponível apenas no vault Obsidian.</div>';
+      return;
+    }
+    // Carrega meta da lei na primeira consulta
+    if (!leiMeta) {
+      leiMeta = await fetchLeiInfo(cfg.dbKey);
+      if (leiMeta) {
+        artNavInfoEl.textContent = `${leiMeta.total} art. disponíveis`;
+      }
+    }
+    const data = await fetchArtigo(cfg.dbKey, num);
+    if (data) renderArtigo(data);
+  }
+
+  /* ─── wiring ─── */
+  document.getElementById('cod-close-btn')?.addEventListener('click', closeCod);
+  document.getElementById('art-close-btn')?.addEventListener('click', closeArt);
+  document.getElementById('art-back-btn')?.addEventListener('click', () => { closeArt(); openCod(); });
+  document.getElementById('cod-nav-btn')?.addEventListener('click', openCod);
+  document.getElementById('art-go-btn')?.addEventListener('click', () => consultarArt(artNumInput.value));
+  artNumInput?.addEventListener('keydown', e => { if (e.key === 'Enter') consultarArt(artNumInput.value); });
+
+  document.getElementById('art-prev-btn')?.addEventListener('click', async () => {
+    if (artNumAtual > 1) { await consultarArt(artNumAtual - 1); }
+  });
+  document.getElementById('art-next-btn')?.addEventListener('click', async () => {
+    const max = leiMeta?.max_numero ?? 9999;
+    if (artNumAtual < max) { await consultarArt(artNumAtual + 1); }
+  });
+
+  codOverlay?.addEventListener('click', e => { if (e.target === codOverlay) closeCod(); });
+  artOverlay?.addEventListener('click', e => { if (e.target === artOverlay) closeArt(); });
+
+  document.addEventListener('keydown', e => {
+    if (artOverlay?.classList.contains('art-open') && e.key === 'Escape') { closeArt(); return; }
+    if (codOverlay?.classList.contains('cod-open') && e.key === 'Escape') { closeCod(); return; }
+    if (!codOverlay?.classList.contains('cod-open') && !artOverlay?.classList.contains('art-open')) {
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'k') {
+        e.preventDefault(); openCod();
+      }
+    }
+  });
 })();
 
 /* ── LIVE LAW COUNT ── */

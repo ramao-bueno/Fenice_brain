@@ -20,10 +20,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from fastapi import FastAPI, Header, HTTPException
+from dotenv import load_dotenv
+from fastapi import FastAPI, Header, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
+
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 # ---------------------------------------------------------------------------
 # Tentativa de importação das dependências locais
@@ -261,6 +264,149 @@ async def buscar(body: BuscarRequest) -> List[ResultadoBusca]:
 
 
 # ---------------------------------------------------------------------------
+# GET /lei  — texto completo de uma lei pelo numero_ano (Free)
+# ---------------------------------------------------------------------------
+
+@app.get(
+    "/lei",
+    tags=["Free"],
+    summary="Texto completo de uma lei pelo numero_ano",
+)
+async def get_lei(numero_ano: str):
+    """
+    Retorna ementa e texto_vigente de uma lei específica.
+    Exemplo: /lei?numero_ano=Lei+Federal+13105/2015
+    """
+    import requests as _req
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Supabase não configurado.")
+    try:
+        hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}"}
+        r = _req.get(
+            f"{sb_url}/rest/v1/legislacao_brasileira",
+            headers=hdrs,
+            params={"select": "numero_ano,tipo_ato,ementa,texto_vigente",
+                    "numero_ano": f"eq.{numero_ano}", "limit": "1"},
+            timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json()
+        if not data:
+            raise HTTPException(status_code=404, detail="Lei não encontrada.")
+        return data[0]
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# GET /artigo  — texto de um artigo específico (indexed, Free)
+# ---------------------------------------------------------------------------
+
+@app.get("/artigo", tags=["Free"], summary="Texto de um artigo pelo número")
+async def get_artigo(lei: str, numero: int):
+    """
+    Retorna o texto de um artigo específico da tabela `artigos`.
+    Exemplo: /artigo?lei=Lei+Federal+13105/2015&numero=235
+    """
+    import requests as _req
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Supabase não configurado.")
+    try:
+        hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}"}
+        r = _req.get(
+            f"{sb_url}/rest/v1/artigos",
+            headers=hdrs,
+            params={"select": "numero,texto", "lei": f"eq.{lei}",
+                    "numero": f"eq.{numero}", "limit": "1"},
+            timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()
+        if not data:
+            raise HTTPException(status_code=404, detail="Artigo não encontrado.")
+        return data[0]
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# GET /lei_info  — metadados de artigos de uma lei (Free)
+# ---------------------------------------------------------------------------
+
+@app.get("/lei_info", tags=["Free"], summary="Metadados de artigos de uma lei")
+async def get_lei_info(lei: str):
+    """
+    Retorna total de artigos indexados e maior número de artigo de uma lei.
+    Exemplo: /lei_info?lei=Lei+Federal+13105/2015
+    """
+    import requests as _req
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Supabase não configurado.")
+    try:
+        hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                "Prefer": "count=exact"}
+        r = _req.get(
+            f"{sb_url}/rest/v1/artigos",
+            headers=hdrs,
+            params={"select": "numero", "lei": f"eq.{lei}",
+                    "order": "numero.desc", "limit": "1"},
+            timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()
+        total = int(r.headers.get("content-range", "0/0").split("/")[-1] or 0)
+        max_num = data[0]["numero"] if data else 0
+        return {"lei": lei, "total": total, "max_numero": max_num}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# GET /leis  — lista de leis disponíveis no banco (Free)
+# ---------------------------------------------------------------------------
+
+@app.get(
+    "/leis",
+    tags=["Free"],
+    summary="Lista todas as leis indexadas",
+)
+async def listar_leis(tipo: Optional[str] = None):
+    """
+    Lista numero_ano e tipo_ato de todas as leis (ou filtra por tipo).
+    Exemplo: /leis?tipo=Lei+Federal
+    """
+    import requests as _req
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Supabase não configurado.")
+    try:
+        hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}"}
+        params: dict = {"select": "numero_ano,tipo_ato,ementa",
+                        "order": "numero_ano", "limit": "500"}
+        if tipo:
+            params["tipo_ato"] = f"eq.{tipo}"
+        r = _req.get(f"{sb_url}/rest/v1/legislacao_brasileira",
+                     headers=hdrs, params=params, timeout=15)
+        r.raise_for_status()
+        return r.json() or []
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
 # POST /analisar  (Premium)
 # ---------------------------------------------------------------------------
 
@@ -432,6 +578,127 @@ async def tcc(
         documentos_base   = n_docs,
         aviso             = aviso,
     )
+
+
+# ---------------------------------------------------------------------------
+# GET /grafo  — Graph View data
+# ---------------------------------------------------------------------------
+
+@app.get("/grafo", tags=["Free"], summary="Dados do grafo jurídico para visualização D3")
+async def get_grafo(limite: int = Query(400, ge=20, le=800)):
+    """
+    Retorna nós e arestas para renderização do Graph View estilo Obsidian.
+    Combina o Knowledge Graph (grafo_nos/grafo_arestas) com nós sintetizados
+    da tabela legislacao_brasileira, agrupados por domínio jurídico.
+    """
+    import requests as _req
+
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Supabase não configurado.")
+
+    hdrs = {
+        "apikey": sb_key,
+        "Authorization": f"Bearer {sb_key}",
+        "Content-Type": "application/json",
+    }
+
+    def _get(table: str, params: dict) -> list:
+        r = _req.get(f"{sb_url}/rest/v1/{table}", headers=hdrs, params=params, timeout=15)
+        r.raise_for_status()
+        return r.json() or []
+
+    try:
+        # ── Knowledge Graph explícito ──────────────────────────────────────
+        nos_kg = _get("grafo_nos", {"select": "id,tipo,identificador,titulo,descricao"})
+        arestas_kg = _get("grafo_arestas", {
+            "select": "id,no_origem_id,no_destino_id,tipo_relacao,peso"
+        })
+
+        # ── Amostragem de legislação por tipo ─────────────────────────────
+        quota = str(min(limite // 3, 140))
+        amostras = [
+            ("Súmula STJ",  "stj", min(int(quota), 140)),
+            ("Súmula STF",  "stf", min(int(quota), 140)),
+            ("Lei Federal", "lei", 60),
+            ("Decreto-Lei", "lei", 15),
+            ("Decreto",     "lei", 10),
+        ]
+
+        nos_leg:     list[dict] = []
+        arestas_leg: list[dict] = []
+        hub_seen:    set[str]   = set()
+
+        for tipo_ato, grupo, n in amostras:
+            rows = _get("legislacao_brasileira", {
+                "select":   "numero_ano,ementa",
+                "tipo_ato": f"eq.{tipo_ato}",
+                "limit":    str(n),
+            })
+            if not rows:
+                continue
+
+            hub_id = f"hub-{tipo_ato.replace(' ', '_').lower()}"
+            if hub_id not in hub_seen:
+                hub_seen.add(hub_id)
+                nos_leg.append({
+                    "id": hub_id, "tipo": f"hub-{grupo}",
+                    "titulo": tipo_ato, "descricao": f"{len(rows)} documentos",
+                    "grupo": grupo, "tamanho": "hub",
+                })
+
+            for row in rows:
+                nid = "l-" + row["numero_ano"].replace(" ", "_").replace("/", "-")
+                nos_leg.append({
+                    "id": nid, "tipo": grupo,
+                    "titulo": row["numero_ano"],
+                    "descricao": (row.get("ementa") or "")[:100],
+                    "grupo": grupo, "tamanho": "doc",
+                })
+                arestas_leg.append({
+                    "id": f"ae-{hub_id[:10]}-{nid[-10:]}",
+                    "origem": hub_id, "destino": nid,
+                    "tipo": "contém", "peso": 0.8,
+                })
+
+        # ── Normalizar nós do KG ───────────────────────────────────────────
+        _COR_KG = {
+            "filosofo": "#ec4899", "artigo": "#f59e0b",
+            "conceito": "#06b6d4", "lei":    "#8b5cf6",
+        }
+        nos_final: list[dict] = [
+            {
+                "id":        str(n["id"]),
+                "tipo":      n["tipo"],
+                "titulo":    n.get("titulo") or n.get("identificador") or "",
+                "descricao": n.get("descricao") or "",
+                "grupo":     n["tipo"],
+                "tamanho":   "conceito" if n["tipo"] == "conceito" else "doc",
+                "cor":       _COR_KG.get(n["tipo"], "#94a3b8"),
+            }
+            for n in nos_kg
+        ] + nos_leg
+
+        arestas_final: list[dict] = [
+            {
+                "id":      str(a["id"]),
+                "origem":  str(a["no_origem_id"]),
+                "destino": str(a["no_destino_id"]),
+                "tipo":    a.get("tipo_relacao") or "related",
+                "peso":    float(a.get("peso") or 1.0),
+            }
+            for a in arestas_kg
+        ] + arestas_leg
+
+        return {
+            "nos":           nos_final,
+            "arestas":       arestas_final,
+            "total_nos":     len(nos_final),
+            "total_arestas": len(arestas_final),
+        }
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
 
 
 # ---------------------------------------------------------------------------

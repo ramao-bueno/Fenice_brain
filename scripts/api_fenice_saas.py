@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Header, HTTPException, Query
+from fastapi import FastAPI, Header, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
@@ -51,22 +51,33 @@ except Exception:
 # Helpers de autenticação
 # ---------------------------------------------------------------------------
 
+def _carregar_chaves_premium() -> set[str]:
+    """
+    Carrega chaves premium da env FENICE_PREMIUM_KEYS (CSV) em tempo de execução.
+    Ex: FENICE_PREMIUM_KEYS=fenice_premium_abc123,fenice_premium_xyz789
+    """
+    raw = os.getenv("FENICE_PREMIUM_KEYS", "")
+    chaves = {k.strip() for k in raw.split(",") if k.strip().startswith("fenice_premium_")}
+    return chaves
+
+
 def _is_premium(x_fenice_key: Optional[str]) -> bool:
-    """Retorna True se a chave indica tier Premium."""
+    """Retorna True se a chave consta na lista autorizada de chaves premium."""
     if not x_fenice_key:
         return False
-    return x_fenice_key.startswith("fenice_premium_")
+    chaves = _carregar_chaves_premium()
+    # Fallback: aceita qualquer prefixo fenice_premium_ se a lista não estiver configurada
+    if not chaves:
+        return x_fenice_key.startswith("fenice_premium_")
+    return x_fenice_key in chaves
 
 
 def _exige_premium(x_fenice_key: Optional[str]) -> None:
-    """Levanta 403 se a chave não for Premium."""
+    """Levanta 403 se a chave não for Premium válida."""
     if not _is_premium(x_fenice_key):
         raise HTTPException(
             status_code=403,
-            detail=(
-                "Endpoint Premium. "
-                "Envie o header X-Fenice-Key: fenice_premium_<sua_chave>."
-            ),
+            detail="Acesso restrito. Endpoint Premium — solicite sua chave em fenice.ia.br.",
         )
 
 
@@ -141,6 +152,8 @@ class ContextoResponse(BaseModel):
 # FastAPI app
 # ---------------------------------------------------------------------------
 
+_DEBUG = os.getenv("DEBUG", "false").lower() == "true"
+
 app = FastAPI(
     title="Fenice bRain — SaaS API",
     description=(
@@ -153,17 +166,58 @@ app = FastAPI(
         "O prompt preenchido e retornado para uso em Claude/GPT/Gemini."
     ),
     version="1.0.0",
-    docs_url="/docs",
-    redoc_url="/redoc",
+    # Swagger/ReDoc só visível em modo DEBUG — em produção fecha para xeretas
+    docs_url="/docs" if _DEBUG else None,
+    redoc_url="/redoc" if _DEBUG else None,
+    openapi_url="/openapi.json" if _DEBUG else None,
 )
+
+# CORS restrito aos domínios oficiais Fenice
+_ALLOWED_ORIGINS = [
+    "https://fenice.ia.br",
+    "https://fenice-justech.vercel.app",
+    "https://observatorio-da-mulher-sfs.com.br",
+    "https://violencia-mulher-sfs.vercel.app",
+]
+if _DEBUG:
+    _ALLOWED_ORIGINS += ["http://localhost:8001", "http://localhost:3000", "http://127.0.0.1:8001"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_ALLOWED_ORIGINS,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "X-Fenice-Key", "Authorization"],
 )
+
+# Rate-limit simples em memória para /auth (por IP, reset a cada cold start)
+_auth_tentativas: dict[str, list[float]] = {}
+_AUTH_LIMITE = 5       # máx tentativas
+_AUTH_JANELA = 300.0   # janela de 5 minutos
+
+def _checar_rate_limit_auth(ip: str) -> None:
+    agora = _time.time()
+    hist = [t for t in _auth_tentativas.get(ip, []) if agora - t < _AUTH_JANELA]
+    if len(hist) >= _AUTH_LIMITE:
+        raise HTTPException(
+            status_code=429,
+            detail="Muitas tentativas de login. Aguarde 5 minutos.",
+            headers={"Retry-After": "300"},
+        )
+    hist.append(agora)
+    _auth_tentativas[ip] = hist
+
+
+# Middleware de headers de segurança
+@app.middleware("http")
+async def _security_headers(request: Request, call_next):
+    response: Response = await call_next(request)
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"]        = "DENY"
+    response.headers["X-Robots-Tag"]           = "noindex, nofollow, nosnippet"
+    response.headers["Referrer-Policy"]        = "strict-origin-when-cross-origin"
+    response.headers["Permissions-Policy"]     = "geolocation=(), camera=(), microphone=()"
+    return response
 
 
 # ---------------------------------------------------------------------------
@@ -209,11 +263,15 @@ async def health() -> Dict[str, Any]:
     tags=["Acesso"],
     summary="Autenticação do painel (modal de login)",
 )
-async def auth_login(body: AuthRequest):
+async def auth_login(body: AuthRequest, request: Request):
     """
     Valida usuário/senha contra as variáveis de ambiente `SITE_USER` e `SITE_PASS`.
     Retorna um token de sessão a ser armazenado no client (sessionStorage).
+    Limitado a 5 tentativas por IP a cada 5 minutos.
     """
+    ip = request.client.host if request.client else "unknown"
+    _checar_rate_limit_auth(ip)
+
     site_user = os.getenv("SITE_USER", "admin")
     site_pass = os.getenv("SITE_PASS", "")
 

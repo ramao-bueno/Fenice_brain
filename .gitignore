@@ -52,6 +52,7 @@ scripts/_testar_supabase.py
 
 # Logs
 *.log
+logs/
 
 # Node / build artifacts (paths longos, nunca devem ir para o vault git)
 node_modules/

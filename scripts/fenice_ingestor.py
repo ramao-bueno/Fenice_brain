@@ -15,7 +15,7 @@ from datetime import date
 
 # Garante UTF-8 no stdout mesmo em terminais Windows (cp1252)
 if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer

@@ -37,6 +37,15 @@ try:
 except ImportError:
     _RAG_DISPONIVEL = False
 
+# RAG Semântico — módulo independente, falha silenciosa se não instalado
+try:
+    from fenice_rag_semantic import RAGEngine
+    _semantic = RAGEngine()
+    _SEMANTIC_DISPONIVEL = _semantic._pronto
+except Exception:
+    _semantic = None
+    _SEMANTIC_DISPONIVEL = False
+
 
 # ---------------------------------------------------------------------------
 # Helpers de autenticação
@@ -699,6 +708,42 @@ async def get_grafo(limite: int = Query(400, ge=20, le=800)):
         }
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
+
+
+# ---------------------------------------------------------------------------
+# POST /analisar/semantico  (Premium — RAG vetorial)
+# ---------------------------------------------------------------------------
+
+@app.post(
+    "/analisar/semantico",
+    tags=["Premium"],
+    summary="Busca semântica com RAG vetorial + Claude Haiku (Premium)",
+)
+async def analisar_semantico(
+    body: AnalisarRequest,
+    x_fenice_key: Optional[str] = Header(None, alias="X-Fenice-Key"),
+) -> dict:
+    """
+    Busca semântica por similaridade vetorial (pgvector) + síntese via Claude Haiku.
+    Retorna resposta direta com fontes e nível de confiança LGPD.
+
+    Diferente de `/analisar` (que retorna o prompt para o cliente chamar um LLM),
+    este endpoint retorna a resposta já sintetizada.
+
+    **Requer** header `X-Fenice-Key: fenice_premium_<chave>`.
+    """
+    _exige_premium(x_fenice_key)
+
+    if not _SEMANTIC_DISPONIVEL or _semantic is None:
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Motor semântico indisponível neste ambiente. "
+                "Instale sentence-transformers e configure ANTHROPIC_API_KEY."
+            ),
+        )
+
+    return _semantic.query(body.pergunta)
 
 
 # ---------------------------------------------------------------------------

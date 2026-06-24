@@ -13,6 +13,10 @@ import sys
 from pathlib import Path
 from datetime import date
 
+# Garante UTF-8 no stdout mesmo em terminais Windows (cp1252)
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 from supabase import create_client, Client

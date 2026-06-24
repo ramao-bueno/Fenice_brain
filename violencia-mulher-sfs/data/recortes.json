@@ -1,0 +1,8 @@
+{
+  "feminicidio": { "processo": "500053450.2025.8.24.0061", "ano": 2025, "competencia": "Tribunal do Juri" },
+  "backlog": [
+    { "anoProcesso": 1998, "anoJulgamento": 2026, "esperaAnos": 28 },
+    { "anoProcesso": 2014, "anoJulgamento": 2026, "esperaAnos": 12 }
+  ],
+  "bombeiros": { "a2025": 94, "a2026Parcial": 38, "a2026Ate": "10/05/2026", "limitacao": "O sistema do Corpo de Bombeiros Voluntários de SFS informou que não separa a ocorrência de seus atendimentos por gênero." }
+}

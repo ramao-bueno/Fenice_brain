@@ -8,4 +8,5 @@ python-dotenv>=1.0.0
 sentence-transformers>=2.7.0
 torch>=2.3.0
 supabase>=2.4.0
-anthropic>=0.28.0
+groq>=0.9.0
+# anthropic>=0.28.0  # descomente para produção com Claude Haiku

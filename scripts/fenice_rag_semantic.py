@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Fenice RAG Semântico — motor de busca vetorial + síntese Claude Haiku
+Fenice RAG Semântico — motor de busca vetorial + síntese Groq (Llama 3.3 70B)
 Módulo independente: não altera fenice_rag.py nem api_fenice_saas.py existentes.
+Troca de LLM: Groq (gratuito, local/dev) → Anthropic Haiku (produção, pago por token).
 """
 from __future__ import annotations
 
@@ -18,7 +19,7 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 # Constantes
 # ---------------------------------------------------------------------------
 
-MODELO_HAIKU   = "claude-haiku-4-5-20251001"
+MODELO_LLM     = "llama-3.3-70b-versatile"   # Groq (gratuito). Trocar por "claude-haiku-4-5-20251001" em produção.
 MODELO_EMBED   = "intfloat/multilingual-e5-large"
 THRESHOLD_MIN  = 0.70   # abaixo: sem base legal suficiente → sem Claude
 THRESHOLD_ALTA = 0.85
@@ -53,26 +54,26 @@ class RAGEngine:
         self._pronto = False
         self._erro_init: str | None = None
 
-        sb_url = os.environ.get("SUPABASE_URL", "")
-        sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
-        ant_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        sb_url   = os.environ.get("SUPABASE_URL", "")
+        sb_key   = os.environ.get("SUPABASE_SERVICE_KEY", "")
+        groq_key = os.environ.get("GROQ_API_KEY", "")
 
-        if not sb_url or not sb_key or not ant_key:
+        if not sb_url or not sb_key or not groq_key:
             faltando = [k for k, v in {
                 "SUPABASE_URL": sb_url,
                 "SUPABASE_SERVICE_KEY": sb_key,
-                "ANTHROPIC_API_KEY": ant_key,
+                "GROQ_API_KEY": groq_key,
             }.items() if not v]
             self._erro_init = f"Variáveis ausentes no .env: {', '.join(faltando)}"
             return
 
         try:
             from supabase import create_client
-            from anthropic import Anthropic
+            from groq import Groq
             from sentence_transformers import SentenceTransformer
 
             self._supabase = create_client(sb_url, sb_key)
-            self._anthropic = Anthropic(api_key=ant_key)
+            self._groq = Groq(api_key=groq_key)
 
             print(f"[RAGEngine] Carregando {MODELO_EMBED} na CPU...")
             self._model = SentenceTransformer(MODELO_EMBED, device="cpu")
@@ -112,7 +113,7 @@ class RAGEngine:
                 "fontes":       [],
                 "confianca":    "erro",
                 "vigente_em":   hoje,
-                "modelo_usado": MODELO_HAIKU,
+                "modelo_usado": MODELO_LLM,
             }
 
         try:
@@ -138,7 +139,7 @@ class RAGEngine:
                     "fontes":       [],
                     "confianca":    "insuficiente",
                     "vigente_em":   hoje,
-                    "modelo_usado": MODELO_HAIKU,
+                    "modelo_usado": MODELO_LLM,
                 }
 
             score_medio = sum(c["similarity"] for c in chunks) / len(chunks)
@@ -162,21 +163,20 @@ class RAGEngine:
 
             contexto = "\n\n".join(blocos_contexto)
 
-            # 5. Síntese com Claude Haiku (temperatura mínima = determinismo)
-            msg = self._anthropic.messages.create(
-                model=MODELO_HAIKU,
+            # 5. Síntese com Groq Llama 3.3 70B (temperatura mínima = determinismo)
+            completion = self._groq.chat.completions.create(
+                model=MODELO_LLM,
                 max_tokens=1024,
                 temperature=0.05,
-                system=PROMPT_SISTEMA,
-                messages=[{
-                    "role":    "user",
-                    "content": f"ARTIGOS DISPONÍVEIS:\n{contexto}\n\nPERGUNTA: {pergunta}",
-                }],
+                messages=[
+                    {"role": "system", "content": PROMPT_SISTEMA},
+                    {"role": "user",   "content": f"ARTIGOS DISPONÍVEIS:\n{contexto}\n\nPERGUNTA: {pergunta}"},
+                ],
             )
 
-            resposta = msg.content[0].text
+            resposta = completion.choices[0].message.content
 
-            # Se o Haiku mesmo assim declinou, atualiza confiança
+            # Se o modelo mesmo assim declinou, atualiza confiança
             if _RESPOSTA_SEM_BASE.lower() in resposta.lower():
                 confianca = "insuficiente"
 
@@ -185,7 +185,7 @@ class RAGEngine:
                 "fontes":       fontes,
                 "confianca":    confianca,
                 "vigente_em":   hoje,
-                "modelo_usado": MODELO_HAIKU,
+                "modelo_usado": MODELO_LLM,
             }
 
         except Exception as exc:
@@ -195,7 +195,7 @@ class RAGEngine:
                 "confianca":    "erro",
                 "detalhe":      str(exc),
                 "vigente_em":   hoje,
-                "modelo_usado": MODELO_HAIKU,
+                "modelo_usado": MODELO_LLM,
             }
 
 

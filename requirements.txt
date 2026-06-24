@@ -1,12 +1,7 @@
 fastapi>=0.111.0
+uvicorn>=0.29.0
 requests>=2.31.0
 pydantic>=2.7.0
 python-dotenv>=1.0.0
-
-# RAG Semântico — instalar localmente (não vai para o Vercel)
-# pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
-sentence-transformers>=2.7.0
-torch>=2.3.0
 supabase>=2.4.0
 groq>=0.9.0
-# anthropic>=0.28.0  # descomente para produção com Claude Haiku

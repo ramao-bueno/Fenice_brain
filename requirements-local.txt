@@ -1,0 +1,5 @@
+# Dependências completas para desenvolvimento local com RAG Semântico
+# Instalar: pip install -r requirements-local.txt
+-r requirements.txt
+sentence-transformers>=2.7.0
+torch>=2.3.0

@@ -1,6 +1,6 @@
 # Skills Superpower — Claude Code
 **Tech Lead:** Ramão Bueno da Silva Neto | FeniceTech
-**Atualizado:** 2026-06-18
+**Atualizado:** 2026-06-22
 
 ---
 
@@ -126,6 +126,22 @@
 
 ---
 
+## Skills — Jurídico (Fenice bRain)
+
+| Skill | Função |
+|---|---|
+| `/juridico` | **Hub orquestrador** — roteador principal para todo trabalho jurídico |
+| `/atomizar-juridico` | Converter texto jurídico bruto em notas atômicas Obsidian |
+| `/pesquisa-juridica-elite` | Framework de qualidade de fontes e grounding jurídico |
+| `/fenice-ia-01` | Túnel do Tempo — reconstruir lei em data passada |
+| `/fenice-ia-02` | Filtro Epistemológico — análise com lente filosófica |
+| `/fenice-ia-03` | Detector de Antinomias — conflitos normativos |
+| `/fenice-ia-04` | Exportador de Fichamento ABNT/APA |
+| `/oab` | OAB — Preparação para o Exame da Ordem |
+| `/jurisconsultos` | Análise jurídica fundamentada nos mestres do vault |
+
+---
+
 ## Mapeamento por Contexto (Uso Proativo)
 
 | Contexto | Skills a invocar automaticamente |
@@ -142,6 +158,7 @@
 | **Apresentações** | Gamma MCP |
 | **E-mails / agenda** | Gmail + Google Calendar MCP |
 | **Comunicação time** | Slack / Teams MCP |
+| **Direito / OAB / peças** | `/juridico` (hub) → sub-skills fenice-ia-01 a 04 |
 
 ---
 

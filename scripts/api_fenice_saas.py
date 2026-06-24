@@ -765,6 +765,17 @@ async def root() -> HTMLResponse:
     })
 
 
+@app.get("/logo-fenice.png", tags=["Infraestrutura"], include_in_schema=False)
+async def logo_fenice():
+    """Serve o logotipo Fenice (phoenix) para a landing page."""
+    from fastapi.responses import FileResponse
+    logo_path = Path(__file__).parent.parent / "docs" / "logo fenice.png"
+    if logo_path.exists():
+        return FileResponse(str(logo_path), media_type="image/png")
+    from fastapi.responses import Response
+    return Response(status_code=404)
+
+
 # ---------------------------------------------------------------------------
 # Entrypoint dev
 # ---------------------------------------------------------------------------

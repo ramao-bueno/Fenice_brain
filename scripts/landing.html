@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fenice bRain — SaaS API Jurídica</title>
   <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <link rel="stylesheet" href="https://use.typekit.net/cmr1ivs.css">
   <style>
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 
@@ -110,8 +111,15 @@
       text-decoration: none;
       display: flex; align-items: center; gap: 0.45rem;
     }
+    .nav-logo .fenice-word {
+      font-family: "sloop-script-one", cursive;
+      font-weight: 400;
+      font-size: 1.55rem;
+      color: var(--gold);
+      letter-spacing: 0.01em;
+    }
     .nav-logo span { color: var(--text); }
-    .nav-seal { width: 33px; height: 33px; flex-shrink: 0; }
+    .nav-seal { width: 33px; height: 33px; flex-shrink: 0; border-radius: 50%; object-fit: cover; }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       color: var(--muted); text-decoration: none;
@@ -180,7 +188,7 @@
       100% { transform: translate(-50%,-50%) scale(1.15); opacity: 0; }
     }
     .hero-sabedoria {
-      font-family: "adelle", serif; font-weight: 700;
+      font-family: "caprizant", serif;
       font-size: 0.67rem; letter-spacing: 0.26em; text-transform: uppercase;
       color: rgba(201,162,39,0.65); margin-top: 0.5rem;
     }
@@ -212,10 +220,14 @@
     .hero h1 {
       font-family: "skeena-display", serif; font-weight: 700;
       font-size: clamp(3.5rem, 10vw, 7.5rem);
-      line-height: 1; letter-spacing: -0.025em;
+      line-height: 1.05; letter-spacing: -0.025em;
       margin-bottom: 0.25rem; position: relative; z-index: 1;
     }
+    /* "Fenice" — script elegante dourado */
     .shimmer-text {
+      font-family: "sloop-script-one", cursive;
+      font-weight: 400;
+      font-size: clamp(4rem, 11vw, 8.5rem);
       background: linear-gradient(110deg,
         #d97706 0%, #f59e0b 30%, #fef3c7 48%, #fbbf24 52%, #f59e0b 70%, #d97706 100%);
       background-size: 250% auto;
@@ -223,16 +235,28 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       animation: shimmer 3.5s linear infinite;
+      display: block;
+      line-height: 1;
     }
     @keyframes shimmer {
       0%   { background-position: 0%   center; }
       100% { background-position: 250% center; }
     }
+    /* "bRain" — display bold branco */
+    .brain-text {
+      font-family: "skeena-display", serif;
+      font-weight: 700;
+      color: var(--text);
+      font-size: clamp(3rem, 8.5vw, 7rem);
+      display: block;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
 
     .hero-sub {
-      font-family: "adelle", serif; font-weight: 700;
-      font-size: clamp(0.9rem, 2vw, 1.2rem);
-      color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase;
+      font-family: "caprizant", serif;
+      font-size: clamp(0.8rem, 1.8vw, 1.1rem);
+      color: var(--muted); letter-spacing: 0.18em; text-transform: uppercase;
       margin-bottom: 2rem; position: relative; z-index: 1;
     }
     .hero-desc {
@@ -282,7 +306,7 @@
     /* ── SECTION ── */
     .section { padding: 6rem 2rem; max-width: 1160px; margin: 0 auto; position: relative; z-index: 1; }
     .section-label {
-      font-family: "adelle", serif; font-weight: 700;
+      font-family: "caprizant", serif;
       font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
       color: var(--gold); margin-bottom: 0.875rem;
     }
@@ -1302,17 +1326,9 @@
 <!-- NAV -->
 <nav>
   <a href="/" class="nav-logo">
-    <svg class="nav-seal" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="20" cy="20" r="19" fill="#050a14" stroke="#c9a227" stroke-width="1.4"/>
-      <circle cx="20" cy="20" r="14" fill="none" stroke="#c9a227" stroke-width="0.55"/>
-      <line x1="8" y1="19.5" x2="32" y2="19.5" stroke="#c9a227" stroke-width="1.1"/>
-      <line x1="20" y1="13" x2="20" y2="27" stroke="#c9a227" stroke-width="1.1"/>
-      <path d="M 6,19.5 Q 12,24.5 18,19.5" stroke="#c9a227" stroke-width="1" fill="none"/>
-      <path d="M 22,19.5 Q 28,24.5 34,19.5" stroke="#c9a227" stroke-width="1" fill="none"/>
-      <polygon points="20,11 17.5,15 22.5,15" fill="#c9a227"/>
-      <line x1="17" y1="27" x2="23" y2="27" stroke="#c9a227" stroke-width="1.1"/>
-    </svg>
-    Fenice <span>bRain</span>
+    <img class="nav-seal" src="/logo-fenice.png" alt="Fenice" width="33" height="33"
+         onerror="this.style.display='none'">
+    <span class="fenice-word">Fenice</span> <span>bRain</span>
   </a>
   <ul class="nav-links">
     <li><a href="#endpoints">Endpoints</a></li>
@@ -1403,7 +1419,8 @@
   </div>
 
   <h1>
-    <span class="shimmer-text">Fenice</span><br>bRain
+    <span class="shimmer-text">Fenice</span>
+    <span class="brain-text">bRain</span>
   </h1>
 
   <p class="hero-sub">Vade Mecum Dinâmico — SaaS API Jurídica</p>

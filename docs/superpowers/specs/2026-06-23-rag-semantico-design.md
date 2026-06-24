@@ -250,21 +250,20 @@ create table documentos_chunks (
   documento_id bigint references documentos_juridicos(id) on delete cascade,
   chunk_index  int not null default 0,
   conteudo     text not null,
-  embedding    vector(768),           -- multilingual-e5-large (768 dims)
+  embedding    vector(1024),          -- multilingual-e5-large = 1024 dims (e5-base = 768)
   created_at   timestamptz default now()
 );
 
--- Índice de performance para busca vetorial
+-- Índice HNSW — suporta inserts em tempo real sem degradação (vs. IVFFlat que exige rebuild)
 create index on documentos_chunks
-  using ivfflat (embedding vector_cosine_ops)
-  with (lists = 100);
+  using hnsw (embedding vector_cosine_ops);
 ```
 
 ### 3.2 Função match_chunks (RPC Supabase)
 
 ```sql
 create or replace function match_chunks(
-  query_embedding vector(768),
+  query_embedding vector(1024),
   match_threshold float,
   match_count     int
 )
@@ -308,9 +307,20 @@ $$;
 1. Glob notas do vault com frontmatter: codigo:, artigo:
 2. Extrai campos: codigo, artigo, conteudo, titulo
 3. Gera embedding: multilingual-e5-large (local, CPU)
+   OBRIGATÓRIO: prefixo "passage: " no texto antes de embedar
+   ex: model.encode("passage: " + conteudo_artigo)
 4. Upsert: documentos_juridicos + documentos_chunks
    (ON CONFLICT (codigo, artigo, fonte) DO UPDATE)
 ```
+
+**Por que os prefixos são obrigatórios no modelo E5:**
+
+| Contexto | Prefixo | Exemplo |
+|---|---|---|
+| Ingestão (chunks) | `"passage: "` | `"passage: Art. 107. O agente pode..."` |
+| Consulta (query) | `"query: "` | `"query: consequências do contrato verbal"` |
+
+Sem os prefixos, a performance do multilingual-e5-large cai ~15-20%. O código deve injetar os prefixos condicionalmente para suportar a transição para APIs externas na Fase 2.
 
 ### 4.2 Fase 2 — Planalto.gov.br (validade temporal)
 
@@ -451,7 +461,9 @@ anthropic>=0.28.0
 
 | Decisão | Escolha | Motivo |
 |---|---|---|
-| Modelo de embedding | multilingual-e5-large (768d) | Gratuito, local, bom português |
+| Modelo de embedding | multilingual-e5-large (1024d) | Gratuito, local, melhor qualidade; e5-base=768d seria mais rápido mas menos preciso |
+| Prefixos E5 | `"passage: "` / `"query: "` | Obrigatórios — sem eles performance cai ~15-20% |
+| Índice vetorial | HNSW | Suporta inserts incrementais sem rebuild (IVFFlat exige repopulação) |
 | Chunk size | 1 artigo = 1 chunk | Preserva integridade jurídica |
 | Threshold cosine | 0.70 | Balanceia precisão e recall legal |
 | LLM síntese | Claude Haiku | Baixo custo, rápido, suficiente |

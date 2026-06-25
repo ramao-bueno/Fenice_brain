@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
-from fastapi import BackgroundTasks, FastAPI, Header, HTTPException, Query, Request, Response
+from fastapi import FastAPI, Header, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
@@ -945,10 +945,10 @@ async def _processar_mensagem_whatsapp(
     include_in_schema=False,
     status_code=200,
 )
-async def webhook_avisa(request: Request, background_tasks: BackgroundTasks):
+async def webhook_avisa(request: Request):
     """
     Recebe mensagens WhatsApp da AvisaAPI, processa com Groq e responde ao cliente.
-    Retorna 200 imediatamente; o processamento ocorre em background.
+    Processamento síncrono (await) para garantir execução em Vercel serverless.
     """
     try:
         body = await request.json()
@@ -978,10 +978,8 @@ async def webhook_avisa(request: Request, background_tasks: BackgroundTasks):
     if not numero or not mensagem:
         return {"ok": True, "status": "ignored"}
 
-    background_tasks.add_task(
-        _processar_mensagem_whatsapp, numero, nome, mensagem, session_id, message_id
-    )
-    return {"ok": True, "status": "processing"}
+    await _processar_mensagem_whatsapp(numero, nome, mensagem, session_id, message_id)
+    return {"ok": True, "status": "processed"}
 
 
 # ---------------------------------------------------------------------------

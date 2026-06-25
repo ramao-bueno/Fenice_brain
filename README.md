@@ -2,171 +2,92 @@
 tags: [sistema, guia]
 ---
 
-# 🧠 Fenice Brain — Vault de Conhecimento Jurídico
+<div align="center">
 
-Bem-vindo ao seu vault pessoal de conhecimento jurídico. Este é seu segundo cérebro para armazenar, organizar e recuperar informações legais estruturadas.
+![Fenice bRain — Hall de Entrada](docs/fenice-brain-hall.png)
 
-## 📁 Estrutura do Vault
+# Fenice bRain
 
-```
-Fenice brain/
-├── 00 - Inbox/                    # Captura rápida — tudo novo entra aqui
-├── 01 - Projetos/                 # Projetos ativos (p. ex.: casos, pesquisas)
-├── 02 - Áreas/                    # Áreas permanentes (Tributário, Penal, etc.)
-├── 03 - Recursos/                 # Material de referência, tutoriais, docs
-├── 04 - Arquivo/                  # Projetos concluídos, notas antigas
-├── 05 - Templates/                # Templates para criar novas notas
-├── 06 - NotebookLM/               # Documentos estruturados para análise IA
-│   ├── sources/                   # Documentos pra enviar ao NotebookLM
-│   └── exports/                   # Resumos/insights do NotebookLM
-├── _sistema/                      # Configurações e metadados
-│   ├── memory-log.md              # Log de decisões e contexto
-│   ├── tags-index.md              # Índice centralizado de tags
-│   └── notion-config.md           # Configuração de integração com Notion
-└── FENICE bRain/                  # Seu conteúdo jurídico existente
-    ├── 00_CONSTITUIÇÃO_FEDERAL/
-    ├── 02_DIREITO_CIVIL/
-    ├── 03_CÓDIGO_PENAL/
-    └── ... (outros)
-```
+**Plataforma jurídica inteligente · SAAS API Jurídica · Vault de Conhecimento**
 
-## 🎯 Como Usar Cada Pasta
+[fenice.ia.br](https://fenice.ia.br) · [Observatório da Mulher](https://observatorio-da-mulher-sfs.com.br)
 
-### 00 - Inbox
-**Propósito**: Captura rápida de ideias, notas e informações
-- Tudo novo vai aqui primeiro, sem preocupação com organização
-- Revise regularmente e mova para a pasta correta
-- Use quando estiver aprendendo algo novo ou capturando uma ideia
+*© 2026 Fenice IT Justech.ia · Todos os direitos reservados · Developed by Ramão Bueno da Silva Neto / Tech Lead*
 
-### 01 - Projetos
-**Propósito**: Documentação de projetos ativos
-- Cada projeto tem uma pasta própria com `_index.md`
-- Exemplo: `01 - Projetos/case-fulano/`, `01 - Projetos/pesquisa-lei-x/`
-- Use template: `template-projeto.md`
-
-### 02 - Áreas
-**Propósito**: Conhecimento permanente de áreas jurídicas
-- Exemplos: `02 - Áreas/Direito Civil/`, `02 - Áreas/Direito Penal/`
-- Crescem organicamente à medida que você acumula conhecimento
-- Integre seu conteúdo jurídico existente aqui
-
-### 03 - Recursos
-**Propósito**: Material de referência, tutoriais, legislação
-- Documentações técnicas
-- Leis comentadas
-- Jurisprudência compilada
-- Material de estudo
-
-### 04 - Arquivo
-**Propósito**: Manutenção histórica
-- Projetos concluídos
-- Notas antigas ou obsoletas
-- Mantenha a história, não delete
-
-### 05 - Templates
-**Propósito**: Templates prontos para novas notas
-- `template-nota.md` — Nota genérica
-- `template-projeto.md` — Novo projeto
-- `template-decisao.md` — Decisão importante
-- `template-recurso-juridico.md` — Conteúdo jurídico
-
-### 06 - NotebookLM
-**Propósito**: Integração com NotebookLM para análise
-- **sources/**: Documentos estruturados para análise
-- **exports/**: Resultados gerados pelo NotebookLM
-
-### _sistema
-**Propósito**: Sistema e metadados
-- `memory-log.md` — Log entre sessões do Claude
-- `tags-index.md` — Todas as tags disponíveis
-- `notion-config.md` — Integração com Notion
-
-## 🏷️ Sistema de Tags
-
-Todas as notas usam tags no frontmatter para organização. Consulte `_sistema/tags-index.md` para a lista completa.
-
-**Exemplo**:
-```markdown
----
-tags: [projeto, direito-civil, em-progresso]
-created: 2026-06-03
----
-```
-
-### Tags Principais
-- **Tipo**: `#nota`, `#projeto`, `#recurso`, `#ideia`, `#decisão`
-- **Status**: `#rascunho`, `#em-progresso`, `#revisão`, `#pronto`, `#arquivado`
-- **Área Jurídica**: `#direito-civil`, `#direito-penal`, `#direito-tributário`, etc.
-- **Operacional**: `#pendente`, `#importante`, `#revisar`
-
-## 📝 Fluxo de Trabalho Padrão
-
-### Ao capturar uma ideia
-1. Crie uma nota em `00 - Inbox/`
-2. Adicione tags básicas
-3. Escreva o pensamento rapidamente
-4. Revise e organize mais tarde
-
-### Ao criar um projeto
-1. Crie pasta em `01 - Projetos/nome-projeto/`
-2. Crie `_index.md` com `template-projeto.md`
-3. Vincule documentos relacionados
-4. Atualize status conforme progride
-
-### Ao documentar uma decisão
-1. Use `template-decisao.md`
-2. Registre data, opções, escolha e racional
-3. Adicione ao memory-log
-
-### Ao organizar (semanal)
-1. Revise `00 - Inbox/`
-2. Mova notas para pastas corretas
-3. Atualize tags conforme necessário
-4. Arquivo notas obsoletas
-
-## 🔗 Integração com Notion
-
-O vault está configurado para sincronizar com o workspace **Sofia Próvision HQ** no Notion.
-
-**Consulte**: `_sistema/notion-config.md`
-
-Fluxo:
-1. Notas amadurecem no Obsidian (vault pessoal)
-2. Quando prontas, publicam para Notion (equipe)
-3. Notion é a fonte de verdade para execução
-4. Obsidian é a fonte de verdade para conhecimento
-
-## 💡 Boas Práticas
-
-✅ **Faça**:
-- Use wikilinks `[[assim]]` para conectar ideias
-- Mantenha notas atômicas (um conceito por nota)
-- Revise o memory-log regularmente
-- Arquivo notas antigas, não delete
-
-❌ **Não faça**:
-- Não coloque dados sensacionais/privados sem tag `#privado`
-- Não publique no Notion sem revisar primeiro
-- Não misture múltiplos tópicos em uma nota
-- Não ignore o sistema de tags
-
-## 🚀 Primeiros Passos
-
-1. **Explore os templates** em `05 - Templates/`
-2. **Leia** `_sistema/memory-log.md` para contexto
-3. **Consulte** `_sistema/tags-index.md` para tags disponíveis
-4. **Crie sua primeira nota** usando um template
-5. **Configure Notion** quando estiver pronto (`_sistema/notion-config.md`)
-
-## 📞 Suporte
-
-Para dúvidas sobre organização, integração com Notion ou uso de tags, consulte:
-- [[memory-log]] — Decisões passadas e contexto
-- [[tags-index]] — Todas as tags do sistema
-- [[notion-config]] — Integração com equipe
+</div>
 
 ---
 
-**Vault criado**: 2026-06-03
-**Última atualização**: 2026-06-03
-**Status**: Pronto para usar
+## Projetos em Produção
+
+| Projeto | URL | Vercel App | Stack |
+|---|---|---|---|
+| Fenice.ia.br | [fenice.ia.br](https://fenice.ia.br) | `fenice-justech` | FastAPI + Python |
+| Observatório da Mulher | [observatorio-da-mulher-sfs.com.br](https://observatorio-da-mulher-sfs.com.br) | `violencia-mulher-sfs` | Next.js 16 |
+
+> Leia a **[Reza do Dia](REZA-DO-DIA.md)** antes de começar qualquer sessão de trabalho.
+> Manual completo de infra e deploy: **[docs/INFRA-DEPLOY.md](docs/INFRA-DEPLOY.md)**
+
+---
+
+## Estrutura do Repositório
+
+```
+Fenice_bRain/
+├── api/                       # FastAPI — backend fenice.ia.br
+├── scripts/                   # Scripts Python (RAG, LLM Wiki, pipelines)
+│   ├── api_fenice_saas.py     # Entry point da API + webhook WhatsApp
+│   ├── fenice_rag.py          # Módulo RAG híbrido
+│   └── landing.html           # Landing page fenice.ia.br
+├── violencia-mulher-sfs/      # Next.js — Observatório da Mulher SFS
+├── docs/                      # Documentação operacional
+│   ├── INFRA-DEPLOY.md        # Manual de infraestrutura
+│   ├── STACK-ANALYSIS-*.md    # Análise da stack e custos
+│   └── AVISAAPI.md            # Documentação WhatsApp / AvisaAPI
+├── REZA-DO-DIA.md             # Checklist e regras diárias (leia primeiro)
+├── vercel.json                # Config Vercel para fenice-justech (Python)
+├── .vercelignore              # Whitelist — controla o que cada app vê
+└── [vault Obsidian]           # 23k+ notas jurídicas (00_APEX … 09_FENICE_BRAIN)
+```
+
+---
+
+## Deploy Rápido
+
+```bash
+# fenice.ia.br (Python/FastAPI) — deploy manual
+vercel deploy --prod
+
+# Observatório (Next.js) — deploy automático via Git push
+git add -u violencia-mulher-sfs/
+git commit -m "feat(obs): ..."
+git push
+```
+
+---
+
+## Vault Jurídico — Módulos Principais
+
+| Pasta | Conteúdo |
+|---|---|
+| `00_APEX/` | Súmulas STJ (674) + STF (736) indexadas no Supabase |
+| `02_LEGISLACAO/` | Código Penal (665 arts), CF, legislação federal |
+| `06_JURISCONSULTOS/` | Doutrina — LLM Wiki com GIGO gate |
+| `07_FILOSOFIA/` | Filosofia jurídica — LLM Wiki |
+| `09_FENICE_BRAIN/` | Prompts, specs, maestros, sistema acadêmico |
+
+---
+
+## Stack Tecnológica
+
+- **Backend**: FastAPI · Python 3.12 · Vercel (Fluid Compute)
+- **Frontend**: Next.js 16 (App Router) · React 19 · Tailwind CSS 4
+- **Banco de dados**: Supabase (PostgreSQL) · REST API
+- **IA**: Groq `llama-3.3-70b-versatile` · Claude API
+- **WhatsApp**: AvisaAPI · webhook síncrono
+- **Tipografia**: Adobe Fonts (kits `ajp1gxj`, `cmr1ivs`)
+- **Vault**: Obsidian · 23k+ notas · Graph View · Quartz (site)
+
+---
+
+*Vault criado: 2026-06-03 · Atualizado: 2026-06-25*

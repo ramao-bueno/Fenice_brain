@@ -840,27 +840,57 @@ async def logo_fenice():
 # WhatsApp — constantes, rate-limit e helpers
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Fenice_Tim — IVR WhatsApp multi-projeto
+# Roteador inteligente: identifica a área de interesse e personaliza o atendimento
+# Perfis: Hunter (novos leads agressivos) | Farmer (base existente — fidelização)
+# ---------------------------------------------------------------------------
+
 _wapp_rate: dict[str, list[float]] = {}
-_wapp_optouts: set[str] = set()   # cache em memória de números opt-out
-_WAPP_LIMITE = 10       # máx 10 mensagens por número
-_WAPP_JANELA = 3600.0   # janela de 1 hora
+_wapp_optouts: set[str] = set()
+_WAPP_LIMITE = 15       # máx 15 mensagens por número por hora
+_WAPP_JANELA = 3600.0
 
-_STOP_WORDS = {"parar", "stop", "sair", "cancelar"}
-_MENU_WORDS = {"menu", "ajuda", "help", "oi", "olá", "ola", "inicio", "início",
-               "começar", "comecar", "1"}
+_STOP_WORDS  = {"parar", "stop", "sair", "cancelar"}
+_RESET_WORDS = {"menu", "inicio", "início", "voltar", "0", "reiniciar"}
 
-_MSG_MENU = (
-    "👋 *Fenice IT Justech.IA* — Assistente Jurídico\n\n"
-    "Posso responder dúvidas sobre:\n\n"
-    "📋 Direito Civil · Penal · Trabalhista\n"
-    "🏛️ Administrativo · Constitucional · Consumidor\n\n"
-    "Digite sua dúvida ou envie *PARAR* para encerrar.\n\n"
+# Mapa de opção → área interna
+_MENU_OPCOES: dict[str, str] = {
+    "1": "b2b",
+    "2": "academico",
+    "3": "observatorio",
+    "4": "api",
+    "5": "juridico",
+    "6": "filosofia",
+    "0": "humano",
+}
+
+_MSG_TIM_BOAS_VINDAS = (
+    "🦅 *Fenice IT Justech.IA* — Central de Atendimento\n\n"
+    "Olá! Sou o *Tim*, assistente inteligente da Fenice IT. "
+    "Para qual área posso direcioná-lo(a)?\n\n"
+    "1️⃣  Mercado Corporativo B2B\n"
+    "2️⃣  Ensino Acadêmico Jurídico\n"
+    "3️⃣  Observatório da Mulher SFS\n"
+    "4️⃣  API REST / Desenvolvedores\n"
+    "5️⃣  Atendimento Jurídico Individual\n"
+    "6️⃣  Filosofia, Teologia e Pensamento _(em breve)_\n"
+    "0️⃣  Falar com Especialista Humano\n\n"
+    "Digite o *número* da opção desejada.\n\n"
     "_© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno_"
 )
 
 _MSG_PARAR = (
-    "Atendimento encerrado. Obrigado por usar a *Fenice IT Justech.IA*! 🙏\n"
+    "Atendimento encerrado. Obrigado por contatar a *Fenice IT Justech.IA*! 🙏\n"
     "Quando precisar, é só chamar novamente.\n\n"
+    "_© 2026 Fenice IT Justech.IA_"
+)
+
+_MSG_HUMANO = (
+    "👤 *Atendimento Humano Solicitado*\n\n"
+    "Anotamos seu contato! Um especialista da Fenice IT entrará em contato em breve.\n\n"
+    "📧 contato@fenice.ia.br\n"
+    "🌐 fenice.ia.br\n\n"
     "_© 2026 Fenice IT Justech.IA_"
 )
 
@@ -868,6 +898,67 @@ _MSG_FALLBACK = (
     "Nosso assistente está com alta demanda agora. "
     "Tente novamente em 1 minuto ou entre em contato: contato@fenice.ia.br"
 )
+
+# System prompts por área — personalizados para cada jornada
+_SYSTEM_PROMPTS: dict[str, str] = {
+    "b2b": (
+        "Você é o assistente comercial B2B da Fenice IT Justech.IA, atendendo via WhatsApp. "
+        "Seu foco: apresentar as soluções corporativas da Fenice IT para escritórios de advocacia, "
+        "empresas e departamentos jurídicos. "
+        "Destaque: API jurídica com RAG, integração com sistemas legados, planos enterprise, SLA. "
+        "Seja consultivo e direto. Colete nome, empresa e necessidade do prospect. "
+        "Se demonstrar interesse real → ofereça agenda de demo: contato@fenice.ia.br. "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+    ),
+    "academico": (
+        "Você é o assistente acadêmico da Fenice IT Justech.IA, atendendo via WhatsApp. "
+        "Foco: auxiliar estudantes e professores de direito com pesquisa jurídica, TCC, "
+        "monografias, artigos científicos. Base: 5685 artigos indexados, súmulas STJ/STF, legislação federal. "
+        "Seja didático, cite artigos e súmulas relevantes, incentive a pesquisa autônoma. "
+        "Se precisar de acesso premium → direcione para fenice.ia.br/premium. "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+    ),
+    "observatorio": (
+        "Você é o assistente do Observatório da Mulher SFS (Fenice IT), atendendo via WhatsApp. "
+        "Foco: apoio a vítimas de violência doméstica e familiar, informação sobre direitos, "
+        "canais de denúncia (190, 197, 180), Lei Maria da Penha (Lei 11.340/2006). "
+        "Seja acolhedor, empático e claro. NUNCA minimize o relato. "
+        "Em situação de risco → indique IMEDIATAMENTE: ligue 190 (emergência) ou 180 (Central da Mulher). "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA"
+    ),
+    "api": (
+        "Você é o assistente técnico da Fenice IT Justech.IA, atendendo desenvolvedores via WhatsApp. "
+        "Foco: API REST fenice.ia.br — endpoints /buscar (Free), /analisar, /hermeneutica, /tcc (Premium). "
+        "Auth: header X-Fenice-Key. Stack: FastAPI + Supabase + Groq + pgvector. "
+        "Seja técnico e preciso. Forneça exemplos de código em Python/JS quando útil. "
+        "Documentação: fenice.ia.br/docs (ativada em modo DEBUG). "
+        "Chaves premium: contato@fenice.ia.br. "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+    ),
+    "juridico": (
+        "Você é o assistente jurídico individual da Fenice IT Justech.IA, atendendo via WhatsApp. "
+        "Conhecimento sólido em direito brasileiro: Código Civil, CLT, Código Penal, CF/88, CDC. "
+        "Seja profissional, empático e objetivo. Máx. 800 caracteres por resposta (WhatsApp). "
+        "Se não tiver certeza jurídica → diga: 'Não temos resposta imediata — posso pesquisar para você.' "
+        "Nunca invente leis, artigos ou jurisprudência inexistentes. "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+    ),
+    "filosofia": (
+        "Você é o assistente de Filosofia, Teologia e Pensamento da Fenice IT Justech.IA, via WhatsApp. "
+        "Domínio: filosofia jurídica, hermenêutica, filosofia ocidental e oriental, teologia cristã, islâmica e judaica, "
+        "pensamento crítico, ética, metafísica, epistemologia. "
+        "Seja reflexivo, profundo e acessível. Cite pensadores relevantes (Aristóteles, Tomás de Aquino, Kant, Hegel, etc.). "
+        "Relacione o pensamento filosófico com o direito e a vida prática quando cabível. "
+        "Este módulo está em desenvolvimento — convide o cliente para acompanhar o lançamento em fenice.ia.br. "
+        "Cliente: {nome}. "
+        "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+    ),
+}
 
 
 def _wapp_rate_ok(numero: str) -> bool:
@@ -985,6 +1076,57 @@ async def _rag_grounding(client: Any, mensagem: str, sb_url: str, sb_key: str) -
 # POST /webhook/avisa  — AvisaAPI WhatsApp inbound webhook
 # ---------------------------------------------------------------------------
 
+async def _tim_get_contato(client: Any, numero: str, sb_url: str, sb_key: str) -> dict:
+    """Recupera dados do contato no fenice_tim_contatos."""
+    if not sb_url or not sb_key:
+        return {}
+    try:
+        r = await client.get(
+            f"{sb_url}/rest/v1/fenice_tim_contatos",
+            headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}"},
+            params={"select": "*", "numero": f"eq.{numero}", "limit": "1"},
+            timeout=5.0,
+        )
+        if r.status_code == 200 and r.json():
+            return r.json()[0]
+    except Exception:
+        pass
+    return {}
+
+
+async def _tim_upsert_contato(
+    client: Any, sb_url: str, sb_key: str,
+    numero: str, nome: str, area: Optional[str] = None,
+    estagio: str = "prospect", perfil: Optional[str] = None,
+) -> None:
+    """Cria ou atualiza contato no fenice_tim_contatos."""
+    if not sb_url or not sb_key:
+        return
+    payload: dict = {
+        "numero": numero,
+        "nome": nome,
+        "estagio": estagio,
+        "ultimo_contato": datetime.utcnow().isoformat() + "Z",
+    }
+    if area is not None:
+        payload["area"] = area
+    if perfil is not None:
+        payload["perfil"] = perfil
+    try:
+        await client.post(
+            f"{sb_url}/rest/v1/fenice_tim_contatos",
+            headers={
+                "apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                "Content-Type": "application/json",
+                "Prefer": "resolution=merge-duplicates,return=minimal",
+            },
+            json=payload,
+            timeout=5.0,
+        )
+    except Exception:
+        pass
+
+
 async def _processar_mensagem_whatsapp(
     numero: str,
     nome: str,
@@ -992,7 +1134,10 @@ async def _processar_mensagem_whatsapp(
     session_id: Optional[str],
     message_id: Optional[str],
 ) -> None:
-    """Orquestra: RAG + histórico → Groq → AvisaAPI → log Supabase."""
+    """
+    Fenice_Tim — roteador inteligente de atendimento WhatsApp.
+    Fluxo: identifica área → roteia para prompt especializado → RAG + histórico → Groq → AvisaAPI.
+    """
     import httpx
 
     groq_key  = os.getenv("GROQ_API_KEY", "")
@@ -1002,13 +1147,12 @@ async def _processar_mensagem_whatsapp(
 
     msg_lower = mensagem.strip().lower().rstrip("!.?")
 
-    # Comando PARAR — encerra atendimento e registra opt-out
+    # ── PARAR — opt-out ────────────────────────────────────────────────────
     if msg_lower in _STOP_WORDS:
         async with httpx.AsyncClient(timeout=15.0) as client:
             http_st, entregue = await _enviar_avisa(client, avisa_tkn, numero, _MSG_PARAR)
             await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
                                 mensagem, _MSG_PARAR, {}, entregue, http_st)
-            # Persiste opt-out: cache em memória + Supabase (upsert idempotente)
             _wapp_optouts.add(numero)
             if sb_url and sb_key:
                 try:
@@ -1025,60 +1169,80 @@ async def _processar_mensagem_whatsapp(
                     pass
         return
 
-    # Comando MENU / saudação
-    if msg_lower in _MENU_WORDS:
-        async with httpx.AsyncClient(timeout=15.0) as client:
-            http_st, entregue = await _enviar_avisa(client, avisa_tkn, numero, _MSG_MENU)
-            await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
-                                mensagem, _MSG_MENU, {}, entregue, http_st)
-        return
-
     try:
         async with httpx.AsyncClient(timeout=35.0) as client:
-            # 1. Paralelo: histórico de conversa + RAG jurídico
+            # ── Recupera perfil do contato ─────────────────────────────────
+            contato = await _tim_get_contato(client, numero, sb_url, sb_key)
+            area_atual = contato.get("area")
+
+            # ── RESET — volta ao menu principal ───────────────────────────
+            if msg_lower in _RESET_WORDS:
+                await _tim_upsert_contato(client, sb_url, sb_key, numero, nome, area=None)
+                http_st, entregue = await _enviar_avisa(client, avisa_tkn, numero, _MSG_TIM_BOAS_VINDAS)
+                await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
+                                    mensagem, _MSG_TIM_BOAS_VINDAS, {}, entregue, http_st)
+                return
+
+            # ── NOVO CONTATO ou sem área definida → exibe menu ────────────
+            if not area_atual:
+                opcao = msg_lower.strip()
+                area_escolhida = _MENU_OPCOES.get(opcao)
+
+                if area_escolhida == "humano":
+                    await _tim_upsert_contato(client, sb_url, sb_key, numero, nome,
+                                              area="humano", estagio="atendimento")
+                    http_st, entregue = await _enviar_avisa(client, avisa_tkn, numero, _MSG_HUMANO)
+                    await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
+                                        mensagem, _MSG_HUMANO, {}, entregue, http_st)
+                    return
+
+                if area_escolhida == "filosofia":
+                    await _tim_upsert_contato(client, sb_url, sb_key, numero, nome,
+                                              area="filosofia", estagio="prospect")
+                    area_atual = "filosofia"
+                elif area_escolhida:
+                    await _tim_upsert_contato(client, sb_url, sb_key, numero, nome,
+                                              area=area_escolhida, estagio="prospect")
+                    area_atual = area_escolhida
+                else:
+                    # Primeira mensagem (não é número) ou opção inválida → boas-vindas
+                    await _tim_upsert_contato(client, sb_url, sb_key, numero, nome)
+                    http_st, entregue = await _enviar_avisa(client, avisa_tkn, numero, _MSG_TIM_BOAS_VINDAS)
+                    await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
+                                        mensagem, _MSG_TIM_BOAS_VINDAS, {}, entregue, http_st)
+                    return
+
+            # ── ÁREA DEFINIDA → resposta especializada ─────────────────────
+            template_sistema = _SYSTEM_PROMPTS.get(area_atual or "juridico", _SYSTEM_PROMPTS["juridico"])
+            sistema_base = template_sistema.format(nome=nome)
+
+            # RAG jurídico (só para áreas que usam legislação)
+            rag_areas = {"juridico", "b2b", "academico", "observatorio"}
             historico, contexto_rag = await _asyncio.gather(
                 _historico_conversa(client, numero, sb_url, sb_key),
-                _rag_grounding(client, mensagem, sb_url, sb_key),
+                _rag_grounding(client, mensagem, sb_url, sb_key) if area_atual in rag_areas else _asyncio.sleep(0),
             )
-
-            # 2. System prompt com contexto RAG
-            sistema = (
-                f"Você é o assistente jurídico da Fenice IT Justech.IA, "
-                f"atendendo via WhatsApp. Cliente: {nome}. "
-                "Seja profissional, empático e objetivo. "
-                "Conhecimento sólido em direito brasileiro (Código Civil, CLT, "
-                "Código Penal, CF/88, CDC, Lei 9.784/99). "
-                "Responda SEMPRE em português (BR), de forma concisa e clara "
-                "para WhatsApp (máx. 800 caracteres quando possível). "
-                "Se não tiver certeza jurídica, diga: 'Não temos resposta "
-                "imediata — posso pesquisar para você.' "
-                "Nunca invente leis, artigos ou jurisprudência inexistentes. "
-                "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
-            )
-            if contexto_rag:
+            sistema = sistema_base
+            if contexto_rag and isinstance(contexto_rag, str):
                 sistema += f"\n\n{contexto_rag}"
 
-            # 3. Monta histórico de mensagens (memória conversacional)
+            # Monta histórico conversacional
             messages: list[dict] = [{"role": "system", "content": sistema}]
-            for h in historico:
+            for h in (historico or []):
                 if h.get("mensagem_cliente"):
                     messages.append({"role": "user", "content": h["mensagem_cliente"]})
                 if h.get("resposta_ai"):
                     messages.append({"role": "assistant", "content": h["resposta_ai"]})
             messages.append({"role": "user", "content": mensagem})
 
-            # 4. Groq — gera resposta (retry em 429)
+            # Groq — gera resposta com retry 429
             groq_data: dict = {}
             for _tentativa in range(3):
                 groq_resp = await client.post(
                     "https://api.groq.com/openai/v1/chat/completions",
                     headers={"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"},
-                    json={
-                        "model": "llama-3.3-70b-versatile",
-                        "messages": messages,
-                        "max_tokens": 800,
-                        "temperature": 0.7,
-                    },
+                    json={"model": "llama-3.3-70b-versatile", "messages": messages,
+                          "max_tokens": 800, "temperature": 0.7},
                 )
                 if groq_resp.status_code == 429:
                     _wait = int(groq_resp.headers.get("retry-after", 2 * (2 ** _tentativa)))
@@ -1088,16 +1252,15 @@ async def _processar_mensagem_whatsapp(
                 break
 
             resposta_ai = (
-                groq_data.get("choices", [{}])[0]
-                .get("message", {})
-                .get("content", "")
+                groq_data.get("choices", [{}])[0].get("message", {}).get("content", "")
                 or _MSG_FALLBACK
             )
 
-            # 5. Envia resposta ao cliente via AvisaAPI
-            http_st_avisa, entregue = await _enviar_avisa(client, avisa_tkn, numero, resposta_ai)
+            # Atualiza último contato no Tim
+            await _tim_upsert_contato(client, sb_url, sb_key, numero, nome, area=area_atual)
 
-            # 6. Log no Supabase
+            # Envia e registra
+            http_st_avisa, entregue = await _enviar_avisa(client, avisa_tkn, numero, resposta_ai)
             await _log_whatsapp(client, sb_url, sb_key, numero, nome, session_id, message_id,
                                 mensagem, resposta_ai, groq_data, entregue, http_st_avisa)
     except Exception:

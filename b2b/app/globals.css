@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #c9a227;
+  --gold-light: #e8c547;
+  --dark: #0a0a0f;
+  --dark-card: #12121a;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}

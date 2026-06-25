@@ -1,25 +1,50 @@
-# Whitelist via exclusão de raiz (/* = apenas root, não recursivo)
-# Isso permite que negações dentro dos subdiretórios funcionem corretamente.
+# =============================================================================
+# .vercelignore — Fenice_brain monorepo
+# =============================================================================
+# REGRA: whitelist via exclusão total da raiz (/* é não-recursivo).
+# Cada projeto Vercel enxerga apenas o seu subdiretório + os arquivos mínimos
+# necessários ao build. NUNCA remova uma linha sem revisar qual projeto usa.
+#
+# ARQUITETURA DE DEPLOY (2026-06-25):
+#   1. fenice-justech  → fenice.ia.br
+#      Deploy MANUAL:  vercel deploy --cwd C:\Fenice_bRain --prod
+#      Usa: api/, scripts/ (filtrados abaixo), vercel.json, requirements.txt
+#
+#   2. violencia-mulher-sfs → observatorio-da-mulher-sfs.com.br
+#      Deploy AUTOMÁTICO via git push (branch: main)
+#      Trigger: só quando violencia-mulher-sfs/ muda (Ignored Build Step)
+#      Usa: violencia-mulher-sfs/ (tem seu próprio vercel.json)
+#
+#   3. b2b (FUTURO) → domínio a definir
+#      Deploy AUTOMÁTICO via git push
+#      Trigger: só quando b2b/ muda (Ignored Build Step a configurar)
+#      Usa: b2b/ (terá seu próprio vercel.json)
+#
+# ATENÇÃO: qualquer novo projeto deve ter:
+#   - subdiretório próprio aqui na raiz do repo
+#   - seu próprio vercel.json dentro do subdiretório
+#   - linha !/nome-do-projeto aqui neste arquivo
+#   - Ignored Build Step configurado no painel Vercel
+# =============================================================================
 
-# 1. Exclui tudo no nível raiz
+# 1. Exclui tudo no nível raiz (não-recursivo)
 /*
 
-# 2. Mantém arquivos de configuração na raiz
+# 2. Projeto fenice-justech — API Python (fenice.ia.br)
 !/requirements.txt
 !/vercel.json
-
-# 3. Mantém o diretório api/ inteiro (index.py)
 !/api
-
-# 4. Mantém scripts/ mas restringe ao necessário
 !/scripts
 
-# 5. Mantém o site do Observatório da Mulher
-!/violencia-mulher-sfs
-
-# Exclui tudo em scripts/, exceto os 3 arquivos da API + pasta prompts
+# Filtra scripts/ — expõe apenas os arquivos da API (não os caches e scripts de vault)
 /scripts/*
 !/scripts/api_fenice_saas.py
 !/scripts/fenice_rag.py
 !/scripts/landing.html
 !/scripts/prompts
+
+# 3. Projeto violencia-mulher-sfs — Observatório da Mulher (observatorio-da-mulher-sfs.com.br)
+!/violencia-mulher-sfs
+
+# 4. Projeto B2B (FUTURO) — descomente quando o projeto existir
+# !/b2b

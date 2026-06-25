@@ -53,6 +53,13 @@ export default function Rodape() {
 
       {/* Faixa verde-claro base */}
       <div className="w-full h-1.5" style={{ background: "#7dc242" }} />
+
+      {/* Copyright */}
+      <div className="w-full bg-black/30 py-2 text-center">
+        <p className="text-white/40 text-[10px] tracking-wide">
+          © 2026 Fenice IT Justech.ia · Todos os direitos reservados · Developed by Ramão Bueno da Silva Neto / Tech Lead
+        </p>
+      </div>
     </footer>
   );
 }

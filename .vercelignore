@@ -14,6 +14,9 @@
 # 4. Mantém scripts/ mas restringe ao necessário
 !/scripts
 
+# 5. Mantém o site do Observatório da Mulher
+!/violencia-mulher-sfs
+
 # Exclui tudo em scripts/, exceto os 3 arquivos da API + pasta prompts
 /scripts/*
 !/scripts/api_fenice_saas.py

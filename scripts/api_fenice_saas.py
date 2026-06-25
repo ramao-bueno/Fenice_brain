@@ -15,13 +15,14 @@ from __future__ import annotations
 import hashlib as _hashlib
 import hmac as _hmac
 import os
+import re as _re
 import time as _time
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Header, HTTPException, Query, Request, Response
+from fastapi import BackgroundTasks, FastAPI, Header, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
@@ -832,6 +833,155 @@ async def logo_fenice():
         return FileResponse(str(logo_path), media_type="image/png")
     from fastapi.responses import Response
     return Response(status_code=404)
+
+
+# ---------------------------------------------------------------------------
+# POST /webhook/avisa  — AvisaAPI WhatsApp inbound webhook
+# ---------------------------------------------------------------------------
+
+async def _processar_mensagem_whatsapp(
+    numero: str,
+    nome: str,
+    mensagem: str,
+    session_id: Optional[str],
+    message_id: Optional[str],
+) -> None:
+    """Chama Groq, envia resposta via AvisaAPI e registra no Supabase."""
+    import httpx
+
+    groq_key   = os.getenv("GROQ_API_KEY", "")
+    avisa_tkn  = os.getenv("AVISA_API_TOKEN", "")
+    sb_url     = os.getenv("SUPABASE_URL", "").rstrip("/")
+    sb_key     = os.getenv("SUPABASE_SERVICE_KEY", "")
+
+    resposta_ai   = ""
+    entregue      = False
+    http_st_avisa = 0
+
+    try:
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            # 1. Groq — gera resposta jurídica
+            groq_resp = await client.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "llama-3.3-70b-versatile",
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": (
+                                f"Você é o assistente jurídico da Fenice IT Justech.IA, "
+                                f"atendendo via WhatsApp. Cliente: {nome}. "
+                                "Seja profissional, empático e objetivo. "
+                                "Conhecimento sólido em direito brasileiro (Código Civil, CLT, "
+                                "Código Penal, CF/88). "
+                                "Responda SEMPRE em português (BR), de forma concisa e clara "
+                                "para WhatsApp (máx. 800 caracteres quando possível). "
+                                "Se não tiver certeza jurídica, diga: 'Não temos resposta "
+                                "bate-pronto — posso pesquisar para você.' "
+                                "Nunca invente leis, artigos ou jurisprudência inexistentes. "
+                                "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+                            ),
+                        },
+                        {"role": "user", "content": mensagem},
+                    ],
+                    "max_tokens": 800,
+                    "temperature": 0.7,
+                },
+            )
+            groq_data = groq_resp.json()
+            resposta_ai = (
+                groq_data.get("choices", [{}])[0]
+                .get("message", {})
+                .get("content", "")
+                or "Não consegui processar sua mensagem. Tente novamente em instantes."
+            )
+
+            # 2. AvisaAPI — envia resposta ao cliente
+            avisa_resp = await client.post(
+                "https://www.avisaapi.com.br/api/actions/sendMessage",
+                headers={
+                    "Authorization": f"Bearer {avisa_tkn}",
+                    "Content-Type": "application/json",
+                },
+                json={"number": numero, "message": resposta_ai},
+            )
+            http_st_avisa = avisa_resp.status_code
+            avisa_data    = avisa_resp.json() if avisa_resp.status_code < 300 else {}
+            entregue      = avisa_data.get("status") is True
+
+            # 3. Supabase — log da interação
+            if sb_url and sb_key:
+                await client.post(
+                    f"{sb_url}/rest/v1/interacoes_whatsapp",
+                    headers={
+                        "apikey": sb_key,
+                        "Authorization": f"Bearer {sb_key}",
+                        "Content-Type": "application/json",
+                        "Prefer": "return=minimal",
+                    },
+                    json={
+                        "numero_remetente":  numero,
+                        "nome_remetente":    nome,
+                        "session_id":        session_id,
+                        "message_id":        message_id,
+                        "mensagem_cliente":  mensagem,
+                        "resposta_ai":       resposta_ai,
+                        "modelo_ai":         groq_data.get("model", "llama-3.3-70b-versatile"),
+                        "provider":          "avisa",
+                        "canal":             "whatsapp",
+                        "entregue":          entregue,
+                        "http_status_avisa": http_st_avisa,
+                    },
+                    timeout=10.0,
+                )
+    except Exception:
+        pass  # falhas de log/envio não devem propagar — AvisaAPI já recebeu 200
+
+
+@app.post(
+    "/webhook/avisa",
+    tags=["WhatsApp"],
+    include_in_schema=False,
+    status_code=200,
+)
+async def webhook_avisa(request: Request, background_tasks: BackgroundTasks):
+    """
+    Recebe mensagens WhatsApp da AvisaAPI, processa com Groq e responde ao cliente.
+    Retorna 200 imediatamente; o processamento ocorre em background.
+    """
+    try:
+        body = await request.json()
+    except Exception:
+        return {"ok": True, "status": "ignored"}
+
+    # Extrai campos suportados por múltiplos formatos de webhook
+    raw_numero = (
+        body.get("number")
+        or body.get("from")
+        or body.get("sender")
+        or body.get("phone")
+        or ""
+    )
+    numero = _re.sub(r"\D", "", str(raw_numero))
+    mensagem = (
+        body.get("message")
+        or body.get("text")
+        or body.get("body")
+        or body.get("content")
+        or ""
+    ).strip()
+    nome       = body.get("name") or body.get("pushName") or body.get("from_name") or "Cliente"
+    session_id = body.get("session") or body.get("session_id") or body.get("chatId")
+    message_id = body.get("id") or body.get("message_id") or body.get("msgId")
+
+    if not numero or not mensagem:
+        return {"ok": True, "status": "ignored"}
+
+    background_tasks.add_task(
+        _processar_mensagem_whatsapp, numero, nome, mensagem, session_id, message_id
+    )
+    return {"ok": True, "status": "processing"}
 
 
 # ---------------------------------------------------------------------------

@@ -63,7 +63,7 @@
           "parameters": [
             {
               "name": "Authorization",
-              "value": "={{ 'Bearer ' + $env.GROQ_API_KEY }}"
+              "value": "Bearer <GROQ_API_KEY>"
             },
             {
               "name": "Content-Type",
@@ -104,7 +104,7 @@
           "parameters": [
             {
               "name": "Authorization",
-              "value": "={{ 'Bearer ' + $env.AVISA_API_TOKEN }}"
+              "value": "Bearer <AVISA_API_TOKEN>"
             },
             {
               "name": "Content-Type",
@@ -145,11 +145,11 @@
           "parameters": [
             {
               "name": "apikey",
-              "value": "={{ $env.SUPABASE_SERVICE_KEY }}"
+              "value": "<SUPABASE_SERVICE_KEY>"
             },
             {
               "name": "Authorization",
-              "value": "={{ 'Bearer ' + $env.SUPABASE_SERVICE_KEY }}"
+              "value": "Bearer <SUPABASE_SERVICE_KEY>"
             },
             {
               "name": "Content-Type",

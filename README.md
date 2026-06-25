@@ -4,7 +4,7 @@ tags: [sistema, guia]
 
 <div align="center">
 
-![Fenice bRain — Hall de Entrada](docs/fenice-brain-hall.png)
+![Fenice bRain — Hall de Entrada](docs/fenice-brain-hall-enhanced.png)
 
 # Fenice bRain
 

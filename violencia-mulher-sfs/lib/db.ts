@@ -1,22 +1,15 @@
-import { neon, type NeonQueryFunction } from "@neondatabase/serverless";
+// Banco de dados — Supabase PostgreSQL
+// Migrado de Neon → Supabase em 2026-06-25 (elimina dependência de compute hours)
+import { createClient } from "@supabase/supabase-js";
 
-let _sql: NeonQueryFunction<false, false> | null = null;
-
-function sql() {
-  if (!_sql) _sql = neon(process.env.DATABASE_URL!);
-  return _sql;
+function supabase() {
+  const url = process.env.SUPABASE_URL!;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+  return createClient(url, key, { auth: { persistSession: false } });
 }
 
 export async function inicializarTabela() {
-  await sql()`
-    CREATE TABLE IF NOT EXISTS apoiadores (
-      id          TEXT PRIMARY KEY,
-      nome        TEXT NOT NULL,
-      contato     TEXT NOT NULL DEFAULT '',
-      email       TEXT NOT NULL UNIQUE,
-      registrado_em TIMESTAMPTZ NOT NULL DEFAULT NOW()
-    )
-  `;
+  // Tabela criada via migration no Supabase — esta função é no-op em produção
 }
 
 export async function inserirApoiador(a: {
@@ -25,23 +18,26 @@ export async function inserirApoiador(a: {
   contato: string;
   email: string;
 }) {
-  await sql()`
-    INSERT INTO apoiadores (id, nome, contato, email)
-    VALUES (${a.id}, ${a.nome}, ${a.contato}, ${a.email})
-  `;
+  const { error } = await supabase()
+    .from("apoiadores_observatorio")
+    .insert({ id: a.id, nome: a.nome, contato: a.contato, email: a.email });
+  if (error) throw new Error(error.message);
 }
 
 export async function emailJaCadastrado(email: string): Promise<boolean> {
-  const rows = await sql()`
-    SELECT 1 FROM apoiadores WHERE email = ${email} LIMIT 1
-  `;
-  return rows.length > 0;
+  const { data } = await supabase()
+    .from("apoiadores_observatorio")
+    .select("id")
+    .eq("email", email)
+    .limit(1);
+  return (data?.length ?? 0) > 0;
 }
 
 export async function listarApoiadores() {
-  return sql()`
-    SELECT id, nome, contato, email, registrado_em AS "registradoEm"
-    FROM apoiadores
-    ORDER BY registrado_em DESC
-  `;
+  const { data, error } = await supabase()
+    .from("apoiadores_observatorio")
+    .select("id, nome, contato, email, registrado_em")
+    .order("registrado_em", { ascending: false });
+  if (error) throw new Error(error.message);
+  return (data ?? []).map((r) => ({ ...r, registradoEm: r.registrado_em }));
 }

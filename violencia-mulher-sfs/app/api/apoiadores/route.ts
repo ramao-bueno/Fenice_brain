@@ -14,7 +14,7 @@ export type Apoiador = {
   registradoEm: string;
 };
 
-const TEM_DB = !!process.env.DATABASE_URL;
+const TEM_DB = !!(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
 
 // ── Persistência local (desenvolvimento sem Neon) ─────────────────────────────
 async function lerLocal(): Promise<Apoiador[]> {

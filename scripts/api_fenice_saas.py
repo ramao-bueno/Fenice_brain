@@ -16,6 +16,7 @@ import hashlib as _hashlib
 import hmac as _hmac
 import os
 import re as _re
+import asyncio as _asyncio
 import time as _time
 from datetime import datetime
 from pathlib import Path
@@ -858,43 +859,56 @@ async def _processar_mensagem_whatsapp(
     entregue      = False
     http_st_avisa = 0
 
+    _GROQ_PAYLOAD = {
+        "model": "llama-3.3-70b-versatile",
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    f"Você é o assistente jurídico da Fenice IT Justech.IA, "
+                    f"atendendo via WhatsApp. Cliente: {nome}. "
+                    "Seja profissional, empático e objetivo. "
+                    "Conhecimento sólido em direito brasileiro (Código Civil, CLT, "
+                    "Código Penal, CF/88). "
+                    "Responda SEMPRE em português (BR), de forma concisa e clara "
+                    "para WhatsApp (máx. 800 caracteres quando possível). "
+                    "Se não tiver certeza jurídica, diga: 'Não temos resposta "
+                    "bate-pronto — posso pesquisar para você.' "
+                    "Nunca invente leis, artigos ou jurisprudência inexistentes. "
+                    "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
+                ),
+            },
+            {"role": "user", "content": mensagem},
+        ],
+        "max_tokens": 800,
+        "temperature": 0.7,
+    }
+
     try:
         async with httpx.AsyncClient(timeout=30.0) as client:
-            # 1. Groq — gera resposta jurídica
-            groq_resp = await client.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                headers={"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"},
-                json={
-                    "model": "llama-3.3-70b-versatile",
-                    "messages": [
-                        {
-                            "role": "system",
-                            "content": (
-                                f"Você é o assistente jurídico da Fenice IT Justech.IA, "
-                                f"atendendo via WhatsApp. Cliente: {nome}. "
-                                "Seja profissional, empático e objetivo. "
-                                "Conhecimento sólido em direito brasileiro (Código Civil, CLT, "
-                                "Código Penal, CF/88). "
-                                "Responda SEMPRE em português (BR), de forma concisa e clara "
-                                "para WhatsApp (máx. 800 caracteres quando possível). "
-                                "Se não tiver certeza jurídica, diga: 'Não temos resposta "
-                                "bate-pronto — posso pesquisar para você.' "
-                                "Nunca invente leis, artigos ou jurisprudência inexistentes. "
-                                "© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto"
-                            ),
-                        },
-                        {"role": "user", "content": mensagem},
-                    ],
-                    "max_tokens": 800,
-                    "temperature": 0.7,
-                },
-            )
-            groq_data = groq_resp.json()
+            # 1. Groq — gera resposta jurídica (retry automático em 429)
+            groq_data: dict = {}
+            for _tentativa in range(3):
+                groq_resp = await client.post(
+                    "https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"},
+                    json=_GROQ_PAYLOAD,
+                )
+                if groq_resp.status_code == 429:
+                    # Rate limit: aguarda retry-after ou backoff padrão
+                    _wait = int(groq_resp.headers.get("retry-after", 2 * (2 ** _tentativa)))
+                    await _asyncio.sleep(_wait)
+                    continue
+                groq_data = groq_resp.json()
+                break
+
             resposta_ai = (
                 groq_data.get("choices", [{}])[0]
                 .get("message", {})
                 .get("content", "")
-                or "Não consegui processar sua mensagem. Tente novamente em instantes."
+                or "Nosso assistente está com alta demanda agora. "
+                   "Tente novamente em 1 minuto ou entre em contato pelo e-mail: "
+                   "contato@fenice.ia.br"
             )
 
             # 2. AvisaAPI — envia resposta ao cliente

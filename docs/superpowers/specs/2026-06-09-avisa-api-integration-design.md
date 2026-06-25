@@ -630,7 +630,7 @@ SMTP_PASSWORD=sua-senha
 BOTPRESS_WEBHOOK_SECRET=xxxxx
 
 # Avisa Api (NEW)
-AVISA_API_TOKEN=gFm8iB2bF2MpqGeEFxsv6oqp7VAkUGg2xVRAqDVa5gSniojrrpJLMmyZNExQ
+AVISA_API_TOKEN=<definido em .env — não commitar o valor real>
 AVISA_API_URL=https://api.avisa.com.br/v1
 
 # Server
@@ -758,7 +758,7 @@ SELECT * FROM interactions WHERE client_id = 1 ORDER BY created_at DESC;
 ### 9.4 Teste 4: Validar sincronização com Avisa
 
 ```bash
-curl -H "Authorization: Bearer gFm8iB2bF2MpqGeEFxsv6oqp7VAkUGg2xVRAqDVa5gSniojrrpJLMmyZNExQ" \
+curl -H "Authorization: Bearer $AVISA_API_TOKEN" \
   https://api.avisa.com.br/v1/cases
 ```
 

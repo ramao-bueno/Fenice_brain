@@ -1009,7 +1009,7 @@ Add these lines to `backend-python/.env`:
 
 ```bash
 # Avisa Api
-AVISA_API_TOKEN=gFm8iB2bF2MpqGeEFxsv6oqp7VAkUGg2xVRAqDVa5gSniojrrpJLMmyZNExQ
+AVISA_API_TOKEN=<definido em .env — não commitar o valor real>
 AVISA_API_URL=https://api.avisa.com.br/v1
 ```
 

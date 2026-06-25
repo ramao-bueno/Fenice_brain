@@ -1,0 +1,236 @@
+{
+  "name": "Fenice — AvisaAPI WhatsApp Legal Assistant",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "avisa-whatsapp",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "fenice-node-001",
+      "name": "Receber Mensagem AvisaAPI",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 320],
+      "webhookId": "fenice-avisa-whatsapp-v1"
+    },
+    {
+      "parameters": {
+        "jsCode": "// AvisaAPI envia o payload no body da requisição\n// O N8N encapsula em item.json.body (quando parse=true) ou item.json diretamente\nconst raw = $input.first().json;\nconst body = raw.body || raw;\n\n// Campos esperados do webhook AvisaAPI (ajustar conforme payload real observado nos logs)\n// Campos comuns em APIs WhatsApp: number/from, message/text, session, id\nconst numeroRemetente = (\n  body.number ||\n  body.from ||\n  body.sender ||\n  body.phone ||\n  ''\n).replace(/[^0-9]/g, '');  // garantir apenas dígitos\n\nconst mensagemCliente = (\n  body.message ||\n  body.text ||\n  body.body ||\n  body.content ||\n  ''\n).trim();\n\nconst sessionId = body.session || body.session_id || body.chatId || body.chat_id || null;\nconst messageId = body.id || body.message_id || body.msgId || null;\nconst nomeRemetente = body.name || body.pushName || body.from_name || 'Cliente';\n\nif (!numeroRemetente) {\n  throw new Error('Webhook recebido sem número do remetente: ' + JSON.stringify(body));\n}\n\nif (!mensagemCliente) {\n  // Mensagem vazia ou mídia — ignorar silenciosamente\n  return [{ json: { _skip: true, motivo: 'mensagem vazia ou tipo não suportado', body } }];\n}\n\n// Construir body para Groq\nconst groqBody = {\n  model: 'llama-3.3-70b-versatile',\n  messages: [\n    {\n      role: 'system',\n      content: 'Você é o assistente jurídico da Fenice IT Justech.IA, atendendo via WhatsApp. ' +\n        'Cliente: ' + nomeRemetente + '. ' +\n        'Seja profissional, empático e objetivo. ' +\n        'Conhecimento sólido em direito brasileiro (Código Civil, CLT, Código Penal, CF/88). ' +\n        'Responda SEMPRE em português (BR), de forma concisa e clara para WhatsApp. ' +\n        'Se não tiver certeza jurídica, diga que não temos resposta bate-pronto e que pode pesquisar. ' +\n        'Nunca invente leis, artigos ou jurisprudência inexistentes. ' +\n        '© 2026 Fenice IT Justech.IA — Tech Lead: Ramão Bueno da Silva Neto'\n    },\n    {\n      role: 'user',\n      content: mensagemCliente\n    }\n  ],\n  max_tokens: 800,\n  temperature: 0.7\n};\n\nreturn [{\n  json: {\n    _skip: false,\n    numero_remetente: numeroRemetente,\n    nome_remetente: nomeRemetente,\n    email_remetente: body.email || null,\n    session_id: sessionId,\n    message_id: messageId,\n    mensagem_cliente: mensagemCliente,\n    groq_request_body: JSON.stringify(groqBody)\n  }\n}];"
+      },
+      "id": "fenice-node-002",
+      "name": "Extrair Dados do Webhook",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 320]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "skip-check",
+              "leftValue": "={{ $json._skip }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "false"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "fenice-node-003",
+      "name": "Mensagem válida?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [680, 320]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $env.GROQ_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $('Extrair Dados do Webhook').item.json.groq_request_body }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "fenice-node-004",
+      "name": "Groq — Resposta Jurídica",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 220]
+    },
+    {
+      "parameters": {
+        "jsCode": "const groqResult = $input.first().json;\nconst dadosOriginais = $('Extrair Dados do Webhook').first().json;\n\n// Extrair resposta do Groq com fallback\nconst respostaAi = (groqResult.choices && groqResult.choices.length > 0)\n  ? groqResult.choices[0].message.content\n  : 'Desculpe, não consegui processar sua mensagem no momento. Tente novamente em instantes.';\n\n// Número no formato E.164 sem + para AvisaAPI\nconst numero = dadosOriginais.numero_remetente;\n\n// Body para envio via AvisaAPI\nconst avisaBody = JSON.stringify({\n  number: numero,\n  message: respostaAi\n});\n\n// Body para log no Supabase\nconst supabaseBody = JSON.stringify({\n  numero_remetente: numero,\n  nome_remetente: dadosOriginais.nome_remetente,\n  email_remetente: dadosOriginais.email_remetente,\n  session_id: dadosOriginais.session_id,\n  message_id: dadosOriginais.message_id,\n  mensagem_cliente: dadosOriginais.mensagem_cliente,\n  resposta_ai: respostaAi,\n  modelo_ai: groqResult.model || 'llama-3.3-70b-versatile',\n  provider: 'avisa',\n  canal: 'whatsapp'\n});\n\nreturn [{\n  json: {\n    numero_remetente: numero,\n    resposta_ai: respostaAi,\n    avisa_request_body: avisaBody,\n    supabase_request_body: supabaseBody\n  }\n}];"
+      },
+      "id": "fenice-node-005",
+      "name": "Montar Resposta + Bodies",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 220]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://www.avisaapi.com.br/api/actions/sendMessage",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $env.AVISA_API_TOKEN }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.avisa_request_body }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "fenice-node-006",
+      "name": "Enviar Resposta — AvisaAPI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1340, 220]
+    },
+    {
+      "parameters": {
+        "jsCode": "const avisaResult = $input.first().json;\nconst dadosMontar = $('Montar Resposta + Bodies').first().json;\n\n// AvisaAPI retorna { status: true, message: 'Message sent successfully', data: {...} }\n// status=true significa entregue com sucesso\nconst entregue = avisaResult.status === true;\nconst httpStatus = avisaResult.data?.response?.code || 200;\nconst messageId = avisaResult.data?.response?.data?.Id || null;\n\nconst supabaseBodyObj = JSON.parse(dadosMontar.supabase_request_body);\nsupabaseBodyObj.entregue = entregue;\nsupabaseBodyObj.http_status_avisa = httpStatus;\nif (messageId) supabaseBodyObj.message_id = messageId;\n\nreturn [{\n  json: {\n    ...dadosMontar,\n    supabase_request_body: JSON.stringify(supabaseBodyObj),\n    entregue,\n    http_status_avisa: httpStatus,\n    avisa_message_id: messageId\n  }\n}];"
+      },
+      "id": "fenice-node-007",
+      "name": "Registrar Status Envio",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1560, 220]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/interacoes_whatsapp",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.SUPABASE_SERVICE_KEY }}"
+            },
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $env.SUPABASE_SERVICE_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.supabase_request_body }}",
+        "options": {
+          "timeout": 10000
+        }
+      },
+      "id": "fenice-node-008",
+      "name": "Log — Supabase interacoes_whatsapp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1780, 220],
+      "continueOnFail": true
+    }
+  ],
+  "connections": {
+    "Receber Mensagem AvisaAPI": {
+      "main": [
+        [{"node": "Extrair Dados do Webhook", "type": "main", "index": 0}]
+      ]
+    },
+    "Extrair Dados do Webhook": {
+      "main": [
+        [{"node": "Mensagem válida?", "type": "main", "index": 0}]
+      ]
+    },
+    "Mensagem válida?": {
+      "main": [
+        [{"node": "Groq — Resposta Jurídica", "type": "main", "index": 0}],
+        []
+      ]
+    },
+    "Groq — Resposta Jurídica": {
+      "main": [
+        [{"node": "Montar Resposta + Bodies", "type": "main", "index": 0}]
+      ]
+    },
+    "Montar Resposta + Bodies": {
+      "main": [
+        [{"node": "Enviar Resposta — AvisaAPI", "type": "main", "index": 0}]
+      ]
+    },
+    "Enviar Resposta — AvisaAPI": {
+      "main": [
+        [{"node": "Registrar Status Envio", "type": "main", "index": 0}]
+      ]
+    },
+    "Registrar Status Envio": {
+      "main": [
+        [{"node": "Log — Supabase interacoes_whatsapp", "type": "main", "index": 0}]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": ""
+  },
+  "id": "fenice-avisa-whatsapp-001",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "fenice-n8n"
+  },
+  "tags": [
+    {"name": "fenice"},
+    {"name": "whatsapp"},
+    {"name": "avisa"},
+    {"name": "juridico"}
+  ]
+}

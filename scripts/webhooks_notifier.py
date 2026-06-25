@@ -40,27 +40,36 @@ class WebhookNotifier:
         headers: Optional[Dict] = None,
         api_key: Optional[str] = None
     ) -> tuple[bool, int, str]:
-        """
-        Envia notificação para o webhook.
-        Retorna: (sucesso: bool, http_status: int, response_text: str, tempo_ms: int)
-        """
-        tempo_inicio = time.time()
+        """Envia notificação para o webhook com retry. Retorna: (sucesso, http_status, response_text)."""
+        ultimo_status = 500
+        ultimo_msg = "Falha desconhecida"
 
-        try:
-            if webhook_tipo == "DISCORD":
-                return self._notificar_discord(webhook_url, payload)
-            elif webhook_tipo == "SLACK":
-                return self._notificar_slack(webhook_url, payload)
-            elif webhook_tipo == "EMAIL":
-                return self._notificar_email(payload)
-            elif webhook_tipo == "CUSTOM":
-                return self._notificar_custom(webhook_url, payload, headers, api_key)
-            else:
-                return False, 400, f"Tipo de webhook desconhecido: {webhook_tipo}"
+        for tentativa in range(1, self.max_retries + 1):
+            try:
+                if webhook_tipo == "DISCORD":
+                    sucesso, status, msg = self._notificar_discord(webhook_url, payload)
+                elif webhook_tipo == "SLACK":
+                    sucesso, status, msg = self._notificar_slack(webhook_url, payload)
+                elif webhook_tipo == "EMAIL":
+                    sucesso, status, msg = self._notificar_email(payload)
+                elif webhook_tipo == "CUSTOM":
+                    sucesso, status, msg = self._notificar_custom(webhook_url, payload, headers, api_key)
+                else:
+                    return False, 400, f"Tipo de webhook desconhecido: {webhook_tipo}"
 
-        except Exception as e:
-            tempo_ms = int((time.time() - tempo_inicio) * 1000)
-            return False, 500, str(e)
+                if sucesso:
+                    return sucesso, status, msg
+
+                ultimo_status, ultimo_msg = status, msg
+                if tentativa < self.max_retries:
+                    time.sleep(2 ** tentativa)  # backoff: 2s, 4s
+
+            except Exception as e:
+                ultimo_status, ultimo_msg = 500, str(e)
+                if tentativa < self.max_retries:
+                    time.sleep(2 ** tentativa)
+
+        return False, ultimo_status, ultimo_msg
 
     def _notificar_discord(self, webhook_url: str, payload: Dict) -> tuple[bool, int, str]:
         """Envia notificação para Discord."""

@@ -1084,45 +1084,50 @@ class GraphModal extends Modal {
       fontSize: '10px', fontWeight: 'bold', color: 'var(--text-muted)',
       letterSpacing: '0.08em', marginBottom: '6px', marginTop: '14px',
     });
-    const aviso = contentEl.createEl('p', { text: '⚠ Grafo filtrado por pasta — não trava o Obsidian.' });
-    Object.assign(aviso.style, { fontSize: '11px', color: 'var(--text-muted)', marginBottom: '6px', marginTop: '0' });
+    const aviso = contentEl.createEl('p', { text: '⏳ Grafo global filtrado por pasta — vault 23k arquivos: aguarde 30-60s após clicar.' });
+    Object.assign(aviso.style, { fontSize: '11px', color: 'var(--color-orange, #e8a84f)', marginBottom: '6px', marginTop: '0' });
+
+    // ── helper: abre grafo global com notice longo de espera ──
+    const abrirVolumeGlobal = async (titulo, query) => {
+      this.close();
+      // Notice longo: usuário sabe que está carregando, não travou
+      const n = new Notice(`⏳ Carregando grafo "${titulo}"...\nVault com 23k arquivos — pode levar até 60s. Não feche o Obsidian.`, 60000);
+      await new Promise(r => setTimeout(r, 150)); // deixa o Notice renderizar
+      await this.plugin._abrirGraphComFiltro(query);
+      n.hide();
+      new Notice(`✅ Grafo "${titulo}" aberto.`, 3000);
+    };
 
     const volumes = [
       { icon: '🔒', titulo: 'Código Penal — DEL2848 (665 arts)',
-        desc: 'Artigos atomizados + correlatos penais. Excelente para ver dosimetria e qualificadoras.',
-        badge: '📂 02_PENAL', badgeColor: 'var(--text-muted)',
-        query: 'path:"02_PENAL/Codigos/CP/DEL2848"' },
-      { icon: '📘', titulo: 'Código Civil — CC (Livros I–V)',
-        desc: 'Parte Geral + Direito das Obrigações, Coisas, Família e Sucessões.',
-        badge: '📂 01_PRIVADO', badgeColor: 'var(--text-muted)',
-        query: 'path:"01_PRIVADO/Codigos/CC"' },
+        desc: 'Artigos atomizados + correlatos penais. Veja conexões de dosimetria e qualificadoras.',
+        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
+        action: () => abrirVolumeGlobal('CP DEL2848', 'path:"02_PENAL/Codigos/CP/DEL2848"') },
       { icon: '⚖️', titulo: 'Súmulas STJ (674 súmulas)',
-        desc: 'Todas as súmulas do STJ — grafo das correlações entre temas.',
-        badge: '📂 00_APEX/SUMULAS STJ', badgeColor: 'var(--text-muted)',
-        query: 'path:"00_APEX/SUMULAS STJ/Sumulas"' },
+        desc: 'Todas as súmulas do STJ. Conexões entre temas: responsabilidade civil, processo, tributário.',
+        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
+        action: () => abrirVolumeGlobal('Súmulas STJ', 'path:"00_APEX/SUMULAS STJ/Sumulas"') },
       { icon: '🏛️', titulo: 'Súmulas STF (736 súmulas)',
-        desc: 'Vigentes e superadas — CF88, direitos fundamentais, processo.',
-        badge: '📂 00_APEX/SUMULAS STF', badgeColor: 'var(--text-muted)',
-        query: 'path:"00_APEX/SUMULAS STF/Sumulas"' },
-      { icon: '👤', titulo: 'Jurisconsultos (por área)',
-        desc: 'Doutrinadores do Privado, Penal, Público, Trabalhista e Constitucional.',
-        badge: '📂 06_JURISCONSULTOS', badgeColor: 'var(--text-muted)',
-        query: 'path:"06_JURISCONSULTOS"' },
+        desc: 'Vigentes e superadas — direitos fundamentais, processo constitucional, tributário.',
+        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
+        action: () => abrirVolumeGlobal('Súmulas STF', 'path:"00_APEX/SUMULAS STF/Sumulas"') },
+      { icon: '👤', titulo: 'Jurisconsultos — grafo local ⚡',
+        desc: 'Juristas indexados (Privado, Penal, Público, Trabalho). Grafo LOCAL a partir do índice — rápido.',
+        badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
+        action: () => {
+          this.close();
+          const f = this.app.vault.getAbstractFileByPath('06_JURISCONSULTOS/index.md');
+          if (!f) { new Notice('⚠ 06_JURISCONSULTOS/index.md não encontrado.', 4000); return; }
+          this.plugin._abrirGrafoLocal(f, 2);
+        } },
       { icon: '🧠', titulo: 'Filósofos do Direito',
         desc: 'Antigos, Iluministas, Modernos, Contemporâneos e Penalistas Clássicos.',
-        badge: '📂 07_FILOSOFIA', badgeColor: 'var(--text-muted)',
-        query: 'path:"07_FILOSOFIA"' },
+        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
+        action: () => abrirVolumeGlobal('Filósofos', 'path:"07_FILOSOFIA"') },
     ];
 
     for (const vol of volumes) {
-      renderOpt({
-        ...vol,
-        action: async () => {
-          this.close();
-          new Notice(`📊 Abrindo grafo: ${vol.titulo}`, 2000);
-          await this.plugin._abrirGraphComFiltro(vol.query);
-        },
-      });
+      renderOpt(vol);
     }
 
     // ── Seção 3: Por Código (picker) ──
@@ -1147,7 +1152,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v28 — GraphModal: volumes (CP 665, STJ 674, STF 736, Jurisconsultos, Filósofos, picker) + §§ tipo-labels');
+    console.log('✅ Fenice Buscar Artigo v29 — GraphModal: volumes com notice 60s + Jurisconsultos usa local graph (rápido)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

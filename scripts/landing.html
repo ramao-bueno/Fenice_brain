@@ -274,6 +274,17 @@
       transition: all 0.2s; box-shadow: 0 0 35px rgba(245,158,11,0.3);
     }
     .btn-primary:hover { background: var(--gold2); transform: translateY(-2px); box-shadow: 0 4px 50px rgba(245,158,11,0.6); }
+    .lead-input {
+      width: 100%; padding: 0.85rem 1rem; border-radius: 10px;
+      border: 1px solid var(--border); background: rgba(255,255,255,0.04);
+      color: var(--text); font-family: inherit; font-size: 0.95rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .lead-input:focus {
+      outline: none; border-color: rgba(201,162,39,0.6);
+      box-shadow: 0 0 0 3px rgba(201,162,39,0.12);
+    }
+    .lead-input::placeholder { color: var(--dim); }
     .btn-secondary {
       display: inline-flex; align-items: center; gap: 0.5rem;
       background: transparent; color: var(--text); font-weight: 600; font-size: 1rem;
@@ -497,12 +508,13 @@
       .blob-2, .blob-3 { display: none; }
     }
 
-    /* ── LOGIN MODAL ── */
+    /* ── LOGIN MODAL (tela de entrada) ── */
     #fenice-overlay {
       position: fixed; inset: 0; z-index: 9999;
       display: flex; align-items: center; justify-content: center;
-      background: rgba(4,8,15,0.97);
-      backdrop-filter: blur(16px) saturate(1.4);
+      /* Semi-transparente: textura brilhante (aurora, stars, blobs) aparece por baixo */
+      background: rgba(4,8,15,0.38);
+      backdrop-filter: blur(1.5px) saturate(1.6);
       opacity: 1; transition: opacity 0.5s ease;
     }
     #fenice-overlay.hide {
@@ -545,15 +557,18 @@
     }
     .login-title {
       font-family: "skeena-display", Georgia, "Times New Roman", serif; font-weight: 700;
-      font-size: 2.1rem; letter-spacing: -0.02em;
+      font-size: 2.5rem; letter-spacing: -0.02em;
       margin-bottom: 0.2rem; line-height: 1;
     }
     .login-title-gold {
-      background: linear-gradient(110deg, #d97706 0%, #f59e0b 30%, #fef3c7 50%, #fbbf24 70%, #d97706 100%);
+      font-family: "sloop-script-one", Georgia, cursive;
+      font-weight: 400;
+      font-size: 3.4rem;
+      background: linear-gradient(110deg, #d97706 0%, #f59e0b 30%, #fef3c7 48%, #fbbf24 52%, #f59e0b 70%, #d97706 100%);
       background-size: 250% auto;
       -webkit-background-clip: text; -webkit-text-fill-color: transparent;
       background-clip: text;
-      animation: shimmer 3s linear infinite;
+      animation: shimmer 3.5s linear infinite;
     }
     .login-title span { color: var(--text); -webkit-text-fill-color: var(--text); }
     .login-subtitle {
@@ -673,6 +688,9 @@
       font-family: "Cascadia Code","Fira Code",monospace;
       font-size: 0.75rem; color: var(--dim);
     }
+
+    /* ── HERO SIMPLIFICADO (página 2): só logo + nome ── */
+    .hero-badge, .hero-desc, .hero-actions, .hero-sub { display: none !important; }
 
     /* ── NAV SEARCH BUTTON ── */
     .obs-nav-btn {
@@ -1335,6 +1353,7 @@
     <li><a href="#como-funciona">Como funciona</a></li>
     <li><a href="#tiers">Planos</a></li>
     <li><a href="#buscar">Pesquisar</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ul>
   <button id="obs-open-btn" class="obs-nav-btn" title="Buscar no vault (/ ou Ctrl+Shift+F)">
     <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -1645,6 +1664,32 @@
       <span class="obs-mtag" style="background:rgba(236,72,153,0.12);color:#ec4899;border:1px solid rgba(236,72,153,0.25);" data-open-filter="fil">Filosofia</span>
     </div>
   </div>
+</div>
+
+<!-- ── LEADS FORM ── -->
+<div class="section reveal" id="contato" style="max-width:560px;">
+  <p class="section-label reveal">Contato</p>
+  <h2 class="section-title reveal">Quer usar a Fenice IA no seu escritório?</h2>
+  <p class="section-desc reveal" style="margin-bottom:2.5rem;">
+    Preencha o formulário — nossa equipe retorna em até 24h com uma demonstração personalizada.
+  </p>
+  <form id="leads-form" novalidate>
+    <div style="display:flex;flex-direction:column;gap:0.85rem;">
+      <input id="lead-nome" type="text" placeholder="Seu nome completo *" required maxlength="120"
+             class="lead-input">
+      <input id="lead-email" type="email" placeholder="E-mail profissional *" required
+             class="lead-input">
+      <input id="lead-empresa" type="text" placeholder="Escritório ou empresa (opcional)" maxlength="120"
+             class="lead-input">
+      <input id="lead-interesse" type="text" placeholder="O que você quer resolver? *" required maxlength="200"
+             class="lead-input">
+      <button type="submit" class="btn-primary" id="lead-btn"
+              style="margin-top:0.4rem;width:100%;justify-content:center;cursor:pointer;border:none;">
+        Enviar mensagem
+      </button>
+    </div>
+    <p id="lead-msg" style="margin-top:0.9rem;font-size:0.9rem;min-height:1.4rem;text-align:center;"></p>
+  </form>
 </div>
 
 <!-- FOOTER -->
@@ -2664,6 +2709,59 @@
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'k') {
         e.preventDefault(); openCod();
       }
+    }
+  });
+})();
+
+/* ── LEADS FORM ── */
+(function () {
+  const form   = document.getElementById('leads-form');
+  const msgEl  = document.getElementById('lead-msg');
+  const btn    = document.getElementById('lead-btn');
+  if (!form) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const nome      = document.getElementById('lead-nome').value.trim();
+    const email     = document.getElementById('lead-email').value.trim();
+    const empresa   = document.getElementById('lead-empresa').value.trim();
+    const interesse = document.getElementById('lead-interesse').value.trim();
+
+    if (!nome || !email || !interesse) {
+      msgEl.style.color = '#f87171';
+      msgEl.textContent = 'Preencha os campos obrigatórios (*).';
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Enviando…';
+    msgEl.style.color = '';
+    msgEl.textContent = '';
+
+    try {
+      const body = { nome, email, interesse };
+      if (empresa) body.empresa = empresa;
+
+      const res  = await fetch('/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      if (res.ok && data.ok) {
+        msgEl.style.color = 'var(--free)';
+        msgEl.textContent = data.mensagem;
+        form.reset();
+      } else {
+        msgEl.style.color = '#f87171';
+        msgEl.textContent = data.detail || 'Erro ao enviar. Tente novamente.';
+      }
+    } catch {
+      msgEl.style.color = '#f87171';
+      msgEl.textContent = 'Erro de conexão. Tente novamente.';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Enviar mensagem';
     }
   });
 })();

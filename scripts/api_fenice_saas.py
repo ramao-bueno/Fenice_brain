@@ -135,6 +135,13 @@ class TccRequest(BaseModel):
     limite:   int = Field(5, ge=1, le=20, description="Documentos de suporte a recuperar")
 
 
+class LeadRequest(BaseModel):
+    nome:      str = Field(..., min_length=2, max_length=120, description="Nome completo")
+    email:     str = Field(..., description="E-mail profissional")
+    empresa:   Optional[str] = Field(None, max_length=120, description="Escritório ou empresa")
+    interesse: str = Field(..., min_length=3, max_length=200, description="O que deseja resolver")
+
+
 class ResultadoBusca(BaseModel):
     numero_ano:       str
     tipo_ato:         str
@@ -804,6 +811,58 @@ async def analisar_semantico(
         )
 
     return _semantic.query(body.pergunta)
+
+
+# ---------------------------------------------------------------------------
+# POST /leads  — captura de leads do site
+# ---------------------------------------------------------------------------
+
+@app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")
+async def capturar_lead(body: LeadRequest) -> dict:
+    """
+    Salva contato de visitante em `fenice_tim_contatos` para follow-up comercial.
+    Não requer autenticação.
+    """
+    import re as _re_lead
+    if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):
+        raise HTTPException(status_code=422, detail="E-mail inválido.")
+
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+    if not sb_url or not sb_key:
+        raise HTTPException(status_code=503, detail="Banco de dados não configurado.")
+
+    import requests as _req
+    hdrs = {
+        "apikey": sb_key,
+        "Authorization": f"Bearer {sb_key}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    dados: dict = {}
+    if body.empresa:
+        dados["empresa"] = body.empresa
+    dados["email"] = body.email
+
+    payload = {
+        "numero": f"email:{body.email}",
+        "nome":   body.nome,
+        "area":   body.interesse,
+        "estagio": "lead_site",
+        "dados":  dados,
+    }
+
+    r = _req.post(
+        f"{sb_url}/rest/v1/fenice_tim_contatos",
+        headers={**hdrs, "Prefer": "return=minimal,resolution=merge-duplicates"},
+        params={"on_conflict": "numero"},
+        json=payload,
+        timeout=10,
+    )
+    if r.status_code not in (200, 201):
+        raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
+
+    return {"ok": True, "mensagem": "Recebemos seu contato! Retornaremos em até 24h."}
 
 
 # ---------------------------------------------------------------------------

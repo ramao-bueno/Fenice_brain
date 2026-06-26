@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenice bRain</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #04080f; --gold: #f59e0b; --gold2: #fbbf24; --gold-d: #d97706;
+      --text: #f1f5f9; --muted: #94a3b8; --seal: #c9a227;
+      --free: #10b981; --premium: #8b5cf6;
+    }
+
+    html, body {
+      width: 100%; min-height: 100vh;
+      background: var(--bg); color: var(--text);
+      font-family: "acumin-pro", Arial, Helvetica, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* ── AURORA BAR ── */
+    .aurora-bar {
+      position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200;
+      background: linear-gradient(90deg,
+        transparent 0%, #f59e0b 20%, #fbbf24 40%,
+        #8b5cf6 60%, #3b82f6 80%, transparent 100%);
+      background-size: 200% 100%;
+      animation: aurora 4s linear infinite;
+    }
+    @keyframes aurora { 0% { background-position: 0% 0%; } 100% { background-position: 200% 0%; } }
+
+    /* ── STARFIELD ── */
+    .stars { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .star {
+      position: absolute; border-radius: 50%; background: #fff;
+      animation: twinkle linear infinite;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.08; transform: scale(1); }
+      50%       { opacity: 0.9;  transform: scale(1.4); }
+    }
+
+    /* ── FLUID BLOBS ── */
+    .blob {
+      position: fixed; border-radius: 50%;
+      filter: blur(90px); pointer-events: none; z-index: 0;
+      animation: blobFloat ease-in-out infinite;
+    }
+    .blob-1 { width: 600px; height: 600px; background: rgba(245,158,11,0.06);  top: 0%;  left: 20%; animation-duration: 18s; }
+    .blob-2 { width: 480px; height: 480px; background: rgba(59,130,246,0.045); top: 45%; left: 58%; animation-duration: 22s; animation-delay: -8s; }
+    .blob-3 { width: 420px; height: 420px; background: rgba(139,92,246,0.04);  top: 65%; left: 3%;  animation-duration: 16s; animation-delay: -5s; }
+    @keyframes blobFloat {
+      0%   { transform: translate(0,0)       scale(1);    }
+      33%  { transform: translate(50px,-70px) scale(1.06); }
+      66%  { transform: translate(-35px,50px) scale(0.94); }
+      100% { transform: translate(0,0)       scale(1);    }
+    }
+
+    /* ── EMBERS ── */
+    .embers { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 1; }
+    .ember {
+      position: absolute; bottom: -10px; border-radius: 50%; opacity: 0;
+      animation: floatUp linear infinite;
+    }
+    @keyframes floatUp {
+      0%   { opacity: 0;   transform: translateY(0) translateX(0) scale(1); }
+      8%   { opacity: 0.9; }
+      85%  { opacity: 0.4; }
+      100% { opacity: 0;   transform: translateY(-110vh) translateX(30px) scale(0.2); }
+    }
+
+    /* ── CORNER ORNAMENTS ── */
+    .corner { position: fixed; opacity: 0.35; z-index: 2; pointer-events: none; }
+    .c-tl { top: 14px; left: 14px; }
+    .c-tr { top: 14px; right: 14px; }
+    .c-bl { bottom: 14px; left: 14px; }
+    .c-br { bottom: 14px; right: 14px; }
+
+    /* ── PAGE CONTENT ── */
+    .page {
+      position: relative; z-index: 5;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 3.5rem 2rem 2rem;
+      text-align: center;
+    }
+
+    /* Logo / Seal top */
+    .seal-wrap {
+      display: inline-block;
+      border: 2px solid rgba(201,162,39,0.7);
+      border-radius: 12px;
+      padding: 6px;
+      margin-bottom: 1.6rem;
+      background: rgba(201,162,39,0.06);
+      animation: sealGlow 5s ease-in-out infinite;
+    }
+    .seal-top {
+      width: 96px; height: 96px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @keyframes sealGlow {
+      0%, 100% { box-shadow: 0 0 18px rgba(201,162,39,0.25); }
+      50%       { box-shadow: 0 0 45px rgba(201,162,39,0.6); }
+    }
+
+    /* Title row */
+    .title-row {
+      display: flex; align-items: baseline; justify-content: center;
+      flex-wrap: wrap; gap: 0;
+      margin-bottom: 0.5rem;
+    }
+    .t-fenice { margin-right: 0.55rem; }
+    .t-fenice {
+      font-family: "sloop-script-one", "Great Vibes", cursive;
+      font-weight: 400;
+      font-size: clamp(4rem, 10vw, 8rem);
+      line-height: 0.95;
+      background: linear-gradient(110deg,
+        #d97706 0%, #f59e0b 28%, #fef3c7 48%, #fbbf24 52%, #f59e0b 72%, #d97706 100%);
+      background-size: 250% auto;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      animation: shimmer 3.5s linear infinite;
+    }
+    .t-brain {
+      font-family: "skeena-display", "Cormorant Garamond", Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(3rem, 8vw, 6.5rem);
+      color: var(--text); letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .t-brain-r {
+      font-family: "sloop-script-one", "Great Vibes", cursive;
+      font-weight: 400;
+      font-size: clamp(3.5rem, 9vw, 7.5rem);
+      color: var(--text);
+      line-height: 0.95;
+      display: inline-block;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 0%   center; }
+      100% { background-position: 250% center; }
+    }
+
+    /* Gold divider */
+    .divider {
+      width: min(600px, 80vw); height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(201,162,39,0.6) 50%, transparent 100%);
+      margin: 1rem auto 1.1rem;
+    }
+
+    /* Hero text */
+    .hero-main { font-size: clamp(0.95rem, 1.8vw, 1.2rem); font-weight: 600; margin-bottom: 0.25rem; }
+    .hero-main em {
+      font-family: "sloop-script-one", cursive; font-style: normal; font-weight: 400;
+      font-size: 1.25em; color: var(--gold);
+    }
+    .hero-sub { font-size: clamp(0.9rem, 1.6vw, 1.1rem); font-weight: 700; margin-bottom: 1.4rem; }
+
+    /* Button row */
+    .btn-row { display: flex; align-items: center; justify-content: center; gap: 1.2rem; margin-bottom: 0.9rem; flex-wrap: wrap; }
+    .btn {
+      padding: 0.38rem 1.2rem; border-radius: 6px;
+      font-family: "acumin-pro", sans-serif;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    }
+    .btn-free    { border: 1.5px solid var(--free);    color: var(--free); }
+    .btn-api     { background: rgba(201,162,39,0.12); border: 1px solid rgba(201,162,39,0.45); color: var(--gold); }
+    .btn-premium { border: 1.5px solid var(--premium); color: var(--premium); }
+
+    /* Tagline */
+    .tagline { font-size: 0.88rem; color: var(--muted); margin-bottom: 1.5rem; }
+
+    /* Feature cards */
+    .cards {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 0.7rem; max-width: 860px; width: 100%; margin-bottom: 1.4rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 10px; padding: 0.9rem 1.1rem; text-align: left;
+    }
+    .card-t { font-size: 0.68rem; font-weight: 700; color: var(--text); margin-bottom: 0.25rem; }
+    .card-d { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+
+    /* Vade mecum */
+    .vade {
+      font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(148,163,184,0.55); margin-bottom: 1.8rem;
+    }
+
+    /* Bismillah seal — canto direito do footer */
+    .bismillah-seal {
+      display: flex; flex-direction: column; align-items: center;
+      opacity: 0.85;
+    }
+    .bismillah-seal img {
+      width: 88px; height: 88px; object-fit: contain;
+      filter: drop-shadow(0 0 14px rgba(245,158,11,0.35));
+      animation: sealGlow 5s ease-in-out infinite;
+    }
+    .bismillah-text {
+      font-size: 0.55rem; letter-spacing: 0.15em; text-transform: uppercase;
+      color: rgba(201,162,39,0.5); margin-top: 0.3rem;
+    }
+
+    /* Footer */
+    .footer {
+      display: flex; align-items: center; justify-content: space-between;
+      width: 100%; max-width: 960px; flex-wrap: wrap; gap: 1rem;
+    }
+    .footer-left { display: flex; align-items: center; gap: 0.8rem; }
+    .footer-logo { width: 58px; height: 58px; border-radius: 50%; object-fit: cover; }
+    .footer-url {
+      background: var(--gold); color: #000;
+      padding: 0.28rem 0.85rem; border-radius: 5px;
+      font-weight: 700; font-size: 0.78rem; text-decoration: none;
+    }
+    .footer-copy {
+      font-size: 0.67rem; color: rgba(241,245,249,0.3);
+      letter-spacing: 0.04em; line-height: 1.6; text-align: right;
+    }
+  </style>
+</head>
+<body>
+
+<div class="aurora-bar"></div>
+<div class="stars" id="stars"></div>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+<div class="embers" id="embers"></div>
+
+<!-- Corner ornaments -->
+<svg class="corner c-tl" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path d="M 0 60 L 0 0 L 60 0" stroke="#c9a227" stroke-width="1.2" fill="none"/>
+  <line x1="0" y1="0" x2="16" y2="0" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <line x1="0" y1="0" x2="0"  y2="16" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+</svg>
+<svg class="corner c-tr" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path d="M 60 60 L 60 0 L 0 0" stroke="#c9a227" stroke-width="1.2" fill="none"/>
+  <line x1="60" y1="0" x2="44" y2="0"  stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <line x1="60" y1="0" x2="60" y2="16" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+</svg>
+<svg class="corner c-bl" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path d="M 0 0 L 0 60 L 60 60" stroke="#c9a227" stroke-width="1.2" fill="none"/>
+  <line x1="0"  y1="60" x2="16" y2="60" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <line x1="0"  y1="60" x2="0"  y2="44" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+</svg>
+<svg class="corner c-br" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path d="M 60 0 L 60 60 L 0 60" stroke="#c9a227" stroke-width="1.2" fill="none"/>
+  <line x1="60" y1="60" x2="44" y2="60" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <line x1="60" y1="60" x2="60" y2="44" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
+<!-- PAGE CONTENT -->
+<div class="page">
+
+  <!-- Logo top -->
+  <div class="seal-wrap">
+    <img class="seal-top"
+         src="logo-selo.png"
+         alt="Fenice — Filosofia e Direito · Est. MCMLXII"
+         onerror="this.closest('.seal-wrap').replaceWith(document.getElementById('seal-fallback').content.cloneNode(true))">
+  </div>
+  <template id="seal-fallback">
+    <svg width="108" height="108" viewBox="0 0 200 200" style="margin-bottom:1.6rem;animation:sealGlow 5s ease-in-out infinite" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="100" fill="#04080f"/>
+      <circle cx="100" cy="100" r="90" fill="none" stroke="#c9a227" stroke-width="2.2"/>
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#c9a227" stroke-width="0.6"/>
+      <polygon points="100,52 95,63 105,63" fill="#c9a227"/>
+      <rect x="98.5" y="62" width="3" height="58" rx="1.5" fill="#c9a227"/>
+      <rect x="66" y="75" width="68" height="2.5" rx="1.25" fill="#c9a227"/>
+    </svg>
+  </template>
+
+  <!-- Title -->
+  <div class="title-row">
+    <span class="t-fenice">Fénice</span>
+    <span class="t-brain">b</span><span class="t-brain-r">R</span><span class="t-brain">ain</span>
+  </div>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- Hero text -->
+  <p class="hero-main">Pesquisa jurídica com <em>Full-Text Search !</em></p>
+  <p class="hero-sub">Fundamente seu LLM com legislação real.</p>
+
+  <!-- Buttons -->
+  <div class="btn-row">
+    <span class="btn btn-free">FREE</span>
+    <span class="btn btn-api">API REST</span>
+    <span class="btn btn-premium">PREMIUM</span>
+  </div>
+
+  <p class="tagline">Busca FTS · Prompts Premium para Claude, GPT e Gemini</p>
+
+  <!-- Cards -->
+  <div class="cards">
+    <div class="card">
+      <p class="card-t">Busca FTS — Free</p>
+      <p class="card-d">POST /buscar · português com ou sem acentuação · ts_rank + ts_headline</p>
+    </div>
+    <div class="card">
+      <p class="card-t">674 Súmulas STJ</p>
+      <p class="card-d">+ 736 Súmulas STF + legislação federal indexada no Supabase</p>
+    </div>
+    <div class="card">
+      <p class="card-t">Grounding Jurídico</p>
+      <p class="card-d">Templates de prompt preenchidos com trechos legais para LLMs — Premium</p>
+    </div>
+    <div class="card">
+      <p class="card-t">Hermenêutica &amp; TCC</p>
+      <p class="card-d">Análise filosófica e revisão acadêmica com suporte da base jurídica</p>
+    </div>
+  </div>
+
+  <p class="vade">Vade Mecum Dinâmico &nbsp;·&nbsp; SaaS API Jurídica</p>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-left">
+      <img class="footer-logo"
+           src="logo-selo.png"
+           alt="Fenice"
+           onerror="this.style.display='none'">
+      <a class="footer-url" href="https://fenice.ia.br">https://fenice.ia.br</a>
+    </div>
+    <p class="footer-copy">
+      © 2026 Fenice It Justech.ia. Todos os direitos reservados.<br>
+      Developed by Ramão Bueno da Silva Neto / Tech Lead
+    </p>
+    <!-- Bismillah — direita do footer -->
+    <div class="bismillah-seal">
+      <img src="logo-allah.png" alt="بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ">
+      <span class="bismillah-text">بِسْمِ اللهِ · Em nome de Allah</span>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+/* STARFIELD */
+(function() {
+  const c = document.getElementById('stars');
+  for (let i = 0; i < 100; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    const sz = Math.random() * 2.5 + 0.5;
+    s.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;animation-duration:${(Math.random()*4+2).toFixed(1)}s;animation-delay:${(Math.random()*7).toFixed(1)}s;`;
+    c.appendChild(s);
+  }
+})();
+
+/* EMBERS */
+(function() {
+  const c = document.getElementById('embers');
+  const cols = ['#f59e0b','#fbbf24','#fb923c','#f97316'];
+  for (let i = 0; i < 22; i++) {
+    const e = document.createElement('div');
+    e.className = 'ember';
+    const sz = Math.random() * 2.5 + 1.5;
+    e.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;background:${cols[Math.floor(Math.random()*4)]};animation-duration:${(Math.random()*8+5).toFixed(1)}s;animation-delay:${(Math.random()*9).toFixed(1)}s;`;
+    c.appendChild(e);
+  }
+})();
+
+/* Fullscreen on click */
+document.addEventListener('click', () => document.documentElement.requestFullscreen?.().catch(()=>{}));
+</script>
+</body>
+</html>

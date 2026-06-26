@@ -1,0 +1,944 @@
+{
+  "name": "Fenice_Tim — WhatsApp IVR v4 (Evolution API)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "fenice-tim-v2",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "name": "1. Receber Mensagem (Evolution API)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        160,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\n// Ignora ruído AvisaAPI (formato jsonData)\nif (body?.jsonData !== undefined) {\n  return [{ json: { _skip: true, motivo: \"avisa-noise\" } }];\n}\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS  = [\"parar\",\"stop\",\"sair\",\"cancelar\"];\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\",\"oi\",\"ola\",\"olá\",\"bom dia\",\"boa tarde\",\"boa noite\",\"boa tarde\",\"hello\",\"hi\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop: STOP_WORDS.includes(msgLower), isReset: RESET_WORDS.includes(msgLower),\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
+      },
+      "name": "2. Extrair e Normalizar",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        380,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "skip-check",
+              "leftValue": "={{ $json._skip }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "false"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "3. Mensagem válida?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        600,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "stop-check",
+              "leftValue": "={{ $json.isStop }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "4. É PARAR?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        820,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('2. Extrair e Normalizar').item.json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "Atendimento encerrado. Obrigado por contatar a *Fenice IT Justech.IA*! 🙏\nQuando precisar, é só chamar novamente.\n\n_© 2026 Fenice IT Justech.IA_"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "5a. Enviar MSG PARAR",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/whatsapp_optouts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "numero",
+              "value": "={{ $('2. Extrair e Normalizar').item.json.numero }}"
+            },
+            {
+              "name": "nome",
+              "value": "={{ $('2. Extrair e Normalizar').item.json.nome }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "5b. Salvar Opt-Out Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1260,
+        160
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Busca contato no Supabase — SEMPRE retorna 1 item com { contatos: [...] }\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst { numero } = dadosMsg;\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\n\nlet contatos = [];\ntry {\n  const resp = await this.helpers.httpRequest({\n    method: 'GET',\n    url: `${SUPA_URL}/rest/v1/fenice_tim_contatos?numero=eq.${numero}&limit=1`,\n    headers: { 'apikey': SUPA_KEY, 'Authorization': `Bearer ${SUPA_KEY}` }\n  });\n  contatos = Array.isArray(resp) ? resp : [];\n} catch(e) {\n  contatos = [];\n}\n\nreturn [{ json: { contatos } }];"
+      },
+      "name": "6. Buscar Contato Tim (Supabase)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        820,
+        520
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ── Decide próximo passo com base no perfil do contato ──\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\n\nconst areaAtual = contato ? contato.area : null;\nconst { isReset, opcaoMenu, numero, nome, mensagem } = dadosMsg;\n\n// Reset explícito → menu\nif (isReset) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null } }];\n}\n\n// Opção de menu escolhida (1-6, 0) → SEMPRE prevalece sobre área salva\nif (opcaoMenu) {\n  if (opcaoMenu === 'humano') {\n    return [{ json: { _acao: 'humano', numero, nome, mensagem, areaAtual: 'humano' } }];\n  }\n  return [{ json: { _acao: 'set_area', numero, nome, mensagem, areaAtual: opcaoMenu } }];\n}\n\n// Sem área e sem opção → menu\nif (!areaAtual) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null } }];\n}\n\n// Tem área, sem nova escolha → responde na área atual\nreturn [{ json: { _acao: 'responder', numero, nome, mensagem, areaAtual } }];"
+      },
+      "name": "7. Decidir Próxima Ação",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1040,
+        520
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "menu_principal",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "menu"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "humano",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "humano"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "set_area",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "set_area"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "responder",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "responder"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "8. Switch por Ação",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        1260,
+        520
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "mediatype",
+              "value": "image"
+            },
+            {
+              "name": "media",
+              "value": "https://qcfdssnpjzvjbvemhrik.supabase.co/storage/v1/object/public/fenice-assets/fenice-banner.png"
+            },
+            {
+              "name": "fileName",
+              "value": "fenice-banner.png"
+            },
+            {
+              "name": "caption",
+              "value": ""
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9-logo. Enviar Logo Fenice",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1480,
+        160
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "🏛️ ⚖️ *FENICE IT · Justech.IA* ⚖️ 🏛️\n_Filosofia e Direito · Sabedoria e Justiça_\n                _Est. MCMLXII_\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nOlá! Sou o *Téo* 🤖\nAssistente inteligente da Fenice IT.\nEm que posso ajudá-lo(a) hoje?\n\n*1*  🏢  B2B Corporativo\n*2*  🎓  Ensino Jurídico\n*3*  👁️  Observatório da Mulher SFS\n*4*  ⚡  API & Desenvolvedores\n*5*  ⚖️  Consultoria Jurídica\n*6*  🧠  Filosofia & Teologia\n\n*0*  👤  Consulte um Especialista Humano\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n_Digite o número e pressione enviar_\n\n© 2026 *Fenice IT* · Justech.IA"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9a. Enviar Menu Principal",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1700,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "👤 *Atendimento Humano Solicitado*\n\nAnotamos seu contato! Um especialista da Fenice IT entrará em contato em breve.\n\n📧 contato@fenice.ia.br\n🌐 fenice.ia.br\n\n_© 2026 Fenice IT Justech.IA_"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9b. Enviar MSG Humano",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1480,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ── Monta system prompt por área + busca histórico e RAG ──────────\nconst dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Você é o assistente comercial B2B da Fenice IT Justech.IA, via WhatsApp. Foco: soluções corporativas para escritórios de advocacia e empresas (API jurídica, RAG, planos enterprise, SLA). Seja consultivo e direto. Colete nome, empresa e necessidade. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}. © 2026 Fenice IT Justech.IA`,\n  academico: `Você é o assistente acadêmico da Fenice IT Justech.IA, via WhatsApp. Auxilia estudantes e professores de direito com pesquisa jurídica, TCC, artigos científicos e análise doutrinária.\n\nBASE DE CONHECIMENTO: 5685 artigos, súmulas do STJ e STF, legislação federal atualizada.\n\nACESSO PREMIUM: https://fenice.ia.br\nMencione este link quando o usuário fizer a primeira pergunta ou quando precisar de recursos avançados (análise de peças, hermenêutica, geração de TCC).\n\nPRIMEIRO CONTATO: Se a mensagem for um número ou saudação simples, apresente os serviços disponíveis e inclua o link premium.\n\nSeja didático, claro e preciso. Cite a base legal quando relevante.\nCliente: ${nome}. © 2026 Fenice IT Justech.IA`,\n  observatorio: `Você é o assistente digital do *Observatório da Mulher de São Francisco do Sul* (Fenice IT Justech.IA), via WhatsApp.\n\nMISSÃO: Apoiar mulheres em situação de vulnerabilidade, violência doméstica ou risco social.\n\nSITE OFICIAL: https://observatorio-da-mulher-sfs.com.br/\nInclua este link SEMPRE na sua primeira resposta para que a pessoa acesse todos os recursos disponíveis.\n\nEMERGÊNCIA — se houver risco imediato à vida, informe IMEDIATAMENTE: ligue 190 (Polícia) ou 180 (Central da Mulher). Não espere por mais informações.\n\nBASE LEGAL: Lei Maria da Penha (Lei 11.340/2006), Lei do Feminicídio (Lei 13.104/2015).\n\nPRIMEIRO CONTATO: Se a mensagem do usuário for um número (como '3') ou uma saudação simples, apresente o Observatório, liste os serviços disponíveis e inclua o link. Seja acolhedor e empático.\n\nNunca minimize sofrimento. Sempre ofereça o link e os números de emergência quando relevante.\nCliente: ${nome}. © 2026 Fenice IT Justech.IA`,\n  api: `Você é o assistente técnico da Fenice IT Justech.IA, para desenvolvedores via WhatsApp. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI + Supabase + Groq. Seja técnico e preciso. Chaves: contato@fenice.ia.br. Cliente: ${nome}. © 2026 Fenice IT Justech.IA`,\n  juridico: `Você é o assistente jurídico da Fenice IT Justech.IA, via WhatsApp. Direito brasileiro: CC, CLT, CP, CF/88, CDC. Seja profissional e objetivo (máx 800 chars). Se incerto → diga que pesquisa. Nunca invente leis. Cliente: ${nome}. © 2026 Fenice IT Justech.IA`,\n  filosofia: `Você é o assistente de Filosofia, Teologia e Pensamento da Fenice IT Justech.IA, via WhatsApp. Domínio: filosofia jurídica, hermenêutica, teologia cristã/islâmica/judaica, ética, metafísica. Seja reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}. © 2026 Fenice IT Justech.IA`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\n// Seleção de área (dígito único) → saudação breve, sem listar opções\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO OBRIGATÓRIA: O usuário acabou de selecionar esta área digitando um número. Cumprimente-o com UMA frase breve e pergunte diretamente o que ele precisa. NÃO liste serviços, NÃO crie submenus, NÃO numere opções. Seja conciso.\\n\\n'\n  : '';\nconst promptFinal = introNote + sistemaPrompt;\n\nconst groqBody = JSON.stringify({\n  model: 'llama-3.3-70b-versatile',\n  messages: [\n    { role: 'system', content: promptFinal },\n    { role: 'user', content: mensagem }\n  ],\n  max_tokens: 800,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody } }];"
+      },
+      "name": "10. Montar Prompt por Área",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1480,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Debounce: aguarda 6s antes de chamar o Groq\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
+      },
+      "name": "10b. Aguardar 6s (debounce)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1700,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer {{GROQ_API_KEY_N8N}}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.groqBody }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "name": "11. Groq — Resposta IA",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const groqResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGroq = (groqResult.choices && groqResult.choices.length > 0)\n  ? groqResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGroq.includes(\"🏛️\") ? textoGroq : textoGroq + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: groqResult.model || 'llama-3.3-70b-versatile'\n  }\n}];"
+      },
+      "name": "12. Extrair Resposta Groq",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2140,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ $json.respostaAi }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "13. Enviar Resposta (Evolution API)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2360,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente: dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai: dadosMsg.respostaAi,\n  modelo_ai: dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal: 'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome: dadosMsg.nome,\n  area: dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];"
+      },
+      "name": "14. Montar Logs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2580,
+        660
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/interacoes_whatsapp",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=ignore-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.logBody }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "15a. Log Supabase (interacoes)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2800,
+        580
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $('14. Montar Logs').item.json.timBody }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "15b. Upsert Fenice_Tim (contatos)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2800,
+        740
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "numero",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "nome",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.nome }}"
+            },
+            {
+              "name": "area",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.areaAtual }}"
+            },
+            {
+              "name": "estagio",
+              "value": "prospect"
+            },
+            {
+              "name": "ultimo_contato",
+              "value": "={{ new Date().toISOString() }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "16. Salvar Área Escolhida (Tim)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1480,
+        820
+      ],
+      "continueOnFail": true
+    }
+  ],
+  "connections": {
+    "1. Receber Mensagem (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "2. Extrair e Normalizar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2. Extrair e Normalizar": {
+      "main": [
+        [
+          {
+            "node": "3. Mensagem válida?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Mensagem válida?": {
+      "main": [
+        [
+          {
+            "node": "4. É PARAR?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "4. É PARAR?": {
+      "main": [
+        [
+          {
+            "node": "5a. Enviar MSG PARAR",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "6. Buscar Contato Tim (Supabase)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5a. Enviar MSG PARAR": {
+      "main": [
+        [
+          {
+            "node": "5b. Salvar Opt-Out Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "6. Buscar Contato Tim (Supabase)": {
+      "main": [
+        [
+          {
+            "node": "7. Decidir Próxima Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "7. Decidir Próxima Ação": {
+      "main": [
+        [
+          {
+            "node": "8. Switch por Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "8. Switch por Ação": {
+      "main": [
+        [
+          {
+            "node": "9-logo. Enviar Logo Fenice",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "9b. Enviar MSG Humano",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "16. Salvar Área Escolhida (Tim)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "10. Montar Prompt por Área",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9-logo. Enviar Logo Fenice": {
+      "main": [
+        [
+          {
+            "node": "9a. Enviar Menu Principal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "16. Salvar Área Escolhida (Tim)": {
+      "main": [
+        [
+          {
+            "node": "10. Montar Prompt por Área",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10. Montar Prompt por Área": {
+      "main": [
+        [
+          {
+            "node": "10b. Aguardar 6s (debounce)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10b. Aguardar 6s (debounce)": {
+      "main": [
+        [
+          {
+            "node": "11. Groq — Resposta IA",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "11. Groq — Resposta IA": {
+      "main": [
+        [
+          {
+            "node": "12. Extrair Resposta Groq",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "12. Extrair Resposta Groq": {
+      "main": [
+        [
+          {
+            "node": "13. Enviar Resposta (Evolution API)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "13. Enviar Resposta (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "14. Montar Logs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "14. Montar Logs": {
+      "main": [
+        [
+          {
+            "node": "15a. Log Supabase (interacoes)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "15b. Upsert Fenice_Tim (contatos)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": ""
+  }
+}

@@ -1143,6 +1143,38 @@ class GraphModal extends Modal {
       badge: '🔄 interativo', badgeColor: 'var(--interactive-accent)',
       action: () => { this.close(); this.plugin.abrirGraphCodigo(); },
     });
+
+    // ── Seção 4: Ver no Site Fenice ──
+    const sec4 = contentEl.createEl('div', { text: 'VER NO SITE FENICE' });
+    Object.assign(sec4.style, {
+      fontSize: '10px', fontWeight: 'bold', color: 'var(--text-muted)',
+      letterSpacing: '0.08em', marginBottom: '6px', marginTop: '14px',
+    });
+    const avisoSite = contentEl.createEl('p', { text: '🌐 Grafo pré-computado na nuvem — rápido, sem travar o Obsidian.' });
+    Object.assign(avisoSite.style, { fontSize: '11px', color: 'var(--text-accent)', marginBottom: '6px', marginTop: '0' });
+
+    const abrirUrl = (url) => {
+      try { require('electron').shell.openExternal(url); }
+      catch (e) { window.open(url, '_blank'); }
+    };
+
+    renderOpt({
+      icon: '📊', titulo: 'Knowledge Graph — fenice.ia.br',
+      desc: 'Grafo pré-computado: 361 nós, 354 arestas. Visualiza conexões entre normas, súmulas e doutrina no site.',
+      badge: '🔐 requer login', badgeColor: 'var(--text-muted)',
+      action: () => { this.close(); abrirUrl('https://fenice.ia.br'); },
+    });
+
+    renderOpt({
+      icon: '🔍', titulo: 'Busca Semântica — RAG Fenice',
+      desc: 'Busca por significado nos 4.269 documentos indexados (threshold 0.70). Vai além do texto exato.',
+      badge: '🌐 online', badgeColor: 'var(--text-muted)',
+      action: () => {
+        this.close();
+        const q = activeFile ? encodeURIComponent(activeFile.basename) : '';
+        abrirUrl(`https://fenice.ia.br${q ? '?q=' + q : ''}`);
+      },
+    });
   }
 
   onClose() { this.contentEl.empty(); }
@@ -1152,7 +1184,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v29 — GraphModal: volumes com notice 60s + Jurisconsultos usa local graph (rápido)');
+    console.log('✅ Fenice Buscar Artigo v30 — GraphModal: seção "VER NO SITE" (Knowledge Graph + RAG) + localgraph fecha abas anteriores');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -1576,7 +1608,11 @@ class FeniceBuscarArtigo extends Plugin {
     const gp = this.app.internalPlugins?.plugins?.['graph'];
     if (!gp?.enabled) { new Notice('⚠ Plugin de Grafo não está habilitado. Reinicie o Obsidian.', 6000); return; }
 
-    // Tenta abrir via setViewState passando file e depth
+    // Fecha grafos locais existentes para não acumular abas
+    this.app.workspace.getLeavesOfType('localgraph').forEach(l => l.detach());
+    await new Promise(r => setTimeout(r, 100));
+
+    // Abre novo grafo local
     const leaf = this.app.workspace.getLeaf('tab');
     await leaf.setViewState({
       type: 'localgraph',

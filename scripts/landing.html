@@ -1712,7 +1712,7 @@
   <div class="obs-panel">
     <div class="obs-topbar">
       <svg class="obs-topbar-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input id="obs-qinput" class="obs-qinput" type="text" placeholder="Pesquisar legislação, súmulas, doutrina..." autocomplete="off" spellcheck="false">
+      <input id="obs-qinput" class="obs-qinput" type="text" placeholder="Pesquisar... ou 'CP 123', 'CC 186', 'CF 5' para ir direto ao artigo" autocomplete="off" spellcheck="false">
       <span class="obs-esc-key" id="obs-esc-btn">Esc</span>
     </div>
     <div class="obs-body">
@@ -2097,6 +2097,7 @@
     resPane.innerHTML = emptyHtml('Digite para buscar no vault jurídico', '674 Súmulas STJ · 736 STF · Legislação Federal');
     countEl.textContent = '';
     focus = -1; allResults = []; visResults = [];
+    smartParsed = null; hintEl.style.display = 'none';
   }
   function openDetail(r) {
     if (!r) return;
@@ -2107,6 +2108,68 @@
     detail.classList.add('obs-open');
   }
   function closeDetail() { detail.classList.remove('obs-open'); }
+
+  /* ── smart query parser: "CP 123", "CC Art. 5", "123 CP" etc. ── */
+  const SMART_CODES = {
+    'CP':'CP','PENAL':'CP',
+    'CC':'CC','CIVIL':'CC',
+    'CF':'CF/88','CF88':'CF/88','CF/88':'CF/88','CONSTITUICAO':'CF/88',
+    'CPP':'CPP','PROCESSO PENAL':'CPP',
+    'CPC':'CPC','PROCESSO CIVIL':'CPC',
+    'CDC':'CDC','CONSUMIDOR':'CDC',
+    'LEP':'L7210','L7210':'L7210',
+    'LGPD':'LGPD','MCI':'MCI',
+    'LINDB':'LINDB','ECA':'L8069','L8069':'L8069',
+    'L8112':'L8112','L9784':'L9784','L8429':'L8429',
+    'L11340':'L11340','MARIA DA PENHA':'L11340',
+    'L11343':'L11343','DROGAS':'L11343',
+    'L13964':'L13964','ANTICRIME':'L13964',
+    'L13869':'L13869','ABUSO':'L13869',
+    'L8072':'L8072','HEDIONDOS':'L8072',
+    'L9605':'L9605','AMBIENTAL':'L9605',
+    'L12527':'L12527','LAI':'L12527',
+    'L13146':'L13146',
+  };
+  function parseSmartQ(q) {
+    // Normaliza: remove acentos, upper
+    const u = q.normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase().trim();
+    // "CP 123" ou "CP ART. 123" ou "CP ART 123"
+    const m1 = u.match(/^([A-Z][A-Z0-9\/]{1,9})\s+(?:ART\.?\s*)?(\d+)$/);
+    if (m1 && SMART_CODES[m1[1]]) return { codigoKey: SMART_CODES[m1[1]], nome: m1[1], num: +m1[2] };
+    // "123 CP" ou "ART. 123 CP"
+    const m2 = u.match(/^(?:ART\.?\s*)?(\d+)\s+([A-Z][A-Z0-9\/]{1,9})$/);
+    if (m2 && SMART_CODES[m2[2]]) return { codigoKey: SMART_CODES[m2[2]], nome: m2[2], num: +m2[1] };
+    return null;
+  }
+
+  /* ── smart hint (chip abaixo da topbar) ── */
+  const hintEl = (() => {
+    const d = document.createElement('div');
+    d.id = 'obs-smart-hint';
+    Object.assign(d.style, {
+      display:'none', padding:'4px 14px 6px', fontSize:'11px',
+      color:'var(--gold,#c9a227)', borderBottom:'1px solid rgba(255,255,255,0.06)',
+      cursor:'pointer', userSelect:'none',
+    });
+    document.querySelector('#obs-overlay .obs-topbar')?.after(d);
+    return d;
+  })();
+
+  let smartParsed = null;
+  function updateHint(q) {
+    smartParsed = parseSmartQ(q);
+    if (smartParsed) {
+      const cods = window._fenicCodigos || {};
+      const nome = cods[smartParsed.codigoKey]?.nome || smartParsed.codigoKey;
+      hintEl.innerHTML = `⚡ Ir direto → <strong>Art. ${smartParsed.num}</strong> — ${nome} <kbd style="font-size:10px;opacity:0.7">Enter</kbd>`;
+      hintEl.style.display = 'block';
+    } else {
+      hintEl.style.display = 'none';
+    }
+  }
+  hintEl.addEventListener('click', () => {
+    if (smartParsed && window._fenicArtOpen) { closeOverlay(); window._fenicArtOpen(smartParsed.codigoKey, smartParsed.num); }
+  });
 
   /* ── filter ── */
   function setFilter(key) {
@@ -2183,13 +2246,23 @@
   filterBtns.forEach(b => b.addEventListener('click', () => setFilter(b.dataset.filter)));
 
   qinput.addEventListener('input', () => {
+    updateHint(qinput.value.trim());
     clearTimeout(debTimer);
     debTimer = setTimeout(() => doSearch(qinput.value.trim()), 300);
   });
   qinput.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown') { e.preventDefault(); moveFocus(1); }
     if (e.key === 'ArrowUp')   { e.preventDefault(); moveFocus(-1); }
-    if (e.key === 'Enter' && focus >= 0) openDetail(visResults[focus]);
+    if (e.key === 'Enter') {
+      // Smart routing tem prioridade sobre seleção de resultado
+      if (smartParsed && window._fenicArtOpen) {
+        e.preventDefault();
+        closeOverlay();
+        window._fenicArtOpen(smartParsed.codigoKey, smartParsed.num);
+        return;
+      }
+      if (focus >= 0) openDetail(visResults[focus]);
+    }
     if (e.key === 'Escape') closeOverlay();
   });
 
@@ -2711,6 +2784,13 @@
       }
     }
   });
+
+  // ── Bridge global: permite que o obs-overlay chame openArt + consultarArt ──
+  window._fenicArtOpen = function(codigoKey, numero) {
+    openArt(codigoKey);
+    if (numero) setTimeout(() => consultarArt(numero), 80);
+  };
+  window._fenicCodigos = CODIGOS;
 })();
 
 /* ── LEADS FORM ── */

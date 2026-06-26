@@ -324,6 +324,74 @@ class DomainModal extends SuggestModal {
   onChooseSuggestion(item) { this.onEscolha(item); }
 }
 
+// ─── Modal J: Jurisconsultos & Filósofos (Ctrl+Shift+J) ─────
+const MAESTROS_AREAS = [
+  { label: '⚖️  Privado / Civil',       pastas: ['06_JURISCONSULTOS/Civil','06_JURISCONSULTOS/PRIVADO','06_JURISCONSULTOS/Processual'] },
+  { label: '🔒  Penal',                 pastas: ['06_JURISCONSULTOS/PENAL'] },
+  { label: '🏢  Público / Administrativo', pastas: ['06_JURISCONSULTOS/PUBLICO','06_JURISCONSULTOS/Tributario'] },
+  { label: '💼  Trabalhista',           pastas: ['06_JURISCONSULTOS/Trabalhista','06_JURISCONSULTOS/TRABALHO'] },
+  { label: '🏛️   Constitucional',        pastas: ['06_JURISCONSULTOS/Constitucional'] },
+  { label: '📐  Teoria Geral / Método', pastas: ['06_JURISCONSULTOS/Teoria Geral','06_JURISCONSULTOS/METODOLOGIA'] },
+  { label: '🧠  Filósofos — Antigos',   pastas: ['07_FILOSOFIA/Antigos'] },
+  { label: '💡  Filósofos — Iluministas', pastas: ['07_FILOSOFIA/Iluministas'] },
+  { label: '📖  Filósofos — Modernos',  pastas: ['07_FILOSOFIA/Modernos'] },
+  { label: '🌐  Filósofos — Contemporâneos', pastas: ['07_FILOSOFIA/Contemporaneos'] },
+  { label: '⚔️   Penalistas Clássicos', pastas: ['07_FILOSOFIA/Penalistas'] },
+  { label: '🌟  MAESTROS — Guias Fenice', pastas: ['09_FENICE_BRAIN/MAESTROS'] },
+];
+
+class JurisconsultoAreaModal extends SuggestModal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+    this.setPlaceholder('Selecione a área ou escola filosófica...');
+  }
+  getSuggestions(q) {
+    return MAESTROS_AREAS.filter(a => a.label.toLowerCase().includes(q.toLowerCase()));
+  }
+  renderSuggestion(item, el) { el.createEl('div', { text: item.label }); }
+  onChooseSuggestion(area) {
+    new JurisconsultoSelectModal(this.app, this.plugin, area).open();
+  }
+}
+
+class JurisconsultoSelectModal extends SuggestModal {
+  constructor(app, plugin, area) {
+    super(app);
+    this.plugin = plugin;
+    this.area = area;
+    this.setPlaceholder(`Selecione o jurisconsulto em ${area.label.trim()}...`);
+    this.items = [];
+    this._carregar();
+  }
+  async _carregar() {
+    const vault = this.app.vault;
+    const all = vault.getAllLoadedFiles();
+    const result = [];
+    for (const pasta of this.area.pastas) {
+      for (const f of all) {
+        if (f.path && f.path.startsWith(pasta) && f.extension === 'md') {
+          const nome = f.basename;
+          if (!result.find(r => r.nome === nome))
+            result.push({ nome, path: f.path, file: f });
+        }
+      }
+    }
+    this.items = result.sort((a, b) => a.nome.localeCompare(b.nome));
+    this.inputEl.dispatchEvent(new Event('input'));
+  }
+  getSuggestions(q) {
+    return this.items.filter(i => i.nome.toLowerCase().includes(q.toLowerCase()));
+  }
+  renderSuggestion(item, el) {
+    el.createEl('div', { text: item.nome });
+  }
+  onChooseSuggestion(item) {
+    const leaf = this.app.workspace.getLeaf(false);
+    leaf.openFile(item.file);
+  }
+}
+
 // ─── Modal 1: Selecionar Código ──────────────────────────────
 class CodigoModal extends SuggestModal {
   constructor(app, onEscolha, codigosKeys) {
@@ -894,7 +962,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v25 — graph local only (sem global filtrado)');
+    console.log('✅ Fenice Buscar Artigo v26 — JurisconsultoModal Ctrl+Shift+J (área → nome → nota)');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({
@@ -920,6 +988,14 @@ class FeniceBuscarArtigo extends Plugin {
       callback: () => new GraphModal(this.app, this).open(),
     });
 
+    // Ctrl+Shift+J — Jurisconsultos & Filósofos (dois níveis: área → nome → abre nota)
+    this.addCommand({
+      id: 'jurisconsulto-modal',
+      name: 'Jurisconsultos & Filósofos (área → selecionar)',
+      hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'J' }],
+      callback: () => new JurisconsultoAreaModal(this.app, this).open(),
+    });
+
     // Listener global — garante que os atalhos funcionam mesmo quando
     // o Graph View está ativo (o canvas do grafo captura eventos de teclado
     // antes do sistema de comandos do Obsidian, bloqueando os addCommand acima).
@@ -928,6 +1004,7 @@ class FeniceBuscarArtigo extends Plugin {
       if (e.key === 'B') { e.preventDefault(); e.stopPropagation(); this.iniciarBusca(); }
       else if (e.key === 'G') { e.preventDefault(); e.stopPropagation(); new GraphModal(this.app, this).open(); }
       else if (e.key === 'I') { e.preventDefault(); e.stopPropagation(); this.mostrarInfoAtual(); }
+      else if (e.key === 'J') { e.preventDefault(); e.stopPropagation(); new JurisconsultoAreaModal(this.app, this).open(); }
     });
 
     // Carrega index de enunciados CJF

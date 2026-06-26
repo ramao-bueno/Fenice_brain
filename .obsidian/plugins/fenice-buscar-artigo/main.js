@@ -205,20 +205,61 @@ function parseArtigoMD(content) {
     }
   }
 
+  // ── §§ inline tipo-labels: "Furto qualificado § 4°" → pg.tipo = "Furto qualificado" ──
+  if (result.paragrafos.length && redacao) {
+    const tipoRE = /([A-ZÁÉÍÓÚÀÂÊÔÃÕÇÜ][a-záéíóúàâêôãõçü\s]{3,50}?)\s+§\s*(\d+)/g;
+    const tipoMap = {};
+    for (const m of [...redacao.matchAll(tipoRE)]) {
+      const label = m[1].trim().replace(/\s+/g, ' ');
+      const words = label.split(' ');
+      if (words.length >= 2 && words.length <= 6 && /^[A-ZÁÉÍÓÚÀÂÊÔÃÕÇÜ]/.test(label))
+        tipoMap[m[2]] = label;
+    }
+    for (const pg of result.paragrafos) {
+      const num = pg.label.match(/\d+/)?.[0];
+      if (num && tipoMap[num]) pg.tipo = tipoMap[num];
+    }
+  }
+
   // ── Jurisprudência do corpo: seção ## JURISPRUDENCIA ou ## ⚖️ JURISPRUDÊNCIA ──
-  // Só extrai se houver blockquotes reais (não placeholder)
   const mJurisCorpo = content.match(/##[^\n]*JURISPRUD[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
   if (mJurisCorpo) {
     const bloco = mJurisCorpo[1];
     const jurisCorpo = [];
-    // Padrão: **TRIBUNAL — label**\n> texto
+    // Formato 1: **TRIBUNAL — label**\n> texto (blockquote)
     const bolqRE = /\*\*([^*\n]+)\*\*[^\n]*\n((?:>[^\n]*\n?)+)/g;
     for (const m of [...bloco.matchAll(bolqRE)]) {
       const tribunal = m[1].trim();
       const texto = m[2].split('\n').map(l => l.replace(/^>\s?/, '').trim()).filter(Boolean).join(' ');
       if (texto && !texto.startsWith('[')) jurisCorpo.push({ tribunal, resumo: texto });
     }
+    // Formato 2: - TRIBUNAL — texto (lista simples, padrão CP/pipeline)
+    if (!jurisCorpo.length) {
+      const listaRE = /^[-•]\s*([A-ZÁ-Ú]{2,5}[^\n—–-]{0,20}?)\s*[—–-]\s*(.+)$/gm;
+      for (const m of [...bloco.matchAll(listaRE)]) {
+        const tribunal = m[1].trim();
+        const texto    = m[2].trim();
+        if (texto && !texto.startsWith('[')) jurisCorpo.push({ tribunal, resumo: texto });
+      }
+    }
+    // Extrai referências de súmulas mencionadas: "Súmula 511", "STJ — Súmula 442"
+    const sumulaRE = /S[úu]mula\s+(\d+)/gi;
+    const sumulasJuris = [];
+    for (const m of [...bloco.matchAll(sumulaRE)]) {
+      if (!sumulasJuris.includes(m[1])) sumulasJuris.push(m[1]);
+    }
+    if (sumulasJuris.length) result.sumulasVide = sumulasJuris;
     if (jurisCorpo.length) result.jurisCorpo = jurisCorpo;
+  }
+
+  // ── Prática Forense: ## OBSERVACOES PRATICAS ──
+  const mPratica = content.match(/##[^\n]*OBSERVA[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
+  if (mPratica) {
+    const linhas = mPratica[1].split('\n').filter(l => {
+      const t = l.trim();
+      return t && !/^-{3,}$/.test(t) && !t.startsWith('[') && !t.startsWith('##');
+    });
+    if (linhas.length) result.praticaForense = linhas;
   }
 
   // ── Súmulas: seção ## ENUNCIADO (quando não há REDACAO LEGAL) ──
@@ -277,17 +318,32 @@ function parseArtigoMD(content) {
     if (Object.keys(secoes).length) result.analiseTecnica = secoes;
   }
 
-  // ── Correlatos: wikilinks da seção ARTIGOS CORRELATOS ──
+  // ── Correlatos: wikilinks da seção ARTIGOS CORRELATOS (com subsections) ──
   const mCorr = content.match(/##[^\n]*CORRELAT[^\n]*\n([\s\S]*?)(?=\n##(?!#)|$)/i);
   if (mCorr) {
-    const links = [...mCorr[1].matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]([^\n]*)/g)];
-    for (const l of links) {
+    const bloco = mCorr[1];
+    // Flat fallback — sempre popula result.correlatos
+    const linksFlat = [...bloco.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]([^\n]*)/g)];
+    for (const l of linksFlat) {
       const nome = l[1].trim();
       const extra = l[2].replace(/^[\s\-—]+/, '').trim();
-      if (nome && !nome.includes('INDEX')) {
+      if (nome && !nome.includes('INDEX'))
         result.correlatos.push(extra ? `${nome} — ${extra}` : nome);
-      }
     }
+    // Subsections estruturadas para o campo "Vide artigos..."
+    const subsecs = [];
+    const subRE = /###\s*(.+?)\n([\s\S]*?)(?=\n###\s|$)/gi;
+    for (const ms of [...bloco.matchAll(subRE)]) {
+      const titulo = ms[1].trim();
+      const links  = [...ms[2].matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]([^\n]*)/g)]
+        .map(l => {
+          const nome  = l[1].trim();
+          const extra = l[2].replace(/^[\s\-—]+/, '').trim();
+          return nome && !nome.includes('INDEX') ? (extra ? `${nome} — ${extra}` : nome) : null;
+        }).filter(Boolean);
+      if (links.length) subsecs.push({ titulo, links });
+    }
+    if (subsecs.length) result.correlatosSubsecs = subsecs;
   }
 
   return result;
@@ -359,26 +415,26 @@ class JurisconsultoSelectModal extends SuggestModal {
   constructor(app, plugin, area) {
     super(app);
     this.plugin = plugin;
-    this.area = area;
-    this.setPlaceholder(`Selecione o jurisconsulto em ${area.label.trim()}...`);
+    this.area   = area;
+    this.setPlaceholder(`Selecione em ${area.label.trim()}...`);
+    // Carrega de forma síncrona via getFiles() (já indexado pelo Obsidian)
+    const allFiles = app.vault.getFiles(); // TFile[] — sem pastas
+    const seen = new Set();
     this.items = [];
-    this._carregar();
-  }
-  async _carregar() {
-    const vault = this.app.vault;
-    const all = vault.getAllLoadedFiles();
-    const result = [];
-    for (const pasta of this.area.pastas) {
-      for (const f of all) {
-        if (f.path && f.path.startsWith(pasta) && f.extension === 'md') {
-          const nome = f.basename;
-          if (!result.find(r => r.nome === nome))
-            result.push({ nome, path: f.path, file: f });
+    for (const pasta of area.pastas) {
+      const pastaNorm = pasta.replace(/\/$/, '');
+      for (const f of allFiles) {
+        if (f.path.startsWith(pastaNorm + '/') || f.path.startsWith(pastaNorm)) {
+          if (!seen.has(f.path)) {
+            seen.add(f.path);
+            this.items.push({ nome: f.basename, file: f });
+          }
         }
       }
     }
-    this.items = result.sort((a, b) => a.nome.localeCompare(b.nome));
-    this.inputEl.dispatchEvent(new Event('input'));
+    this.items.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+    if (!this.items.length)
+      this.setPlaceholder(`⚠️ Nenhum arquivo em ${area.label.trim()} — adicione notas ao vault`);
   }
   getSuggestions(q) {
     return this.items.filter(i => i.nome.toLowerCase().includes(q.toLowerCase()));
@@ -387,8 +443,7 @@ class JurisconsultoSelectModal extends SuggestModal {
     el.createEl('div', { text: item.nome });
   }
   onChooseSuggestion(item) {
-    const leaf = this.app.workspace.getLeaf(false);
-    leaf.openFile(item.file);
+    this.app.workspace.getLeaf(false).openFile(item.file);
   }
 }
 
@@ -580,14 +635,19 @@ class InfoModal extends Modal {
         }
       }
 
-      // Parágrafos — cada um com seu texto completo (geralmente curtos)
+      // Parágrafos — com tipo-label inline (ex: "Furto qualificado • § 4°.")
       if (paragrafos.length) {
         card.createEl('hr').style.margin = '6px 0';
         for (const pg of paragrafos) {
           const p = card.createEl('p');
           p.style.marginBottom = '4px';
+          if (pg.tipo) {
+            const tipoEl = p.createEl('em', { text: pg.tipo + '  •  ' });
+            Object.assign(tipoEl.style, { color: 'var(--text-accent)', fontSize: '11px' });
+          }
           p.createEl('strong', { text: `${pg.label}. ` });
-          p.appendText(pg.texto);
+          const resumo = pg.texto.length > 200 ? pg.texto.slice(0, 200) + '…' : pg.texto;
+          p.appendText(resumo);
         }
       }
     }
@@ -796,6 +856,73 @@ class InfoModal extends Modal {
       }
     }
 
+    // ── Prática Forense (## OBSERVACOES PRATICAS) ──
+    if (this.parsed.praticaForense?.length) {
+      const sec = contentEl.createEl('div');
+      Object.assign(sec.style, {
+        borderTop: '1px solid var(--background-modifier-border)',
+        paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+      });
+      sec.createEl('strong', { text: '🏛️ Prática Forense  ' });
+      for (const linha of this.parsed.praticaForense) {
+        const t = linha.trim();
+        if (!t) continue;
+        const p = sec.createEl('p');
+        Object.assign(p.style, {
+          marginTop: '5px', marginLeft: '4px', fontSize: '12px', lineHeight: '1.5',
+          borderLeft: '2px solid var(--interactive-accent)', paddingLeft: '8px',
+        });
+        // remove markdown bold (**texto**) → exibe simples
+        p.appendText(t.replace(/\*\*/g, ''));
+      }
+    }
+
+    // ── Vide Artigos (subsections de ARTIGOS CORRELATOS) ──
+    if (this.parsed.correlatosSubsecs?.length) {
+      const sec = contentEl.createEl('div');
+      Object.assign(sec.style, {
+        borderTop: '1px solid var(--background-modifier-border)',
+        paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+      });
+      sec.createEl('strong', { text: '🔗 Vide Artigos  ' });
+      for (const sub of this.parsed.correlatosSubsecs) {
+        const grp = sec.createEl('div');
+        grp.style.marginTop = '4px';
+        grp.createEl('em', { text: sub.titulo + ':  ' }).style.fontSize = '11px';
+        sub.links.forEach((c, i) => {
+          if (i) grp.appendText(' · ');
+          const a = grp.createEl('span', { text: c.split(' — ')[0] });
+          Object.assign(a.style, { color: 'var(--text-accent)', cursor: 'pointer', fontSize: '12px' });
+          a.title = c;
+          a.addEventListener('click', () => {
+            this.close();
+            const mNum = c.match(/\d[\d.]*/);
+            if (mNum && this.onBuscarArt) setTimeout(() => this.onBuscarArt(mNum[0]), 120);
+            else this.app.workspace.openLinkText(c.split(' — ')[0].trim(), '', false);
+          });
+        });
+      }
+    }
+
+    // ── Vide Súmulas (extraídas da seção JURISPRUDENCIA) ──
+    if (this.parsed.sumulasVide?.length) {
+      const sec = contentEl.createEl('div');
+      Object.assign(sec.style, {
+        borderTop: '1px solid var(--background-modifier-border)',
+        paddingTop: '8px', marginBottom: '10px', fontSize: '13px',
+      });
+      sec.createEl('strong', { text: '📌 Vide Súmulas  ' });
+      this.parsed.sumulasVide.forEach((num, i) => {
+        if (i) sec.appendText(' · ');
+        const a = sec.createEl('span', { text: `Súmula ${num}` });
+        Object.assign(a.style, { color: 'var(--text-accent)', cursor: 'pointer' });
+        a.addEventListener('click', () => {
+          this.close();
+          this.app.workspace.openLinkText(`Súmula ${num}`, '', false);
+        });
+      });
+    }
+
     // ── Acessórios do frontmatter (enunciados + relacionados) ──
     const ac = this.acessorios;
     if (ac) {
@@ -962,7 +1089,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v26 — JurisconsultoModal Ctrl+Shift+J (área → nome → nota)');
+    console.log('✅ Fenice Buscar Artigo v27 — §§ tipo-labels, jurisprudência lista, prática forense, vide artigos/súmulas, J-modal sync');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

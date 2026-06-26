@@ -1021,65 +1021,123 @@ class GraphModal extends Modal {
       Object.assign(sub.style, { color: 'var(--text-muted)', fontSize: '12px', marginBottom: '16px', marginTop: '0' });
     }
 
-    const opcoes = [
-      {
-        icon: '📄',
-        titulo: 'Artigo atual — links diretos',
-        desc: 'Grafo local depth 1: mostra só os artigos diretamente linkados (CP, CC, CF…). Rápido.',
-        badge: '⚡ rápido',
-        badgeColor: 'var(--color-green)',
-        action: () => {
-          this.close();
-          if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
-          this.plugin._abrirGrafoLocal(activeFile, 1);
-        },
-      },
-      {
-        icon: '🇧🇷',
-        titulo: 'Correlações entre ramos (depth 2)',
-        desc: 'Grafo local depth 2: artigo atual + links + links dos links. Veja CC, CP e CF conectados.',
-        badge: '🔍 correlações',
-        badgeColor: 'var(--text-accent)',
-        action: () => {
-          this.close();
-          if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
-          this.plugin._abrirGrafoLocal(activeFile, 2);
-        },
-      },
-    ];
-
-    for (const opt of opcoes) {
+    // ── helper para renderizar cada card de opção ──
+    const renderOpt = (opt) => {
       const btn = contentEl.createEl('div');
       Object.assign(btn.style, {
         display: 'flex', alignItems: 'flex-start', gap: '12px',
-        padding: '12px', marginBottom: '8px', cursor: 'pointer',
+        padding: '10px 12px', marginBottom: '6px', cursor: 'pointer',
         borderRadius: '6px', border: '1px solid var(--background-modifier-border)',
         background: 'var(--background-secondary)', transition: 'background 0.1s',
       });
       btn.addEventListener('mouseenter', () => btn.style.background = 'var(--background-modifier-hover)');
       btn.addEventListener('mouseleave', () => btn.style.background = 'var(--background-secondary)');
       btn.addEventListener('click', opt.action);
-
       const icon = btn.createEl('div', { text: opt.icon });
-      Object.assign(icon.style, { fontSize: '22px', lineHeight: '1', paddingTop: '2px' });
-
-      const info = btn.createEl('div');
-      info.style.flex = '1';
-
-      const titulo = info.createEl('div', { text: opt.titulo });
-      Object.assign(titulo.style, { fontWeight: 'bold', marginBottom: '2px' });
-
-      const desc = info.createEl('div', { text: opt.desc });
-      Object.assign(desc.style, { fontSize: '12px', color: 'var(--text-muted)', lineHeight: '1.4' });
-
+      Object.assign(icon.style, { fontSize: '20px', lineHeight: '1', paddingTop: '2px', minWidth: '24px' });
+      const info = btn.createEl('div'); info.style.flex = '1';
+      const t = info.createEl('div', { text: opt.titulo });
+      Object.assign(t.style, { fontWeight: 'bold', marginBottom: '2px', fontSize: '13px' });
+      const d = info.createEl('div', { text: opt.desc });
+      Object.assign(d.style, { fontSize: '11px', color: 'var(--text-muted)', lineHeight: '1.4' });
       if (opt.badge) {
         const badge = info.createEl('span', { text: opt.badge });
         Object.assign(badge.style, {
           fontSize: '10px', color: opt.badgeColor || 'var(--text-muted)',
-          marginTop: '4px', display: 'inline-block', fontWeight: 'bold',
+          marginTop: '3px', display: 'inline-block', fontWeight: 'bold',
         });
       }
+    };
+
+    // ── Seção 1: Artigo Atual ──
+    const sec1 = contentEl.createEl('div', { text: 'ARTIGO ATUAL' });
+    Object.assign(sec1.style, {
+      fontSize: '10px', fontWeight: 'bold', color: 'var(--text-muted)',
+      letterSpacing: '0.08em', marginBottom: '6px', marginTop: '4px',
+    });
+
+    renderOpt({
+      icon: '📄', titulo: 'Artigo atual — links diretos',
+      desc: 'Grafo local depth 1: só artigos diretamente linkados. Rápido.',
+      badge: '⚡ rápido', badgeColor: 'var(--color-green)',
+      action: () => {
+        this.close();
+        if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
+        this.plugin._abrirGrafoLocal(activeFile, 1);
+      },
+    });
+
+    renderOpt({
+      icon: '🔍', titulo: 'Correlações entre ramos (depth 2)',
+      desc: 'Artigo atual + links + links dos links. Veja CC, CP e CF conectados.',
+      badge: '🔗 correlações', badgeColor: 'var(--text-accent)',
+      action: () => {
+        this.close();
+        if (!activeFile) { new Notice('Nenhum artigo aberto.', 2000); return; }
+        this.plugin._abrirGrafoLocal(activeFile, 2);
+      },
+    });
+
+    // ── Seção 2: Volumes do Vault ──
+    const sec2 = contentEl.createEl('div', { text: 'VOLUMES DO VAULT' });
+    Object.assign(sec2.style, {
+      fontSize: '10px', fontWeight: 'bold', color: 'var(--text-muted)',
+      letterSpacing: '0.08em', marginBottom: '6px', marginTop: '14px',
+    });
+    const aviso = contentEl.createEl('p', { text: '⚠ Grafo filtrado por pasta — não trava o Obsidian.' });
+    Object.assign(aviso.style, { fontSize: '11px', color: 'var(--text-muted)', marginBottom: '6px', marginTop: '0' });
+
+    const volumes = [
+      { icon: '🔒', titulo: 'Código Penal — DEL2848 (665 arts)',
+        desc: 'Artigos atomizados + correlatos penais. Excelente para ver dosimetria e qualificadoras.',
+        badge: '📂 02_PENAL', badgeColor: 'var(--text-muted)',
+        query: 'path:"02_PENAL/Codigos/CP/DEL2848"' },
+      { icon: '📘', titulo: 'Código Civil — CC (Livros I–V)',
+        desc: 'Parte Geral + Direito das Obrigações, Coisas, Família e Sucessões.',
+        badge: '📂 01_PRIVADO', badgeColor: 'var(--text-muted)',
+        query: 'path:"01_PRIVADO/Codigos/CC"' },
+      { icon: '⚖️', titulo: 'Súmulas STJ (674 súmulas)',
+        desc: 'Todas as súmulas do STJ — grafo das correlações entre temas.',
+        badge: '📂 00_APEX/SUMULAS STJ', badgeColor: 'var(--text-muted)',
+        query: 'path:"00_APEX/SUMULAS STJ/Sumulas"' },
+      { icon: '🏛️', titulo: 'Súmulas STF (736 súmulas)',
+        desc: 'Vigentes e superadas — CF88, direitos fundamentais, processo.',
+        badge: '📂 00_APEX/SUMULAS STF', badgeColor: 'var(--text-muted)',
+        query: 'path:"00_APEX/SUMULAS STF/Sumulas"' },
+      { icon: '👤', titulo: 'Jurisconsultos (por área)',
+        desc: 'Doutrinadores do Privado, Penal, Público, Trabalhista e Constitucional.',
+        badge: '📂 06_JURISCONSULTOS', badgeColor: 'var(--text-muted)',
+        query: 'path:"06_JURISCONSULTOS"' },
+      { icon: '🧠', titulo: 'Filósofos do Direito',
+        desc: 'Antigos, Iluministas, Modernos, Contemporâneos e Penalistas Clássicos.',
+        badge: '📂 07_FILOSOFIA', badgeColor: 'var(--text-muted)',
+        query: 'path:"07_FILOSOFIA"' },
+    ];
+
+    for (const vol of volumes) {
+      renderOpt({
+        ...vol,
+        action: async () => {
+          this.close();
+          new Notice(`📊 Abrindo grafo: ${vol.titulo}`, 2000);
+          await this.plugin._abrirGraphComFiltro(vol.query);
+        },
+      });
     }
+
+    // ── Seção 3: Por Código (picker) ──
+    const sec3 = contentEl.createEl('div', { text: 'ESCOLHER CÓDIGO' });
+    Object.assign(sec3.style, {
+      fontSize: '10px', fontWeight: 'bold', color: 'var(--text-muted)',
+      letterSpacing: '0.08em', marginBottom: '6px', marginTop: '14px',
+    });
+
+    renderOpt({
+      icon: '🗂️', titulo: 'Por Código (escolher domínio → código)',
+      desc: 'Abre DomainModal → selecione qualquer código para ver seu grafo filtrado.',
+      badge: '🔄 interativo', badgeColor: 'var(--interactive-accent)',
+      action: () => { this.close(); this.plugin.abrirGraphCodigo(); },
+    });
   }
 
   onClose() { this.contentEl.empty(); }
@@ -1089,7 +1147,7 @@ class GraphModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v27 — §§ tipo-labels, jurisprudência lista, prática forense, vide artigos/súmulas, J-modal sync');
+    console.log('✅ Fenice Buscar Artigo v28 — GraphModal: volumes (CP 665, STJ 674, STF 736, Jurisconsultos, Filósofos, picker) + §§ tipo-labels');
 
     // Ctrl+Shift+B — busca por código + número
     this.addCommand({

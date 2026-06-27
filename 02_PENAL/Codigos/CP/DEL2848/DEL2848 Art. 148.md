@@ -38,22 +38,32 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a liberdade individual, especificamente a liberdade de locomoção (direito de ir, vir e permanecer). Secundariamente, pode-se tutelar a integridade física e psíquica da vítima. O fundamento constitucional reside no Art. 5º, caput, da Constituição Federal, que garante o direito à liberdade, e no Art. 5º, XV, que assegura a liberdade de locomoção no território nacional.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum, pode ser praticado por qualquer pessoa.
+- **Sujeito passivo:** Crime comum, qualquer pessoa pode ser vítima da privação de liberdade.
+- **Núcleo do tipo:** O verbo "privar", que significa cercear, tolher, impedir a liberdade de locomoção.
+- **Objeto material:** A pessoa humana cuja liberdade é cerceada.
+- **Elementos normativos:** "mediante sequestro ou cárcere privado". Sequestro implica levar a vítima para outro local; cárcere privado implica confinar a vítima no mesmo local. A distinção é mais doutrinária, pois o tipo penal abrange ambas as modalidades de privação.
+- **Resultado exigido:** Crime material, exige a efetiva privação da liberdade da vítima para sua consumação.
+- **Nexo causal / imputação objetiva:** A conduta do agente deve ser a causa direta e eficiente da privação da liberdade da vítima.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de sequestro e cárcere privado é punível exclusivamente a título de dolo.
+- **Dolo direto:** O agente atua com a vontade livre e consciente de privar a liberdade de locomoção da vítima.
+- **Dolo eventual:** Incompatível com o tipo penal, pois a privação da liberdade é o objetivo direto da conduta ou o meio para atingir outro fim, não um risco assumido.
+- **Culpa:** Não há previsão de modalidade culposa para este delito.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- **Momento da consumação:** Ocorre com a efetiva privação da liberdade da vítima, independentemente da duração.
+- **Tentativa:** É cabível (Art. 14, II, CP), pois o *iter criminis* pode ser interrompido antes da efetiva privação da liberdade (ex: a vítima consegue escapar antes de ser totalmente confinada).
+- **Classificação:** É um crime permanente, cuja consumação se protrai no tempo enquanto durar a privação da liberdade. É também um crime material.
+- **Desistência voluntária (Art. 15, CP):** Cabível. Se o agente, voluntariamente, libera a vítima antes que a privação da liberdade se prolongue ou antes de ser descoberto, responderá apenas pelos atos já praticados.
+- **Arrependimento posterior (Art. 16, CP):** Não é aplicável, pois o crime não possui natureza patrimonial e não há reparação do dano que justifique a diminuição da pena.
 
 ### Penas Cominadas
 
@@ -78,15 +88,27 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STJ — Súmula 711:** "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência." (Relevante para a aplicação da lei no tempo em crimes permanentes como o sequestro/cárcere privado).
+- **STJ — Informativo 600:** "O crime de sequestro e cárcere privado (art. 148 do CP) é de natureza permanente, de modo que a consumação se protrai no tempo enquanto o agente mantiver a vítima privada de sua liberdade." (Confirma a natureza jurídica do delito).
+- **STJ — Tese:** A distinção entre sequestro e cárcere privado, embora doutrinariamente existente, é irrelevante para a tipificação do Art. 148 do CP, que abrange ambas as formas de privação da liberdade. O que importa é a efetiva restrição da liberdade de locomoção da vítima.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:**
+    - A denúncia deve descrever detalhadamente a conduta de privação, o local, a duração e as condições que configuram o delito.
+    - É crucial provar o dolo do agente em privar a liberdade e a efetividade da restrição.
+    - Atentar para as qualificadoras do §1º (relação familiar, idade da vítima, duração superior a 15 dias, internação em hospital/casa de saúde, menor de 18 anos) para a correta capitulação e dosimetria da pena.
+- **Defesa:**
+    - Teses comuns incluem a ausência de dolo (ex: vítima permaneceu voluntariamente), a ausência de efetiva privação da liberdade (ex: vítima tinha meios de sair), ou a desclassificação para constrangimento ilegal (Art. 146 CP) se a privação for breve e sem gravidade.
+    - Alegação de excludentes de ilicitude (ex: estado de necessidade, legítima defesa), embora raras e de difícil comprovação.
+    - Questionar a duração da privação para afastar a qualificadora do inciso III do §1º.
+- **Prática/Tribunais:**
+    - Competência: Justiça Comum Estadual.
+    - Procedimento: Comum ordinário, dada a pena máxima superior a 4 anos para as qualificadoras.
+    - Pontos de concurso: Distinção com extorsão mediante sequestro (Art. 159 CP - exige fim de obter vantagem econômica), constrangimento ilegal (Art. 146 CP - privação da liberdade como meio para outro fim ou de menor gravidade).
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

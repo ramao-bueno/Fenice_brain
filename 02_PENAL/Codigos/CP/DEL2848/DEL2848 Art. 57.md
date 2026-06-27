@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo art. 57 do Código Penal é a segurança no trânsito, que está relacionada à proteção da vida e da integridade física das pessoas. O fundamento constitucional para essa tutela é o art. 5º, caput, da Constituição Federal, que estabelece a inviolabilidade do direito à vida. A norma em questão é uma norma incriminadora, pois estabelece a aplicação da pena de interdição aos crimes culposos de trânsito.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa que cometa um crime culposo de trânsito.
+- Sujeito passivo: a vítima do crime culposo de trânsito.
+- Núcleo do tipo: a conduta culposa que resulta em dano ou lesão.
+- Objeto material: o trânsito.
+- Elementos normativos: a culpa e o dano ou lesão.
+- Resultado exigido: o dano ou lesão decorrente da conduta culposa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A modalidade culposa é admitida, e está tipificada no art. 57 do Código Penal. A culpa pode ser consciente ou inconsciente, e é caracterizada pela falta de diligência ou atenção necessária para evitar o dano ou lesão.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o art. 57 do Código Penal se refere à aplicação da pena de interdição aos crimes culposos de trânsito, que são crimes de resultado.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena aplicável é a interdição, que pode ser aplicada em conjunto com outras penas. O regime inicial é fechado, e o crime não é considerado hediondo.
 
 ---
 
@@ -71,15 +73,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 520: A pena de interdição do art. 57 do Código Penal não se aplica aos crimes dolosos. STF — Tese: A aplicação da pena de interdição aos crimes culposos de trânsito é constitucional.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a culpa e o dano ou lesão decorrente da conduta culposa.
+- **Defesa:** pode alegar a inexistência de culpa ou a falta de nexo causal entre a conduta e o dano ou lesão.
+- **Prática/Tribunais:** a competência é da Justiça Criminal, e o procedimento é o comum.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

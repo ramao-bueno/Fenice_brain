@@ -35,26 +35,30 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+Este artigo não tutela um bem jurídico no sentido de um crime, mas sim a correta aplicação do direito na fase de execução penal. Sua natureza jurídica é de norma de direito penal executório, instrumental, que visa garantir a segurança jurídica, a individualização da pena e o devido processo legal na concessão do livramento condicional. Assegura que o apenado tenha clareza sobre as obrigações impostas para o gozo do benefício. Fundamento constitucional: Art. 5º, XLVI (individualização da pena), Art. 5º, LIV (devido processo legal) e Art. 1º, III (dignidade da pessoa humana), ao garantir a transparência e a legalidade na execução da pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+Este artigo não define um tipo penal incriminador, mas sim uma norma de caráter processual-executório que impõe um dever ao magistrado.
+- Sujeito ativo: O juiz (autoridade judiciária) que profere a sentença concessiva do livramento condicional.
+- Sujeito passivo: O apenado (condenado) que é beneficiário do livramento condicional.
+- Núcleo do tipo: O verbo "especificará" impõe um dever funcional ao juiz de detalhar as condições.
+- Objeto material: As "condições" a que fica subordinado o livramento condicional.
+- Elementos normativos: "sentença", "condições", "livramento". São termos jurídicos que exigem interpretação.
+- Resultado exigido: Não há resultado típico de crime. O resultado é a correta e transparente aplicação da lei na execução penal, com a individualização das condições do benefício.
+- Nexo causal / imputação objetiva: Não aplicáveis, pois não se trata de crime.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica a conceituação de dolo ou culpa como elementos subjetivos de um tipo penal, uma vez que o Art. 85 não descreve um crime. A norma impõe um dever funcional ao magistrado. A omissão ou a especificação inadequada das condições pode configurar um erro judiciário ou, em tese, uma infração funcional, mas não um crime tipificado por este artigo. O elemento subjetivo aqui é o dever de ofício do magistrado em cumprir a lei, garantindo a clareza e a legalidade das condições do livramento condicional.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não é cabível a tentativa, pois o Art. 85 não tipifica um crime. Trata-se de uma norma que regula um ato jurídico-processual (a prolação da sentença com a especificação das condições do livramento condicional). A consumação ocorre com a prolação da sentença que concede o livramento condicional, devendo esta já conter as condições especificadas. Não há que se falar em desistência voluntária ou arrependimento posterior, pois são institutos aplicáveis apenas a crimes.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O Art. 85 não comina pena criminal, pois não se trata de norma incriminadora. É uma norma de direito material processual ou executório que estabelece um requisito para a validade e eficácia da concessão do livramento condicional. A inobservância do dever de especificar as condições pode gerar nulidade da decisão ou a necessidade de saneamento pelo juízo da execução, além de eventual responsabilidade funcional do magistrado, mas não uma sanção penal com base neste dispositivo. Não se aplica ANPP, transação penal ou suspensão condicional do processo.
 
 ---
 
@@ -73,15 +77,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: A individualização e a clareza das condições impostas no livramento condicional são requisitos essenciais para a validade do benefício e para a segurança jurídica do apenado, garantindo a plena compreensão de seus deveres e a fiscalização da execução.
+- STJ — Informativo 618 (REsp 1.636.012/RS): "É possível a fixação de condições especiais para o livramento condicional, desde que adequadas e proporcionais à situação do apenado e à finalidade da pena." (Reforça a necessidade de especificação e adequação das condições).
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** O Ministério Público, como fiscal da lei na execução penal, pode requerer ao juízo que a sentença especifique ou adeqúe as condições do livramento condicional, caso estas sejam omissas, genéricas, ilegais ou desproporcionais, visando à correta aplicação da lei e à efetividade da pena.
+- **Defesa:** A defesa pode arguir a nulidade da decisão ou requerer o saneamento da sentença que não especificar as condições do livramento condicional ou que as fizer de forma vaga, ilegal ou desproporcional, violando o devido processo legal, a individualização da pena e a segurança jurídica do apenado.
+- **Prática/Tribunais:** A competência para a especificação das condições é do juízo sentenciante ou, em caso de omissão ou imprecisão, do juízo da execução penal. A clareza e a legalidade das condições são cruciais para evitar incidentes de execução e garantir a fiscalização eficaz do benefício. É um ponto relevante em concursos públicos na área de execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

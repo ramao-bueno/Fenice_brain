@@ -35,22 +35,30 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **dignidade sexual**, compreendida como o direito de cada indivíduo de dispor livremente do próprio corpo e da própria sexualidade, sem ser submetido a atos de natureza sexual não desejados. Secundariamente, tutela-se a **liberdade sexual** e a **integridade psicofísica** da vítima. O fundamento constitucional reside no Art. 1º, III da CF/88 (dignidade da pessoa humana), Art. 5º, X (intimidade, vida privada, honra e imagem das pessoas) e Art. 226, § 8º (proteção da família, criança, adolescente e idoso).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo:** Crime comum. Pode ser praticado por qualquer pessoa.
+-   **Sujeito passivo:** Qualquer pessoa (homem, mulher, criança, adolescente, idoso), desde que não seja vulnerável nos termos do Art. 217-A do CP, pois, nesse caso, a conduta seria mais grave.
+-   **Núcleo do tipo:** "Praticar" (ato libidinoso). O verbo indica a realização de uma conduta.
+-   **Objeto material:** O corpo da vítima ou parte dele, sobre o qual recai o ato libidinoso.
+-   **Elementos normativos:** "ato libidinoso" (exige interpretação jurídico-cultural sobre o que se considera um ato com finalidade sexual), "sem a sua anuência" (ausência de consentimento da vítima), "se o ato não constitui crime mais grave" (cláusula de subsidiariedade expressa, indicando que o 215-A é residual em relação a crimes como estupro ou estupro de vulnerável).
+-   **Elementos descritivos:** "contra alguém", "com o objetivo de satisfazer a própria lascívia ou a de terceiro".
+-   **Resultado exigido:** Crime de mera conduta. A consumação ocorre com a prática do ato libidinoso, independentemente de qualquer resultado naturalístico posterior.
+-   **Nexo causal / imputação objetiva:** A conduta deve ser diretamente imputável ao agente que pratica o ato libidinoso.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de importunação sexual exige **dolo direto**. O agente deve ter a vontade livre e consciente de praticar o ato libidinoso contra alguém e sem a sua anuência. Não admite modalidade culposa.
+Possui um **elemento subjetivo especial** (dolo específico ou especial fim de agir): "com o objetivo de satisfazer a própria lascívia ou a de terceiro". Isso significa que a finalidade do agente deve ser a satisfação de um desejo sexual, seja próprio ou de outra pessoa. A ausência desse fim específico descaracteriza o tipo penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+-   **Momento da consumação:** O crime se consuma no momento em que o agente pratica o ato libidinoso, independentemente de o objetivo de satisfazer a lascívia ser alcançado. É um crime de mera conduta.
+-   **A tentativa é cabível (art. 14 CP)?** Sim, é perfeitamente cabível, pois a conduta pode ser fracionada. Exemplo: o agente tenta tocar a vítima com intenção lasciva, mas é impedido por terceiros ou pela própria vítima antes de concretizar o ato.
+-   **Classificar:** É um crime instantâneo e de mera conduta.
+-   **Há desistência voluntária (art. 15) ou arrependimento posterior (art. 16) relevantes?** A desistência voluntária é possível se o agente, voluntariamente, desiste de prosseguir na execução antes da consumação. O arrependimento posterior (Art. 16 do CP) não é aplicável, pois a pena máxima cominada (5 anos) excede o limite de 4 anos previsto para sua incidência.
 
 ### Penas Cominadas
 
@@ -75,15 +83,22 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+-   **STJ — Súmula 593:** "O crime de estupro de vulnerável se configura com a prática de qualquer ato libidinoso com menor de 14 anos, ainda que sem violência ou grave ameaça." (Relevante para a aplicação da subsidiariedade do Art. 215-A, que só incide se a vítima não for vulnerável).
+-   **STJ — Informativo 637:** A Lei nº 13.718/2018, que incluiu o Art. 215-A, alterou a natureza da ação penal para pública incondicionada em todos os crimes contra a dignidade sexual, inclusive o de importunação sexual.
+-   **STJ — Tese:** O crime de importunação sexual (Art. 215-A do CP) possui caráter subsidiário em relação aos crimes de estupro (Art. 213 do CP) e estupro de vulnerável (Art. 217-A do CP), aplicando-se apenas quando a conduta não configurar crime mais grave.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+-   **MP/Acusação:**
+    *   A denúncia deve descrever detalhadamente o ato libidinoso, a ausência de anuência da vítima e o objetivo de satisfazer a lascívia.
+    *   A prova da ausência de consentimento é crucial, podendo ser inferida das circunstâncias (ex: local público, surpresa, reação da vítima).
+    *   É fundamental qualificar corretamente, observando a subsidiariedade: se houver violência/grave ameaça ou vulnerabilidade da vítima, a conduta pode ser estupro ou estupro de vulnerável, não importunação sexual.
+-   **Defesa:**
+    *   Teses frequentes incluem a ausência de dolo específico (o objetivo de satisfazer a lascívia), a existência de consentimento (ainda que tácito ou presumido, embora difícil de provar em crimes sexuais), ou a atipicidade da conduta (o ato não seria libidinoso ou não teria o fim de lascívia).
+    *   Pode-se buscar a desclassificação para contravenção penal
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

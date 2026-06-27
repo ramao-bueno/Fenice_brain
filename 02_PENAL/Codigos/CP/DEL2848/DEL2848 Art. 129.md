@@ -36,22 +36,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente pelo Art. 129 do Código Penal é a integridade corporal e a saúde humana. Este direito fundamental encontra respaldo constitucional no Art. 5º, caput, da Constituição Federal, que assegura o direito à vida e à incolumidade física. Trata-se de um crime contra a pessoa, visando proteger a integridade física e mental do indivíduo contra agressões que possam comprometer seu funcionamento biológico ou psíquico. O artigo configura uma norma incriminadora, definindo condutas típicas e suas respectivas sanções penais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: Qualquer pessoa que tenha sua integridade corporal ou saúde ofendida.
+- Núcleo do tipo: O verbo "ofender", que denota a ação de causar dano, lesão ou prejuízo à integridade física ou mental de outrem.
+- Objeto material: A integridade corporal ou a saúde da vítima.
+- Elementos normativos e descritivos: "Integridade corporal" e "saúde" são elementos descritivos que demandam avaliação técnica (médica/biológica) para sua caracterização.
+- Resultado exigido: Crime material, pois exige a produção de um resultado naturalístico (a efetiva lesão ou alteração da saúde).
+- Nexo causal: Indispensável, devendo haver um vínculo direto entre a conduta do agente e o resultado lesivo à integridade corporal ou saúde da vítima.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de lesão corporal, em sua modalidade fundamental (caput e qualificadoras do §1º e §2º), é essencialmente doloso. Admite-se tanto o dolo direto (quando o agente tem a intenção específica de ofender a integridade corporal ou a saúde da vítima) quanto o dolo eventual (quando o agente assume o risco de produzir o resultado lesivo, mesmo sem desejá-lo diretamente). Não há elemento subjetivo especial (dolo específico) exigido. A modalidade culposa da lesão corporal está tipificada no § 6º do Art. 129 do Código Penal, não presente no excerto fornecido, mas parte integrante do tipo penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação do crime de lesão corporal ocorre no momento em que a integridade corporal ou a saúde da vítima é efetivamente ofendida, ou seja, com a produção do resultado naturalístico. A tentativa é cabível (Art. 14 do CP), pois o crime é plurissubsistente, permitindo o fracionamento do *iter criminis*. O crime é classificado como instantâneo, pois o resultado se produz em um momento determinado, sem permanência no tempo. A desistência voluntária (Art. 15 do CP) ou o arrependimento posterior (Art. 16 do CP) podem ser relevantes, especialmente em casos de lesões leves ou quando o agente impede a consumação ou repara o dano, podendo levar à desclassificação ou à diminuição da pena.
 
 ### Penas Cominadas
 
@@ -98,4 +101,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

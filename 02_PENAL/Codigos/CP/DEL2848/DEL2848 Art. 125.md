@@ -36,22 +36,31 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a vida do feto ou embrião (vida intrauterina). Secundariamente, protege-se a integridade física e psíquica da gestante, bem como sua autonomia e liberdade de decisão sobre o próprio corpo, uma vez que o tipo penal exige a ausência de seu consentimento. O fundamento constitucional reside no direito à vida (CF, art. 5º, *caput*) e na dignidade da pessoa humana (CF, art. 1º, III), que se estendem ao nascituro.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa, exceto a própria gestante (que, se provocasse em si mesma, seria art. 124 CP).
+- Sujeito passivo: O feto/embrião (vida intrauterina) e, reflexamente, a gestante.
+- Núcleo do tipo: Verbo "Provocar" (causar, induzir, realizar a interrupção da gravidez).
+- Objeto material: O feto/embrião.
+- Elementos normativos e descritivos: A expressão "sem o consentimento da gestante" é um elemento normativo, exigindo valoração jurídica sobre a validade e existência do consentimento.
+- Resultado exigido: Crime material. Exige a interrupção da gravidez com a morte do feto/embrião.
+- Nexo causal / imputação objetiva: A conduta do agente deve ser a causa direta e eficiente da morte do feto/embrião e da consequente interrupção da gravidez.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de aborto provocado sem o consentimento da gestante é punível exclusivamente a título de dolo.
+- Dolo direto: O agente tem a intenção de provocar o aborto e sabe que a gestante não consente ou age contra sua vontade expressa.
+- Dolo eventual: O agente assume o risco de provocar o aborto, mesmo ciente da ausência de consentimento da gestante.
+Não admite modalidade culposa. Se a interrupção da gravidez for culposa, pode configurar lesão corporal culposa grave ou gravíssima na gestante, mas não aborto culposo. Não há elemento subjetivo especial (dolo específico).
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação: Ocorre com a morte do feto/embrião e a consequente interrupção da gravidez.
+- A tentativa é cabível (art. 14 CP): Sim, é perfeitamente cabível, pois o *iter criminis* pode ser fracionado (ex: administração de substância abortiva que não causa a morte do feto por circunstâncias alheias à vontade do agente).
+- Classificação: Crime instantâneo e material.
+- Desistência voluntária (art. 15) ou arrependimento posterior (art. 16) relevantes: A desistência voluntária é possível se o agente interrompe a execução antes da morte do feto. O arrependimento posterior não se aplica, pois o crime é contra a vida e não envolve reparação de dano patrimonial ou de efeito equivalente.
 
 ### Penas Cominadas
 
@@ -76,15 +85,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — ADPF 442: Discute a descriminalização do aborto até a 12ª semana de gestação, com base na dignidade da pessoa humana, autonomia da mulher e direitos reprodutivos. Embora pendente de julgamento final, é o principal precedente sobre a constitucionalidade da criminalização do aborto.
+- STF — HC 124.306/RJ: Precedente da 1ª Turma que afastou a tipicidade da conduta de aborto realizado até o terceiro mês de gestação, sob o fundamento de que a criminalização é desproporcional e viola direitos fundamentais da mulher. (Importante ressaltar que é um precedente de turma, não uma tese firmada ou súmula vinculante).
+- STJ — Súmula 145: "Não há crime, quando a preparação do flagrante pela polícia torna impossível a sua consumação." (Aplicável se a polícia induz o crime de aborto para prender o agente, configurando flagrante preparado).
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar a conduta, a ausência de consentimento da gestante e o dolo do agente. A prova da materialidade (morte do feto e interrupção da gravidez) e da autoria é crucial, geralmente por meio de laudos periciais e testemunhos.
+- **Defesa:** Teses frequentes incluem a ausência de dolo (erro de tipo sobre o consentimento), ausência de nexo causal entre a conduta e a morte do feto, ou a existência de consentimento da gestante (o que desclassificaria para o art. 124 CP, ou configuraria aborto legal se presentes as hipóteses do art. 128 CP).
+- **Prática/Tribunais:** A competência para julgar o crime é da Justiça Comum Estadual. O procedimento é o ordinário. Se houver conexão com crime doloso contra a vida (ex: homicídio da gestante), a competência será do Tribunal do Júri.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

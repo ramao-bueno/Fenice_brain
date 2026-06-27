@@ -35,22 +35,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é o patrimônio do adquirente ou consumidor, protegendo-o contra fraudes no âmbito das relações comerciais. Secundariamente, protege-se a boa-fé, a lealdade e a probidade nas relações de consumo e no exercício da atividade comercial. O fundamento constitucional reside no direito de propriedade (CF, art. 5º, XXII) e na defesa do consumidor (CF, art. 5º, XXXII, e art. 170, V).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. No *caput*, exige-se que a conduta seja praticada "no exercício de atividade comercial". No §1º, a condição é de quem "altera em obra que lhe é encomendada" ou "vende".
+- Sujeito passivo: O adquirente ou consumidor enganado. No §1º, o encomendante ou comprador.
+- Núcleo do tipo: *Caput*: "Enganar", "vendendo", "entregando". §1º: "Alterar", "substituir", "vender".
+- Objeto material: Mercadoria falsificada/deteriorada, mercadoria diversa, metal, pedra.
+- Elementos normativos e descritivos: "no exercício de atividade comercial", "como verdadeira ou perfeita", "falsificada ou deteriorada", "obra que lhe é encomendada", "pedra verdadeira por falsa ou por outra de menor valor", "como precioso, metal de ou outra qualidade".
+- Resultado exigido: Crime material, exigindo a efetiva lesão patrimonial ao adquirente/consumidor.
+- Nexo causal / imputação objetiva: A conduta fraudulenta deve ser a causa determinante do engano e do prejuízo patrimonial da vítima.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é exclusivamente doloso. Exige-se o dolo direto, ou seja, a vontade livre e consciente de enganar o adquirente ou consumidor, vendendo ou entregando mercadoria com as características descritas no tipo, com o fim de obter vantagem indevida em prejuízo da vítima. Não há previsão de modalidade culposa. Não se exige elemento subjetivo especial (dolo específico) além da intenção de fraudar.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a efetiva entrega da mercadoria viciada e o consequente prejuízo patrimonial da vítima. A tentativa é cabível (art. 14 CP), pois o *iter criminis* pode ser fracionado (ex: o agente tenta vender a mercadoria falsificada, mas o engano é descoberto antes da conclusão da transação). O crime é instantâneo e material. A desistência voluntária (art. 15 CP) ou o arrependimento posterior (art. 16 CP) podem ser relevantes, especialmente este último, se houver reparação do dano antes do recebimento da denúncia.
 
 ### Penas Cominadas
 
@@ -75,15 +78,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: A aplicação do princípio da insignificância em crimes patrimoniais exige a presença cumulativa de mínima ofensividade da conduta, nenhuma periculosidade social da ação, reduzidíssimo grau de reprovabilidade do comportamento e inexpressividade da lesão jurídica provocada.
+- STJ — Informativo: O crime de fraude no comércio (art. 175 CP) é espécie de estelionato (art. 171 CP), aplicando-se o princípio da especialidade. A distinção reside na especificidade da conduta de enganar no exercício de atividade comercial, vendendo mercadoria falsificada/deteriorada ou entregando uma por outra, ou nas condutas do §1º.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar a conduta fraudulenta, a condição de comerciante do agente, a natureza da mercadoria (falsificada, deteriorada, diversa) e o prejuízo da vítima. É crucial diferenciar do estelionato comum, aplicando o princípio da especialidade. A prova pericial da mercadoria é fundamental.
+- **Defesa:** Teses frequentes incluem a ausência de dolo (erro de tipo), a inexistência de prejuízo ou sua insignificância (aplicação do princípio da insignificância), a desclassificação para ilícito civil ou para o crime de estelionato (se não preenchidos os requisitos específicos do art. 175). Questionar a prova da atividade comercial ou da falsidade/deterioração.
+- **Prática/Tribunais:** A competência é da Justiça Estadual. O procedimento é sumário para o *caput* (pena máxima de 2 anos) e ordinário para o §1º (pena máxima de 5 anos). A prova pericial da mercadoria é essencial para comprovar a materialidade do crime. A distinção com o estelionato é um ponto recorrente de debate.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

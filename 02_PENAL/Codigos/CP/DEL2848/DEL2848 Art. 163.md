@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '163'
 lei: DL 2.848/1940 — Código Penal
@@ -35,8 +38,7 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado pelo Art. 163 do Código Penal é o **patrimônio**, compreendido como o conjunto de bens e direitos de valor econômico pertencentes a uma pessoa física ou jurídica. Este direito encontra fundamento constitucional no Art. 5º, XXII, da Constituição Federal, que assegura o direito de propriedade. Nas qualificadoras do parágrafo único, outros bens jurídicos são secundariamente tutelados: a **integridade física e psíquica** (inciso I), a **segurança pública** (inciso II) e a **administração pública** (inciso III), quando o dano recai sobre bens de entidades estatais ou concessionárias
 
 ### Tipo Penal
 
@@ -85,4 +87,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

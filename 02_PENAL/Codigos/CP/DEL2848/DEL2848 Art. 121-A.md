@@ -38,22 +38,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a vida humana, em sua dimensão mais fundamental. Secundariamente, protege-se a dignidade da mulher e a igualdade de gênero, combatendo a violência motivada pela condição feminina. O fundamento constitucional reside no Art. 5º, caput, da Constituição Federal, que assegura o direito à vida, e no Art. 5º, I, que estabelece a igualdade entre homens e mulheres, além do Art. 226, § 8º, que impõe ao Estado o dever de coibir a violência no âmbito das relações familiares.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticar a conduta.
+- Sujeito passivo: Crime próprio. Somente mulher pode ser sujeito passivo, em razão da condição do sexo feminino.
+- Núcleo do tipo: O verbo "Matar", indicando a conduta de ceifar a vida de outrem.
+- Objeto material: O corpo da mulher sobre o qual recai a conduta letal.
+- Elementos normativos e descritivos: "mulher" (descritivo); "razões da condição do sexo feminino" (normativo, explicitado no § 1º); "violência doméstica e familiar" (normativo, I do § 1º); "menosprezo ou discriminação à condição de mulher" (normativo, II do § 1º).
+- Resultado exigido: Crime material, exigindo a produção do resultado morte para sua consumação.
+- Nexo causal / imputação objetiva: Indispensável a comprovação do nexo de causalidade entre a conduta do agente e o resultado morte da vítima, conforme Art. 13 do CP.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de feminicídio, conforme o Art. 121-A, admite apenas a modalidade dolosa. Exige-se o dolo direto ou eventual de matar. Não há previsão de modalidade culposa para este tipo penal. O elemento subjetivo especial reside na motivação de gênero, ou seja, o agente deve matar a mulher *por razões da condição do sexo feminino*, o que se manifesta pela violência doméstica e familiar ou pelo menosprezo/discriminação à condição de mulher, conforme § 1º. Não se trata de um dolo específico além da intenção de matar, mas sim de um elemento subjetivo que qualifica a conduta.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a efetivação da morte da mulher. A tentativa é cabível (Art. 14, II, CP), uma vez que o crime é plurissubsistente, ou seja, a conduta pode ser fracionada em atos executórios. Classifica-se como crime instantâneo, pois a consumação se dá em um momento determinado, sem prolongamento no tempo. É um crime material, exigindo o resultado morte. A desistência voluntária (Art. 15, CP) e o arrependimento posterior (Art. 16, CP) são relevantes para a tentativa, podendo levar à punição por atos já praticados ou à diminuição da pena, respectivamente, caso o agente impeça a consumação ou repare o dano antes do recebimento da denúncia.
 
 ### Penas Cominadas
 
@@ -95,4 +98,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

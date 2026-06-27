@@ -35,22 +35,28 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **liberdade individual**, especificamente a liberdade psíquica e de autodeterminação da pessoa, que é violada pela intimidação e pelo temor de um mal injusto e grave. Secundariamente, dada a qualificação do tipo penal, tutela-se a **administração da justiça** e a **ordem pública**, visando garantir a eficácia do combate ao crime organizado e proteger aqueles que atuam contra ele ou são afetados por suas condutas. O fundamento constitucional reside no Art. 5º, caput, da Constituição Federal, que assegura a liberdade, e no Art. 5º, II, que garante que ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+*   **Sujeito ativo:** Crime comum. Qualquer pessoa pode praticar a conduta.
+*   **Sujeito passivo:** Crime comum. Qualquer pessoa pode ser a vítima da ameaça.
+*   **Núcleo do tipo:** "Ameaçar". O verbo indica a conduta de intimidar, prometer ou anunciar a ocorrência de um mal futuro, injusto e grave.
+*   **Objeto material:** A pessoa contra quem a ameaça é dirigida.
+*   **Elementos normativos e descritivos:**
+    *   **Descritivos:** "por palavra, escrito ou gesto, ou qualquer outro meio simbólico" (formas da ameaça); "mal injusto e grave" (conteúdo da ameaça).
+    *   **Normativos:** "no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil" (exige a interpretação de outra norma para sua compreensão e subsunção).
+*   **Resultado exigido:** Crime formal. Consuma-se com a simples intimidação da vítima, ou seja, quando a ameaça chega ao seu conhecimento e é apta a gerar temor, independentemente da efetiva concretização do mal prometido ou do temor real da vítima.
+*   **Nexo causal / imputação objetiva:** A conduta de ameaçar deve ser a causa da potencial intimidação da vítima.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de ameaça qualificada do Art. 147-C admite exclusivamente o **dolo direto**. O agente deve ter a vontade livre e consciente de ameaçar a vítima, com o propósito de intimidá-la e causar-lhe temor de um mal injusto e grave. Além disso, exige-se um **elemento subjetivo especial (dolo específico / especial fim de agir)**: a ameaça deve ser proferida "no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil". Não há previsão de modalidade culposa para este delito.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+*   **Momento da consumação:** O crime se consuma no momento em que a ameaça é proferida e chega ao conhecimento da vítima, sendo apta a gerar temor, independentemente de a vítima efetivamente se sentir intimidada. É um crime formal.
+*   **A tentativa é cabível (art. 14 CP)?** Sim, é cabível, especialmente nas formas escritas ou por meio simbólico, onde o iter
 
 ### Penas Cominadas
 
@@ -86,4 +92,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

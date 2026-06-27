@@ -39,22 +39,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a vida do feto/nascituro. Secundariamente, protege-se a saúde da gestante, embora o foco principal seja a interrupção da vida intrauterina. O fundamento constitucional reside no direito à vida, previsto no Art. 5º, *caput*, da Constituição Federal de 1988, que abrange a proteção da vida desde a concepção. O Art. 124 é uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** A própria gestante. É um crime de mão própria na modalidade de autoprovoção ("provocar aborto em si mesma") e um crime próprio na modalidade de consentimento ("consentir que outrem lho provoque").
+- **Sujeito passivo:** O feto/nascituro.
+- **Núcleo do tipo:** "Provocar" (causar, dar origem) e "consentir" (permitir, autorizar).
+- **Objeto material:** O feto/nascituro.
+- **Elementos normativos e descritivos:** "Aborto" (interrupção da gravidez com a morte do feto). "Em si mesma" (autoprovoção). "Consentir que outrem lho provoque" (anuência da gestante à conduta de terceiro).
+- **Resultado exigido:** Crime material, pois exige a efetiva morte do feto para sua consumação.
+- **Nexo causal / imputação objetiva:** A conduta da gestante (provocar ou consentir) deve ser a causa direta e eficiente da morte do feto.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de aborto provocado pela gestante ou com seu consentimento (Art. 124) exige dolo. O elemento subjetivo é o dolo direto, ou seja, a gestante age com a intenção específica de interromper a gravidez e causar a morte do feto. Não há previsão de modalidade culposa para este tipo penal; o aborto culposo não é tipificado no Código Penal brasileiro. Não se exige elemento subjetivo especial (dolo específico ou especial fim de agir). O dolo eventual é teoricamente possível, mas a natureza da conduta geralmente aponta para o dolo direto.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação do crime ocorre com a morte do feto, decorrente da conduta da gestante. A tentativa é cabível (Art. 14, II, CP), pois o *iter criminis* pode ser interrompido por circunstâncias alheias à vontade da gestante após o início dos atos executórios. Classifica-se como crime instantâneo (o resultado se produz em um momento determinado) e crime material (exige um resultado naturalístico). A desistência voluntária (Art. 15, CP) é relevante se a gestante, após iniciar os atos, desiste de prosseguir e o aborto não se consuma, respondendo apenas pelos atos já praticados. O arrependimento posterior (Art. 16, CP) não é aplicável, pois o bem jurídico tutelado (vida) é irreparável.
 
 ### Penas Cominadas
 
@@ -79,15 +82,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STF — ADPF 54:** Declarou a inconstitucionalidade da interpretação que criminaliza a interrupção da gravidez de feto anencéfalo, afastando a tipicidade penal para esses casos.
+- **STF — Tese (HC 124.306/RJ):** Em decisão da 1ª Turma, o Ministro Luís Roberto Barroso defendeu a não criminalização do aborto realizado nos três primeiros meses de gestação, sob o argumento de que a criminalização é incompatível com diversos direitos fundamentais da mulher. Embora não tenha efeito *erga omnes*, é um precedente relevante na discussão sobre a constitucionalidade do Art. 124.
+- **STF — ADPF 442:** Discute a descriminalização do aborto até a 12ª semana de gestação, com julgamento suspenso, mas que aborda diretamente a constitucionalidade do Art. 124 e seguintes.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:**
+    - A denúncia deve detalhar a conduta da gestante e o nexo causal com a morte do feto.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

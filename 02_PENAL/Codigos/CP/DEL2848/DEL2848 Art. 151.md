@@ -35,22 +35,32 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a inviolabilidade do sigilo das comunicações e da correspondência, que se insere no direito fundamental à privacidade e à intimidade. Este direito encontra fundamento constitucional no Art. 5º, X, da Constituição Federal, que assegura a inviolabilidade da intimidade, vida privada, honra e imagem das pessoas, e, de forma mais específica, no Art. 5º, XII, que garante a inviolabilidade do sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal. Trata-se de uma norma incriminadora que visa proteger a esfera privada do indivíduo contra intromissões indevidas.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum, pode ser praticado por qualquer pessoa.
+- **Sujeito passivo:** O destinatário da correspondência ou comunicação, ou o remetente, ou, em sentido mais amplo, a coletividade que tem interesse na proteção do sigilo.
+- **Núcleo do tipo:**
+    - Caput: "Devassar" (tomar conhecimento, violar o sigilo).
+    - § 1º, I: "Apossa", "sonega" (ocultar), "destrói".
+    - § 1º, II: "Divulga", "transmite a outrem", "utiliza abusivamente".
+- **Objeto material:** Correspondência fechada (caput), correspondência alheia (mesmo não fechada, §1º, I), comunicação telegráfica, radioelétrica ou telefônica (§1º, II).
+- **Elementos normativos:** "Indevidamente" (caput e §1º, II), "alheia" (§1º, I), "abusivamente" (§1º, II), "dirigida a outrem/terceiro", "entre outras pessoas". Tais termos denotam a ausência de autorização legal ou do titular do direito.
+- **Resultado exigido:** Crime formal (caput e §1º, II, pois a consumação se dá com a prática da conduta, independentemente de um dano material) ou de mera conduta (§1º, I, no caso de apossamento, sonegação ou destruição, onde a ação já configura o crime).
+- **Nexo causal / imputação objetiva:** A imputação é direta à conduta do agente, não exigindo um nexo causal complexo.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime previsto no Art. 151 do Código Penal é exclusivamente doloso. Exige-se o dolo direto, ou seja, a vontade livre e consciente de praticar uma das condutas típicas (devassar, apossar-se, sonegar, destruir, divulgar, transmitir ou utilizar abusivamente) com a finalidade de violar o sigilo ou a integridade da correspondência/comunicação. Não há previsão de modalidade culposa, de modo que a conduta praticada sem a intenção de violar o sigilo ou sem a consciência da ilicitude não configura o delito. Não se exige um dolo específico ou especial fim de agir além da própria intenção de realizar a conduta descrita no tipo penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre:
+- Caput: No momento em que o agente toma conhecimento do conteúdo da correspondência fechada.
+- § 1º, I: No momento do apossamento, sonegação ou destruição da correspondência.
+- § 1º, II: No momento da divulgação, transmissão ou utilização abusiva da comunicação.
+A tentativa é cabível (Art. 14 CP) nas modalidades em que a conduta pode ser fracionada (crimes plurissubsistentes), como tentar devassar uma correspondência e ser impedido antes de ler o conteúdo, ou tentar divulgar uma comunicação e ser interrompido. É um crime instantâneo, pois a consumação se dá em um momento determinado, sem prolongamento no tempo. A desistência voluntária (Art. 15 CP) pode ocorrer se o agente, após iniciar a execução, desiste de prosseguir antes da consumação. O arrependimento posterior (Art. 16 CP) não se aplica diretamente como causa de diminuição de pena, pois a violação do sigilo é um dano de difícil reparação, mas a reparação do dano pode influenciar na dosimetria da pena.
 
 ### Penas Cominadas
 
@@ -76,7 +86,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STJ — Informativo 625:** Embora não diretamente sobre o Art. 151 CP, o STJ tem se posicionado sobre a inviolabilidade de comunicações eletrônicas, como e-mails e mensagens instantâneas, aplicando analogicamente ou por interpretação extensiva o conceito de "correspondência" e "comunicação" para proteger a privacidade no ambiente digital, ou remetendo a crimes mais específicos como o Art. 154-A do CP (invasão de dispositivo informático).
+- **STF — ADPF 130:** Embora focada na liberdade de imprensa, a decisão do STF reforça a importância da proteção constitucional da privacidade e da intimidade (Art. 5º, X e XII, CF), servindo como base interpretativa para a inviolabilidade das comunicações, inclusive as previstas no Art. 151 CP. A licitude da conduta é sempre balizada pela ausência de autorização legal ou judicial.
+- **STJ — REsp 1.765.239/SP:** Em casos que envolvem a Lei 9.29
 
 ---
 
@@ -87,4 +99,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

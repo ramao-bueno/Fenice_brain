@@ -35,26 +35,28 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+Art. 109 não tutela um bem jurídico específico no sentido de um valor social a ser protegido contra uma conduta lesiva, pois não se trata de norma incriminadora. Sua natureza jurídica é de norma de direito material penal que disciplina a *extinção da punibilidade* pela prescrição da pretensão punitiva. O instituto da prescrição, em geral, visa garantir a *segurança jurídica*, a *razoável duração do processo* (CF, art. 5º, LXXVIII) e a *dignidade da pessoa humana* (CF, art. 1º, III), impedindo que o indivíduo permaneça indefinidamente sob a ameaça do *jus puniendi* estatal. Ele estabelece um limite temporal para o exercício do poder punitivo do Estado, assegurando que este seja exercido de forma célere e eficaz, sob pena de sua perda.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+Art. 109 não é um tipo penal no sentido de descrever uma conduta criminosa. Ele é uma *norma de direito material penal* que estabelece os *critérios para a contagem dos prazos da prescrição da pretensão punitiva* (aquela que ocorre antes do trânsito em julgado da sentença final).
+- **Estrutura jurídica:** Define uma tabela de prazos prescricionais baseada no *máximo da pena privativa de liberdade cominada em abstrato* ao crime.
+- **Objeto da norma:** A pretensão punitiva estatal.
+- **Elementos normativos:** "prescrição", "transitar em julgado a sentença final", "máximo da pena privativa de liberdade cominada ao crime".
+- **Elementos descritivos:** Os prazos específicos (vinte, dezesseis, doze, oito, quatro anos, etc.) e os intervalos de pena correspondentes.
+- **Função:** Fornecer a base legal para determinar se o Estado perdeu o direito de processar ou julgar um indivíduo por um crime.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica a conceituação de dolo ou culpa ao Art. 109, pois ele não descreve uma conduta humana criminosa. A prescrição é um instituto de direito público que opera *objetivamente* em razão do decurso do tempo, independentemente da intenção ou negligência das partes envolvidas (acusação, defesa, ou mesmo do próprio Estado). A inércia estatal, que leva à prescrição, não é um elemento subjetivo a ser analisado, mas uma condição fática (o tempo decorrido) que gera uma consequência jurídica (a extinção da punibilidade).
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível em relação ao Art. 109. Este artigo não tipifica um crime, mas sim um instituto de direito material penal que regula a *extinção da punibilidade*. A prescrição é um evento jurídico que se consuma com o decurso do prazo legalmente estabelecido, não sendo uma conduta que possa ser iniciada e não consumada por circunstâncias alheias à vontade do agente. Não há que se falar em desistência voluntária ou arrependimento posterior, pois estes são institutos aplicáveis à conduta criminosa do agente, e não à inércia do Estado ou ao decurso do tempo.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O Art. 109 não comina penas. Sua função é precisamente oposta: ele estabelece os prazos após os quais o Estado *perde o direito de impor ou executar uma pena*. Ele é um dos dispositivos que regulam a *extinção da punibilidade* (Art. 107, IV, CP). As penas (privativa de liberdade, restritiva de direitos, multa) são cominadas pelos tipos penais incriminadores, e o Art. 109 serve como parâmetro para verificar se a pretensão punitiva relativa a esses crimes ainda pode ser exercida. Portanto, conceitos como regime inicial, crime hediondo, ANPP, transação penal ou suspensão condicional do processo não se aplicam diretamente ao Art. 109
 
 ---
 
@@ -85,4 +87,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

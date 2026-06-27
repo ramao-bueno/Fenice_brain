@@ -36,22 +36,28 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **inviolabilidade de domicílio**, que garante a privacidade e a tranquilidade do indivíduo em seu lar. Secundariamente, protege-se a liberdade individual e a segurança patrimonial. O fundamento constitucional encontra-se no Art. 5º, inciso XI, da Constituição Federal de 1988, que estabelece: "a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial." O § 3º do Art. 150 não constitui norma incriminadora, mas sim uma **norma permissiva ou excludente de tipicidade/ilicitude**, que define situações em que a entrada ou permanência em domicílio alheio não configura crime, alinhando-se às exceções constitucionais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo:** Crime comum, pode ser praticado por qualquer pessoa.
+-   **Sujeito passivo:** O titular do direito à inviolabilidade do domicílio, seja proprietário, possuidor ou mero morador.
+-   **Núcleo do tipo:** "Entrar" (transpor os limites do domicílio) ou "permanecer" (manter-se no local após a entrada). São condutas alternativas.
+-   **Objeto material:** "Casa alheia ou em suas dependências". O conceito de "casa" é amplo, abrangendo qualquer compartimento habitado, ainda que de ocupação transitória.
+-   **Elementos normativos e descritivos:**
+    -   **Descritivos:** "casa alheia ou em suas dependências".
+    -   **Normativos:** "clandestina ou astuciosamente" (sem conhecimento ou com engano), "contra a vontade expressa ou tácita de quem de direito" (ausência de consentimento). "De direito" refere-se a quem tem o poder de consentir ou não.
+-   **Resultado exigido:** Crime de mera conduta, não exige resultado naturalístico. A consumação ocorre com a simples entrada ou permanência indevida.
+-   **Nexo causal / imputação objetiva:** Não se aplica diretamente, por ser crime de mera conduta.
+-   **§ 3º:** Não é norma incriminadora. É uma norma que afasta a tipicidade penal da conduta, listando hipóteses em que a entrada ou permanência é lícita (e.g., para prestar socorro, em caso de desastre, ou para cumprir dever legal).
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de violação de domicílio é punido exclusivamente a título de **dolo direto**. O agente deve ter a vontade livre e consciente de entrar ou permanecer em casa alheia, ciente de que o faz clandestina ou astuciosamente, ou contra a vontade do morador. Não se admite a modalidade culposa. Não há previsão de dolo eventual. Também não se exige um elemento subjetivo especial (dolo específico ou especial fim de agir) além da própria vontade de violar o domicílio. Para as hipóteses do § 3º (norma permissiva), o elemento subjetivo da causa justificante é a finalidade legítima do agente (e.g., intenção de prestar socorro, de cumprir um dever legal, etc.), que afasta o dolo de violar o domicílio ou a própria ilicitude da conduta.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o agente transpõe os limites da "casa" (no caso de "entrar") ou no instante em que se mantém no local após a entrada (no caso de "permanecer"), contra a vontade do morador ou de forma clandestina/astuciosamente. A **tentativa é cabível** (Art. 14 CP), pois a conduta pode ser fracionada (ex: o agente tenta entrar, mas é impedido antes de transpor completamente os limites do domicílio). O crime é **instantâneo**, pois a consumação se dá em um momento determinado, ainda que a permanência prolongue o estado de violação. É classificado como crime de **mera conduta**. A **desistência voluntária** (Art. 15 CP) é relevante se o agente, durante a execução, desiste de prosseguir com a entrada. O **arrependimento posterior** (Art. 16 CP) não se aplica de forma típica, pois o dano (violação da privacidade) não é materialmente reparável ou restituível nos termos do artigo.
 
 ### Penas Cominadas
 
@@ -75,7 +81,9 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+-   **STJ — Súmula 607:** "O registro de conversas telefônicas ou ambientais sem autorização judicial ou de um dos interlocutores é ilícito, salvo se o objetivo for a defesa própria, o que pode ser considerado uma causa de exclusão da ilicitude." Embora não diretamente sobre o Art. 150, a súmula reforça a proteção da privacidade e a excepcionalidade das invasões, por analogia, ao conceito de inviolabilidade.
+-   **STJ — Informativo 634 (REsp 1.700.551/MG):** O conceito de "casa" para fins de inviolabilidade domiciliar (Art. 5º, XI, CF) abrange o quarto de hotel ocupado, ainda que de forma transitória. A violação de domicílio em tal local configura o crime do Art. 150 do CP.
+-   **STJ — Tese (HC 350.252/SP):** A qualificadora do emprego de violência no crime de violação de domicílio (§1º do Art. 150 do CP
 
 ---
 
@@ -86,4 +94,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

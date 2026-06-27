@@ -38,22 +38,36 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, especificamente a propriedade e a posse. A norma visa proteger o direito de propriedade e a integridade do patrimônio individual, garantidos constitucionalmente pelo Art. 5º, XXII, da Constituição Federal. Trata-se de uma norma incriminadora, que define um crime contra o patrimônio.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: Qualquer pessoa física ou jurídica que seja proprietária, possuidora ou detentora da coisa subtraída.
+- Núcleo do tipo: "Subtrair" – retirar a coisa da esfera de disponibilidade da vítima, sem sua permissão, para si ou para outrem.
+- Objeto material: "Coisa alheia móvel". "Alheia" significa que não pertence ao agente. "Móvel" é tudo o que pode ser transportado. O § 3º equipara a energia elétrica e qualquer outra que tenha valor econômico à coisa móvel.
+- Elementos normativos e descritivos:
+    - Descritivos: "coisa", "móvel", "energia elétrica".
+    - Normativos: "alheia" (exige um juízo de valor sobre a propriedade).
+- Resultado exigido: Crime material, exige a efetiva subtração e a inversão da posse, ainda que por breve tempo.
+- Nexo causal / imputação objetiva: A conduta de subtrair deve ser a causa da perda da posse pela vítima e da aquisição da posse pelo agente.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de furto é punido exclusivamente a título de dolo.
+- Dolo direto: O agente tem a intenção clara e consciente de subtrair a coisa alheia móvel.
+- Dolo eventual: Em tese, possível, mas de difícil configuração na prática, pois o *animus furandi* geralmente exige uma vontade específica.
+- Culpa: Não admite modalidade culposa, em observância ao princípio da legalidade (não há previsão legal para furto culposo).
+- Elemento subjetivo especial: O tipo exige o "animus furandi", ou seja, a intenção de assenhoramento definitivo da coisa para si ou para outrem, que se extrai da expressão "para si ou para outrem".
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação: O crime de furto se consuma no momento em que o agente, após a subtração, tem a posse da *res furtiva*, ainda que por breve tempo e sem que seja mansa e pacífica, e mesmo que não a retire da esfera de vigilância da vítima (Teoria da *Amotio* ou *Apprehensio*, adotada pelo STF e STJ).
+- A tentativa é cabível (Art. 14, II, CP)? Sim, perfeitamente cabível quando o agente inicia a execução, mas não consegue consumar o crime por circunstâncias alheias à sua vontade (ex: é surpreendido antes de retirar a coisa da esfera de vigilância da vítima).
+- Classificação: É um crime instantâneo e material.
+- Desistência voluntária (Art. 15) ou arrependimento posterior (Art. 16) relevantes?
+    - Desistência voluntária: Cabível antes da consumação, o agente responde apenas pelos atos já praticados.
+    - Arrependimento posterior: Cabível após a consumação, se o crime é sem violência ou grave ameaça à pessoa, e a reparação do dano ou restituição da coisa é integral e voluntária, até o recebimento da denúncia. Gera causa de diminuição de pena (1/3 a 2/3).
 
 ### Penas Cominadas
 
@@ -93,4 +107,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

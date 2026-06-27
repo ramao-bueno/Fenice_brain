@@ -3,7 +3,7 @@
 """
 preencher_analise_cp.py
 Preenche automaticamente as seções de análise técnica de todas as notas
-do Código Penal (DEL2848) usando Groq API (llama-3.3-70b-versatile).
+do Código Penal (DEL2848) usando Google Gemini API (gemini-1.5-flash).
 
 Uso:
   python scripts/preencher_analise_cp.py              # processa todos os vazios
@@ -27,7 +27,8 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from groq import Groq
+from google import genai
+from google.genai import types as genai_types
 from dotenv import load_dotenv
 
 # ─── Configuração ────────────────────────────────────────────────────────────
@@ -39,11 +40,11 @@ LOG_FILE   = SCRIPT_DIR / "logs" / "preencher_analise_cp.log"
 DONE_FILE  = SCRIPT_DIR / "logs" / "preencher_analise_cp.done.json"
 
 load_dotenv(VAULT / ".env")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-MODEL   = "llama-3.3-70b-versatile"
-DELAY   = 2.5   # segundos entre chamadas (Groq free: ~30 req/min)
-MAX_TOKENS = 1800
+MODEL      = "gemini-2.5-flash"
+DELAY      = 1.5   # segundos entre chamadas (Gemini free: 15 req/min)
+MAX_TOKENS = 4000
 
 # Marcadores que indicam seção ainda vazia (template original)
 EMPTY_MARKERS = [
@@ -232,18 +233,20 @@ def substituir_secoes(texto_orig: str, secoes: dict) -> str:
     return resultado
 
 
-# ─── Chamada Groq ────────────────────────────────────────────────────────────
+# ─── Chamada Gemini ──────────────────────────────────────────────────────────
 
-def chamar_groq(client: Groq, num: str, redacao: str) -> dict | None:
+def chamar_gemini(client, num: str, redacao: str, _tentativa: int = 0) -> dict | None:
     prompt = PROMPT.format(num=num, redacao=redacao)
     try:
-        resp = client.chat.completions.create(
+        resp = client.models.generate_content(
             model=MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=MAX_TOKENS,
-            temperature=0.3,
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                max_output_tokens=MAX_TOKENS,
+                temperature=0.3,
+            ),
         )
-        texto = resp.choices[0].message.content or ""
+        texto = resp.text or ""
         secoes = parse_resposta(texto)
         if not secoes:
             log(f"  Art. {num}: resposta sem seções reconhecíveis", "WARN")
@@ -251,19 +254,15 @@ def chamar_groq(client: Groq, num: str, redacao: str) -> dict | None:
         return secoes
     except Exception as e:
         msg = str(e)
-        # Rate limit de tokens por dia (TPD) — aguarda e não conta como erro
-        if '429' in msg and 'tokens per day' in msg.lower():
-            import re as _re
-            m = _re.search(r'try again in (\d+)m(\d+)', msg)
-            espera = int(m.group(1)) * 60 + int(m.group(2)) + 30 if m else 720
-            log(f"  Art. {num}: limite diário de tokens atingido — aguardando {espera//60}m{espera%60}s...", "WARN")
+        if _tentativa >= 3:
+            log(f"  Art. {num}: 3 tentativas falharam — {e}", "ERROR")
+            return None
+        # Rate limit por minuto (429 / Resource Exhausted)
+        if '429' in msg or 'Resource' in msg or 'quota' in msg.lower():
+            espera = 65 * (2 ** _tentativa)  # backoff: 65s, 130s, 260s
+            log(f"  Art. {num}: rate limit — aguardando {espera}s... (tentativa {_tentativa+1})", "WARN")
             time.sleep(espera)
-            return chamar_groq(client, num, redacao)  # tenta novamente após a espera
-        # Rate limit de requisições por minuto — backoff curto
-        if '429' in msg:
-            log(f"  Art. {num}: rate limit (req/min) — aguardando 65s...", "WARN")
-            time.sleep(65)
-            return chamar_groq(client, num, redacao)
+            return chamar_gemini(client, num, redacao, _tentativa + 1)
         log(f"  Art. {num}: erro na API — {e}", "ERROR")
         return None
 
@@ -283,11 +282,11 @@ def main():
                         help=f"Segundos entre chamadas API (padrão: {DELAY})")
     args = parser.parse_args()
 
-    if not GROQ_API_KEY:
-        print("ERRO: GROQ_API_KEY não encontrada no .env")
+    if not GEMINI_API_KEY:
+        print("ERRO: GEMINI_API_KEY não encontrada no .env")
         sys.exit(1)
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
     done   = carregar_done() if not args.force else set()
 
     # Lista de arquivos a processar
@@ -343,8 +342,8 @@ def main():
             ignorados += 1
             continue
 
-        log(f"→ Art. {num}: chamando Groq...")
-        secoes = chamar_groq(client, num, redacao)
+        log(f"→ Art. {num}: chamando Gemini...")
+        secoes = chamar_gemini(client, num, redacao)
 
         if not secoes:
             erros += 1

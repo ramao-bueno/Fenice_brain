@@ -38,22 +38,34 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é o **patrimônio**, compreendendo a propriedade, posse ou detenção de coisa móvel. Secundariamente, são tutelados a **integridade física** e a **liberdade individual** da vítima, em razão do emprego de grave ameaça ou violência à pessoa. O fundamento constitucional reside no Art. 5º, XXII (direito de propriedade), e no Art. 5º, caput (inviolabilidade do direito à vida, à liberdade e à segurança), da Constituição Federal. O Art. 157 é uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: Qualquer pessoa que sofra a lesão patrimonial ou a violência/grave ameaça (proprietário, possuidor, detentor da coisa ou terceiro presente).
+- Núcleo do tipo: "Subtrair" (no caput), "emprega" (no §1º).
+- Objeto material: "Coisa móvel alheia" (sobre o que recai a subtração) e a "pessoa" (sobre quem recai a violência/grave ameaça).
+- Elementos normativos e descritivos:
+    - Descritivos: "coisa móvel alheia", "grave ameaça", "violência a pessoa", "impossibilidade de resistência".
+    - Normativos: "alheia" (exige interpretação jurídica de propriedade/posse).
+- Resultado exigido: Crime material, exige a efetiva subtração da coisa e a lesão ao patrimônio, com a inversão da posse.
+- Nexo causal / imputação objetiva: A violência ou grave ameaça deve ser o meio empregado para a subtração da coisa ou, no roubo impróprio (§1º), para assegurar a impunidade ou a detenção da coisa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de roubo é punido exclusivamente a título de **dolo**.
+- **Dolo direto**: O agente tem a vontade livre e consciente de subtrair coisa móvel alheia para si ou para outrem, empregando grave ameaça ou violência à pessoa.
+- **Dolo eventual**: Pode ocorrer em relação à violência empregada, mas o dolo de subtrair a coisa é sempre direto.
+- **Elemento subjetivo especial (dolo específico / especial fim de agir)**: No caput, "para si ou para outrem" (animus rem sibi habendi – intenção de assenhoramento definitivo). No §1º (roubo impróprio), "a fim de assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro". Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação: O roubo se consuma no momento em que o agente, mediante violência ou grave ameaça, inverte a posse da coisa, ainda que por breve tempo e que não haja posse mansa e pacífica, ou que a coisa saia da esfera de vigilância da vítima (teoria da *amotio* ou *apprehensio*).
+- A tentativa é cabível (Art. 14, II, CP). Ex: o agente emprega a violência/ameaça, mas é impedido por terceiros de subtrair a coisa.
+- Classificação: Crime instantâneo e material.
+- Desistência voluntária (Art. 15): Cabível, se o agente desiste de prosseguir na execução antes da consumação, respondendo pelos atos já praticados (ex: lesão corporal ou ameaça).
+- Arrependimento posterior (Art. 16): Não é cabível, pois o crime é cometido com violência ou grave ameaça à pessoa.
 
 ### Penas Cominadas
 
@@ -93,4 +105,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

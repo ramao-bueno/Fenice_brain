@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 59 do Código Penal não tutela um bem jurídico específico, pois se refere à fixação da pena pelo juiz. No entanto, a pena é uma medida que visa proteger a sociedade e garantir a ordem jurídica, conforme o art. 5º, XLVI, da Constituição Federal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: o réu
+- Núcleo do tipo: estabelecer
+- Objeto material: a pena
+- Elementos normativos: culpabilidade, antecedentes, conduta social, personalidade do agente, motivos, circunstâncias e conseqüências do crime
+- Resultado exigido: não se aplica, pois não é um crime
+- Nexo causal / imputação objetiva: não se aplica
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo 59 não se refere a um crime, mas sim à fixação da pena pelo juiz.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo 59 não se refere a um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 59 não comina pena, mas sim estabelece critérios para a fixação da pena pelo juiz. A pena é aplicada de acordo com as circunstâncias do crime e do réu.
 
 ---
 
@@ -81,9 +84,10 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação da pena de acordo com as circunstâncias do crime e do réu.
+- **Defesa:** pode arguir a atipicidade do fato ou a inaplicabilidade da pena.
+- **Prática/Tribunais:** a fixação da pena é competência do juiz, que deve fundamentar sua decisão.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '169'
 lei: DL 2.848/1940 — Código Penal
@@ -35,22 +38,28 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, especificamente o direito de propriedade e posse sobre bens móveis. O fundamento constitucional reside no Art. 5º, XXII, da Constituição Federal, que assegura o direito de propriedade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: O proprietário ou o legítimo possuidor da coisa.
+- Núcleo do tipo: O verbo "apropriar-se", que significa tomar para si, incorporar ao seu patrimônio, com ânimo de dono.
+- Objeto material:
+    - Caput: Coisa alheia móvel que chegou ao poder do agente por erro, caso fortuito ou força da natureza.
+    - Parágrafo único, I: A quota do tesouro a que tem direito o proprietário do prédio alheio.
+    - Parágrafo único, II: Coisa alheia perdida.
+- Elementos normativos e descritivos: "alheia", "erro", "caso fortuito", "força da natureza", "tesouro", "prédio alheio", "quota a que tem direito o proprietário", "coisa perdida", "legítimo possuidor", "autoridade competente", "prazo de quinze dias".
+- Resultado exigido: Crime material, exige a efetiva apropriação e a consequente lesão patrimonial.
+- Nexo causal / imputação objetiva: A apropriação deve ser uma consequência direta da posse inicial obtida pelas circunstâncias descritas no tipo.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo direto. O agente deve ter a intenção de apropriar-se da coisa, ou seja, o "animus rem sibi habendi" (ânimo de ter a coisa para si como dono), sabendo que ela não lhe pertence e que a posse inicial se deu por uma das circunstâncias específicas do tipo. Não se admite dolo eventual. A modalidade culposa não é tipificada para este delito.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o agente inverte o título da posse, passando a dispor da coisa como se fosse sua, com ânimo definitivo, e deixa de restituí-la ou entregá-la à autoridade competente. A tentativa é cabível, pois é um crime material e plurissubsistente (ex: o agente é surpreendido ao tentar ocultar a coisa achada para não restituir). O crime é instantâneo. É um crime material. É cabível o arrependimento posterior (Art. 16 CP), dada a pena máxima de 1 ano de detenção e a ausência de violência ou grave ameaça, permitindo a redução da pena de um a dois terços se a restituição for integral e anterior ao recebimento da denúncia ou queixa.
 
 ### Penas Cominadas
 
@@ -75,15 +84,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — RHC 108.995/SP: "A distinção entre o crime de furto e o de apropriação de coisa achada reside na situação em que a coisa se encontra. Se a coisa está em local público, mas em condições de ser facilmente encontrada pelo proprietário, a sua subtração configura furto. Contudo, se a coisa está realmente perdida, sem que o proprietário tenha condições de localizá-la, a apropriação configura o delito do art. 169, parágrafo único, II, do CP."
+- STJ — Informativo 667: "A apropriação de coisa achada, tipificada no art. 169, parágrafo único, II, do CP, exige o dolo específico de não restituir a coisa ao dono ou de não entregá-la à autoridade competente."
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar as circunstâncias em que a coisa veio ao poder do agente (erro, caso fortuito, força da natureza, achado de tesouro ou coisa perdida) e o "animus rem sibi habendi". É crucial provar que a coisa era "perdida" (e não "esquecida" ou "abandonada") e que o prazo de 15 dias foi ultrapassado sem a devida restituição ou entrega à autoridade.
+- **Defesa:** Teses frequentes incluem a ausência de dolo (ex: intenção de restituir, mas impedido; erro sobre a propriedade da coisa), a alegação de que a coisa era "abandonada" (res derelicta) e não "perdida", ou que o prazo legal para restituição não foi excedido. Pode-se buscar a desclassificação para furto se a coisa não estava perdida, mas esquecida em local de fácil acesso, ou a aplicação do princípio da insignificância se o valor da coisa for irrisório.
+- **Prática/Tribunais:** A competência para processar e julgar este crime é do Juizado Especial Criminal (JECRIM), em razão da pena máxima não exceder 2 anos (infração de menor potencial ofensivo). O procedimento é o sumaríssimo (Lei 9.099/95). Em concursos, é comum a distinção entre este tipo penal, furto (Art. 155 CP) e apropriação indébita (Art. 168 CP), sendo a natureza da posse inicial (lícita e originada de erro/achado vs. lícita por entrega voluntária vs. ilícita por subtração) o ponto chave.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

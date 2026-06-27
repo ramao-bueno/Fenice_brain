@@ -38,22 +38,32 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a vida humana, o mais fundamental dos direitos, inerente à pessoa. Trata-se de um direito inviolável, garantido constitucionalmente pelo Art. 5º, caput, da Constituição Federal de 1988, que assegura o direito à vida. O artigo 121 do Código Penal tipifica o crime contra a pessoa, especificamente contra a vida.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticá-lo.
+- Sujeito passivo: Qualquer ser humano vivo.
+- Núcleo do tipo: O verbo "Matar".
+- Objeto material: O corpo da pessoa sobre a qual recai a conduta.
+- Elementos normativos e descritivos:
+    - Descritivo: "alguém".
+    - Normativos (§ 1º): "relevante valor social ou moral", "domínio de violenta emoção", "injusta provocação da vítima".
+    - Normativos (§ 2º): "paga ou promessa de recompensa", "motivo torpe", "motivo fútil", "veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum", "traição".
+- Resultado exigido: Crime material, exigindo a produção do resultado naturalístico (morte da vítima).
+- Nexo causal / imputação objetiva: Indispensável a comprovação do nexo entre a conduta do agente e o resultado morte.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O Art. 121, em sua redação apresentada, tipifica o homicídio doloso, admitindo tanto o dolo direto (quando o agente tem a intenção de matar) quanto o dolo eventual (quando o agente assume o risco de produzir o resultado morte).
+Existem elementos subjetivos especiais para as formas privilegiadas e qualificadas:
+- § 1º (Homicídio Privilegiado): O agente age "impelido por motivo de relevante valor social ou moral" ou "sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima". Estes são elementos subjetivos que atenuam a culpabilidade.
+- § 2º (Homicídio Qualificado): As qualificadoras I e II ("mediante paga ou promessa de recompensa, ou por outro motivo torpe" e "por motivo fútil") são de natureza subjetiva, relacionadas à motivação do crime.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+O momento da consumação do crime de homicídio ocorre com a efetivação da morte da vítima. A tentativa é plenamente cabível (Art. 14, II, CP), uma vez que se trata de um crime material, cuja execução pode ser interrompida antes da produção do resultado morte. O homicídio é classificado como crime instantâneo.
+A desistência voluntária (Art. 15, CP) é possível se o agente, voluntariamente, desiste de prosseguir na execução do ato antes da consumação da morte. O arrependimento posterior (Art. 16, CP) não é aplicável ao crime de homicídio, por ser um crime contra a vida e não um crime cometido sem violência ou grave ameaça à pessoa, com reparação do dano ou restituição da coisa.
 
 ### Penas Cominadas
 
@@ -94,4 +104,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

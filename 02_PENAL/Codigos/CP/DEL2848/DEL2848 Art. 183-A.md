@@ -35,12 +35,11 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 183-A não tipifica um crime, mas é uma norma de extensão da punibilidade, atuando como causa de aumento de pena. O bem jurídico primário tutelado é aquele do crime base ao qual a causa de aumento se aplica. Considerando o Título III ("Dos Crimes Contra a Propriedade Imaterial"), o bem jurídico principal é a **Propriedade Imaterial** (ex: direito autoral, propriedade industrial). Contudo, a condição para o aumento ("contra as instituições financeiras e os prestadores de serviço de segurança privada") introduz uma proteção secundária e específica ao **Patrimônio** e à **Segurança** dessas entidades. A natureza jurídica é de norma de política criminal que visa recrudescer a resposta penal em face de vítimas específicas, consideradas mais vulneráveis ou estratégicas.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+O Art. 183-A não é um tipo penal incriminador, mas sim uma **causa de aumento de pena** aplicável aos crimes previstos no Título em que estiver inserido. Conforme o contexto fornecido ("
 
 ### Dolo/Culpa
 
@@ -84,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

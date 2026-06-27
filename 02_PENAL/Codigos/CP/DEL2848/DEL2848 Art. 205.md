@@ -35,12 +35,11 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+Tutela a Administração Pública, especificamente a autoridade e o prestígio das decisões administrativas. O bem jurídico é a garantia da eficácia e da observância das determinações legítimas do poder público. Fundamento constitucional nos princípios da legalidade, moralidade e eficiência da administração pública (CF art. 37, caput). A segunda parte da redação legal fornecida ("Aliciamento para o fim de emigração") é o título do Art. 205 original do CP, que tutela a liberdade individual e a ordem pública migratória, mas não constitui um tipo penal completo na forma apresentada.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum.
 
 ### Dolo/Culpa
 
@@ -86,4 +85,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

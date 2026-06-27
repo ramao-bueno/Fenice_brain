@@ -35,26 +35,31 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a justiça e a igualdade na aplicação das penas, garantindo que a sanção seja proporcional à capacidade econômica do réu. O fundamento constitucional é o princípio da isonomia (CF, art. 5º, caput). O artigo em questão não define um crime, mas estabelece regras para a fixação da pena de multa.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** o juiz
+- **Sujeito passivo:** o réu
+- **Núcleo do tipo:** fixar a pena de multa
+- **Objeto material:** a pena de multa
+- **Elementos normativos:** atender à situação econômica do réu
+O artigo não define um tipo penal incriminador, mas sim uma norma que regula a aplicação da pena de multa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma não exige dolo ou culpa, pois se trata de uma regra para a aplicação da pena de multa. O elemento subjetivo é a consideração da situação econômica do réu pelo juiz.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo não define um crime. A norma se refere à aplicação da pena de multa, que é uma sanção.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- **Pena do caput:** multa
+- **Causas de aumento:** até o triplo, se o juiz considerar que a multa é ineficaz
+- **Causas de diminuição:** não há
+A norma não comina pena, mas regula a aplicação da pena de multa.
 
 ---
 
@@ -71,15 +76,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 171: a multa não pode ser aumentada beyondo o triplo.
+- STF — Tese: a pena de multa deve ser fixada de acordo com a situação econômica do réu.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve demonstrar a capacidade econômica do réu para justificar a aplicação da pena de multa.
+- **Defesa:** pode alegar que a multa é excessiva ou ineficaz, considerando a situação econômica do réu.
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento é o da aplicação da pena de multa.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

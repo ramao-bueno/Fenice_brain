@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '171'
 lei: DL 2.848/1940 — Código Penal
@@ -35,22 +38,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é o **patrimônio** da vítima, compreendendo bens, valores e direitos de conteúdo econômico. Secundariamente, protege-se a boa-fé e a confiança nas relações jurídicas e comerciais. O fundamento constitucional reside no direito fundamental à propriedade (CF, art. 5º, XXII), que abrange a proteção contra a sua diminuição indevida por meios fraudulentos. O artigo 171 do Código Penal é uma norma incriminadora, definindo um crime contra o patrimônio.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo:** Crime comum, pode ser praticado por qualquer pessoa.
+-   **Sujeito passivo:** Qualquer pessoa física ou jurídica que sofra o prejuízo patrimonial decorrente da conduta fraudulenta.
+-   **Núcleo do tipo:** "Obter" (vantagem ilícita), "induzindo ou mantendo" (alguém em erro), "mediante artifício, ardil, ou qualquer outro meio fraudulento".
+-   **Objeto material:** A vantagem ilícita obtida e o prejuízo alheio sofrido.
+-   **Elementos normativos e descritivos:**
+    -   Descritivos: "vantagem ilícita", "prejuízo alheio", "erro", "artifício", "ardil", "meio fraudulento".
+    -   Normativos: "ilícita" (exige valoração jurídica da vantagem).
+-   **Resultado exigido:** Crime material, exige a efetiva obtenção da vantagem ilícita e o consequente prejuízo alheio para sua consumação.
+-   **Nexo causal / imputação objetiva:** A fraude deve ser a causa do erro da vítima, que por sua vez deve ser a causa da disposição patrimonial e do prejuízo.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de estelionato é punido exclusivamente a título de **dolo direto**. Exige-se a vontade livre e consciente de obter, para si ou para outrem, vantagem ilícita, mediante fraude, induzindo ou mantendo a vítima em erro, e causando-lhe prejuízo. Há um **elemento subjetivo especial** (dolo específico ou especial fim de agir): a finalidade de obter vantagem ilícita. Não se admite a modalidade culposa, nem o dolo eventual, pois a conduta de "induzir ou manter em erro" pressupõe uma intenção específica do agente.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação do estelionato ocorre no momento em que o agente obtém a vantagem ilícita em prejuízo alheio. Por ser um crime material e plurissubsistente, a **tentativa é plenamente cabível** (art. 14, II, CP), desde que os atos executórios sejam iniciados, mas a vantagem não seja obtida por circunstâncias alheias à vontade do agente. É um crime **instantâneo**, pois a consumação se dá em um momento determinado, embora seus efeitos possam perdurar. A **desistência voluntária** (art. 15, CP) é possível antes da consumação. O **arrependimento posterior** (art. 16, CP) é relevante, pois a pena mínima do caput (1 ano) permite sua aplicação, resultando em diminuição de pena.
 
 ### Penas Cominadas
 
@@ -91,4 +99,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

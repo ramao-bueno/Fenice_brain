@@ -35,12 +35,11 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 101 do Código Penal não tutela um bem jurídico específico no sentido material (vida, patrimônio, etc.). Sua natureza jurídica é de norma de direito processual penal com reflexos no direito penal material, atuando como regra de interpretação e extensão da natureza da ação penal. Visa assegurar a efetividade da persecução penal e o princípio da obrigatoriedade da ação penal pública, clarificando que a natureza da ação penal do crime principal não é alterada pela natureza da ação penal de um crime que o constitui como elemento ou circunstância, desde que este último já seja de iniciativa do Ministério Público (ainda que condicionado à representação).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+
 
 ### Dolo/Culpa
 
@@ -84,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

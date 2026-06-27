@@ -35,26 +35,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+Não se trata de norma incriminadora. O Art. 110 do Código Penal é uma norma de Direito Penal material (com reflexos processuais) que regula a extinção da punibilidade. Não tutela um bem jurídico específico como vida ou patrimônio. Atua como garantia individual contra a perpetuidade do poder punitivo estatal, assegurando a segurança jurídica e a razoável duração do processo. Seu fundamento constitucional é implícito nos princípios da segurança jurídica, dignidade da pessoa humana (CF art. 1º, III) e devido processo legal, que limitam a atuação estatal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+Não se trata de norma incriminadora. O Art. 110 estabelece as regras para a *prescrição da pretensão executória*.
+- Estrutura jurídica: Define que, após o trânsito em julgado da sentença condenatória, a prescrição se regula pela pena aplicada, remetendo aos prazos do Art. 109 CP.
+- Aumento de prazo: Prevê o aumento de um terço nos prazos se o condenado for reincidente (caput).
+- § 1º: Trata da prescrição intercorrente ou superveniente, regulando-a pela pena aplicada após o trânsito em julgado para a acusação, e veda que o termo inicial seja anterior à denúncia ou queixa.
+- Sujeito ativo/passivo, núcleo do tipo, objeto material, elementos normativos/descritivos, resultado e nexo causal não se aplicam, pois não é tipo penal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica. Por ser uma norma que trata da extinção da punibilidade, não exige elemento subjetivo (dolo ou culpa). A prescrição é uma causa objetiva de extinção da punibilidade, que opera pelo decurso do tempo, independentemente da vontade do agente ou do Estado.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica. O Art. 110 não descreve uma conduta criminosa, mas sim uma consequência jurídica (extinção da pretensão executória) decorrente do decurso do tempo. Não há que se falar em consumação, tentativa, desistência voluntária ou arrependimento posterior, pois são conceitos pertinentes aos tipos penais incriminadores.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena. O Art. 110 é uma norma de direito penal material que estabelece uma causa de extinção da punibilidade (prescrição da pretensão executória). Sua aplicação resulta na perda do direito do Estado de executar a pena imposta em sentença condenatória transitada em julgado. Portanto, não há previsão de pena privativa de liberdade, restritiva de direitos ou multa, nem qualificadoras, causas de aumento ou diminuição.
 
 ---
 
@@ -73,7 +74,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STJ — Súmula 435:** A prescrição da pretensão executória começa a correr do dia em que transita em julgado a sentença condenatória para a acusação, ou do dia em que se interrompe o cumprimento da pena,
 
 ---
 
@@ -84,4 +85,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

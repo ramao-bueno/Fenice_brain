@@ -38,22 +38,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade psíquica, a tranquilidade e a paz de espírito do indivíduo. Protege-se a incolumidade da pessoa contra a intimidação e o temor de um mal futuro. Fundamenta-se no direito à segurança e à liberdade individual, decorrentes do art. 5º, caput, da Constituição Federal, e no princípio da dignidade da pessoa humana (CF art. 1º, III).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: Qualquer pessoa capaz de compreender a ameaça e sentir-se intimidada.
+- Núcleo do tipo: "Ameaçar" – prometer mal injusto e grave, com o intuito de intimidar ou amedrontar.
+- Objeto material: Não há objeto material físico; a conduta recai sobre a liberdade psíquica da vítima.
+- Elementos normativos e descritivos:
+    - Descritivos: "por palavra, escrito ou gesto, ou qualquer outro meio simbólico" (formas de exteriorização da ameaça).
+    - Normativos: "mal injusto e grave" (exige valoração jurídica e social para determinar a injustiça e a gravidade do mal prometido).
+- Resultado exigido: Crime formal. Consuma-se com a mera exteriorização da ameaça e a potencialidade de intimidação, independentemente da efetiva intimidação da vítima ou da concretização do mal.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, por ser crime formal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de ameaça exige dolo direto. O agente deve ter a intenção específica de intimidar a vítima, prometendo-lhe um mal injusto e grave. Não se admite dolo eventual, pois a finalidade de intimidar é essencial. Não há previsão de modalidade culposa. Não há elemento subjetivo especial além da intenção de ameaçar.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a ameaça é exteriorizada e chega ao conhecimento da vítima (ou de terceiros que a transmitam), possuindo potencialidade de intimidação. A tentativa é cabível (art. 14 CP), especialmente nas formas escritas (ex: carta interceptada antes de chegar ao destinatário) ou por meios simbólicos. É um crime instantâneo e formal. Desistência voluntária (art. 15) ou arrependimento posterior (art. 16) não são diretamente relevantes para a consumação, mas podem influenciar a persecução penal ou a pena em outros contextos.
 
 ### Penas Cominadas
 
@@ -79,15 +84,27 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 600: "Para a configuração da violência doméstica e familiar prevista no art. 5º da Lei n. 11.340/2006, não se exige coabitação entre autor e vítima." (Relevante para o §1º).
+- STJ — Informativo 670: "É possível a aplicação do princípio da insignificância ao crime de ameaça (art. 147 do CP), desde que a conduta não esteja inserida no contexto de violência doméstica e familiar contra a mulher."
+- STJ — Tese: A palavra da vítima, em crimes de violência doméstica e familiar, possui especial relevância, mormente quando corroborada por outros elementos de prova.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:**
+    - Denunciar descrevendo a forma da ameaça, o mal prometido (injusto e grave) e a potencialidade de intimidação.
+    - Provar por depoimento da vítima, testemunhas, áudios, vídeos, mensagens, etc.
+    - Atentar para a nova redação do §1º (violência de gênero) e §2º (ação penal incondicionada para o §1º).
+- **Defesa:**
+    - Teses frequentes: ausência de dolo (brincadeira, desabafo momentâneo), ausência de seriedade ou potencialidade intimidatória da ameaça, mal não injusto ou não grave.
+    - Excludentes: legítima defesa (ameaça para repelir injusta agressão), estado de necessidade.
+    - Desclassificações: para vias de fato (se a ameaça não se configura ou é inócua).
+- **Prática/Tribunais:**
+    - Competência: Juizado Especial Criminal (JECRIM) para o caput. Vara de Violência Doméstica e Familiar contra a Mulher para o §1º.
+    - Procedimento: Sumaríssimo no JECRIM. Sumário na Vara de Violência Doméstica.
+    - Pontos de concurso: Dolo, elementos normativos ("injusto e grave"), momento da consumação, cabimento da tentativa, distinção com constrangimento ilegal ou extorsão. A alteração do §2º sobre a ação penal é crucial.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

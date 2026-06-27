@@ -35,22 +35,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a liberdade individual, em suas vertentes de liberdade de trabalho e de locomoção, garantindo a autodeterminação do indivíduo em relação ao seu labor e deslocamento. Secundariamente, protege-se a dignidade da pessoa humana e a ordem social, coibindo práticas de exploração e manipulação de trabalhadores. O fundamento constitucional reside no Art. 1º, III (dignidade da pessoa humana), Art. 5º, XV (liberdade de locomoção), e Art. 6º (direito social ao trabalho) da Constituição Federal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticá-lo.
+- Sujeito passivo: Os trabalhadores individualmente aliciados. A coletividade também pode ser considerada sujeito passivo mediato.
+- Núcleo do tipo: "Recrutar". Significa arregimentar, angariar, contratar ou aliciar.
+- Objeto material: Os trabalhadores que são alvo da conduta.
+- Elementos normativos e descritivos:
+    - Descritivos: "trabalhadores", "território estrangeiro".
+    - Normativos: "mediante fraude" (exige interpretação jurídica do que constitui a fraude, que deve ser o meio para o recrutamento) e "com o fim de" (elemento subjetivo especial).
+- Resultado exigido: Crime formal. A consumação ocorre com o efetivo recrutamento dos trabalhadores mediante fraude, independentemente de eles serem levados para o estrangeiro. A finalidade já basta.
+- Nexo causal / imputação objetiva: A fraude deve ser o meio determinante para o recrutamento dos trabalhadores.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é exclusivamente doloso, não admitindo modalidade culposa. Exige-se dolo direto, ou seja, a vontade livre e consciente de recrutar trabalhadores mediante fraude. Há um elemento subjetivo especial (dolo específico ou especial fim de agir), que é a finalidade de "levá-los para território estrangeiro". O agente deve ter a intenção específica de que os trabalhadores sejam conduzidos para fora do país, sendo irrelevante se essa finalidade é ou não alcançada.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o recrutamento dos trabalhadores é efetivado mediante fraude, com a finalidade de levá-los para o estrangeiro. Não é necessário que os trabalhadores cheguem a ser transportados. A tentativa é cabível (art. 14 CP), por exemplo, se o agente inicia o recrutamento fraudulento, mas não consegue concretizá-lo por circunstâncias alheias à sua vontade. É um crime instantâneo e formal. A desistência voluntária (art. 15 CP) é possível se o agente interrompe a execução antes da consumação. O arrependimento posterior (art. 16 CP) não é aplicável, pois a pena máxima é superior a 4 anos e o crime não envolve reparação de dano ou restituição.
 
 ### Penas Cominadas
 
@@ -75,15 +80,15 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Informativo 699: A fraude é elemento essencial do tipo penal do art. 206 do Código Penal, distinguindo-o do tráfico de pessoas (art. 149-A do CP), que pode ocorrer com ou sem fraude, mas com outras finalidades (exploração sexual, trabalho escravo, etc.). A distinção reside na finalidade e nos meios empregados.
+- STJ — Tese: O crime de aliciamento de trabalhadores para o estrangeiro (art. 206 do CP) não se confunde com o tráfico internacional de pessoas (art. 149-A do CP), sendo este último mais abrangente e com finalidades específicas de exploração, enquanto o art. 206 foca no recrutamento fraudulento para o exterior, independentemente da exploração posterior, embora possa ser um crime-meio para o tráfico.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve descrever detalhadamente a fraude empregada e a intenção de levar os trabalhadores para o estrangeiro. A prova da fraude é crucial, podendo ser feita por documentos falsos, promessas
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

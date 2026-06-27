@@ -35,22 +35,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a liberdade sexual e a dignidade sexual da pessoa humana. Secundariamente, protege-se a integridade física e psíquica da vítima. O fundamento constitucional reside no princípio da dignidade da pessoa humana (CF, art. 1º, III), no direito à liberdade (CF, art. 5º, caput) e na proteção da intimidade e vida privada (CF, art. 5º, X). O artigo tipifica um crime, não sendo norma permissiva ou de extensão.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Pode ser praticado por qualquer pessoa.
+- Sujeito passivo: Qualquer pessoa, independentemente de gênero ou idade (observada a distinção com o art. 217-A CP para menores de 14 anos).
+- Núcleo do tipo: "Constranger" (obrigar, coagir), "ter conjunção carnal" (cópula vaginal, anal ou oral), "praticar ou permitir que com ele se pratique outro ato libidinoso" (qualquer ato sexual diverso da conjunção carnal que atente contra a dignidade sexual).
+- Objeto material: O corpo da vítima e sua liberdade de autodeterminação sexual.
+- Elementos normativos e descritivos: "Mediante violência ou grave ameaça" (elementos normativos que exigem valoração jurídica para sua configuração). "Conjunção carnal" e "ato libidinoso" (elementos descritivos com carga valorativa).
+- Resultado exigido: Crime material, pois exige a efetiva prática da conjunção carnal ou do ato libidinoso.
+- Nexo causal / imputação objetiva: A violência ou grave ameaça deve ser a causa determinante do constrangimento e, consequentemente, da prática dos atos sexuais.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de estupro é punido exclusivamente a título de dolo direto. O agente atua com a vontade livre e consciente de constranger a vítima, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar/permitir que se pratique outro ato libidinoso. Não se admite a modalidade culposa, nem dolo eventual para o núcleo do tipo. Não há elemento subjetivo especial (dolo específico) além da intenção de realizar a conduta típica.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a efetiva prática da conjunção carnal ou de qualquer ato libidinoso, independentemente da satisfação sexual do agente ou da vítima. A tentativa é cabível (art. 14, II, CP), pois o iter criminis pode ser interrompido por circunstâncias alheias à vontade do agente antes da consumação do ato sexual. O crime é classificado como instantâneo e material. A desistência voluntária (art. 15, CP) é possível se o agente, após iniciar a execução, desiste de prosseguir antes da consumação do ato sexual, respondendo apenas pelos atos já praticados. O arrependimento posterior (art. 16, CP) não se aplica, pois o crime não é cometido sem violência ou grave ameaça à pessoa.
 
 ### Penas Cominadas
 
@@ -90,4 +93,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

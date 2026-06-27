@@ -35,22 +35,29 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o respeito aos mortos (pietas sepulcralis), que abrange a dignidade do falecido e o sentimento de veneração da sociedade e dos familiares. Indiretamente, conecta-se à dignidade da pessoa humana (CF art. 1º, III), que se projeta post-mortem, e ao direito à memória. A localização do artigo no Título VI (Crimes contra a Dignidade Sexual) é amplamente criticada pela doutrina, pois o bem jurídico protegido não possui natureza sexual.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: A coletividade, a sociedade, e, reflexamente, os familiares do falecido.
+- Núcleo do tipo: "Vilipendiar" – significa ultrajar, profanar, menosprezar, desrespeitar, aviltar. A conduta deve ser apta a causar repulsa ou escândalo público.
+- Objeto material: "cadáver ou suas cinzas". Cadáver é o corpo humano sem vida. Cinzas são os restos mortais resultantes da cremação.
+- Elementos normativos e descritivos: "Vilipendiar" é um elemento normativo, exigindo juízo de valor. "Cadáver" e "cinzas" são elementos descritivos.
+- Resultado exigido: Crime de mera conduta. Consuma-se com a prática do ato de vilipêndio, independentemente de um resultado naturalístico específico.
+- Nexo causal / imputação objetiva: Não se aplica na forma tradicional, pois o crime se exaure na própria conduta.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+- Dolo direto: Sim, é a forma típica. O agente age com a vontade livre e consciente de ultrajar, profanar ou desrespeitar o cadáver ou as cinzas.
+- Dolo eventual: É admitido. O agente assume o risco de produzir o vilipêndio, embora não seja seu fim principal.
+- Culpa: Não é admitida a modalidade culposa. O verbo "vilipendiar" pressupõe um elemento subjetivo de desprezo ou ultraje.
+- Elemento subjetivo especial: O dolo específico de ultrajar ou desrespeitar os mortos, ou o sentimento de veneração a eles dedicado.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação: Ocorre com a efetiva prática do ato de vilipêndio, que se manifesta de forma perceptível.
+- A tentativa é cabível (art. 14 CP)? Sim, é cabível. Por
 
 ### Penas Cominadas
 
@@ -86,4 +93,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

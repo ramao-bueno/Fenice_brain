@@ -35,17 +35,21 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Ordem Tributária e Previdenciária, especificamente a garantia da arrecadação e do repasse das contribuições sociais destinadas ao financiamento da Seguridade Social. Visa proteger a integridade do sistema previdenciário, assegurando os recursos necessários para o pagamento de benefícios aos segurados. O fundamento constitucional reside nos artigos 194 e seguintes da Constituição Federal de 1988, que tratam da Seguridade Social, e nos artigos 150 e seguintes, que disciplinam o Sistema Tributário Nacional. O artigo 168-A é uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo**: Crime próprio. Pode ser o empregador (pessoa física ou jurídica, através de seus administradores ou responsáveis legais), o responsável pela instituição que recolhe as contribuições ou o agente que tem o dever legal ou convencional de repassar/recolher/pagar.
+-   **Sujeito passivo**: O Estado (União), representado pela Previdência Social, e, indiretamente, os segurados.
+-   **Núcleo do tipo**: Verbos "deixar de repassar" (caput), "deixar de recolher" (§1º, I e II) e "deixar de pagar" (§1º, III e IV). São condutas omissivas puras.
+-   **Objeto material**: As contribuições sociais previdenciárias recolhidas, descontadas, devidas ou arrecadadas, bem como benefícios devidos a segurados.
+-   **Elementos normativos**: "prazo e forma legal ou convencional", "contribuição ou outra importância destinada à previdência social", "descontada de pagamento", "integrado despesas ou custos contábeis", "benefício devido a segurado", "cotas ou valores já tiverem sido recebidos", "retidas ou descontadas de terceiros, por força de lei ou convênio".
+-   **Resultado exigido**: Crime de mera conduta. A consumação ocorre com o simples não repasse/não recolhimento/não pagamento no prazo legal, independentemente de efetivo prejuízo ao sistema previdenciário.
+-   **Nexo causal**: Não se aplica diretamente, pois é crime omissivo puro. A imputação decorre da inobservância do dever legal de agir.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de apropriação indébita previdenciária (Art. 168-A do CP) exige **dolo direto** ou **dolo eventual**. O agente deve ter a vontade livre e consciente de não repassar, não recolher ou não pagar as contribuições sociais previdenciárias no prazo e forma devidos, ou
 
 ### Tentativa e Consumação
 
@@ -84,4 +88,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

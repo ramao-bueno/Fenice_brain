@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '165'
 lei: DL 2.848/1940 — Código Penal
@@ -35,22 +38,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio cultural brasileiro, em suas dimensões artística, arqueológica e histórica. A norma visa proteger a integridade física e a preservação de bens que possuem valor cultural reconhecido oficialmente pelo tombamento. O fundamento constitucional reside nos artigos 216 (que define o patrimônio cultural brasileiro) e 23, incisos III e IV, da Constituição Federal, que estabelecem a competência comum da União, Estados, Distrito Federal e Municípios para proteger os documentos, as obras e outros bens de valor histórico, artístico e cultural, os monumentos, as paisagens naturais notáveis e os sítios arqueológicos. Trata-se de uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: A coletividade e o Estado, como titular do bem jurídico protegido.
+- Núcleo do tipo: Os verbos "Destruir" (eliminar a existência), "inutilizar" (tornar imprestável para sua finalidade) ou "deteriorar" (causar dano, estragar, diminuir o valor ou a qualidade). São condutas de dano.
+- Objeto material: "Coisa tombada pela autoridade competente em virtude de valor artístico, arqueológico ou histórico". É essencial que o bem tenha sido formalmente tombado e possua um dos valores especificados.
+- Elementos normativos e descritivos:
+    - Descritivos: "coisa", "valor artístico, arqueológico ou histórico".
+    - Normativos: "tombada pela autoridade competente", exigindo um ato administrativo prévio de tombamento.
+- Resultado exigido: Crime material, pois exige a efetiva destruição, inutilização ou deterioração do bem tombado.
+- Nexo causal / imputação objetiva: A conduta do agente deve ser a causa direta do resultado danoso ao bem tombado.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de dolo. Exige-se o dolo direto, ou seja, a vontade livre e consciente de destruir, inutilizar ou deteriorar a coisa, com a plena ciência de que se trata de um bem tombado e de seu valor artístico, arqueológico ou histórico. O dolo eventual também é admitido, quando o agente assume o risco de produzir o resultado danoso ao bem tombado. Não há previsão de modalidade culposa para este delito no Código Penal, o que significa que a conduta culposa não é típica para o Art. 165. Não há elemento subjetivo especial (dolo específico ou especial fim de agir).
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a coisa tombada é efetivamente destruída, inutilizada ou deteriorada. Por ser um crime material e plurissubsistente (que pode ser fracionado em atos executórios), a tentativa é perfeitamente cabível (art. 14, II, CP). O crime é classificado como instantâneo, pois a consumação se dá em um momento determinado, sem prolongamento no tempo. A desistência voluntária (art. 15, CP) e o arrependimento posterior (art. 16, CP) são teoricamente possíveis, caso o agente impeça a consumação ou repare o dano antes do recebimento da denúncia, respectivamente, desde que preenchidos os requisitos legais.
 
 ### Penas Cominadas
 
@@ -75,15 +83,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Informativo 550: A proteção penal do patrimônio cultural, nos termos do art. 165 do CP, exige que o bem esteja formalmente tombado pela autoridade competente. A mera existência de valor histórico, artístico ou arqueológico, sem o devido ato administrativo de tombamento, não configura o tipo penal.
+- STJ — Tese: A competência para processar e julgar crimes contra o patrimônio cultural será da Justiça Federal quando o bem tombado pertencer à União, a autarquia federal ou empresa pública federal, nos termos do art. 109, IV, da Constituição Federal. Caso contrário, a competência é da Justiça Estadual.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve descrever detalhadamente a conduta, o dano causado e, crucialmente, comprovar o tombamento formal do bem (documento oficial) e o conhecimento do agente sobre essa condição. A prova do dano geralmente exige laudo pericial. O dolo deve ser demonstrado pela ciência do agente sobre o tombamento e a vontade de danificar.
+- **Defesa:** Teses frequentes incluem a ausência de dolo (desconhecimento do tombamento ou do valor do bem), a inexistência de dano efetivo ou a ausência de prova do tombamento formal. Em caso de ausência de tombamento ou de dolo quanto a essa condição, pode-se pleitear a desclassificação para o crime de dano simples (Art. 163 do CP), se presentes seus elementos.
+- **Prática/Tribunais:** A competência para julgamento é da Justiça Estadual, salvo se o bem tombado pertencer à União, autarquia federal ou empresa pública federal, hipótese em que a competência será da Justiça Federal (Art. 109, IV, CF). O procedimento é o sumaríssimo, devido à pena máxima de 2 anos (Lei 9.099/95), o que implica a possibilidade de transação penal e suspensão condicional do processo. Em concursos, são frequentemente cobradas a distinção entre dano simples e dano a bem tombado, e a questão da competência.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

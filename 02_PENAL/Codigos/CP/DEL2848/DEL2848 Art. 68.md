@@ -35,22 +35,25 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 68 do Código Penal não tutela um bem jurídico específico no sentido de um valor social protegido contra uma conduta criminosa. Sua natureza jurídica é de norma de aplicação ou individualização da pena (dosimetria). Ele instrumentaliza o princípio constitucional da individualização da pena (CF, art. 5º, XLVI), garantindo que a sanção penal seja justa, proporcional e adequada à culpabilidade do agente e à gravidade do delito. Também se relaciona com o princípio da legalidade (CF, art. 5º, XXXIX), ao estabelecer um roteiro para a fixação da pena dentro dos limites legais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+O Art. 68 não é uma norma incriminadora, mas sim uma regra processual-substantiva que estabelece o método trifásico de dosimetria da pena, conforme o sistema de Nelson Hungria, adotado pela Reforma de 1984.
+- **Estrutura Jurídica:** Define as três fases obrigatórias para a fixação da pena:
+    1.  **Pena-base:** Fixada conforme o art. 59 do CP (circunstâncias judiciais).
+    2.  **Pena intermediária:** Consideração das circunstâncias atenuantes (art. 65 e 66 CP) e agravantes (art. 61 e 62 CP).
+    3.  **Pena definitiva:** Aplicação das causas de diminuição e de aumento de pena (frações, ex: tentativa, privilégio, qualificadoras com frações).
+- **Parágrafo único:** Regula o concurso de causas de aumento ou diminuição da Parte Especial, permitindo ao juiz limitar-se a uma só, prevalecendo a que mais aumente ou diminua.
+- **Observação:** A menção "Concurso material" ao final do artigo no texto fornecido é um equívoco, pois o Art. 68 trata da dosimetria da pena individual, enquanto o concurso material é regulado pelo Art. 69 do CP.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O Art. 68, por ser uma norma de aplicação da pena, não envolve dolo ou culpa do agente criminoso. O elemento subjetivo aqui se refere à conduta do magistrado. O juiz, ao aplicar o Art. 68, deve agir com imparcialidade, fundamentação e estrita observância dos parâmetros legais e constitucionais. A discricionariedade judicial na dosimetria é vinculada, exigindo motivação concreta para cada etapa, visando à justa individualização da pena.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível em relação ao Art. 68, pois ele não descreve uma conduta criminosa, mas sim o procedimento para a individualização da pena. A tentativa de um crime (Art. 14, II, CP) é, em si, uma causa de diminuição de pena que será aplicada na terceira fase da dosimetria, conforme o próprio Art. 68 determina ("causas de diminuição e de aumento"). O Art. 68 é uma norma de caráter procedimental-substantivo, não um tipo penal.
 
 ### Penas Cominadas
 
@@ -73,15 +76,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STJ — Súmula 231:** "A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal." (Fundamental para a segunda fase da dosimetria).
+- **STJ — Súmula 440:** "As causas de aumento ou diminuição de pena previstas na parte especial do Código Penal podem ser aplicadas cumulativamente, desde que não haja bis in idem." (Relevante para o parágrafo único e a terceira fase).
+- **STJ — Informativo 649:** A exasperação da pena-base pela valoração negativa das circunstâncias judiciais do art. 59 do CP deve observar o critério de proporcionalidade, geralmente de 1/6 (um sexto) para cada circunstância desfavorável, salvo fundamentação concreta que justifique patamar superior. (Diretriz para a primeira fase).
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+-   **MP/Acusação:** A atuação do Ministério Público na dosimetria da pena é crucial para garantir a proporcionalidade e a justiça da sanção. Deve-se fundamentar detalhadamente a valoração das circunstâncias judiciais (Art. 59), a incidência de agravantes e causas de aumento, buscando a pena mais adequada à reprovabilidade da conduta e à prevenção do crime, sempre dentro dos limites legais. A correta aplicação do Art. 68 evita nulidades e recursos protelatórios.
+-   **Defesa:** A defesa técnica deve impugnar qualquer excesso na dosimetria, buscando o reconhecimento de atenuantes e causas de diminuição, e a desconsideração de agravantes ou causas de aumento indevidas. É comum contestar a valoração negativa das circunstâncias judiciais (Art. 59) e o *quantum* de aumento ou diminuição aplicado em cada fase, visando a fixação da pena no mínimo legal ou o mais próximo possível, o que pode impactar o regime inicial e a possibilidade de benefícios.
+-   **Prática/Tribunais:** A dosimetria da pena é um dos pontos mais recorrentes de discussão em recursos (apelação, recurso especial, habeas corpus), exigindo do juiz sentenciante uma fundamentação exaustiva e individualizada em cada uma das três fases. A competência para a aplicação do Art. 68 é do juízo de primeiro grau, mas a revisão é constante pelos tribunais superiores. O parágrafo único, ao tratar do concurso de causas de aumento/diminuição da parte especial, exige do magistrado a escolha da que mais beneficie ou prejudique o réu, conforme o caso, evitando o *bis in idem*.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

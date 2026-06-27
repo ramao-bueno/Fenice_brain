@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 58 do Código Penal não tutela diretamente um bem jurídico específico, pois se refere à aplicação da pena de multa. No entanto, a pena de multa está relacionada à tutela do patrimônio, uma vez que envolve a perda de bens materiais. O fundamento constitucional para a aplicação de penas encontra-se no art. 5º, inciso XLVI, da Constituição Federal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Não se aplica, pois o artigo trata da aplicação da pena de multa.
+- **Sujeito passivo:** O Estado, representado pelo erário.
+- **Núcleo do tipo:** Não se aplica, pois o artigo não define um crime.
+- **Objeto material:** A pena de multa.
+- **Elementos normativos:** Os limites da multa estão fixados no art. 49 do Código Penal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo 58 não define um crime, mas sim uma pena.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo 58 não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena de multa tem os limites fixados no art. 49 do Código Penal. O parágrafo único do art. 58 estabelece a aplicação da multa independentemente de cominação na parte especial.
 
 ---
 
@@ -73,15 +74,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 171: A multa não pode ser aplicada isoladamente. 
+STF — Tese: A pena de multa deve ser fixada de acordo com os critérios estabelecidos no Código Penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve demonstrar a necessidade da aplicação da pena de multa.
+- **Defesa:** Pode argumentar que a multa é desproporcional ao crime cometido.
+- **Prática/Tribunais:** A competência para aplicar a pena de multa é do juízo criminal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

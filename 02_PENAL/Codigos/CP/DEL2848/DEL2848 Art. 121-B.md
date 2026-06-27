@@ -35,22 +35,35 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **vida humana** da vítima direta (descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher). Secundariamente, o tipo penal visa proteger a **integridade psicológica e a dignidade da mulher**, buscando coibir a violência doméstica e familiar que se manifesta através da instrumentalização de terceiros para causar-lhe sofrimento, punição ou controle. O fundamento constitucional reside no Art. 5º, caput, da CF/88, que assegura o direito à vida, e no Art. 226, § 8º, da CF/88, que impõe ao Estado o dever de coibir a violência no âmbito das relações familiares.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum. Qualquer pessoa pode praticar, embora o contexto de violência doméstica e familiar usualmente implique uma relação prévia do agente com a mulher a quem se visa atingir.
+- **Sujeito passivo:** Descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher. É a pessoa cuja vida é ceifada.
+- **Núcleo do tipo:** Verbo "Matar".
+- **Objeto material:** O corpo da pessoa que é morta.
+- **Elementos normativos e descritivos:**
+    - Descritivos: "descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher" (relação da vítima com a mulher); "contexto de violência doméstica e familiar".
+    - Normativos: "dependente", "guarda" e "responsabilidade direta" (exigem interpretação jurídica para sua configuração).
+- **Resultado exigido:** Crime material, pois exige a efetiva morte da vítima para sua consumação.
+- **Nexo causal / imputação objetiva:** Essencial a demonstração de que a conduta do agente foi a causa da morte da vítima.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de vicaricídio é exclusivamente doloso. Exige-se:
+- **Dolo direto:** O agente tem a intenção de matar a vítima.
+- **Dolo eventual:** Em tese, cabível, se o agente assume o risco de produzir a morte da vítima para atingir o fim específico.
+- **Elemento subjetivo especial (dolo específico / especial fim de agir):** É indispensável o "fim específico de causar-lhe sofrimento, punição ou controle" à mulher. Este dolo transcendente qualifica o homicídio, diferenciando-o de outras modalidades. Não há previsão de modalidade culposa para o vicaricídio, dada a exigência do dolo de matar e do fim específico.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- **Momento da consumação:** O crime se consuma com a efetiva morte da vítima.
+- **A tentativa é cabível (art. 14 CP)?** Sim, o vicaricídio é um crime material e plurissubsistente, permitindo o fracionamento do *iter criminis*. Se o agente inicia a execução do ato de matar, mas a morte não ocorre por circunstâncias alheias à sua vontade, configura-se a tentativa.
+- **Classificação:** É um crime instantâneo (a consumação ocorre em um momento determinado), material.
+- **Desistência voluntária (art. 15) ou arrependimento posterior (art. 16) relevantes?**
+    - **Desistência voluntária:** Sim, é cabível se o agente, voluntariamente, interrompe a execução do crime antes da consumação da morte.
+    - **Arrependimento posterior:** Não é aplicável, pois o crime é praticado com violência contra a pessoa e possui pena máxima superior a 4 anos, não preenchendo os requisitos do art. 16 do Código Penal.
 
 ### Penas Cominadas
 
@@ -90,4 +103,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

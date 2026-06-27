@@ -64,6 +64,15 @@ build/
 *.exe
 *.crdownload
 
+# Mídia — vídeos e áudios brutos (muito grandes para git)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.m4a
+
 # Saida temporaria da busca academica (gerar-busca.js)
 02 - Áreas/Base Jurídica/BUSCA-TEMP/
 

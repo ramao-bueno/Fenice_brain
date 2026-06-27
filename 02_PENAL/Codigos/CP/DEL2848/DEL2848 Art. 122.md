@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '122'
 lei: DL 2.848/1940 — Código Penal

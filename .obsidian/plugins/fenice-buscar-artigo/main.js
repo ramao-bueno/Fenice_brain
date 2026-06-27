@@ -1087,43 +1087,39 @@ class GraphModal extends Modal {
     const aviso = contentEl.createEl('p', { text: '⏳ Grafo global filtrado por pasta — vault 23k arquivos: aguarde 30-60s após clicar.' });
     Object.assign(aviso.style, { fontSize: '11px', color: 'var(--color-orange, #e8a84f)', marginBottom: '6px', marginTop: '0' });
 
-    // ── helper: abre grafo global com notice longo de espera ──
-    const abrirVolumeGlobal = async (titulo, query) => {
+    // ── helper: abre grafo local a partir do _INDEX_GRAPH.md do volume ──
+    const abrirVolumeLocal = (indexPath, label) => {
       this.close();
-      // Notice longo: usuário sabe que está carregando, não travou
-      const n = new Notice(`⏳ Carregando grafo "${titulo}"...\nVault com 23k arquivos — pode levar até 60s. Não feche o Obsidian.`, 60000);
-      await new Promise(r => setTimeout(r, 150)); // deixa o Notice renderizar
-      await this.plugin._abrirGraphComFiltro(query);
-      n.hide();
-      new Notice(`✅ Grafo "${titulo}" aberto.`, 3000);
+      const f = this.app.vault.getAbstractFileByPath(indexPath);
+      if (!f) {
+        new Notice(`⚠ INDEX não encontrado: ${indexPath}\nRode: python scripts/gerar_index_grafo.py`, 6000);
+        return;
+      }
+      new Notice(`⚡ Grafo local: ${label}`, 2000);
+      this.plugin._abrirGrafoLocal(f, 1);
     };
 
     const volumes = [
-      { icon: '🔒', titulo: 'Código Penal — DEL2848 (665 arts)',
-        desc: 'Artigos atomizados + correlatos penais. Veja conexões de dosimetria e qualificadoras.',
-        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
-        action: () => abrirVolumeGlobal('CP DEL2848', 'path:"02_PENAL/Codigos/CP/DEL2848"') },
-      { icon: '⚖️', titulo: 'Súmulas STJ (674 súmulas)',
-        desc: 'Todas as súmulas do STJ. Conexões entre temas: responsabilidade civil, processo, tributário.',
-        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
-        action: () => abrirVolumeGlobal('Súmulas STJ', 'path:"00_APEX/SUMULAS STJ/Sumulas"') },
-      { icon: '🏛️', titulo: 'Súmulas STF (736 súmulas)',
-        desc: 'Vigentes e superadas — direitos fundamentais, processo constitucional, tributário.',
-        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
-        action: () => abrirVolumeGlobal('Súmulas STF', 'path:"00_APEX/SUMULAS STF/Sumulas"') },
-      { icon: '👤', titulo: 'Jurisconsultos — grafo local ⚡',
-        desc: 'Juristas indexados (Privado, Penal, Público, Trabalho). Grafo LOCAL a partir do índice — rápido.',
+      { icon: '🔒', titulo: 'Código Penal — DEL2848 (434 arts)',
+        desc: 'Grafo LOCAL a partir do índice — sem varrer 23k arquivos. Rápido.',
         badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
-        action: () => {
-          this.close();
-          const f = this.app.vault.getAbstractFileByPath('06_JURISCONSULTOS/index.md');
-          if (!f) { new Notice('⚠ 06_JURISCONSULTOS/index.md não encontrado.', 4000); return; }
-          this.plugin._abrirGrafoLocal(f, 2);
-        } },
-      { icon: '🧠', titulo: 'Filósofos do Direito',
+        action: () => abrirVolumeLocal('02_PENAL/Codigos/CP/DEL2848/_INDEX_GRAPH.md', 'CP DEL2848') },
+      { icon: '⚖️', titulo: 'Súmulas STJ (674 súmulas)',
+        desc: 'Grafo LOCAL das conexões entre súmulas do STJ — responsabilidade, processo, tributário.',
+        badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
+        action: () => abrirVolumeLocal('00_APEX/SUMULAS STJ/Sumulas/_INDEX_GRAPH.md', 'Súmulas STJ') },
+      { icon: '🏛️', titulo: 'Súmulas STF (736 súmulas)',
+        desc: 'Grafo LOCAL — vigentes e superadas: direitos fundamentais, processo, tributário.',
+        badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
+        action: () => abrirVolumeLocal('00_APEX/SUMULAS STF/Sumulas/_INDEX_GRAPH.md', 'Súmulas STF') },
+      { icon: '👤', titulo: 'Jurisconsultos — por área',
+        desc: 'Juristas indexados: Privado, Penal, Público, Trabalhista, Constitucional.',
+        badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
+        action: () => abrirVolumeLocal('06_JURISCONSULTOS/_INDEX_GRAPH.md', 'Jurisconsultos') },
+      { icon: '🧠', titulo: 'Filósofos do Direito (127)',
         desc: 'Antigos, Iluministas, Modernos, Contemporâneos e Penalistas Clássicos.',
-        badge: '⏳ grafo global', badgeColor: 'var(--color-orange, #e8a84f)',
-        action: () => abrirVolumeGlobal('Filósofos', 'path:"07_FILOSOFIA"') },
+        badge: '⚡ local (rápido)', badgeColor: 'var(--color-green)',
+        action: () => abrirVolumeLocal('07_FILOSOFIA/_INDEX_GRAPH.md', 'Filósofos') },
     ];
 
     for (const vol of volumes) {
@@ -1180,18 +1176,132 @@ class GraphModal extends Modal {
   onClose() { this.contentEl.empty(); }
 }
 
+// ─── QuickArtigoModal: mesmo código, novo artigo (Ctrl+Shift+B contextual) ──
+class QuickArtigoModal extends Modal {
+  constructor(app, plugin, config) {
+    super(app);
+    this.plugin = plugin;
+    this.config = config;
+  }
+
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+    Object.assign(contentEl.style, { padding: '20px', minWidth: '340px' });
+
+    // ── Header: badge do código + nome + botão Trocar ──
+    const header = contentEl.createEl('div');
+    Object.assign(header.style, {
+      display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px',
+    });
+
+    const badge = header.createEl('span', { text: this.config.codigo });
+    Object.assign(badge.style, {
+      background: 'var(--text-accent)', color: '#000',
+      padding: '3px 12px', borderRadius: '4px',
+      fontWeight: 'bold', fontSize: '14px', letterSpacing: '0.06em',
+      flexShrink: '0',
+    });
+
+    const nome = header.createEl('span', { text: this.config.nome || this.config.codigo });
+    Object.assign(nome.style, {
+      fontSize: '12px', color: 'var(--text-muted)', flex: '1', overflow: 'hidden',
+      textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+    });
+
+    const trocar = header.createEl('button', { text: '↔ Trocar' });
+    Object.assign(trocar.style, {
+      fontSize: '11px', cursor: 'pointer', padding: '3px 9px', borderRadius: '4px',
+      background: 'var(--background-modifier-border)', flexShrink: '0',
+      color: 'var(--text-muted)', border: 'none',
+    });
+    trocar.addEventListener('click', () => {
+      this.plugin.lastCodigo = null; // limpa contexto
+      this.close();
+      this.plugin.iniciarBusca();
+    });
+
+    // ── Label ──
+    const label = contentEl.createEl('div', {
+      text: this.config.buscaPorSumula
+        ? 'Número da Súmula'
+        : 'Número do Artigo ou Tema',
+    });
+    Object.assign(label.style, {
+      fontSize: '11px', color: 'var(--text-muted)', marginBottom: '8px',
+    });
+
+    // ── Input row ──
+    const row = contentEl.createEl('div');
+    Object.assign(row.style, { display: 'flex', gap: '8px' });
+
+    const input = row.createEl('input');
+    input.type = 'text';
+    input.placeholder = this.config.buscaPorSumula ? 'ex: 100, 521' : 'ex: 121, 155, homicídio';
+    Object.assign(input.style, {
+      flex: '1', padding: '8px 12px', borderRadius: '5px',
+      border: '1px solid var(--background-modifier-border)',
+      background: 'var(--background-secondary)',
+      color: 'var(--text-normal)', fontSize: '15px',
+    });
+
+    const btn = row.createEl('button', { text: 'Buscar →' });
+    Object.assign(btn.style, {
+      padding: '8px 18px', borderRadius: '5px',
+      background: 'var(--text-accent)', color: '#000',
+      fontWeight: 'bold', cursor: 'pointer', fontSize: '13px', border: 'none',
+    });
+
+    const go = () => {
+      const num = input.value.trim();
+      if (!num) return;
+      this.close();
+      this.plugin.buscarEAbrir(this.config, num);
+    };
+
+    btn.addEventListener('click', go);
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') go();
+      if (e.key === 'Escape') this.close();
+    });
+
+    row.append(input, btn);
+
+    // ── Dica ──
+    const dica = contentEl.createEl('div', {
+      text: '↵ Enter para buscar · Esc para fechar · ↔ Trocar para mudar o código',
+    });
+    Object.assign(dica.style, {
+      fontSize: '10px', color: 'var(--text-faint)', marginTop: '10px',
+    });
+
+    setTimeout(() => input.focus(), 50);
+  }
+
+  onClose() { this.contentEl.empty(); }
+}
+
 // ─── Plugin Principal ────────────────────────────────────────
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v30 — GraphModal: seção "VER NO SITE" (Knowledge Graph + RAG) + localgraph fecha abas anteriores');
+    console.log('✅ Fenice Buscar Artigo v31 — Ctrl+Shift+B context-aware (QuickArtigoModal) + GraphModal volumes via INDEX local (sem travar)');
 
-    // Ctrl+Shift+B — busca por código + número
+    this.lastCodigo = null; // contexto do último código consultado
+
+    // Ctrl+Shift+B — busca contextual: mesmo código se já consultou, full flow se não
     this.addCommand({
       id: 'buscar-artigo',
       name: 'Buscar Artigo (Código + Número)',
       hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'B' }],
-      callback: () => this.iniciarBusca(),
+      callback: () => {
+        if (this.lastCodigo) {
+          // Está no contexto de um código — abre direto sem DomainModal
+          new QuickArtigoModal(this.app, this, this.lastCodigo).open();
+        } else {
+          this.iniciarBusca();
+        }
+      },
     });
 
     // Ctrl+Shift+I — mostra painel do artigo atualmente aberto
@@ -1316,6 +1426,8 @@ class FeniceBuscarArtigo extends Plugin {
     }
 
     // Casos normais: pede número do artigo ou tema
+    this.lastCodigo = config; // salva contexto para Ctrl+Shift+B contextual
+
     const placeholder = config.buscaPorSumula
       ? `Número da Súmula (ex: 1, 10, 100)`
       : `Número do Artigo (ex: 48, 121) ou Tema (ex: direitos, responsabilidade)`;

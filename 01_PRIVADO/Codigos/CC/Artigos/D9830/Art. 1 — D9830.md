@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '1'
 lei: Decreto 9.830/2019 (Regulamenta LINDB)

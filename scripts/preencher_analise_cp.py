@@ -27,7 +27,9 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from openai import OpenAI
+import sys as _sys
+_sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent))
+from fenice_llm import FeniceClient
 from dotenv import load_dotenv
 
 # ─── Configuração ────────────────────────────────────────────────────────────
@@ -39,10 +41,8 @@ LOG_FILE   = SCRIPT_DIR / "logs" / "preencher_analise_cp.log"
 DONE_FILE  = SCRIPT_DIR / "logs" / "preencher_analise_cp.done.json"
 
 load_dotenv(VAULT / ".env")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
-MODEL      = "gpt-4o-mini"
-DELAY      = 0.5   # segundos entre chamadas
+DELAY      = 0.5
 MAX_TOKENS = 4000
 
 # Marcadores que indicam seção ainda vazia (template original)
@@ -232,34 +232,20 @@ def substituir_secoes(texto_orig: str, secoes: dict) -> str:
     return resultado
 
 
-# ─── Chamada OpenAI ──────────────────────────────────────────────────────────
+# ─── Chamada LLM (Claude → OpenAI → Gemini) ─────────────────────────────────
 
-def chamar_gemini(client, num: str, redacao: str, _tentativa: int = 0) -> dict | None:
+def chamar_gemini(client: FeniceClient, num: str, redacao: str, _tentativa: int = 0) -> dict | None:
     prompt = PROMPT.format(num=num, redacao=redacao)
     try:
-        resp = client.chat.completions.create(
-            model=MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=MAX_TOKENS,
-            temperature=0.3,
-        )
-        texto = resp.choices[0].message.content or ""
-        secoes = parse_resposta(texto)
+        resp = client.completar(prompt)
+        log(f"  Art. {num}: provedor={resp.provedor} modelo={resp.modelo}")
+        secoes = parse_resposta(resp.texto)
         if not secoes:
             log(f"  Art. {num}: resposta sem seções reconhecíveis", "WARN")
             return None
         return secoes
     except Exception as e:
-        msg = str(e)
-        if _tentativa >= 3:
-            log(f"  Art. {num}: 3 tentativas falharam — {e}", "ERROR")
-            return None
-        if '429' in msg or 'rate_limit' in msg.lower() or 'quota' in msg.lower():
-            espera = 30 * (2 ** _tentativa)  # backoff: 30s, 60s, 120s
-            log(f"  Art. {num}: rate limit — aguardando {espera}s... (tentativa {_tentativa+1})", "WARN")
-            time.sleep(espera)
-            return chamar_gemini(client, num, redacao, _tentativa + 1)
-        log(f"  Art. {num}: erro na API — {e}", "ERROR")
+        log(f"  Art. {num}: todos os provedores falharam — {e}", "ERROR")
         return None
 
 
@@ -278,11 +264,7 @@ def main():
                         help=f"Segundos entre chamadas API (padrão: {DELAY})")
     args = parser.parse_args()
 
-    if not OPENAI_API_KEY:
-        print("ERRO: OPENAI_API_KEY não encontrada no .env")
-        sys.exit(1)
-
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = FeniceClient(max_tokens=MAX_TOKENS)
     done   = carregar_done() if not args.force else set()
 
     # Lista de arquivos a processar
@@ -338,7 +320,7 @@ def main():
             ignorados += 1
             continue
 
-        log(f"→ Art. {num}: chamando Gemini...")
+        log(f"→ Art. {num}: chamando LLM...")
         secoes = chamar_gemini(client, num, redacao)
 
         if not secoes:

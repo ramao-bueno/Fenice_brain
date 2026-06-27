@@ -464,23 +464,29 @@ class JurisconsultoSelectModal extends SuggestModal {
 
 // ─── Modal 1: Selecionar Código ──────────────────────────────
 class CodigoModal extends SuggestModal {
-  constructor(app, onEscolha, codigosKeys, dominioIdx) {
+  constructor(app, onEscolha, codigosKeys, dominio) {
     super(app);
-    this.onEscolha  = onEscolha;
-    this.dominioIdx = dominioIdx ?? '';
-    this.lista      = codigosKeys
+    this.onEscolha = onEscolha;
+    this.dominio   = dominio ?? null;
+    this.lista     = codigosKeys
       ? CODIGOS.filter(c => codigosKeys.includes(c.codigo))
       : CODIGOS;
-    const shortcut  = this.lista.length <= 9;
-    this.setPlaceholder(shortcut ? 'Digite 1–9 para ir direto, ou filtre por texto...' : 'Selecione o Código Jurídico...');
+    const shortcut = this.lista.length <= 9;
+    let placeholder = 'Selecione o Código Jurídico...';
+    if (shortcut && dominio) {
+      // "🔒  02 · Direito Penal" → "02 · Direito Penal"
+      const ctx = dominio.label.replace(/^[^\w\d]+/, '').trim();
+      placeholder = `[${ctx}]  Digite 1–${this.lista.length} para selecionar...`;
+    }
+    this.setPlaceholder(placeholder);
   }
   getSuggestions(q) {
     return this.lista.filter(c => c.label.toLowerCase().includes(q.toLowerCase()));
   }
   renderSuggestion(item, el) {
-    if (this.lista.length <= 9 && this.dominioIdx !== '') {
+    if (this.lista.length <= 9 && this.dominio) {
       const idx = this.lista.indexOf(item) + 1;
-      el.createEl('div', { text: `${this.dominioIdx}.${idx}  ${item.label}` });
+      el.createEl('div', { text: `${idx}  ${item.label}` });
     } else {
       el.createEl('div', { text: item.label });
     }
@@ -1323,7 +1329,7 @@ class QuickArtigoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v33 — atalhos numéricos: DomainModal (0-8) e CodigoModal (domínio.N)');
+    console.log('✅ Fenice Buscar Artigo v34 — CodigoModal: contexto do domínio fixo no placeholder, itens numerados 1, 2, 3...');
 
     this.lastCodigo = null; // contexto do último código consultado
 
@@ -1435,10 +1441,9 @@ class FeniceBuscarArtigo extends Plugin {
       }
 
       // Abre CodigoModal filtrado pelo domínio escolhido
-      const dIdx = dominio._idx ?? DOMINIOS.findIndex(d => d.key === dominio.key);
       new CodigoModal(this.app, (config) => {
         this._abrirConfig(config);
-      }, dominio.codigos.length ? dominio.codigos : null, dIdx).open();
+      }, dominio.codigos.length ? dominio.codigos : null, dominio).open();
 
     }).open();
   }
@@ -1840,14 +1845,13 @@ class FeniceBuscarArtigo extends Plugin {
   // ── Graph: opção 2 — código específico (picker) ──
   abrirGraphCodigo() {
     new DomainModal(this.app, (dominio) => {
-      const dIdx = dominio._idx ?? DOMINIOS.findIndex(d => d.key === dominio.key);
       new CodigoModal(this.app, async (config) => {
         const pastas = obterPastas(config);
         if (pastas.length === 0) { new Notice(`Sem pasta configurada para ${config.codigo}.`, 3000); return; }
         const query = pastas.map(p => `path:"${p}"`).join(' OR ');
         new Notice(`📊 Grafo: ${config.codigo} (${pastas.length} pasta(s))`, 2000);
         await this._abrirGraphComFiltro(query);
-      }, dominio.codigos.length ? dominio.codigos : null, dIdx).open();
+      }, dominio.codigos.length ? dominio.codigos : null, dominio).open();
     }).open();
   }
 

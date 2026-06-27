@@ -23,6 +23,10 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
+import sys
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from groq import Groq
 from dotenv import load_dotenv
 

@@ -35,22 +35,33 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a fé pública, especificamente a confiança na autenticidade e no valor da moeda, essencial para a estabilidade econômica e financeira do Estado. Indiretamente, protege-se a segurança do sistema monetário nacional e internacional. O fundamento constitucional reside na competência exclusiva da União para emitir moeda (CF/88, art. 21, VII) e legislar sobre o sistema monetário (CF/88, art. 164).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, podendo ser praticado por qualquer pessoa. O §3º, se completo, indicaria um crime próprio (funcionário público).
+- Sujeito passivo: A coletividade e o Estado.
+- Núcleo do tipo:
+    - Caput: Falsificar (fabricar ou alterar).
+    - §1º: Importar, exportar, adquirir, vender, trocar, ceder, emprestar, guardar ou introduzir na circulação.
+    - §2º: Restituir à circulação.
+- Objeto material: Moeda metálica ou papel-moeda de curso legal (nacional ou estrangeiro) que seja falsa ou alterada.
+- Elementos normativos e descritivos: "curso legal", "boa-fé" (§2º), "conhecer a falsidade" (§2º).
+- Resultado exigido: Crime formal ou de mera conduta. A consumação ocorre com a prática da conduta descrita, independentemente de efetivo prejuízo ou de a moeda entrar em circulação.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois são crimes de perigo abstrato ou de mera conduta.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+- **Caput e §1º:** Exigem dolo direto. O agente deve ter a vontade livre e consciente de falsificar ou praticar as condutas equiparadas, com pleno conhecimento da falsidade da moeda. Não se admite dolo eventual.
+- **§2º:** Exige dolo direto. O agente, após ter recebido a moeda de boa-fé e posteriormente tomado conhecimento de sua falsidade, decide voluntariamente restituí-la à circulação. A boa-fé inicial é um pressuposto, mas a conduta criminosa exige o dolo posterior.
+- Não há previsão de modalidade culposa para nenhuma das condutas do artigo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- **Caput:** Cabível. A falsificação pode ser fracionada em atos executórios, permitindo a interrupção antes da consumação (ex: fabricação de matrizes sem a impressão final). Consumação: com a efetiva fabricação ou alteração da moeda. Crime instantâneo.
+- **§1º:** Cabível para a maioria dos verbos (ex: importar, vender). Para verbos como "guardar", a tentativa pode ser de difícil configuração. Consumação: com a prática de qualquer dos verbos. Crime instantâneo.
+- **§2º:** Cabível. Consumação: com a efetiva restituição da moeda falsa à circulação. Crime instantâneo.
+- Desistência voluntária (art. 15 CP) e arrependimento posterior (art. 16 CP) podem ser relevantes, a depender do estágio da execução e da natureza da conduta.
 
 ### Penas Cominadas
 
@@ -75,7 +86,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 73: "A utilização de papel moeda grosseiramente falsificado configura, em tese, o crime de estelionato, da competência da justiça estadual."
+- STJ — Tese: A competência para processar e julgar o crime de moeda falsa (art. 289 do CP) é da Justiça Federal, por ofender bens e interesses da União (art. 109, IV, da
 
 ---
 
@@ -86,4 +98,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

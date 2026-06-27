@@ -33,12 +33,18 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado, após a reclassificação pela Lei nº 14.197/2021, é a **Soberania Nacional** e o **Estado Democrático de Direito**, especificamente no que tange à integridade e regularidade da gestão da dívida pública, que é um pilar da estabilidade financeira do Estado e, por conseguinte, de sua soberania. Secundariamente, protege a **Administração Pública** (probidade e regularidade financeira) e a **Ordem Econômica e Financeira**. O fundamento constitucional reside nos artigos 1º (Estado Democrático de Direito), 21, VII (competência da União para emitir moeda e títulos), 167 (vedações orçamentárias e financeiras) e 170 (ordem econômica) da Constituição Federal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum. Pode ser praticado por qualquer pessoa, embora na prática geralmente envolva agentes públicos ou pessoas com poder de decisão no mercado financeiro.
+- **Sujeito passivo:** O Estado (União, Estados, Distrito Federal, Municípios) e, em sentido amplo, a coletividade.
+- **Núcleo do tipo:** Os verbos "Ordenar", "autorizar" ou "promover". Indicam condutas de comando, permissão ou fomento.
+- **Objeto material:** "Títulos da dívida pública" que não foram criados por lei ou não estão registrados em sistema centralizado de liquidação e de custódia.
+- **Elementos normativos:** "títulos da dívida pública", "criados por lei", "registrados em sistema centralizado de liquidação e de custódia". Exigem valoração jurídica para sua compreensão.
+- **Elementos descritivos:** "oferta pública", "colocação no mercado financeiro".
+- **Resultado exigido:** Crime formal (ou de mera conduta). A consumação ocorre com a prática de qualquer dos verbos nucleares, independentemente da efetiva venda dos títulos ou de prejuízo concreto. O perigo à soberania e à administração pública é presumido.
+- **Nexo causal / imputação objetiva:** Relevante para determinar a autoria e participação nas condutas de comando, permissão ou fomento.
 
 ### Dolo/Culpa
 
@@ -82,4 +88,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

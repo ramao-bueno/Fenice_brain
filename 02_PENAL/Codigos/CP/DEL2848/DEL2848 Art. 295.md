@@ -35,8 +35,8 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+A redação legal fornecida ("Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, aumenta-se a pena de sexta parte.") não corresponde ao Art. 295 do Código Penal vigente, que foi revogado pela Lei nº 9.983/2000 e tratava da falsificação de selo ou sinal público. A descrição apresentada é, na verdade, uma causa de aumento de pena de caráter geral, aplicável a crimes cometidos por funcionário público que se prevalece de sua função.
+O bem jurídico tutelado por essa causa de aumento é a *moralidade e a probidade da Administração Pública*, bem como a *
 
 ### Tipo Penal
 
@@ -84,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

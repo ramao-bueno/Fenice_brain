@@ -35,22 +35,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Saúde Pública, um direito fundamental e social garantido pelo Art. 6º e Art. 196 da Constituição Federal. O artigo visa proteger a coletividade contra condutas que, de forma preventiva, colocam em risco a integridade dos produtos alimentícios, terapêuticos e medicinais, bem como a segurança sanitária geral. Trata-se de uma norma incriminadora que tutela a incolumidade pública.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: A coletividade, a sociedade, representada pelo Estado.
+- Núcleo do tipo: Vender, expor à venda, ter em depósito ou ceder. É um crime de ação múltipla ou conteúdo variado, bastando a prática de uma das condutas para a consumação.
+- Objeto material: Substância destinada à falsificação de produtos alimentícios, terapêuticos ou medicinais; ou outras substâncias nocivas à saúde pública.
+- Elementos normativos e descritivos:
+    - Descritivos: "substância", "produtos alimentícios, terapêuticos ou medicinais".
+    - Normativos: "destinada à falsificação" (exige juízo de valor sobre a finalidade) e "nocivas à saúde pública" (exige juízo técnico-científico sobre a potencialidade lesiva).
+- Resultado exigido: Crime de mera conduta e de perigo abstrato. A consumação ocorre com a prática de qualquer dos verbos, independentemente da efetiva falsificação ou lesão à saúde.
+- Nexo causal / imputação objetiva: Não se exige nexo causal com um resultado naturalístico de dano, dada a natureza de perigo abstrato.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de dolo. Exige-se o dolo direto, ou seja, a vontade livre e consciente de praticar uma das condutas (vender, expor à venda, ter em depósito ou ceder). Há um elemento subjetivo especial, que é o "fim de agir" ou "dolo específico": o agente deve ter a consciência de que a substância se destina à falsificação de produtos ou de que é nociva à saúde pública. Não há previsão de modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a prática de qualquer das condutas típicas. A tentativa é cabível, especialmente nas modalidades "vender", "expor à venda" e "ceder", que podem ser fracionadas. Para "ter em depósito", a tentativa é de difícil configuração, pois a conduta se consuma no momento em que a substância é depositada. É um crime instantâneo (a consumação se dá em um momento determinado) e de mera conduta. Não há previsão de desistência voluntária ou arrependimento posterior que altere a tipificação, mas podem influenciar na pena.
 
 ### Penas Cominadas
 
@@ -75,15 +80,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: Nos crimes de perigo abstrato, como o do art. 277 do CP, a lesividade da conduta é presumida pela lei, não se exigindo a demonstração de efetiva lesão ou perigo concreto ao bem jurídico tutelado para a sua consumação.
+- STJ — Tese: A caracterização da elementar "substância destinada à falsificação" ou "nocivas à saúde pública", para fins de tipificação do art. 277 do CP, pode demandar a realização de perícia técnica para comprovar a natureza, o potencial lesivo ou a finalidade específica da substância.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve focar na prova da conduta (vender, expor, ter em depósito, ceder) e na natureza da substância (destinada à falsificação ou nociva). É crucial a produção de prova pericial para atestar a destinação ou a nocividade da substância. Deve-se ressaltar a natureza de crime de perigo abstrato, não exigindo resultado lesivo concreto.
+- **Defesa:** As teses defensivas frequentes incluem a atipicidade da conduta por ausência de prova da destinação à falsificação ou da nocividade da substância, muitas vezes pela falta ou insuficiência de perícia técnica. Pode-se argumentar a ausência de dolo, especialmente quanto ao conhecimento da destinação ou nocividade.
+- **Prática/Tribunais:** A competência é da Justiça Estadual, salvo se houver interesse da União (ex: crime transnacional, substância importada ilegalmente). O procedimento é o comum ordinário. A prova pericial é fundamental para a condenação. Pode haver concurso material com crimes de falsificação (Arts. 272, 273, 274 do CP) se a falsificação for efetivamente consumada.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

@@ -57,8 +57,7 @@ O crime de tráfico de pessoas é punido exclusivamente a título de dolo. Exige
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível. O crime é material e instantâneo. O momento da consumação é quando a pessoa é submetida à situação de exploração.
 
 ### Penas Cominadas
 
@@ -83,14 +82,15 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 377: a competência para processar e julgar o crime de tráfico de pessoas é da Justiça Federal. STF — Tese: o tráfico de pessoas é um crime contra a dignidade humana e a liberdade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a existência de grave ameaça, violência, coação, fraude ou abuso.
+- **Defesa:** pode alegar a inexistência de dolo ou a ausência de elemento subjetivo especial.
+- **Prática/Tribunais:** a competência é da Justiça Federal, e o procedimento é o comum.
 
 ---
 

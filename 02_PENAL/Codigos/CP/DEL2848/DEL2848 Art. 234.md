@@ -35,22 +35,30 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a moralidade pública e os bons costumes, compreendidos como o pudor e a decência social. Indiretamente, visa-se proteger a incolumidade psíquica e o desenvolvimento saudável de crianças e adolescentes, embora o tipo penal não se restrinja a eles. O fundamento constitucional reside na proteção da dignidade da pessoa humana (CF Art. 1º, III), da família (CF Art. 226) e da criança e do adolescente (CF Art. 227), bem como na ordem pública.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: A coletividade, a sociedade, titular do bem jurídico "moralidade pública".
+- Núcleo do tipo:
+    - Caput: "Fazer, importar, exportar, adquirir ou ter sob sua guarda".
+    - Parágrafo único, I: "vende, distribui ou expõe à venda ou ao público".
+    - Parágrafo único, II e III: "realiza".
+- Objeto material:
+    - Caput e Parágrafo único, I: "escrito, desenho, pintura, estampa ou qualquer objeto obsceno".
+    - Parágrafo único, II e III: "representação teatral, ou exibição cinematográfica de caráter obsceno, ou qualquer outro espetáculo, que tenha o mesmo caráter".
+- Elementos normativos: "obsceno" (exige valoração cultural e jurídica), "para fim de comércio, de distribuição ou de exposição pública" (caput), "em lugar público ou acessível ao público" (Parágrafo único, II e III).
+- Resultado exigido: Crime de mera conduta. A consumação ocorre com a prática de qualquer um dos verbos nucleares, independentemente da efetiva lesão à moralidade, bastando a potencialidade.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois é crime de mera conduta.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo. Admite-se o dolo direto, quando o agente tem a vontade livre e consciente de praticar as condutas descritas, ciente do caráter obsceno do objeto ou ato. O dolo eventual também é possível, caso o agente assuma o risco de que o objeto ou ato seja obsceno e, ainda assim, o distribua ou exponha. Não admite modalidade culposa. Há um elemento subjetivo especial, um dolo específico ou especial fim de agir, expresso pela finalidade "para fim de comércio, de distribuição ou de exposição pública" no caput.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a prática de qualquer um dos verbos nucleares, desde que presente o fim específico. A tentativa é cabível (art. 14 CP), especialmente nas condutas plurissubsistentes como "fazer", "importar" ou "exportar". Em verbos como "ter sob sua guarda" ou "expor", a tentativa pode ser mais difícil de configurar, mas não impossível (ex: tentativa de exposição frustrada). É um crime instantâneo e de mera conduta. A desistência voluntária (art. 15 CP) e o arrependimento posterior (art. 16 CP) podem ser relevantes, dependendo da fase executória e da possibilidade de evitar a consumação ou reparar o dano.
 
 ### Penas Cominadas
 
@@ -75,15 +83,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Informativo 555: A caracterização da obscenidade, para fins de tipificação do delito do art. 234 do CP, exige a demonstração de que o material ou a conduta ofende o pudor médio da sociedade, e não apenas o de um grupo específico, devendo ser analisada no contexto social e cultural da época.
+- STF — Tese (RE 1.070.268 - Tema 987, embora não diretamente sobre o Art. 234, é relevante para a discussão): A liberdade de expressão artística não é absoluta e pode ser restringida em casos de incitação à violência, discurso de ódio ou violação de direitos fundamentais, o que indiretamente toca na ponderação com a moralidade pública. A interpretação do termo "obsceno" deve ser restritiva para não cercear indevidamente a liberdade de expressão.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve descrever detalhadamente o caráter "obsceno" do objeto ou ato, muitas vezes exigindo perícia técnica ou laudos que atestem o conteúdo. É crucial provar o dolo específico ("fim de comércio, de distribuição ou de exposição pública") e a potencialidade ofensiva à moralidade pública. Deve-se distinguir cuidadosamente de crimes mais graves, como os previstos no ECA (ex: pornografia infantil, art. 241-B).
+- **Defesa:** As teses defensivas frequentes incluem a atipicidade da conduta, argumentando que o objeto ou ato não possui caráter "obsceno" no contexto social e cultural atual, ou que se trata de manifestação artística/cultural protegida pela liberdade de expressão. A ausência de prova do dolo específico é um ponto forte. Pode-se alegar a inconstitucionalidade do tipo penal por vagueza ou por colidir com a liberdade de expressão.
+- **Prática/Tribunais:** A competência para processar e julgar este crime é da Justiça Comum Estadual. Devido à pena máxima de 2 anos, o procedimento é o sumaríssimo, no âmbito dos Juizados Especiais Criminais (JECRIM), com a possibilidade de transação penal e suspensão condicional do processo. A discussão sobre o que constitui "obsceno" é um ponto central e subjetivo, frequentemente exigindo a análise do contexto e da prova pericial.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

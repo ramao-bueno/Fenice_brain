@@ -33,17 +33,23 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração da Justiça, em sua vertente de busca pela verdade real e pela lisura dos procedimentos judiciais, administrativos, inquéritos policiais e juízos arbitrais. Visa-se garantir a confiabilidade e a integridade das provas produzidas por agentes com dever legal de veracidade. O fundamento constitucional reside na garantia do devido processo legal (Art. 5º, LIV, CF) e nos princípios da administração pública (Art. 37, CF), que exigem legalidade, moralidade e eficiência na condução dos atos estatais e paraestatais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime próprio e de mão própria. Somente pode ser praticado por quem ostenta a qualidade de testemunha, perito, contador, tradutor ou intérprete.
+- Sujeito passivo: O Estado (Administração da Justiça).
+- Núcleo do tipo: "Fazer afirmação falsa", "negar a verdade" ou "calar a verdade". São condutas alternativas que configuram o tipo.
+- Objeto material: A declaração, depoimento ou laudo prestado pelo agente qualificado.
+- Elementos normativos e descritivos:
+    - Normativos: A exigência da qualidade específica do agente ("testemunha, perito, contador, tradutor ou intérprete") e o contexto da conduta ("em processo judicial, ou administrativo, inquérito policial, ou em juízo arbitral").
+    - Descritivos: "afirmação falsa", "negar a verdade", "calar a verdade".
+- Resultado exigido: Crime formal (ou de mera conduta). Consuma-se com a prática da conduta (falsa afirmação, negação ou silêncio), independentemente de qualquer resultado naturalístico ou da efetiva influência no processo.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois a consumação independe de um resultado naturalístico.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de falso testemunho ou falsa perícia exige dolo direto. O agente deve ter a vontade livre e consciente de falsear,
 
 ### Tentativa e Consumação
 
@@ -84,4 +90,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

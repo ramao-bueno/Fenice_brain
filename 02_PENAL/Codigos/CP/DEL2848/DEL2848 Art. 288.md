@@ -35,22 +35,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a paz pública e a segurança pública. O legislador busca proteger a coletividade contra a formação de grupos dedicados à prática reiterada de crimes, que geram um sentimento de insegurança e instabilidade social. O fundamento constitucional pode ser encontrado no Art. 144 da CF/88, que trata da segurança pública como dever do Estado e direito de todos. Trata-se de uma norma incriminadora, que tipifica um crime autônomo de perigo abstrato e de mera conduta, consumado pela simples associação estável e permanente.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticá-lo, desde que em conjunto com outras duas ou mais, totalizando no mínimo 3 (três) associados.
+- Sujeito passivo: A coletividade, a sociedade e o Estado.
+- Núcleo do tipo: "Associarem-se". Implica a união de vontades com caráter de estabilidade e permanência, não se confundindo com o mero concurso de pessoas para um crime específico.
+- Objeto material: Não há objeto material físico. A conduta recai sobre a própria organização ou estrutura do grupo.
+- Elementos normativos e descritivos:
+    - Descritivo: "3 (três) ou mais pessoas".
+    - Normativo: "para o fim específico de cometer crimes" (exige interpretação sobre a finalidade do grupo).
+- Resultado exigido: Crime de mera conduta, não exigindo a efetiva prática de qualquer crime para sua consumação.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois a conduta é a própria associação.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de associação criminosa exige dolo direto. É imprescindível a vontade livre e consciente de associar-se de forma estável e permanente. Há um elemento subjetivo especial (dolo específico ou especial fim de agir), que é a finalidade de "cometer crimes". Não se admite dolo eventual, pois a intenção de cometer crimes deve ser o propósito precípuo da associação. A modalidade culposa não é admitida para este tipo penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+O momento da consumação ocorre com a efetiva constituição da associação estável e permanente de 3 (três) ou mais pessoas, com o fim específico de cometer crimes, independentemente da prática de qualquer delito-fim. A tentativa não é cabível, pois o crime é de mera conduta e plurissubjetivo; a própria associação já configura a consumação. É classificado como crime permanente, pois sua consumação se protrai no tempo enquanto a associação perdura. Não há que se falar em desistência voluntária (art. 15 CP) ou arrependimento posterior (art. 16 CP) em relação à consumação do crime de associação criminosa em si, embora possam ser relevantes para os crimes-fim eventualmente praticados.
 
 ### Penas Cominadas
 
@@ -90,4 +95,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

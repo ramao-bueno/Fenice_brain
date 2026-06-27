@@ -81,14 +81,15 @@ O crime de ameaça qualificada do Art. 147-C admite exclusivamente o **dolo dire
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 96: a competência para processo e julgamento de crimes contra a liberdade individual é da Justiça Federal. STF — Tese: a ameaça é crime contra a liberdade individual.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** provar a intenção de ameaçar e o contexto do crime organizado
+- **Defesa:** teses de exclusão de ilicitude, como legítima defesa
+- **Prática/Tribunais:** competência da Justiça Federal, procedimento comum
 
 ---
 

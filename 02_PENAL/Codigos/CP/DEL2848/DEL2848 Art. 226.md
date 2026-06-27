@@ -35,8 +35,7 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 226 não tutela um bem jurídico primário diretamente. Ele é uma norma de extensão da punibilidade que agrava a sanção de crimes que já tutelam a **dignidade sexual** (CF, art. 5º, X e art. 227). Sua localização no Título VI do Código Penal ("Dos Crimes Contra a Dignidade Sexual") confirma essa especificidade. Sua natureza jurídica é de causa de aumento de pena, qualificando a resposta penal em face de circunstâncias específicas (concurso de pessoas, relação de autoridade/confiança) que revelam maior reprovabilidade da conduta e maior vulnerabilidade da vítima no contexto dos crimes sexuais. O fundamento constitucional reside
 
 ### Tipo Penal
 
@@ -84,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

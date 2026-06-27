@@ -33,22 +33,25 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a Administração da Justiça, em sentido amplo, abrangendo a correta e eficiente atuação dos órgãos estatais na persecução penal, civil e administrativa. Secundariamente, protege-se a honra e a liberdade da pessoa falsamente imputada. O fundamento constitucional reside nos princípios da eficiência e moralidade da administração pública (CF, art. 37), no devido processo legal (CF, art. 5º, LIV) e na proteção da dignidade da pessoa humana (CF, art. 1º, III), evitando o dispêndio inútil de recursos públicos e a maculação indevida de indivíduos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticar a conduta.
+- Sujeito passivo: O Estado (primário, pela lesão à administração da justiça) e a pessoa falsamente imputada (secundário).
+- Núcleo do tipo: "Dar causa". Significa provocar, originar, fazer surgir a instauração de um dos procedimentos elencados.
+- Objeto material: A instauração indevida de inquérito policial, procedimento investigatório criminal, processo judicial, processo administrativo disciplinar, inquérito civil ou ação de improbidade administrativa, e a pessoa inocente falsamente imputada.
+- Elementos normativos e descritivos: "imputando-lhe crime, infração ético-disciplinar ou ato ímprobo" (elemento normativo, exige valoração jurídica); "de que o sabe inocente" (elemento normativo, exige conhecimento da inocência).
+- Resultado exigido: Crime formal. Consuma-se com a efetiva instauração de qualquer um dos procedimentos mencionados, independentemente de haver prejuízo efetivo à vítima ou condenação.
+- Nexo causal / imputação objetiva: A conduta do agente deve ser a causa direta e eficiente da instauração do procedimento.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Exige-se dolo direto. O agente deve ter a intenção de dar causa à instauração do procedimento e, fundamentalmente, ter a plena e inequívoca ciência da inocência da pessoa a quem imputa a conduta criminosa, ético-disciplinar ou ímproba. O "saber inocente" é um elemento subjetivo especial do tipo, que afasta qualquer possibilidade de dolo eventual ou culpa. Não se admite a modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+O crime se consuma no momento em que é efetivamente instaurado um dos procedimentos investigatórios ou judiciais mencionados, independentemente do seu resultado final. A tentativa é cabível (art. 14 CP), por exemplo, se o agente faz a comunicação falsa, mas a instauração do procedimento não ocorre por circunstâncias alheias à sua vontade. É um crime formal e instantâneo. A desistência voluntária (art. 15 CP) pode ocorrer antes da instauração do procedimento. O arrependimento posterior (art. 16 CP) não é aplicável após a consumação, mas a retratação pode ser considerada como atenuante na dosimetria da pena (art. 65, III, "b", CP).
 
 ### Penas Cominadas
 
@@ -73,7 +76,8 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: O crime de denunciação caluniosa (art. 339 do CP) é formal e se consuma com a efetiva instauração do procedimento investigatório ou judicial, independentemente da sua procedência ou do resultado final. (AgRg no REsp 1904797/SC, Rel. Ministro RIBEIRO DANTAS, QUINTA TURMA, julgado em 09/03/2021, DJe 15/03/2021).
+- STJ — Tese: Para a configuração do crime de denunciação caluniosa, é imprescindível a demonstração do dolo direto do agente, consistente na inequívoca ciência da inocência da vítima e na intenção de dar causa à instauração de procedimento investig
 
 ---
 
@@ -84,4 +88,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

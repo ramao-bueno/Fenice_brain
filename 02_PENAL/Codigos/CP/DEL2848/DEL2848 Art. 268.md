@@ -35,22 +35,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **Saúde Pública**, compreendida como a incolumidade da coletividade contra a introdução ou propagação de doenças contagiosas. Indiretamente, tutela-se a vida e a integridade física dos indivíduos. O fundamento constitucional reside no Art. 196 da Constituição Federal, que estabelece a saúde como direito de todos e dever do Estado. Trata-se de uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum (qualquer pessoa). No parágrafo único, torna-se crime próprio qualificado (funcionário da saúde pública, médico, farmacêutico, dentista ou enfermeiro).
+- Sujeito passivo: A coletividade, sendo o Estado o titular do bem jurídico.
+- Núcleo do tipo: "Infringir" (desobedecer, violar, descumprir).
+- Objeto material: A determinação do poder público destinada a impedir introdução ou propagação de doença contagiosa.
+- Elementos normativos: "determinação do poder público" (ato normativo válido e eficaz), "doença contagiosa" (condição médica transmissível).
+- Resultado exigido: Crime de mera conduta. A consumação ocorre com a simples infração da determinação, independentemente da efetiva introdução ou propagação da doença.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois a tipicidade se perfaz pela desobediência à norma, sem exigir um resultado naturalístico específico.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de **dolo direto**. Exige-se a vontade livre e consciente de infringir a determinação do poder público, sabendo de sua finalidade de impedir a introdução ou propagação de doença contagiosa. Não há previsão de modalidade culposa para este delito. Não há elemento subjetivo especial (dolo específico ou especial fim de agir).
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a determinação do poder público é infringida. Por ser um crime de mera conduta e, em regra, unissubsistente (praticado por um único ato), a **tentativa é, na maioria dos casos, incabível**. Se a conduta de infração for plurissubsistente e houver interrupção por circunstâncias alheias à vontade do agente, a tentativa seria teoricamente possível, mas é rara na prática. O crime é instantâneo. Não há desistência voluntária (art. 15 CP) ou arrependimento posterior (art. 16 CP) relevantes para a consumação, mas podem ser considerados em outras fases da persecução penal.
 
 ### Penas Cominadas
 
@@ -75,15 +78,27 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- **STJ — Tese:** A configuração do crime previsto no art. 268 do Código Penal exige a existência de uma determinação *válida, específica e expressa* do poder público, destinada a impedir a introdução ou propagação de doença contagiosa, não bastando a mera desobediência a recomendações genéricas ou a normas de caráter meramente administrativo.
+- **STF — Tese (ADPF 672, ADI 6341):** O Supremo Tribunal Federal tem reconhecido a competência concorrente de União, Estados e Municípios para legislar e adotar medidas de proteção à saúde, o que implica que as "determinações do poder público" podem emanar de qualquer desses entes federativos, desde que dentro de sua esfera de competência e observando os princípios da razoabilidade e proporcionalidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:**
+    - A denúncia deve descrever detalhadamente a determinação do poder público infringida (ex: número do decreto, portaria, data de publicação) e a conduta específica do agente.
+    - É crucial provar a validade e publicidade da determinação, bem como a ciência do agente sobre ela.
+    - A qualificação do parágrafo único exige prova da função ou profissão do agente.
+- **Defesa:**
+    - Teses frequentes incluem a atipicidade da conduta por ausência de uma determinação específica ou válida, ou por esta não ter caráter penal.
+    - Alegação de ausência de dolo, seja por desconhecimento da determinação ou de seu caráter obrigatório.
+    - Possibilidade de desclassificação para infração administrativa, se a determinação não se enquadrar nos requisitos do tipo penal.
+    - Excludentes de ilicitude (ex: estado de necessidade, como buscar socorro urgente) podem ser alegadas.
+- **Prática/Tribunais:**
+    - A competência para processar e julgar este crime é do **Juizado Especial Criminal (JECRIM)**, dado o baixo patamar da pena.
+    - O procedimento é o sumaríssimo.
+    - Em casos de concurso de crimes, o art. 268 pode ser absorvido por crimes mais graves (ex: art. 267 - epidemia), se a infração da determinação for meio para a prática do delito mais grave, aplicando-se o princípio da consunção.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

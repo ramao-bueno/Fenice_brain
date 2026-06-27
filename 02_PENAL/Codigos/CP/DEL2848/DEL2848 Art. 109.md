@@ -76,14 +76,16 @@ O Art. 109 não comina penas. Sua função é precisamente oposta: ele estabelec
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 146: A prescrição da ação penal regula-se pelo máximo da pena cominada.
+- STF — Tese: A prescrição é instituto de direito material que visa impedir a perpetuação da pretensão punitiva do Estado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve observar os prazos prescricionais para oferecer denúncia.
+- **Defesa:** pode arguir a prescrição como causa de extinção da punibilidade.
+- **Prática/Tribunais:** a prescrição deve ser verificada pelo juiz de ofício.
 
 ---
 

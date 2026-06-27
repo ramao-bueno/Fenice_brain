@@ -33,22 +33,28 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a **Administração Pública**, em sua vertente de probidade, moralidade, legalidade, impessoalidade e eficiência, bem como a proteção do patrimônio público e da ordem econômica. Busca-se garantir a lisura e a regularidade na execução dos contratos administrativos, prevenindo favorecimentos indevidos e desvios de finalidade. O fundamento constitucional reside no Art. 37, caput, da Constituição Federal de 1988, que estabelece os princípios basilares da Administração Pública.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo**: Crime próprio. Pode ser praticado por **agente público** (funcionário público ou equiparado, nos termos do art. 327 do CP) que tenha poder de decisão ou influência sobre a execução contratual ou o pagamento de faturas. O particular pode ser coautor ou partícipe, desde que em concurso de pessoas (art. 29 CP).
+-   **Sujeito passivo**: A **Administração Pública** (União, Estados, Distrito Federal, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista).
+-   **Núcleo do tipo**: Os verbos nucleares são "Admitir", "possibilitar", "dar causa" (a modificação ou vantagem) ou "pagar" (fatura). São condutas comissivas que implicam ação ou omissão relevante.
+-   **Objeto material**: A modificação ou vantagem indevida em favor do contratado, ou a fatura paga com preterição da ordem cronológica.
+-   **Elementos normativos**: "sem autorização em lei, no edital da licitação ou nos respectivos instrumentos contratuais" e "preterição da ordem cronológica de sua exigibilidade". Exigem valoração jurídica para sua configuração.
+-   **Resultado exigido**: Crime formal ou de mera conduta. A consumação ocorre com a prática das condutas descritas, independentemente da obtenção de efetivo prejuízo ao erário, bastando a potencialidade lesiva ou a violação da norma.
+-   **Nexo causal / imputação objetiva**: A conduta do agente deve ser a causa da modificação/vantagem ou do pagamento indevido, sem a devida autorização ou com preterição.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime do Art. 337-H do Código Penal exige **dolo direto**. O agente deve ter a vontade livre e consciente de admitir, possibilitar, dar causa à modificação/vantagem ou de pagar a fatura, ciente da ausência de autorização legal, editalícia ou contratual, ou da preterição da ordem cronológica de exigibilidade. Não se exige um dolo específico de causar prejuízo ao erário, mas sim a vontade de praticar a conduta proibida. Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+-   **Momento da consumação**: O crime é **instantâneo**. Consuma-se no momento em que a modificação ou vantagem é admitida, possibilitada ou causada, ou quando a fatura é efetivamente paga com preterição.
+-   **A tentativa é cabível (art. 14 CP)?**: Sim, é um crime plurissubsistente. Se o agente inicia a execução das condutas (ex: prepara o ato administrativo para a modificação indevida ou a ordem de pagamento irregular), mas não as concretiza por circunstâncias alheias à sua vontade, a tentativa é configurada.
+-   **Classificação**: Crime instantâneo e formal ou de mera conduta.
+-   **Desistência voluntária (art. 15) ou arrependimento posterior (art. 16) relevantes?**: A **desistência voluntária** é cabível antes da consumação. O **arrependimento posterior** (art. 16 CP) não se aplica, pois a pena mínima cominada (4 anos) é superior a 4 anos.
 
 ### Penas Cominadas
 
@@ -84,4 +90,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

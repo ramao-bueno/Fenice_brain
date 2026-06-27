@@ -33,8 +33,7 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração Pública, especificamente a probidade, a legalidade e a regularidade na gestão financeira e orçamentária do erário. A norma visa proteger a correta aplicação dos recursos públicos, garantindo que as despesas sejam realizadas em estrita observância às leis orçamentárias e financeiras. O fundamento constitucional reside nos princípios da Administração Pública (legalidade, impessoalidade, moralidade, publicidade e eficiência), previstos no Art. 37, caput, da Constituição Federal de 1988, bem como nas normas de controle orçamentário (Art. 167 da CF/88).
 
 ### Tipo Penal
 
@@ -82,4 +81,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

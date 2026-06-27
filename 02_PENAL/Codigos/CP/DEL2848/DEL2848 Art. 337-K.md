@@ -33,22 +33,27 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a Administração Pública, em sua vertente de probidade, moralidade e lealdade, visando garantir a lisura, a competitividade e a isonomia nos procedimentos licitatórios. Secundariamente, protege-se a liberdade de participação dos licitantes e o patrimônio público, ao assegurar que a seleção da proposta mais vantajosa não seja maculada por condutas ilícitas. O fundamento constitucional reside no Art. 37, caput e inciso XXI, da Constituição Federal, que estabelecem os princípios da Administração Pública e a obrigatoriedade de licitação pública, respectivamente.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Pode ser praticado por qualquer pessoa, seja particular ou agente público.
+- Sujeito passivo: A Administração Pública (diretamente) e, secundariamente, os licitantes prejudicados ou afastados.
+- Núcleo do tipo: "Afastar ou tentar afastar" (caput); "abster-se ou desistir" (parágrafo único).
+- Objeto material: O licitante (pessoa física ou jurídica) que é alvo da conduta de afastamento ou que se abstém/desiste.
+- Elementos normativos e descritivos:
+    - Normativos: "licitante" (remete à legislação de licitações), "violência", "grave ameaça", "fraude", "vantagem de qualquer tipo".
+    - Descritivos: "afastar", "tentar afastar", "oferecimento", "abster-se", "desistir".
+- Resultado exigido: O caput configura um crime formal, pois a consumação ocorre com a prática dos meios executórios para afastar ou tentar afastar o licitante, independentemente do afastamento efetivo. A própria expressão "tentar afastar" já tipifica a conduta. O parágrafo único é um crime de mera conduta, consumando-se com a abstenção ou desistência de licitar em razão da vantagem oferecida.
+- Nexo causal / imputação objetiva: Relevante no caput, onde a conduta (violência, ameaça, fraude, vantagem) deve ser o meio empregado para o afastamento ou a tentativa de afastamento.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo direto ou eventual. O agente deve ter a vontade livre e consciente de afastar ou tentar afastar o licitante por meio dos expedientes previstos, ou de se abster/desistir de licitar em razão de vantagem oferecida, assumindo o risco do resultado. Não há previsão de modalidade culposa para este delito. Não se exige elemento subjetivo especial (dolo específico ou especial fim de agir) além do dolo de praticar a conduta típica.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+No caput, a consumação ocorre no momento em que a conduta de "afastar" é praticada ou quando se inicia a "tentativa de afastar" por meio dos expedientes previstos, sendo um crime formal. A própria redação legal já prevê a "tentativa de afastar" como conduta típica, o que a torna punível como crime consumado. Se o agente inicia os atos execut
 
 ### Penas Cominadas
 
@@ -84,4 +89,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

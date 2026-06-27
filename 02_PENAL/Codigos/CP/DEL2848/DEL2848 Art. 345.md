@@ -33,22 +33,27 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a Administração da Justiça, garantindo o monopólio estatal da jurisdição e a pacificação social através dos meios legais. Secundariamente, protege a ordem pública e a integridade física/psíquica da pessoa que sofre a ação arbitrária. O fundamento constitucional reside no princípio da inafastabilidade da jurisdição (CF, art. 5º, XXXV) e na separação de poderes (CF, art. 2º), que atribui ao Poder Judiciário a função de dirimir conflitos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: O Estado (Administração da Justiça) e, reflexamente, a pessoa que sofre a conduta.
+- Núcleo do tipo: "Fazer justiça pelas próprias mãos".
+- Objeto material: Não há objeto material em sentido estrito; a conduta recai sobre a função jurisdicional do Estado.
+- Elementos normativos e descritivos:
+    - Normativos: "pretensão, embora legítima" (exige valoração jurídica da pretensão) e "salvo quando a lei o permite" (exige análise da existência de permissão legal para autotutela, como desforço imediato na posse).
+    - Descritivos: "pelas próprias mãos".
+- Resultado exigido: Crime de mera conduta, consuma-se com a simples prática do ato de autotutela, independentemente de um resultado naturalístico.
+- Nexo causal / imputação objetiva: A imputação é direta à conduta de fazer justiça pelas próprias mãos.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de exercício arbitrário das próprias razões é punido exclusivamente a título de dolo direto. O agente deve ter a vontade livre e consciente de fazer justiça pelas próprias mãos. Há um elemento subjetivo especial (dolo específico ou especial fim de agir): "para satisfazer pretensão". Não se admite a modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o agente efetivamente faz justiça pelas próprias mãos, ou seja, quando realiza a conduta de autotutela. Por ser um crime de mera conduta, geralmente não admite tentativa, pois a simples realização do ato já o consuma. Contudo, em situações excepcionais onde a conduta é fracionável e o agente é impedido de concluir o ato de autotutela, a tentativa poderia ser teoricamente admitida. É um crime instantâneo e de mera conduta. A desistência voluntária (art. 15 CP) ou arrependimento posterior (art. 16 CP) não são diretamente aplicáveis ao tipo penal do art. 345, mas podem ser relevantes para a pena da violência associada.
 
 ### Penas Cominadas
 
@@ -73,15 +78,28 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Ação Penal: A ação penal para o delito de exercício arbitrário das próprias razões, na modalidade simples (sem violência), é privada, exigindo queixa-crime. Contudo, se houver emprego de violência, a ação penal será pública incondicionada, aplicando-se o concurso material com o crime de violência.
+STJ — Elemento normativo: A legitimidade da pretensão é elemento essencial do tipo penal do art. 345 do CP. A ausência de tal legitimidade descaracteriza o delito, podendo a conduta ser enquadrada em outros tipos penais, como crimes contra o patrimônio ou a pessoa, a depender do caso concreto.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:**
+    - Verificar a legitimidade da pretensão alegada pelo agente.
+    - Analisar a ausência de permissão legal para a autotutela.
+    - Se houver emprego de violência, denunciar o art. 345 em concurso material com o crime de violência (ex: lesão corporal, ameaça).
+    - Se não houver violência, a ação penal é privada, exigindo queixa-crime do ofendido.
+- **Defesa:**
+    - Argumentar a ausência de dolo específico ("para satisfazer pretensão"), se o fim do agente for outro.
+    - Alegar a existência de permissão legal para a autotutela (ex: legítima defesa, estado de necessidade, desforço imediato na posse), o que excluiria a tipicidade.
+    - Discutir a ilegitimidade da pretensão, o que descaracterizaria o art. 345, podendo levar à desclassificação para outros crimes (ex: roubo, extorsão), se for o caso.
+    - Em caso de denúncia sem violência, alegar a ilegitimidade ativa do Ministério Público, por se tratar de ação penal privada.
+- **Prática/Tribunais:**
+    - Competência: Juizado Especial Criminal (JECRIM), em razão da pena máxima cominada.
+    - Procedimento: Sumaríssimo.
+    - Pontos de concurso: A distinção entre o exercício arbitrário das próprias razões e outros crimes (ex: roubo, extorsão, ameaça) é crucial, especialmente quando há violência. A cumulação de penas ("além da pena correspondente à violência") é um aspecto importante na dosimetria.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

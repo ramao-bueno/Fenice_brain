@@ -33,12 +33,11 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a Administração Pública, em sua probidade, fidelidade e regularidade dos sistemas de informação. Secundariamente, protege-se a fé pública e a confiabilidade dos dados oficiais. O fundamento constitucional reside nos princípios da Administração Pública, especialmente a moralidade, legalidade e eficiência (Art. 37, caput, da CF/88), garantindo a integridade e a veracidade das informações geridas pelo Estado.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime próprio. Somente pode ser praticado por funcionário público (nos termos do Art. 327 do CP) que seja "autorizado" a inserir, alterar ou
 
 ### Dolo/Culpa
 
@@ -84,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

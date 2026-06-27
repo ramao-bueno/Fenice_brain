@@ -35,8 +35,7 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 239 do Código Penal, em sua redação original, tutelava a **família** e a **fé pública** (no que tange à validade dos atos jurídicos civis, como o casamento). O fundamento constitucional para a proteção da família reside no art. 226 da CF/88. Contudo, é crucial notar que o **Art. 239 foi revogado pela Lei nº 11.106, de 2005**. Portanto, atualmente, não há bem jurídico tutelado por este dispositivo, pois ele não faz mais parte do ordenamento jurídico penal brasileiro. A menção a "Adultério" na redação legal forne
 
 ### Tipo Penal
 
@@ -86,4 +85,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

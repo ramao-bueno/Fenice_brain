@@ -33,26 +33,31 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 361 do Código Penal não tutela um bem jurídico penal no sentido de valor social a ser protegido contra lesão ou perigo. Sua natureza jurídica é de norma de direito intertemporal, especificamente uma cláusula de vigência. Ele estabelece o termo inicial de validade e eficácia de todo o Código Penal, garantindo a segurança jurídica e a previsibilidade da aplicação da lei. Não se trata de norma incriminadora, permissiva ou de extensão, mas sim de uma disposição final que regula a entrada em vigor do diploma legal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+O Art. 361 não configura um tipo penal. Trata-se de uma norma de direito intertemporal que estabelece a data de entrada em vigor do Código Penal.
+- **Sujeito ativo:** Inaplicável, pois não há conduta criminosa.
+- **Sujeito passivo:** Inaplicável.
+- **Núcleo do tipo:** Inexistente. O texto apenas declara uma data.
+- **Objeto material:** Inexistente.
+- **Elementos normativos e descritivos:** A data "1º de janeiro de 1942" é um elemento descritivo temporal.
+- **Resultado exigido:** Inaplicável.
+- **Nexo causal / imputação objetiva:** Inaplicável.
+Sua estrutura jurídica é a de uma norma de transição ou de vigência, essencial para a aplicação do princípio da anterioridade da lei penal (Art. 1º do CP e Art. 5º, XXXIX, da CF).
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica. O Art. 361 não descreve uma conduta típica passível de dolo (direto ou eventual) ou culpa (consciente ou inconsciente). Sendo uma norma de direito intertemporal que apenas declara a data de entrada em vigor do Código Penal, não há elemento subjetivo a ser analisado. Não se trata de uma causa justificante, mas de uma disposição formal sobre a eficácia da lei.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Inaplicável. O Art. 361 não descreve um crime, sendo impossível cogitar de consumação ou tentativa. É uma norma de direito intertemporal que se exaure em sua própria declaração da data de início da vigência do Código Penal. Não há conduta que possa ser fracionada em atos executórios para fins de tentativa, nem se aplica a conceitos como crime instantâneo ou permanente, material, formal ou de mera conduta, desistência voluntária ou arrependimento posterior.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O Art. 361 não comina pena, pois não se trata de norma incriminadora. Sua função é meramente declaratória, estabelecendo a data de início da vigência do Código Penal. Consequentemente, não há que se falar em pena do caput, qualificadoras, causas de aumento ou diminuição, regime inicial, crime hediondo, nem em institutos despenalizadores como ANPP, transação penal ou suspensão condicional do processo.
 
 ---
 
@@ -71,15 +76,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+Não há súmulas ou teses firmadas diretamente sobre o Art. 361, pois ele não tipifica crime. Contudo, a sua existência é o fundamento para a aplicação de princípios e regras sobre a lei penal no tempo:
+*   **STF — Tese (Repercussão Geral no RE 600.817):** "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência." (Tema 383). Embora não cite o Art. 361, esta tese pressupõe a existência de uma norma que define a vigência da lei.
+*   **STJ — Súmula 711:** "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência." Reforça o entendimento sobre a aplicação da lei penal no tempo, diretamente ligada à data de entrada em vigor de uma norma.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+*   **MP/Acusação:** O Art. 361 não é objeto de denúncia. Sua relevância para a acusação reside na determinação do *tempus delicti* e da lei aplicável ao fato, especialmente em casos de sucessão de leis penais no tempo, onde a data de vigência do Código Penal ou de leis posteriores é crucial para a correta imputação.
+*   **Defesa:** Não é uma tese de defesa contra uma imputação criminal. Contudo, o conhecimento da data de vigência do Código Penal e de suas alterações é fundamental para a defesa arguir a *abolitio criminis*, *novatio legis in mellius* ou a irretroatividade da *novatio legis in pejus*, confrontando a data do fato com a data de entrada em vigor da norma.
+*   **Prática/Tribunais:** O Art. 361 é um artigo de caráter fundamental para a compreensão da aplicação da lei penal no tempo. Em concursos públicos e na prática forense, é essencial para questões que envolvem a sucessão de leis penais, o princípio da anterioridade e a irretroatividade da lei penal mais gravosa, sendo a base para a contagem da *vacatio legis* e a efetivação do sistema jurídico.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

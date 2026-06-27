@@ -43,17 +43,15 @@ O Art. 101 do Código Penal não tutela um bem jurídico específico no sentido 
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois este artigo não define um crime, mas sim uma regra sobre a ação pública.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois este artigo não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não se aplica, pois este artigo não define um crime.
 
 ---
 
@@ -72,14 +70,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 23: A ação pública pode ser intentada contra qualquer dos autores do crime. 
+STF — Tese: A competência para processar e julgar crimes é da Justiça Federal ou Estadual, conforme o caso.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve proceder com a ação pública quando houver elementos que indiquem a ocorrência de um crime.
+- **Defesa:** pode arguir a falta de condição de procedibilidade para a ação penal.
+- **Prática/Tribunais:** a competência para processar e julgar crimes é definida pelo Código de Processo Penal.
 
 ---
 

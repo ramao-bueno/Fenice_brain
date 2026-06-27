@@ -35,8 +35,7 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 258 do Código Penal não tipifica um crime autônomo, mas estabelece causas de aumento de pena ou qualificadoras para os crimes de perigo comum (Arts. 250 a 257 CP) quando deles resultam lesão corporal grave ou morte. Assim, os bens jurídicos primariamente tutelados são a **incolumidade pública** (segurança e saúde da coletividade), que é o objeto dos crimes de perigo comum. Secundariamente, e de forma agravada, tutela-se a **vida** e a **integridade física/saúde** das vítimas individualizadas. O fundamento constitucional reside no direito à vida (CF, art.
 
 ### Tipo Penal
 
@@ -84,4 +83,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

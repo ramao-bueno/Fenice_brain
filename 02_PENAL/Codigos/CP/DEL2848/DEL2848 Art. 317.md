@@ -33,22 +33,27 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **Administração Pública**, em sua moralidade, probidade, imparcialidade e eficiência. Secundariamente, protege-se a confiança da coletividade na integridade dos agentes públicos. O fundamento constitucional reside nos princípios da Administração Pública, especialmente a moralidade e a impessoalidade, previstos no art. 37, caput, da Constituição Federal de 1988.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime próprio, somente pode ser praticado por funcionário público (conceito do art. 327 do CP), ainda que fora da função ou antes de assumi-la, mas em razão dela. Particulares podem figurar como coautores ou partícipes (art. 29 CP).
+- **Sujeito passivo:** O Estado (Administração Pública).
+- **Núcleo do tipo:** Verbos "solicitar", "receber" (vantagem indevida) ou "aceitar promessa" (de tal vantagem).
+- **Objeto material:** A "vantagem indevida" ou a "promessa de tal vantagem".
+- **Elementos normativos e descritivos:**
+    - Normativos: "funcionário público", "vantagem indevida", "em razão dela", "ato de ofício" (§1º).
+    - Descritivos: "para si ou para outrem", "direta ou indiretamente".
+- **Resultado exigido:** Crime formal (ou de consumação antecipada). Consuma-se com a mera solicitação, recebimento ou aceitação da promessa, independentemente da efetiva obtenção da vantagem ou da prática do ato de ofício.
+- **Nexo causal / imputação objetiva:** Relevante para o §1º, onde o aumento de pena exige que o retardo, a omissão ou a prática do ato de ofício infringindo dever funcional seja "em consequência da vantagem ou promessa".
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de corrupção passiva é exclusivamente **doloso**. Exige-se o **dolo direto**, ou seja, a vontade livre e consciente de solicitar, receber ou aceitar promessa de vantagem, sabendo de sua indevidez e da relação com a função pública. Não se admite a modalidade culposa. Não há elemento subjetivo especial (dolo específico) além da consciência da indevidez da vantagem e da sua vinculação à função.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A **tentativa é cabível** (art. 14 CP), pois o *iter criminis* pode ser fracionado. Por exemplo, na modalidade "solicitar", se a solicitação não chega ao conhecimento do destinatário por circunstâncias alheias à vontade do agente. Na modalidade "receber", se o recebimento é impedido. Na modalidade "aceitar promessa", se a aceitação não se concretiza. O crime é **formal** (ou de consumação antecipada) e **instantâneo**. A **desistência voluntária** (art. 15 CP) é possível antes da consumação. O **arrependimento posterior** (art. 16 CP) não se aplica, pois não se trata de crime sem violência ou grave ameaça com reparação do dano ou restituição da coisa.
 
 ### Penas Cominadas
 
@@ -88,4 +93,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

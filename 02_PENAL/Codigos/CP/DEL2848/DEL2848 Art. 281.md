@@ -35,12 +35,15 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O Art. 281 do Código Penal, em sua redação original (anterior à Lei nº 6.368/1976), tutelava a **saúde pública** e a **fé pública** na regularidade do exercício profissional. O fundamento constitucional implícito reside no direito à saúde (CF, art. 196) e na proteção da ordem econômica e social. Atualmente, o Art. 281 do CP está **revogado** pela Lei nº 6.368/1976, não havendo bem jurídico tutelado por este dispositivo específico. A menção à "Redação dada pela Lei nº 15.425, de 2026" indica uma **futura e hipotética reintrodução** do tipo penal, que, se efetivada, voltaria a tutelar a saúde pública e a regularidade das profissões regulamentadas.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+*   **Status Atual:** O Art. 281 do CP está **revogado** pela Lei nº 6.368/1976, não possuindo estrutura de tipo penal vigente.
+*   **Estrutura Original (pré-1976 e hipotética 2026):**
+    *   **Sujeito ativo:** Crime comum. Qualquer pessoa que não possua habilitação legal para o exercício das profissões mencionadas.
+    *   **Sujeito passivo:** A coletividade (saúde pública) e, secundariamente, a pessoa que sofre a intervenção.
+    *   **Núcleo do tipo:** "Exercício ilegal". Verbo que denota a prática de atos próprios das profiss
 
 ### Dolo/Culpa
 
@@ -84,4 +87,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

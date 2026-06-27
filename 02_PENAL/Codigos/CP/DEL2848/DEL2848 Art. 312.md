@@ -33,22 +33,33 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a Administração Pública, em seus princípios de probidade, moralidade, lealdade e eficiência. Secundariamente, protege-se o patrimônio público ou particular, que é objeto da conduta. O fundamento constitucional reside nos princípios da Administração Pública, especialmente a moralidade e a eficiência, previstos no Art. 37, caput, da Constituição Federal, que exigem dos agentes públicos conduta íntegra e zelosa no trato com a coisa pública.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Funcionário público (crime próprio). O conceito de funcionário público para fins penais é ampliado pelo Art. 327 do CP, incluindo quem exerce cargo, emprego ou função pública, ainda que transitoriamente ou sem remuneração.
+- Sujeito passivo: O Estado (Administração Pública) e, secundariamente, o proprietário do bem (se particular).
+- Núcleo do tipo:
+    - Caput: "Apropriar-se" (peculato-apropriação) ou "desviar" (peculato-desvio).
+    - § 1º: "Subtrai" ou "concorre para que seja subtraído" (peculato-furto).
+    - § 2º: "Concorre culposamente" (peculato culposo).
+- Objeto material: Dinheiro, valor ou qualquer outro bem móvel, público ou particular.
+- Elementos normativos: "Funcionário público", "em razão do cargo" (caput), "valendo-se de facilidade que lhe proporciona a qualidade de funcionário" (§ 1º).
+- Resultado exigido: Crime material, exigindo a efetiva apropriação, desvio ou subtração do bem, com o consequente proveito próprio ou alheio.
+- Nexo causal: Sim, a conduta do agente deve ser a causa do resultado lesivo à Administração Pública e ao patrimônio.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+- Caput e § 1º: Exigem dolo direto. Há um elemento subjetivo especial (dolo específico ou especial fim de agir): "em proveito próprio ou alheio". Não se admite dolo eventual.
+- § 2º (Peculato culposo): Admite a modalidade culposa, tipificada expressamente. A culpa pode ser consciente ou inconsciente, caracterizada pela inobservância do dever de cuidado objetivo, que resulta na facilitação da prática do crime por outrem.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível para as modalidades dolosas (caput e § 1º), pois são crimes materiais e plurissubsistentes, permitindo o fracionamento do *iter criminis*. A consumação ocorre:
+- Peculato-apropriação (caput): Com a inversão da posse, quando o funcionário passa a dispor do bem como se fosse seu.
+- Peculato-desvio (caput): Com o desvio do bem para finalidade diversa da legal, em proveito próprio ou alheio.
+- Peculato-furto (§ 1º): Com a efetiva subtração do bem.
+O crime é instantâneo, embora seus efeitos possam ser permanentes. A desistência voluntária (Art. 15 CP) e o arrependimento posterior (Art. 16 CP) são relevantes. No peculato culposo (§ 2º), o Art. 312, § 3º, prevê a extinção da punibilidade se o funcionário repara o dano antes da sentença irrecorrível.
 
 ### Penas Cominadas
 
@@ -89,4 +100,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

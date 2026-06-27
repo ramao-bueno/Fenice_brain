@@ -35,22 +35,27 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado primariamente é a Fé Pública, especificamente a confiança e a credibilidade depositadas na instituição do casamento civil e na autoridade estatal responsável por sua celebração. Secundariamente, protege-se a Administração Pública, na medida em que a conduta atinge a regularidade e a legitimidade dos atos praticados por seus agentes ou em seu nome. O fundamento constitucional reside no Art. 226 da CF/88, que reconhece o casamento como base da família e impõe ao Estado o dever de protegê-lo, implicando a necessidade de garantir a autenticidade e a legalidade de sua celebração.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticar a conduta de atribuir-se falsamente a autoridade.
+- Sujeito passivo: O Estado (Administração Pública), titular da fé pública e da prerrogativa de celebrar casamentos. Indiretamente, a sociedade e os indivíduos que poderiam ser enganados.
+- Núcleo do tipo: "Atribuir-se falsamente". Implica a conduta de alegar ou assumir, sem ter, a qualidade de autoridade para o fim específico.
+- Objeto material: A própria autoridade para celebração de casamento, que é falsamente atribuída.
+- Elementos normativos e descritivos:
+    - Descritivo: "celebração de casamento" (ato específico).
+    - Normativo: "autoridade" (exige valoração jurídica sobre quem detém tal poder) e "falsamente" (indica a ausência de legitimidade).
+- Resultado exigido: Crime de mera conduta. Consuma-se com a simples atribuição falsa da autoridade, independentemente de a celebração do casamento ocorrer ou de alguém ser efetivamente enganado.
+- Nexo causal / imputação objetiva: Não se aplica diretamente, pois a consumação independe de um resultado naturalístico.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo direto. O agente deve ter a consciência de que não possui a autoridade para celebrar casamento e a vontade livre e consciente de atribuir-se falsamente essa qualidade. Não há previsão de modalidade culposa, sendo, portanto, um crime exclusivamente doloso. Não se exige elemento subjetivo especial (dolo específico ou especial fim de agir) além da intenção de atribuir-se falsamente a autoridade para o fim indicado.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o agente se atribui falsamente a autoridade para a celebração do casamento. Por ser um crime de mera conduta, a tentativa é cabível, mas de difícil configuração, pois a atribuição pode ser instantânea. Contudo, se a conduta de atribuição for fracionável (ex: o agente inicia a preparação para se apresentar como autoridade, mas é interrompido antes de completar a atribuição), a tentativa é possível (Art. 14, II, CP). O crime é instantâneo. Desistência voluntária (Art. 15 CP) ou arrependimento posterior (Art. 16 CP) são teoricamente possíveis, mas de difícil aplicação prática após a consumação, que é imediata à atribuição.
 
 ### Penas Cominadas
 
@@ -75,15 +80,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: A cláusula de subsidiariedade expressa "se o fato não constitui crime mais grave" presente no tipo penal do Art. 238 do Código Penal impõe a aplicação do princípio da especialidade ou da consunção, de modo que, se a conduta do agente se amoldar a outro tipo penal com pena mais severa e que abranja a atribuição falsa de autoridade para celebração de casamento, este prevalecerá.
+- STJ — Tese: Para a configuração do crime de atribuição falsa de autoridade para celebração de casamento, é imprescindível a comprovação do dolo direto do agente em se apresentar como detentor de tal prerrogativa, sendo irrelevante para a consumação do delito a efetiva celebração do matrimônio ou a ocorrência de prejuízo a terceiros.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve focar na prova da falsa atribuição da autoridade e no dolo do agente. É crucial verificar se a conduta não se amolda a um crime mais grave (ex: Art. 328 CP - Usurpação de função pública, se a atribuição for mais ampla; Art. 299 CP - Falsidade ideológica, se houver documento falso; Art. 171 CP - Estelionato, se houver obtenção de vantagem ilícita mediante fraude). A "simulação de casamento" no subtítulo legal indica o contexto.
+- **Defesa:** As teses defensivas podem incluir a ausência de dolo (erro de tipo), a atipicidade da conduta (o agente não se atribuiu *autoridade* para *celebração de casamento*, mas outra função ou para outro fim), ou a desclassificação para outro delito menos grave. Argumentar a aplicação da subsidiariedade se houver crime mais grave que absorva a conduta.
+- **Prática/Tribunais:** A competência para processar e julgar é da Justiça Comum Estadual. O procedimento é o comum sumário, dada a pena máxima de 3 anos. Em caso de concurso de crimes, deve-se analisar a relação entre o Art. 238 e outros tipos penais, como estelionato ou falsidade ideológica, aplicando-se a subsidiariedade expressa do artigo ou os princípios da consunção/especialidade.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

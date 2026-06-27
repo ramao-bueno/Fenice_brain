@@ -79,14 +79,16 @@ A consumação do crime ocorre com a prática da intimidação de forma "sistem�
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula: Não há súmula específica.
+- STF — Tese: A proteção à dignidade humana é um dos fundamentos da República Federativa do Brasil.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Prova da conduta de intimidação e do dolo.
+- **Defesa:** Teses de exclusão do dolo ou de desclassificação para outra conduta.
+- **Prática/Tribunais:** Competência da Justiça Comum.
 
 ---
 

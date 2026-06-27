@@ -35,12 +35,13 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Saúde Pública, entendida como o direito fundamental social à saúde da coletividade, conforme o Art. 196 da Constituição Federal. A norma visa proteger a sociedade contra a comercialização e entrega de produtos que, por estarem adulterados, falsificados ou corrompidos, possam causar dano à saúde ou reduzir o valor nutritivo. Trata-se de uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, podendo ser praticado por qualquer pessoa.
+- Sujeito passivo: A coletividade, titular do bem jurídico saúde pública.
+- Núcleo do tipo: Os verbos "vender",
 
 ### Dolo/Culpa
 
@@ -86,4 +87,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

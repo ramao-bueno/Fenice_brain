@@ -33,22 +33,30 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração da Justiça, especificamente a autoridade e o prestígio das decisões judiciais. O tipo penal visa garantir o cumprimento e a eficácia dos provimentos jurisdicionais que suspendem ou privam o indivíduo de exercer determinadas funções, atividades, direitos, autoridades ou múnus. Fundamento constitucional no Art. 5º, XXXV (princípio da inafastabilidade da jurisdição) e Art. 93 (organização e funcionamento do Poder Judiciário), bem como nos princípios da Administração Pública (Art. 37 da CF).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Pode ser praticado por qualquer pessoa que tenha sido suspensa ou privada por decisão judicial.
+- Sujeito passivo: O Estado, representado pela Administração da Justiça.
+- Núcleo do tipo: O verbo "Exercer".
+- Objeto material: A função, atividade, direito, autoridade ou múnus que foi objeto da suspensão ou privação por decisão judicial.
+- Elementos normativos: "de que foi suspenso ou privado por decisão judicial". Exige uma decisão judicial prévia e válida, com eficácia imediata, que imponha a proibição.
+- Resultado exigido: Crime de mera conduta. A consumação ocorre com o simples ato de exercer o que lhe foi proibido, independentemente da produção de qualquer dano.
+- Nexo causal / imputação objetiva: Não se aplica no sentido de um resultado naturalístico, pois a conduta é o próprio exercício proibido.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punível exclusivamente a título de dolo.
+- Dolo direto: O agente tem a consciência da decisão judicial que o proíbe e a vontade de exercer a função, atividade, direito, autoridade ou múnus vedado.
+- Dolo eventual: É teoricamente possível, embora menos comum. O agente assume o risco de exercer o que lhe foi proibido judicialmente, mesmo ciente da proibição.
+- Culpa: Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação: O crime se consuma no momento em que o agente inicia o exercício da função, atividade, direito, autoridade ou múnus do qual foi suspenso ou privado.
+- A tentativa é cabível (art. 14 CP). Embora seja crime de mera conduta, o verbo "exercer" pode ser fracionado em atos executórios, permitindo a interrupção por circunstâncias alheias à vontade do agente (ex: ser impedido de assumir a função).
+- Classificação: Crime instantâ
 
 ### Penas Cominadas
 
@@ -84,4 +92,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

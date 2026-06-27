@@ -33,22 +33,25 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a regularidade e a legitimidade do processo eleitoral, a soberania popular e a confiança no sistema democrático de votação. Fundamenta-se nos princípios constitucionais da República Federativa do Brasil, especialmente a soberania (CF, art. 1º, parágrafo único), o sufrágio universal, o voto direto, secreto e periódico (CF, art. 14 e art. 60, § 4º, IV), e a forma democrática de Estado. A norma, tal como apresentada com a pena vetada, configura uma norma incriminadora sem sanção penal, o que a torna ineficaz para fins de persecução criminal, por violação ao princípio da legalidade estrita (nulla poena sine lege).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Crime comum, pode ser praticado por qualquer pessoa.
+- **Sujeito passivo:** A sociedade, o Estado Democrático de Direito e a Justiça Eleitoral, como garantidora do processo.
+- **Núcleo do tipo:** Os verbos "impedir" (obstar, dificultar) ou "perturbar" (desorganizar, atrapalhar).
+- **Objeto material:** A eleição ou a aferição de seu resultado.
+- **Elementos normativos e descritivos:** Elemento normativo é "violação indevida de mecanismos de segurança". "Indevida" exige uma valoração jurídica sobre a ilicitude da violação. Elementos descritivos incluem "mecanismos de segurança do sistema eletrônico de votação estabelecido pela Justiça Eleitoral".
+- **Resultado exigido:** Crime formal. Consuma-se com o efetivo impedimento ou perturbação, independentemente de haver alteração no resultado final da eleição.
+- **Nexo causal / imputação objetiva:** Exige-se que a conduta de violar indevidamente os mecanismos de segurança seja a causa do impedimento ou da perturbação da eleição ou da aferição de seu resultado.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo direto. O agente deve ter a vontade livre e consciente de impedir ou perturbar a eleição ou a aferição de seu resultado, mediante a violação indevida dos mecanismos de segurança do sistema eletrônico de votação. Não se exige um elemento subjetivo especial (dolo específico) além da intenção de realizar a conduta típica. A modalidade culposa não é admitida, dada a natureza da conduta que envolve uma "violação indevida" e a intenção de causar o impedimento ou a perturbação.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a eleição ou a aferição de seu resultado é efetivamente impedida ou perturbada pela violação indevida dos mecanismos de segurança. A tentativa é cabível (art. 14, II, CP), pois o iter criminis pode ser fracionado, permitindo que o agente inicie a violação dos mecanismos de segurança com o fim de impedir ou perturbar, mas não consiga concretizar o impedimento ou a perturbação por circunstâncias alheias à sua vontade. É um crime formal e instantâneo. A desistência voluntária (art. 15, CP) ou o arrependimento posterior (art. 16, CP) são teoricamente possíveis, se o agente interromper a execução ou impedir o resultado antes da consumação.
 
 ### Penas Cominadas
 
@@ -73,15 +76,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: O princípio da legalidade estrita (reserva legal) em matéria penal exige que a lei defina de forma clara e taxativa tanto a conduta criminosa quanto a sanção a ela cominada, sendo inadmissível a punição de condutas sem prévia e expressa cominação legal da pena (CF, art. 5º, XXXIX; CP, art. 1º).
+- STJ — Tese: A ausência de cominação de pena para um tipo penal incriminador impede a configuração do crime em sentido material e, consequentemente, a instauração de qualquer persecução penal, por flagrante ofensa ao princípio da anterioridade e da taxatividade da lei penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Diante do veto da pena, não há base legal para a denúncia ou persecução penal por este artigo. Qualquer tentativa de acusação seria nula por ausência de tipicidade material (nulla poena sine lege). A conduta, embora descrita, não gera responsabilidade penal.
+- **Defesa:** A principal tese de defesa é a atipicidade penal da conduta por ausência de cominação de pena, invocando o princípio da legalidade estrita. Qualquer acusação baseada no Art. 359-N, com a pena vetada, deve ser rechaçada liminarmente por falta de justa causa e violação a garantias constitucionais.
+- **Prática/Tribunais:** O artigo, na forma apresentada (com a pena vetada), não possui aplicação prática no âmbito penal. Em concursos jurídicos, seria um excelente ponto para discutir os princípios da legalidade, anterioridade e taxatividade da lei penal, bem como a estrutura da norma penal incriminadora e suas consequências em caso de incompletude legislativa.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

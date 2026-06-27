@@ -35,22 +35,42 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo Art. 280 do Código Penal, em sua redação original, era a saúde pública e a incolumidade individual, garantindo o uso adequado de substâncias medicinais sob controle profissional. A preocupação era com a segurança no fornecimento de medicamentos. Após a redação dada pela Lei nº 5.726/1971, o bem jurídico passou a ser a saúde pública, especificamente no que tange ao controle de entorpecentes e substâncias que causam dependência. Atualmente, o artigo está revogado pela Lei nº 6.368/1976, sendo que as condutas relacionadas a entorpecentes foram posteriormente tipificadas em legislação especial (hoje, Lei nº 11.343/2006).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+O Art. 280 do Código Penal está revogado pela Lei nº 6.368/1976. Analisando suas redações históricas:
+- **Redação original (1940):**
+    - Sujeito ativo: Crime comum (qualquer pessoa).
+    - Sujeito passivo: A coletividade (saúde pública) e o indivíduo que recebe a substância.
+    - Núcleo do tipo: "Fornecer".
+    - Objeto material: "Substância medicinal".
+    - Elementos normativos: "em desacordo com receita médica".
+    - Resultado exigido: Crime formal (consuma-se com o fornecimento, independentemente de dano efetivo).
+- **Redação dada pela Lei nº 5.726/1971:**
+    - Núcleo do tipo: "Comércio, posse ou uso".
+    - Objeto material: "Entorpecente ou substância que determine dependência física ou psíquica".
+- **Status atual:** Revogado. As condutas foram redefinidas e tipificadas em leis posteriores, caracterizando continuidade normativo-típica para o objeto da Lei 5.726/71, mas *abolitio criminis* para o tipo penal específico do Art. 280.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O Art. 280 do Código Penal está revogado. Historicamente:
+- **Redação original (1940):**
+    - Caput: Admitia dolo direto (vontade livre e consciente de fornecer a substância medicinal em desacordo com a receita).
+    - Parágrafo único: Previa expressamente a modalidade culposa (negligência, imprudência ou imperícia no fornecimento).
+- **Redação dada pela Lei nº 5.726/1971:**
+    - As condutas de "comércio, posse ou uso" de entorpecentes eram tipificadas na modalidade dolosa.
+- **Status atual:** Revogado. Não há elemento subjetivo a ser analisado para este artigo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+O Art. 280 do Código Penal está revogado. Historicamente:
+- **Redação original (1940):**
+    - Consumação: Ocorria com o efetivo "fornecimento" da substância.
+    - Tentativa: Era teoricamente cabível, por ser um crime formal, mas de difícil configuração prática para o verbo "fornecer", que implica a entrega. Seria um crime instantâneo.
+- **Redação dada pela Lei nº 5.726/1971:**
+    - A tentativa era cabível para o "comércio" (crime material/formal), mas não para a "posse" ou "uso" (crimes de mera conduta).
+- **Status atual:** Revogado. Não há que se falar em consumação ou tentativa para um tipo penal inexistente.
 
 ### Penas Cominadas
 
@@ -74,15 +94,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+Devido à revogação do Art. 280 do Código Penal, não há jurisprudência atual e específica sobre este dispositivo. Contudo, a revogação e a sucessão de leis penais são temas de relevância jurídica:
+- STF — Tese: A revogação de um tipo penal sem a correspondente redefinição da conduta em outra norma incriminadora configura *abolitio criminis*, extinguindo a punibilidade dos fatos praticados sob a égide da lei anterior, nos termos do art. 2º do Código Penal.
+- STJ — Tese: Em casos de sucessão de leis penais, a continuidade normativo-típica ocorre quando, apesar da revogação formal de um dispositivo, a conduta anteriormente tipificada permanece criminalizada em outro dispositivo legal, sem interrupção da tipicidade penal, o que afasta a *abolitio criminis* para a conduta em si, mas não para o artigo específico revogado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Atualmente, o Art. 280 do CP não pode ser utilizado para denúncia, pois está revogado. Qualquer conduta que se assemelhe ao que foi tipificado na redação de 1971 (entorpecentes) deve ser analisada sob a ótica da Lei nº 11.343/2006.
+- **Defesa:** A principal tese de defesa para fatos pretéritos que se enquadrariam no Art. 280 seria a *abolitio criminis*, extinguindo a punibilidade. Para condutas relacionadas a entorpecentes, a defesa deve focar na aplicação da lei penal mais benéfica no tempo, se houver, ou na atipicidade da conduta sob a Lei de Drogas vigente.
+- **Prática/Tribunais:** A competência e o procedimento para crimes relacionados a entorpecentes são definidos pela Lei nº 11.343/2006. O Art. 280 do CP é um exemplo histórico de como o legislador abordou a matéria de saúde pública e drogas, sendo relevante para o estudo da evolução legislativa penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

@@ -35,17 +35,28 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a Administração Pública, em sua vertente de fé pública e probidade. Garante-se a veracidade e a idoneidade dos documentos e atos emanados ou relacionados à esfera pública, protegendo a confiança que a sociedade deposita na autenticidade e legalidade dos procedimentos administrativos. Secundariamente, protege-se a moralidade e a impessoalidade na obtenção de cargos, isenções e vantagens de caráter público. O fundamento constitucional reside nos princípios da Administração Pública, especialmente legalidade, impessoalidade e moralidade (CF, art. 37, *caput*).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Caput (Atestado ou Certidão Ideologicamente Falsos):**
+    - Sujeito ativo: Crime próprio. Somente funcionário público (art. 327 CP) que age "em razão de função pública".
+    - Sujeito passivo: O Estado (Administração Pública).
+    - Núcleo do tipo: "Atestar" ou "certificar" falsamente.
+    - Objeto material: O atestado ou a certidão ideologicamente falsos.
+    - Elementos normativos: "em razão de função pública", "falsamente", "fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem".
+    - Resultado exigido: Crime formal. Consuma-se com a emissão do documento falso, independentemente da obtenção da vantagem.
+- **§ 1º (Falsidade Material de Atestado ou Certidão):**
+    - Sujeito ativo: Crime comum. Qualquer pessoa pode praticar.
+    - Sujeito passivo: O Estado (Administração Pública).
+    - Núcleo do tipo: "Falsificar" (no todo ou em parte) ou "alterar" (o teor de verdadeiro).
+    - Objeto material: O atestado ou a certidão materialmente falsificados ou alterados.
+    - Elementos normativos: "para prova de fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem".
+    - Resultado exigido: Crime formal. Consuma-se com a falsificação ou alteração, independentemente da obtenção da vantagem.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Exige-se o dolo direto. O agente deve ter a vontade livre e consciente de atestar/certificar falsamente (caput) ou falsificar/alterar (parágrafo), com a finalidade específica de que o documento sirva para habilitar alguém a obter as vantagens descritas. Há um elemento
 
 ### Tentativa e Consumação
 
@@ -85,4 +96,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

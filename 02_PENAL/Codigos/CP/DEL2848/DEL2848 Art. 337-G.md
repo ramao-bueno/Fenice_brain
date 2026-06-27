@@ -33,22 +33,27 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração Pública, em especial os princípios da moralidade, impessoalidade, legalidade e probidade administrativa, conforme o Art. 37, caput, da Constituição Federal. O artigo visa proteger a lisura e a imparcialidade dos procedimentos licitatórios e contratuais da Administração Pública contra a influência de interesses privados escusos. Trata-se de uma norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticá-lo, seja particular ou funcionário público.
+- Sujeito passivo: O Estado (Administração Pública) e, reflexamente, a coletividade.
+- Núcleo do tipo: "Patrocinar" (apoiar, defender, favorecer, promover).
+- Objeto material: Interesse privado perante a Administração Pública.
+- Elementos normativos e descritivos:
+    - Descritivos: "direta ou indiretamente", "interesse privado", "Administração Pública", "licitação", "contrato".
+    - Normativo: "cuja invalidação vier a ser decretada pelo Poder Judiciário". Este é um elemento crucial, funcionando como condição objetiva de punibilidade ou elemento do tipo de resultado condicionado.
+- Resultado exigido: Crime material, pois exige a ocorrência de um resultado naturalístico: a invalidação judicial da licitação ou do contrato.
+- Nexo causal / imputação objetiva: A conduta de patrocinar deve "dar causa" à instauração da licitação ou celebração do contrato, e estes devem ser objeto de invalidação judicial.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de dolo direto. O agente deve ter a vontade livre e consciente de patrocinar o interesse privado, com a ciência de que sua conduta dará causa à instauração da licitação ou celebração do contrato, e que estes são passíveis de invalidação judicial. Não se exige dolo específico ou especial fim de agir além da intenção de patrocinar o interesse privado. Não há previsão de modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a decretação judicial da invalidação da licitação ou do contrato. A tentativa é de difícil configuração e discutível, especialmente se o elemento "cuja invalidação vier a ser decretada pelo Poder Judiciário" for interpretado como condição objetiva de punibilidade, o que impediria a tentativa. Contudo, se for considerado um elemento do tipo de resultado, a tentativa seria teoricamente possível caso o agente pratique os atos de patrocínio e dê causa à licitação/contrato, mas a invalidação não se concretize por circunstâncias alheias à sua vontade. É um crime material e instantâneo (a consumação se dá no momento da decisão judicial). Desistência voluntária é possível antes da conclusão dos atos de patrocínio que dão causa à licitação/contrato. Arrependimento posterior não se aplica diretamente para descaracterizar o crime, mas pode influenciar a pena.
 
 ### Penas Cominadas
 
@@ -73,7 +78,7 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: A Lei nº 14.133/2021, ao revogar os crimes previstos na Lei nº 8.666/93 e introduzir novos tipos penais no Código Penal (arts. 337-E a 337-P), exige análise de
 
 ---
 
@@ -84,4 +89,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

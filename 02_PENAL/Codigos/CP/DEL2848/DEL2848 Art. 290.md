@@ -35,22 +35,34 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Fé Pública, especificamente a confiança e a credibilidade da sociedade na autenticidade e integridade da moeda nacional. Indiretamente, protege-se a estabilidade do sistema financeiro e a ordem econômica. A proteção da moeda, enquanto símbolo da soberania e da economia nacional, encontra fundamento implícito na Constituição Federal, que atribui à União a competência para emitir moeda (Art. 21, VII, CF) e zelar pela ordem econômica e financeira (Art. 170 e ss., CF).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum no caput (qualquer pessoa). No parágrafo único, é crime próprio (funcionário que trabalha na repartição onde o dinheiro se achava recolhido, ou nela tem fácil ingresso).
+- Sujeito passivo: A coletividade, o Estado (União).
+- Núcleo do tipo: Três condutas alternativas:
+    1. Formar: criar, montar cédula, nota ou bilhete representativo de moeda com fragmentos de cédulas, notas ou bilhetes verdadeiros.
+    2. Suprimir: remover, apagar, em nota, cédula ou bilhete recolhidos para o fim de restituí-los à circulação, sinal indicativo de sua inutilização.
+    3. Restituir à circulação: colocar de volta em uso cédula, nota ou bilhete em tais condições (com sinal de inutilização suprimido), ou já recolhidos para o fim de inutilização.
+- Objeto material: Cédula, nota ou bilhete representativo de moeda (verdadeiros, fragmentos, ou recolhidos para inutilização).
+- Elementos normativos e descritivos:
+    - Normativos: "representativo de moeda", "sinal indicativo de sua inutilização", "recolhidos para o fim de restituí-los à circulação", "recolhidos para o fim de inutilização".
+    - Descritivos: "fragmentos de cédulas, notas ou bilhetes verdadeiros".
+- Resultado exigido: Crime formal ou de mera conduta, consumando-se com a prática da ação, independentemente de efetiva lesão patrimonial.
+- Nexo causal / imputação objetiva: A consumação se dá com a realização da conduta típica, sendo o nexo causal imanente à ação.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punível exclusivamente a título de dolo direto. O agente deve ter a vontade livre e consciente de praticar uma das condutas descritas no tipo penal. Há um elemento subjetivo especial (dolo específico ou especial fim de agir) implícito nas condutas de "suprimir" e "restituir", que exigem a finalidade de "restituí-los à circulação" ou a ciência de que foram "recolhidos para o fim de inutilização". Não se admite a modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre:
+- Na conduta de "formar": com a conclusão da montagem da cédula.
+- Na conduta de "suprimir": com a efetiva remoção do sinal de inutilização.
+- Na conduta de "restituir": com a efetiva colocação da cédula em circulação.
+A tentativa é cabível (Art. 14, II, CP), pois o crime é plurissubsistente, permitindo o fracionamento do *iter criminis*. É um crime instantâneo, embora possa ter efeitos permanentes na circulação da moeda. Classifica-se como crime formal ou de mera conduta. A desistência voluntária (Art. 15, CP) ou arrependimento posterior (Art. 16, CP) são teoricamente possíveis, especialmente na fase de "restituir", podendo influenciar a pena ou a própria tipicidade, dependendo do momento.
 
 ### Penas Cominadas
 
@@ -75,15 +87,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 73: A utilização de papel-moeda grosseiramente falsificado configura, em tese, o crime de estelionato, da competência da Justiça Estadual. (Importante para distinguir o Art. 290 do Art. 289 e, por vezes, do estelionato, embora o 290 trate de moeda verdadeira alterada ou fragmentada, não falsificada).
+- STJ — Tese: A competência para processar e julgar os crimes contra a fé pública que envolvem moeda nacional (como o Art. 290 do CP) é da Justiça Federal, nos termos do Art. 109, IV, da Constituição Federal, por lesar bens, serviços ou interesses da União.
+- STJ — Informativo 615: A conduta de "formar cédula, nota ou bilhete representativo de moeda com fragmentos de cédulas, notas ou bilhetes verdadeiros" (art. 290 do CP) não se confunde com a de "falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal" (art. 289 do CP). O art. 290 tutela a integridade da moeda, enquanto o art. 289 a sua autenticidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar a conduta específica (formar, suprimir ou restituir) e o elemento subjetivo especial. A prova da materialidade exige perícia nas cédulas/fragmentos para atestar a formação, supressão ou condição de inutilização. A competência é da Justiça Federal. No caso do parágrafo único, é crucial comprovar a condição de funcionário e seu acesso à repartição.
+- **Defesa:** Teses frequentes incluem a ausência de dolo (erro de tipo sobre a inutilização da cédula), atipicidade da conduta (ex: fragmentos insuficientes para formar uma cédula crível, ou supressão irrelevante), ou a desclassificação para outro delito se a lesão à fé pública for mínima ou inexistente. A tentativa pode ser alegada se a conduta não se consumou.
+- **Prática/Tribunais:** A competência é da Justiça Federal (Art. 109, IV, CF). O procedimento é o ordinário. Em concursos, são pontos importantes a distinção entre o Art. 290 e o Art. 289 (moeda falsa), o elemento subjetivo específico e a competência. A aplicação do parágrafo único para funcionários públicos é um diferencial.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

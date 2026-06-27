@@ -35,22 +35,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a dignidade sexual e a liberdade sexual de pessoas em situação de especial vulnerabilidade. A norma visa proteger a autodeterminação sexual de indivíduos que não possuem maturidade ou discernimento para consentir validamente com a prática de atos sexuais, ou que não podem oferecer resistência. Fundamenta-se na proteção integral da criança e do adolescente (CF, Art. 227), na dignidade da pessoa humana (CF, Art. 1º, III) e na inviolabilidade da intimidade e vida privada (CF, Art. 5º, X).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Qualquer pessoa pode praticá-lo.
+- Sujeito passivo: Menor de 14 (catorze) anos; ou pessoa que, por enfermidade ou deficiência mental, não tem o necessário discernimento para a prática do ato; ou pessoa que, por qualquer outra causa, não pode oferecer resistência.
+- Núcleo do tipo: "Ter conjunção carnal" ou "praticar outro ato libidinoso".
+- Objeto material: O corpo da vítima vulnerável.
+- Elementos normativos e descritivos: "menor de 14 (catorze) anos", "enfermidade ou deficiência mental", "não tem o necessário discernimento", "não pode oferecer resistência".
+- Resultado exigido: Crime material, pois exige a efetiva prática da conjunção carnal ou do ato libidinoso.
+- Nexo causal / imputação objetiva: A conduta do agente deve ser a causa direta da conjunção carnal ou do ato libidinoso com a vítima vulnerável.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de dolo direto. O agente deve ter a vontade livre e consciente de praticar a conjunção carnal ou o ato libidinoso com a vítima, ciente de sua condição de vulnerabilidade (idade inferior a 14 anos, falta de discernimento ou impossibilidade de resistência). Não se admite a modalidade culposa. O erro sobre a idade da vítima ou sobre sua condição de vulnerabilidade (erro de tipo, Art. 20 CP) pode excluir o dolo, desde que escusável. Não há elemento subjetivo especial (dolo específico) além da intenção de realizar os verbos do tipo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre com a efetiva conjunção carnal ou a prática do ato libidinoso. A tentativa é cabível (Art. 14, II, CP), pois a execução pode ser fracionada e interrompida antes da consumação, como no início da prática do ato. O crime é instantâneo e material. A desistência voluntária (Art. 15 CP) é possível antes da consumação. O arrependimento posterior (Art. 16 CP) não se aplica, dada a natureza do bem jurídico tutelado, que não permite reparação do dano ou restituição da coisa nos termos exigidos pelo dispositivo.
 
 ### Penas Cominadas
 
@@ -90,4 +93,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

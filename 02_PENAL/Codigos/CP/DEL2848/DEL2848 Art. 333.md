@@ -33,26 +33,36 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração Pública, especificamente a sua probidade, moralidade, imparcialidade e regular funcionamento. Busca-se proteger a integridade e a lealdade dos funcionários públicos no exercício de suas funções, garantindo que os atos de ofício sejam praticados em conformidade com o interesse público, livres de influências espúrias. O fundamento constitucional reside nos princípios da Administração Pública previstos no art. 37, caput, da Constituição Federal de 1988, notadamente a moralidade e a impessoalidade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum. Pode ser praticado por qualquer pessoa, não sendo exigida qualidade especial.
+- Sujeito passivo: O Estado/Administração Pública, titular do bem jurídico lesado. Secundariamente, a coletividade.
+- Núcleo do tipo: "Oferecer" ou "prometer". São condutas alternativas que configuram o crime.
+- Objeto material: A "vantagem indevida". Não se confunde com o objeto do crime (Administração Pública).
+- Elementos normativos: "Vantagem indevida" (qualquer benefício material ou imaterial, lícito ou ilícito, que não seja devido), "funcionário público" (conceito do art. 327 CP), "ato de ofício" (qualquer ato inerente às atribuições do cargo, função ou emprego público).
+- Resultado exigido: Crime formal. Consuma-se com a mera oferta ou promessa da vantagem indevida, independentemente da aceitação pelo funcionário público ou da efetiva prática, omissão ou retardo do ato de ofício.
+- Nexo causal / imputação objetiva: A conduta é a oferta/promessa. A consumação é antecipada, não exigindo resultado naturalístico.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de corrupção ativa é punido exclusivamente a título de dolo direto. O agente deve ter a intenção consciente e voluntária de "oferecer" ou "prometer" a vantagem indevida. Há um elemento subjetivo especial (dolo específico ou especial fim de agir), que é a finalidade de "determiná-lo a praticar, omitir ou retardar ato de ofício". Não se admite a modalidade culposa. O dolo eventual é incompatível com o especial fim de agir exigido pelo tipo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a oferta ou promessa de vantagem indevida chega ao conhecimento do funcionário público, independentemente de sua aceitação ou da prática do ato de ofício. Por ser um crime formal, a tentativa é, em regra, de difícil configuração, mas é cabível (art. 14, II, CP) em situações excepcionais, como no caso de a oferta ou promessa não chegar ao conhecimento do funcionário por circunstâncias alheias à vontade do agente (ex: carta interceptada, e-mail não entregue). O crime é instantâneo. Não há que se falar em desistência voluntária ou arrependimento posterior após a consumação, mas a desistência voluntária seria possível antes da consumação, caso o agente interrompa a execução da oferta/promessa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- Pena do caput: Reclusão, de 2 (dois) a 12 (doze) anos, e multa.
+- Causas de aumento: Parágrafo único - A pena é aumentada de um terço, se, em razão da vantagem ou promessa, o funcionário retarda ou omite ato de ofício, ou o pratica infringindo dever funcional.
+- Regime inicial: A definição do regime inicial (aberto, semiaberto ou fechado) dependerá da análise das circunstâncias judiciais (art. 59 CP) e do quantum da pena aplicada, observando-se o art. 33 do CP.
+- Crime hediondo: Não é crime hediondo.
+- ANPP / transação penal / suspensão condicional do processo:
+    - Transação Penal (Lei 9.099/95): Não cabível, pois a pena mínima (2 anos) excede o limite de 2 anos para crimes de menor potencial ofensivo.
+    - Suspensão Condicional do Processo (Art. 89 Lei 9.099/95): Não cabível, pois a pena mínima (2 anos) excede o limite de 1 ano.
+    - Acordo de Não Persecução Penal (ANPP - Art. 28-A CPP): Cabível, em tese, desde que preenchidos os requisitos legais (pena mínima inferior a 4 anos, confissão formal e circunstanciada, não ser reincidente específico, etc.).
 
 ---
 
@@ -86,4 +96,4 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

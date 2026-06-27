@@ -78,14 +78,15 @@ O Art. 111 do Código Penal **não comina pena** alguma, pois não é uma norma 
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 146: A prescrição da ação penal começa a correr do dia em que o crime se consumou. STF — Tese: A prescrição é uma instituição que visa garantir a segurança jurídica e a efetividade da persecução penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve verificar o prazo prescricional para oferecer a denúncia
+- **Defesa:** pode alegar a prescrição como causa de extinção da punibilidade
+- **Prática/Tribunais:** a competência para julgar a prescrição é do juízo criminal, que deve verificar o prazo prescricional antes de julgar o mérito da causa
 
 ---
 

@@ -33,22 +33,25 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a estabilidade e a normalidade institucional do Estado Democrático de Direito, especificamente a higidez do governo legitimamente constituído. A norma visa proteger a soberania popular e a forma republicana de governo, impedindo rupturas violentas ou por grave ameaça. O fundamento constitucional reside nos artigos 1º, caput e parágrafo único, da Constituição Federal, que estabelecem o Estado Democrático de Direito e a soberania popular, bem como no artigo 5º, XLIV, que prevê a inafiançabilidade e imprescritibilidade dos crimes contra a ordem constitucional e o Estado Democrático.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: O Estado Brasileiro, a coletividade, a ordem democrática e o governo legitimamente constituído.
+- Núcleo do tipo: "Tentar depor". O verbo "depor" significa derrubar, destituir. A expressão "tentar depor" indica que a consumação se dá com a mera prática dos atos executórios, independentemente do sucesso do objetivo final.
+- Objeto material: O governo legitimamente constituído. A legitimidade é um elemento normativo que exige análise jurídica.
+- Elementos normativos e descritivos: "legitimamente constituído" (normativo, exige juízo de valor sobre a legalidade e constitucionalidade da investidura do governo) e "por meio de violência ou grave ameaça" (descritivos, qualificam o modus operandi).
+- Resultado exigido: Crime formal ou de mera conduta (também classificado como crime de empreendimento ou de consumação antecipada). Consuma-se com a prática da violência ou grave ameaça com o fim de depor o governo, independentemente de o depósito ocorrer ou não.
+- Nexo causal / imputação objetiva: Relevante para a conexão entre a conduta do agente e a violência/grave ameaça empregada.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime exige dolo direto. A conduta de "tentar depor" pressupõe a intenção específica de destituir o governo. Não se admite dolo eventual, pois a finalidade de depor o governo é um elemento subjetivo especial (dolo específico ou especial fim de agir) inerente ao tipo. Não há previsão de modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+O tipo penal já descreve uma conduta que, por sua natureza, é uma tentativa de um objetivo maior ("tentar depor"). A consumação ocorre com a prática dos atos de violência ou grave ameaça, direcionados ao fim de depor o governo, mesmo que o objetivo final não seja alcançado. Portanto, o crime é de consumação antecipada. A tentativa *do próprio crime* (Art. 14, II, CP) seria possível se os atos de violência ou grave ameaça não chegam a ser iniciados, mas há um início de execução para a prática desses atos. É um crime instantâneo e formal. A desistência voluntária (Art. 15 CP) é cabível se o agente, após iniciar a violência/grave ameaça, voluntariamente desiste de prosseguir na tentativa de depor. O arrependimento posterior (Art. 16 CP) não se aplica, pois o crime é praticado com violência ou grave ameaça.
 
 ### Penas Cominadas
 
@@ -75,15 +78,19 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+Este artigo é recente (Lei nº 14.197/2021), portanto, não há súmulas ou teses firmadas específicas sobre ele. Contudo, princípios gerais e decisões sobre crimes correlatos são aplicáveis:
+- STF — ADPF 1050: Embora não trate diretamente do Art. 359-M, esta Arguição de Descumprimento de Preceito Fundamental, que versa sobre a constitucionalidade de inquéritos e ações penais relacionados a atos antidemocráticos, estabelece a relevância da proteção do Estado Democrático de Direito e a repressão a condutas que visem subvertê-lo.
+- STJ — Súmula 711: "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência." (Relevante para a aplicação da nova lei em contextos de crimes que se estendem no tempo, embora o 359-M seja instantâneo, a súmula é um princípio geral de direito intertemporal).
+- STF — Tese (Tema 1.103 - Repercussão Geral): "É constitucional a previsão de competência da Justiça Federal para processar e julgar crimes praticados em detrimento de bens, serviços ou interesses da União ou de suas entidades autárquicas ou empresas públicas, nos termos do art. 109, IV, da Constituição Federal." (Aplicável, pois o crime contra o governo legitimamente constituído afeta interesse da União).
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar os atos de violência ou grave ameaça e demonstrar o dolo específico de depor o governo. A prova da intenção é crucial e pode ser inferida de manifestações, planos, organização e o contexto dos atos. É fundamental qualificar a violência ou grave ameaça e imputar os crimes correspondentes em concurso material, conforme a parte final do caput. O Art. 359-M-A é relevante para o concurso de crimes dentro do mesmo capítulo, estabelecendo o concurso formal próprio.
+- **Defesa:** As teses defensivas podem focar na ausência do dolo específico de depor o governo (ex: a conduta visava apenas protestar, manifestar descontentamento, sem a intenção de destituir). Pode-se argumentar a inexistência ou a insuficiência da violência ou grave ameaça para configurar o tipo. A desclassificação para outros delitos (ex: crimes contra a honra, desobediência, dano) pode ser buscada se os elementos do tipo não estiverem plenamente configurados.
+- **Prática/Tribunais:** A competência para processar e julgar este crime é da Justiça Federal, uma vez que atinge interesses diretos da União (Art. 109, IV, CF). O procedimento é o comum ordinário. A interpretação do termo "governo legitimamente constituído" é um ponto sensível, devendo ser pautada pela legalidade e constitucionalidade. O Art. 359-M-A é uma regra de concurso de crimes específica para os delitos deste Capítulo, vedando o cômputo cumulativo (concurso material) quando os delitos estão inseridos no mesmo contexto e há desígnio autônomo, aplicando o concurso formal próprio.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

@@ -35,22 +35,25 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é o regular exercício do poder familiar, tutela ou curatela, ou seja, o direito de guarda legalmente estabelecido sobre o menor de dezoito anos ou o interdito. Secundariamente, protege-se a incolumidade e o bem-estar do próprio menor ou interdito, assegurando que permaneçam sob a guarda de quem a detém por força de lei ou decisão judicial. O fundamento constitucional reside no Art. 227 da CF/88, que preconiza a proteção integral da criança, do adolescente e do jovem, e o direito à convivência familiar e comunitária, garantindo que a guarda seja exercida nos termos da lei.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, podendo ser praticado por qualquer pessoa. O § 1º ressalta que mesmo pais, tutores ou curadores podem ser sujeitos ativos se destituídos ou temporariamente privados do poder familiar, tutela, curatela ou guarda.
+- Sujeito passivo: O Estado (titular do bem jurídico da ordem jurídica familiar) e, mediatamente, a pessoa que detém a guarda legal do menor ou interdito. O menor ou interdito é a vítima da conduta.
+- Núcleo do tipo: "Subtrair", que significa tirar, afastar, remover o menor ou interdito do poder de quem o guarda legalmente.
+- Objeto material: O menor de dezoito anos ou o interdito.
+- Elementos normativos: "menor de dezoito anos", "interdito", "poder de quem o tem sob sua guarda em virtude de lei ou de ordem judicial", "se o fato não constitui elemento de outro crime" (subsidiariedade expressa).
+- Resultado exigido: Crime material, pois exige a efetiva subtração e o consequente afastamento do menor/interdito da guarda legal.
+- Nexo causal: A conduta de subtrair deve ser a causa do afastamento do objeto material do poder de guarda legal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de subtração de incapazes é exclusivamente doloso. Exige-se o dolo direto, ou seja, a vontade livre e consciente de subtrair o menor de dezoito anos ou o interdito do poder de quem o tem sob sua guarda legal. Não se admite a modalidade culposa. Não há previsão de dolo eventual, embora, em tese, a assunção do risco de subtrair possa ser configurada. Não há elemento subjetivo especial (dolo específico ou especial fim de agir) além da própria intenção de subtrair.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que o menor ou o interdito é efetivamente retirado do poder de quem o guarda legalmente, ainda que por breve período. Trata-se de um crime material e instantâneo. A tentativa é cabível (Art. 14, II, CP), pois o *iter criminis* pode ser fracionado (ex: o agente tenta levar o menor, mas é impedido antes de consumar a subtração). A desistência voluntária (Art. 15, CP) é possível se o agente, após iniciar a execução, desiste de prosseguir antes da consumação. O arrependimento posterior (Art. 16, CP) é tratado de forma específica e qualificada pelo § 2º do próprio artigo, que prevê a possibilidade de perdão judicial em caso de restituição sem maus-tratos ou privações.
 
 ### Penas Cominadas
 
@@ -75,15 +78,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Tese: O crime de subtração de incapazes (Art. 249 do CP) visa proteger o direito de guarda legalmente estabelecido por lei ou ordem judicial, e não a mera convivência familiar, sendo subsidiário em relação a crimes mais graves que tutelam a liberdade individual, como o sequestro.
+- STJ — Tese: A aplicação do perdão judicial previsto no § 2º do Art. 249 do CP é uma faculdade do juiz, condicionada à restituição do menor ou interdito e à ausência de maus-tratos ou privações, devendo ser analisada casuisticamente.
+- STJ — Informativo 529: A conduta de genitor que subtrai filho ao poder de quem detém a guarda legal, mesmo que não haja destituição formal do pátrio poder, pode configurar o crime do Art. 249 do CP, especialmente quando há descumprimento de ordem judicial de guarda ou regulamentação de visitas. (Interpretação mais ampla do §1º).
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Foco na prova da existência da guarda legal (lei ou ordem judicial) e da efetiva subtração do menor/interdito desse poder. Em casos de pais/tutores/curadores
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

@@ -80,8 +80,9 @@ Não comina pena. O Art. 110 é uma norma de direito penal material que estabele
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve observar os prazos de prescrição para evitar a extinção da punibilidade.
+- **Defesa:** Pode arguir a prescrição em qualquer fase do processo como matéria de ordem pública.
+- **Prática/Tribunais:** A competência para decidir sobre a prescrição é do juízo da condenação.
 
 ---
 

@@ -35,22 +35,31 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico primariamente tutelado é a **Saúde Pública**, fundamental para a coletividade e garantida constitucionalmente (CF Art. 196). Indiretamente, tutela-se a **Administração Pública**, especificamente a eficácia da vigilância sanitária e epidemiológica, essencial para o controle de doenças e prevenção de epidemias. O crime é de perigo abstrato, ou seja, a lei presume o risco à saúde pública pela mera omissão da notificação, sem exigir a comprovação de um dano efetivo.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+-   **Sujeito ativo:** Médico (crime próprio), exigindo-se a qualidade profissional.
+-   **Sujeito passivo:** A coletividade (saúde pública) e o Estado (administração pública).
+-   **Núcleo do tipo:** "Deixar de denunciar" (verbo nuclear), configurando um crime omissivo próprio.
+-   **Objeto material:** Doença cuja notificação é compulsória, conforme legislação sanitária específica.
+-   **Elementos normativos:** "Médico", "autoridade pública", "doença cuja notificação é compulsória".
+-   **Resultado exigido:** Crime de mera conduta, consuma-se com a simples omissão, independentemente da ocorrência de qualquer resultado naturalístico.
+-   **Nexo causal:** Não se aplica, por ser crime omissivo próprio.
+-   A segunda parte da redação legal fornecida ("Envenenamento de água potável ou de substância alimentícia ou medicinal") não constitui um tipo penal completo por si só, pois carece de verbo nuclear e de cominação de pena específica. Trata-se, na verdade, do título do Capítulo III do Título VIII do CP, que abrange o crime de envenenamento (Art. 270 CP), com estrutura e pena distintas.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de omissão de notificação de doença é punível exclusivamente a título de **dolo**.
+-   **Dolo direto:** O médico tem a consciência da obrigatoriedade da notificação e a vontade livre e consciente de não realizá-la.
+-   **Dolo eventual:** O médico assume o risco de não denunciar, mesmo ciente da compulsoriedade e das possíveis consequências de sua omissão.
+-   Não há previsão de modalidade culposa para este delito. A culpa (negligência, imprudência ou imperícia) na omissão da notificação não é punível pelo Art. 269 do CP.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+-   **Momento da consumação:** O crime se consuma no momento em que o médico, ciente da doença de notificação compulsória, deixa de realizar a denúncia à autoridade pública competente no prazo legal.
+-   **Tentativa:** Não é cabível (Art. 14 do CP), por se tratar de crime omissivo próprio e de mera conduta. A omissão é instantânea e, uma vez configurada, o crime está consumado.
+-   **Class
 
 ### Penas Cominadas
 
@@ -86,4 +95,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

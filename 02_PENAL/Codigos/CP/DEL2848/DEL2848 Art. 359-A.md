@@ -33,26 +33,36 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a Administração Pública, especificamente a probidade e a regularidade da gestão financeira e orçamentária do Estado. Busca-se garantir a observância dos princípios da legalidade, moralidade e responsabilidade fiscal na condução das finanças públicas. O fundamento constitucional reside no art. 167, III, da CF/88, que veda a realização de operações de crédito sem prévia autorização legislativa, e nos princípios da administração pública (art. 37, caput, CF/88). Trata-se de norma incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime próprio. Somente pode ser praticado por agente público com poder de ordenar, autorizar ou realizar operações de crédito (ex: Chefe do Poder Executivo, Secretário de Fazenda ou Finanças, ou outro agente com delegação para tal).
+- Sujeito passivo: O Estado (União, Estados, Distrito Federal, Municípios) e, em sentido lato, a coletividade.
+- Núcleo do tipo: "Ordenar", "autorizar" ou "realizar". Verbos que indicam a prática da operação de crédito ou a determinação para que seja feita.
+- Objeto material: A operação de crédito (interna ou externa) realizada em desconformidade com a lei.
+- Elementos normativos: "sem prévia autorização legislativa" (caput); "com inobservância de limite, condição ou montante estabelecido em lei ou em resolução do Senado Federal" (inciso I); "quando o montante da dívida consolidada ultrapassa..." (inciso II).
+- Resultado exigido: Crime formal ou de mera conduta. Consuma-se com a efetivação da ordem, autorização ou realização da operação, independentemente da ocorrência de dano patrimonial ao erário.
+- Nexo causal / imputação objetiva: A conduta do agente é diretamente imputada à violação da norma, sem complexidade causal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime é punido exclusivamente a título de dolo direto. O agente deve ter a consciência e a vontade de ordenar, autorizar ou realizar a operação de crédito sem a devida autorização legislativa ou em inobservância dos limites e condições legais. Não se exige dolo específico ou especial fim de agir, além da vontade de praticar a conduta típica. Não admite modalidade culposa, pois a lei não a prevê.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A consumação ocorre no momento em que a operação de crédito é ordenada, autorizada ou realizada em desconformidade com a lei. A tentativa é cabível em tese, especialmente se a operação, embora ordenada ou autorizada, não se concretiza por circunstâncias alheias à vontade do agente (crime plurissubsistente). Contudo, pela natureza dos verbos, a consumação é geralmente instantânea. Classifica-se como crime instantâneo e formal ou de mera conduta. A desistência voluntária (art. 15 CP) e o arrependimento posterior (art. 16 CP) são de difícil aplicação prática, dada a natureza do bem jurídico tutelado (regularidade administrativa, não necessariamente dano patrimonial reparável).
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- Pena do caput: Reclusão, de 1 (um) a 2 (dois) anos.
+- Qualificadoras/Causas de aumento/diminuição: O parágrafo único não estabelece qualificadoras, mas estende a tipificação a outras condutas com a mesma pena. Não há causas de aumento ou diminuição expressas no artigo.
+- Regime inicial: Aberto (art. 33, §2º, "c", CP), considerando a pena máxima de 2 anos.
+- Crime hediondo: Não é crime hediondo.
+- Benefícios:
+    - ANPP (Acordo de Não Persecução Penal): Cabível (art. 28-A CPP), pois a pena mínima é inferior a 4 anos e o crime não envolve violência ou grave ameaça.
+    - Transação Penal: Cabível (art. 76 da Lei 9.099/95), pois a pena máxima é de 2 anos (crime de menor potencial ofensivo).
+    - Suspensão Condicional do Processo (Sursis Processual): Cabível (art. 89 da Lei 9.099/95), pois a pena mínima é de 1 ano (igual ou inferior a 1 ano).
 
 ---
 
@@ -71,15 +81,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Informativo 578: "A Lei de Responsabilidade Fiscal (LRF) não revogou o art. 359-A do Código Penal, que tipifica o crime de ordenação de despesa não autorizada." (REsp 1.543.518-SC, Rel. Min. Reynaldo Soares da Fonseca, julgado em 01/03/2016).
+- STJ — Tese: O crime do art. 359-A do CP é um crime próprio, exigindo a qualidade de agente público com poder de ordenar, autorizar ou realizar a operação de crédito, sendo indispensável a comprovação do dolo na conduta.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** A denúncia deve detalhar a qualidade de agente público do réu e a ausência de autorização legislativa ou a inobservância dos limites/condições legais. A materialidade é comprovada por documentos oficiais (leis orçamentárias, resoluções do Senado, contratos de crédito). O dolo é inferido da posição do agente e da clareza da norma violada.
+- **Defesa:** Teses frequentes incluem a alegação de erro de tipo ou erro de proibição, ausência de dolo, atipicidade da conduta (por exemplo, se a operação não se enquadra no conceito legal de crédito ou se havia autorização implícita/posterior), ou a inexistência da qualidade de agente público com poder para a conduta.
+- **Prática/Tribunais:** A competência é da Justiça Estadual, salvo se a operação de crédito envolver a União ou entidades federais, deslocando para a Justiça Federal. O procedimento é o sumaríssimo (Lei 9.099/95) devido à pena máxima de 2 anos, permitindo transação penal e suspensão condicional do processo. É crucial a análise da legislação orçamentária e fiscal aplicável ao caso concreto.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

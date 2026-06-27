@@ -89,8 +89,9 @@ A consumação ocorre no momento em que o agente transpõe os limites da "casa" 
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** provar a falta de autorização para ingressar ou permanecer no local
+- **Defesa:** alegar consentimento do morador ou falta de provas
+- **Prática/Tribunais:** competência do juizado especial criminal, procedimento sumaríssimo
 
 ---
 

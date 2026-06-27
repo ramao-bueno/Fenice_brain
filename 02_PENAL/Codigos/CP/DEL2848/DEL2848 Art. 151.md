@@ -94,8 +94,9 @@ A tentativa é cabível (Art. 14 CP) nas modalidades em que a conduta pode ser f
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** provar a conduta indevida e a lesão ao bem jurídico.
+- **Defesa:** teses de exclusão de ilicitude, como o consentimento do destinatário.
+- **Prática/Tribunais:** competência da Justiça Comum, procedimento ordinário.
 
 ---
 

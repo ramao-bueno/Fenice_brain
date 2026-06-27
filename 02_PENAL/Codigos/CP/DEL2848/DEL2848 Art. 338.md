@@ -33,8 +33,8 @@ created: '2026-06-21'
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+- **Crime 1 (Reingresso de estrangeiro expulso):** O bem jurídico tutelado primariamente é a soberania nacional e a ordem pública, especificamente o controle migratório e a eficácia das decisões administrativas de expulsão. Secundariamente, visa a segurança interna. Fundamento constitucional: CF art. 1º, I (soberania) e art. 5º, LXVIII (controle de entrada e permanência de estrangeiros).
+- **Crime 2 (Descumprimento de medidas protetivas de urgência):** O bem jurídico tutelado é a Administração da Justiça, garantindo a eficácia das decisões judiciais. Secundariamente, protege a integr
 
 ### Tipo Penal
 
@@ -84,4 +84,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

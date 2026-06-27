@@ -35,12 +35,12 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+A dignidade sexual e a liberdade sexual de crianças, adolescentes e pessoas com discernimento reduzido, bem como seu desenvolvimento psicossocial. O Estado tutela a integridade moral e física dos vulneráveis contra qualquer forma de exploração.
+Fundamento constitucional: Art. 227 da Constituição Federal de 1988, que impõe à família, sociedade e Estado o dever de assegurar à criança, adolescente e jovem, com absoluta prioridade, o direito à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, colocando-os a salvo de toda forma de exploração, violência e crueldade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum.
 
 ### Dolo/Culpa
 
@@ -86,4 +86,4 @@ em denúncias, defesas, sentenças?]
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

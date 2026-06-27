@@ -35,22 +35,34 @@ titulo: Dos Crimes
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a fé pública, especificamente a confiança depositada pela coletividade nos selos e sinais públicos que autenticam atos oficiais e garantem a veracidade de documentos e atos da administração pública. Indiretamente, protege-se a própria Administração Pública, assegurando a integridade e a credibilidade de seus instrumentos de autenticação. Não há um fundamento constitucional direto para a fé pública como bem jurídico, mas ela se relaciona com os princípios da legalidade, moralidade e eficiência da Administração Pública (CF, art. 37, caput).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: Crime comum, pode ser praticado por qualquer pessoa.
+- Sujeito passivo: O Estado (União, Estado, Município) ou a entidade de direito público/autoridade/tabelião cuja fé pública é lesada, e, em sentido amplo, a coletividade.
+- Núcleo do tipo: "Falsificar" (caput), que se desdobra em "fabricar" (criar algo falso) ou "alterar" (modificar algo verdadeiro). No §1º, I: "fazer uso"; no §1º, II: "utiliza indevidamente"; no §1º, III: "altera, falsifica ou faz uso indevido".
+- Objeto material: Selo público, selo ou sinal atribuído por lei a entidade de direito público/autoridade, sinal público de tabelião (caput). Marcas, logotipos, siglas ou quaisquer outros símbolos (parte final do §1º, III).
+- Elementos normativos e descritivos: "destinado a autenticar atos oficiais", "atribuído por lei", "indevidamente", "em prejuízo de outrem ou em proveito próprio ou alheio".
+- Resultado exigido: O caput e o §1º, I e III, são crimes formais, consumando-se com a falsificação, alteração ou uso, independentemente da ocorrência de prejuízo. O §1º, II, é crime material, exigindo a ocorrência de prejuízo ou proveito.
+- Nexo causal / imputação objetiva: Relevante para o §1º, II, onde a utilização indevida deve ser a causa do prejuízo ou proveito.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime do artigo 296, em todas as suas modalidades (caput e parágrafos), exige dolo.
+- Dolo direto: O agente tem a intenção de falsificar, alterar, usar indevidamente, ou fabricar o selo/sinal.
+- Dolo eventual: É possível, embora menos comum, quando o agente assume o risco de produzir a falsificação ou o uso indevido.
+- Elemento subjetivo especial: No §1º, II, há um elemento subjetivo especial: a finalidade de causar "prejuízo de outrem ou em proveito próprio ou alheio".
+- Modalidade culposa: Não é admitida em nenhuma das figuras típicas do artigo 296.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- Momento da consumação:
+    - Caput e §1º, I e III: Consumam-se no momento da falsificação, alteração ou do uso do selo/sinal, independentemente da obtenção de qualquer vantagem ou prejuízo. São crimes de mera atividade ou formais.
+    - §1º, II: Consuma-se com a efetiva ocorrência do prejuízo a outrem ou do proveito próprio ou alheio, sendo um crime material.
+- A tentativa é cabível (art. 14 CP)? Sim, é plenamente cabível nas modalidades "fabricar" ou "alterar" (caput) e "altera" ou "falsifica" (§1º, III), por serem crimes plurissubsistentes. No "uso" (§1º, I e III) e "utiliza indevidamente" (§1º, II), a tentativa é mais difícil de configurar, mas possível se o ato de uso for interrompido antes de sua concretização.
+- Classificação: Crime instantâneo (a consumação ocorre em um momento determinado, sem prolongamento no tempo).
+- Desistência voluntária (art. 15) ou arrependimento posterior (art. 16) relevantes? A desistência voluntária é possível antes da consumação. O arrependimento posterior não se aplica, pois o crime não é cometido sem violência ou grave ameaça e o ressarcimento do dano não impede a persecução penal.
 
 ### Penas Cominadas
 
@@ -75,15 +87,18 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 17: "Quando o falso se exaure no estelionato, sem mais potencialidade lesiva, é por este absorvido." (Embora não seja diretamente sobre o Art. 296, é frequentemente invocada para distinguir a falsificação de selo/sinal público do estelionato, aplicando o princípio da consunção se o falso não tiver autonomia lesiva à fé pública além do crime patrimonial).
+- STJ — Tese: A falsificação grosseira de selo ou sinal público, incapaz de iludir o homem médio, pode configurar crime impossível por ineficácia absoluta do meio (Art. 17 CP) ou atipicidade da conduta, por ausência de lesão à fé pública.
+- STJ — Informativo 634: A utilização de selo ou sinal público verdadeiro de forma indevida, com o fim de obter vantagem ou causar prejuízo (Art. 296, §1º, II), configura crime material, exigindo a efetiva ocorrência do resultado naturalístico.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Foco na prova da materialidade (laudo pericial atestando a falsidade ou alteração) e da autoria. Demonstrar o dolo do agente. No caso do §1º, II, é crucial provar o prejuízo de outrem ou o proveito próprio/alheio. A competência pode ser da Justiça Federal (se o selo for da União) ou Estadual (se for de Estado/Município).
+- **Defesa:** Teses frequentes incluem a falsificação grosseira (atipicidade ou crime impossível), ausência de dolo, ou a desclassificação para estelionato (se o falso for meramente um meio para o fim patrimonial e não tiver potencialidade lesiva autônoma à fé pública). No §1º, II, alegar a ausência de prejuízo ou proveito.
+- **Prática/Tribunais:** A competência é definida pela origem do selo/sinal (Justiça Federal para a União, Justiça Estadual para Estados e Municípios). O procedimento é o comum ordinário. Pontos de concurso de crimes relevantes incluem a distinção com o uso de documento falso (Art. 304 CP), falsidade ideológica (Art. 299 CP) e estelionato (Art. 171 CP).
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-27

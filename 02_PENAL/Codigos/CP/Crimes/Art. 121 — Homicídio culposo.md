@@ -15,6 +15,7 @@ tags:
   - crimes-contra-a-vida
 ---
 
+
 # Art. 121 CP — Homicídio culposo
 
 > [!info] Pena Base

@@ -17,6 +17,7 @@ parte: Geral
 titulo: Disposições Gerais
 ---
 
+
 # DEL2848 Art. 1 — Art. 1
 
 **Lei:** DL 2.848/1940 — Código Penal

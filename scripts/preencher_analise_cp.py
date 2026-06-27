@@ -3,7 +3,7 @@
 """
 preencher_analise_cp.py
 Preenche automaticamente as seções de análise técnica de todas as notas
-do Código Penal (DEL2848) usando Google Gemini API (gemini-1.5-flash).
+do Código Penal (DEL2848) usando OpenAI API (gpt-4o-mini).
 
 Uso:
   python scripts/preencher_analise_cp.py              # processa todos os vazios
@@ -27,8 +27,7 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from google import genai
-from google.genai import types as genai_types
+from openai import OpenAI
 from dotenv import load_dotenv
 
 # ─── Configuração ────────────────────────────────────────────────────────────
@@ -40,10 +39,10 @@ LOG_FILE   = SCRIPT_DIR / "logs" / "preencher_analise_cp.log"
 DONE_FILE  = SCRIPT_DIR / "logs" / "preencher_analise_cp.done.json"
 
 load_dotenv(VAULT / ".env")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
-MODEL      = "gemini-2.5-flash"
-DELAY      = 1.5   # segundos entre chamadas (Gemini free: 15 req/min)
+MODEL      = "gpt-4o-mini"
+DELAY      = 0.5   # segundos entre chamadas
 MAX_TOKENS = 4000
 
 # Marcadores que indicam seção ainda vazia (template original)
@@ -233,20 +232,18 @@ def substituir_secoes(texto_orig: str, secoes: dict) -> str:
     return resultado
 
 
-# ─── Chamada Gemini ──────────────────────────────────────────────────────────
+# ─── Chamada OpenAI ──────────────────────────────────────────────────────────
 
 def chamar_gemini(client, num: str, redacao: str, _tentativa: int = 0) -> dict | None:
     prompt = PROMPT.format(num=num, redacao=redacao)
     try:
-        resp = client.models.generate_content(
+        resp = client.chat.completions.create(
             model=MODEL,
-            contents=prompt,
-            config=genai_types.GenerateContentConfig(
-                max_output_tokens=MAX_TOKENS,
-                temperature=0.3,
-            ),
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=MAX_TOKENS,
+            temperature=0.3,
         )
-        texto = resp.text or ""
+        texto = resp.choices[0].message.content or ""
         secoes = parse_resposta(texto)
         if not secoes:
             log(f"  Art. {num}: resposta sem seções reconhecíveis", "WARN")
@@ -257,9 +254,8 @@ def chamar_gemini(client, num: str, redacao: str, _tentativa: int = 0) -> dict |
         if _tentativa >= 3:
             log(f"  Art. {num}: 3 tentativas falharam — {e}", "ERROR")
             return None
-        # Rate limit por minuto (429 / Resource Exhausted)
-        if '429' in msg or 'Resource' in msg or 'quota' in msg.lower():
-            espera = 65 * (2 ** _tentativa)  # backoff: 65s, 130s, 260s
+        if '429' in msg or 'rate_limit' in msg.lower() or 'quota' in msg.lower():
+            espera = 30 * (2 ** _tentativa)  # backoff: 30s, 60s, 120s
             log(f"  Art. {num}: rate limit — aguardando {espera}s... (tentativa {_tentativa+1})", "WARN")
             time.sleep(espera)
             return chamar_gemini(client, num, redacao, _tentativa + 1)
@@ -282,11 +278,11 @@ def main():
                         help=f"Segundos entre chamadas API (padrão: {DELAY})")
     args = parser.parse_args()
 
-    if not GEMINI_API_KEY:
-        print("ERRO: GEMINI_API_KEY não encontrada no .env")
+    if not OPENAI_API_KEY:
+        print("ERRO: OPENAI_API_KEY não encontrada no .env")
         sys.exit(1)
 
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    client = OpenAI(api_key=OPENAI_API_KEY)
     done   = carregar_done() if not args.force else set()
 
     # Lista de arquivos a processar

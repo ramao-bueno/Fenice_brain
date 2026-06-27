@@ -42,17 +42,20 @@ O bem jurídico primariamente tutelado pelo Art. 163 do Código Penal é o **pat
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa (crime comum)
+- Sujeito passivo: o proprietário ou possuidor da coisa
+- Núcleo do tipo: destruir, inutilizar ou deteriorar
+- Objeto material: coisa alheia
+- Elementos normativos: a conduta deve ser dolosa
+- Resultado exigido: crime material
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O crime de dano é doloso, exigindo intenção de destruir, inutilizar ou deteriorar a coisa alheia. Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível. O crime é instantâneo e material, consumando-se no momento em que a coisa é destruída, inutilizada ou deteriorada.
 
 ### Penas Cominadas
 
@@ -76,14 +79,15 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 146: a ação penal por dano qualificado depende de representação. STF — Tese: o dano ao patrimônio público é crime contra a administração pública.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** provar a intenção de destruir ou deteriorar a coisa alheia
+- **Defesa:** teses de exclusão de ilicitude ou desclassificação para dano culposo
+- **Prática/Tribunais:** competência do juízo singular, procedimento comum
 
 ---
 

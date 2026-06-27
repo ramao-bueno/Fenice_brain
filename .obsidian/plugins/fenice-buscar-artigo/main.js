@@ -699,6 +699,10 @@ class InfoModal extends Modal {
     // ── Análise Técnica ──
     if (analiseTecnica) {
       for (const [titulo, linhas] of Object.entries(analiseTecnica)) {
+        // Pula seções cujo conteúdo ainda é placeholder de template (começa com "[")
+        const primeiraLinha = linhas.find(l => l.trim());
+        if (!primeiraLinha || primeiraLinha.trim().startsWith('[')) continue;
+
         const isTable = linhas.some(l => l.trim().startsWith('|'));
         const sec = contentEl.createEl('div');
         Object.assign(sec.style, {
@@ -1329,7 +1333,7 @@ class QuickArtigoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v34 — CodigoModal: contexto do domínio fixo no placeholder, itens numerados 1, 2, 3...');
+    console.log('✅ Fenice Buscar Artigo v35 — InfoModal: oculta seções de template vazio; script preencher_analise_cp.py');
 
     this.lastCodigo = null; // contexto do último código consultado
 

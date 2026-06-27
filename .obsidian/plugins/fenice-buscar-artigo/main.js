@@ -368,14 +368,29 @@ class DomainModal extends SuggestModal {
   constructor(app, onEscolha) {
     super(app);
     this.onEscolha = onEscolha;
-    this.setPlaceholder('Selecione o ramo do Direito...');
+    this.setPlaceholder('Digite 0–8 para ir direto, ou filtre por texto...');
   }
   getSuggestions(q) {
-    return DOMINIOS.filter(d => d.label.toLowerCase().includes(q.toLowerCase()));
+    return DOMINIOS
+      .map((d, i) => ({ ...d, _idx: i }))
+      .filter(d => d.label.toLowerCase().includes(q.toLowerCase()));
   }
   renderSuggestion(item, el) {
     const div = el.createEl('div');
     div.createEl('strong', { text: item.label });
+  }
+  onOpen() {
+    super.onOpen();
+    this.inputEl.addEventListener('keydown', (e) => {
+      if (!/^\d$/.test(e.key)) return;
+      const idx = parseInt(e.key);
+      if (idx < DOMINIOS.length) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        this.close();
+        this.onEscolha({ ...DOMINIOS[idx], _idx: idx });
+      }
+    }, true);
   }
   onChooseSuggestion(item) { this.onEscolha(item); }
 }
@@ -449,18 +464,41 @@ class JurisconsultoSelectModal extends SuggestModal {
 
 // ─── Modal 1: Selecionar Código ──────────────────────────────
 class CodigoModal extends SuggestModal {
-  constructor(app, onEscolha, codigosKeys) {
+  constructor(app, onEscolha, codigosKeys, dominioIdx) {
     super(app);
     this.onEscolha  = onEscolha;
+    this.dominioIdx = dominioIdx ?? '';
     this.lista      = codigosKeys
       ? CODIGOS.filter(c => codigosKeys.includes(c.codigo))
       : CODIGOS;
-    this.setPlaceholder('Selecione o Código Jurídico...');
+    const shortcut  = this.lista.length <= 9;
+    this.setPlaceholder(shortcut ? 'Digite 1–9 para ir direto, ou filtre por texto...' : 'Selecione o Código Jurídico...');
   }
   getSuggestions(q) {
     return this.lista.filter(c => c.label.toLowerCase().includes(q.toLowerCase()));
   }
-  renderSuggestion(item, el) { el.createEl('div', { text: item.label }); }
+  renderSuggestion(item, el) {
+    if (this.lista.length <= 9 && this.dominioIdx !== '') {
+      const idx = this.lista.indexOf(item) + 1;
+      el.createEl('div', { text: `${this.dominioIdx}.${idx}  ${item.label}` });
+    } else {
+      el.createEl('div', { text: item.label });
+    }
+  }
+  onOpen() {
+    super.onOpen();
+    if (this.lista.length > 9) return;
+    this.inputEl.addEventListener('keydown', (e) => {
+      if (!/^\d$/.test(e.key)) return;
+      const n = parseInt(e.key);
+      if (n >= 1 && n <= this.lista.length) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        this.close();
+        this.onEscolha(this.lista[n - 1]);
+      }
+    }, true);
+  }
   onChooseSuggestion(item) { this.onEscolha(item); }
 }
 
@@ -1285,7 +1323,7 @@ class QuickArtigoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v32 — fix: 121A/121B aceitos (normaliza hífen antes da letra sufixo)');
+    console.log('✅ Fenice Buscar Artigo v33 — atalhos numéricos: DomainModal (0-8) e CodigoModal (domínio.N)');
 
     this.lastCodigo = null; // contexto do último código consultado
 
@@ -1397,9 +1435,10 @@ class FeniceBuscarArtigo extends Plugin {
       }
 
       // Abre CodigoModal filtrado pelo domínio escolhido
+      const dIdx = dominio._idx ?? DOMINIOS.findIndex(d => d.key === dominio.key);
       new CodigoModal(this.app, (config) => {
         this._abrirConfig(config);
-      }, dominio.codigos.length ? dominio.codigos : null).open();
+      }, dominio.codigos.length ? dominio.codigos : null, dIdx).open();
 
     }).open();
   }
@@ -1801,13 +1840,14 @@ class FeniceBuscarArtigo extends Plugin {
   // ── Graph: opção 2 — código específico (picker) ──
   abrirGraphCodigo() {
     new DomainModal(this.app, (dominio) => {
+      const dIdx = dominio._idx ?? DOMINIOS.findIndex(d => d.key === dominio.key);
       new CodigoModal(this.app, async (config) => {
         const pastas = obterPastas(config);
         if (pastas.length === 0) { new Notice(`Sem pasta configurada para ${config.codigo}.`, 3000); return; }
         const query = pastas.map(p => `path:"${p}"`).join(' OR ');
         new Notice(`📊 Grafo: ${config.codigo} (${pastas.length} pasta(s))`, 2000);
         await this._abrirGraphComFiltro(query);
-      }, dominio.codigos.length ? dominio.codigos : null).open();
+      }, dominio.codigos.length ? dominio.codigos : null, dIdx).open();
     }).open();
   }
 

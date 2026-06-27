@@ -250,6 +250,20 @@ def chamar_groq(client: Groq, num: str, redacao: str) -> dict | None:
             return None
         return secoes
     except Exception as e:
+        msg = str(e)
+        # Rate limit de tokens por dia (TPD) — aguarda e não conta como erro
+        if '429' in msg and 'tokens per day' in msg.lower():
+            import re as _re
+            m = _re.search(r'try again in (\d+)m(\d+)', msg)
+            espera = int(m.group(1)) * 60 + int(m.group(2)) + 30 if m else 720
+            log(f"  Art. {num}: limite diário de tokens atingido — aguardando {espera//60}m{espera%60}s...", "WARN")
+            time.sleep(espera)
+            return chamar_groq(client, num, redacao)  # tenta novamente após a espera
+        # Rate limit de requisições por minuto — backoff curto
+        if '429' in msg:
+            log(f"  Art. {num}: rate limit (req/min) — aguardando 65s...", "WARN")
+            time.sleep(65)
+            return chamar_groq(client, num, redacao)
         log(f"  Art. {num}: erro na API — {e}", "ERROR")
         return None
 

@@ -149,7 +149,7 @@ function parseArtigoMD(content) {
     }
 
     // ── Vide Lei XX.XXX[, de AAAA]: referências inline na redação ──
-    const videLeiRE = /\(Vide\s+Lei[^)]*?n[ºo°]?\s*([\d.]+)(?:[,/]\s*(?:de\s*)?(\d{4}))?\)/gi;
+    const videLeiRE = /Vide\s+Lei(?:\s+Complementar)?\s+n[ºo°]?\s*([\d.]+)(?:[^).\n]{0,30}?(\d{4}))?/gi;
     for (const m of [...redacao.matchAll(videLeiRE)]) {
       const numero = m[1];
       const ano = m[2] || '';
@@ -794,10 +794,11 @@ class InfoModal extends Modal {
         const a = sec.createEl('span', { text: v.label });
         a.style.color = 'var(--text-accent)';
         a.style.cursor = 'pointer';
-        a.title = `Buscar artigos da ${v.label}`;
+        const _numLimpo = v.numero.replace(/\./g, '');
+        const _urlPlanalto = `https://www.planalto.gov.br/ccivil_03/leis/L${_numLimpo}.htm`;
+        a.title = `Abrir ${v.label} no Planalto`;
         a.addEventListener('click', () => {
-          this.close();
-          if (this.onBuscarLei) this.onBuscarLei(v.numero);
+          window.open(_urlPlanalto, '_blank');
         });
       });
     }
@@ -1333,7 +1334,7 @@ class QuickArtigoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v35 — InfoModal: oculta seções de template vazio; script preencher_analise_cp.py');
+    console.log('✅ Fenice Buscar Artigo v36 — videLeis: detecta refs inline; abre Planalto no browser');
 
     this.lastCodigo = null; // contexto do último código consultado
 

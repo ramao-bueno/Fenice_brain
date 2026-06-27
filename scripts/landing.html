@@ -689,8 +689,124 @@
       font-size: 0.75rem; color: var(--dim);
     }
 
-    /* ── HERO SIMPLIFICADO (página 2): só logo + nome ── */
-    .hero-badge, .hero-desc, .hero-actions, .hero-sub { display: none !important; }
+    /* ── HERO SIMPLIFICADO (página 2): só logo + nome + subtítulo ── */
+    .hero-badge, .hero-desc, .hero-actions { display: none !important; }
+
+    /* ── VISÃO & MISSÃO ── */
+    .missao-section {
+      padding: 5rem 2rem 4rem;
+      max-width: 1160px; margin: 0 auto; position: relative; z-index: 1;
+    }
+    .missao-bismillah {
+      text-align: center;
+      font-family: "adelle", Georgia, serif;
+      font-size: 1.5rem; color: rgba(201,162,39,0.6);
+      letter-spacing: 0.12em; margin-bottom: 0.5rem;
+    }
+    .missao-sub-bismillah {
+      text-align: center;
+      font-size: 0.72rem; color: rgba(148,163,184,0.5);
+      letter-spacing: 0.18em; text-transform: uppercase;
+      margin-bottom: 3.5rem;
+      font-family: "caprizant", Georgia, serif;
+    }
+    .missao-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .missao-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 2rem 1.75rem;
+      position: relative; overflow: hidden;
+      transition: border-color 0.3s, transform 0.2s;
+    }
+    .missao-card:hover { border-color: rgba(245,158,11,0.3); transform: translateY(-3px); }
+    .missao-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+    }
+    .missao-card-icon {
+      font-size: 1.75rem; margin-bottom: 1rem; display: block;
+    }
+    .missao-card-title {
+      font-family: "adelle", Georgia, serif; font-weight: 700;
+      font-size: 1rem; color: var(--gold); margin-bottom: 0.75rem;
+      letter-spacing: 0.04em;
+    }
+    .missao-card-text {
+      font-size: 0.9rem; color: var(--muted); line-height: 1.72;
+    }
+    .missao-visao {
+      background: linear-gradient(135deg, rgba(245,158,11,0.06) 0%, rgba(139,92,246,0.04) 100%);
+      border: 1px solid rgba(245,158,11,0.2);
+      border-radius: 16px; padding: 2.5rem;
+      text-align: center; margin-bottom: 3rem;
+      position: relative; overflow: hidden;
+    }
+    .missao-visao::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(245,158,11,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .missao-visao-label {
+      font-family: "caprizant", Georgia, serif;
+      font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .missao-visao-text {
+      font-family: "adelle", Georgia, serif; font-weight: 700;
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem); line-height: 1.5;
+      color: var(--text); margin-bottom: 1.25rem; position: relative; z-index: 1;
+    }
+    .missao-visao-text em { color: var(--gold); font-style: normal; }
+    .missao-filosofia {
+      font-size: 0.9rem; color: var(--muted); line-height: 1.7;
+      font-style: italic; border-left: 2px solid rgba(245,158,11,0.3);
+      padding-left: 1.25rem; text-align: left; max-width: 620px; margin: 0 auto;
+      position: relative; z-index: 1;
+    }
+    .missao-valores {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+    }
+    .missao-valor {
+      text-align: center; padding: 1.5rem 1rem;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border); border-radius: 12px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .missao-valor:hover { border-color: rgba(245,158,11,0.2); background: rgba(245,158,11,0.02); }
+    .missao-valor-ar {
+      font-family: "adelle", Georgia, serif;
+      font-size: 1.2rem; color: var(--gold);
+      margin-bottom: 0.35rem; display: block;
+    }
+    .missao-valor-pt {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--muted);
+      margin-bottom: 0.5rem; display: block;
+    }
+    .missao-valor-desc { font-size: 0.78rem; color: var(--dim); line-height: 1.5; }
+
+    .gratuidade-banner {
+      margin: 2.5rem 0 0;
+      background: linear-gradient(90deg, rgba(16,185,129,0.07) 0%, rgba(16,185,129,0.03) 100%);
+      border: 1px solid rgba(16,185,129,0.2); border-radius: 12px;
+      padding: 1.5rem 2rem;
+      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+    }
+    .gratuidade-icon { font-size: 2rem; flex-shrink: 0; }
+    .gratuidade-text { flex: 1; }
+    .gratuidade-title {
+      font-family: "adelle", Georgia, serif; font-weight: 700;
+      color: var(--free); font-size: 1rem; margin-bottom: 0.3rem;
+    }
+    .gratuidade-desc { font-size: 0.875rem; color: var(--muted); line-height: 1.6; }
+
+    @media (max-width: 768px) {
+      .missao-grid { grid-template-columns: 1fr; }
+      .missao-valores { grid-template-columns: 1fr; }
+      .gratuidade-banner { flex-direction: column; text-align: center; }
+    }
 
     /* ── NAV SEARCH BUTTON ── */
     .obs-nav-btn {
@@ -1442,11 +1558,11 @@
     <span class="brain-text">bRain</span>
   </h1>
 
-  <p class="hero-sub">Vade Mecum Dinâmico — SaaS API Jurídica</p>
+  <p class="hero-sub">Plataforma Educacional Jurídico-Filosófica</p>
 
   <p class="hero-desc">
-    Full-Text Search em legislação brasileira com grounding jurídico para LLMs.
-    Busca com e sem acentuação. Prompts prontos para Claude, GPT e Gemini.
+    Democratizando o acesso ao Direito, à Filosofia e ao Conhecimento.
+    Humildes em aprender — atrevidos em distribuir.
   </p>
 
   <div class="hero-actions">
@@ -1475,6 +1591,87 @@
     <span class="stat-value">FTS</span>
     <span class="stat-label">Full-Text Search Português</span>
   </div>
+</div>
+
+<!-- VISÃO & MISSÃO -->
+<div class="missao-section" id="missao">
+
+  <p class="missao-bismillah">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ</p>
+  <p class="missao-sub-bismillah">Em nome de Deus, o Misericordioso, o Clemente</p>
+
+  <!-- Visão -->
+  <div class="missao-visao reveal">
+    <p class="missao-visao-label">Nossa Visão</p>
+    <p class="missao-visao-text">
+      Ser a plataforma educacional <em>jurídico-filosófica</em> mais acessível,<br>
+      mais rigorosa e mais bem remunerada do universo — <em>innshaAllah</em>.
+    </p>
+    <p class="missao-filosofia">
+      "No universo nada se cria, tudo se copia — vamos ser humildes em aprender e atrevidos em distribuir conhecimento."
+      <br><br>
+      Seguimos o legado de Abraão — a tradição de Ismael e de Isaac, a sabedoria de Jesus o Cristo que tanto nos ensinou a servir —
+      e reconhecemos que nada sai de nosso conhecimento que não venha de <strong style="color:var(--gold)">Allahu Akbar</strong>.
+    </p>
+  </div>
+
+  <!-- Missão — 4 pilares -->
+  <p class="section-label reveal" style="text-align:center; margin-bottom: 1rem;">Nossa Missão</p>
+  <div class="missao-grid reveal">
+    <div class="missao-card">
+      <span class="missao-card-icon">⚖️</span>
+      <p class="missao-card-title">Jurídico</p>
+      <p class="missao-card-text">Legislação brasileira comentada e acessível — do Código Penal ao Código Civil, das Súmulas do STF ao direito do cidadão comum. A lei existe para proteger o fraco do forte.</p>
+    </div>
+    <div class="missao-card">
+      <span class="missao-card-icon">🏛️</span>
+      <p class="missao-card-title">Filosófico</p>
+      <p class="missao-card-text">De Aristóteles a Kelsen, de Sócrates a Dworkin — a lente filosófica que dá sentido à lei. Nenhum conceito jurídico flutua sem fundamento ético e epistemológico.</p>
+    </div>
+    <div class="missao-card">
+      <span class="missao-card-icon">📚</span>
+      <p class="missao-card-title">Aprender a Aprender</p>
+      <p class="missao-card-text">Método 60/30/10 — 60% prática, 30% teoria, 10% revisão. Como nossos educadores nos ensinaram: o conhecimento consolidado transforma, o decorado esquece.</p>
+    </div>
+    <div class="missao-card">
+      <span class="missao-card-icon">🤖</span>
+      <p class="missao-card-title">Inteligência a Serviço</p>
+      <p class="missao-card-text">IA como نِعْمَة — graça divina. Claude, OpenAI e Gemini como extensão do raciocínio humano, não substituto. A tecnologia serve ao humano; o humano serve à justiça.</p>
+    </div>
+  </div>
+
+  <!-- Valores -->
+  <p class="section-label reveal" style="text-align:center; margin-bottom: 1.5rem;">Valores</p>
+  <div class="missao-valores reveal">
+    <div class="missao-valor">
+      <span class="missao-valor-ar">التواضع</span>
+      <span class="missao-valor-pt">Humildade</span>
+      <p class="missao-valor-desc">Estudar os melhores do mundo com honestidade intelectual. Saber que aprender de quem chegou lá não é fraqueza — é sabedoria.</p>
+    </div>
+    <div class="missao-valor">
+      <span class="missao-valor-ar">الشجاعة</span>
+      <span class="missao-valor-pt">Ousadia</span>
+      <p class="missao-valor-desc">Distribuir sem medo. O conhecimento represado é perdido. O conhecimento distribuído multiplica — como a luz, como o pão, como a lei.</p>
+    </div>
+    <div class="missao-valor">
+      <span class="missao-valor-ar">العدل</span>
+      <span class="missao-valor-pt">Justiça</span>
+      <p class="missao-valor-desc">O Direito é instrumento de justiça, não de poder. Todo conteúdo Fenice parte desse princípio abraâmico comum a Ismael, Isaac e ao ensinamento de Cristo.</p>
+    </div>
+  </div>
+
+  <!-- Gratuidade -->
+  <div class="gratuidade-banner reveal">
+    <span class="gratuidade-icon">🎁</span>
+    <div class="gratuidade-text">
+      <p class="gratuidade-title">A gratuidade como princípio</p>
+      <p class="gratuidade-desc">
+        O conhecimento jurídico básico é direito de todo cidadão — não privilégio de quem pode pagar.
+        A busca de artigos, súmulas e a consulta ao Vade Mecum são e sempre serão <strong style="color:var(--free)">gratuitas</strong>.
+        Os recursos avançados financiam a manutenção da plataforma e a produção de conteúdo educacional aberto.
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <!-- ENDPOINTS -->

@@ -287,7 +287,14 @@ async def auth_login(body: AuthRequest, request: Request):
     if not site_pass:
         raise HTTPException(status_code=503, detail="SITE_PASS não configurado no servidor.")
 
-    if body.usuario != site_user or body.senha != site_pass:
+    # Usuários válidos: admin (env) + visitantes adicionais
+    _usuarios_validos = {
+        site_user: site_pass,
+        "visitante": "123456",
+    }
+
+    senha_esperada = _usuarios_validos.get(body.usuario)
+    if senha_esperada is None or body.senha != senha_esperada:
         raise HTTPException(status_code=401, detail="Usuário ou senha incorretos.")
 
     secret = os.getenv("SITE_SECRET", "fenice_secret_fallback")

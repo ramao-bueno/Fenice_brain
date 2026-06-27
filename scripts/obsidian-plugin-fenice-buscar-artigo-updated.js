@@ -1285,7 +1285,7 @@ class QuickArtigoModal extends Modal {
 class FeniceBuscarArtigo extends Plugin {
 
   onload() {
-    console.log('✅ Fenice Buscar Artigo v31 — Ctrl+Shift+B context-aware (QuickArtigoModal) + GraphModal volumes via INDEX local (sem travar)');
+    console.log('✅ Fenice Buscar Artigo v32 — fix: 121A/121B aceitos (normaliza hífen antes da letra sufixo)');
 
     this.lastCodigo = null; // contexto do último código consultado
 
@@ -1534,7 +1534,8 @@ class FeniceBuscarArtigo extends Plugin {
     const allFiles = this.app.vault.getFiles();
 
     const campoChave = config.buscaPorSumula ? 'sumula' : 'artigo';
-    const numNorm = num.trim().toUpperCase();
+    // Normaliza: "121A" → "121-A", "121-B" permanece "121-B"
+    const numNorm = num.trim().toUpperCase().replace(/(\d)([A-Z])$/, '$1-$2');
     const temSufixo = /[A-Za-z]$/.test(numNorm); // ex: "121-A", "121-B"
     const numInt = parseInt(numNorm, 10);
     const bate = (meta) => {

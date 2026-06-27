@@ -274,11 +274,13 @@ async def health() -> Dict[str, Any]:
 )
 async def auth_login(body: AuthRequest, request: Request):
     """
-    Valida usuário/senha contra as variáveis de ambiente `SITE_USER` e `SITE_PASS`.
-    Retorna um token de sessão a ser armazenado no client (sessionStorage).
+    Valida usuário/senha. Registra cada tentativa em fenice_access_logs (Supabase).
     Limitado a 5 tentativas por IP a cada 5 minutos.
     """
-    ip = request.client.host if request.client else "unknown"
+    ip = request.headers.get("x-forwarded-for", "").split(",")[0].strip() \
+         or (request.client.host if request.client else "unknown")
+    ua = request.headers.get("user-agent", "")[:300]
+
     _checar_rate_limit_auth(ip)
 
     site_user = os.getenv("SITE_USER", "admin")
@@ -287,20 +289,97 @@ async def auth_login(body: AuthRequest, request: Request):
     if not site_pass:
         raise HTTPException(status_code=503, detail="SITE_PASS não configurado no servidor.")
 
-    # Usuários válidos: admin (env) + visitantes adicionais
-    _usuarios_validos = {
-        site_user: site_pass,
+    # ── Usuários autorizados ────────────────────────────────────────────────
+    _usuarios_validos: dict[str, str] = {
+        site_user:   site_pass,
         "visitante": "123456",
+        "puff":      "123456",
+        "lorena":    "123456",
+        "denny":     "123456",
     }
 
-    senha_esperada = _usuarios_validos.get(body.usuario)
-    if senha_esperada is None or body.senha != senha_esperada:
+    senha_esperada = _usuarios_validos.get(body.usuario.lower())
+    sucesso        = senha_esperada is not None and body.senha == senha_esperada
+
+    # ── Log assíncrono em Supabase ──────────────────────────────────────────
+    async def _registrar_log(ok: bool, detalhe: str):
+        sb_url = os.getenv("SUPABASE_URL", "").rstrip("/")
+        sb_key = os.getenv("SUPABASE_SERVICE_KEY", "")
+        if not sb_url or not sb_key:
+            return
+        try:
+            import httpx as _httpx
+            async with _httpx.AsyncClient(timeout=4) as cli:
+                await cli.post(
+                    f"{sb_url}/rest/v1/fenice_access_logs",
+                    headers={
+                        "apikey":        sb_key,
+                        "Authorization": f"Bearer {sb_key}",
+                        "Content-Type":  "application/json",
+                        "Prefer":        "return=minimal",
+                    },
+                    json={
+                        "usuario":    body.usuario.lower(),
+                        "ip":         ip,
+                        "user_agent": ua,
+                        "sucesso":    ok,
+                        "detalhe":    detalhe,
+                    },
+                )
+        except Exception:
+            pass  # log nunca bloqueia o login
+
+    if not sucesso:
+        await _registrar_log(False, "Usuário ou senha incorretos")
         raise HTTPException(status_code=401, detail="Usuário ou senha incorretos.")
 
+    await _registrar_log(True, "Login bem-sucedido")
+
     secret = os.getenv("SITE_SECRET", "fenice_secret_fallback")
-    ts = str(int(_time.time()))
-    sig = _hmac.new(secret.encode(), f"{body.usuario}:{ts}".encode(), _hashlib.sha256).hexdigest()[:24]
+    ts  = str(int(_time.time()))
+    sig = _hmac.new(secret.encode(), f"{body.usuario.lower()}:{ts}".encode(), _hashlib.sha256).hexdigest()[:24]
     return {"ok": True, "token": f"fenice_{ts}_{sig}"}
+
+
+# ---------------------------------------------------------------------------
+# GET /admin/logs  — histórico de acesso (somente admin)
+# ---------------------------------------------------------------------------
+
+@app.get(
+    "/admin/logs",
+    tags=["Admin"],
+    summary="Histórico de acessos ao painel (requer X-Fenice-Key)",
+)
+async def admin_logs(
+    request: Request,
+    limite: int = 100,
+    usuario: str | None = None,
+    apenas_falhas: bool = False,
+):
+    """Retorna os últimos registros de fenice_access_logs."""
+    key = request.headers.get("x-fenice-key", "")
+    if key != os.getenv("FENICE_API_KEY", ""):
+        raise HTTPException(status_code=403, detail="Acesso negado.")
+
+    sb_url = os.getenv("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.getenv("SUPABASE_SERVICE_KEY", "")
+    hdrs   = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}"}
+
+    params: dict = {
+        "select":  "criado_em,usuario,ip,user_agent,sucesso,detalhe",
+        "order":   "criado_em.desc",
+        "limit":   str(min(limite, 500)),
+    }
+    if usuario:
+        params["usuario"] = f"eq.{usuario.lower()}"
+    if apenas_falhas:
+        params["sucesso"] = "eq.false"
+
+    import httpx as _httpx
+    async with _httpx.AsyncClient(timeout=8) as cli:
+        r = await cli.get(f"{sb_url}/rest/v1/fenice_access_logs", headers=hdrs, params=params)
+    r.raise_for_status()
+    return r.json()
 
 
 # ---------------------------------------------------------------------------

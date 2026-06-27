@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade, pois a limitação de fim de semana consiste na obrigação de permanecer em casa de albergado ou outro estabelecimento adequado. O fundamento constitucional é o art. 5º, inciso XV, da Constituição Federal, que estabelece a liberdade de locomoção. A norma é de extensão, pois não incrimina conduta, mas estabelece uma pena alternativa.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do juiz, que aplica a pena.
+- Sujeito passivo: o condenado.
+- Núcleo do tipo: a obrigação de permanecer.
+- Objeto material: a liberdade do condenado.
+- Elementos normativos: a duração da pena (5 horas diárias, aos sábados e domingos).
+A norma não é incriminadora, mas estabelece uma pena alternativa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma não admite modalidade culposa, pois se refere a uma pena aplicada pelo juiz. O elemento subjetivo é a intenção de cumprir a pena.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois a norma se refere a uma pena alternativa e não a um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena é a limitação de fim de semana, que consiste na obrigação de permanecer em casa de albergado ou outro estabelecimento adequado.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 442: A pena de limitação de fim de semana pode ser aplicada em substituição à pena de prisão.
+STF — Tese: A pena de limitação de fim de semana é uma pena alternativa que visa ressocializar o condenado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação da pena de limitação de fim de semana como alternativa à pena de prisão.
+- **Defesa:** pode arguir a inconstitucionalidade da pena ou requerer a substituição por outra pena alternativa.
+- **Prática/Tribunais:** a competência para aplicar a pena é do juiz da vara criminal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

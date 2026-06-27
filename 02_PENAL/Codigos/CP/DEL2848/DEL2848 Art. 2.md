@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade individual, garantida pelo art. 5º da Constituição Federal. O artigo em questão não incrimina condutas, mas sim estabelece regras para a aplicação da lei penal no tempo, protegendo o indivíduo de punições injustas ou desproporcionais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois o artigo não define um crime.
+- Sujeito passivo: o Estado e o indivíduo.
+- Núcleo do tipo: não há verbo específico, pois se trata de uma norma que regula a aplicação da lei penal.
+- Objeto material: a lei penal e seus efeitos.
+- Elementos normativos: a lei posterior que deixa de considerar crime um fato anterior.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo não define um crime ou conduta dolosa ou culposa. A norma é permissiva, visando proteger o indivíduo de punições injustas.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo não define um crime e, portanto, não admite tentativa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois se trata de uma norma permissiva que regula a aplicação da lei penal no tempo.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 421: a lei penal mais benigna aplica-se ao crime praticado durante a vigência de indexação da pena. STF — Tese: a lei penal mais favorável ao réu deve ser aplicada, mesmo que seja posterior ao fato.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve considerar a lei mais favorável ao réu ao oferecer a denúncia.
+- **Defesa:** pode arguir a aplicação da lei mais benigna como tese de defesa.
+- **Prática/Tribunais:** os tribunais devem aplicar a lei penal mais favorável ao réu, mesmo que isso signifique a absolvição ou a redução da pena.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

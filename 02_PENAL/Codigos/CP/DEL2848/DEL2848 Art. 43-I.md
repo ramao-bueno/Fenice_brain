@@ -35,22 +35,23 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado não é diretamente identificável, pois o artigo em questão não define um crime específico, mas sim lista penas alternativas. No entanto, podemos inferir que os bens jurídicos tutelados são a liberdade, o patrimônio e a ordem pública, uma vez que as penas alternativas visam substituir a pena de prisão. O fundamento constitucional pode ser encontrado no art. 5º da Constituição Federal, que trata dos direitos e garantias fundamentais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois não é uma norma incriminadora.
+- Sujeito passivo: não se aplica, pois não é uma norma incriminadora.
+- Núcleo do tipo: não se aplica, pois não é uma norma incriminadora.
+- Objeto material: não se aplica, pois não é uma norma incriminadora.
+- Elementos normativos e descritivos: as penas alternativas são a prestação pecuniária, perda de bens e valores, limitação de fim de semana e prestação de serviço à comunidade ou a entidades públicas.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois não é uma norma incriminadora. As penas alternativas são aplicadas como substituição à pena de prisão, não como crime em si.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois não é uma norma incriminadora.
 
 ### Penas Cominadas
 
@@ -80,9 +81,10 @@ mudanças de orientação]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve ser comprovada a necessidade de aplicação de pena alternativa.
+- **Defesa:** pode arguir a inconstitucionalidade da pena alternativa ou sua inadequação ao caso concreto.
+- **Prática/Tribunais:** a competência para aplicar penas alternativas é do juízo da vara criminal.
 
 ---
 
-**Última atualização:** 2026-06-20
+**Última atualização:** 2026-06-26

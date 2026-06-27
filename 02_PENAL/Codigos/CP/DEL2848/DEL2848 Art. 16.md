@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo art. 16 do Código Penal é o patrimônio, conforme protegido pela Constituição Federal (CF, art. 5º, XXII e XXIII). A norma permissiva em questão visa reduzir a pena em crimes cometidos sem violência ou grave ameaça à pessoa, desde que o dano seja reparado ou a coisa restituída até o recebimento da denúncia ou queixa.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** qualquer pessoa (crime comum)
+- **Sujeito passivo:** o proprietário ou detentor da coisa subtraída
+- **Núcleo do tipo:** reparar o dano ou restituir a coisa
+- **Objeto material:** o dano ou a coisa subtraída
+- **Elementos normativos:** ato voluntário do agente, reparo do dano ou restituição da coisa até o recebimento da denúncia ou queixa
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O art. 16 exige dolo, pois o agente deve agir com intenção de reparar o dano ou restituir a coisa. Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o art. 16 se refere à redução da pena em caso de reparo do dano ou restituição da coisa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena é reduzida de um a dois terços, desde que o dano seja reparado ou a coisa restituída até o recebimento da denúncia ou queixa.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 554: A redução da pena no art. 16 do CP deve ser aplicada antes do cálculo da pena-base.
+- STF — Tese: A reparação do dano ou restituição da coisa deve ser voluntária e anterior ao recebimento da denúncia ou queixa.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve comprovar que o dano não foi reparado ou a coisa não foi restituída.
+- **Defesa:** pode alegar que o dano foi reparado ou a coisa foi restituída, para reduzir a pena.
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento é o comum.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

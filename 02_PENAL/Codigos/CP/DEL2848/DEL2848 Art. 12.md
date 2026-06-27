@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 12 do Código Penal não tutela um bem jurídico específico, pois se trata de uma norma geral aplicável aos fatos incriminados por lei especial. A Constituição Federal de 1988, em seu artigo 5º, inciso II, estabelece que "ninguém será punido senão em virtude de lei anterior ao fato". Essa norma é fundamental para a aplicação do artigo 12, que visa garantir a aplicação das regras gerais do Código Penal aos crimes previstos em leis especiais, desde que não haja disposição diversa.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois o artigo 12 é uma norma geral.
+- Sujeito passivo: não se aplica, pois o artigo 12 é uma norma geral.
+- Núcleo do tipo: não se aplica, pois o artigo 12 é uma norma geral.
+- Objeto material: não se aplica, pois o artigo 12 é uma norma geral.
+- Elementos normativos e descritivos: a norma se aplica aos fatos incriminados por lei especial, se esta não dispuser de modo diverso.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 12 não se refere a um crime específico, portanto, não há elemento subjetivo a ser considerado. A norma é aplicável a todos os crimes previstos em leis especiais, desde que não haja disposição diversa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica ao artigo 12, pois se trata de uma norma geral e não de um crime específico.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 12 não comina pena, pois se trata de uma norma geral aplicável aos fatos incriminados por lei especial.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 172: "Não há crime quando a preparação do flagrante pela polícia torna impossível a consumação da infração".
+- STF — Tese: "A aplicação da lei penal mais benigna é um direito fundamental do réu".
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve ser considerada a aplicação das regras gerais do Código Penal aos crimes previstos em leis especiais.
+- **Defesa:** pode arguir a inaplicabilidade da norma geral em caso de disposição diversa na lei especial.
+- **Prática/Tribunais:** a competência e o procedimento devem ser analisados em conformidade com a lei especial aplicável.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

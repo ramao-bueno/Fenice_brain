@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a soberania e a ordem jurídica nacional, garantindo a aplicação da lei brasileira em território nacional e em extensões consideradas como tal, como embarcações e aeronaves brasileiras. O fundamento constitucional está na competência da União para legislar sobre direito penal (CF, art. 22, I).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois o artigo trata da aplicação da lei penal e não de um crime específico.
+- Sujeito passivo: o Estado brasileiro, na medida em que se protege a sua soberania.
+- Núcleo do tipo: não há verbo específico, pois se trata de uma norma que estabelece a aplicação da lei penal.
+- Objeto material: o território nacional e as extensões consideradas como tal.
+- Elementos normativos: a aplicação da lei brasileira sem prejuízo de convenções, tratados e regras de direito internacional.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo não incrimina condutas, mas estabelece a aplicação da lei penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo não define um crime específico.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois o artigo é norma permissiva que estabelece a aplicação da lei penal.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 237: a lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à do crime.
+- STF — Tese: a aplicação da lei penal brasileira em território nacional é princípio basilar do direito penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve considerar a aplicação da lei penal em território nacional e em extensões consideradas como tal.
+- **Defesa:** pode argumentar sobre a aplicação da lei penal em casos específicos, considerando a soberania e a ordem jurídica nacional.
+- **Prática/Tribunais:** a competência para julgar crimes cometidos em território nacional é da Justiça Federal ou Estadual, dependendo do caso.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

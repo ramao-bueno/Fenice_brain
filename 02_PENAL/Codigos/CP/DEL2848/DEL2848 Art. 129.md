@@ -17,6 +17,7 @@ parte: Especial
 titulo: Dos Crimes
 ---
 
+
 # DEL2848 Art. 129 — Art. 129
 
 **Lei:** DL 2.848/1940 — Código Penal

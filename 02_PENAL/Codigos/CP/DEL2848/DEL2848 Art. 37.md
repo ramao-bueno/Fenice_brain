@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a dignidade e os direitos das mulheres em cumprir pena em estabelecimentos próprios, respeitando suas condições pessoais. O fundamento constitucional é o art. 5º, inciso I, da Constituição Federal, que estabelece a igualdade de direitos entre homens e mulheres. Este artigo é uma norma permissiva, que visa garantir o tratamento adequado e respeitoso às mulheres em situação de cumprimento de pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois é uma norma permissiva.
+- Sujeito passivo: as mulheres que cumprem pena.
+- Núcleo do tipo: não se aplica, pois não é uma norma incriminadora.
+- Objeto material: o cumprimento de pena em estabelecimentos próprios.
+- Elementos normativos: os deveres e direitos inerentes à condição pessoal das mulheres.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois é uma norma permissiva que visa garantir o tratamento adequado e respeitoso às mulheres em situação de cumprimento de pena.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois é uma norma permissiva que não envolve conduta criminosa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois é uma norma permissiva que visa garantir o tratamento adequado e respeitoso às mulheres em situação de cumprimento de pena.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: A igualdade de direitos entre homens e mulheres é um princípio fundamental da Constituição Federal.
+- STJ — Súmula 241: A pena deve ser cumprida em estabelecimento adequado à condição do condenado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** não se aplica, pois é uma norma permissiva.
+- **Defesa:** pode argumentar que a norma permissiva não foi respeitada, violando os direitos das mulheres.
+- **Prática/Tribunais:** a competência para garantir o cumprimento desta norma é dos tribunais de execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

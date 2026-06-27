@@ -35,26 +35,33 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 43 do Código Penal é a liberdade individual, pois as penas restritivas de direitos visam limitar a liberdade do condenado de forma menos gravosa do que as penas privativas de liberdade. O fundamento constitucional é o art. 5º, inciso XLVI, da Constituição Federal, que estabelece a possibilidade de penas restritivas de direitos. Esta norma é de extensão, pois não incrimina condutas, mas sim estabelece alternativas à pena privativa de liberdade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do juiz, que aplica a pena.
+- Sujeito passivo: o condenado.
+- Núcleo do tipo: aplicação de pena.
+- Objeto material: a liberdade do condenado.
+- Elementos normativos: os incisos do artigo 43.
+- Resultado exigido: a aplicação efetiva da pena.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica dolo ou culpa, pois o artigo 43 é norma permissiva que estabelece penas alternativas.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica tentativa, pois o artigo 43 não incrimina condutas.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas restritivas de direitos são:
+- Prestação pecuniária
+- Perda de bens e valores
+- Limitação de fim de semana
+- Prestação de serviço à comunidade ou a entidades públicas
+- Interdição temporária de direitos
 
 ---
 
@@ -72,15 +79,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 444: a pena restritiva de direitos pode ser aplicada cumulativamente com a pena privativa de liberdade. STF — Tese: a aplicação de pena restritiva de direitos deve respeitar os princípios da proporcionalidade e da individualização da pena.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação da pena restritiva de direitos quando cabível.
+- **Defesa:** pode arguir a inconstitucionalidade da pena aplicada ou requerer a substituição por outra pena restritiva de direitos.
+- **Prática/Tribunais:** a competência para aplicar penas restritivas de direitos é do juízo da execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

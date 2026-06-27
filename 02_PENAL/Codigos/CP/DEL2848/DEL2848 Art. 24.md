@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade de ação e a proteção de direitos fundamentais. O artigo 24 do Código Penal é uma norma permissiva, que estabelece a excludente de ilicitude do estado de necessidade. O fundamento constitucional é o art. 5º, inciso II, da Constituição Federal, que garante o direito à liberdade e à segurança.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: o titular do direito ameaçado
+- Núcleo do tipo: praticar o fato
+- Objeto material: o direito ameaçado
+- Elementos normativos: perigo atual, não provocado por sua vontade, nem podia de outro modo evitar
+- Resultado exigido: não há resultado exigido, pois se trata de uma excludente de ilicitude
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A excludente de ilicitude do estado de necessidade admite dolo direto e dolo eventual. O elemento subjetivo especial é o fim de salvar o direito ameaçado.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois se trata de uma excludente de ilicitude.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há pena cominada, pois se trata de uma excludente de ilicitude. No entanto, o § 2º estabelece que a pena pode ser reduzida de um a dois terços se for razoável exigir-se o sacrifício do direito ameaçado.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+* STJ — Súmula 226: O estado de necessidade não exclui a culpabilidade.
+* STF — Tese: O estado de necessidade é uma excludente de ilicitude que não depende da gravidade do perigo.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+* **MP/Acusação:** deve ser provado que o agente não estava em estado de necessidade.
+* **Defesa:** a tese frequentemente utilizada é a de que o agente estava em estado de necessidade.
+* **Prática/Tribunais:** a competência é da justiça comum, e o procedimento é o mesmo dos crimes contra a pessoa.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

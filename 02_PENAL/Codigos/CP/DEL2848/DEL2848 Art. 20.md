@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 20 do Código Penal é a segurança jurídica e a proteção contra erros que possam levar a condutas ilícitas. O fundamento constitucional é a garantia do devido processo legal (CF, art. 5º, LIV). Este artigo não incrimina condutas, mas estabelece regras para a exclusão do dolo e a punição por crime culposo.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: o Estado e a sociedade
+- Núcleo do tipo: erro sobre elemento constitutivo do tipo legal de crime
+- Objeto material: a conduta criminosa
+- Elementos normativos: erro plenamente justificado pelas circunstâncias
+- Resultado exigido: não se aplica, pois é uma norma que regula a exclusão do dolo
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 20 exclui o dolo quando há erro sobre elemento constitutivo do tipo legal de crime, permitindo a punição por crime culposo se previsto em lei. Admite modalidade culposa, que deve ser tipificada em lei específica.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica diretamente a este artigo, pois ele regula a exclusão do dolo e a punição por crime culposo, e não define um crime específico.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas aplicáveis dependem do crime culposo correspondente, se previsto em lei. O regime inicial e as causas de aumento ou diminuição também dependem do crime específico.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 521: a prova da culpa é indispensável para a condenação por crime culposo.
+- STF — Tese: o erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas não necessariamente a culpabilidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a culpa e a previsibilidade do crime culposo.
+- **Defesa:** pode alegar erro plenamente justificado pelas circunstâncias para excluir a punição.
+- **Prática/Tribunais:** a competência e o procedimento dependem do crime específico e da legislação aplicável.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

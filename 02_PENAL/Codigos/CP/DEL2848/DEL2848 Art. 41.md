@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a saúde mental e a segurança pública, garantindo o tratamento adequado de condenados que desenvolvem doença mental. O fundamento constitucional é o art. 196 da CF, que estabelece o direito à saúde como direito fundamental.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois o artigo não define um crime.
+- Sujeito passivo: o condenado que desenvolve doença mental.
+- Núcleo do tipo: recolhimento a hospital de custódia e tratamento psiquiátrico.
+- Objeto material: o condenado com doença mental.
+- Elementos normativos: a necessidade de recolhimento a hospital de custódia e tratamento psiquiátrico.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo não define um crime, mas sim uma medida de segurança.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois o artigo estabelece uma medida de segurança.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 422: a falta de defesa técnica por advogado no processo de interdição não ofende a Constituição.
+STF — Tese: a medida de segurança deve ser aplicada de forma a garantir a segurança pública e o tratamento adequado do condenado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação da medida de segurança quando o condenado desenvolver doença mental.
+- **Defesa:** pode arguir a inconstitucionalidade da medida de segurança se não for aplicada de forma a garantir a segurança pública e o tratamento adequado do condenado.
+- **Prática/Tribunais:** a competência para aplicar a medida de segurança é do juízo da execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

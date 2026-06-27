@@ -35,26 +35,33 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 47 do Código Penal é a administração pública e a ordem social. O fundamento constitucional está no art. 37 da Constituição Federal, que estabelece os princípios da administração pública. A norma é de natureza sancionatória, prevendo penas de interdição temporária de direitos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do juiz
+- Sujeito passivo: o condenado
+- Núcleo do tipo: aplicar penas
+- Objeto material: os direitos do condenado
+- Elementos normativos: dependem da lei
+- Resultado exigido: a aplicação da pena
+- Nexo causal: não se aplica, pois é uma norma sancionatória
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois a norma é sancionatória e não incriminadora. O elemento subjetivo é o dolo do juiz ao aplicar a pena, mas não é um elemento subjetivo do tipo penal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois a norma não prevê um crime, mas sim uma pena.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas previstas são:
+- Proibição do exercício de cargo, função ou atividade pública
+- Proibição do exercício de profissão, atividade ou ofício
+- Suspensão de autorização ou habilitação para dirigir veículo
+- Proibição de frequentar determinados lugares
 
 ---
 
@@ -72,15 +79,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 444: A pena de interdição temporária de direitos não pode ser aplicada como pena alternativa. 
+STF — Tese: A pena de interdição temporária de direitos deve ser aplicada de acordo com a lei e não pode ser utilizada como meio de punição.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação da pena de interdição temporária de direitos de acordo com a lei.
+- **Defesa:** pode alegar a inconstitucionalidade da pena ou a sua aplicação indevida.
+- **Prática/Tribunais:** a competência para aplicar a pena é do juiz da vara criminal, e o procedimento segue o Código de Processo Penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

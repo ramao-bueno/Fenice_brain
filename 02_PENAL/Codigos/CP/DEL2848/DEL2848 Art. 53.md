@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '53'
 lei: DL 2.848/1940 — Código Penal
@@ -35,26 +38,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 53 do Código Penal é a liberdade individual, garantida pela Constituição Federal de 1988, em seu artigo 5º. Este artigo estabelece os limites das penas privativas de liberdade, respeitando o princípio da proporcionalidade e da individualização da pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: O Estado, por meio do Poder Judiciário.
+- Sujeito passivo: O condenado.
+- Núcleo do tipo: Estabelecer limites.
+- Objeto material: Penas privativas de liberdade.
+- Elementos normativos: Respeito aos limites estabelecidos na sanção correspondente a cada tipo legal de crime.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 53 não se refere a um crime, mas sim a uma norma que estabelece limites para as penas privativas de liberdade. Portanto, não se aplica o conceito de dolo ou culpa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica, pois o artigo 53 não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 53 não comina pena, mas estabelece os limites das penas privativas de liberdade.
 
 ---
 
@@ -72,15 +76,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: A pena deve ser individualizada e proporcional ao crime.
+- STJ — Súmula 439: A pena deve ser fixada dentro dos limites estabelecidos pela lei.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve observar os limites estabelecidos pelo artigo 53 ao requerer a aplicação de penas.
+- **Defesa:** Pode arguir a violação dos limites estabelecidos pelo artigo 53 como causa de nulidade da sentença.
+- **Prática/Tribunais:** Os tribunais devem respeitar os limites estabelecidos pelo artigo 53 ao aplicar penas privativas de liberdade.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

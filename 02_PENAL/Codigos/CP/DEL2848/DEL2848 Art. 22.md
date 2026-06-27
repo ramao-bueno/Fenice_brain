@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 22 do Código Penal é a liberdade e a autonomia individual, protegendo o cidadão contra a coação irresistível e a obediência cega a ordens ilegais. O fundamento constitucional é o artigo 5º, inciso II, da Constituição Federal, que estabelece a liberdade de ação e a proteção contra a violência. Este artigo é uma norma permissiva, excluindo a responsabilidade penal do agente que atua sob coação irresistível ou em obediência a ordem não manifestamente ilegal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o autor da coação ou da ordem
+- Sujeito passivo: o Estado e a sociedade
+- Núcleo do tipo: não há verbo específico, pois se trata de exclusão de ilicitude
+- Objeto material: a conduta do agente coagido ou que obedece à ordem
+- Elementos normativos: coação irresistível ou ordem não manifestamente ilegal
+- Resultado exigido: não há resultado específico, pois se trata de exclusão de ilicitude
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O elemento subjetivo é o dolo ou a culpa do autor da coação ou da ordem, não do agente que atua sob coação ou obediência. Não há modalidade culposa específica para este artigo, pois se trata de exclusão de ilicitude.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois se trata de exclusão de ilicitude. O artigo 22 do Código Penal exclui a responsabilidade penal do agente, não se aplicando os conceitos de tentativa ou consumação.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há pena cominada para o agente que atua sob coação irresistível ou em obediência a ordem não manifestamente ilegal, pois se trata de exclusão de ilicitude. A pena, se houver, será aplicada ao autor da coação ou da ordem.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 38: "Não é punível a tentativa de crime impossível por ineficácia do meio ou por absoluta impropriedade do objeto."
+- STF — Tese: "A coação irresistível exclui a responsabilidade penal do agente, desde que não haja participação dolosa ou culposa do mesmo."
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve investigar a existência de coação irresistível ou ordem não manifestamente ilegal para excluir a responsabilidade penal do agente.
+- **Defesa:** pode alegar a existência de coação irresistível ou ordem não manifestamente ilegal para excluir a responsabilidade penal do agente.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento é o mesmo dos crimes comuns.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

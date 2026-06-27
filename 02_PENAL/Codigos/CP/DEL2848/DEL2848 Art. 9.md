@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a eficácia das sentenças estrangeiras no Brasil, garantindo a aplicação das conseqüências civis e medidas de segurança. O fundamento constitucional é o art. 5º, § 2º, da CF, que estabelece a aplicação das leis brasileiras às sentenças estrangeiras. Esta norma é permissiva, permitindo a homologação de sentenças estrangeiras no Brasil.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado brasileiro, por meio do Poder Judiciário.
+- Sujeito passivo: o condenado pela sentença estrangeira.
+- Núcleo do tipo: homologar.
+- Objeto material: a sentença estrangeira.
+- Elementos normativos: a aplicação da lei brasileira produz as mesmas conseqüências.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma é permissiva, não exigindo dolo ou culpa. O elemento subjetivo é a vontade de homologar a sentença estrangeira.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois a homologação é um ato único e instantâneo.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há penas cominadas, pois a norma é permissiva.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 420: A homologação de sentença estrangeira pode ser requerida por qualquer interessado. 
+STF — Tese: A homologação de sentença estrangeira depende da comprovação de que a sentença é válida e eficaz no país de origem.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a homologação da sentença estrangeira, comprovando a validade e eficácia da sentença no país de origem.
+- **Defesa:** pode arguir a invalidade da sentença estrangeira ou a falta de comprovação de sua eficácia.
+- **Prática/Tribunais:** a competência é do STJ, e o procedimento é o da homologação de sentença estrangeira.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 4 do Código Penal não tutela um bem jurídico específico, pois se trata de uma norma que estabelece o momento da prática do crime, aplicável a todos os tipos penais. Não há fundamento constitucional direto, mas a norma é essencial para a aplicação do direito penal. É uma norma de extensão, que define o momento da ação ou omissão, independentemente do resultado.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois é uma norma geral.
+- Sujeito passivo: não se aplica, pois é uma norma geral.
+- Núcleo do tipo: não se aplica, pois é uma norma geral.
+- Objeto material: não se aplica, pois é uma norma geral.
+- Elementos normativos: o momento da ação ou omissão.
+- Resultado exigido: não se aplica, pois é uma norma geral.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois é uma norma geral que define o momento da prática do crime, independentemente do elemento subjetivo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível, conforme art. 14 CP. O momento da consumação é o da ação ou omissão, independentemente do resultado.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois é uma norma geral que define o momento da prática do crime.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 711: A competência para o processo e julgamento de crime de roubo circunstanciado pelo resultado morte é do juízo singular. 
+STF — Tese: A lei penal não pode ser aplicada retroativamente, salvo para beneficiar o réu.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve considerar o momento da ação ou omissão para denunciar o crime.
+- **Defesa:** pode alegar que o momento da ação ou omissão não é o mesmo do resultado.
+- **Prática/Tribunais:** a competência e o procedimento devem ser definidos com base no momento da ação ou omissão.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

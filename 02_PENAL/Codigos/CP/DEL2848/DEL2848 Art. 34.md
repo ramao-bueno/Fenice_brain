@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a **execução da pena**, com fundamento na Constituição Federal, art. 5º, XLVI, que estabelece a individualização da pena. A norma permissiva visa garantir a adequação da pena às necessidades do condenado e à segurança pública.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o **Estado**, por meio do sistema penitenciário.
+- Sujeito passivo: o **condenado**.
+- Núcleo do tipo: **submeter** o condenado a exame criminológico.
+- Objeto material: o **condenado**.
+- Elementos normativos: **individualização da execução**.
+A norma não é incriminadora, mas sim permissiva, visando regular a execução da pena.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma permissiva não exige elemento subjetivo específico, pois se trata de uma disposição que regula a execução da pena, e não um crime.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A norma não se refere a um crime, mas sim a uma disposição que regula a execução da pena, portanto, não se aplica a tentativa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A norma não comina pena, pois se trata de uma disposição que regula a execução da pena.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 365: a individualização da pena é direito subjetivo do condenado.
+- STF — Tese: a execução da pena deve ser individualizada, de acordo com as necessidades do condenado e da sociedade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve fiscalizar a execução da pena e garantir a individualização.
+- **Defesa:** pode arguir a violação do direito à individualização da pena.
+- **Prática/Tribunais:** a competência para executar a pena é do juízo da vara de execuções penais.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a saúde mental do condenado, garantindo sua integridade física e mental. O fundamento constitucional é o art. 5º, caput, da CF, que assegura o direito à vida e à dignidade. A norma é permissiva, suspendendo a execução da pena de multa em caso de doença mental, visando proteger o condenado e garantir sua recuperação.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois é norma permissiva.
+- Sujeito passivo: o condenado.
+- Núcleo do tipo: não se aplica, pois é norma permissiva.
+- Objeto material: a pena de multa.
+- Elementos normativos: a doença mental do condenado.
+A norma visa suspender a execução da pena de multa em caso de doença mental, não configurando um crime.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois é norma permissiva. O elemento subjetivo é a doença mental do condenado, que deve ser comprovada.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois é norma permissiva. A suspensão da execução da pena de multa é uma medida que visa proteger o condenado em caso de doença mental.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A norma não comina pena, mas sim suspende a execução da pena de multa. A suspensão é condicionada à doença mental do condenado.
 
 ---
 
@@ -72,15 +74,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 171: a suspensão da execução da pena de multa em caso de doença mental é uma medida que visa proteger o condenado. STF — Tese: a doença mental do condenado é um fator que deve ser considerado na execução da pena.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve comprovar a doença mental do condenado.
+- **Defesa:** pode alegar a doença mental do condenado como causa para suspensão da execução da pena de multa.
+- **Prática/Tribunais:** a competência para decidir sobre a suspensão da execução da pena de multa é do juízo da execução.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

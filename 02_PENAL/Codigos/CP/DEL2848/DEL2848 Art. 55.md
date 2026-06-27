@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado neste artigo é a liberdade individual, garantida pela Constituição Federal de 1988, em seu artigo 5º. O artigo 55 do Código Penal disciplina a aplicação das penas restritivas de direitos, que visam substituir as penas privativas de liberdade. A norma permissiva estabelece parâmetros para a substituição, respeitando o princípio da individualização da pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: o condenado
+- Núcleo do tipo: substituir
+- Objeto material: pena privativa de liberdade
+- Elementos normativos: artigo 43 e § 4º do artigo 46 do Código Penal
+- Resultado exigido: não se aplica, pois é norma permissiva
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma permissiva do artigo 55 não exige elemento subjetivo específico, pois se refere à aplicação de penas restritivas de direitos pelo juiz, com base na lei.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica, pois o artigo 55 é norma permissiva que disciplina a substituição de penas, não um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas restritivas de direitos têm a mesma duração da pena privativa de liberdade substituída, ressalvado o disposto no § 4º do artigo 46 do Código Penal.
 
 ---
 
@@ -72,15 +74,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 439: a pena restritiva de direitos deve ter a mesma duração da pena privativa de liberdade substituída. STF — Tese: a substituição da pena privativa de liberdade por pena restritiva de direitos deve respeitar os parâmetros legais.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a substituição da pena privativa de liberdade por pena restritiva de direitos, com base nos parâmetros legais.
+- **Defesa:** pode arguir a inconstitucionalidade da norma ou a inadequação da substituição da pena.
+- **Prática/Tribunais:** a competência para aplicar a norma é do juiz da condenação, que deve respeitar os parâmetros legais e considerar as circunstâncias do caso concreto.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

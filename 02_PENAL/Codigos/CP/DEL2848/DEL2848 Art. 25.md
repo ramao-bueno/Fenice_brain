@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade e a integridade física. O artigo 25 do Código Penal trata da legítima defesa, que é um direito fundamental previsto no artigo 5º, inciso XXV, da Constituição Federal. A legítima defesa é uma norma permissiva que autoriza o uso moderado de meios necessários para repelir uma agressão injusta, atual ou iminente, a direito próprio ou de outrem.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: a vítima da agressão
+- Núcleo do tipo: repelir
+- Objeto material: a agressão injusta
+- Elementos normativos: uso moderado de meios necessários
+- Resultado exigido: não há resultado exigido, pois se trata de uma norma permissiva
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A legítima defesa é uma causa excludente de ilicitude, que não depende de dolo ou culpa. O elemento subjetivo é o uso moderado e necessário dos meios para repelir a agressão.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois a legítima defesa é uma norma permissiva que não configura um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há pena cominada, pois a legítima defesa é uma causa excludente de ilicitude.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 244: "Súmula 244: A legítima defesa putativa não exclui a culpabilidade"
+- STF — Tese: "A legítima defesa é uma causa excludente de ilicitude que não depende de dolo ou culpa"
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve ser provado que a agressão foi injusta e que o uso de meios foi moderado e necessário
+- **Defesa:** alegação de legítima defesa é uma tese frequente, que pode excluir a ilicitude do fato
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento é o mesmo dos crimes contra a pessoa
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

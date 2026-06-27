@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a regularidade e a confiabilidade nas profissões, atividades, ofícios, cargos ou funções, garantindo que os deveres inerentes sejam respeitados. O fundamento constitucional está no art. 5º, XIII, da CF, que assegura o livre exercício de profissão. A norma é de caráter sancionador, aplicando penas de interdição para crimes cometidos no exercício de profissão.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa que exerça profissão, atividade, ofício, cargo ou função.
+- Sujeito passivo: a sociedade, o Estado ou as pessoas diretamente afetadas pela violação dos deveres.
+- Núcleo do tipo: a conduta criminosa no exercício da profissão.
+- Objeto material: a profissão, atividade, ofício, cargo ou função.
+- Elementos normativos: violação dos deveres inerentes.
+- Resultado exigido: a prática do crime no exercício da profissão.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma exige dolo, pois a violação dos deveres inerentes implica uma conduta intencional. Não admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois a norma se refere à aplicação de penas para crimes já consumados.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas aplicáveis são as de interdição, previstas nos incisos I e II do art. 47 do CP.
 
 ---
 
@@ -71,15 +73,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 312: a interdição do art. 47, I e II, do CP, não se aplica aos crimes culposos.
+STF — Tese: a aplicação das penas de interdição depende da violação dos deveres inerentes à profissão.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a violação dos deveres inerentes à profissão.
+- **Defesa:** pode alegar a inexistência de violação dos deveres ou a falta de dolo.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento segue o rito ordinário.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

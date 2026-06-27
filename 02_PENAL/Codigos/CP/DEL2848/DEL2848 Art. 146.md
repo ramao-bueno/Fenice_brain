@@ -1,3 +1,6 @@
+
+
+
 ---
 artigo: '146'
 lei: DL 2.848/1940 — Código Penal

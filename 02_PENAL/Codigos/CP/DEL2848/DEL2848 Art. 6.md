@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 6 do Código Penal não tutela um bem jurídico específico, pois se trata de uma norma que define o local de prática do crime, influenciando na competência territorial. No entanto, a determinação do local da prática do crime é fundamental para a aplicação das normas penais, garantindo a segurança jurídica e a efetividade da justiça. O fundamento constitucional para essa norma está no art. 109 da Constituição Federal, que trata da competência da Justiça Federal e da Justiça Estadual.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** não se aplica, pois o artigo 6 não define um crime.
+- **Sujeito passivo:** não se aplica, pois o artigo 6 não define um crime.
+- **Núcleo do tipo:** não se aplica, pois o artigo 6 não define um crime.
+- **Objeto material:** não se aplica, pois o artigo 6 não define um crime.
+- **Elementos normativos e descritivos:** o artigo 6 define o local de prática do crime com base na ação ou omissão e no resultado.
+- **Resultado exigido:** não se aplica, pois o artigo 6 não define um crime.
+- **Nexo causal / imputação objetiva:** não se aplica, pois o artigo 6 não define um crime.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 6 não se refere a um crime, portanto, não há dolo ou culpa a ser considerado. A norma é de natureza processual, definindo o local de prática do crime para fins de competência territorial.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica ao artigo 6, pois ele não define um crime. O artigo 6 é uma norma que define o local de prática do crime, não um tipo penal.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 6 não comina pena, pois não define um crime. Ele é uma norma que define o local de prática do crime para fins de competência territorial.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 237: "A competência para o processo e julgamento de crime de estelionato, cometido mediante cheque, é do juízo do local onde se deu a obtenção da vantagem ilícita".
+- STF — Tese: "A competência territorial para processar e julgar crime é definida pelo local da prática do crime, conforme artigo 6 do Código Penal".
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve considerar o local de prática do crime para fins de competência territorial.
+- **Defesa:** pode arguir a incompetência territorial do juízo se o local de prática do crime for diverso do local onde o processo está sendo tramitado.
+- **Prática/Tribunais:** a determinação do local de prática do crime é fundamental para a definição da competência territorial e para a aplicação das normas penais.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

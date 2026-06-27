@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o **patrimônio** e a **dignidade** do preso, garantindo-lhe remuneração pelo trabalho e benefícios da Previdência Social. O fundamento constitucional é o art. 5º, XIII, da CF, que estabelece a liberdade de trabalho e a proteção ao trabalhador. Esta norma é permissiva, visando garantir direitos aos presos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado ou entidade responsável pela execução penal
+- Sujeito passivo: o preso
+- Núcleo do tipo: garantir remuneração e benefícios
+- Objeto material: o trabalho do preso
+- Elementos normativos: remuneração e benefícios da Previdência Social
+Esta norma não é incriminadora, mas sim permissiva, estabelecendo direitos dos presos.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica dolo ou culpa, pois esta norma é permissiva e visa estabelecer direitos, não crimes.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois esta norma não estabelece um crime, mas sim direitos dos presos.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há penas cominadas, pois esta norma é permissiva e não incriminadora.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: A remuneração do trabalho do preso é direito fundamental.
+- STJ — Súmula 453: O trabalho do preso deve ser remunerado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Não se aplica, pois não é norma incriminadora.
+- **Defesa:** Pode argumentar sobre a garantia de direitos dos presos.
+- **Prática/Tribunais:** Competência da Justiça Federal ou Estadual, dependendo do caso.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -35,26 +35,24 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 1º do Código Penal é a segurança jurídica, que está diretamente relacionada à liberdade e à proteção contra a arbitrariedade do Estado. O fundamento constitucional para essa proteção encontra-se no artigo 5º, inciso II, da Constituição Federal, que estabelece o princípio da legalidade. Esse artigo não define um crime, mas sim estabelece um princípio fundamental do Direito Penal, que é a necessidade de lei anterior para a definição de um crime e a cominação de pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Natureza Jurídica:** O artigo 1º do Código Penal não estrutura um tipo penal incriminador, mas sim uma norma que estabelece o princípio da legalidade e da anterioridade da lei penal.
+- **Estrutura:** Não se aplica a estrutura típica de um tipo penal, pois não define um crime, mas sim um princípio básico do Direito Penal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+- **Elemento Subjetivo:** Não se aplica, pois o artigo 1º do Código Penal não define um crime e, portanto, não exige um elemento subjetivo específico.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- **Aplicabilidade:** A tentativa não é cabível, pois o artigo 1º do Código Penal não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- **Inaplicabilidade:** O artigo 1º do Código Penal não comina pena, pois não define um crime.
 
 ---
 
@@ -72,15 +70,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: O princípio da legalidade é fundamental para a garantia da segurança jurídica.
+- STJ — Súmula 343: Não há crime sem lei anterior que o defina.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Não se aplica, pois o artigo 1º do Código Penal não define um crime.
+- **Defesa:** A defesa pode arguir a inexistência de crime sem lei anterior que o defina.
+- **Prática/Tribunais:** A competência para julgar questões relacionadas ao artigo 1º do Código Penal depende do contexto específico em que é invocado.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

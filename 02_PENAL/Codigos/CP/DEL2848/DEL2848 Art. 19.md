@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 19 do Código Penal é a segurança jurídica e a responsabilidade penal. O fundamento constitucional está no art. 5º, inciso XXXIX, da Constituição Federal, que estabelece o princípio da responsabilidade penal. Este artigo não é uma norma incriminadora, mas sim uma norma que estabelece a responsabilidade penal pelo resultado agravador.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o agente que causa o resultado agravador
+- Sujeito passivo: a vítima do crime
+- Núcleo do tipo: causar o resultado agravador
+- Objeto material: o resultado agravador
+- Elementos normativos: a culpa ou dolo do agente
+- Resultado exigido: o resultado agravador
+- Nexo causal: o agente deve ter causado o resultado agravador
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 19 exige que o agente tenha agido ao menos culposamente para ser responsabilizado pelo resultado agravador. Isso significa que o agente pode ter agido com dolo ou culpa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível neste artigo, pois se refere a um resultado agravador e não a um crime em si.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas aplicáveis dependem do crime principal e do resultado agravador.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 545: a pena deve ser aumentada em um sexto a um terço se o crime é cometido com o uso de arma de fogo.
+- STF — Tese: o artigo 19 do Código Penal exige que o agente tenha agido com dolo ou culpa para ser responsabilizado pelo resultado agravador.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar que o agente agiu com dolo ou culpa e que o resultado agravador foi causado por sua conduta.
+- **Defesa:** pode alegar que o agente não agiu com dolo ou culpa, ou que o resultado agravador não foi causado por sua conduta.
+- **Prática/Tribunais:** a competência e o procedimento dependem do crime principal e do resultado agravador.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

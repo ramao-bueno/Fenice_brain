@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a integridade física e moral do preso, conforme estabelecido no artigo 38 do Código Penal. Esse dispositivo tem fundamento constitucional no art. 5º, III, da Constituição Federal, que assegura a dignidade da pessoa humana. A norma é permissiva e de extensão, pois não define um crime, mas sim estabelece um direito e uma obrigação das autoridades em relação aos presos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: as autoridades
+- Sujeito passivo: o preso
+- Núcleo do tipo: respeito
+- Objeto material: integridade física e moral do preso
+- Elementos normativos: direitos não atingidos pela perda da liberdade
+A estrutura jurídica é de uma norma que impõe um dever às autoridades, não se tratando de um tipo penal incriminador.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica o dolo ou a culpa, pois o artigo 38 não define um crime, mas sim um direito e um dever.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 38 não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há penas cominadas, pois o artigo 38 não define um crime.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STF — Tese: A dignidade da pessoa humana é um princípio fundamental da Constituição.
+STJ — Súmula 361: O direito à integridade física e moral do preso é assegurado pela Constituição.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve verificar se as autoridades respeitam a integridade física e moral dos presos.
+- **Defesa:** Pode alegar violação dos direitos do preso.
+- **Prática/Tribunais:** A competência para julgar questões relacionadas ao artigo 38 é da Justiça Federal ou Estadual, dependendo do caso.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

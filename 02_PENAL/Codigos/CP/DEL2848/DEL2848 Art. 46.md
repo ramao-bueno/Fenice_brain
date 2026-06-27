@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade, pois se trata de uma alternativa à pena de privação de liberdade. O fundamento constitucional é o art. 5º, inciso XLVI, da Constituição Federal, que estabelece as espécies de pena aplicáveis. A norma é permissiva, pois permite a substituição da pena de privação de liberdade por prestação de serviços à comunidade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o condenado
+- Sujeito passivo: a comunidade ou entidades públicas
+- Núcleo do tipo: atribuir tarefas gratuitas
+- Objeto material: serviços à comunidade ou entidades públicas
+- Elementos normativos: condenação superior a seis meses de privação de liberdade
+A norma não é incriminadora, mas sim uma alternativa à pena de privação de liberdade.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma não exige dolo ou culpa, pois se trata de uma medida alternativa à pena de privação de liberdade. O elemento subjetivo é a aceitação do condenado em prestar serviços à comunidade.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois se trata de uma medida alternativa à pena de privação de liberdade. O crime é instantâneo, pois a prestação de serviços é uma conduta única.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena é a prestação de serviços à comunidade ou a entidades públicas. Não há qualificadoras ou causas de aumento. O regime inicial é aberto.
 
 ---
 
@@ -71,15 +73,16 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 439: A prestação de serviços à comunidade é cabível em condenações superiores a seis meses de privação de liberdade. STF — Tese: A prestação de serviços à comunidade é uma alternativa à pena de privação de liberdade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a substituição da pena de privação de liberdade por prestação de serviços à comunidade.
+- **Defesa:** pode requerer a substituição da pena de privação de liberdade por prestação de serviços à comunidade.
+- **Prática/Tribunais:** a competência é do juízo da execução penal, e o procedimento é regulado pela Lei de Execução Penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

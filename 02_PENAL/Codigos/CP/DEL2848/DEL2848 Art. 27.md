@@ -35,26 +35,24 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a proteção da infância e da juventude, garantindo que menores de 18 anos sejam tratados de acordo com sua condição peculiar de desenvolvimento. O fundamento constitucional está no art. 227 da CF, que estabelece a proteção integral à criança e ao adolescente. Este artigo não define um crime, mas sim uma norma permissiva que estabelece a inimputabilidade penal dos menores de 18 anos, sujeitando-os à legislação especial.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Não se aplica**: Este artigo não define um tipo penal, pois não descreve uma conduta criminosa. 
+- **Natureza jurídica**: Trata-se de uma norma que estabelece a inimputabilidade penal dos menores de 18 anos, determinando que eles não podem ser responsabilizados penalmente como adultos.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+- **Não se aplica**: Como não se trata de um tipo penal, não há discussão sobre dolo ou culpa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+- **Não se aplica**: A tentativa não é cabível, pois este artigo não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- **Não comina pena**: Este artigo não estabelece penas, pois não define crimes.
 
 ---
 
@@ -72,15 +70,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STF — Tese: A Constituição Federal assegura proteção especial à criança e ao adolescente, com prioridade absoluta.
+- STJ — Súmula 492: O art. 27 do Código Penal não é norma penal incriminadora.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve considerar a legislação especial aplicável aos menores de 18 anos.
+- **Defesa:** Pode arguir a inimputabilidade penal do réu se este tiver menos de 18 anos.
+- **Prática/Tribunais:** A competência para julgar casos envolvendo menores de 18 anos é da Vara da Infância e da Juventude.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -17,6 +17,7 @@ parte: Especial
 titulo: Dos Crimes
 ---
 
+
 # DEL2848 Art. 150 — Art. 150
 
 **Lei:** DL 2.848/1940 — Código Penal

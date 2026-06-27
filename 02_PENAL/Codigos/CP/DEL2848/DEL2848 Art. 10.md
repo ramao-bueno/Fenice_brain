@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 10 do Código Penal não tutela um bem jurídico específico, pois se trata de uma norma que estabelece regras gerais para o cômputo de prazos na aplicação da lei penal. Não há fundamento constitucional direto para essa norma, mas é relevante para a aplicação do devido processo legal (CF, art. 5º, LIV). Essa norma é de natureza processual e não incriminadora.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois não é uma norma incriminadora.
+- Sujeito passivo: não se aplica.
+- Núcleo do tipo: não se aplica.
+- Objeto material: não se aplica.
+- Elementos normativos: o cômputo de prazos é feito pelo calendário comum.
+- Resultado exigido: não se aplica.
+- Nexo causal / imputação objetiva: não se aplica.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo 10 do Código Penal não estabelece uma conduta criminosa, mas sim regras para o cômputo de prazos.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo 10 não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois é uma norma permissiva que estabelece regras para o cômputo de prazos.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 310: ...
+STF — Tese: A contagem de prazos processuais deve seguir o calendário comum.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve observar as regras de cômputo de prazos para garantir a regularidade processual.
+- **Defesa:** Pode arguir a nulidade do processo se os prazos não forem computados corretamente.
+- **Prática/Tribunais:** Os tribunais devem aplicar as regras de cômputo de prazos de forma uniforme para garantir a segurança jurídica.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

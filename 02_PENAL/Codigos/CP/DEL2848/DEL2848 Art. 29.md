@@ -35,26 +35,30 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 29 do Código Penal é a justiça e a segurança jurídica, garantindo que todos os participantes de um crime sejam responsabilizados de acordo com sua culpabilidade. O fundamento constitucional está no artigo 5º, inciso XLV, da Constituição Federal, que estabelece a responsabilidade penal individualizada.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa que concorra para o crime.
+- Sujeito passivo: o Estado e a vítima do crime.
+- Núcleo do tipo: concorrer para o crime.
+- Objeto material: o crime em si.
+- Elementos normativos: a culpabilidade e a participação no crime.
+- Resultado exigido: não há resultado específico exigido, pois se trata de uma norma que regula a responsabilidade penal.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A conduta pode ser dolosa ou culposa, dependendo da intenção do agente. O dolo direto ou eventual pode estar presente, bem como a culpa consciente ou inconsciente.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível, pois o artigo 14 do Código Penal estabelece que a tentativa é punível. O crime é instantâneo, material e formal.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- Pena do caput: as penas cominadas ao crime.
+- Causas de diminuição: a participação de menor importância (§ 1º).
+- Causas de aumento: o resultado mais grave previsível (§ 2º).
 
 ---
 
@@ -72,15 +76,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 441: a pena pelo crime de participação em crime doloso pode ser reduzida até um terço.
+- STF — Tese: a responsabilidade penal é individualizada, considerando a culpabilidade de cada agente.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve denunciar todos os participantes do crime, provando a culpabilidade de cada um.
+- **Defesa:** pode alegar a participação de menor importância ou a falta de previsibilidade do resultado mais grave.
+- **Prática/Tribunais:** a competência é do juízo criminal, seguindo o procedimento comum.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

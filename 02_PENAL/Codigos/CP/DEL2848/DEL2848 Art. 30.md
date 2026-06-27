@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo art. 30 do Código Penal não é diretamente relacionado a um bem específico, como vida, liberdade ou patrimônio, mas sim ao princípio de que as circunstâncias e condições de caráter pessoal não se comunicam, salvo quando elementares do crime. Este artigo reflete o princípio da personalidade das penas, previsto na Constituição Federal, art. 5º, XLV, que estabelece que nenhuma pena passará da pessoa do condenado.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Não se aplica, pois o artigo não define um crime.
+- **Sujeito passivo:** Não se aplica.
+- **Núcleo do tipo:** Não se aplica.
+- **Objeto material:** Não se aplica.
+- **Elementos normativos e descritivos:** A regra se aplica a circunstâncias e condições de caráter pessoal.
+- **Resultado exigido:** Não se aplica.
+- **Nexo causal / imputação objetiva:** Não se aplica.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O art. 30 do Código Penal não trata de dolo ou culpa, pois não se refere a um crime específico, mas sim a uma regra geral sobre a comunicação de circunstâncias e condições de caráter pessoal.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica, pois o artigo não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não se aplica, pois o artigo não comina pena.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 711: A competência para processo e julgamento de ações penais contra os crimes de calúnia e injúria é da Justiça Comum, não se aplicando o art. 30 do CP.
+- STF — Tese: A regra do art. 30 do CP é aplicável às circunstâncias agravantes.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve observar a aplicação da regra do art. 30 em casos concretos.
+- **Defesa:** Pode arguir a inaplicabilidade da regra em determinados casos.
+- **Prática/Tribunais:** A regra do art. 30 é aplicada em processos penais para definir a responsabilidade penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

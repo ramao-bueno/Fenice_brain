@@ -38,26 +38,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O artigo 14 do Código Penal não tutela um bem jurídico específico, pois se refere à definição de crime consumado e tentado. No entanto, os crimes em geral tutelam bens jurídicos como vida, liberdade, honra, patrimônio, administração pública, etc. O fundamento constitucional para a tutela desses bens encontra-se na Carta Magna, especialmente nos artigos 1º a 5º, que tratam dos direitos e garantias fundamentais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: pode ser qualquer pessoa.
+- Sujeito passivo: pode ser qualquer pessoa ou entidade.
+- Núcleo do tipo: não se aplica, pois o artigo não define um crime específico.
+- Objeto material: não se aplica.
+- Elementos normativos e descritivos: o crime é consumado quando reunidos todos os elementos de sua definição legal.
+- Resultado exigido: não se aplica.
+- Nexo causal / imputação objetiva: não se aplica.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 14 não se refere a um crime específico, portanto, não há elemento subjetivo a ser analisado. O dolo e a culpa são elementos subjetivos que se aplicam a crimes específicos, não a esta definição geral.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível, conforme o art. 14, II, do CP. O momento da consumação ocorre quando se reúnem todos os elementos de sua definição legal. A desistência voluntária e o arrependimento posterior são relevantes, conforme os arts. 15 e 16 do CP.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena da tentativa é a correspondente ao crime consumado, diminuída de um a dois terços, conforme o parágrafo único do art. 14 do CP.
 
 ---
 
@@ -75,15 +78,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 439: a pena pela tentativa de crime é a do crime consumado, diminuída de um a dois terços. STF — Tese: a tentativa de crime é punida com a pena correspondente ao crime consumado, diminuída de um a dois terços.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve denunciar o crime consumado ou tentado, provando a existência de todos os elementos da definição legal.
+- **Defesa:** pode alegar a inexistência de algum elemento da definição legal, ou a ocorrência de causa excludente de ilicitude ou culpabilidade.
+- **Prática/Tribunais:** a competência e o procedimento variam conforme o crime específico.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

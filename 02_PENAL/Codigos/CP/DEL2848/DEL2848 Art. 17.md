@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 17 do Código Penal é a segurança jurídica e a proteção contra condutas inofensivas. Não há um bem jurídico específico como a vida, liberdade ou patrimônio, pois se trata de uma norma que exclui a punibilidade da tentativa em casos de ineficácia absoluta do meio ou impropriedade do objeto. O fundamento constitucional relevante é o princípio da legalidade (CF, art. 5º, XXXIX).
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: não se aplica, pois não há lesão a um bem jurídico
+- Núcleo do tipo: não há verbo específico, pois se trata de uma exclusão de punibilidade
+- Objeto material: não se aplica
+- Elementos normativos: ineficácia absoluta do meio ou impropriedade do objeto
+- Resultado exigido: não se aplica, pois não há crime
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 17 do Código Penal não se refere a um crime específico, mas sim a uma exclusão de punibilidade. Portanto, não se aplica o dolo ou a culpa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é excluída pela norma, pois não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não se aplica, pois o artigo 17 exclui a punibilidade da tentativa.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 145: "Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime."
+- STF — Tese: "A exclusão da punibilidade da tentativa não viola o princípio da legalidade."
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve demonstrar a ineficácia absoluta do meio ou a impropriedade do objeto para excluir a punibilidade da tentativa.
+- **Defesa:** pode arguir a exclusão da punibilidade da tentativa com base no artigo 17 do Código Penal.
+- **Prática/Tribunais:** a competência para julgar a exclusão da punibilidade da tentativa é do juízo criminal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

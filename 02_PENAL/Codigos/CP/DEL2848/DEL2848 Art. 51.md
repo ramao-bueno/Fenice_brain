@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, especificamente a dívida de valor decorrente de sentença condenatória. O fundamento constitucional é o art. 5º, XXXVI, da CF, que estabelece a garantia da coisa julgada. A norma em questão é de execução penal, não se tratando de crime, mas sim de procedimento para execução de multa.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do juiz da execução penal.
+- Sujeito passivo: o condenado.
+- Núcleo do tipo: execução.
+- Objeto material: a multa.
+- Elementos normativos: aplicação das normas relativas à dívida ativa da Fazenda Pública.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma em questão não se refere a crime, portanto, não se aplica o dolo ou a culpa. O elemento subjetivo é irrelevante, pois se trata de procedimento de execução.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica, pois o artigo trata de execução de multa, e não de crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena é a multa, que será executada perante o juiz da execução penal.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 324: a prescrição da multa penal não se suspende durante a execução da pena privativa de liberdade. STF — Tese: a execução da multa penal é regida pelas normas relativas à dívida ativa da Fazenda Pública.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a execução da multa, comprovando o trânsito em julgado da sentença condenatória.
+- **Defesa:** pode alegar a prescrição da multa ou a ilegitimidade da execução.
+- **Prática/Tribunais:** a competência é do juiz da execução penal, que deve aplicar as normas relativas à dívida ativa da Fazenda Pública.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

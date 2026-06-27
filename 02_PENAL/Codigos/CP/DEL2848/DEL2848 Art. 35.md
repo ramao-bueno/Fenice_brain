@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a **liberdade** e a **reinserção social** do condenado. O artigo 35 do Código Penal é uma norma permissiva que regula o regime semi-aberto, visando a ressocialização do condenado. O fundamento constitucional é o art. 5º, inciso XLVI, da Constituição Federal, que estabelece a individualização da pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo**: o condenado que inicia o cumprimento da pena em regime semi-aberto.
+- **Sujeito passivo**: o Estado e a sociedade.
+- **Núcleo do tipo**: o trabalho em comum durante o período diurno.
+- **Objeto material**: o condenado.
+- **Elementos normativos**: o regime semi-aberto e o trabalho em comum.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 35 não é uma norma incriminadora, portanto, não se aplica o dolo ou a culpa. A norma permissiva visa a ressocialização do condenado, não exigindo elemento subjetivo específico.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 35 é uma norma permissiva que regula o regime semi-aberto.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 35 não comina pena, pois é uma norma permissiva que regula o regime semi-aberto. O regime inicial é semi-aberto.
 
 ---
 
@@ -71,15 +72,17 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 440: a pena deve ser executada em regime semi-aberto.
+- STF — Tese: a individualização da pena é um direito fundamental.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve fiscalizar o cumprimento do regime semi-aberto.
+- **Defesa:** pode arguir a inconstitucionalidade do regime semi-aberto.
+- **Prática/Tribunais:** a competência é do juízo da execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

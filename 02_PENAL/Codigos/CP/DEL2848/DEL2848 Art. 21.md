@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 21 do Código Penal é a segurança jurídica e a ordem pública, fundamentados na Constituição Federal, especialmente no art. 5º, inciso II, que estabelece a nulla poena sine lege. A norma permissiva em questão trata do erro sobre a ilicitude do fato e sua influência na aplicação da pena.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa que cometa um fato típico.
+- Sujeito passivo: o Estado e, reflexamente, a sociedade.
+- Núcleo do tipo: não se aplica diretamente, pois o artigo trata do erro sobre a ilicitude.
+- Objeto material: a conduta criminosa.
+- Elementos normativos: o erro sobre a ilicitude do fato.
+- Resultado exigido: não se aplica, pois é uma norma permissiva.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 21 do Código Penal trata do erro sobre a ilicitude do fato, que pode ser inevitável ou evitável, influenciando na aplicação da pena. Não se aplica dolo direto, dolo eventual ou culpa consciente/inconsciente diretamente, pois a norma permissiva se refere ao erro sobre a ilicitude.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica diretamente ao artigo 21, pois este trata do erro sobre a ilicitude do fato e não de uma conduta criminosa específica.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- Pena: isenção de pena se o erro for inevitável; diminuição de um sexto a um terço se for evitável.
+- Regime inicial: depende da pena aplicada ao crime específico.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 337: não há súmula específica, mas a corte tem entendido que o erro sobre a ilicitude do fato deve ser analisado caso a caso.
+- STF — Tese: o erro sobre a ilicitude do fato pode ser considerado uma excludente de culpabilidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a evitabilidade ou inevitabilidade do erro sobre a ilicitude do fato.
+- **Defesa:** frequentemente argui o erro sobre a ilicitude do fato como excludente de culpabilidade.
+- **Prática/Tribunais:** a competência e o procedimento dependem do crime específico ao qual o artigo 21 é aplicado.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

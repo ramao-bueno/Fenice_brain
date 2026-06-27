@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado não é diretamente relacionado a um bem específico, como vida, liberdade, honra, patrimônio, etc., mas sim à aplicação das penas no âmbito do Direito Penal. A norma em questão é de natureza processual penal, regulamentando a aplicação de penas privativas de liberdade, restritivas de direitos e multa. O fundamento constitucional pode ser encontrado no art. 5º da Constituição Federal, que trata dos direitos e garantias fundamentais, incluindo o direito à liberdade e à propriedade.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- **Sujeito ativo:** Não se aplica, pois o artigo não define um crime.
+- **Sujeito passivo:** Não se aplica, pois o artigo não define um crime.
+- **Núcleo do tipo:** Não se aplica, pois o artigo não define um crime.
+- **Objeto material:** A aplicação de penas.
+- **Elementos normativos e descritivos:** A norma estabelece que se desprezam as frações de dia nas penas privativas de liberdade e restritivas de direitos, e as frações de cruzeiro na pena de multa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo não define um crime e, portanto, não há elemento subjetivo a considerar.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo não define um crime e, portanto, não há tentativa a considerar.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A norma não comina pena, pois se refere à aplicação e cálculo de penas, não definindo um crime específico.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 269: A pena de multa não pode ser aplicada isoladamente, quando a lei comine pena privativa de liberdade.
+- STF — Tese: A aplicação das penas deve respeitar os princípios constitucionais, como o da individualização da pena.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** Deve observar a aplicação correta das regras de cálculo de penas.
+- **Defesa:** Pode arguir a violação das regras de cálculo de penas como causa de nulidade.
+- **Prática/Tribunais:** A competência para aplicar as penas é do juízo criminal, seguindo o procedimento estabelecido pelo Código de Processo Penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

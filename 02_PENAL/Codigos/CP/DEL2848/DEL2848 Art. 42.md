@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade individual, garantida pela Constituição Federal no art. 5º. O artigo em questão não se refere a um crime, mas sim a uma norma que estabelece como computar o tempo de prisão provisória, administrativa e de internação para fins de cumprimento de pena privativa de liberdade ou medida de segurança.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois não é uma norma incriminadora.
+- Sujeito passivo: o condenado ou internado.
+- Núcleo do tipo: não há, pois se trata de uma norma permissiva.
+- Objeto material: o tempo de prisão ou internação.
+- Elementos normativos: a lei estabelece que o tempo de prisão provisória, administrativa e de internação deve ser computado na pena privativa de liberdade ou medida de segurança.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois não é uma norma incriminadora. A norma é permissiva e estabelece um direito do condenado ou internado.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois não é uma norma incriminadora.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois é uma norma permissiva que estabelece como computar o tempo de prisão ou internação.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 58: O tempo de prisão provisória deve ser computado na pena privativa de liberdade.
+- STF — Tese: O art. 42 do CP deve ser interpretado em conformidade com a Constituição Federal, garantindo o direito à liberdade e à segurança.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve observar a norma para não violar o direito à liberdade do condenado.
+- **Defesa:** pode arguir a violação do direito à liberdade se o tempo de prisão não for computado corretamente.
+- **Prática/Tribunais:** os tribunais devem observar a norma para garantir a correta computação do tempo de prisão ou internação.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

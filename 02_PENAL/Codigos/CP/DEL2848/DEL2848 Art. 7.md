@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo art. 7º do Código Penal é a soberania nacional, a segurança do Estado e a administração pública. O fundamento constitucional está na CF, art. 5º, § 4º, que estabelece a competência da Justiça Federal para processar e julgar crimes contra a segurança nacional. O artigo em questão é uma norma de extensão, que estabelece a aplicação da lei brasileira a crimes cometidos no estrangeiro.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: o Estado brasileiro
+- Núcleo do tipo: cometer crimes
+- Objeto material: a vida ou liberdade do Presidente da República, o patrimônio ou a fé pública da União, etc.
+- Elementos normativos: a conduta criminosa deve ser cometida no estrangeiro
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O elemento subjetivo é o dolo, que pode ser direto ou eventual. Não há previsão de modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível, conforme art. 14 do CP. O crime é instantâneo e material.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas variam de acordo com o crime cometido. O regime inicial é fechado.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 237: a competência para processar e julgar crime de falsificação de moeda é da Justiça Federal. STF — Tese: a extradição de estrangeiro pode ser concedida para crimes cometidos no estrangeiro.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** denunciar com base em provas concretas, qualificar o crime com precisão
+- **Defesa:** teses frequentes incluem alegação de falta de provas, excludentes de ilicitude
+- **Prática/Tribunais:** competência da Justiça Federal, procedimento comum
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

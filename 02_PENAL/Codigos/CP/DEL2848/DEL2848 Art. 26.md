@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a saúde mental e a capacidade de discernimento do agente. O fundamento constitucional é o art. 5º, caput, da CF, que estabelece a dignidade da pessoa humana. O artigo em questão é uma norma permissiva, pois isenta de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, não tem capacidade de entender o caráter ilícito do fato.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: a sociedade
+- Núcleo do tipo: não há verbo específico, pois se trata de uma norma permissiva
+- Objeto material: a conduta do agente
+- Elementos normativos: doença mental ou desenvolvimento mental incompleto ou retardado
+- Resultado exigido: não há resultado específico exigido
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo em questão não exige dolo ou culpa, pois se trata de uma norma permissiva que isenta de pena o agente que não tem capacidade de entender o caráter ilícito do fato.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo em questão não se refere a um crime específico.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+- Pena: isenção de pena
+- Causas de diminuição: redução de pena de um a dois terços, se o agente não era inteiramente capaz de entender o caráter ilícito do fato
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 422: a redução da pena pelo art. 26, parágrafo único, do CP, não se aplica ao crime de trânsito.
+- STF — Tese: a doença mental do agente pode ser considerada uma causa de exclusão da culpabilidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve ser provada a doença mental ou desenvolvimento mental incompleto ou retardado do agente.
+- **Defesa:** pode alegar a doença mental ou desenvolvimento mental incompleto ou retardado do agente para isentá-lo de pena.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento é o mesmo dos crimes comuns.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

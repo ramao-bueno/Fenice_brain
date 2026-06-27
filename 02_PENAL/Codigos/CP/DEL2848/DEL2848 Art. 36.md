@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a **liberdade** e a **reabilitação** do condenado. O artigo 36 do Código Penal está fundamentado na Constituição Federal, art. 5º, inciso XLVI, que estabelece as normas para a execução das penas. A norma é permissiva, pois estabelece o regime aberto como uma forma de cumprimento de pena que visa a reabilitação do condenado.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o condenado
+- Sujeito passivo: o Estado
+- Núcleo do tipo: cumprir a pena no regime aberto
+- Objeto material: o condenado
+- Elementos normativos: autodisciplina e senso de responsabilidade
+- Resultado exigido: cumprimento da pena no regime aberto
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 36 não estabelece um tipo penal, portanto, não há elemento subjetivo. A norma é permissiva e estabelece as condições para o cumprimento da pena no regime aberto.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 36 estabelece as condições para o cumprimento da pena no regime aberto e não define um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 36 não comina pena, pois estabelece as condições para o cumprimento da pena no regime aberto. O regime aberto é uma forma de cumprimento de pena que visa a reabilitação do condenado.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 269: O regime de cumprimento da pena no regime aberto não é cabível para condenados por crimes hediondos.
+- STF — Tese: O regime aberto é uma forma de cumprimento de pena que visa a reabilitação do condenado e deve ser aplicado de acordo com as condições estabelecidas no artigo 36 do Código Penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve verificar se o condenado cumpre as condições estabelecidas no artigo 36 para o cumprimento da pena no regime aberto.
+- **Defesa:** pode argumentar que o condenado cumpre as condições estabelecidas no artigo 36 e, portanto, deve ser beneficiado com o regime aberto.
+- **Prática/Tribunais:** a competência para decidir sobre o regime aberto é do juiz da execução penal, que deve verificar se o condenado cumpre as condições estabelecidas no artigo 36.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

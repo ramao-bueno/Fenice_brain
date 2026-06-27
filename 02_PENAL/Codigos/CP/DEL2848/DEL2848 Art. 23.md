@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 23 do Código Penal é a liberdade e a segurança pessoal, além da proteção ao patrimônio. O fundamento constitucional está no artigo 5º, inciso II, da Constituição Federal, que garante o direito à liberdade e à segurança. Este artigo é uma norma permissiva, que estabelece causas de exclusão de ilicitude, ou seja, situações em que o agente não comete crime.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: depende do fato praticado
+- Núcleo do tipo: varia de acordo com o fato praticado
+- Objeto material: varia de acordo com o fato praticado
+- Elementos normativos: estado de necessidade, legítima defesa, estrito cumprimento de dever legal ou no exercício regular de direito
+Este artigo não é uma norma incriminadora, mas sim uma norma permissiva que estabelece causas de exclusão de ilicitude.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O elemento subjetivo da causa justificante é o dolo ou a culpa, dependendo do caso. No estado de necessidade, o agente age com dolo, mas sem culpa. Na legítima defesa, o agente age com dolo, mas com justa causa. No estrito cumprimento de dever legal ou no exercício regular de direito, o agente age sem dolo ou culpa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois este artigo é uma norma permissiva que estabelece causas de exclusão de ilicitude.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há pena cominada, pois este artigo é uma norma permissiva que estabelece causas de exclusão de ilicitude. O parágrafo único estabelece que o agente responderá pelo excesso doloso ou culposo.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 404: No crime de excesso de legítima defesa, somente se pune o excesso doloso. 
+STF — Tese: A legítima defesa putativa é causa de exclusão de ilicitude.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar que o agente agiu com excesso doloso ou culposo.
+- **Defesa:** pode alegar que o agente agiu em estado de necessidade, legítima defesa ou no estrito cumprimento de dever legal ou no exercício regular de direito.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento é o comum.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

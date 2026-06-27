@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 18 do Código Penal é a segurança jurídica e a responsabilidade penal. O fundamento constitucional está no artigo 5º, inciso XXXIX, da Constituição Federal, que estabelece o princípio da nulla poena sine culpa. Este artigo não incrimina condutas, mas sim estabelece a distinção entre crimes dolosos e culposos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: não se aplica, pois o artigo é norma geral.
+- Sujeito passivo: não se aplica, pois o artigo é norma geral.
+- Núcleo do tipo: não se aplica, pois o artigo é norma geral.
+- Objeto material: não se aplica, pois o artigo é norma geral.
+- Elementos normativos e descritivos: o artigo estabelece a distinção entre crimes dolosos e culposos.
+- Resultado exigido: não se aplica, pois o artigo é norma geral.
+- Nexo causal / imputação objetiva: não se aplica, pois o artigo é norma geral.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 18 do Código Penal estabelece a distinção entre crimes dolosos e culposos. O dolo direto ocorre quando o agente quis o resultado, enquanto o dolo eventual ocorre quando o agente assumiu o risco de produzi-lo. A culpa consciente ou inconsciente ocorre quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 18 é norma geral e não incrimina condutas.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não se aplica, pois o artigo 18 é norma geral e não comina pena.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 500: a tentativa é incabível quando a lei exige resultado naturalístico. 
+STF — Tese: o dolo e a culpa são elementos subjetivos do crime.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve demonstrar a intenção do agente ou a imprudência, negligência ou imperícia.
+- **Defesa:** pode alegar a inexistência de dolo ou culpa, ou a ocorrência de excludentes de ilicitude.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento é o comum ou o especial, conforme o caso.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

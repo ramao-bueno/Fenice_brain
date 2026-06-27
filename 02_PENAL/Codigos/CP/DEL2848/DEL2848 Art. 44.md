@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade individual, garantida pela Constituição Federal em seu art. 5º. O artigo 44 do Código Penal disciplina as penas restritivas de direitos, que substituem as privativas de liberdade em certos casos. A norma permissiva visa proteger a liberdade do indivíduo, oferecendo alternativas à pena de prisão.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: o réu
+- Núcleo do tipo: aplicar
+- Objeto material: pena privativa de liberdade
+- Elementos normativos: crime não cometido com violência ou grave ameaça, réu não reincidente em crime doloso
+- Resultado exigido: substituição da pena privativa de liberdade por pena restritiva de direitos
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma permissiva não exige dolo ou culpa, pois se refere à aplicação de penas. O elemento subjetivo é relevante apenas para a caracterização do crime, que pode ser doloso ou culposo.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 44 disciplina a aplicação de penas, não um crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+As penas restritivas de direitos substituem as privativas de liberdade. O regime inicial é aberto ou semiaberto, conforme o caso.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 439: a pena restritiva de direitos pode ser aplicada em substituição à pena privativa de liberdade.
+- STF — Tese: a substituição da pena privativa de liberdade por pena restritiva de direitos deve ser motivada pelo juiz.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a substituição da pena privativa de liberdade por pena restritiva de direitos, quando presentes os requisitos legais.
+- **Defesa:** pode requerer a substituição da pena privativa de liberdade por pena restritiva de direitos, como tese de defesa.
+- **Prática/Tribunais:** a competência para aplicar as penas restritivas de direitos é do juízo da execução penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

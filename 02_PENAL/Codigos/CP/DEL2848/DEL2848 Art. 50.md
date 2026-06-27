@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, conforme o art. 5º, XXII, da Constituição Federal. A norma permissiva em questão visa regular a cobrança de multas aplicadas em processos penais, não se tratando de um crime.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: o condenado
+- Núcleo do tipo: permitir o pagamento em parcelas
+- Objeto material: a multa
+- Elementos normativos: requerimento do condenado e circunstâncias do caso
+A norma não incrimina, mas regula a execução da pena de multa.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma permissiva não exige elemento subjetivo específico, pois se refere à execução da pena e não à prática de um crime. O juiz deve considerar as circunstâncias do caso para decidir sobre o pagamento em parcelas.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A norma não se refere a um crime, portanto, não se aplica a tentativa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A norma regula a pena de multa, permitindo o pagamento em parcelas mensais. O juiz pode decidir sobre a concessão do pagamento parcelado.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 309: a multa pode ser paga em parcelas. 
+STF — Tese: a execução da pena de multa deve ser regulada de acordo com as circunstâncias do caso.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a execução da pena de multa de acordo com a lei.
+- **Defesa:** pode requerer o pagamento em parcelas, apresentando as circunstâncias do caso.
+- **Prática/Tribunais:** a competência para decidir sobre o pagamento em parcelas é do juiz da execução.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

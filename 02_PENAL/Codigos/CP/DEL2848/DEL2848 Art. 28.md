@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a imputabilidade penal, que está relacionada à capacidade do indivíduo de entender o caráter ilícito de suas ações e determinar-se de acordo com esse entendimento. O fundamento constitucional é o art. 5º, caput, da Constituição Federal, que estabelece a dignidade da pessoa humana como fundamento da República. O artigo em questão não é uma norma incriminadora, mas sim uma norma que estabelece regras sobre a imputabilidade penal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o agente que comete o fato.
+- Sujeito passivo: a sociedade, em geral.
+- Núcleo do tipo: a conduta que não exclui a imputabilidade penal.
+- Objeto material: a ação ou omissão do agente.
+- Elementos normativos: a emoção, a paixão e a embriaguez.
+- Resultado exigido: a capacidade de entender o caráter ilícito do fato.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo em questão não se refere a um crime específico, mas sim à imputabilidade penal. A emoção, a paixão e a embriaguez não excluem a imputabilidade penal, salvo no caso de embriaguez completa, proveniente de caso fortuito ou força maior.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo em questão não se refere a um crime específico.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há penas cominadas no artigo em questão, pois ele se refere à imputabilidade penal e não a um crime específico.
 
 ---
 
@@ -72,15 +74,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 522: a embriaguez voluntária ou culposa não exclui a imputabilidade penal. STF — Tese: a emoção e a paixão não excluem a imputabilidade penal.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve demonstrar que o agente tinha capacidade de entender o caráter ilícito do fato.
+- **Defesa:** pode alegar que o agente estava em estado de embriaguez completa, proveniente de caso fortuito ou força maior.
+- **Prática/Tribunais:** a competência é da Justiça Comum, e o procedimento é o mesmo dos crimes em geral.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

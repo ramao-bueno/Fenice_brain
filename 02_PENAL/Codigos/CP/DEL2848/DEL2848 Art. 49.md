@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, especificamente a capacidade econômica do Estado. A pena de multa visa ressarcir o erário público em decorrência de condutas ilícitas. O fundamento constitucional é o art. 5º, XLVI, da Constituição Federal, que estabelece a possibilidade de pena de multa como sanção penal.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do juiz, fixa a pena de multa.
+- Sujeito passivo: o condenado que sofre a lesão patrimonial.
+- Núcleo do tipo: fixação da pena de multa.
+- Objeto material: a quantia fixada em dias-multa.
+- Elementos normativos: o valor do dia-multa é fixado pelo juiz, entre um trigésimo do maior salário mínimo e cinco vezes esse valor.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma não incrimina conduta, mas estabelece parâmetros para a fixação da pena de multa. O elemento subjetivo é a intenção do legislador em estabelecer critérios para a aplicação da pena.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não se aplica, pois a norma não incrimina conduta, mas estabelece parâmetros para a aplicação da pena de multa.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena de multa é calculada em dias-multa, com valor mínimo de 10 dias e máximo de 360 dias. O valor do dia-multa é fixado pelo juiz.
 
 ---
 
@@ -72,15 +73,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 171: A multa não pode ser superior ao valor da vantagem auferida pelo réu. 
+STF — Tese: A pena de multa deve ser fixada de acordo com a capacidade econômica do condenado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a fixação da pena de multa de acordo com a capacidade econômica do réu.
+- **Defesa:** pode arguir a inconstitucionalidade da pena de multa se não for fixada de acordo com a capacidade econômica do réu.
+- **Prática/Tribunais:** a competência para fixar a pena de multa é do juiz da condenação.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

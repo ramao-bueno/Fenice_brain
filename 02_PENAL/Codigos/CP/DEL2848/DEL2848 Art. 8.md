@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade individual e a justiça, garantindo que o indivíduo não seja punido excessivamente por um mesmo crime. O fundamento constitucional é o princípio da não cumulação de penas (CF, art. 5º, XLV). Este artigo é uma norma permissiva, que visa evitar a dupla punição pelo mesmo fato.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado brasileiro, por meio do Poder Judiciário.
+- Sujeito passivo: o indivíduo condenado no estrangeiro e no Brasil pelo mesmo crime.
+- Núcleo do tipo: a pena cumprida no estrangeiro é atenuada ou computada na pena imposta no Brasil.
+- Objeto material: a pena cumprida no estrangeiro e a pena imposta no Brasil.
+- Elementos normativos: a identidade ou diversidade das penas.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois este artigo é uma norma permissiva que visa regular a aplicação de penas, não uma norma incriminadora.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois este artigo não define um crime, mas sim uma regra para a aplicação de penas.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não comina pena, pois é uma norma permissiva que regula a aplicação de penas.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 234: A pena cumprida no estrangeiro atenua a pena imposta no Brasil pelo mesmo crime. STF — Tese: A aplicação da pena no Brasil deve considerar a pena cumprida no estrangeiro.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve considerar a pena cumprida no estrangeiro ao oferecer a denúncia.
+- **Defesa:** pode alegar a atenuação ou computação da pena cumprida no estrangeiro.
+- **Prática/Tribunais:** a competência é do juízo da condenação no Brasil, que deve considerar a pena cumprida no estrangeiro.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo art. 15 do Código Penal é a liberdade e a segurança individual, garantidas pela Constituição Federal de 1988, em seu art. 5º, caput. Este artigo não incrimina condutas, mas estabelece uma causa de exclusão de responsabilidade penal para aqueles que desistem de prosseguir na execução de um crime ou impedem que o resultado se produza.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa que tenha iniciado a execução de um crime.
+- Sujeito passivo: o Estado e, indiretamente, a vítima do crime.
+- Núcleo do tipo: desistir ou impedir.
+- Objeto material: a conduta criminosa.
+- Elementos normativos: a desistência ou impedimento deve ser voluntário.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A conduta prevista no art. 15 do Código Penal exige dolo, pois o agente deve ter a intenção de desistir ou impedir a produção do resultado. Não se admite modalidade culposa.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa é cabível, conforme art. 14 do Código Penal. O crime pode ser classificado como instantâneo ou permanente, dependendo do tipo de crime que o agente desistiu de cometer.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O art. 15 não comina pena, pois é uma causa de exclusão de responsabilidade penal. O agente só responde pelos atos já praticados.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 439: a tentativa é cabível na desistência voluntária. STF — Tese: a desistência voluntária exclui a responsabilidade penal pelo crime tentado.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve provar a existência de um crime tentado e a desistência voluntária do agente.
+- **Defesa:** pode alegar a desistência voluntária como causa de exclusão de responsabilidade penal.
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento é o mesmo do crime tentado.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

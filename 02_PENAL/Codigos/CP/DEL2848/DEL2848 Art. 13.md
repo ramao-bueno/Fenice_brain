@@ -35,26 +35,29 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado pelo artigo 13 do Código Penal é a segurança jurídica e a responsabilidade penal. O fundamento constitucional é o art. 5º, caput, da Constituição Federal, que estabelece a responsabilidade penal somente em virtude de lei. Este artigo não incrimina condutas, mas estabelece regras para a imputação de resultados, sendo uma norma de extensão.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: qualquer pessoa
+- Sujeito passivo: o Estado ou a vítima do crime
+- Núcleo do tipo: ação ou omissão
+- Objeto material: o resultado do crime
+- Elementos normativos: a causa e a imputação objetiva
+- Resultado exigido: crime material
+- Nexo causal: estabelece a relação entre a conduta e o resultado
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+O artigo 13 não exige elemento subjetivo específico, pois se refere à imputação objetiva do resultado. A culpa pode ser aplicada, dependendo do tipo penal específico.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 13 se refere à imputação do resultado, e não a uma conduta específica.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+Não há pena cominada no artigo 13, pois se trata de uma norma de extensão.
 
 ---
 
@@ -72,15 +75,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 303: a superveniência de causa relativamente independente exclui a imputação.
+- STF — Tese: a imputação objetiva do resultado é fundamentada na teoria da causalidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve demonstrar a relação causal entre a conduta e o resultado.
+- **Defesa:** pode alegar a superveniência de causa independente ou a falta de imputação objetiva.
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento é o comum.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

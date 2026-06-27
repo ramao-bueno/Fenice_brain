@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é a liberdade individual, garantida pela Constituição Federal de 1988, art. 5º, inciso XV. O artigo 33 do Código Penal disciplina a execução das penas privativas de liberdade, estabelecendo os regimes de cumprimento.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o Estado, por meio do Poder Judiciário e do sistema penitenciário.
+- Sujeito passivo: o condenado.
+- Núcleo do tipo: execução da pena.
+- Objeto material: a pena privativa de liberdade.
+- Elementos normativos: regime fechado, semi-aberto ou aberto.
+Este artigo não é norma incriminadora, mas sim norma que disciplina a execução das penas.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo 33 não tipifica crime, mas estabelece regras para a execução das penas.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo 33 não tipifica crime.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+O artigo 33 estabelece os regimes de cumprimento das penas privativas de liberdade: fechado, semi-aberto ou aberto. A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto, enquanto a de detenção, em regime semi-aberto ou aberto.
 
 ---
 
@@ -80,9 +82,10 @@ A tentativa é punível conforme art. 14 do CP?]
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a execução da pena em regime adequado, com base na natureza da pena e na conduta do condenado.
+- **Defesa:** pode requerer a progressão de regime, com base na conduta do condenado e no cumprimento dos requisitos legais.
+- **Prática/Tribunais:** a competência para decidir sobre a execução da pena é do Juízo da Vara de Execuções Penais.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

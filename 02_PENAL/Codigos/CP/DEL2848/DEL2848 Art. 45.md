@@ -35,26 +35,27 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado é o patrimônio, especificamente a reparação de danos causados pela prática de crimes. O artigo 45 do Código Penal trata da substituição de pena privativa de liberdade por prestação pecuniária, visando compensar a vítima ou seus dependentes. O fundamento constitucional é o art. 5º, inciso V, da Constituição Federal, que assegura o direito à reparação de danos morais e materiais.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: a vítima, seus dependentes ou entidade pública ou privada
+- Núcleo do tipo: fixar prestação pecuniária
+- Objeto material: o valor pago
+- Elementos normativos: importância fixada pelo juiz, não inferior a 1 salário mínimo nem superior a 360 salários mínimos
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+Não se aplica, pois o artigo 45 é norma permissiva, que disciplina a substituição de pena privativa de liberdade por prestação pecuniária.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+Não se aplica, pois o artigo 45 não é norma incriminadora.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A pena é a prestação pecuniária, que consiste no pagamento em dinheiro à vítima, a seus dependentes ou a entidade pública ou privada.
 
 ---
 
@@ -72,15 +73,16 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+STJ — Súmula 498: A prestação pecuniária não pode ser superior a 360 salários mínimos. STF — Tese: A substituição de pena privativa de liberdade por prestação pecuniária é cabível em crimes dolosos e culposos.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a substituição de pena privativa de liberdade por prestação pecuniária, comprovando o dano causado à vítima.
+- **Defesa:** pode arguir a inconstitucionalidade da prestação pecuniária, ou requerer a redução do valor fixado.
+- **Prática/Tribunais:** a competência é do juízo criminal, que deve observar os requisitos legais para a substituição de pena.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

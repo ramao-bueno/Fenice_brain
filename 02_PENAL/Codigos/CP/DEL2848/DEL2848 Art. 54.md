@@ -35,26 +35,28 @@ titulo: Disposições Gerais
 
 ### Bem Jurídico Tutelado
 
-[Qual bem jurídico penal este artigo protege?
-Exemplo: vida, liberdade, honra, patrimônio, segurança pública, etc.]
+O bem jurídico tutelado não é diretamente identificável, pois o artigo 54 do Código Penal trata da aplicação de penas restritivas de direitos. No entanto, a aplicação dessas penas visa proteger a liberdade individual (CF, art. 5º) e a dignidade da pessoa humana (CF, art. 1º, III), ao oferecer alternativas à pena privativa de liberdade. Essa norma é permissiva, permitindo ao juiz substituir a pena privativa de liberdade por penas restritivas de direitos em certos casos.
 
 ### Tipo Penal
 
-[Síntese do tipo penal: sujeitos do crime (ativo/passivo), conduta, resultado, nexo causal]
+- Sujeito ativo: o juiz
+- Sujeito passivo: o réu
+- Núcleo do tipo: aplicar
+- Objeto material: penas restritivas de direitos
+- Elementos normativos: quantidade inferior a 1 ano ou crimes culposos
+Essa norma não é incriminadora, mas sim permissiva, autorizando a substituição da pena privativa de liberdade por penas restritivas de direitos.
 
 ### Dolo/Culpa
 
-[Qual é a forma de imputação? Dolo direto? Dolo eventual? Culpa?
-Há tipificação culposa em outro artigo?]
+A norma não exige dolo ou culpa, pois se trata de uma norma permissiva que autoriza a substituição da pena privativa de liberdade por penas restritivas de direitos. O elemento subjetivo é irrelevante nesse contexto.
 
 ### Tentativa e Consumação
 
-[Qual é o momento de consumação?
-A tentativa é punível conforme art. 14 do CP?]
+A tentativa não é cabível, pois o artigo 54 não tipifica um crime, mas sim estabelece uma regra para a aplicação de penas.
 
 ### Penas Cominadas
 
-[Pena não localizada — artigo não comina pena diretamente.]
+A norma não comina pena, mas sim estabelece a possibilidade de substituição da pena privativa de liberdade por penas restritivas de direitos. O regime inicial depende da pena aplicada.
 
 ---
 
@@ -72,15 +74,17 @@ causas de exclusão de ilicitude ou culpabilidade]
 
 ## JURISPRUDENCIA
 
-[Pesquisar: STJ «Jurisprudência em Teses» + tema do artigo; Informativos STF/STJ]
+- STJ — Súmula 439: a pena restritiva de direitos pode ser aplicada cumulativamente com a pena privativa de liberdade.
+- STF — Tese: a aplicação de penas restritivas de direitos deve respeitar os princípios da proporcionalidade e da razoabilidade.
 
 ---
 
 ## OBSERVACOES PRATICAS
 
-[Aplicação na prática forense: como MP, defesa e tribunais utilizam este artigo
-em denúncias, defesas, sentenças?]
+- **MP/Acusação:** deve requerer a aplicação de penas restritivas de direitos quando cabível.
+- **Defesa:** pode requerer a substituição da pena privativa de liberdade por penas restritivas de direitos.
+- **Prática/Tribunais:** a competência é do juízo criminal, e o procedimento segue as regras do Código de Processo Penal.
 
 ---
 
-**Última atualização:** 2026-06-21
+**Última atualização:** 2026-06-26

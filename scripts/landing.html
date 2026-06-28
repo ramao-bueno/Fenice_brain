@@ -2365,7 +2365,7 @@
     }
   }
   hintEl.addEventListener('click', () => {
-    if (smartParsed && window._fenicArtOpen) { closeOverlay(); window._fenicArtOpen(smartParsed.codigoKey, smartParsed.num); }
+    if (smartParsed && window._fenicArtOpen) { const sp = smartParsed; closeOverlay(); window._fenicArtOpen(sp.codigoKey, sp.num); }
   });
 
   /* ── filter ── */
@@ -2454,8 +2454,9 @@
       // Smart routing tem prioridade sobre seleção de resultado
       if (smartParsed && window._fenicArtOpen) {
         e.preventDefault();
+        const sp = smartParsed;
         closeOverlay();
-        window._fenicArtOpen(smartParsed.codigoKey, smartParsed.num);
+        window._fenicArtOpen(sp.codigoKey, sp.num);
         return;
       }
       if (focus >= 0) openDetail(visResults[focus]);

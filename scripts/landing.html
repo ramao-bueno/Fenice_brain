@@ -2717,12 +2717,12 @@
   /* ─── data ─── */
   const DOMINIOS = [
     { label: 'Constituição',  key: 'apex',          icon: '🏛️', color: '#c9a227', codigos: ['CF/88'] },
-    { label: 'Privado',       key: 'privado',       icon: '📘', color: '#3b82f6', codigos: ['CC','LINDB','L13655','D9830','CPC','CDC','L9307'] },
+    { label: 'Privado',       key: 'privado',       icon: '📘', color: '#3b82f6', codigos: ['CC','LINDB','L13655','D9830','CPC','CDC','CLT','L9307'] },
     { label: 'Penal',         key: 'penal',         icon: '🔒', color: '#ef4444', codigos: ['CP','CPP','L11340','L8072','L12850','L11343','L7492','L8137','L9605','L9613','L14132','L14155','L14811','L13869','L13964','L7210','L7960','L9099'] },
     { label: 'Público',       key: 'publico',       icon: '🏢', color: '#10b981', codigos: ['L8429','L14230','L14133','L8666','L12016','L8112','L9784','L9868','L9882','L4717','L9507','L12527'] },
     { label: 'Especial',      key: 'especial',      icon: '🛡️', color: '#8b5cf6', codigos: ['MCI','LGPD','L13146','L10741','L8069','L9394','L8212','L8213','L9610'] },
     { label: 'Internacional', key: 'internacional', icon: '🌐', color: '#0ea5e9', codigos: ['D592','D6949','D7030','L13445'] },
-    { label: 'Súmulas',       key: 'juris',         icon: '📋', color: '#f97316', codigos: ['SV','S-STF'] },
+    { label: 'Súmulas',       key: 'juris',         icon: '📋', color: '#f97316', codigos: ['SV','S-STF','S-STJ'] },
   ];
 
   const CODIGOS = {
@@ -2730,10 +2730,11 @@
     'CC':     { abbr:'CC',      nome:'Código Civil',                      dbKey:'Lei Federal 10406/2002'                       },
     'LINDB':  { abbr:'LINDB',   nome:'Lei de Introdução às Normas',       dbKey:'Lei Federal 4657/1942'                        },
     'L13655': { abbr:'L13655',  nome:'Segurança Jurídica (LINDB nova)',   dbKey:'Lei Federal 13655/2018'                       },
-    'D9830':  { abbr:'D9830',   nome:'Decreto LINDB 9830/2019',           dbKey:null                                           },
+    'D9830':  { abbr:'D9830',   nome:'Decreto LINDB 9830/2019',           dbKey:'Decreto 9830/2019'                            },
     'CPC':    { abbr:'CPC',     nome:'Código de Processo Civil',          dbKey:'Lei Federal 13105/2015'                       },
     'CDC':    { abbr:'CDC',     nome:'Código do Consumidor',              dbKey:'Lei Federal 8078/1990'                        },
     'L9307':  { abbr:'L9307',   nome:'Lei de Arbitragem',                 dbKey:'Lei Federal 9307/1996'                        },
+    'CLT':    { abbr:'CLT',    nome:'Consolidação das Leis do Trabalho', dbKey:'Decreto-Lei 5452/1943'                        },
     'CP':     { abbr:'CP',      nome:'Código Penal',                      dbKey:'Decreto-Lei 2848/1940'                        },
     'CPP':    { abbr:'CPP',     nome:'Código de Proc. Penal',             dbKey:'Decreto-Lei 3689/1941'                        },
     'L11340': { abbr:'L11340',  nome:'Lei Maria da Penha',                dbKey:'Lei Federal 11340/2006'                       },
@@ -2777,8 +2778,9 @@
     'D6949':  { abbr:'D6949',   nome:'Conv. Direitos da Pessoa c/ Def.',  dbKey:'Decreto 6949/2009'                            },
     'D7030':  { abbr:'D7030',   nome:'Convenção de Viena',               dbKey:'Decreto 7030/2009'                            },
     'L13445': { abbr:'L13445',  nome:'Lei de Migração',                   dbKey:'Lei Federal 13445/2017'                       },
-    'SV':     { abbr:'SV',      nome:'Súmulas Vinculantes STF',           dbKey:null, searchTipo:'stf'                         },
-    'S-STF':  { abbr:'S-STF',   nome:'Súmulas Comuns STF',                dbKey:null, searchTipo:'stf'                         },
+    'SV':     { abbr:'SV',      nome:'Súmulas Vinculantes STF',           dbKey:'Súmula STF',  searchTipo:'stf'           },
+    'S-STF':  { abbr:'S-STF',   nome:'Súmulas Comuns STF',                dbKey:'Súmula STF',  searchTipo:'stf'           },
+    'S-STJ':  { abbr:'S-STJ',   nome:'Súmulas STJ',                       dbKey:'Súmula STJ',  searchTipo:'stj'           },
   };
 
   /* ─── state ─── */

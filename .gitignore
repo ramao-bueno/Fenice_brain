@@ -83,3 +83,4 @@ Sem título*
 # Notas de data soltas na raiz (criadas acidentalmente pelo Obsidian)
 [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].md
 .vercel
+.env*

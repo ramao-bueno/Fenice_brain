@@ -903,10 +903,106 @@ async def analisar_semantico(
 # POST /leads  — captura de leads do site
 # ---------------------------------------------------------------------------
 
+def _smtp_enviar(smtp_user: str, smtp_pass: str, para: str, assunto: str, corpo: str) -> None:
+    """Envia e-mail via Office365 SMTP (bloqueante — rodar em executor)."""
+    import smtplib, ssl
+    from email.mime.text import MIMEText
+    from email.mime.multipart import MIMEMultipart
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = assunto
+    msg["From"]    = smtp_user
+    msg["To"]      = para
+    msg.attach(MIMEText(corpo, "plain", "utf-8"))
+
+    ctx = ssl.create_default_context()
+    with smtplib.SMTP("smtp.office365.com", 587, timeout=15) as s:
+        s.ehlo()
+        s.starttls(context=ctx)
+        s.login(smtp_user, smtp_pass)
+        s.sendmail(smtp_user, [para], msg.as_string())
+
+
+async def _notificar_lead(nome: str, email: str, empresa: str, interesse: str) -> None:
+    """
+    Dispara em paralelo após salvar o lead:
+      1. E-mail ao admin (Outlook corporativo)
+      2. E-mail de confirmação ao prospect
+      3. WhatsApp ao admin via AvisaAPI
+    Todas as falhas são silenciosas — não travam a resposta ao usuário.
+    """
+    import asyncio
+
+    smtp_user  = os.environ.get("SMTP_USER", "")
+    smtp_pass  = os.environ.get("SMTP_PASS", "")
+    admin_email = os.environ.get("ADMIN_EMAIL", smtp_user)
+    avisa_tkn  = os.environ.get("AVISA_API_TOKEN", "")
+    admin_num  = os.environ.get("ADMIN_WHATSAPP", "5547991041414")
+
+    empresa_str = f" · {empresa}" if empresa else ""
+
+    # --- e-mail ao admin ---
+    if smtp_user and smtp_pass and admin_email:
+        corpo_admin = (
+            f"Novo lead via fenice.ia.br\n\n"
+            f"Nome:      {nome}\n"
+            f"E-mail:    {email}\n"
+            f"Empresa:   {empresa or '—'}\n"
+            f"Interesse: {interesse}\n\n"
+            f"Acesse: https://fenice.ia.br/admin\n"
+            f"—\nFenice IT Justech.IA"
+        )
+        loop = asyncio.get_event_loop()
+        try:
+            await loop.run_in_executor(
+                None, _smtp_enviar,
+                smtp_user, smtp_pass, admin_email,
+                f"[Lead Fenice] {nome}{empresa_str}", corpo_admin,
+            )
+        except Exception as exc:
+            print(f"[leads] e-mail admin falhou: {exc}")
+
+        # --- e-mail de confirmação ao prospect ---
+        corpo_prospect = (
+            f"Olá, {nome.split()[0]}!\n\n"
+            f"Recebemos sua mensagem e nossa equipe retorna em até 24h "
+            f"com uma demonstração personalizada.\n\n"
+            f"Interesse registrado: {interesse}\n\n"
+            f"Qualquer dúvida: contato@fenice.ia.br\n\n"
+            f"Atenciosamente,\n"
+            f"Equipe Fenice IT Justech.IA\n"
+            f"https://fenice.ia.br"
+        )
+        try:
+            await loop.run_in_executor(
+                None, _smtp_enviar,
+                smtp_user, smtp_pass, email,
+                "Fenice IA — Recebemos seu contato!", corpo_prospect,
+            )
+        except Exception as exc:
+            print(f"[leads] e-mail prospect falhou: {exc}")
+
+    # --- WhatsApp ao admin via AvisaAPI ---
+    if avisa_tkn:
+        msg_wapp = (
+            f"🔔 *Novo lead — fenice.ia.br*\n\n"
+            f"👤 {nome}{empresa_str}\n"
+            f"📧 {email}\n"
+            f"💬 {interesse}"
+        )
+        try:
+            async with httpx.AsyncClient(timeout=10) as client:
+                await _enviar_avisa(client, avisa_tkn, admin_num, msg_wapp)
+        except Exception as exc:
+            print(f"[leads] WhatsApp admin falhou: {exc}")
+
+
 @app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")
 async def capturar_lead(body: LeadRequest) -> dict:
     """
     Salva contato de visitante em `fenice_tim_contatos` para follow-up comercial.
+    Notifica admin por e-mail (Outlook) e WhatsApp (AvisaAPI).
+    Envia confirmação por e-mail ao prospect.
     Não requer autenticação.
     """
     import re as _re_lead
@@ -918,35 +1014,39 @@ async def capturar_lead(body: LeadRequest) -> dict:
     if not sb_url or not sb_key:
         raise HTTPException(status_code=503, detail="Banco de dados não configurado.")
 
-    import requests as _req
     hdrs = {
         "apikey": sb_key,
         "Authorization": f"Bearer {sb_key}",
         "Content-Type": "application/json",
         "Prefer": "return=minimal",
     }
-    dados: dict = {}
+    dados: dict = {"email": body.email}
     if body.empresa:
         dados["empresa"] = body.empresa
-    dados["email"] = body.email
 
     payload = {
-        "numero": f"email:{body.email}",
-        "nome":   body.nome,
-        "area":   body.interesse,
+        "numero":  f"email:{body.email}",
+        "nome":    body.nome,
+        "area":    body.interesse,
         "estagio": "lead_site",
-        "dados":  dados,
+        "dados":   dados,
     }
 
-    r = _req.post(
-        f"{sb_url}/rest/v1/fenice_tim_contatos",
-        headers={**hdrs, "Prefer": "return=minimal,resolution=merge-duplicates"},
-        params={"on_conflict": "numero"},
-        json=payload,
-        timeout=10,
-    )
+    async with httpx.AsyncClient(timeout=10) as client:
+        r = await client.post(
+            f"{sb_url}/rest/v1/fenice_tim_contatos",
+            headers={**hdrs, "Prefer": "return=minimal,resolution=merge-duplicates"},
+            params={"on_conflict": "numero"},
+            json=payload,
+        )
     if r.status_code not in (200, 201):
         raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
+
+    # Notificações em background — não bloqueiam a resposta ao usuário
+    import asyncio
+    asyncio.create_task(_notificar_lead(
+        body.nome, body.email, body.empresa or "", body.interesse
+    ))
 
     return {"ok": True, "mensagem": "Recebemos seu contato! Retornaremos em até 24h."}
 

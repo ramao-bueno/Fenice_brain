@@ -967,6 +967,7 @@ async def _notificar_lead(lead: "LeadRequest") -> None:
 async def capturar_lead(body: LeadRequest, background_tasks: BackgroundTasks) -> dict:
     import re as _re_lead
     import traceback
+    import httpx
 
     try:
         if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):

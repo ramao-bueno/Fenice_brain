@@ -136,10 +136,16 @@ class TccRequest(BaseModel):
 
 
 class LeadRequest(BaseModel):
-    nome:      str = Field(..., min_length=2, max_length=120, description="Nome completo")
-    email:     str = Field(..., description="E-mail profissional")
-    empresa:   Optional[str] = Field(None, max_length=120, description="Escritório ou empresa")
-    interesse: str = Field(..., min_length=3, max_length=200, description="O que deseja resolver")
+    nome:             str           = Field(..., min_length=2, max_length=120, description="Nome completo")
+    telefone:         str           = Field(..., description="Formato: 55XXXXXXXXXXX")
+    email:            str           = Field(..., description="E-mail profissional")
+    empresa:          Optional[str] = Field(None, max_length=120, description="Escritório ou empresa")
+    interesse:        str           = Field(..., min_length=2, max_length=50,
+                                           description="Área IVR: b2b|juridico|academico|observatorio|api|filosofia|outros")
+    interesse_label:  str           = Field(..., min_length=2, max_length=100,
+                                           description="Rótulo legível: 'B2B Corporativo', etc.")
+    descricao_outros: Optional[str] = Field(None, max_length=80,
+                                           description="Palavras-chave se interesse=outros")
 
 
 class ResultadoBusca(BaseModel):
@@ -931,136 +937,83 @@ def _smtp_enviar(smtp_user: str, smtp_pass: str, para: str, assunto: str, corpo:
         s.sendmail(smtp_user, [para], msg.as_string())
 
 
-async def _notificar_lead(nome: str, email: str, empresa: str, interesse: str) -> None:
-    """
-    Dispara em paralelo após salvar o lead:
-      1. E-mail ao admin (Outlook corporativo)
-      2. E-mail de confirmação ao prospect
-      3. WhatsApp ao admin via AvisaAPI
-    Todas as falhas são silenciosas — não travam a resposta ao usuário.
-    """
-    import asyncio
-
-    smtp_user  = os.environ.get("SMTP_USER", "")
-    smtp_pass  = os.environ.get("SMTP_PASS", "")
-    admin_email = os.environ.get("ADMIN_EMAIL", smtp_user)
-    avisa_tkn  = os.environ.get("AVISA_API_TOKEN", "")
-    admin_num  = os.environ.get("ADMIN_WHATSAPP", "5547991041414")
-
-    empresa_str = f" · {empresa}" if empresa else ""
-
-    # --- e-mail ao admin ---
-    if smtp_user and smtp_pass and admin_email:
-        corpo_admin = (
-            f"Novo lead via fenice.ia.br\n\n"
-            f"Nome:      {nome}\n"
-            f"E-mail:    {email}\n"
-            f"Empresa:   {empresa or '—'}\n"
-            f"Interesse: {interesse}\n\n"
-            f"Acesse: https://fenice.ia.br/admin\n"
-            f"—\nFenice IT Justech.IA"
-        )
-        loop = asyncio.get_event_loop()
-        try:
-            await loop.run_in_executor(
-                None, _smtp_enviar,
-                smtp_user, smtp_pass, admin_email,
-                f"[Lead Fenice] {nome}{empresa_str}", corpo_admin,
-            )
-        except Exception as exc:
-            print(f"[leads] e-mail admin falhou: {exc}")
-
-        # --- e-mail de confirmação ao prospect ---
-        corpo_prospect = (
-            f"Olá, {nome.split()[0]}!\n\n"
-            f"Recebemos sua mensagem e nossa equipe retorna em até 24h "
-            f"com uma demonstração personalizada.\n\n"
-            f"Interesse registrado: {interesse}\n\n"
-            f"Qualquer dúvida: contato@fenice.ia.br\n\n"
-            f"Atenciosamente,\n"
-            f"Equipe Fenice IT Justech.IA\n"
-            f"https://fenice.ia.br"
-        )
-        try:
-            await loop.run_in_executor(
-                None, _smtp_enviar,
-                smtp_user, smtp_pass, email,
-                "Fenice IA — Recebemos seu contato!", corpo_prospect,
-            )
-        except Exception as exc:
-            print(f"[leads] e-mail prospect falhou: {exc}")
-
-    # --- Notificação via N8N → Evolution (WhatsApp admin) ---
-    n8n_url = os.environ.get("N8N_WEBHOOK_URL", "")
-    if n8n_url:
-        payload_n8n = {
-            "evento":    "novo_lead",
-            "nome":      nome,
-            "email":     email,
-            "empresa":   empresa,
-            "interesse": interesse,
-            "origem":    "fenice.ia.br/contato",
-            "numero":    admin_num,
-        }
-        try:
-            async with httpx.AsyncClient(timeout=10) as client:
-                await client.post(n8n_url, json=payload_n8n)
-        except Exception as exc:
-            print(f"[leads] N8N webhook falhou: {exc}")
+async def _notificar_lead(lead: "LeadRequest") -> None:
+    """Dispara N8N fenice-leads webhook em background. Falha silenciosa."""
+    from datetime import datetime
+    n8n_url = os.environ.get("N8N_WEBHOOK_LEADS", "")
+    if not n8n_url:
+        print("[leads] N8N_WEBHOOK_LEADS nao configurado — pulando notificacao")
+        return
+    payload = {
+        "evento":           "novo_lead",
+        "nome":             lead.nome,
+        "telefone":         lead.telefone,
+        "email":            lead.email,
+        "empresa":          lead.empresa or "",
+        "interesse":        lead.interesse,
+        "interesse_label":  lead.interesse_label,
+        "descricao_outros": lead.descricao_outros or "",
+        "origem":           "fenice.ia.br/contato",
+        "timestamp":        datetime.utcnow().isoformat() + "Z",
+    }
+    try:
+        async with httpx.AsyncClient(timeout=10) as client:
+            await client.post(n8n_url, json=payload)
+    except Exception as exc:
+        print(f"[leads] N8N webhook falhou: {exc}")
 
 
 @app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")
 async def capturar_lead(body: LeadRequest) -> dict:
-    """
-    Salva contato de visitante em `fenice_tim_contatos` para follow-up comercial.
-    Notifica admin por e-mail (Outlook) e WhatsApp (AvisaAPI).
-    Envia confirmação por e-mail ao prospect.
-    Não requer autenticação.
-    """
     import re as _re_lead
+    import asyncio
+
     if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):
-        raise HTTPException(status_code=422, detail="E-mail inválido.")
+        raise HTTPException(status_code=422, detail="E-mail invalido.")
+
+    tel = _re_lead.sub(r"[^0-9]", "", body.telefone)
+    if len(tel) == 11:
+        tel = "55" + tel
+    if not _re_lead.match(r"^55\d{10,11}$", tel):
+        raise HTTPException(status_code=422, detail="Telefone invalido. Use formato (XX) XXXXX-XXXX.")
+    body = body.model_copy(update={"telefone": tel})
 
     sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
     sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
     if not sb_url or not sb_key:
-        raise HTTPException(status_code=503, detail="Banco de dados não configurado.")
+        raise HTTPException(status_code=503, detail="Banco de dados nao configurado.")
 
     hdrs = {
         "apikey": sb_key,
         "Authorization": f"Bearer {sb_key}",
         "Content-Type": "application/json",
-        "Prefer": "return=minimal",
+        "Prefer": "return=minimal,resolution=merge-duplicates",
     }
-    dados: dict = {"email": body.email}
-    if body.empresa:
-        dados["empresa"] = body.empresa
-
     payload = {
-        "numero":  f"email:{body.email}",
+        "numero":  tel,
         "nome":    body.nome,
         "area":    body.interesse,
         "estagio": "lead_site",
-        "dados":   dados,
+        "dados":   {
+            "email":            body.email,
+            "empresa":          body.empresa,
+            "interesse_label":  body.interesse_label,
+            "descricao_outros": body.descricao_outros,
+        },
     }
 
     async with httpx.AsyncClient(timeout=10) as client:
         r = await client.post(
             f"{sb_url}/rest/v1/fenice_tim_contatos",
-            headers={**hdrs, "Prefer": "return=minimal,resolution=merge-duplicates"},
+            headers=hdrs,
             params={"on_conflict": "numero"},
             json=payload,
         )
     if r.status_code not in (200, 201):
         raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
 
-    # Notificações em background — não bloqueiam a resposta ao usuário
-    import asyncio
-    asyncio.create_task(_notificar_lead(
-        body.nome, body.email, body.empresa or "", body.interesse
-    ))
-
-    return {"ok": True, "mensagem": "Recebemos seu contato! Retornaremos em até 24h."}
+    asyncio.create_task(_notificar_lead(body))
+    return {"ok": True, "mensagem": "Recebemos seu contato! Em instantes voce recebera uma mensagem no WhatsApp."}
 
 
 # ---------------------------------------------------------------------------

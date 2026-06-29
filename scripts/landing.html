@@ -285,6 +285,19 @@
       box-shadow: 0 0 0 3px rgba(201,162,39,0.12);
     }
     .lead-input::placeholder { color: var(--dim); }
+    .assunto-opt {
+      background: rgba(201,162,39,0.08);
+      border: 1px solid rgba(201,162,39,0.2);
+      border-radius: 0.5rem;
+      color: rgba(255,255,255,0.85);
+      padding: 0.75rem 1rem;
+      text-align: left;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    .assunto-opt:hover { background: rgba(201,162,39,0.18); }
+    .assunto-opt.selected { background: rgba(201,162,39,0.25); border-color: #C9A227; color: #C9A227; }
     .btn-secondary {
       display: inline-flex; align-items: center; gap: 0.5rem;
       background: transparent; color: var(--text); font-weight: 600; font-size: 1rem;
@@ -1868,18 +1881,30 @@
   <p class="section-label reveal">Contato</p>
   <h2 class="section-title reveal">Quer usar a Fenice IA no seu escritório?</h2>
   <p class="section-desc reveal" style="margin-bottom:2.5rem;">
-    Preencha o formulário — nossa equipe retorna em até 24h com uma demonstração personalizada.
+    Preencha o formulário — em instantes voce recebe uma mensagem no WhatsApp com uma dica exclusiva do Teo, nosso assistente inteligente.
   </p>
   <form id="leads-form" novalidate>
     <div style="display:flex;flex-direction:column;gap:0.85rem;">
       <input id="lead-nome" type="text" placeholder="Seu nome completo *" required maxlength="120"
              class="lead-input">
+      <input id="lead-telefone" type="tel" placeholder="WhatsApp: (XX) XXXXX-XXXX *" required
+             class="lead-input" maxlength="16" autocomplete="tel">
       <input id="lead-email" type="email" placeholder="E-mail profissional *" required
              class="lead-input">
       <input id="lead-empresa" type="text" placeholder="Escritório ou empresa (opcional)" maxlength="120"
              class="lead-input">
-      <input id="lead-interesse" type="text" placeholder="O que você quer resolver? *" required maxlength="200"
-             class="lead-input">
+      <!-- Seletor de assunto via modal -->
+      <button type="button" id="lead-assunto-btn" class="lead-input" aria-haspopup="dialog"
+              style="text-align:left;cursor:pointer;color:rgba(255,255,255,0.45);background:transparent;border:1px solid rgba(255,255,255,0.15);">
+        Assunto *
+      </button>
+      <input type="hidden" id="lead-interesse" required>
+      <input type="hidden" id="lead-interesse-label">
+      <div id="lead-outros-wrap" style="display:none;">
+        <input id="lead-outros" type="text" maxlength="80"
+               placeholder="Descreva em palavras-chave (ex: startup, projeto social) *"
+               class="lead-input">
+      </div>
       <button type="submit" class="btn-primary" id="lead-btn"
               style="margin-top:0.4rem;width:100%;justify-content:center;cursor:pointer;border:none;">
         Enviar mensagem
@@ -1887,6 +1912,29 @@
     </div>
     <p id="lead-msg" style="margin-top:0.9rem;font-size:0.9rem;min-height:1.4rem;text-align:center;"></p>
   </form>
+
+  <!-- Modal de assunto -->
+  <div id="assunto-modal" role="dialog" aria-modal="true" aria-label="Selecione o assunto"
+       style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9000;
+              align-items:center;justify-content:center;">
+    <div style="background:#1a1a2e;border:1px solid rgba(201,162,39,0.3);border-radius:1rem;
+                padding:2rem;max-width:400px;width:90%;max-height:90vh;overflow-y:auto;">
+      <h3 style="color:#C9A227;margin:0 0 1.2rem;font-size:1.1rem;">Qual e o seu interesse?</h3>
+      <div style="display:flex;flex-direction:column;gap:0.6rem;" id="assunto-opcoes">
+        <button class="assunto-opt" data-value="b2b"          data-label="B2B Corporativo">B2B Corporativo</button>
+        <button class="assunto-opt" data-value="juridico"     data-label="Consultoria Juridica">Consultoria Juridica</button>
+        <button class="assunto-opt" data-value="academico"    data-label="Ensino Academico">Ensino Academico</button>
+        <button class="assunto-opt" data-value="observatorio" data-label="Observatorio da Mulher">Observatorio da Mulher</button>
+        <button class="assunto-opt" data-value="api"          data-label="API e Desenvolvedores">API &amp; Desenvolvedores</button>
+        <button class="assunto-opt" data-value="filosofia"    data-label="Filosofia e Teologia">Filosofia &amp; Teologia</button>
+        <button class="assunto-opt" data-value="outros"       data-label="Outros">Outros</button>
+      </div>
+      <button id="assunto-fechar"
+              style="margin-top:1rem;background:none;border:none;color:rgba(255,255,255,0.4);cursor:pointer;font-size:0.85rem;">
+        x Fechar
+      </button>
+    </div>
+  </div>
 </div>
 
 <!-- FOOTER -->
@@ -3003,32 +3051,84 @@
 
 /* ── LEADS FORM ── */
 (function () {
-  const form   = document.getElementById('leads-form');
-  const msgEl  = document.getElementById('lead-msg');
-  const btn    = document.getElementById('lead-btn');
+  const form    = document.getElementById('leads-form');
+  const msgEl   = document.getElementById('lead-msg');
+  const btn     = document.getElementById('lead-btn');
+  const modal   = document.getElementById('assunto-modal');
+  const assBtn  = document.getElementById('lead-assunto-btn');
+  const outWrap = document.getElementById('lead-outros-wrap');
   if (!form) return;
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const nome      = document.getElementById('lead-nome').value.trim();
-    const email     = document.getElementById('lead-email').value.trim();
-    const empresa   = document.getElementById('lead-empresa').value.trim();
-    const interesse = document.getElementById('lead-interesse').value.trim();
+  // Mascara telefone: (XX) XXXXX-XXXX
+  document.getElementById('lead-telefone').addEventListener('input', function () {
+    let v = this.value.replace(/\D/g, '').substring(0, 11);
+    if (v.length > 6) v = '(' + v.substring(0,2) + ') ' + v.substring(2,7) + '-' + v.substring(7);
+    else if (v.length > 2) v = '(' + v.substring(0,2) + ') ' + v.substring(2);
+    else if (v.length > 0) v = '(' + v;
+    this.value = v;
+  });
 
-    if (!nome || !email || !interesse) {
+  // Abrir modal de assunto
+  assBtn.addEventListener('click', function () {
+    modal.style.display = 'flex';
+  });
+
+  // Fechar modal
+  document.getElementById('assunto-fechar').addEventListener('click', function () {
+    modal.style.display = 'none';
+  });
+  modal.addEventListener('click', function (e) {
+    if (e.target === modal) modal.style.display = 'none';
+  });
+
+  // Selecionar opcao
+  document.querySelectorAll('.assunto-opt').forEach(function (opt) {
+    opt.addEventListener('click', function () {
+      document.querySelectorAll('.assunto-opt').forEach(function (o) { o.classList.remove('selected'); });
+      opt.classList.add('selected');
+      const value = opt.dataset.value;
+      const label = opt.dataset.label;
+      document.getElementById('lead-interesse').value = value;
+      document.getElementById('lead-interesse-label').value = label;
+      assBtn.textContent = label;
+      assBtn.style.color = '#C9A227';
+      outWrap.style.display = value === 'outros' ? 'block' : 'none';
+      if (value !== 'outros') document.getElementById('lead-outros').value = '';
+      modal.style.display = 'none';
+    });
+  });
+
+  // Submit
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const nome           = document.getElementById('lead-nome').value.trim();
+    const telRaw         = document.getElementById('lead-telefone').value.trim();
+    const email          = document.getElementById('lead-email').value.trim();
+    const empresa        = document.getElementById('lead-empresa').value.trim();
+    const interesse      = document.getElementById('lead-interesse').value;
+    const interesseLabel = document.getElementById('lead-interesse-label').value;
+    const outros         = document.getElementById('lead-outros') ? document.getElementById('lead-outros').value.trim() : '';
+
+    if (!nome || !telRaw || !email || !interesse) {
       msgEl.style.color = '#f87171';
-      msgEl.textContent = 'Preencha os campos obrigatórios (*).';
+      msgEl.textContent = 'Preencha todos os campos obrigatorios (*).';
+      return;
+    }
+    if (interesse === 'outros' && !outros) {
+      msgEl.style.color = '#f87171';
+      msgEl.textContent = 'Descreva o assunto em palavras-chave.';
       return;
     }
 
     btn.disabled = true;
-    btn.textContent = 'Enviando…';
+    btn.textContent = 'Enviando...';
     msgEl.style.color = '';
     msgEl.textContent = '';
 
     try {
-      const body = { nome, email, interesse };
+      const body = { nome, telefone: telRaw, email, interesse, interesse_label: interesseLabel };
       if (empresa) body.empresa = empresa;
+      if (outros)  body.descricao_outros = outros;
 
       const res  = await fetch('/leads', {
         method: 'POST',
@@ -3037,16 +3137,20 @@
       });
       const data = await res.json();
       if (res.ok && data.ok) {
-        msgEl.style.color = 'var(--free)';
+        msgEl.style.color = '#34d399';
         msgEl.textContent = data.mensagem;
         form.reset();
+        assBtn.textContent = 'Assunto *';
+        assBtn.style.color = 'rgba(255,255,255,0.45)';
+        outWrap.style.display = 'none';
+        document.querySelectorAll('.assunto-opt').forEach(function (o) { o.classList.remove('selected'); });
       } else {
         msgEl.style.color = '#f87171';
         msgEl.textContent = data.detail || 'Erro ao enviar. Tente novamente.';
       }
-    } catch {
+    } catch (err) {
       msgEl.style.color = '#f87171';
-      msgEl.textContent = 'Erro de conexão. Tente novamente.';
+      msgEl.textContent = 'Erro de conexao. Tente novamente.';
     } finally {
       btn.disabled = false;
       btn.textContent = 'Enviar mensagem';

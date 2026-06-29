@@ -5,9 +5,16 @@ Consulta fenice_access_logs no Supabase e exibe resumo no terminal.
 Uso: python scripts/monitor_acessos.py
 """
 import os, sys, io, json, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
+BRASILIA = timezone(timedelta(hours=-3))
+
+def to_brasilia(iso_str):
+    """Converte string ISO UTC para horário de Brasília (UTC-3)."""
+    dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+    return dt.astimezone(BRASILIA).strftime("%Y-%m-%d %H:%M")
 
 def _env(key):
     v = os.getenv(key, "")
@@ -40,18 +47,18 @@ SB_KEY = _env("SUPABASE_SERVICE_KEY")
 
 print("=" * 60)
 print("  FENICE IT — Monitor de Acessos")
-print(f"  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+print(f"  {datetime.now(BRASILIA).strftime('%Y-%m-%d %H:%M — Brasília')}")
 print("=" * 60)
 
 # Últimos 30 acessos
 rows = supabase_get(SB_URL, SB_KEY,
     "select=usuario,sucesso,ip,detalhe,criado_em&order=criado_em.desc&limit=30")
 
-print(f"\n{'USUÁRIO':<12} {'OK':<5} {'IP':<18} {'DATA (UTC)':<22} {'DETALHE'}")
+print(f"\n{'USUÁRIO':<12} {'OK':<5} {'IP':<18} {'DATA (Brasília)':<22} {'DETALHE'}")
 print("-" * 75)
 for r in rows:
     ok   = "✅" if r["sucesso"] else "❌"
-    dt   = r["criado_em"][:16].replace("T", " ")
+    dt   = to_brasilia(r["criado_em"])
     ip   = (r["ip"] or "—")[:17]
     det  = (r["detalhe"] or "")[:30]
     print(f"{r['usuario']:<12} {ok:<5} {ip:<18} {dt:<22} {det}")
@@ -61,7 +68,7 @@ falhas = [r for r in rows if not r["sucesso"]]
 if falhas:
     print(f"\n⚠️  {len(falhas)} falha(s) nos últimos 30 registros:")
     for f in falhas:
-        print(f"   → {f['usuario']} | IP {f['ip']} | {f['criado_em'][:16]}")
+        print(f"   → {f['usuario']} | IP {f['ip']} | {to_brasilia(f['criado_em'])}")
 else:
     print("\n✅ Nenhuma falha de login nos últimos 30 registros.")
 

@@ -1,4 +1,7 @@
 {
+  "settings": {
+    "executionOrder": "v1"
+  },
   "name": "Fenice_Tim — WhatsApp IVR v4 (Evolution API)",
   "nodes": [
     {
@@ -14,11 +17,13 @@
       "position": [
         160,
         400
-      ]
+      ],
+      "id": "e329df4c-ed75-4192-b531-96850c0f501a",
+      "webhookId": "f19c883d-7d5d-4cb4-938c-b2c03d38aafa"
     },
     {
       "parameters": {
-        "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS  = [\"parar\",\"stop\",\"sair\",\"cancelar\"];\n// Reset explícito: SEMPRE vai ao menu, independente de área salva\nconst EXPLICIT_RESETS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\"];\n// Saudações: levam ao menu SOMENTE se cliente não tiver área salva\nconst GREETING_WORDS  = [\"oi\",\"ola\",\"olá\",\"bom dia\",\"boa tarde\",\"boa noite\",\"hello\",\"hi\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nconst isStop    = STOP_WORDS.includes(msgLower);\nconst isReset   = EXPLICIT_RESETS.includes(msgLower);\nconst isGreeting = GREETING_WORDS.some(g => msgLower === g || msgLower.startsWith(g + \" \"));\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop, isReset, isGreeting,\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
+        "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\n// Ignora ruído AvisaAPI (formato jsonData)\nif (body?.jsonData !== undefined) {\n  return [{ json: { _skip: true, motivo: \"avisa-noise\" } }];\n}\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\n// FIX 2026-06-28: adicionado \"🎬 *\" para bloquear eco de notificações de vídeo\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\", \"🎬 *\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS  = [\"parar\",\"stop\",\"sair\",\"cancelar\"];\n// FIX 2026-06-28: removidas saudações (oi, olá, bom dia, boa tarde, boa noite, hello, hi)\n// Motivo: usuários retornantes cumprimentavam o bot e perdiam sua área → recebiam o menu\n// Agora RESET_WORDS só tem navegação explícita — só resetar quando o usuário quer resetar\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop: STOP_WORDS.includes(msgLower), isReset: RESET_WORDS.includes(msgLower),\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
       },
       "name": "2. Extrair e Normalizar",
       "type": "n8n-nodes-base.code",
@@ -26,7 +31,8 @@
       "position": [
         380,
         400
-      ]
+      ],
+      "id": "a1d09160-51e2-4741-b42b-3700dad91cd4"
     },
     {
       "parameters": {
@@ -57,7 +63,8 @@
       "position": [
         600,
         400
-      ]
+      ],
+      "id": "69b4a9f8-a67e-4379-9567-821e9270409e"
     },
     {
       "parameters": {
@@ -88,7 +95,8 @@
       "position": [
         820,
         280
-      ]
+      ],
+      "id": "945d8c14-15fe-44eb-855e-7cca7d30fb00"
     },
     {
       "parameters": {
@@ -131,7 +139,8 @@
       "position": [
         1040,
         160
-      ]
+      ],
+      "id": "687cefdc-367d-4e15-ad65-5765b49de73f"
     },
     {
       "parameters": {
@@ -183,7 +192,8 @@
         1260,
         160
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "id": "657b7eb1-a556-42b4-9b91-a5b28ddf4934"
     },
     {
       "parameters": {
@@ -195,11 +205,12 @@
       "position": [
         820,
         520
-      ]
+      ],
+      "id": "a416c3e6-f054-4ebf-80a5-f9f9a444ebd5"
     },
     {
       "parameters": {
-        "jsCode": "// ── Decide próximo passo com base no perfil do contato ──\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\n\nconst areaAtual = contato ? contato.area : null;\nconst { isReset, isGreeting, opcaoMenu, numero, nome, mensagem } = dadosMsg;\n\n// Reset EXPLÍCITO (menu/voltar/reiniciar) → sempre vai ao menu\nif (isReset) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null } }];\n}\n\n// Opção de menu escolhida (1-6, 0) → SEMPRE prevalece sobre área salva\nif (opcaoMenu) {\n  if (opcaoMenu === 'humano') {\n    return [{ json: { _acao: 'humano', numero, nome, mensagem, areaAtual: 'humano' } }];\n  }\n  return [{ json: { _acao: 'set_area', numero, nome, mensagem, areaAtual: opcaoMenu } }];\n}\n\n// Saudação de cliente que JÁ TEM área → continua na área (não mostra menu)\nif (isGreeting && areaAtual) {\n  return [{ json: { _acao: 'responder', numero, nome, mensagem, areaAtual } }];\n}\n\n// Saudação SEM área → menu (primeiro contato)\nif (isGreeting) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null } }];\n}\n\n// Sem área e sem opção → menu\nif (!areaAtual) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null } }];\n}\n\n// Tem área, sem nova escolha → responde na área atual\nreturn [{ json: { _acao: 'responder', numero, nome, mensagem, areaAtual } }];"
+        "jsCode": "// ── Decide próximo passo com base no perfil + contador de mensagens ──\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\n\nconst areaAtual = contato ? contato.area : null;\nconst estagio   = contato?.estagio || 'novo';\nconst msgCount  = contato?.dados?.msgCount || 0;\nconst { isReset, opcaoMenu, numero, nome, mensagem } = dadosMsg;\n\n// Aguardando cadastro → tentar processar resposta como email\nif (estagio === 'aguardando_cadastro') {\n  return [{ json: { _acao: 'processar_cadastro', numero, nome, mensagem, areaAtual, msgCount, estagio } }];\n}\n\n// Reset explícito → menu (zera contador)\nif (isReset) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null, msgCount: 0, estagio } }];\n}\n\n// Opção de menu → set area (zera contador pois mudou área)\nif (opcaoMenu) {\n  if (opcaoMenu === 'humano') {\n    return [{ json: { _acao: 'humano', numero, nome, mensagem, areaAtual: 'humano', msgCount: 0, estagio } }];\n  }\n  return [{ json: { _acao: 'set_area', numero, nome, mensagem, areaAtual: opcaoMenu, msgCount: 0, estagio } }];\n}\n\n// Sem área → menu\nif (!areaAtual) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null, msgCount: 0, estagio } }];\n}\n\n// Tem área → incrementar contador\nconst newMsgCount = msgCount + 1;\n\n// Após 3 mensagens na área → convidar cadastro (apenas uma vez)\nconst JA_CADASTRADO = ['cadastrado', 'lead_site', 'ignorou_cadastro'];\nif (newMsgCount >= 3 && !JA_CADASTRADO.includes(estagio)) {\n  return [{ json: { _acao: 'cadastro_invite', numero, nome, mensagem, areaAtual, msgCount: newMsgCount, estagio } }];\n}\n\nreturn [{ json: { _acao: 'responder', numero, nome, mensagem, areaAtual, msgCount: newMsgCount, estagio } }];\n"
       },
       "name": "7. Decidir Próxima Ação",
       "type": "n8n-nodes-base.code",
@@ -207,7 +218,8 @@
       "position": [
         1040,
         520
-      ]
+      ],
+      "id": "55db1bf2-0327-4392-a0d5-46d6a3def650"
     },
     {
       "parameters": {
@@ -292,6 +304,46 @@
               },
               "renameOutput": true,
               "outputKey": "responder"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "cadastro_invite",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "cadastro_invite"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "processar_cadastro",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "processar_cadastro"
             }
           ]
         },
@@ -303,7 +355,8 @@
       "position": [
         1260,
         520
-      ]
+      ],
+      "id": "30ab3b41-f49e-4a38-bc37-afb8564f7887"
     },
     {
       "parameters": {
@@ -359,7 +412,8 @@
         1480,
         160
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "id": "acb75b89-bc70-4206-a519-350e1e981680"
     },
     {
       "parameters": {
@@ -402,7 +456,8 @@
       "position": [
         1700,
         160
-      ]
+      ],
+      "id": "b1b35acf-6b92-491a-b924-25f33ac0355c"
     },
     {
       "parameters": {
@@ -445,7 +500,8 @@
       "position": [
         1480,
         480
-      ]
+      ],
+      "id": "2b7f1516-56eb-4461-85cc-6450261ccc21"
     },
     {
       "parameters": {
@@ -457,7 +513,8 @@
       "position": [
         1480,
         660
-      ]
+      ],
+      "id": "c45a4e85-0e9f-400a-8b97-ad5dc58e382a"
     },
     {
       "parameters": {
@@ -469,24 +526,16 @@
       "position": [
         1700,
         660
-      ]
+      ],
+      "id": "d12f13c2-a4e2-457b-8c50-571260d73191"
     },
     {
       "parameters": {
         "method": "POST",
         "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-        "sendHeaders": true,
+        "sendHeaders": false,
         "headerParameters": {
-          "parameters": [
-            {
-              "name": "Authorization",
-              "value": "Bearer {{GEMINI_API_KEY_N8N}}"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
+          "parameters": []
         },
         "sendBody": true,
         "contentType": "raw",
@@ -494,7 +543,9 @@
         "body": "={{ $json.groqBody }}",
         "options": {
           "timeout": 30000
-        }
+        },
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth"
       },
       "name": "11. Groq — Resposta IA",
       "type": "n8n-nodes-base.httpRequest",
@@ -502,7 +553,14 @@
       "position": [
         1920,
         660
-      ]
+      ],
+      "id": "df9618c8-f166-4216-9244-b352c175f80e",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "Beoum2J82bjPtUwG",
+          "name": "Gemini AI Studio"
+        }
+      }
     },
     {
       "parameters": {
@@ -514,7 +572,8 @@
       "position": [
         2140,
         660
-      ]
+      ],
+      "id": "25b5bfdc-a641-4e50-9d55-a17858f542c5"
     },
     {
       "parameters": {
@@ -557,11 +616,12 @@
       "position": [
         2360,
         660
-      ]
+      ],
+      "id": "79211fb3-6ca0-43e9-9f15-20c26df5551b"
     },
     {
       "parameters": {
-        "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente: dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai: dadosMsg.respostaAi,\n  modelo_ai: dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal: 'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome: dadosMsg.nome,\n  area: dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];"
+        "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
       },
       "name": "14. Montar Logs",
       "type": "n8n-nodes-base.code",
@@ -569,7 +629,8 @@
       "position": [
         2580,
         660
-      ]
+      ],
+      "id": "1eee7367-dc2b-43a9-aa5d-a0046575579a"
     },
     {
       "parameters": {
@@ -611,7 +672,8 @@
         2800,
         580
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "id": "88025fc5-e740-4acd-8cb8-d0c6f2b04aeb"
     },
     {
       "parameters": {
@@ -653,7 +715,8 @@
         2800,
         740
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "id": "2ec142af-f3c1-416d-b966-8061b3bcdbb5"
     },
     {
       "parameters": {
@@ -717,7 +780,303 @@
         1480,
         820
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "id": "8fb66ca0-1f1e-4c7b-8002-04c2ca7173d9"
+    },
+    {
+      "name": "9c. Convidar Cadastro",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1480,
+        980
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ 'Olá, ' + $json.nome + '! 🏛️\\n\\nPercebo que você tem aproveitado bem nossa conversa. Que tal ter acesso *gratuito* à plataforma Fenice?\\n\\n✅ Pesquisa jurídica avançada\\n✅ Súmulas STJ e STF\\n✅ RAG de jurisprudência\\n✅ Análise de documentos\\n\\nPara me cadastrar, é simples:\\n📝 *Nome completo · E-mail*\\n\\nEx: Maria Silva · maria@email.com\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 12000
+        }
+      },
+      "id": "d995123d-5a4b-4d58-b40e-51351f6edf8b"
+    },
+    {
+      "name": "9c-save. Salvar Aguardando Cadastro",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1700,
+        980
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ numero: $('7. Decidir Próxima Ação').item.json.numero, estagio: 'aguardando_cadastro', dados: { msgCount: $('7. Decidir Próxima Ação').item.json.msgCount }, ultimo_contato: new Date().toISOString() }) }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "id": "1d7484ef-72d9-42ce-9bb5-452114ec4732"
+    },
+    {
+      "name": "9d. Processar Cadastro",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1480,
+        1160
+      ],
+      "parameters": {
+        "jsCode": "const { numero, nome, mensagem, areaAtual, msgCount } = $input.first().json;\n\n// Detectar email na mensagem\nconst emailMatch = mensagem.match(/[\\w.+%-]+@[\\w.-]+\\.[a-zA-Z]{2,}/);\nconst emailValido = emailMatch ? emailMatch[0].toLowerCase() : null;\n\n// Detectar nome completo (antes do separador ou do email)\nlet nomeCompleto = nome;\nif (emailValido) {\n  const idx = mensagem.toLowerCase().indexOf(emailValido);\n  const antes = mensagem.substring(0, idx).replace(/[·•|,\\s]+$/, '').trim();\n  if (antes.length >= 3) nomeCompleto = antes;\n}\n\nconst AREA_LABELS = {\n  b2b: 'Soluções B2B', academico: 'Acadêmico & Pesquisa',\n  observatorio: 'Observatório da Mulher', api: 'API & Integração',\n  juridico: 'Assessoria Jurídica', filosofia: 'Filosofia & Teologia'\n};\n\nreturn [{ json: {\n  _valido: emailValido !== null,\n  nomeCompleto, email: emailValido || '',\n  numero, nome, mensagem, areaAtual, msgCount,\n  areaLabel: AREA_LABELS[areaAtual] || 'Jurídico'\n} }];\n"
+      },
+      "id": "8ea444de-5633-48cc-9628-31cc3c603f6b"
+    },
+    {
+      "name": "9d-if. Email válido?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1700,
+        1160
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json._valido }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "6bb1befd-8fee-4a77-93ad-2bcbd25ffbe6"
+    },
+    {
+      "name": "9d-leads. Chamar fenice-leads",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        1080
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://feniceit.app.n8n.cloud/webhook/fenice-leads",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ evento: 'lead_chatbot', nome: $json.nomeCompleto, telefone: $json.numero, email: $json.email, empresa: '', interesse: ($json.areaAtual || 'juridico'), interesse_label: $json.areaLabel, descricao_outros: null, origem: 'whatsapp_chatbot', timestamp: new Date().toISOString() }) }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "id": "0b5c825e-0087-4df7-87b6-a35cc4f512a6"
+    },
+    {
+      "name": "9d-confirm. Confirmação Cadastro",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2140,
+        1080
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('9d. Processar Cadastro').item.json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ '✅ ' + $json.nomeCompleto + ', cadastro recebido!\\n\\nEm instantes você receberá as credenciais no e-mail *' + $json.email + '*. 🎉\\n\\nEnquanto isso, pode continuar me consultando!\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 12000
+        }
+      },
+      "id": "a4915806-e261-42d0-bc0f-a94d1ba3fdd9"
+    },
+    {
+      "name": "9d-salvar. Salvar Cadastrado",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2360,
+        1080
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ numero: $json.numero, estagio: 'cadastrado', dados: { msgCount: $json.msgCount, email: $json.email, nome: $json.nomeCompleto }, ultimo_contato: new Date().toISOString() }) }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "id": "4c6518db-f7c4-41c0-902f-b4d9d926461a"
+    },
+    {
+      "name": "9d-retry. Pedir Formato Correto",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        1260
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "Não consegui identificar um e-mail válido. 😅\\n\\nPor favor, responda no formato:\\n📝 *Nome completo · E-mail*\\n\\nEx: João da Silva · joao@email.com\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 12000
+        }
+      },
+      "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
     }
   ],
   "connections": {
@@ -810,29 +1169,43 @@
       "main": [
         [
           {
+            "type": "main",
             "node": "9-logo. Enviar Logo Fenice",
-            "type": "main",
             "index": 0
           }
         ],
         [
           {
+            "type": "main",
             "node": "9b. Enviar MSG Humano",
-            "type": "main",
             "index": 0
           }
         ],
         [
           {
+            "type": "main",
             "node": "16. Salvar Área Escolhida (Tim)",
-            "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "10. Montar Prompt por Área",
             "type": "main",
+            "node": "10. Montar Prompt por Área",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9c. Convidar Cadastro",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9d. Processar Cadastro",
             "index": 0
           }
         ]
@@ -932,13 +1305,68 @@
           }
         ]
       ]
+    },
+    "9c. Convidar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9c-save. Salvar Aguardando Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d. Processar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-if. Email válido?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-if. Email válido?": {
+      "main": [
+        [
+          {
+            "node": "9d-leads. Chamar fenice-leads",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "9d-retry. Pedir Formato Correto",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-leads. Chamar fenice-leads": {
+      "main": [
+        [
+          {
+            "node": "9d-confirm. Confirmação Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-confirm. Confirmação Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-salvar. Salvar Cadastrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
-  },
-  "active": false,
-  "settings": {
-    "executionOrder": "v1",
-    "saveManualExecutions": true,
-    "callerPolicy": "workflowsFromSameOwner",
-    "errorWorkflow": ""
   }
 }

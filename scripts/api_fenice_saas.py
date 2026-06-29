@@ -299,6 +299,7 @@ async def auth_login(body: AuthRequest, request: Request):
         "ana":       "123456",
         "kaua":      "123456",
         "kaique":    "123456",
+        "nelinha":   "123456",
     }
 
     senha_esperada = _usuarios_validos.get(body.usuario.lower())

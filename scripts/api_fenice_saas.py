@@ -982,19 +982,23 @@ async def _notificar_lead(nome: str, email: str, empresa: str, interesse: str) -
         except Exception as exc:
             print(f"[leads] e-mail prospect falhou: {exc}")
 
-    # --- WhatsApp ao admin via AvisaAPI ---
-    if avisa_tkn:
-        msg_wapp = (
-            f"🔔 *Novo lead — fenice.ia.br*\n\n"
-            f"👤 {nome}{empresa_str}\n"
-            f"📧 {email}\n"
-            f"💬 {interesse}"
-        )
+    # --- Notificação via N8N → Evolution (WhatsApp admin) ---
+    n8n_url = os.environ.get("N8N_WEBHOOK_URL", "")
+    if n8n_url:
+        payload_n8n = {
+            "evento":    "novo_lead",
+            "nome":      nome,
+            "email":     email,
+            "empresa":   empresa,
+            "interesse": interesse,
+            "origem":    "fenice.ia.br/contato",
+            "numero":    admin_num,
+        }
         try:
             async with httpx.AsyncClient(timeout=10) as client:
-                await _enviar_avisa(client, avisa_tkn, admin_num, msg_wapp)
+                await client.post(n8n_url, json=payload_n8n)
         except Exception as exc:
-            print(f"[leads] WhatsApp admin falhou: {exc}")
+            print(f"[leads] N8N webhook falhou: {exc}")
 
 
 @app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")

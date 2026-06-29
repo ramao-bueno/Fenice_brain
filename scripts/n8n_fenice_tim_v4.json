@@ -1,5 +1,298 @@
 {
   "name": "Fenice_Tim — WhatsApp IVR v4 (Evolution API)",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "connections": {
+    "1. Receber Mensagem (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "2. Extrair e Normalizar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2. Extrair e Normalizar": {
+      "main": [
+        [
+          {
+            "node": "3. Mensagem válida?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Mensagem válida?": {
+      "main": [
+        [
+          {
+            "node": "4. É PARAR?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "4. É PARAR?": {
+      "main": [
+        [
+          {
+            "node": "5a. Enviar MSG PARAR",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "6. Buscar Contato Tim (Supabase)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5a. Enviar MSG PARAR": {
+      "main": [
+        [
+          {
+            "node": "5b. Salvar Opt-Out Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "6. Buscar Contato Tim (Supabase)": {
+      "main": [
+        [
+          {
+            "node": "7. Decidir Próxima Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "7. Decidir Próxima Ação": {
+      "main": [
+        [
+          {
+            "node": "8. Switch por Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "8. Switch por Ação": {
+      "main": [
+        [
+          {
+            "type": "main",
+            "node": "9-logo. Enviar Logo Fenice",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9b. Enviar MSG Humano",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "16. Salvar Área Escolhida (Tim)",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "10. Montar Prompt por Área",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9c. Convidar Cadastro",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9d. Processar Cadastro",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9-logo. Enviar Logo Fenice": {
+      "main": [
+        [
+          {
+            "node": "9a. Enviar Menu Principal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "16. Salvar Área Escolhida (Tim)": {
+      "main": [
+        [
+          {
+            "node": "10. Montar Prompt por Área",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10. Montar Prompt por Área": {
+      "main": [
+        [
+          {
+            "node": "10b. Aguardar 6s (debounce)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10b. Aguardar 6s (debounce)": {
+      "main": [
+        [
+          {
+            "node": "11. Groq — Resposta IA",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "11. Groq — Resposta IA": {
+      "main": [
+        [
+          {
+            "node": "12. Extrair Resposta Groq",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "12. Extrair Resposta Groq": {
+      "main": [
+        [
+          {
+            "node": "13. Enviar Resposta (Evolution API)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "13. Enviar Resposta (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "14. Montar Logs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "14. Montar Logs": {
+      "main": [
+        [
+          {
+            "node": "15a. Log Supabase (interacoes)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "15b. Upsert Fenice_Tim (contatos)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9c. Convidar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9c-save. Salvar Aguardando Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d. Processar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-if. Email válido?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-if. Email válido?": {
+      "main": [
+        [
+          {
+            "node": "9d-leads. Chamar fenice-leads",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "9d-retry. Pedir Formato Correto",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-leads. Chamar fenice-leads": {
+      "main": [
+        [
+          {
+            "node": "9d-confirm. Confirmação Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-confirm. Confirmação Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-salvar. Salvar Cadastrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
   "nodes": [
     {
       "parameters": {
@@ -502,7 +795,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// ── Monta system prompt por área + contexto do sistema ──────────────────────\nconst dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\n// Contexto do sistema — injetado em TODOS os prompts\nconst CONTEXTO_SISTEMA = `\nCONTEXTO FENICE IT (OBRIGATÓRIO — nunca contradiga):\n- Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n- A plataforma Fenice envia e-mails automáticos ao usuário após o cadastro com acesso à área restrita (fenice.ia.br).\n- Quando perguntado sobre e-mail ou área restrita: confirme que o e-mail FOI enviado e oriente a verificar a caixa de entrada.\n- NUNCA diga que não pode enviar e-mails — o sistema faz isso, você é apenas o canal chat.\n- Tom: informal, caloroso, direto. Nunca use \"Prezado\" ou \"Atenciosamente\". Use o primeiro nome do usuário.\n- WhatsApp: mensagens curtas (máx 600 chars). Sem formalidades de e-mail.\n- Nunca invente leis, artigos ou jurisprudência inexistente.\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Você é o Teo, assistente comercial B2B da Fenice IT Justech.IA, via WhatsApp. Foco: soluções corporativas para escritórios e empresas (API jurídica, RAG, planos enterprise, SLA). Consultivo e direto. Colete nome, empresa e necessidade. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n\n  academico: `Você é o Teo, assistente acadêmico da Fenice IT Justech.IA, via WhatsApp. Auxilia estudantes e professores com pesquisa jurídica, TCC, artigos científicos e análise doutrinária.\n\nBASE: 5685 artigos, súmulas STJ/STF, legislação federal atualizada.\nPLATAFORMA PREMIUM: https://fenice.ia.br — mencione quando relevante.\nPRIMEIRO CONTATO: apresente os serviços e inclua o link.\n\nDidático, claro e preciso. Cite a base legal quando relevante. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n\n  observatorio: `Você é o Teo, assistente digital do *Observatório da Mulher de São Francisco do Sul* (Fenice IT), via WhatsApp.\nMISSÃO: Apoiar mulheres em situação de vulnerabilidade.\nSITE: https://observatorio-da-mulher-sfs.com.br/ — inclua SEMPRE na primeira resposta.\nEMERGÊNCIA: risco imediato → 190 (Polícia) ou 180 (Central da Mulher) IMEDIATAMENTE.\nBASE LEGAL: Lei Maria da Penha (11.340/2006), Lei do Feminicídio (13.104/2015).\nNunca minimize sofrimento. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n\n  api: `Você é o Teo, assistente técnico da Fenice IT para desenvolvedores, via WhatsApp. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI + Supabase + Gemini. Chaves: contato@fenice.ia.br. Técnico e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n\n  juridico: `Você é o Teo, assistente jurídico da Fenice IT Justech.IA, via WhatsApp. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo, máx 600 chars. Se incerto → diga que pesquisa. Nunca invente leis. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n\n  filosofia: `Você é o Teo, assistente de Filosofia, Teologia e Pensamento da Fenice IT, via WhatsApp. Domínio: filosofia jurídica, hermenêutica, teologia cristã/islâmica/judaica, ética, metafísica. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\n// Seleção de área (dígito único) → saudação breve\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: O usuário selecionou esta área com um dígito. Cumprimente-o com UMA frase breve e pergunte o que precisa. NÃO liste serviços ou crie submenus.\\n\\n'\n  : '';\nconst promptFinal = introNote + sistemaPrompt;\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: promptFinal },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody } }];"
+        "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: informal, caloroso, direto. Use apenas o primeiro nome do usuário.\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
       },
       "name": "10. Montar Prompt por Área",
       "type": "n8n-nodes-base.code",
@@ -1075,298 +1368,5 @@
       },
       "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
     }
-  ],
-  "connections": {
-    "1. Receber Mensagem (Evolution API)": {
-      "main": [
-        [
-          {
-            "node": "2. Extrair e Normalizar",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "2. Extrair e Normalizar": {
-      "main": [
-        [
-          {
-            "node": "3. Mensagem válida?",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "3. Mensagem válida?": {
-      "main": [
-        [
-          {
-            "node": "4. É PARAR?",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        []
-      ]
-    },
-    "4. É PARAR?": {
-      "main": [
-        [
-          {
-            "node": "5a. Enviar MSG PARAR",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "6. Buscar Contato Tim (Supabase)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "5a. Enviar MSG PARAR": {
-      "main": [
-        [
-          {
-            "node": "5b. Salvar Opt-Out Supabase",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "6. Buscar Contato Tim (Supabase)": {
-      "main": [
-        [
-          {
-            "node": "7. Decidir Próxima Ação",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "7. Decidir Próxima Ação": {
-      "main": [
-        [
-          {
-            "node": "8. Switch por Ação",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "8. Switch por Ação": {
-      "main": [
-        [
-          {
-            "type": "main",
-            "node": "9-logo. Enviar Logo Fenice",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9b. Enviar MSG Humano",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "16. Salvar Área Escolhida (Tim)",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "10. Montar Prompt por Área",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9c. Convidar Cadastro",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9d. Processar Cadastro",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9-logo. Enviar Logo Fenice": {
-      "main": [
-        [
-          {
-            "node": "9a. Enviar Menu Principal",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "16. Salvar Área Escolhida (Tim)": {
-      "main": [
-        [
-          {
-            "node": "10. Montar Prompt por Área",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "10. Montar Prompt por Área": {
-      "main": [
-        [
-          {
-            "node": "10b. Aguardar 6s (debounce)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "10b. Aguardar 6s (debounce)": {
-      "main": [
-        [
-          {
-            "node": "11. Groq — Resposta IA",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "11. Groq — Resposta IA": {
-      "main": [
-        [
-          {
-            "node": "12. Extrair Resposta Groq",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "12. Extrair Resposta Groq": {
-      "main": [
-        [
-          {
-            "node": "13. Enviar Resposta (Evolution API)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "13. Enviar Resposta (Evolution API)": {
-      "main": [
-        [
-          {
-            "node": "14. Montar Logs",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "14. Montar Logs": {
-      "main": [
-        [
-          {
-            "node": "15a. Log Supabase (interacoes)",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "15b. Upsert Fenice_Tim (contatos)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9c. Convidar Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9c-save. Salvar Aguardando Cadastro",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d. Processar Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9d-if. Email válido?",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-if. Email válido?": {
-      "main": [
-        [
-          {
-            "node": "9d-leads. Chamar fenice-leads",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "9d-retry. Pedir Formato Correto",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-leads. Chamar fenice-leads": {
-      "main": [
-        [
-          {
-            "node": "9d-confirm. Confirmação Cadastro",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-confirm. Confirmação Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9d-salvar. Salvar Cadastrado",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    }
-  },
-  "settings": {
-    "executionOrder": "v1"
-  }
+  ]
 }

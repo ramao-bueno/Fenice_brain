@@ -1,298 +1,11 @@
 {
+  "updatedAt": "2026-06-29T18:41:47.505Z",
+  "createdAt": "2026-06-25T02:52:47.221Z",
+  "id": "UKfz7lxQTQcnbOMV",
   "name": "Fenice_Tim — WhatsApp IVR v4 (Evolution API)",
-  "settings": {
-    "executionOrder": "v1"
-  },
-  "connections": {
-    "1. Receber Mensagem (Evolution API)": {
-      "main": [
-        [
-          {
-            "node": "2. Extrair e Normalizar",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "2. Extrair e Normalizar": {
-      "main": [
-        [
-          {
-            "node": "3. Mensagem válida?",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "3. Mensagem válida?": {
-      "main": [
-        [
-          {
-            "node": "4. É PARAR?",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        []
-      ]
-    },
-    "4. É PARAR?": {
-      "main": [
-        [
-          {
-            "node": "5a. Enviar MSG PARAR",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "6. Buscar Contato Tim (Supabase)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "5a. Enviar MSG PARAR": {
-      "main": [
-        [
-          {
-            "node": "5b. Salvar Opt-Out Supabase",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "6. Buscar Contato Tim (Supabase)": {
-      "main": [
-        [
-          {
-            "node": "7. Decidir Próxima Ação",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "7. Decidir Próxima Ação": {
-      "main": [
-        [
-          {
-            "node": "8. Switch por Ação",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "8. Switch por Ação": {
-      "main": [
-        [
-          {
-            "type": "main",
-            "node": "9-logo. Enviar Logo Fenice",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9b. Enviar MSG Humano",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "16. Salvar Área Escolhida (Tim)",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "10. Montar Prompt por Área",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9c. Convidar Cadastro",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "type": "main",
-            "node": "9d. Processar Cadastro",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9-logo. Enviar Logo Fenice": {
-      "main": [
-        [
-          {
-            "node": "9a. Enviar Menu Principal",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "16. Salvar Área Escolhida (Tim)": {
-      "main": [
-        [
-          {
-            "node": "10. Montar Prompt por Área",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "10. Montar Prompt por Área": {
-      "main": [
-        [
-          {
-            "node": "10b. Aguardar 6s (debounce)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "10b. Aguardar 6s (debounce)": {
-      "main": [
-        [
-          {
-            "node": "11. Groq — Resposta IA",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "11. Groq — Resposta IA": {
-      "main": [
-        [
-          {
-            "node": "12. Extrair Resposta Groq",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "12. Extrair Resposta Groq": {
-      "main": [
-        [
-          {
-            "node": "13. Enviar Resposta (Evolution API)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "13. Enviar Resposta (Evolution API)": {
-      "main": [
-        [
-          {
-            "node": "14. Montar Logs",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "14. Montar Logs": {
-      "main": [
-        [
-          {
-            "node": "15a. Log Supabase (interacoes)",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "15b. Upsert Fenice_Tim (contatos)",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9c. Convidar Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9c-save. Salvar Aguardando Cadastro",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d. Processar Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9d-if. Email válido?",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-if. Email válido?": {
-      "main": [
-        [
-          {
-            "node": "9d-leads. Chamar fenice-leads",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "9d-retry. Pedir Formato Correto",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-leads. Chamar fenice-leads": {
-      "main": [
-        [
-          {
-            "node": "9d-confirm. Confirmação Cadastro",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9d-confirm. Confirmação Cadastro": {
-      "main": [
-        [
-          {
-            "node": "9d-salvar. Salvar Cadastrado",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    }
-  },
+  "description": null,
+  "active": true,
+  "isArchived": false,
   "nodes": [
     {
       "parameters": {
@@ -795,7 +508,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: informal, caloroso, direto. Use apenas o primeiro nome do usuário.\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
+        "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
       },
       "name": "10. Montar Prompt por Área",
       "type": "n8n-nodes-base.code",
@@ -1368,5 +1081,1834 @@
       },
       "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
     }
-  ]
+  ],
+  "connections": {
+    "1. Receber Mensagem (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "2. Extrair e Normalizar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2. Extrair e Normalizar": {
+      "main": [
+        [
+          {
+            "node": "3. Mensagem válida?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Mensagem válida?": {
+      "main": [
+        [
+          {
+            "node": "4. É PARAR?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "4. É PARAR?": {
+      "main": [
+        [
+          {
+            "node": "5a. Enviar MSG PARAR",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "6. Buscar Contato Tim (Supabase)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5a. Enviar MSG PARAR": {
+      "main": [
+        [
+          {
+            "node": "5b. Salvar Opt-Out Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "6. Buscar Contato Tim (Supabase)": {
+      "main": [
+        [
+          {
+            "node": "7. Decidir Próxima Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "7. Decidir Próxima Ação": {
+      "main": [
+        [
+          {
+            "node": "8. Switch por Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "8. Switch por Ação": {
+      "main": [
+        [
+          {
+            "type": "main",
+            "node": "9-logo. Enviar Logo Fenice",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9b. Enviar MSG Humano",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "16. Salvar Área Escolhida (Tim)",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "10. Montar Prompt por Área",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9c. Convidar Cadastro",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "type": "main",
+            "node": "9d. Processar Cadastro",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9-logo. Enviar Logo Fenice": {
+      "main": [
+        [
+          {
+            "node": "9a. Enviar Menu Principal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "16. Salvar Área Escolhida (Tim)": {
+      "main": [
+        [
+          {
+            "node": "10. Montar Prompt por Área",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10. Montar Prompt por Área": {
+      "main": [
+        [
+          {
+            "node": "10b. Aguardar 6s (debounce)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "10b. Aguardar 6s (debounce)": {
+      "main": [
+        [
+          {
+            "node": "11. Groq — Resposta IA",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "11. Groq — Resposta IA": {
+      "main": [
+        [
+          {
+            "node": "12. Extrair Resposta Groq",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "12. Extrair Resposta Groq": {
+      "main": [
+        [
+          {
+            "node": "13. Enviar Resposta (Evolution API)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "13. Enviar Resposta (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "14. Montar Logs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "14. Montar Logs": {
+      "main": [
+        [
+          {
+            "node": "15a. Log Supabase (interacoes)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "15b. Upsert Fenice_Tim (contatos)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9c. Convidar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9c-save. Salvar Aguardando Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d. Processar Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-if. Email válido?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-if. Email válido?": {
+      "main": [
+        [
+          {
+            "node": "9d-leads. Chamar fenice-leads",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "9d-retry. Pedir Formato Correto",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-leads. Chamar fenice-leads": {
+      "main": [
+        [
+          {
+            "node": "9d-confirm. Confirmação Cadastro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9d-confirm. Confirmação Cadastro": {
+      "main": [
+        [
+          {
+            "node": "9d-salvar. Salvar Cadastrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "saveManualExecutions": true,
+    "errorWorkflow": ""
+  },
+  "staticData": null,
+  "meta": null,
+  "nodeGroups": [],
+  "pinData": {
+    "Groq — Resposta Jurídica": [
+      {
+        "json": {
+          "name": "First item",
+          "code": 1
+        }
+      },
+      {
+        "json": {
+          "name": "Second item",
+          "code": 2
+        }
+      }
+    ],
+    "1. Receber Mensagem (AvisaAPI)": [
+      {
+        "json": {
+          "headers": {
+            "host": "feniceit.app.n8n.cloud",
+            "user-agent": "curl/8.19.0",
+            "content-length": "198",
+            "accept": "*/*",
+            "accept-encoding": "gzip, br",
+            "cdn-loop": "cloudflare; loops=1; subreqs=1",
+            "cf-connecting-ip": "2804:14c:f257:8035:fc3f:cc:3b87:2614",
+            "cf-ew-via": "15",
+            "cf-ipcountry": "BR",
+            "cf-ray": "a114ed09fd1090c1-EZE",
+            "cf-visitor": "{\"scheme\":\"https\"}",
+            "cf-worker": "n8n.cloud",
+            "content-type": "application/json",
+            "x-forwarded-for": "2804:14c:f257:8035:fc3f:cc:3b87:2614, 198.41.233.4",
+            "x-forwarded-host": "feniceit.app.n8n.cloud",
+            "x-forwarded-port": "443",
+            "x-forwarded-proto": "https",
+            "x-forwarded-server": "traefik-prod-users-gwc-29-669b78b6dd-d68k9",
+            "x-is-trusted": "yes",
+            "x-real-ip": "2804:14c:f257:8035:fc3f:cc:3b87:2614"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "number": "5521976531414",
+            "from": "5521976531414",
+            "name": "Ramao",
+            "pushName": "Ramao",
+            "message": "oi",
+            "text": "oi",
+            "body": "oi",
+            "session": "sess-001",
+            "id": "msg-001",
+            "chatId": "5521976531414@s.whatsapp.net"
+          },
+          "webhookUrl": "https://feniceit.app.n8n.cloud/webhook-test/fenice-tim",
+          "executionMode": "test"
+        },
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
+  "versionId": "c9fcb29a-5ba3-4f25-98cf-cfaf023082ef",
+  "activeVersionId": "c9fcb29a-5ba3-4f25-98cf-cfaf023082ef",
+  "versionCounter": 124,
+  "triggerCount": 1,
+  "sourceWorkflowId": null,
+  "shared": [
+    {
+      "updatedAt": "2026-06-25T02:52:47.223Z",
+      "createdAt": "2026-06-25T02:52:47.223Z",
+      "role": "workflow:owner",
+      "workflowId": "UKfz7lxQTQcnbOMV",
+      "projectId": "D2bkf6ZP1xqv4BcW",
+      "project": {
+        "updatedAt": "2026-06-10T11:56:22.726Z",
+        "createdAt": "2026-06-10T11:56:13.381Z",
+        "id": "D2bkf6ZP1xqv4BcW",
+        "name": "Ramão Bueno da Silva Neto <oiconsulbrasil@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "customTelemetryTags": [],
+        "creatorId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      }
+    }
+  ],
+  "tags": [
+    {
+      "updatedAt": "2026-06-25T02:48:16.334Z",
+      "createdAt": "2026-06-25T02:48:16.334Z",
+      "id": "5FgYYN2kQAFmhHst",
+      "name": "fenice"
+    },
+    {
+      "updatedAt": "2026-06-25T14:35:16.277Z",
+      "createdAt": "2026-06-25T14:35:16.277Z",
+      "id": "9SFyE3EJ7NRpvE5y",
+      "name": "tim"
+    },
+    {
+      "updatedAt": "2026-06-25T14:35:16.243Z",
+      "createdAt": "2026-06-25T14:35:16.243Z",
+      "id": "IzrNKIji4PXFifu8",
+      "name": "ivr"
+    },
+    {
+      "updatedAt": "2026-06-25T02:48:16.274Z",
+      "createdAt": "2026-06-25T02:48:16.274Z",
+      "id": "OMGIoEHQtSygWjH5",
+      "name": "whatsapp"
+    },
+    {
+      "updatedAt": "2026-06-26T01:19:03.44Z",
+      "createdAt": "2026-06-26T01:19:03.44Z",
+      "id": "dvnDiHLwFhBZ96OW",
+      "name": "evolution-api"
+    },
+    {
+      "updatedAt": "2026-06-25T02:48:16.249Z",
+      "createdAt": "2026-06-25T02:48:16.249Z",
+      "id": "wX3g2Z8bPdslAbF8",
+      "name": "juridico"
+    },
+    {
+      "updatedAt": "2026-06-25T02:48:16.31Z",
+      "createdAt": "2026-06-25T02:48:16.31Z",
+      "id": "x388WdlZkrg5m2wH",
+      "name": "avisa"
+    }
+  ],
+  "activeVersion": {
+    "updatedAt": "2026-06-29T18:41:47.507Z",
+    "createdAt": "2026-06-29T18:41:47.507Z",
+    "versionId": "c9fcb29a-5ba3-4f25-98cf-cfaf023082ef",
+    "workflowId": "UKfz7lxQTQcnbOMV",
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "fenice-tim-v2",
+          "responseMode": "onReceived",
+          "options": {}
+        },
+        "name": "1. Receber Mensagem (Evolution API)",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          160,
+          400
+        ],
+        "id": "e329df4c-ed75-4192-b531-96850c0f501a",
+        "webhookId": "f19c883d-7d5d-4cb4-938c-b2c03d38aafa"
+      },
+      {
+        "parameters": {
+          "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\n// Ignora ruído AvisaAPI (formato jsonData)\nif (body?.jsonData !== undefined) {\n  return [{ json: { _skip: true, motivo: \"avisa-noise\" } }];\n}\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\n// FIX 2026-06-28: adicionado \"🎬 *\" para bloquear eco de notificações de vídeo\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\", \"🎬 *\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS  = [\"parar\",\"stop\",\"sair\",\"cancelar\"];\n// FIX 2026-06-28: removidas saudações (oi, olá, bom dia, boa tarde, boa noite, hello, hi)\n// Motivo: usuários retornantes cumprimentavam o bot e perdiam sua área → recebiam o menu\n// Agora RESET_WORDS só tem navegação explícita — só resetar quando o usuário quer resetar\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop: STOP_WORDS.includes(msgLower), isReset: RESET_WORDS.includes(msgLower),\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
+        },
+        "name": "2. Extrair e Normalizar",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          380,
+          400
+        ],
+        "id": "a1d09160-51e2-4741-b42b-3700dad91cd4"
+      },
+      {
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": false,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "id": "skip-check",
+                "leftValue": "={{ $json._skip }}",
+                "rightValue": true,
+                "operator": {
+                  "type": "boolean",
+                  "operation": "false"
+                }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        },
+        "name": "3. Mensagem válida?",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [
+          600,
+          400
+        ],
+        "id": "69b4a9f8-a67e-4379-9567-821e9270409e"
+      },
+      {
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": false,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "id": "stop-check",
+                "leftValue": "={{ $json.isStop }}",
+                "rightValue": true,
+                "operator": {
+                  "type": "boolean",
+                  "operation": "true"
+                }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        },
+        "name": "4. É PARAR?",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [
+          820,
+          280
+        ],
+        "id": "945d8c14-15fe-44eb-855e-7cca7d30fb00"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('2. Extrair e Normalizar').item.json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "Atendimento encerrado. Obrigado por contatar a *Fenice IT Justech.IA*! 🙏\nQuando precisar, é só chamar novamente.\n\n_© 2026 Fenice IT Justech.IA_"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "5a. Enviar MSG PARAR",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1040,
+          160
+        ],
+        "id": "687cefdc-367d-4e15-ad65-5765b49de73f"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/whatsapp_optouts",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "numero",
+                "value": "={{ $('2. Extrair e Normalizar').item.json.numero }}"
+              },
+              {
+                "name": "nome",
+                "value": "={{ $('2. Extrair e Normalizar').item.json.nome }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "name": "5b. Salvar Opt-Out Supabase",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1260,
+          160
+        ],
+        "continueOnFail": true,
+        "id": "657b7eb1-a556-42b4-9b91-a5b28ddf4934"
+      },
+      {
+        "parameters": {
+          "jsCode": "// Busca contato no Supabase — SEMPRE retorna 1 item com { contatos: [...] }\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst { numero } = dadosMsg;\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\n\nlet contatos = [];\ntry {\n  const resp = await this.helpers.httpRequest({\n    method: 'GET',\n    url: `${SUPA_URL}/rest/v1/fenice_tim_contatos?numero=eq.${numero}&limit=1`,\n    headers: { 'apikey': SUPA_KEY, 'Authorization': `Bearer ${SUPA_KEY}` }\n  });\n  contatos = Array.isArray(resp) ? resp : [];\n} catch(e) {\n  contatos = [];\n}\n\nreturn [{ json: { contatos } }];"
+        },
+        "name": "6. Buscar Contato Tim (Supabase)",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          820,
+          520
+        ],
+        "id": "a416c3e6-f054-4ebf-80a5-f9f9a444ebd5"
+      },
+      {
+        "parameters": {
+          "jsCode": "// ── Decide próximo passo com base no perfil + contador de mensagens ──\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\n\nconst areaAtual = contato ? contato.area : null;\nconst estagio   = contato?.estagio || 'novo';\nconst msgCount  = contato?.dados?.msgCount || 0;\nconst { isReset, opcaoMenu, numero, nome, mensagem } = dadosMsg;\n\n// Aguardando cadastro → tentar processar resposta como email\nif (estagio === 'aguardando_cadastro') {\n  return [{ json: { _acao: 'processar_cadastro', numero, nome, mensagem, areaAtual, msgCount, estagio } }];\n}\n\n// Reset explícito → menu (zera contador)\nif (isReset) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null, msgCount: 0, estagio } }];\n}\n\n// Opção de menu → set area (zera contador pois mudou área)\nif (opcaoMenu) {\n  if (opcaoMenu === 'humano') {\n    return [{ json: { _acao: 'humano', numero, nome, mensagem, areaAtual: 'humano', msgCount: 0, estagio } }];\n  }\n  return [{ json: { _acao: 'set_area', numero, nome, mensagem, areaAtual: opcaoMenu, msgCount: 0, estagio } }];\n}\n\n// Sem área → menu\nif (!areaAtual) {\n  return [{ json: { _acao: 'menu_principal', numero, nome, mensagem, areaAtual: null, msgCount: 0, estagio } }];\n}\n\n// Tem área → incrementar contador\nconst newMsgCount = msgCount + 1;\n\n// Após 3 mensagens na área → convidar cadastro (apenas uma vez)\nconst JA_CADASTRADO = ['cadastrado', 'lead_site', 'ignorou_cadastro'];\nif (newMsgCount >= 3 && !JA_CADASTRADO.includes(estagio)) {\n  return [{ json: { _acao: 'cadastro_invite', numero, nome, mensagem, areaAtual, msgCount: newMsgCount, estagio } }];\n}\n\nreturn [{ json: { _acao: 'responder', numero, nome, mensagem, areaAtual, msgCount: newMsgCount, estagio } }];\n"
+        },
+        "name": "7. Decidir Próxima Ação",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1040,
+          520
+        ],
+        "id": "55db1bf2-0327-4392-a0d5-46d6a3def650"
+      },
+      {
+        "parameters": {
+          "rules": {
+            "values": [
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "menu_principal",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "menu"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "humano",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "humano"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "set_area",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "set_area"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "responder",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "responder"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "cadastro_invite",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "cadastro_invite"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "processar_cadastro",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "processar_cadastro"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "name": "8. Switch por Ação",
+        "type": "n8n-nodes-base.switch",
+        "typeVersion": 3,
+        "position": [
+          1260,
+          520
+        ],
+        "id": "30ab3b41-f49e-4a38-bc37-afb8564f7887"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "mediatype",
+                "value": "image"
+              },
+              {
+                "name": "media",
+                "value": "https://qcfdssnpjzvjbvemhrik.supabase.co/storage/v1/object/public/fenice-assets/fenice-banner.png"
+              },
+              {
+                "name": "fileName",
+                "value": "fenice-banner.png"
+              },
+              {
+                "name": "caption",
+                "value": ""
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "9-logo. Enviar Logo Fenice",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1480,
+          160
+        ],
+        "continueOnFail": true,
+        "id": "acb75b89-bc70-4206-a519-350e1e981680"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "🏛️ ⚖️ *FENICE IT · Justech.IA* ⚖️ 🏛️\n_Filosofia e Direito · Sabedoria e Justiça_\n                _Est. MCMLXII_\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nOlá! Sou o *Téo* 🤖\nAssistente inteligente da Fenice IT.\nEm que posso ajudá-lo(a) hoje?\n\n*1*  🏢  B2B Corporativo\n*2*  🎓  Ensino Jurídico\n*3*  👁️  Observatório da Mulher SFS\n*4*  ⚡  API & Desenvolvedores\n*5*  ⚖️  Consultoria Jurídica\n*6*  🧠  Filosofia & Teologia\n\n*0*  👤  Consulte um Especialista Humano\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n_Digite o número e pressione enviar_\n\n© 2026 *Fenice IT* · Justech.IA"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "9a. Enviar Menu Principal",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1700,
+          160
+        ],
+        "id": "b1b35acf-6b92-491a-b924-25f33ac0355c"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "👤 *Atendimento Humano Solicitado*\n\nAnotamos seu contato! Um especialista da Fenice IT entrará em contato em breve.\n\n📧 contato@fenice.ia.br\n🌐 fenice.ia.br\n\n_© 2026 Fenice IT Justech.IA_"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "9b. Enviar MSG Humano",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1480,
+          480
+        ],
+        "id": "2b7f1516-56eb-4461-85cc-6450261ccc21"
+      },
+      {
+        "parameters": {
+          "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
+        },
+        "name": "10. Montar Prompt por Área",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1480,
+          660
+        ],
+        "id": "c45a4e85-0e9f-400a-8b97-ad5dc58e382a"
+      },
+      {
+        "parameters": {
+          "jsCode": "// Debounce: aguarda 6s antes de chamar o Groq\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
+        },
+        "name": "10b. Aguardar 6s (debounce)",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1700,
+          660
+        ],
+        "id": "d12f13c2-a4e2-457b-8c50-571260d73191"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+          "sendHeaders": false,
+          "headerParameters": {
+            "parameters": []
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ $json.groqBody }}",
+          "options": {
+            "timeout": 30000
+          },
+          "authentication": "predefinedCredentialType",
+          "nodeCredentialType": "httpHeaderAuth"
+        },
+        "name": "11. Groq — Resposta IA",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1920,
+          660
+        ],
+        "id": "df9618c8-f166-4216-9244-b352c175f80e",
+        "credentials": {
+          "httpHeaderAuth": {
+            "id": "Beoum2J82bjPtUwG",
+            "name": "Gemini AI Studio"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "jsCode": "const groqResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGroq = (groqResult.choices && groqResult.choices.length > 0)\n  ? groqResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGroq.includes(\"🏛️\") ? textoGroq : textoGroq + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: groqResult.model || 'llama-3.3-70b-versatile'\n  }\n}];"
+        },
+        "name": "12. Extrair Resposta Groq",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          2140,
+          660
+        ],
+        "id": "25b5bfdc-a641-4e50-9d55-a17858f542c5"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ $json.respostaAi }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "13. Enviar Resposta (Evolution API)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          2360,
+          660
+        ],
+        "id": "79211fb3-6ca0-43e9-9f15-20c26df5551b"
+      },
+      {
+        "parameters": {
+          "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
+        },
+        "name": "14. Montar Logs",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          2580,
+          660
+        ],
+        "id": "1eee7367-dc2b-43a9-aa5d-a0046575579a"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/interacoes_whatsapp",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=ignore-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ $json.logBody }}",
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "name": "15a. Log Supabase (interacoes)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          2800,
+          580
+        ],
+        "continueOnFail": true,
+        "id": "88025fc5-e740-4acd-8cb8-d0c6f2b04aeb"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ $('14. Montar Logs').item.json.timBody }}",
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "name": "15b. Upsert Fenice_Tim (contatos)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          2800,
+          740
+        ],
+        "continueOnFail": true,
+        "id": "2ec142af-f3c1-416d-b966-8061b3bcdbb5"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "numero",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "nome",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.nome }}"
+              },
+              {
+                "name": "area",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.areaAtual }}"
+              },
+              {
+                "name": "estagio",
+                "value": "prospect"
+              },
+              {
+                "name": "ultimo_contato",
+                "value": "={{ new Date().toISOString() }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "name": "16. Salvar Área Escolhida (Tim)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1480,
+          820
+        ],
+        "continueOnFail": true,
+        "id": "8fb66ca0-1f1e-4c7b-8002-04c2ca7173d9"
+      },
+      {
+        "name": "9c. Convidar Cadastro",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1480,
+          980
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ 'Olá, ' + \\.nome + '! 🏛️\\n\\nPercebo que você tem aproveitado nossa conversa. ' +'Que tal ter acesso *gratuito* à plataforma Fenice?\\n\\n' +'✅ Pesquisa jurídica avançada\\n✅ Súmulas STJ e STF\\n✅ RAG de jurisprudência\\n\\n' +'Copie, complete e envie:\\n\\n' +'*nome:* \\n*e-mail:* \\n*telefone:* \\n\\n' +'👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 12000
+          }
+        },
+        "id": "d995123d-5a4b-4d58-b40e-51351f6edf8b"
+      },
+      {
+        "name": "9c-save. Salvar Aguardando Cadastro",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1700,
+          980
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ JSON.stringify({ numero: $('7. Decidir Próxima Ação').item.json.numero, estagio: 'aguardando_cadastro', dados: { msgCount: $('7. Decidir Próxima Ação').item.json.msgCount }, ultimo_contato: new Date().toISOString() }) }}",
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "id": "1d7484ef-72d9-42ce-9bb5-452114ec4732"
+      },
+      {
+        "name": "9d. Processar Cadastro",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1480,
+          1160
+        ],
+        "parameters": {
+          "jsCode": "const { numero, nome, mensagem, areaAtual, msgCount } = $input.first().json;\n\nconst AREA_LABELS = {\n  b2b: 'Soluções B2B', academico: 'Acadêmico & Pesquisa',\n  observatorio: 'Observatório da Mulher', api: 'API & Integração',\n  juridico: 'Assessoria Jurídica', filosofia: 'Filosofia & Teologia'\n};\n\nlet nomeCompleto = nome, email = '', telefone = numero;\n\n// Formato template: \"nome: X\\ne-mail: Y\\ntelefone: Z\"\nconst linhas = mensagem.split(/\\n/);\nfor (const linha of linhas) {\n  const l = linha.trim();\n  const m = l.match(/^(nome|e-?mail|email|telefone|tel)\\s*:\\s*(.+)$/i);\n  if (!m) continue;\n  const chave = m[1].toLowerCase().replace(/-/g,'');\n  const valor = m[2].trim();\n  if (chave === 'nome' && valor.length > 1)                       nomeCompleto = valor;\n  if ((chave === 'email' || chave === 'emal') && valor.includes('@')) email = valor.toLowerCase();\n  if (chave === 'telefone' || chave === 'tel') {\n    const digitos = valor.replace(/\\D/g, '');\n    // Normalizar: se 11 dígitos sem país, adicionar 55\n    telefone = digitos.length >= 10 ? (digitos.startsWith('55') ? digitos : '55' + digitos) : numero;\n  }\n}\n\n// Fallback: formato \"Nome · email@...\" (legado)\nif (!email) {\n  const emailMatch = mensagem.match(/[\\w.+%-]+@[\\w.-]+\\.[a-zA-Z]{2,}/);\n  if (emailMatch) {\n    email = emailMatch[0].toLowerCase();\n    const idx = mensagem.toLowerCase().indexOf(email);\n    const antes = mensagem.substring(0, idx).replace(/[·•|,\\s]+$/, '').trim();\n    if (antes.length >= 3) nomeCompleto = antes;\n  }\n}\n\nreturn [{ json: {\n  _valido: email !== '',\n  nomeCompleto, email, telefone,\n  numero, nome, mensagem, areaAtual, msgCount,\n  areaLabel: AREA_LABELS[areaAtual] || 'Jurídico'\n} }];"
+        },
+        "id": "8ea444de-5633-48cc-9628-31cc3c603f6b"
+      },
+      {
+        "name": "9d-if. Email válido?",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [
+          1700,
+          1160
+        ],
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": false,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "leftValue": "={{ $json._valido }}",
+                "rightValue": true,
+                "operator": {
+                  "type": "boolean",
+                  "operation": "true"
+                }
+              }
+            ],
+            "combinator": "and"
+          }
+        },
+        "id": "6bb1befd-8fee-4a77-93ad-2bcbd25ffbe6"
+      },
+      {
+        "name": "9d-leads. Chamar fenice-leads",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1920,
+          1080
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://feniceit.app.n8n.cloud/webhook/fenice-leads",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ JSON.stringify({ evento: 'lead_chatbot', nome: $json.nomeCompleto, telefone: $json.numero, email: $json.email, empresa: '', interesse: ($json.areaAtual || 'juridico'), interesse_label: $json.areaLabel, descricao_outros: null, origem: 'whatsapp_chatbot', timestamp: new Date().toISOString() }) }}",
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "id": "0b5c825e-0087-4df7-87b6-a35cc4f512a6"
+      },
+      {
+        "name": "9d-confirm. Confirmação Cadastro",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          2140,
+          1080
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('9d. Processar Cadastro').item.json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ '✅ ' + \\.nomeCompleto + ', cadastro recebido!\\n\\n' +'Em instantes você receberá um *e-mail* com acesso à *área restrita* da plataforma Fenice — ' +'onde pode aprofundar suas consultas e enviar documentos.\\n\\n' +'Enquanto isso, pode continuar me consultando aqui mesmo! 😊\\n\\n' +'👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 12000
+          }
+        },
+        "id": "a4915806-e261-42d0-bc0f-a94d1ba3fdd9"
+      },
+      {
+        "name": "9d-salvar. Salvar Cadastrado",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          2360,
+          1080
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ JSON.stringify({ numero: $json.numero, estagio: 'cadastrado', dados: { msgCount: $json.msgCount, email: $json.email, nome: $json.nomeCompleto }, ultimo_contato: new Date().toISOString() }) }}",
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "id": "4c6518db-f7c4-41c0-902f-b4d9d926461a"
+      },
+      {
+        "name": "9d-retry. Pedir Formato Correto",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1920,
+          1260
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "Não consegui identificar um e-mail válido. 😅\\n\\nPor favor, responda no formato:\\n📝 *Nome completo · E-mail*\\n\\nEx: João da Silva · joao@email.com\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 12000
+          }
+        },
+        "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
+      }
+    ],
+    "connections": {
+      "1. Receber Mensagem (Evolution API)": {
+        "main": [
+          [
+            {
+              "node": "2. Extrair e Normalizar",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "2. Extrair e Normalizar": {
+        "main": [
+          [
+            {
+              "node": "3. Mensagem válida?",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "3. Mensagem válida?": {
+        "main": [
+          [
+            {
+              "node": "4. É PARAR?",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          []
+        ]
+      },
+      "4. É PARAR?": {
+        "main": [
+          [
+            {
+              "node": "5a. Enviar MSG PARAR",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "6. Buscar Contato Tim (Supabase)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "5a. Enviar MSG PARAR": {
+        "main": [
+          [
+            {
+              "node": "5b. Salvar Opt-Out Supabase",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "6. Buscar Contato Tim (Supabase)": {
+        "main": [
+          [
+            {
+              "node": "7. Decidir Próxima Ação",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "7. Decidir Próxima Ação": {
+        "main": [
+          [
+            {
+              "node": "8. Switch por Ação",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "8. Switch por Ação": {
+        "main": [
+          [
+            {
+              "type": "main",
+              "node": "9-logo. Enviar Logo Fenice",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "9b. Enviar MSG Humano",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "16. Salvar Área Escolhida (Tim)",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "10. Montar Prompt por Área",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "9c. Convidar Cadastro",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "9d. Processar Cadastro",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9-logo. Enviar Logo Fenice": {
+        "main": [
+          [
+            {
+              "node": "9a. Enviar Menu Principal",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "16. Salvar Área Escolhida (Tim)": {
+        "main": [
+          [
+            {
+              "node": "10. Montar Prompt por Área",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "10. Montar Prompt por Área": {
+        "main": [
+          [
+            {
+              "node": "10b. Aguardar 6s (debounce)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "10b. Aguardar 6s (debounce)": {
+        "main": [
+          [
+            {
+              "node": "11. Groq — Resposta IA",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "11. Groq — Resposta IA": {
+        "main": [
+          [
+            {
+              "node": "12. Extrair Resposta Groq",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "12. Extrair Resposta Groq": {
+        "main": [
+          [
+            {
+              "node": "13. Enviar Resposta (Evolution API)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "13. Enviar Resposta (Evolution API)": {
+        "main": [
+          [
+            {
+              "node": "14. Montar Logs",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "14. Montar Logs": {
+        "main": [
+          [
+            {
+              "node": "15a. Log Supabase (interacoes)",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "15b. Upsert Fenice_Tim (contatos)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9c. Convidar Cadastro": {
+        "main": [
+          [
+            {
+              "node": "9c-save. Salvar Aguardando Cadastro",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9d. Processar Cadastro": {
+        "main": [
+          [
+            {
+              "node": "9d-if. Email válido?",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9d-if. Email válido?": {
+        "main": [
+          [
+            {
+              "node": "9d-leads. Chamar fenice-leads",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "9d-retry. Pedir Formato Correto",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9d-leads. Chamar fenice-leads": {
+        "main": [
+          [
+            {
+              "node": "9d-confirm. Confirmação Cadastro",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9d-confirm. Confirmação Cadastro": {
+        "main": [
+          [
+            {
+              "node": "9d-salvar. Salvar Cadastrado",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "nodeGroups": [],
+    "authors": "Ramão Bueno da Silva Neto",
+    "name": null,
+    "description": null,
+    "autosaved": false,
+    "workflowPublishHistory": [
+      {
+        "createdAt": "2026-06-29T18:41:47.78Z",
+        "id": 72,
+        "workflowId": "UKfz7lxQTQcnbOMV",
+        "versionId": "c9fcb29a-5ba3-4f25-98cf-cfaf023082ef",
+        "event": "activated",
+        "userId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      },
+      {
+        "createdAt": "2026-06-29T18:41:47.704Z",
+        "id": 71,
+        "workflowId": "UKfz7lxQTQcnbOMV",
+        "versionId": "c9fcb29a-5ba3-4f25-98cf-cfaf023082ef",
+        "event": "deactivated",
+        "userId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      }
+    ]
+  }
 }

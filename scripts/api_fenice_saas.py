@@ -966,53 +966,61 @@ async def _notificar_lead(lead: "LeadRequest") -> None:
 @app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")
 async def capturar_lead(body: LeadRequest, background_tasks: BackgroundTasks) -> dict:
     import re as _re_lead
+    import traceback
 
-    if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):
-        raise HTTPException(status_code=422, detail="E-mail invalido.")
+    try:
+        if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):
+            raise HTTPException(status_code=422, detail="E-mail invalido.")
 
-    tel = _re_lead.sub(r"[^0-9]", "", body.telefone)
-    if len(tel) == 11:
-        tel = "55" + tel
-    if not _re_lead.match(r"^55\d{10,11}$", tel):
-        raise HTTPException(status_code=422, detail="Telefone invalido. Use formato (XX) XXXXX-XXXX.")
-    body = body.model_copy(update={"telefone": tel})
+        tel = _re_lead.sub(r"[^0-9]", "", body.telefone)
+        if len(tel) == 11:
+            tel = "55" + tel
+        if not _re_lead.match(r"^55\d{10,11}$", tel):
+            raise HTTPException(status_code=422, detail="Telefone invalido. Use formato (XX) XXXXX-XXXX.")
+        body = body.model_copy(update={"telefone": tel})
 
-    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
-    sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
-    if not sb_url or not sb_key:
-        raise HTTPException(status_code=503, detail="Banco de dados nao configurado.")
+        sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+        sb_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+        if not sb_url or not sb_key:
+            raise HTTPException(status_code=503, detail="Banco de dados nao configurado.")
 
-    hdrs = {
-        "apikey": sb_key,
-        "Authorization": f"Bearer {sb_key}",
-        "Content-Type": "application/json",
-        "Prefer": "return=minimal,resolution=merge-duplicates",
-    }
-    payload = {
-        "numero":  tel,
-        "nome":    body.nome,
-        "area":    body.interesse,
-        "estagio": "lead_site",
-        "dados":   {
-            "email":            body.email,
-            "empresa":          body.empresa,
-            "interesse_label":  body.interesse_label,
-            "descricao_outros": body.descricao_outros,
-        },
-    }
+        hdrs = {
+            "apikey": sb_key,
+            "Authorization": f"Bearer {sb_key}",
+            "Content-Type": "application/json",
+            "Prefer": "return=minimal,resolution=merge-duplicates",
+        }
+        payload = {
+            "numero":  tel,
+            "nome":    body.nome,
+            "area":    body.interesse,
+            "estagio": "lead_site",
+            "dados":   {
+                "email":            body.email,
+                "empresa":          body.empresa,
+                "interesse_label":  body.interesse_label,
+                "descricao_outros": body.descricao_outros,
+            },
+        }
 
-    async with httpx.AsyncClient(timeout=10) as client:
-        r = await client.post(
-            f"{sb_url}/rest/v1/fenice_tim_contatos",
-            headers=hdrs,
-            params={"on_conflict": "numero"},
-            json=payload,
-        )
-    if r.status_code not in (200, 201):
-        raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
+        async with httpx.AsyncClient(timeout=10) as client:
+            r = await client.post(
+                f"{sb_url}/rest/v1/fenice_tim_contatos",
+                headers=hdrs,
+                params={"on_conflict": "numero"},
+                json=payload,
+            )
+        if r.status_code not in (200, 201):
+            raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
 
-    background_tasks.add_task(_notificar_lead, body)
-    return {"ok": True, "mensagem": "Recebemos seu contato! Em instantes voce recebera uma mensagem no WhatsApp."}
+        background_tasks.add_task(_notificar_lead, body)
+        return {"ok": True, "mensagem": "Recebemos seu contato! Em instantes voce recebera uma mensagem no WhatsApp."}
+
+    except HTTPException:
+        raise
+    except Exception as exc:
+        print(f"[leads] ERRO INTERNO: {exc}\n{traceback.format_exc()}")
+        raise HTTPException(status_code=500, detail=f"Erro interno: {type(exc).__name__}: {exc}")
 
 
 # ---------------------------------------------------------------------------

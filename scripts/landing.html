@@ -254,7 +254,7 @@
     }
 
     .hero-sub {
-      font-family: "caprizant", Georgia, serif;
+      font-family: "adelle", Georgia, serif;
       font-size: clamp(0.8rem, 1.8vw, 1.1rem);
       color: var(--muted); letter-spacing: 0.18em; text-transform: uppercase;
       margin-bottom: 2rem; position: relative; z-index: 1;
@@ -2388,17 +2388,25 @@
       countEl.textContent = ''; return;
     }
     resPane.innerHTML = `<div class="obs-empty"><span style="color:var(--gold)">Buscando…</span></div>`;
+    const ctrl = new AbortController();
+    const tid  = setTimeout(() => ctrl.abort(), 15000);
     try {
       const res  = await fetch('/buscar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: q, limite: 50 })
+        body: JSON.stringify({ query: q, limite: 50 }),
+        signal: ctrl.signal,
       });
+      clearTimeout(tid);
       allResults = await res.json();
       if (!Array.isArray(allResults)) allResults = [];
       applyFilter();
-    } catch {
-      resPane.innerHTML = `<div class="obs-empty"><span style="color:#ef4444">Erro de conexão</span></div>`;
+    } catch (err) {
+      clearTimeout(tid);
+      const msg = err.name === 'AbortError'
+        ? 'Servidor iniciando, tente novamente em instantes'
+        : 'Erro de conexão';
+      resPane.innerHTML = `<div class="obs-empty"><span style="color:#ef4444">${msg}</span></div>`;
     }
   }
 

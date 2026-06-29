@@ -408,7 +408,7 @@ async def buscar(body: BuscarRequest) -> List[ResultadoBusca]:
 
     try:
         with FeniceRAG() as rag:
-            resultados = rag.buscar_hibrido(body.query, limite=body.limite, modo="fts")
+            resultados = await rag.buscar_hibrido(body.query, limite=body.limite, modo="fts")
     except RuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc))
     except Exception as exc:
@@ -600,7 +600,7 @@ async def analisar(
 
     try:
         with FeniceRAG() as rag:
-            resultado = rag.responder_com_contexto(
+            resultado = await rag.responder_com_contexto(
                 pergunta        = body.pergunta,
                 prompt_template = template,
                 limite          = body.limite,
@@ -656,9 +656,8 @@ async def hermeneutica(
 
     try:
         with FeniceRAG() as rag:
-            # Usa os primeiros 200 chars do texto como query de busca contextual
             query_filosofica = body.texto[:200].strip()
-            resultados = rag.buscar_hibrido(query_filosofica, limite=body.limite, modo="fts")
+            resultados = await rag.buscar_hibrido(query_filosofica, limite=body.limite, modo="fts")
             contexto   = rag.construir_contexto(resultados)
     except RuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc))
@@ -716,7 +715,7 @@ async def tcc(
 
     try:
         with FeniceRAG() as rag:
-            resultados = rag.buscar_hibrido(body.tema, limite=body.limite, modo="fts")
+            resultados = await rag.buscar_hibrido(body.tema, limite=body.limite, modo="fts")
             contexto   = rag.construir_contexto(resultados)
     except RuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc))
@@ -950,6 +949,23 @@ async def capturar_lead(body: LeadRequest) -> dict:
         raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
 
     return {"ok": True, "mensagem": "Recebemos seu contato! Retornaremos em até 24h."}
+
+
+# ---------------------------------------------------------------------------
+# GET /estudos/videos  — hub de vídeos de ensino jurídico
+# GET /estudos/videos/forte-marechal-luz  — vídeo documentário
+# ---------------------------------------------------------------------------
+
+@app.get("/estudos/videos", tags=["Estudos"], summary="Hub de vídeos jurídicos", response_class=HTMLResponse, include_in_schema=False)
+async def estudos_videos() -> HTMLResponse:
+    html = Path(__file__).parent / "estudos_videos.html"
+    return HTMLResponse(content=html.read_text(encoding="utf-8"), status_code=200)
+
+
+@app.get("/estudos/videos/forte-marechal-luz", tags=["Estudos"], summary="Vídeo: Forte Marechal Luz", response_class=HTMLResponse, include_in_schema=False)
+async def video_forte_marechal_luz() -> HTMLResponse:
+    html = Path(__file__).parent / "mallet_forte_view.html"
+    return HTMLResponse(content=html.read_text(encoding="utf-8"), status_code=200)
 
 
 # ---------------------------------------------------------------------------

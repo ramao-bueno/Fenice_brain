@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Header, HTTPException, Query, Request, Response
+from fastapi import BackgroundTasks, FastAPI, Header, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
@@ -964,9 +964,8 @@ async def _notificar_lead(lead: "LeadRequest") -> None:
 
 
 @app.post("/leads", tags=["Free"], summary="Captura de leads (contato comercial)")
-async def capturar_lead(body: LeadRequest) -> dict:
+async def capturar_lead(body: LeadRequest, background_tasks: BackgroundTasks) -> dict:
     import re as _re_lead
-    import asyncio
 
     if not _re_lead.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", body.email):
         raise HTTPException(status_code=422, detail="E-mail invalido.")
@@ -1012,7 +1011,7 @@ async def capturar_lead(body: LeadRequest) -> dict:
     if r.status_code not in (200, 201):
         raise HTTPException(status_code=502, detail=f"Erro ao salvar lead: {r.text[:200]}")
 
-    asyncio.create_task(_notificar_lead(body))
+    background_tasks.add_task(_notificar_lead, body)
     return {"ok": True, "mensagem": "Recebemos seu contato! Em instantes voce recebera uma mensagem no WhatsApp."}
 
 

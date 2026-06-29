@@ -1,0 +1,641 @@
+{
+  "updatedAt": "2026-06-29T18:04:10.73Z",
+  "createdAt": "2026-06-29T17:55:37.338Z",
+  "id": "wNBR7zxLTmg7gzaq",
+  "name": "Fenice Tim - fenice-leads (WOW Experience)",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "fenice-leads",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "name": "1. Receber Lead do Site",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        160,
+        400
+      ],
+      "id": "03b75c5a-a1bd-4d4b-921f-50e163eb986b",
+      "webhookId": "76a412a8-924a-4194-bbe1-88b3264acdf5"
+    },
+    {
+      "parameters": {
+        "jsCode": "const d = $input.first().json?.body || $input.first().json;\nconst nome = d.nome || 'Cliente';\nconst primeiroNome = nome.split(' ')[0];\nconst telefone = d.telefone || '';\nconst email = d.email || '';\nconst empresa = d.empresa || '';\nconst interesse = d.interesse || 'juridico';\nconst interesseLabel = d.interesse_label || interesse;\nconst descricaoOutros = d.descricao_outros || '';\nconst tema = interesse === 'outros' ? (descricaoOutros || 'direito e tecnologia') : interesseLabel;\nconst geminiBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: 'Voce e o Teo, assistente juridico-filosofico da Fenice IT. Responda APENAS com o insight, sem introducao, sem aspas, sem markdown. Maximo 2 linhas.' },\n    { role: 'user', content: 'Um prospect se interessou por: ' + tema + '. Gere 1 insight juridico ou filosofico surpreendente. Tom: inteligente, caloroso.' }\n  ],\n  max_tokens: 512,\n  temperature: 0.8\n});\nreturn [{ json: { nome, primeiroNome, telefone, email, empresa, interesse, interesseLabel, descricaoOutros, tema, geminiBody } }];"
+      },
+      "name": "2. Preparar Dados + Prompt Gemini",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        380,
+        400
+      ],
+      "id": "b0f6097e-0d1f-4991-b3ff-f168b69784f2"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        "sendHeaders": false,
+        "headerParameters": {
+          "parameters": []
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.geminiBody }}",
+        "options": {
+          "timeout": 15000
+        },
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth"
+      },
+      "name": "3. Gemini - WOW Insight",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        600,
+        400
+      ],
+      "continueOnFail": true,
+      "id": "78c91fd1-32e4-4932-bb79-8e53bf4dcfb4",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "Beoum2J82bjPtUwG",
+          "name": "Gemini AI Studio"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const dados = $('2. Preparar Dados + Prompt Gemini').first().json;\nconst geminiResp = $input.first().json;\nlet wowInsight = 'A Fenice IT combina IA, filosofia e direito para entregar o que nenhuma LegalTech brasileira oferece.';\ntry {\n  const msg = geminiResp?.choices?.[0]?.message?.content;\n  if (msg && msg.length > 10) wowInsight = msg.trim();\n} catch(e) {}\nreturn [{ json: { ...dados, wowInsight } }];"
+      },
+      "name": "4. Extrair WOW Insight",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        820,
+        400
+      ],
+      "id": "860fac06-aa3c-4d2b-9e3e-0004de27f961"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "5521967531414"
+            },
+            {
+              "name": "text",
+              "value": "={{ '*Novo Lead* - Fenice IT\\n\\n*Nome:* ' + $json.nome + '\\n*WhatsApp:* +' + $json.telefone + '\\n*E-mail:* ' + $json.email + '\\n*Empresa:* ' + ($json.empresa || '-') + '\\n*Assunto:* ' + $json.interesseLabel + '\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "5a. WhatsApp Admin",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        200
+      ],
+      "continueOnFail": true,
+      "id": "7a4eee58-e531-47cc-9a7f-47f19d74cf32"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('4. Extrair WOW Insight').item.json.telefone }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nSou o *Teo*, assistente da *Fenice IT*.\\n\\nVi que voce tem interesse em *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*\\n\\n*Voce sabia?*\\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\\n\\nPosso te contar mais? E so responder aqui!\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "5c. WhatsApp Proativo Lead (WOW)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        600
+      ],
+      "continueOnFail": true,
+      "id": "dc2cf8b1-9854-424d-bfdc-f289e14d1d53"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-token000001",
+      "name": "5b-token. Obter Token Azure",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        400
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://login.microsoftonline.com/c9e7c226-7407-45c2-96b3-c3f5824d4dcf/oauth2/v2.0/token",
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "grant_type",
+              "value": "client_credentials"
+            },
+            {
+              "name": "client_id",
+              "value": "2f759814-7f33-4d2f-b5b6-cbeb9a655093"
+            },
+            {
+              "name": "client_secret",
+              "value": "AZURE_CLIENT_SECRET_CONFIGURED_IN_N8N"
+            },
+            {
+              "name": "scope",
+              "value": "https://graph.microsoft.com/.default"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      }
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-email000002",
+      "name": "5b. E-mail Prospect (Graph API)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1280,
+        400
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.microsoft.com/v1.0/users/Fenice_tech@FeniceJusTech.onmicrosoft.com/sendMail",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $('5b-token. Obter Token Azure').item.json.access_token }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "message",
+              "value": "={{ { subject: 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!', body: { contentType: 'Text', content: 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nFicamos felizes com seu interesse em ' + $('4. Extrair WOW Insight').item.json.interesseLabel + '.\\n\\nEm instantes o Teo entrara em contato pelo WhatsApp.\\n\\nEquipe Fenice IT\\nhttps://fenice.ia.br' }, toRecipients: [{ emailAddress: { address: $('4. Extrair WOW Insight').item.json.email } }] } }}"
+            },
+            {
+              "name": "saveToSentItems",
+              "value": "={{ false }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      }
+    }
+  ],
+  "connections": {
+    "1. Receber Lead do Site": {
+      "main": [
+        [
+          {
+            "node": "2. Preparar Dados + Prompt Gemini",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2. Preparar Dados + Prompt Gemini": {
+      "main": [
+        [
+          {
+            "node": "3. Gemini - WOW Insight",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Gemini - WOW Insight": {
+      "main": [
+        [
+          {
+            "node": "4. Extrair WOW Insight",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "4. Extrair WOW Insight": {
+      "main": [
+        [
+          {
+            "node": "5a. WhatsApp Admin",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "5c. WhatsApp Proativo Lead (WOW)",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "5b-token. Obter Token Azure",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5b-token. Obter Token Azure": {
+      "main": [
+        {
+          "node": "5b. E-mail Prospect (Graph API)",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": null,
+  "nodeGroups": [],
+  "pinData": null,
+  "versionId": "d3521fd4-2556-42fc-8155-6b2eb24ec36d",
+  "activeVersionId": "d3521fd4-2556-42fc-8155-6b2eb24ec36d",
+  "versionCounter": 4,
+  "triggerCount": 1,
+  "sourceWorkflowId": null,
+  "shared": [
+    {
+      "updatedAt": "2026-06-29T17:55:37.34Z",
+      "createdAt": "2026-06-29T17:55:37.34Z",
+      "role": "workflow:owner",
+      "workflowId": "wNBR7zxLTmg7gzaq",
+      "projectId": "D2bkf6ZP1xqv4BcW",
+      "project": {
+        "updatedAt": "2026-06-10T11:56:22.726Z",
+        "createdAt": "2026-06-10T11:56:13.381Z",
+        "id": "D2bkf6ZP1xqv4BcW",
+        "name": "Ramão Bueno da Silva Neto <oiconsulbrasil@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "customTelemetryTags": [],
+        "creatorId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      }
+    }
+  ],
+  "tags": [],
+  "activeVersion": {
+    "updatedAt": "2026-06-29T18:04:10.73Z",
+    "createdAt": "2026-06-29T18:04:10.73Z",
+    "versionId": "d3521fd4-2556-42fc-8155-6b2eb24ec36d",
+    "workflowId": "wNBR7zxLTmg7gzaq",
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "fenice-leads",
+          "responseMode": "onReceived",
+          "options": {}
+        },
+        "name": "1. Receber Lead do Site",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          160,
+          400
+        ],
+        "id": "03b75c5a-a1bd-4d4b-921f-50e163eb986b",
+        "webhookId": "76a412a8-924a-4194-bbe1-88b3264acdf5"
+      },
+      {
+        "parameters": {
+          "jsCode": "const d = $input.first().json?.body || $input.first().json;\nconst nome = d.nome || 'Cliente';\nconst primeiroNome = nome.split(' ')[0];\nconst telefone = d.telefone || '';\nconst email = d.email || '';\nconst empresa = d.empresa || '';\nconst interesse = d.interesse || 'juridico';\nconst interesseLabel = d.interesse_label || interesse;\nconst descricaoOutros = d.descricao_outros || '';\nconst tema = interesse === 'outros' ? (descricaoOutros || 'direito e tecnologia') : interesseLabel;\nconst geminiBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: 'Voce e o Teo, assistente juridico-filosofico da Fenice IT. Responda APENAS com o insight, sem introducao, sem aspas, sem markdown. Maximo 2 linhas.' },\n    { role: 'user', content: 'Um prospect se interessou por: ' + tema + '. Gere 1 insight juridico ou filosofico surpreendente. Tom: inteligente, caloroso.' }\n  ],\n  max_tokens: 512,\n  temperature: 0.8\n});\nreturn [{ json: { nome, primeiroNome, telefone, email, empresa, interesse, interesseLabel, descricaoOutros, tema, geminiBody } }];"
+        },
+        "name": "2. Preparar Dados + Prompt Gemini",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          380,
+          400
+        ],
+        "id": "b0f6097e-0d1f-4991-b3ff-f168b69784f2"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+          "sendHeaders": false,
+          "headerParameters": {
+            "parameters": []
+          },
+          "sendBody": true,
+          "contentType": "raw",
+          "rawContentType": "application/json",
+          "body": "={{ $json.geminiBody }}",
+          "options": {
+            "timeout": 15000
+          },
+          "authentication": "predefinedCredentialType",
+          "nodeCredentialType": "httpHeaderAuth"
+        },
+        "name": "3. Gemini - WOW Insight",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          600,
+          400
+        ],
+        "continueOnFail": true,
+        "id": "78c91fd1-32e4-4932-bb79-8e53bf4dcfb4",
+        "credentials": {
+          "httpHeaderAuth": {
+            "id": "Beoum2J82bjPtUwG",
+            "name": "Gemini AI Studio"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "jsCode": "const dados = $('2. Preparar Dados + Prompt Gemini').first().json;\nconst geminiResp = $input.first().json;\nlet wowInsight = 'A Fenice IT combina IA, filosofia e direito para entregar o que nenhuma LegalTech brasileira oferece.';\ntry {\n  const msg = geminiResp?.choices?.[0]?.message?.content;\n  if (msg && msg.length > 10) wowInsight = msg.trim();\n} catch(e) {}\nreturn [{ json: { ...dados, wowInsight } }];"
+        },
+        "name": "4. Extrair WOW Insight",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          820,
+          400
+        ],
+        "id": "860fac06-aa3c-4d2b-9e3e-0004de27f961"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "5521967531414"
+              },
+              {
+                "name": "text",
+                "value": "={{ '*Novo Lead* - Fenice IT\\n\\n*Nome:* ' + $json.nome + '\\n*WhatsApp:* +' + $json.telefone + '\\n*E-mail:* ' + $json.email + '\\n*Empresa:* ' + ($json.empresa || '-') + '\\n*Assunto:* ' + $json.interesseLabel + '\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "5a. WhatsApp Admin",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1040,
+          200
+        ],
+        "continueOnFail": true,
+        "id": "7a4eee58-e531-47cc-9a7f-47f19d74cf32"
+      },
+      {
+        "parameters": {
+          "fromEmail": "Fenice_tech@FeniceJusTech.onmicrosoft.com",
+          "toEmail": "={{ $('4. Extrair WOW Insight').item.json.email }}",
+          "subject": "={{ 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!' }}",
+          "emailType": "text",
+          "message": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nFicamos felizes com seu interesse em ' + $('4. Extrair WOW Insight').item.json.interesseLabel + '.\\n\\nEm instantes o Teo entrara em contato pelo WhatsApp.\\n\\nEquipe Fenice IT\\nhttps://fenice.ia.br' }}",
+          "options": {}
+        },
+        "name": "5b. E-mail Prospect (Office365)",
+        "type": "n8n-nodes-base.emailSend",
+        "typeVersion": 2.1,
+        "position": [
+          1040,
+          400
+        ],
+        "continueOnFail": true,
+        "credentials": {
+          "smtp": {
+            "id": "frYwBZCpFlMOxobV",
+            "name": "Fenice Office365"
+          }
+        },
+        "id": "37113755-bf40-42c1-b146-4a3646d48b68",
+        "webhookId": "5893a590-ef2b-49e4-8a45-93db02d30d87"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('4. Extrair WOW Insight').item.json.telefone }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nSou o *Teo*, assistente da *Fenice IT*.\\n\\nVi que voce tem interesse em *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*\\n\\n*Voce sabia?*\\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\\n\\nPosso te contar mais? E so responder aqui!\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "5c. WhatsApp Proativo Lead (WOW)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1040,
+          600
+        ],
+        "continueOnFail": true,
+        "id": "dc2cf8b1-9854-424d-bfdc-f289e14d1d53"
+      }
+    ],
+    "connections": {
+      "1. Receber Lead do Site": {
+        "main": [
+          [
+            {
+              "node": "2. Preparar Dados + Prompt Gemini",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "2. Preparar Dados + Prompt Gemini": {
+        "main": [
+          [
+            {
+              "node": "3. Gemini - WOW Insight",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "3. Gemini - WOW Insight": {
+        "main": [
+          [
+            {
+              "node": "4. Extrair WOW Insight",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "4. Extrair WOW Insight": {
+        "main": [
+          [
+            {
+              "node": "5a. WhatsApp Admin",
+              "type": "main",
+              "index": 0
+            },
+            {
+              "node": "5b. E-mail Prospect (Office365)",
+              "type": "main",
+              "index": 0
+            },
+            {
+              "node": "5c. WhatsApp Proativo Lead (WOW)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "nodeGroups": [],
+    "authors": "Ramão Bueno da Silva Neto",
+    "name": null,
+    "description": null,
+    "autosaved": false,
+    "workflowPublishHistory": [
+      {
+        "createdAt": "2026-06-29T18:04:10.972Z",
+        "id": 54,
+        "workflowId": "wNBR7zxLTmg7gzaq",
+        "versionId": "d3521fd4-2556-42fc-8155-6b2eb24ec36d",
+        "event": "activated",
+        "userId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      },
+      {
+        "createdAt": "2026-06-29T18:04:10.906Z",
+        "id": 53,
+        "workflowId": "wNBR7zxLTmg7gzaq",
+        "versionId": "d3521fd4-2556-42fc-8155-6b2eb24ec36d",
+        "event": "deactivated",
+        "userId": "946121ce-5ffd-4b29-b348-9d0b7e20d0c2"
+      }
+    ]
+  }
+}

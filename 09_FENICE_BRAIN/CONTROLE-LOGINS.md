@@ -2,6 +2,7 @@
 tipo: controle-operacional
 modulo: acesso
 atualizado: 2026-06-29
+professores_apoiadores: [tasso, modro, ricardo, diego, manoela]
 tags: [controle, logins, acesso, lgpd, segurança]
 ---
 
@@ -24,11 +25,12 @@ tags: [controle, logins, acesso, lgpd, segurança]
 | `ana` | Ana | — | — | ✅ Ativo |
 | `kaua` | Dr. Kauã | Acadêmico Direito | 5541984759558 | ✅ Ativo |
 | `kaique` | Dr. Kaique | Acadêmico Direito | 5549998349001 | ✅ Ativo |
-| `nelinha` | Dra. Emanuelle Bueno | Acadêmico Direito | 5547991048100 | ✅ Ativo |
-| `tasso` | Ms. Dr. Tasso | Acadêmico Direito | 5547997032838 | ✅ Ativo |
-| `modro` | Ms. Dr. Modro | Acadêmico Direito | 5547991651366 | ✅ Ativo |
-| `ricardo` | Ms. Dr. Ricardo | Acadêmico Direito | 5547999180316 | ✅ Ativo |
-| `diego` | Dr. Diego | Acadêmico Direito | 5547984171611 | ✅ Ativo |
+| `nelinha` | Dra. Emanuelle Bueno | Acadêmica Direito | 5547991048100 | ✅ Ativo |
+| `tasso` | Ms. Dr. Tasso | **Professor — Apoiador do Projeto** | 5547997032838 | ✅ Ativo |
+| `modro` | Ms. Dr. Modro | **Professor — Apoiador do Projeto** | 5547991651366 | ✅ Ativo |
+| `ricardo` | Ms. Dr. Ricardo | **Professor — Apoiador do Projeto** | 5547999180316 | ✅ Ativo |
+| `diego` | Dr. Diego | **Professor — Apoiador do Projeto** | 5547984171611 | ✅ Ativo |
+| `manoela` | Ma. Dra. Manoela | **Professora — Apoiadora do Projeto** | 5547999788525 | ✅ Ativo |
 
 ---
 

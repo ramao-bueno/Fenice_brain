@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forte Marechal Luz — Fenice bRain</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #04080f;
+      --surface:  #0b1525;
+      --gold:     #f59e0b;
+      --gold2:    #fbbf24;
+      --gold-dim: #d97706;
+      --seal-gold:#c9a227;
+      --text:     #f1f5f9;
+      --muted:    #94a3b8;
+      --dim:      #475569;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'acumin-pro', 'Helvetica Neue', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* aurora bar */
+    .aurora-bar {
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 20%, #8b5cf6 50%, #3b82f6 75%, #10b981 100%);
+      background-size: 200% 100%;
+      animation: aurora 3s linear infinite;
+    }
+    @keyframes aurora {
+      0%   { background-position: 0% 0%; }
+      100% { background-position: 200% 0%; }
+    }
+
+    header {
+      width: 100%;
+      max-width: 900px;
+      padding: 40px 24px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo-wrap {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+      border: 1.5px solid rgba(245,158,11,0.35);
+    }
+    .logo-wrap img {
+      width: 145%;
+      margin-left: -22%;
+      margin-top: -8%;
+      filter: invert(1) sepia(1) saturate(2.8) brightness(0.88);
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-name {
+      font-family: 'skeena-display', serif;
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .brand-tag {
+      font-family: 'adelle', serif;
+      font-size: 0.72rem;
+      color: var(--dim);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    main {
+      width: 100%;
+      max-width: 900px;
+      padding: 0 24px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    h1 {
+      font-family: 'skeena-display', serif;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      line-height: 1.2;
+      background: linear-gradient(110deg,
+        #d97706 0%, #f59e0b 30%, #fef3c7 48%, #fbbf24 52%, #f59e0b 70%, #d97706 100%);
+      background-size: 250% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3.5s linear infinite;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 0% center; }
+      100% { background-position: 250% center; }
+    }
+
+    .meta {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .meta-item::before {
+      content: '';
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--gold-dim);
+    }
+
+    .video-card {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid rgba(245,158,11,0.12);
+      overflow: hidden;
+      box-shadow:
+        0 0 0 1px rgba(0,0,0,0.4),
+        0 8px 40px rgba(0,0,0,0.5),
+        0 0 60px rgba(245,158,11,0.04);
+    }
+
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 */
+    }
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .desc {
+      padding: 20px 24px 24px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .desc p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .desc p strong {
+      color: var(--text);
+    }
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+    .tag {
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-family: 'adelle', serif;
+      border: 1px solid rgba(245,158,11,0.25);
+      color: var(--gold-dim);
+      background: rgba(245,158,11,0.06);
+    }
+
+    .link-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(245,158,11,0.06);
+      border: 1px solid rgba(245,158,11,0.18);
+      border-radius: 8px;
+      padding: 14px 18px;
+    }
+    .link-box a {
+      color: var(--gold2);
+      font-size: 0.85rem;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .link-box a:hover { text-decoration: underline; }
+    .link-icon {
+      color: var(--gold-dim);
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    footer {
+      margin-top: auto;
+      width: 100%;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 20px 24px;
+      display: flex;
+      justify-content: center;
+    }
+    footer p {
+      font-size: 0.72rem;
+      color: rgba(148,163,184,0.55);
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="aurora-bar"></div>
+
+  <header>
+    <div class="logo-wrap">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAIAAAD2HxkiAABE7klEQVR4nO3dB3QUV4Ko4Yqdc1ArtKRWzhIZJHIwORpjHLCNjbM941mHcZrgnEk2HkeMbcA2yeSchSQkkATKOcdW51xd8Z2mZ7VzvPvevtm3Z+sh3W/mzGGgEVKjn1vh3lswx3EQAAD8QXj8swEAABECAP/ASAgAPAMRAgDPQIQAwDMQIQDwDEQIADwDEQIAz0CEAMAzECEA8Azj+xMYCbhbhn8MQRAMw8O/Ct/C32cH/P8OBnNH/ws4jmNZluM4BIABBP+bwI=" alt="Fenice" onerror="this.style.display='none'">
+    </div>
+    <div class="brand">
+      <span class="brand-name">Fenice bRain</span>
+      <span class="brand-tag">Documentário Acadêmico</span>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <h1>Forte Marechal Luz</h1>
+      <div class="meta" style="margin-top:10px;">
+        <span class="meta-item">7 min 50 s</span>
+        <span class="meta-item">1080p 30fps</span>
+        <span class="meta-item">FAEG / Univille</span>
+        <span class="meta-item">2026-06-27</span>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <div class="video-wrap">
+        <iframe
+          src="https://drive.google.com/file/d/1eFrGe-Jpqjr9a67LtUtu8oCeI0cSLrH6/preview"
+          allow="autoplay"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="desc">
+        <p>
+          Documentário produzido para a disciplina de <strong>Direito e Patrimônio Histórico</strong>
+          — registro audiovisual do Forte Marechal Luz (São Francisco do Sul, SC), com narração
+          e trilha ambiente captada in loco.
+        </p>
+        <div class="tags">
+          <span class="tag">Patrimônio</span>
+          <span class="tag">São Francisco do Sul</span>
+          <span class="tag">Univille</span>
+          <span class="tag">FAEG</span>
+          <span class="tag">Fenice bRain</span>
+        </div>
+        <p style="margin-top:14px; font-size:0.75rem; color:rgba(148,163,184,0.55); letter-spacing:0.04em;">
+          © 2026 <strong style="color:rgba(148,163,184,0.75);">Fenice bRain</strong> — Todos os direitos reservados.
+          Produção audiovisual protegida por direitos autorais (Lei 9.610/98).
+          Reprodução não autorizada é proibida.
+        </p>
+      </div>
+    </div>
+
+    <div class="link-box">
+      <span class="link-icon">&#9654;</span>
+      <a
+        href="https://drive.google.com/open?id=1eFrGe-Jpqjr9a67LtUtu8oCeI0cSLrH6"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Abrir arquivo no Google Drive
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Fenice bRain · Fenice IT · Todos os direitos reservados · Lei 9.610/98</p>
+  </footer>
+
+</body>
+</html>

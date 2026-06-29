@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos de Ensino Jurídico — Fenice bRain</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #04080f;
+      --surface:  #0b1525;
+      --surface2: #0d1f38;
+      --gold:     #f59e0b;
+      --gold2:    #fbbf24;
+      --gold-dim: #d97706;
+      --text:     #f1f5f9;
+      --muted:    #94a3b8;
+      --dim:      #475569;
+      --premium:  #8b5cf6;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'acumin-pro', 'Helvetica Neue', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* aurora */
+    .aurora-bar {
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 20%, #8b5cf6 50%, #3b82f6 75%, #10b981 100%);
+      background-size: 200% 100%;
+      animation: aurora 3s linear infinite;
+    }
+    @keyframes aurora { 100% { background-position: 200% 0%; } }
+
+    /* nav */
+    nav {
+      width: 100%;
+      max-width: 1100px;
+      padding: 28px 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+    .logo-wrap {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1.5px solid rgba(245,158,11,0.35);
+      flex-shrink: 0;
+    }
+    .logo-wrap img {
+      width: 145%;
+      margin-left: -22%;
+      margin-top: -8%;
+      filter: invert(1) sepia(1) saturate(2.8) brightness(0.88);
+    }
+    .brand-name {
+      font-family: 'skeena-display', serif;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .breadcrumb {
+      font-size: 0.78rem;
+      color: var(--dim);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--gold); }
+    .breadcrumb span { color: var(--dim); }
+
+    /* hero */
+    .hero {
+      width: 100%;
+      max-width: 1100px;
+      padding: 48px 28px 0;
+    }
+    .section-label {
+      font-family: 'adelle', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'skeena-display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.15;
+      background: linear-gradient(110deg,
+        #d97706 0%, #f59e0b 30%, #fef3c7 48%, #fbbf24 52%, #f59e0b 70%, #d97706 100%);
+      background-size: 250% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3.5s linear infinite;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 0% center; }
+      100% { background-position: 250% center; }
+    }
+    .hero-sub {
+      margin-top: 12px;
+      font-size: 0.92rem;
+      color: var(--muted);
+      max-width: 560px;
+      line-height: 1.6;
+    }
+
+    /* stats bar */
+    .stats-bar {
+      width: 100%;
+      max-width: 1100px;
+      padding: 32px 28px 0;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .stat-n {
+      font-family: 'skeena-display', serif;
+      font-size: 1.6rem;
+      color: var(--gold);
+    }
+    .stat-l {
+      font-size: 0.73rem;
+      color: var(--dim);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* grid */
+    .grid-section {
+      width: 100%;
+      max-width: 1100px;
+      padding: 40px 28px 20px;
+    }
+    .grid-title {
+      font-family: 'adelle', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--dim);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    /* video card */
+    .vcard {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid rgba(245,158,11,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .vcard:hover {
+      border-color: rgba(245,158,11,0.28);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 40px rgba(245,158,11,0.06);
+    }
+    .vcard.coming-soon {
+      opacity: 0.5;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .thumb {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      background: var(--surface2);
+      overflow: hidden;
+    }
+    .thumb img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.7;
+    }
+    .thumb-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0d1f38 0%, #0b1525 100%);
+    }
+    .thumb-placeholder svg { opacity: 0.18; }
+    .play-btn {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .play-btn span {
+      width: 48px;
+      height: 48px;
+      background: rgba(245,158,11,0.15);
+      border: 1.5px solid rgba(245,158,11,0.4);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: var(--gold2);
+      backdrop-filter: blur(4px);
+      transition: background 0.2s;
+    }
+    .vcard:hover .play-btn span {
+      background: rgba(245,158,11,0.25);
+    }
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-family: 'adelle', serif;
+      font-weight: 600;
+    }
+    .badge-yt { background: #ff0000; color: #fff; }
+    .badge-drive { background: rgba(245,158,11,0.2); color: var(--gold2); border: 1px solid rgba(245,158,11,0.3); }
+    .badge-soon { background: rgba(71,85,105,0.4); color: var(--dim); border: 1px solid rgba(71,85,105,0.3); }
+
+    .duration {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+      font-size: 0.68rem;
+      font-family: 'Cascadia Code', 'Fira Code', monospace;
+      background: rgba(4,8,15,0.75);
+      padding: 2px 7px;
+      border-radius: 4px;
+      color: var(--text);
+      backdrop-filter: blur(4px);
+    }
+
+    .vcard-body {
+      padding: 16px 18px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+    .vcard-title {
+      font-family: 'skeena-display', serif;
+      font-size: 1rem;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .vcard-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .vcard-meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+    .vcard-meta span {
+      font-size: 0.68rem;
+      color: var(--dim);
+      letter-spacing: 0.05em;
+    }
+    .vcard-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+    .vtag {
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-family: 'adelle', serif;
+      border: 1px solid rgba(245,158,11,0.2);
+      color: var(--gold-dim);
+      background: rgba(245,158,11,0.05);
+    }
+
+    /* coming soon card */
+    .cs-card {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px dashed rgba(71,85,105,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+      flex-direction: column;
+      gap: 10px;
+      padding: 24px;
+    }
+    .cs-icon { font-size: 1.8rem; opacity: 0.2; }
+    .cs-label {
+      font-family: 'adelle', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--dim);
+    }
+
+    footer {
+      margin-top: auto;
+      width: 100%;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 20px 28px;
+      display: flex;
+      justify-content: center;
+      margin-top: 48px;
+    }
+    footer p {
+      font-size: 0.72rem;
+      color: rgba(148,163,184,0.55);
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="aurora-bar"></div>
+
+  <nav>
+    <a class="nav-brand" href="/">
+      <div class="logo-wrap"><img src="/logo-fenice.png" alt="Fenice"></div>
+      <span class="brand-name">Fenice bRain</span>
+    </a>
+    <div class="breadcrumb">
+      <a href="/">Início</a>
+      <span>›</span>
+      <a href="/estudos">Estudos Jurídicos</a>
+      <span>›</span>
+      <span>Vídeos</span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <p class="section-label">Ensino Jurídico · Módulo 2</p>
+    <h1>Vídeos Jurídicos</h1>
+    <p class="hero-sub">
+      Documentários, aulas e análises produzidos pelo Fenice bRain —
+      conteúdo acadêmico e profissional em formato audiovisual.
+    </p>
+  </section>
+
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-n">1</span><span class="stat-l">Publicado</span></div>
+    <div class="stat"><span class="stat-n">∞</span><span class="stat-l">Em produção</span></div>
+    <div class="stat"><span class="stat-n">YT</span><span class="stat-l">YouTube em breve</span></div>
+  </div>
+
+  <!-- PUBLICADOS -->
+  <div class="grid-section">
+    <p class="grid-title">Publicados</p>
+    <div class="grid">
+
+      <!-- Forte Marechal Luz -->
+      <a class="vcard" href="/estudos/videos/forte-marechal-luz">
+        <div class="thumb">
+          <div class="thumb-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <div class="play-btn"><span>&#9654;</span></div>
+          <span class="badge badge-drive">Drive</span>
+          <span class="duration">7:50</span>
+        </div>
+        <div class="vcard-body">
+          <p class="vcard-title">Forte Marechal Luz</p>
+          <p class="vcard-desc">
+            Documentário sobre o Forte Marechal Luz (São Francisco do Sul, SC) —
+            patrimônio histórico e direito à memória cultural.
+          </p>
+          <div class="vcard-meta">
+            <span>2026-06-27</span>
+            <span>1080p · 7 min 50 s</span>
+          </div>
+          <div class="vcard-tags">
+            <span class="vtag">Patrimônio</span>
+            <span class="vtag">FAEG</span>
+            <span class="vtag">Univille</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- EM PRODUÇÃO -->
+  <div class="grid-section">
+    <p class="grid-title">Em produção · Em breve no YouTube</p>
+    <div class="grid">
+
+      <div class="cs-card">
+        <span class="cs-icon">🎬</span>
+        <span class="cs-label">Próximo vídeo</span>
+      </div>
+
+      <div class="cs-card">
+        <span class="cs-icon">🎬</span>
+        <span class="cs-label">Próximo vídeo</span>
+      </div>
+
+      <div class="cs-card">
+        <span class="cs-icon">🎬</span>
+        <span class="cs-label">Próximo vídeo</span>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Fenice IT Justech.IA. Todos os direitos reservados. Developed by Ramão Bueno da Silva Neto / Tech Lead</p>
+  </footer>
+
+</body>
+</html>

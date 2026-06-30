@@ -1888,7 +1888,7 @@
       <input id="lead-nome" type="text" placeholder="Seu nome completo *" required maxlength="120"
              class="lead-input">
       <input id="lead-telefone" type="tel" placeholder="WhatsApp: (XX) XXXXX-XXXX *" required
-             class="lead-input" maxlength="16" autocomplete="tel">
+             class="lead-input" maxlength="15" autocomplete="tel">
       <input id="lead-email" type="email" placeholder="E-mail profissional *" required
              class="lead-input">
       <input id="lead-empresa" type="text" placeholder="Escritório ou empresa (opcional)" maxlength="120"
@@ -3062,7 +3062,8 @@
   // Mascara telefone: (XX) XXXXX-XXXX
   document.getElementById('lead-telefone').addEventListener('input', function () {
     let v = this.value.replace(/\D/g, '').substring(0, 11);
-    if (v.length > 6) v = '(' + v.substring(0,2) + ') ' + v.substring(2,7) + '-' + v.substring(7);
+    if (v.length > 7) v = '(' + v.substring(0,2) + ') ' + v.substring(2,7) + '-' + v.substring(7);
+    else if (v.length > 6) v = '(' + v.substring(0,2) + ') ' + v.substring(2,7);
     else if (v.length > 2) v = '(' + v.substring(0,2) + ') ' + v.substring(2);
     else if (v.length > 0) v = '(' + v;
     this.value = v;

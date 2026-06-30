@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fenice IT — Modal WhatsApp Preview</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: linear-gradient(135deg, #0d2020 0%, #1a3838 50%, #0d2020 100%);
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; padding: 24px;
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  .phone {
+    background: #fff; border-radius: 26px; overflow: hidden;
+    width: 360px; box-shadow: 0 28px 70px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.05);
+  }
+  /* ---- Header WhatsApp ---- */
+  .wpp-header {
+    background: linear-gradient(90deg, #0d3b38 0%, #1a5c54 100%);
+    padding: 11px 14px; display: flex; align-items: center; gap: 10px;
+  }
+  .avatar {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: linear-gradient(135deg, #c9a84c, #f0d070);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; color: #0d3b38; font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  .header-info .name { color: #ffffff; font-size: 14px; font-weight: 600; }
+  .header-info .status { color: #a0e6b4; font-size: 11px; }
+  /* ---- Chat background ---- */
+  .chat-bg {
+    background: #e5ddd5;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c8b8a2' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    padding: 16px 12px; min-height: 460px;
+  }
+  /* ---- Balão ---- */
+  .bubble {
+    background: #ffffff;
+    border-radius: 12px 12px 12px 4px;
+    padding: 13px 14px 9px;
+    max-width: 318px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+    font-size: 13.5px; line-height: 1.55;
+  }
+  /* ---- Cabeçalho do balão ---- */
+  .bubble-head {
+    text-align: center;
+    border-bottom: 1px solid #ede5d8;
+    padding-bottom: 9px; margin-bottom: 10px;
+  }
+  .bubble-head .brand {
+    font-size: 13.5px; font-weight: 700; color: #0d3b38;
+    letter-spacing: 0.2px;
+  }
+  .bubble-head .tagline {
+    font-size: 11px; color: #888; font-style: italic; margin-top: 2px;
+  }
+  .bubble-head .est {
+    font-size: 10px; color: #aaa; font-style: italic; margin-top: 1px;
+  }
+  /* ---- Saudação ---- */
+  .saudacao { color: #2a2a2a; margin-bottom: 10px; font-size: 13.5px; }
+  .saudacao b { color: #0d3b38; }
+  .saudacao i { color: #555; font-size: 13px; }
+  /* ---- Separador ---- */
+  .sep { border: none; border-top: 1px solid #ede5d8; margin: 8px 0; }
+  /* ---- Menu ---- */
+  .menu-list { display: flex; flex-direction: column; gap: 5px; margin: 4px 0; }
+  .menu-item {
+    display: flex; align-items: center; gap: 9px;
+    padding: 5px 5px; border-radius: 8px;
+  }
+  /* Badge numerado */
+  .num-badge {
+    background: linear-gradient(135deg, #0d3b38, #1a5c54);
+    color: #c9a84c;
+    font-weight: 800; font-size: 12px;
+    width: 22px; height: 22px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; box-shadow: 0 1px 3px rgba(13,59,56,0.3);
+  }
+  /* Quadro de ícone — dimensão fixa igual para todos os itens */
+  .icon-box {
+    width: 44px; height: 44px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; overflow: hidden;
+  }
+  .icon-box.tim   { background: #fff; border: 1px solid #ddd; padding: 4px; }
+  .icon-box.jur   { background: linear-gradient(135deg, #f5edcc, #e8d598); }
+  .icon-box.obs   { background: linear-gradient(135deg, #ffeaf4, #ffc8e6); }
+  /* Imagem TIM — cabe no quadrado 44×44 */
+  .logo-tim { width: 100%; height: 100%; object-fit: fill; display: block; border-radius: 4px; }
+  /* Emoji jurídico */
+  .emoji-jur { font-size: 22px; line-height: 1; }
+  /* Imagem Observatório */
+  .logo-obs { width: 44px; height: 44px; object-fit: cover; display: block; }
+  /* Label */
+  .item-label { color: #1a1a1a; font-size: 13.5px; font-weight: 500; }
+  /* ---- Footer do balão ---- */
+  .bubble-footer {
+    border-top: 1px solid #ede5d8;
+    margin-top: 9px; padding-top: 7px;
+  }
+  .hint { font-size: 11.5px; color: #999; font-style: italic; }
+  .copy-line {
+    font-size: 11px; color: #0d3b38; font-weight: 700;
+    margin-top: 3px; letter-spacing: 0.2px;
+  }
+  .bubble-time { text-align: right; font-size: 11px; color: #aaa; margin-top: 5px; }
+  /* ---- Barra de input ---- */
+  .input-bar {
+    background: #f0f2f0; padding: 10px 12px;
+    display: flex; align-items: center; gap: 8px;
+    border-top: 1px solid #ddd;
+  }
+  .input-field {
+    flex: 1; background: #fff; border-radius: 22px;
+    padding: 9px 14px; font-size: 13px; color: #aaa;
+    border: 1px solid #e8e8e8;
+  }
+  .mic-btn {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: linear-gradient(135deg, #25d366, #128c49);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 8px rgba(37,211,102,0.45); flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+<div class="phone">
+
+  <!-- Header -->
+  <div class="wpp-header">
+    <div class="avatar">F</div>
+    <div class="header-info">
+      <div class="name">Fenice IT &middot; Justech.IA</div>
+      <div class="status">online</div>
+    </div>
+  </div>
+
+  <!-- Chat -->
+  <div class="chat-bg">
+    <div class="bubble">
+
+      <!-- Cabeçalho -->
+      <div class="bubble-head">
+        <div class="brand">🏛️ ⚖️ FENICE IT &middot; Justech.IA ⚖️ 🏛️</div>
+        <div class="tagline">Filosofia e Direito &middot; Sabedoria e Justiça</div>
+        <div class="est">Est. MCMLXII</div>
+      </div>
+
+      <!-- Saudação -->
+      <div class="saudacao">
+        Olá! Sou o <b>Téo</b> 🤖<br>
+        <i>Intelligence Concierge</i> da Fenice IT.<br>
+        Em que posso ajudá-lo(a) hoje?
+      </div>
+
+      <hr class="sep">
+
+      <!-- Menu -->
+      <div class="menu-list">
+
+        <!-- 1. TIM -->
+        <div class="menu-item">
+          <div class="num-badge">1</div>
+          <div class="icon-box tim" style="background:#003087; flex-direction:column; gap:1px;"><span style="color:#fff;font-weight:900;font-size:13px;letter-spacing:1px;line-height:1">TIM</span></div>
+          <span class="item-label">TIM Br.</span>
+        </div>
+
+        <!-- 2. Jurídico -->
+        <div class="menu-item">
+          <div class="num-badge">2</div>
+          <div class="icon-box jur">
+            <span class="emoji-jur">⚖️</span>
+          </div>
+          <span class="item-label">Estude Ciências Jurídicas</span>
+        </div>
+
+        <!-- 3. Observatório -->
+        <div class="menu-item">
+          <div class="num-badge">3</div>
+          <div class="icon-box obs" style="background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAIAAACR5s1WAAABC2lDQ1BJQ0MgUHJvZmlsZQAAeJyVkLFOwlAUhr+LJILBOMjAwNCBgUWCDsaBCYaGzRRJKE5tKV2gbW5rfAHZGFjZiItvIK/ghomJg5OPQEh0NtdqysLAmb785885/zkgXgCydRj7sTT0ptYz+9rhJwKhOmA5UcjuEvD9nnjfzti/8gM3coA1UJE9sw+iCBS9hKuK7YQbiu/jMAZxrVjeGC0QA6DqbbG9xU4olX8KNMajO7XrLzcF1+92gBxQJsJAp6nuTyzBI1x9wcEs1ew5LCdQ+ki1ygJOHuB5lWrpT0JLWr9SFsgMh7B5gmMTTl/h6Pb/ETuyqXlldAICPEa4aLTxcaihcUGdcy5/AKbWPz8bOFjoAAADZ0lEQVR4nO2Wy2sbVxTGz7mjx2gsjayxJUey7NgkkJY4oYkb1XZpCJR4k7hQShbuHxBooZtSuiilq0A3JZuk7a7QTSCPRYrTkBCyaHFI0kaWOtDGIbVryUiyPbI1lqKxHnPnlpGtvSbxEBn0W9/hfPOde75zkTEGrxsCbQCBNoBAG0CgDSDQBhBoAwi0AQTaAAJ7UQTbCdhmzu5G4OLei21KDU2rAKP1rSXGdAZMyxZqLyqv+COtimCNOut5dfY3mSFspi9XSzIA/vfD/dLTHCIwg9kuAhEBQBD4vFLYVOu8b4hWlxgFEFxOUWic2FFrowhaqwOA1+sRfV25XMmJNarn9IJurJe5LudOddMttEUEazSivLyxcO0xIEq9vvl/MoYz6PUIJUUlkuAMmE4woIBY31KZ6c9ui0A0J8g72EuV0tpM0rcvrGTX8ovV29mexNyC2NftEHiDUkIc63/fUf6aMc2weFFbagcCECc3eC62ejMpxWcnhuO/lvv/nRGpUr49EgBdIRyXe/BT4em94NGzL9GRVnOCMYaIC/Lynfnf84HoQE4YlNOpycD7+++Vtyb4Yg0Xrkc+vMh3RxijiJxt08FY+OgArwxPzqyNKKnnp3vOHX6QSR2WH1dp6q703qeu7ohBdasKLIYVAwFgKpOPRGoPx7sOBJLZdCilHIwFHgaHRroPniQAhHNYVWBNBGtQ2Se9iNQLrFLU3kkvht6Fn11O3AyfTqeWbly7urq60jhp2CUCCSLi4Ecx3iP0uV3ZFe/ys/itR88S9SPnP/kskZj78ftL33z91UssNSuxjaiq6pXZ65louC+lPfrl28Bbb19JMp3zfzw9TTjuzNQHhw69MRePE0Is7cVWW8ga05HNZr67cOHY8dFQKKRurKgbq5OnJgxa9Yo+OZEIhkK8x5NMzB0fHbVxldeq1S+/+NzN8+PjE6JflGVZ07RwOFyrVPujA/uHhvqjUUmSLCmw4ASYw8FcbndsbCz+5M/Y2Nhmsehy89FoVOrpEX0ivAKtOqGXtOIf84SQdGqRI5zUG/T7/Q6Hg1KqNzBXuZnwBhG7fCfeJGhPYoJuADB0NszTDWrQ7b1tzoxZcrusKQUcHNr6vGPbn8FuYjngEHafvfnkt4OOiCYdJ5p0nGjScaJJxwnY4X+QKoPJZs4XagAAAABJRU5ErkJggg==');background-size:cover;background-position:center;"></div>
+          <span class="item-label">Observatório da Mulher SFS</span>
+        </div>
+
+        <div class="menu-item">
+          <div class="icon-box" style="background: linear-gradient(135deg, #e8f4e8, #c8e6c9);">
+            <span class="emoji-jur">👤</span>
+          </div>
+          <span class="item-label">Interagir direto especialista</span>
+        </div>
+
+      </div>
+
+      <hr class="sep">
+
+      <!-- Footer -->
+      <div class="bubble-footer">
+        <div class="hint">Digite o número e pressione enviar</div>
+        <div class="copy-line">© 2026 Fenice IT &middot; Justech.IA</div>
+      </div>
+      <div class="bubble-time">09:37 ✓✓</div>
+    </div>
+    <div class="input-bar">
+      <div class="input-field">Digite uma mensagem</div>
+      <div class="mic-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18">
+          <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
+          <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+      </svg>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

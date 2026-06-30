@@ -101,7 +101,7 @@
             },
             {
               "name": "text",
-              "value": "={{ '*Novo Lead* - Fenice IT\\n\\n*Nome:* ' + $json.nome + '\\n*WhatsApp:* +' + $json.telefone + '\\n*E-mail:* ' + $json.email + '\\n*Empresa:* ' + ($json.empresa || '-') + '\\n*Assunto:* ' + $json.interesseLabel + '\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+              "value": "={{ '*Novo Lead* - Fenice IT\\n\\n*Nome:* ' + $json.nome + '\\n*WhatsApp:* +' + $json.telefone + '\\n*E-mail:* ' + $json.email + '\\n*Empresa:* ' + ($json.empresa || '-') + '\\n*Assunto:* ' + $json.interesseLabel + '\\n\\n© 2026 Fenice IT Justech.IA' }}"
             }
           ]
         },
@@ -169,7 +169,7 @@
             },
             {
               "name": "text",
-              "value": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nSou o *Teo*, assistente da *Fenice IT*.\\n\\nVi que voce tem interesse em *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*\\n\\n*Voce sabia?*\\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\\n\\nPosso te contar mais? E so responder aqui!\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+              "value": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nSou o *Teo*, assistente da *Fenice IT*.\\n\\nVi que voce tem interesse em *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*\\n\\n*Voce sabia?*\\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\\n\\nPosso te contar mais? E so responder aqui!\\n\\n© 2026 Fenice IT Justech.IA' }}"
             }
           ]
         },

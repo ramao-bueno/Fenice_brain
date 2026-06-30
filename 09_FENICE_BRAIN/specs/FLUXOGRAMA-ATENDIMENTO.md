@@ -131,7 +131,7 @@ novo lead       base atual     fidelização
   │                                    │
   ▼                                    ▼
 E-mail admin                   POST N8N_WEBHOOK_URL
-fenice_tech@fenicejustech...   feniceit.app.n8n.cloud/webhook/fenice-tim-v2
+fenice_tech@fenice.ia.br...   feniceit.app.n8n.cloud/webhook/fenice-tim-v2
 smtp.office365.com:587         payload: { evento:"novo_lead", ... }
 ⚠️ FALTA: SMTP_PASS            ❌ NÃO EXISTE nó no N8N p/ novo_lead
   │
@@ -175,7 +175,7 @@ ao prospect
 ---
 
 ### GAP 4 — E-mail Inbound (BAIXA PRIORIDADE por ora)
-> Clientes que enviam e-mail para `fenice_tech@fenicejustech.onmicrosoft.com` não são processados automaticamente.
+> Clientes que enviam e-mail para `fenice_tech@fenice.ia.br.onmicrosoft.com` não são processados automaticamente.
 
 **Sugestão futura:** webhook Office365 → N8N → mesmo IVR.
 

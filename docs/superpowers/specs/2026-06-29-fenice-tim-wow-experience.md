@@ -194,7 +194,7 @@ _Lead salvo no Supabase · área: {interesse}_
 
 **Nó 4 — E-mail ao prospect (Microsoft 365)**
 - SMTP: `smtp.office365.com:587` (STARTTLS)
-- De: `Fenice_tech@FeniceJusTech.onmicrosoft.com`
+- De: `fenice_tech@fenice.ia.br`
 - Para: `{email}`
 - Assunto: `Fenice IA recebeu seu contato, {primeiro_nome}!`
 - Corpo:
@@ -272,7 +272,7 @@ REGRAS DE ATENDIMENTO FENICE TIM:
 
 | Variável | Valor |
 |---|---|
-| SMTP User | `Fenice_tech@FeniceJusTech.onmicrosoft.com` |
+| SMTP User | `fenice_tech@fenice.ia.br` |
 | SMTP Pass | `170962Ra@` |
 | SMTP Host | `smtp.office365.com` |
 | SMTP Port | `587` |

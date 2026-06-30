@@ -13,7 +13,7 @@
 - WhatsApp: sempre via Evolution API `https://evolution-api-9fbw.srv1784289.hstgr.cloud` — NUNCA via AvisaAPI
 - Instância Evolution: `fenice-tim` | ApiKey: `XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7`
 - Bot admin WhatsApp: `5547991041414` (recebe notificação) | Admin pessoal: `554797348385`
-- SMTP: `smtp.office365.com:587` | User: `Fenice_tech@FeniceJusTech.onmicrosoft.com` | Pass: `170962Ra@`
+- SMTP: `smtp.office365.com:587` | User: `fenice_tech@fenice.ia.br` | Pass: `170962Ra@`
 - Supabase URL: `https://qcfdssnpjzvjbvemhrik.supabase.co`
 - N8N Cloud: `feniceit.app.n8n.cloud`
 - BOT_SIGS obrigatório em toda msg do bot: `["🏛️", "© 2026", "👤 *Atendimento", "Atendimento encerrado"]`
@@ -483,7 +483,7 @@ Criar o arquivo com o seguinte conteúdo:
     },
     {
       "parameters": {
-        "fromEmail": "Fenice_tech@FeniceJusTech.onmicrosoft.com",
+        "fromEmail": "fenice_tech@fenice.ia.br",
         "toEmail": "={{ $('4. Extrair WOW Insight').item.json.email }}",
         "subject": "={{ 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!' }}",
         "emailType": "text",
@@ -626,7 +626,7 @@ Aguardar `Production: https://fenice.ia.br` na saída.
    - Host: `smtp.office365.com`
    - Port: `587`
    - SSL: `STARTTLS`
-   - User: `Fenice_tech@FeniceJusTech.onmicrosoft.com`
+   - User: `fenice_tech@fenice.ia.br`
    - Password: `170962Ra@`
    - Nome da credencial: `Fenice Office365`
 3. Salvar e testar conexão

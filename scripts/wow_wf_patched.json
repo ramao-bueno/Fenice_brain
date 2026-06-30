@@ -226,7 +226,7 @@
       "continueOnFail": true,
       "parameters": {
         "method": "POST",
-        "url": "https://graph.microsoft.com/v1.0/users/Fenice_tech@FeniceJusTech.onmicrosoft.com/sendMail",
+        "url": "https://graph.microsoft.com/v1.0/users/fenice_tech@fenice.ia.br/sendMail",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -488,7 +488,7 @@
       },
       {
         "parameters": {
-          "fromEmail": "Fenice_tech@FeniceJusTech.onmicrosoft.com",
+          "fromEmail": "fenice_tech@fenice.ia.br",
           "toEmail": "={{ $('4. Extrair WOW Insight').item.json.email }}",
           "subject": "={{ 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!' }}",
           "emailType": "text",

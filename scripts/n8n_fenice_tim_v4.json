@@ -2494,6 +2494,64 @@
         "id": "8fb66ca0-1f1e-4c7b-8002-04c2ca7173d9"
       },
       {
+        "name": "16a. Enviar Boas-vindas Área",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1700,
+          820
+        ],
+        "parameters": {
+          "jsCode": "const dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, areaAtual } = dados;\n\nconst BOAS_VINDAS = {\n  b2b: `*Bem-vindo à área B2B Corporativo!* 🏢\\n\\nAqui ofertamos soluções enterprise de pesquisa jurídica e IA para escritórios e empresas.\\n\\nComo posso ajudar?\\n\\n🔗 Saiba mais: https://fenice.ia.br`,\n  juridico: `*Bem-vindo à área de Consultoria Jurídica!* ⚖️\\n\\nAqui você pode tirar dúvidas sobre direito brasileiro, legislação, análise de documentos e muito mais.\\n\\n📚 Base: CC, CLT, CP, CF/88, CDC, Súmulas STJ/STF\\n\\nComo posso ajudá-lo(a)?\\n\\n🔗 Aprofunde na plataforma: https://fenice.ia.br`,\n  observatorio: `*Bem-vindo ao Observatório da Mulher SFS!* 👁️\\n\\n📞 *EMERGÊNCIA? Disque 190 ou 180 imediatamente*\\n\\nAqui oferecemos suporte jurídico e informações sobre proteção feminina segundo a Lei Maria da Penha (11.340/2006).\\n\\nEm que posso ajudar?\\n\\n🔗 Saiba mais: https://observatorio-da-mulher-sfs.com.br`\n};\n\nconst mensagem = BOAS_VINDAS[areaAtual] || BOAS_VINDAS.juridico;\n\nreturn [{ json: { numero, nome, areaAtual, mensagem } }];"
+        },
+        "id": "16a-boas-vindas-uuid"
+      },
+      {
+        "name": "16b. Enviar Boas-vindas (Evolution API)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1920,
+          820
+        ],
+        "continueOnFail": true,
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ $json.mensagem + '\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 12000
+          }
+        },
+        "id": "16b-send-uuid"
+      },
+      {
         "name": "9c. Convidar Cadastro",
         "type": "n8n-nodes-base.httpRequest",
         "typeVersion": 4.2,
@@ -2933,6 +2991,28 @@
         ]
       },
       "16. Salvar Área Escolhida (Tim)": {
+        "main": [
+          [
+            {
+              "node": "16a. Enviar Boas-vindas Área",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "16a. Enviar Boas-vindas Área": {
+        "main": [
+          [
+            {
+              "node": "16b. Enviar Boas-vindas (Evolution API)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "16b. Enviar Boas-vindas (Evolution API)": {
         "main": [
           [
             {

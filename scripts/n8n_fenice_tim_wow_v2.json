@@ -156,7 +156,7 @@
             },
             {
               "name": "text",
-              "value": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nSou o *Teo*, assistente da *Fenice IT*.\\n\\nVi que voce tem interesse em *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*\\n\\n*Voce sabia?*\\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\\n\\nPosso te contar mais? E so responder aqui!\\n\\n(C) 2026 Fenice IT Justech.IA' }}"
+              "value": "={{ 'Olá, Dr. ' + $('4. Extrair WOW Insight').item.json.primeiroNome + ', aqui é o Téo — Fenice IT.\n\nAgradecemos e registramos seu contato com sucesso em nossa plataforma Fenice bRain.\n\nSobre *' + $('4. Extrair WOW Insight').item.json.interesseLabel + '*, sabia que:\n' + $('4. Extrair WOW Insight').item.json.wowInsight + '\n\nFicamos à sua disposição para quaisquer dúvidas inerentes aos nossos temas, organizadas com o auxílio das maiores plataformas de IA — Claude Anthropic e Open IA.\n\nPode nos chamar aqui quando quiser! 🎯\n\n👤 *Teo — Intelligence Concierge*\n© 2026 Fenice IT Justech.IA' }}"
             }
           ]
         },

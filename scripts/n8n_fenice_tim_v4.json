@@ -1907,6 +1907,104 @@
       },
       {
         "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "text",
+                "value": "⏱️ *Por falta de interação estamos encerrando o atendimento.*\n\nCaso queira retomar a conversa, digite: *retomar*\n\n👤 *Teo — Intelligence Concierge*\n© 2026 Fenice IT Justech.IA"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 12000
+          }
+        },
+        "name": "5c. Enviar MSG Inatividade",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1040,
+          350
+        ],
+        "continueOnFail": true,
+        "id": "5c-inatividade-uuid"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Prefer",
+                "value": "resolution=merge-duplicates,return=minimal"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "numero",
+                "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+              },
+              {
+                "name": "estagio",
+                "value": "inativo"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 8000
+          }
+        },
+        "name": "5d. Marcar como Inativo",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1260,
+          350
+        ],
+        "continueOnFail": true,
+        "id": "5d-marcar-inativo-uuid"
+      },
+      {
+        "parameters": {
           "jsCode": "// Busca contato no Supabase — SEMPRE retorna 1 item com { contatos: [...] }\nconst dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst { numero } = dadosMsg;\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\n\nlet contatos = [];\ntry {\n  const resp = await this.helpers.httpRequest({\n    method: 'GET',\n    url: `${SUPA_URL}/rest/v1/fenice_tim_contatos?numero=eq.${numero}&limit=1`,\n    headers: { 'apikey': SUPA_KEY, 'Authorization': `Bearer ${SUPA_KEY}` }\n  });\n  contatos = Array.isArray(resp) ? resp : [];\n} catch(e) {\n  contatos = [];\n}\n\nreturn [{ json: { contatos } }];"
         },
         "name": "6. Buscar Contato Tim (Supabase)",
@@ -1935,6 +2033,26 @@
         "parameters": {
           "rules": {
             "values": [
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "inatividade",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "inatividade"
+              },
               {
                 "conditions": {
                   "options": {
@@ -2900,6 +3018,17 @@
           ]
         ]
       },
+      "5c. Enviar MSG Inatividade": {
+        "main": [
+          [
+            {
+              "node": "5d. Marcar como Inativo",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
       "5a. Enviar MSG PARAR": {
         "main": [
           [
@@ -2974,6 +3103,13 @@
             {
               "type": "main",
               "node": "9d. Processar Cadastro",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "type": "main",
+              "node": "5c. Enviar MSG Inatividade",
               "index": 0
             }
           ]

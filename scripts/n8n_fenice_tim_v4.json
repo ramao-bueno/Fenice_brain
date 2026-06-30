@@ -493,7 +493,7 @@
             },
             {
               "name": "mediaurl",
-              "value": "file:///C:/Fenice_bRain/scripts/modal_img_1_tim.jpeg"
+              "value": "https://fenice.ia.br/modal/1_tim.jpg"
             }
           ]
         },
@@ -541,7 +541,7 @@
             },
             {
               "name": "mediaurl",
-              "value": "file:///C:/Fenice_bRain/scripts/modal_img_2_estude.jpeg"
+              "value": "https://fenice.ia.br/modal/2_estude.jpg"
             }
           ]
         },
@@ -589,7 +589,7 @@
             },
             {
               "name": "mediaurl",
-              "value": "file:///C:/Fenice_bRain/scripts/modal_img_3_observatorio.jpeg"
+              "value": "https://fenice.ia.br/modal/3_observatorio.jpg"
             }
           ]
         },
@@ -637,7 +637,7 @@
             },
             {
               "name": "mediaurl",
-              "value": "file:///C:/Fenice_bRain/scripts/modal_img_0_especialista.jpeg"
+              "value": "https://fenice.ia.br/modal/0_especialista.jpg"
             }
           ]
         },

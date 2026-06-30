@@ -445,7 +445,7 @@
             },
             {
               "name": "text",
-              "value": "👤 *Teo — Intelligence Concierge* 🤖\n\nOlá! Sou o Téo, Intelligence Concierge da Fenice IT.\n\nEm que posso ajudá-lo(a) hoje?\n\n1️⃣ TIM Br.\n2️⃣ Estude Ciências Jurídicas\n3️⃣ Observatório da Mulher SFS\n👤 Interagir direto com especialista\n\nDigite o número e pressione enviar.\n\n© 2026 Fenice IT · Justech.IA"
+              "value": "👤 *Teo — Intelligence Concierge* 🤖\n\nOlá! Sou o Téo, Intelligence Concierge da Fenice IT.\n\nEm que posso ajudá-lo(a) hoje?\n\nEscolha uma opção abaixo:"
             }
           ]
         },
@@ -461,6 +461,198 @@
         160
       ],
       "id": "b1b35acf-6b92-491a-b924-25f33ac0355c"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "caption",
+              "value": "1️⃣ *TIM Br.*"
+            },
+            {
+              "name": "mediaurl",
+              "value": "file:///C:/Fenice_bRain/scripts/modal_img_1_tim.jpeg"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9a-img1. Imagem TIM",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1900,
+        160
+      ],
+      "id": "img1-tim-uuid"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "caption",
+              "value": "2️⃣ *Estude Ciências Jurídicas*"
+            },
+            {
+              "name": "mediaurl",
+              "value": "file:///C:/Fenice_bRain/scripts/modal_img_2_estude.jpeg"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9a-img2. Imagem Estude",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2100,
+        160
+      ],
+      "id": "img2-estude-uuid"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "caption",
+              "value": "3️⃣ *Observatório da Mulher SFS*"
+            },
+            {
+              "name": "mediaurl",
+              "value": "file:///C:/Fenice_bRain/scripts/modal_img_3_observatorio.jpeg"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9a-img3. Imagem Observatório",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2300,
+        160
+      ],
+      "id": "img3-obs-uuid"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "caption",
+              "value": "👤 *Interagir direto com especialista*"
+            },
+            {
+              "name": "mediaurl",
+              "value": "file:///C:/Fenice_bRain/scripts/modal_img_0_especialista.jpeg"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9a-img0. Imagem Especialista",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2500,
+        160
+      ],
+      "id": "img0-esp-uuid"
     },
     {
       "parameters": {

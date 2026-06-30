@@ -1,5 +1,21 @@
 # Fenice bRain — Referências Rápidas
 
+## Personas e Cargos — OBRIGATÓRIO
+
+| Pessoa | Cargo | Regra |
+|---|---|---|
+| **Ramão Bueno** | Tech Lead — Fenice IT | Dono do projeto |
+| **Téo** | Intelligence Concierge | Bot WhatsApp fenice-tim — NUNCA chamar de "assistente", "bot" ou "IA" |
+
+**Assinatura obrigatória do Téo em toda mensagem:**
+`👤 *Teo — Intelligence Concierge*`
+`© 2026 Fenice IT Justech.IA`
+
+**Regra de nomenclatura:** Nunca escrever só "IA" em copy/mensagens externas.
+Usar sempre: *"com o auxílio das maiores plataformas de IA — CLAUDE & Open IA"*
+
+---
+
 ## Obsidian — Atalhos
 
 | Atalho | Função |

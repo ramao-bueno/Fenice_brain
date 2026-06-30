@@ -12,7 +12,7 @@
 
 - WhatsApp: sempre via Evolution API `https://evolution-api-9fbw.srv1784289.hstgr.cloud` — NUNCA via AvisaAPI
 - Instância Evolution: `fenice-tim` | ApiKey: `XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7`
-- Bot admin WhatsApp: `5521967531414` (recebe notificação) | Admin pessoal: `554797348385`
+- Bot admin WhatsApp: `5547991041414` (recebe notificação) | Admin pessoal: `554797348385`
 - SMTP: `smtp.office365.com:587` | User: `Fenice_tech@FeniceJusTech.onmicrosoft.com` | Pass: `170962Ra@`
 - Supabase URL: `https://qcfdssnpjzvjbvemhrik.supabase.co`
 - N8N Cloud: `feniceit.app.n8n.cloud`
@@ -469,7 +469,7 @@ Criar o arquivo com o seguinte conteúdo:
         "contentType": "json",
         "bodyParameters": {
           "parameters": [
-            { "name": "number", "value": "5521967531414" },
+            { "name": "number", "value": "5547991041414" },
             { "name": "text",   "value": "={{ '🏛️ *Novo Lead — Fenice IT*\\n\\n👤 *Nome:* ' + $json.nome + '\\n📱 *WhatsApp:* +' + $json.telefone + '\\n📧 *E-mail:* ' + $json.email + '\\n🏢 *Empresa:* ' + ($json.empresa || '—') + '\\n💼 *Assunto:* ' + $json.interesseLabel + ($json.descricaoOutros ? '\\n📝 *Detalhe:* ' + $json.descricaoOutros : '') + '\\n\\n_Lead salvo no Supabase · área: ' + $json.interesse + '_\\n© 2026 Fenice IT · Justech.IA' }}"
           ]
         },
@@ -648,7 +648,7 @@ Abrir `https://fenice.ia.br` e preencher o formulário com dados reais:
 - Assunto: `Consultoria Jurídica`
 
 Verificar em < 60 segundos:
-- [ ] Admin recebe WhatsApp em `5521967531414` com os dados do lead
+- [ ] Admin recebe WhatsApp em `5547991041414` com os dados do lead
 - [ ] Lead recebe WhatsApp proativo em `5547991041414` com WOW insight do Groq
 - [ ] Lead recebe e-mail de confirmação em `oiconsulbrasil@gmail.com`
 - [ ] Lead salvo no Supabase: `fenice_tim_contatos` com `area=juridico, estagio=lead_site`

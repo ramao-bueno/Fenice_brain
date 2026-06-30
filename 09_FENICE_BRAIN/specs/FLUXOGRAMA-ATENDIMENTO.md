@@ -25,7 +25,7 @@ tags:
 │                     CANAIS DE ENTRADA                           │
 │                                                                 │
 │   📱 WhatsApp                    🌐 Site fenice.ia.br           │
-│   (5521967531414)                (formulário /contato)          │
+│   (5547991041414)                (formulário /contato)          │
 │         │                                │                      │
 │         ▼                                ▼                      │
 │   Evolution API              POST /leads (FastAPI)              │

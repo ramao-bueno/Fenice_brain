@@ -47,7 +47,7 @@ de contratar qualquer serviço.
         ▼
 [N8N — workflow fenice-leads (NOVO)]
         ├── Nó A: Groq gera WOW insight (dica sobre o assunto do lead)
-        ├── Nó B: WhatsApp admin (5521967531414) via Evolution API
+        ├── Nó B: WhatsApp admin (5547991041414) via Evolution API
         ├── Nó C: E-mail confirmação ao prospect (Microsoft 365 SMTP)
         └── Nó D: WhatsApp proativo ao lead com WOW insight (Evolution API)
                         │ (quando lead responde)
@@ -176,7 +176,7 @@ Formato: apenas o insight, sem introdução.
 - Output: `wow_insight` (string)
 
 **Nó 3 — WhatsApp admin (notificação)**
-- Para: `5521967531414` via Evolution API
+- Para: `5547991041414` via Evolution API
 - Mensagem:
 ```
 🏛️ *Novo Lead — Fenice IT*

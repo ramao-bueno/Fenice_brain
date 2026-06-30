@@ -1,0 +1,136 @@
+{
+  "name": "Fenice Tim - Modal Preview (N8N Integration)",
+  "description": "Envia preview do modal Téo Intelligence Concierge via WhatsApp corporativo",
+  "tags": ["modal", "teo", "whatsapp"],
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "modal-preview",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "name": "1. Webhook - Trigger Modal",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [160, 400],
+      "id": "webhook-modal",
+      "webhookId": "modal-preview-trigger"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Preparar dados para envio do modal\nconst body = $input.first().json.body || $input.first().json;\nconst numero = body?.numero || '5547991041414'; // padrão: bot fenice-tim\nconst nome = body?.nome || 'Prospect';\nconst email = body?.email || '';\nconst tema = body?.tema || 'geral';\n\nreturn [{ json: { \n  numero, \n  nome, \n  email, \n  tema,\n  timestamp: new Date().toISOString(),\n  source: 'modal-integration'\n} }];"
+      },
+      "name": "2. Extrair Dados",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [380, 400],
+      "id": "extract-data"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "{\n  \"number\": \"{{ $json.numero }}\",\n  \"text\": \"👤 *Teo — Intelligence Concierge* 🤖\\n\\nOlá! Sou o Téo, Intelligence Concierge da Fenice IT.\\n\\nEm que posso ajudá-lo(a) hoje?\\n\\n1️⃣ TIM Br.\\n2️⃣ Estude Ciências Jurídicas\\n3️⃣ Observatório da Mulher SFS\\n👤 Interagir direto com especialista\\n\\nDigite o número e pressione enviar.\\n\\n© 2026 Fenice IT · Justech.IA\"\n}",
+        "options": {
+          "timeout": 10000
+        }
+      },
+      "name": "3. Enviar Modal via Evolution API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [600, 400],
+      "id": "send-modal"
+    },
+    {
+      "parameters": {
+        "jsCode": "const resultado = $input.first().json;\nconst status = resultado?.statusCode || resultado?.status || 'unknown';\nconst sucesso = [200, 201].includes(status);\n\nreturn [{ json: { \n  sucesso,\n  status,\n  numero: $('2. Extrair Dados').first().json.numero,\n  timestamp: new Date().toISOString(),\n  message: sucesso ? 'Modal enviado com sucesso!' : 'Erro ao enviar modal'\n} }];"
+      },
+      "name": "4. Validar Resposta",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [820, 400],
+      "id": "validate-response"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Registrar no Supabase\nconst dados = $('2. Extrair Dados').first().json;\nconst resultado = $input.first().json;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\n\nconst supaBody = {\n  numero: dados.numero,\n  nome: dados.nome,\n  email: dados.email,\n  tema: dados.tema,\n  tipo_envio: 'modal_preview',\n  sucesso: resultado.sucesso,\n  timestamp: dados.timestamp\n};\n\nreturn [{ json: supaBody }];"
+      },
+      "name": "5. Preparar Registro Supabase",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1040, 400],
+      "id": "prepare-supabase"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/modal_preview_log",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "name": "6. Registrar em Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1260, 400],
+      "id": "log-supabase",
+      "continueOnFail": true
+    }
+  ],
+  "connections": {
+    "1. Webhook - Trigger Modal": {
+      "main": [[{ "node": "2. Extrair Dados", "type": "main", "index": 0 }]]
+    },
+    "2. Extrair Dados": {
+      "main": [[{ "node": "3. Enviar Modal via Evolution API", "type": "main", "index": 0 }]]
+    },
+    "3. Enviar Modal via Evolution API": {
+      "main": [[{ "node": "4. Validar Resposta", "type": "main", "index": 0 }]]
+    },
+    "4. Validar Resposta": {
+      "main": [[{ "node": "5. Preparar Registro Supabase", "type": "main", "index": 0 }]]
+    },
+    "5. Preparar Registro Supabase": {
+      "main": [[{ "node": "6. Registrar em Supabase", "type": "main", "index": 0 }]]
+    }
+  }
+}

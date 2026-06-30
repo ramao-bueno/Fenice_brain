@@ -151,8 +151,9 @@ C:\Fenice_bRain\
 - Deploy Vercel é MANUAL — nunca fazer push automático para fenice-justech
 
 ### WhatsApp
-- Número do bot: `5521967531414` — NÃO enviar notificações aqui
+- Número do bot (produção): `5547991041414` — instância `fenice-tim-prod` — NÚMERO CORPORATIVO TÉO
 - Número de Ramão (admin): `554797348385` — notificações ao admin vão aqui
+- Número antigo `5521967531414` — DESATIVADO (instância deletada 2026-06-30)
 - Provider: Evolution API v2 (NÃO AvisaAPI — migrada e a ser cancelada)
 
 ### Embeddings (multilingual-e5-large)

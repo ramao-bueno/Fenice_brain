@@ -104,7 +104,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -364,7 +364,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -421,7 +421,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -465,7 +465,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -508,7 +508,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\nconst zapposRules = '\\n\\nREGRAS DE ATENDIMENTO FENICE TIM:\\n1. Sempre endereçar pelo primeiro nome\\n2. Nunca usar \"nao sei\" ou \"nao posso\" — sempre proximo passo\\n3. Se nao tiver a informacao: \"Deixa eu verificar — um momento!\"\\n4. Tom: inteligente, caloroso, sem juridiques\\n5. Sempre encerrar com pergunta ou proximo passo concreto';\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt + zapposRules },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
+        "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim-prod`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\nconst zapposRules = '\\n\\nREGRAS DE ATENDIMENTO FENICE TIM:\\n1. Sempre endereçar pelo primeiro nome\\n2. Nunca usar \"nao sei\" ou \"nao posso\" — sempre proximo passo\\n3. Se nao tiver a informacao: \"Deixa eu verificar — um momento!\"\\n4. Tom: inteligente, caloroso, sem juridiques\\n5. Sempre encerrar com pergunta ou proximo passo concreto';\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst geminiBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt + zapposRules },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, geminiBody, temRAG: contextoRAG.length > 0 } }];"
       },
       "name": "10. Montar Prompt por Área",
       "type": "n8n-nodes-base.code",
@@ -521,7 +521,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Debounce: aguarda 6s antes de chamar o Groq\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
+        "jsCode": "// Debounce: aguarda 6s antes de chamar o Gemini\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
       },
       "name": "10b. Aguardar 6s (debounce)",
       "type": "n8n-nodes-base.code",
@@ -543,14 +543,14 @@
         "sendBody": true,
         "contentType": "raw",
         "rawContentType": "application/json",
-        "body": "={{ $json.groqBody }}",
+        "body": "={{ $json.geminiBody }}",
         "options": {
           "timeout": 30000
         },
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "httpHeaderAuth"
       },
-      "name": "11. Groq — Resposta IA",
+      "name": "11. Gemini — Resposta IA",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
@@ -567,9 +567,9 @@
     },
     {
       "parameters": {
-        "jsCode": "const groqResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGroq = (groqResult.choices && groqResult.choices.length > 0)\n  ? groqResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGroq.includes(\"🏛️\") ? textoGroq : textoGroq + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: groqResult.model || 'llama-3.3-70b-versatile'\n  }\n}];"
+        "jsCode": "const geminiResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGemini = (geminiResult.choices && geminiResult.choices.length > 0)\n  ? geminiResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGemini.includes(\"🏛️\") ? textoGemini : textoGemini + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: geminiResult.model || 'gemini-2.5-flash'\n  }\n}];"
       },
-      "name": "12. Extrair Resposta Groq",
+      "name": "12. Extrair Resposta Gemini",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
@@ -581,7 +581,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -624,7 +624,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
+        "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Gemini').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
       },
       "name": "14. Montar Logs",
       "type": "n8n-nodes-base.code",
@@ -797,7 +797,7 @@
       "continueOnFail": true,
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -821,7 +821,7 @@
             },
             {
               "name": "text",
-              "value": "={{ 'Olá, ' + \\.nome + '! 🏛️\\n\\nPercebo que você tem aproveitado nossa conversa. ' +'Que tal ter acesso *gratuito* à plataforma Fenice?\\n\\n' +'✅ Pesquisa jurídica avançada\\n✅ Súmulas STJ e STF\\n✅ RAG de jurisprudência\\n\\n' +'Copie, complete e envie:\\n\\n' +'*nome:* \\n*e-mail:* \\n*telefone:* \\n\\n' +'👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+              "value": "={{ 'Dr(a). ' + $json.nome + ', percebo que nossa conversa tem sido produtiva! 🏛️\\n\\nPara um atendimento *personalizado e prioritário*, acesse nossa plataforma e preencha o formulário de contato:\\n\\n🔗 *fenice.ia.br*\\n\\nEm seguida, o Téo entrará em contato direto com uma análise exclusiva para o seu caso.\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
             }
           ]
         },
@@ -959,7 +959,7 @@
       "continueOnFail": true,
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -1047,7 +1047,7 @@
       "continueOnFail": true,
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -1251,25 +1251,25 @@
       "main": [
         [
           {
-            "node": "11. Groq — Resposta IA",
+            "node": "11. Gemini — Resposta IA",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "11. Groq — Resposta IA": {
+    "11. Gemini — Resposta IA": {
       "main": [
         [
           {
-            "node": "12. Extrair Resposta Groq",
+            "node": "12. Extrair Resposta Gemini",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "12. Extrair Resposta Groq": {
+    "12. Extrair Resposta Gemini": {
       "main": [
         [
           {
@@ -1385,7 +1385,7 @@
   "meta": null,
   "nodeGroups": [],
   "pinData": {
-    "Groq — Resposta Jurídica": [
+    "Gemini — Resposta Jurídica": [
       {
         "json": {
           "name": "First item",
@@ -1619,7 +1619,7 @@
       {
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -1879,7 +1879,7 @@
       {
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendMedia/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -1936,7 +1936,7 @@
       {
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -1980,7 +1980,7 @@
       {
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -2023,7 +2023,7 @@
       },
       {
         "parameters": {
-          "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst groqBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, groqBody, temRAG: contextoRAG.length > 0 } }];"
+          "jsCode": "// ── Typing indicator → RAG Supabase → Prompt Gemini ──────────────────────\nconst dados  = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, mensagem, areaAtual } = dados;\n\nconst SUPA_URL = 'https://qcfdssnpjzvjbvemhrik.supabase.co';\nconst SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I';\nconst EVO_BASE = 'https://evolution-api-9fbw.srv1784289.hstgr.cloud';\nconst EVO_KEY  = 'XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7';\n\n// ── 1. Typing indicator — usuário vê \"digitando...\" por 5 s ────────────────\ntry {\n  await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${EVO_BASE}/chat/whatsapp/presenceStatus/fenice-tim-prod`,\n    headers: { apikey: EVO_KEY, 'Content-Type': 'application/json' },\n    body: JSON.stringify({ number: numero, delay: 5000, presence: 'composing' })\n  });\n} catch(_) {}\n\n// ── 2. RAG — busca no repositório Fenice antes de chamar Gemini ────────────\nlet contextoRAG = '';\ntry {\n  const ragItems = await this.helpers.httpRequest({\n    method: 'POST',\n    url:    `${SUPA_URL}/rest/v1/rpc/buscar_legislacao`,\n    headers: {\n      apikey: SUPA_KEY,\n      Authorization: `Bearer ${SUPA_KEY}`,\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ p_query: mensagem, p_limite: 5 })\n  });\n  const items = Array.isArray(ragItems) ? ragItems : [];\n  if (items.length > 0) {\n    contextoRAG = items.map((it, i) => {\n      const id     = it.numero_ano || it.tipo_ato || '';\n      const trecho = (it.trecho_relevante || it.ementa || '').slice(0, 300);\n      return `[${i+1}] ${id}: ${trecho}`;\n    }).join('\\n');\n  }\n} catch(_) {}\n\n// ── 3. Contexto do sistema ─────────────────────────────────────────────────\nconst CONTEXTO_SISTEMA = `\nREGRAS ABSOLUTAS (obedeça sempre):\n• Você é o *Teo*, Intelligence Concierge da Fenice IT, via WhatsApp.\n• ANALISE A PERGUNTA antes de responder. Nunca responda sem compreender o que foi perguntado.\n• Tom: caloroso, respeitoso e direto. Trate SEMPRE como \"Dr.\" (homem) ou \"Dra.\" (mulher). Se não souber o gênero, use \"Dr.\". Ex: \"Dr. Ramão\" — nunca só \"Ramão\" ou \"Oi Ramão!\".\n• WhatsApp: máx 600 chars por mensagem. Sem \"Prezado\" ou \"Atenciosamente\".\n• Nunca invente leis, artigos ou jurisprudência. Se não souber → diga que pesquisa.\n• A plataforma Fenice envia e-mails automáticos pós-cadastro. Quando perguntado → confirme que o e-mail foi enviado.\n${contextoRAG\n  ? `\\nCONTEXTO JURÍDICO (base Fenice — USE COMO REFERÊNCIA PRIORITÁRIA):\\n${contextoRAG}\\n\\nSe o contexto acima cobre a pergunta, baseie sua resposta nele e cite a fonte. Se não cobrir, use seu conhecimento mas seja honesto.`\n  : '\\nResponda com base no seu conhecimento jurídico. Seja preciso e cite a base legal quando possível.'}\n`;\n\nconst SYSTEM_PROMPTS = {\n  b2b: `Assistente comercial B2B da Fenice IT Justech.IA. Soluções corporativas: API jurídica, RAG, planos enterprise. Consultivo. Demonstrou interesse real → ofereça demo: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  academico: `Assistente acadêmico da Fenice IT. Pesquisa jurídica, TCC, artigos. Base: 5685 artigos, súmulas STJ/STF. Plataforma premium: https://fenice.ia.br. Didático e preciso. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  observatorio: `Assistente do *Observatório da Mulher de São Francisco do Sul* (Fenice IT). EMERGÊNCIA → 190 ou 180 IMEDIATAMENTE. Lei Maria da Penha (11.340/2006). Site: https://observatorio-da-mulher-sfs.com.br/. Acolhedor e empático. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  api: `Assistente técnico Fenice IT para devs. API REST fenice.ia.br — /buscar (Free), /analisar /hermeneutica /tcc (Premium). Auth: X-Fenice-Key. Stack: FastAPI+Supabase+Gemini. Chaves: contato@fenice.ia.br. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  juridico: `Assistente jurídico Fenice IT Justech.IA. Direito brasileiro: CC, CLT, CP, CF/88, CDC, súmulas STJ/STF. Profissional, objetivo. Se incerto → diga que pesquisa. Cliente: ${nome}.${CONTEXTO_SISTEMA}`,\n  filosofia: `Assistente de Filosofia, Teologia e Pensamento da Fenice IT. Filosofia jurídica, hermenêutica, teologia (cristã/islâmica/judaica), ética. Reflexivo e acessível. Cite pensadores relevantes. Cliente: ${nome}.${CONTEXTO_SISTEMA}`\n};\n\nconst sistemaPrompt = SYSTEM_PROMPTS[areaAtual] || SYSTEM_PROMPTS.juridico;\n\nconst isAreaSelection = /^[0-9]$/.test(mensagem.trim());\nconst introNote = isAreaSelection\n  ? 'INSTRUÇÃO: Usuário selecionou a área com um dígito. Uma frase de boas-vindas + pergunte o que precisa. Sem listar serviços.\\n\\n'\n  : '';\n\nconst geminiBody = JSON.stringify({\n  model: 'gemini-2.5-flash',\n  messages: [\n    { role: 'system', content: introNote + sistemaPrompt },\n    { role: 'user',   content: mensagem }\n  ],\n  max_tokens: 512,\n  temperature: 0.7\n});\n\nreturn [{ json: { numero, nome, mensagem, areaAtual, geminiBody, temRAG: contextoRAG.length > 0 } }];"
         },
         "name": "10. Montar Prompt por Área",
         "type": "n8n-nodes-base.code",
@@ -2036,7 +2036,7 @@
       },
       {
         "parameters": {
-          "jsCode": "// Debounce: aguarda 6s antes de chamar o Groq\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
+          "jsCode": "// Debounce: aguarda 6s antes de chamar o Gemini\nawait new Promise(r => setTimeout(r, 6000));\nreturn $input.all();"
         },
         "name": "10b. Aguardar 6s (debounce)",
         "type": "n8n-nodes-base.code",
@@ -2058,14 +2058,14 @@
           "sendBody": true,
           "contentType": "raw",
           "rawContentType": "application/json",
-          "body": "={{ $json.groqBody }}",
+          "body": "={{ $json.geminiBody }}",
           "options": {
             "timeout": 30000
           },
           "authentication": "predefinedCredentialType",
           "nodeCredentialType": "httpHeaderAuth"
         },
-        "name": "11. Groq — Resposta IA",
+        "name": "11. Gemini — Resposta IA",
         "type": "n8n-nodes-base.httpRequest",
         "typeVersion": 4.2,
         "position": [
@@ -2082,9 +2082,9 @@
       },
       {
         "parameters": {
-          "jsCode": "const groqResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGroq = (groqResult.choices && groqResult.choices.length > 0)\n  ? groqResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGroq.includes(\"🏛️\") ? textoGroq : textoGroq + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: groqResult.model || 'llama-3.3-70b-versatile'\n  }\n}];"
+          "jsCode": "const geminiResult = $input.first().json;\nconst dadosPrompt = $('10. Montar Prompt por Área').first().json;\n\nconst textoGemini = (geminiResult.choices && geminiResult.choices.length > 0)\n  ? geminiResult.choices[0].message.content\n  : 'Nosso assistente está com alta demanda. Tente em 1 minuto ou: contato@fenice.ia.br';\n\n// Adiciona assinatura para identificar eco do bot no próximo webhook\nconst respostaAi = textoGemini.includes(\"🏛️\") ? textoGemini : textoGemini + \"\\n\\n🏛️\";\n\nreturn [{\n  json: {\n    numero: dadosPrompt.numero,\n    nome: dadosPrompt.nome,\n    mensagem: dadosPrompt.mensagem,\n    areaAtual: dadosPrompt.areaAtual,\n    respostaAi,\n    modeloAi: geminiResult.model || 'gemini-2.5-flash'\n  }\n}];"
         },
-        "name": "12. Extrair Resposta Groq",
+        "name": "12. Extrair Resposta Gemini",
         "type": "n8n-nodes-base.code",
         "typeVersion": 2,
         "position": [
@@ -2096,7 +2096,7 @@
       {
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -2139,7 +2139,7 @@
       },
       {
         "parameters": {
-          "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Groq').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
+          "jsCode": "const evoResult = $input.first().json;\nconst dadosMsg  = $('12. Extrair Resposta Gemini').first().json;\nconst dadosParser = $('2. Extrair e Normalizar').first().json;\nconst dadosAcao = $('7. Decidir Próxima Ação').first().json;\n\nconst entregue  = evoResult.key?.id ? true : false;\nconst userMsgId = dadosParser.messageId || '';\nconst msgCount  = dadosAcao.msgCount || 0;\n\nconst logBody = JSON.stringify({\n  message_id: userMsgId,\n  numero_remetente: dadosMsg.numero,\n  nome_remetente:   dadosMsg.nome,\n  mensagem_cliente: dadosMsg.mensagem,\n  resposta_ai:      dadosMsg.respostaAi,\n  modelo_ai:        dadosMsg.modeloAi,\n  provider: 'evolution',\n  canal:    'whatsapp',\n  entregue\n});\n\nconst timBody = JSON.stringify({\n  numero: dadosMsg.numero,\n  nome:   dadosMsg.nome,\n  area:   dadosMsg.areaAtual,\n  estagio: 'atendimento',\n  dados:  { msgCount },\n  ultimo_contato: new Date().toISOString()\n});\n\nreturn [{ json: { logBody, timBody, entregue, userMsgId } }];\n"
         },
         "name": "14. Montar Logs",
         "type": "n8n-nodes-base.code",
@@ -2312,7 +2312,7 @@
         "continueOnFail": true,
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -2336,7 +2336,7 @@
               },
               {
                 "name": "text",
-                "value": "={{ 'Olá, ' + \\.nome + '! 🏛️\\n\\nPercebo que você tem aproveitado nossa conversa. ' +'Que tal ter acesso *gratuito* à plataforma Fenice?\\n\\n' +'✅ Pesquisa jurídica avançada\\n✅ Súmulas STJ e STF\\n✅ RAG de jurisprudência\\n\\n' +'Copie, complete e envie:\\n\\n' +'*nome:* \\n*e-mail:* \\n*telefone:* \\n\\n' +'👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+                "value": "={{ 'Dr(a). ' + $json.nome + ', percebo que nossa conversa tem sido produtiva! 🏛️\\n\\nPara um atendimento *personalizado e prioritário*, acesse nossa plataforma e preencha o formulário de contato:\\n\\n🔗 *fenice.ia.br*\\n\\nEm seguida, o Téo entrará em contato direto com uma análise exclusiva para o seu caso.\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
               }
             ]
           },
@@ -2474,7 +2474,7 @@
         "continueOnFail": true,
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -2562,7 +2562,7 @@
         "continueOnFail": true,
         "parameters": {
           "method": "POST",
-          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
           "sendHeaders": true,
           "headerParameters": {
             "parameters": [
@@ -2766,25 +2766,25 @@
         "main": [
           [
             {
-              "node": "11. Groq — Resposta IA",
+              "node": "11. Gemini — Resposta IA",
               "type": "main",
               "index": 0
             }
           ]
         ]
       },
-      "11. Groq — Resposta IA": {
+      "11. Gemini — Resposta IA": {
         "main": [
           [
             {
-              "node": "12. Extrair Resposta Groq",
+              "node": "12. Extrair Resposta Gemini",
               "type": "main",
               "index": 0
             }
           ]
         ]
       },
-      "12. Extrair Resposta Groq": {
+      "12. Extrair Resposta Gemini": {
         "main": [
           [
             {
@@ -2912,3 +2912,4 @@
     ]
   }
 }
+

@@ -77,7 +77,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -97,7 +97,7 @@
           "parameters": [
             {
               "name": "number",
-              "value": "5521967531414"
+              "value": "554797348385"
             },
             {
               "name": "text",
@@ -145,7 +145,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [

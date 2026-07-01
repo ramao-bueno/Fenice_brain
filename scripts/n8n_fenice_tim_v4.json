@@ -236,26 +236,6 @@
                 "conditions": [
                   {
                     "leftValue": "={{ $json._acao }}",
-                    "rightValue": "inatividade",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    }
-                  }
-                ],
-                "combinator": "and"
-              },
-              "renameOutput": true,
-              "outputKey": "inatividade"
-            },
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": false
-                },
-                "conditions": [
-                  {
-                    "leftValue": "={{ $json._acao }}",
                     "rightValue": "menu_principal",
                     "operator": {
                       "type": "string",
@@ -367,6 +347,26 @@
               },
               "renameOutput": true,
               "outputKey": "processar_cadastro"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": false
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json._acao }}",
+                    "rightValue": "inatividade",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "inatividade"
             }
           ]
         },
@@ -2061,26 +2061,6 @@
                   "conditions": [
                     {
                       "leftValue": "={{ $json._acao }}",
-                      "rightValue": "inatividade",
-                      "operator": {
-                        "type": "string",
-                        "operation": "equals"
-                      }
-                    }
-                  ],
-                  "combinator": "and"
-                },
-                "renameOutput": true,
-                "outputKey": "inatividade"
-              },
-              {
-                "conditions": {
-                  "options": {
-                    "caseSensitive": false
-                  },
-                  "conditions": [
-                    {
-                      "leftValue": "={{ $json._acao }}",
                       "rightValue": "menu_principal",
                       "operator": {
                         "type": "string",
@@ -2192,6 +2172,26 @@
                 },
                 "renameOutput": true,
                 "outputKey": "processar_cadastro"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": false
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json._acao }}",
+                      "rightValue": "inatividade",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "inatividade"
               }
             ]
           },

@@ -115,9 +115,18 @@ TIM não é opção de menu — é o destino do funil (conversão).
   Gemini na mesma área, SEM reenviar menu (WOW: não encher a tela).
 - **"sair"** → `_acao='menu_principal'` (volta ao menu, não é opt-out).
 
-### 4. Handoff ao Ramão
+### 4. Handoff ao Ramão (modelo de 7 elementos — Salesforce/Alhena)
 - Gatilhos: opção 0 OU auto-intenção.
-- Envia ao Ramão (`5547991041414`): dados do prospect (4 campos) + resumo da conversa.
+- **Transferência de contexto rica** (não só 4 campos) — o handoff carrega:
+  1. Transcrição da conversa
+  2. Resumo gerado por IA (Gemini)
+  3. Intenção detectada
+  4. Área/assunto (categoria)
+  5. Sentimento/nível de interesse
+  6. Dados do prospect (nome, telefone, email)
+  7. Próximo passo sugerido ("subir BKO plano X")
+- Enviado ao Ramão (`5547991041414`). Objetivo: Ramão assume "a par de tudo",
+  sem o prospect repetir contexto.
 - Nota técnica: admin = mesmo número do bot → cai no self-chat; BOT_SIGS bloqueia eco.
 
 ### 5. Correção do Número Admin
@@ -161,6 +170,27 @@ deploy N8N manual (import) · deploy site auto (push `fenice-justech`).
 11. Import da carteira → contatos entram como `pos_venda` (Farmer).
 
 ---
+
+## Boas Práticas de Classe Mundial (pesquisa — grandes players)
+
+Incorporadas de fontes livres para elevar o SP-1 a padrão mundial:
+
+| Prática | Fonte | Aplicação no SP-1 |
+|---------|-------|-------------------|
+| 73% dos consumidores preferem mensagem; 72% compram mais de quem oferece messaging | Infobip / WhatsApp | Valida WhatsApp como canal principal do funil |
+| Conversas de atendimento são **grátis**; templates utility grátis em janela 24h | Meta/WhatsApp 2025 | Custo do funil ~zero; usar template só fora da janela |
+| Responder rápido, **sem repetir contexto** | WhatsApp/Infobip | Retomada volta direto ao Gemini (já no desenho) |
+| Botões / quick replies para self-service | Meta/Vonage | **Upgrade futuro:** menu por botões (se Evolution suportar) em vez de texto numerado |
+| WOW = proativo **+** reativo | Zappos/Forbes | Auto-intenção = proatividade (já no desenho) |
+| **75% dos pedidos vêm de clientes existentes** | Zappos | Valida foco Farmer — nutrir a carteira, não só caçar |
+| Intent por NLP, não keyword rígido | IrisAgent/Salesforce | **Upgrade:** V1 keywords; V2 usa Gemini p/ pontuar intenção nuançada |
+| Handoff ótimo: 3-5 trocas após sinal de compra | Alhena/BlueTweak | Não escalar cedo demais nem tarde; disparar no sinal |
+| Handoff carrega 7 elementos de contexto | Salesforce/Alhena | Adotado no componente #4 (transferência rica) |
+| Consentimento/opt-in explícito | WhatsApp/LGPD | Opt-out "parar" já existe; manter |
+
+**Roadmap de melhoria contínua (kaizen):** keywords → intenção por Gemini (V2);
+texto numerado → botões interativos (V2); handoff simples → contexto de 7
+elementos (V1 já adota).
 
 ## Fora de Escopo (explícito)
 

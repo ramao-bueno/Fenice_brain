@@ -26,7 +26,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\n// Ignora ruído AvisaAPI (formato jsonData)\nif (body?.jsonData !== undefined) {\n  return [{ json: { _skip: true, motivo: \"avisa-noise\" } }];\n}\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\n// FIX 2026-06-28: adicionado \"🎬 *\" para bloquear eco de notificações de vídeo\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\", \"🎬 *\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS = [\"parar\",\"stop\",\"cancelar\"];\n// FIX 2026-06-28: removidas saudações (oi, olá, bom dia, boa tarde, boa noite, hello, hi)\n// Motivo: usuários retornantes cumprimentavam o bot e perdiam sua área → recebiam o menu\n// FIX 2026-06-30: \"sair\" agora é RESET (voltar ao menu), não STOP (opt-out)\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\",\"sair\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop: STOP_WORDS.includes(msgLower), isReset: RESET_WORDS.includes(msgLower),\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
+        "jsCode": "// evolution_hostinger: TUDO fromMe=true — NÃO filtrar por fromMe\nconst raw = $input.first().json;\nconst body = raw?.body || raw;\n\n// Ignora ruído AvisaAPI (formato jsonData)\nif (body?.jsonData !== undefined) {\n  return [{ json: { _skip: true, motivo: \"avisa-noise\" } }];\n}\n\nconst event = body?.event || \"\";\nconst data  = body?.data  || {};\nconst key   = data?.key   || {};\nconst msg   = data?.message || {};\n\nif (event && event !== \"messages.upsert\") {\n  return [{ json: { _skip: true, motivo: \"evento-ignorado:\" + event } }];\n}\n\nconst remoteJid = key?.remoteJid || \"\";\nconst isGroup   = remoteJid.endsWith(\"@g.us\");\nif (isGroup) return [{ json: { _skip: true, motivo: \"grupo\" } }];\n\nconst numero    = remoteJid.split(\"@\")[0].replace(/[^0-9]/g, \"\");\nconst nome      = data?.pushName || \"Cliente\";\nconst messageId = key?.id || \"\";\nconst sessionId = remoteJid;\n\nconst mensagem = (\n  msg?.conversation ||\n  msg?.extendedTextMessage?.text ||\n  msg?.imageMessage?.caption ||\n  msg?.videoMessage?.caption ||\n  \"\"\n).trim();\n\nif (!numero || !mensagem) return [{ json: { _skip: true, motivo: \"sem-conteudo\" } }];\n\n// Filtro de eco: todas as mensagens do bot têm estas assinaturas\n// FIX 2026-06-28: adicionado \"🎬 *\" para bloquear eco de notificações de vídeo\nconst BOT_SIGS = [\"🏛️\", \"© 2026\", \"👤 *Atendimento\", \"Atendimento encerrado\", \"🎬 *\"];\nif (BOT_SIGS.some(s => mensagem.includes(s))) {\n  return [{ json: { _skip: true, motivo: \"eco-bot\" } }];\n}\n\n// Dedup via Supabase: pula messageId já processado\nif (messageId) {\n  const SUPA_URL = \"https://qcfdssnpjzvjbvemhrik.supabase.co\";\n  const SUPA_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I\";\n  try {\n    const resp = await this.helpers.httpRequest({\n      method: \"GET\",\n      url: `${SUPA_URL}/rest/v1/interacoes_whatsapp?message_id=eq.${messageId}&select=id&limit=1`,\n      headers: { \"apikey\": SUPA_KEY, \"Authorization\": `Bearer ${SUPA_KEY}` }\n    });\n    if (Array.isArray(resp) && resp.length > 0) {\n      return [{ json: { _skip: true, motivo: \"duplicado\" } }];\n    }\n  } catch(e) { /* falha silenciosa: processa mesmo assim */ }\n}\n\nconst msgLower    = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst STOP_WORDS = [\"parar\",\"stop\",\"cancelar\"];\n// FIX 2026-06-28: removidas saudações (oi, olá, bom dia, boa tarde, boa noite, hello, hi)\n// Motivo: usuários retornantes cumprimentavam o bot e perdiam sua área → recebiam o menu\n// FIX 2026-06-30: \"sair\" agora é RESET (voltar ao menu), não STOP (opt-out)\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\",\"sair\",\"7\"];\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\n\nreturn [{ json: { _skip: false, numero, nome, mensagem, msgLower, sessionId, messageId,\n  isStop: STOP_WORDS.includes(msgLower), isReset: RESET_WORDS.includes(msgLower),\n  opcaoMenu: MENU_OPCOES[msgLower] || null } }];"
       },
       "name": "2. Extrair e Normalizar",
       "type": "n8n-nodes-base.code",
@@ -213,7 +213,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\nconst SINAIS = [\"quanto custa\",\"preço\",\"preco\",\"valor\",\"plano\",\"planos\",\"quero contratar\",\"como assino\",\"assinar\",\"fechar negócio\",\"fechar negocio\",\"falar com humano\",\"atendente\",\"falar com uma pessoa\",\"falar com alguem\",\"falar com alguém\"];\nconst detectarIntencao = (m) => { const s=(m||'').toLowerCase(); return SINAIS.some(x=>s.includes(x)); };\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\",\"sair\"];\nconst JA_CADASTRADO = [\"cadastrado\",\"lead_site\",\"ignorou_cadastro\",\"pos_venda\"];\nconst TIMEOUT_MINUTOS = 60;\nconst areaAtual = contato ? contato.area : null;\nconst estagio = (contato && contato.estagio) || \"novo\";\nconst msgCount = (contato && contato.dados && contato.dados.msgCount) || 0;\nconst { numero, nome, mensagem } = dadosMsg;\nconst msgLower = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst opcaoMenu = MENU_OPCOES[msgLower] || null;\nconst isReset = RESET_WORDS.includes(msgLower);\nconst isRetomar = msgLower === \"retomar\";\nconst ultimo = contato && contato.ultimo_contato ? new Date(contato.ultimo_contato) : null;\nconst minutos = ultimo ? Math.floor((new Date().getTime() - ultimo.getTime())/60000) : 0;\nconst isInativo = estagio === \"atendimento\" && minutos > TIMEOUT_MINUTOS;\nconst base = { numero, nome, mensagem, areaAtual, msgCount, estagio };\nif (isRetomar && estagio === \"inativo\") return [{ json: { ...base, _acao: \"responder\", estagio: \"atendimento\", msgCount: msgCount + 1 } }];\nif (isInativo) return [{ json: { ...base, _acao: \"inatividade\" } }];\nif (estagio === \"aguardando_cadastro\") return [{ json: { ...base, _acao: \"processar_cadastro\" } }];\nif (isReset) return [{ json: { ...base, _acao: \"menu_principal\", areaAtual: null, msgCount: 0 } }];\nif (opcaoMenu) { if (opcaoMenu === \"humano\") return [{ json: { ...base, _acao: \"humano\", areaAtual: \"humano\", msgCount: 0 } }]; return [{ json: { ...base, _acao: \"set_area\", areaAtual: opcaoMenu, msgCount: 0 } }]; }\nif (!areaAtual) return [{ json: { ...base, _acao: \"menu_principal\", areaAtual: null, msgCount: 0 } }];\nif (detectarIntencao(mensagem)) return [{ json: { ...base, _acao: \"humano\", areaAtual: \"humano\" } }];\nconst newMsgCount = msgCount + 1;\nif (newMsgCount >= 3 && !JA_CADASTRADO.includes(estagio)) return [{ json: { ...base, _acao: \"cadastro_invite\", msgCount: newMsgCount } }];\nreturn [{ json: { ...base, _acao: \"responder\", msgCount: newMsgCount } }];"
+        "jsCode": "const dadosMsg = $('2. Extrair e Normalizar').first().json;\nconst contatosArr = ($input.first().json.contatos) || [];\nconst contato = contatosArr.length > 0 ? contatosArr[0] : null;\nconst SINAIS = [\"quanto custa\",\"preço\",\"preco\",\"valor\",\"plano\",\"planos\",\"quero contratar\",\"como assino\",\"assinar\",\"fechar negócio\",\"fechar negocio\",\"falar com humano\",\"atendente\",\"falar com uma pessoa\",\"falar com alguem\",\"falar com alguém\"];\nconst detectarIntencao = (m) => { const s=(m||'').toLowerCase(); return SINAIS.some(x=>s.includes(x)); };\nconst MENU_OPCOES = {\"1\":\"b2b\",\"2\":\"academico\",\"3\":\"observatorio\",\"4\":\"api\",\"5\":\"juridico\",\"6\":\"filosofia\",\"0\":\"humano\"};\nconst RESET_WORDS = [\"menu\",\"inicio\",\"início\",\"voltar\",\"reiniciar\",\"sair\",\"7\"];\nconst JA_CADASTRADO = [\"cadastrado\",\"lead_site\",\"ignorou_cadastro\",\"pos_venda\"];\nconst TIMEOUT_MINUTOS = 60;\nconst areaAtual = contato ? contato.area : null;\nconst estagio = (contato && contato.estagio) || \"novo\";\nconst msgCount = (contato && contato.dados && contato.dados.msgCount) || 0;\nconst { numero, nome, mensagem } = dadosMsg;\nconst msgLower = mensagem.toLowerCase().replace(/[!.?]+$/, \"\").trim();\nconst opcaoMenu = MENU_OPCOES[msgLower] || null;\nconst isReset = RESET_WORDS.includes(msgLower);\nconst isRetomar = msgLower === \"retomar\";\nconst ultimo = contato && contato.ultimo_contato ? new Date(contato.ultimo_contato) : null;\nconst minutos = ultimo ? Math.floor((new Date().getTime() - ultimo.getTime())/60000) : 0;\nconst isInativo = estagio === \"atendimento\" && minutos > TIMEOUT_MINUTOS;\nconst base = { numero, nome, mensagem, areaAtual, msgCount, estagio };\nif (isRetomar && estagio === \"inativo\") return [{ json: { ...base, _acao: \"responder\", estagio: \"atendimento\", msgCount: msgCount + 1 } }];\nif (isInativo) return [{ json: { ...base, _acao: \"inatividade\" } }];\nif (estagio === \"aguardando_cadastro\") return [{ json: { ...base, _acao: \"processar_cadastro\" } }];\nif (isReset) return [{ json: { ...base, _acao: \"menu_principal\", areaAtual: null, msgCount: 0 } }];\nif (opcaoMenu) { if (opcaoMenu === \"humano\") return [{ json: { ...base, _acao: \"humano\", areaAtual: \"humano\", msgCount: 0 } }]; return [{ json: { ...base, _acao: \"set_area\", areaAtual: opcaoMenu, msgCount: 0 } }]; }\nif (!areaAtual) return [{ json: { ...base, _acao: \"menu_principal\", areaAtual: null, msgCount: 0 } }];\nif (detectarIntencao(mensagem)) return [{ json: { ...base, _acao: \"humano\", areaAtual: \"humano\" } }];\nconst newMsgCount = msgCount + 1;\nif (newMsgCount >= 3 && !JA_CADASTRADO.includes(estagio)) return [{ json: { ...base, _acao: \"cadastro_invite\", msgCount: newMsgCount } }];\nreturn [{ json: { ...base, _acao: \"responder\", msgCount: newMsgCount } }];"
       },
       "name": "7. Decidir Próxima Ação",
       "type": "n8n-nodes-base.code",
@@ -412,60 +412,11 @@
             },
             {
               "name": "media",
-              "value": "https://qcfdssnpjzvjbvemhrik.supabase.co/storage/v1/object/public/fenice-assets/fenice-banner.png"
-            },
-            {
-              "name": "fileName",
-              "value": "fenice-banner.png"
+              "value": "https://qcfdssnpjzvjbvemhrik.supabase.co/storage/v1/object/public/modal/modal_teo.jpg"
             },
             {
               "name": "caption",
-              "value": ""
-            }
-          ]
-        },
-        "options": {
-          "timeout": 15000
-        }
-      },
-      "name": "9-logo. Enviar Logo Fenice",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        1480,
-        160
-      ],
-      "continueOnFail": true,
-      "id": "acb75b89-bc70-4206-a519-350e1e981680"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "apikey",
-              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "json",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "number",
-              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
-            },
-            {
-              "name": "text",
-              "value": "👤 *Teo — Intelligence Concierge* 🤖\n\nOlá! Sou o Téo, Intelligence Concierge da Fenice IT.\nEm que posso ajudá-lo(a) hoje?\n\n*1️⃣  B2B Corporativo*\n*2️⃣  Acadêmico & Pesquisa*\n*3️⃣  Observatório da Mulher SFS*\n*4️⃣  API & Desenvolvedores*\n*5️⃣  Consultoria Jurídica*\n*6️⃣  Filosofia & Teologia*\n*0️⃣  Falar com Especialista*\n\n_Digite o número e pressione enviar_\n💬 Para sair, digite: *sair*\n\n© 2026 Fenice IT Justech.IA"
+              "value": "*Teo — Intelligence Concierge*\nEscolha um serviço e responda com o número (0 a 6).\n*7* ou *sair* para encerrar.\n🌐 https://www.fenice.ia.br"
             }
           ]
         },
@@ -481,198 +432,6 @@
         160
       ],
       "id": "b1b35acf-6b92-491a-b924-25f33ac0355c"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "apikey",
-              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "json",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "number",
-              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
-            },
-            {
-              "name": "caption",
-              "value": "1️⃣ *TIM Br.*"
-            },
-            {
-              "name": "mediaurl",
-              "value": "https://fenice.ia.br/modal/1_tim.jpg"
-            }
-          ]
-        },
-        "options": {
-          "timeout": 15000
-        }
-      },
-      "name": "9a-img1. Imagem TIM",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        1900,
-        160
-      ],
-      "id": "img1-tim-uuid"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "apikey",
-              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "json",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "number",
-              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
-            },
-            {
-              "name": "caption",
-              "value": "2️⃣ *Estude Ciências Jurídicas*"
-            },
-            {
-              "name": "mediaurl",
-              "value": "https://fenice.ia.br/modal/2_estude.jpg"
-            }
-          ]
-        },
-        "options": {
-          "timeout": 15000
-        }
-      },
-      "name": "9a-img2. Imagem Estude",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        2100,
-        160
-      ],
-      "id": "img2-estude-uuid"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "apikey",
-              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "json",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "number",
-              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
-            },
-            {
-              "name": "caption",
-              "value": "3️⃣ *Observatório da Mulher SFS*"
-            },
-            {
-              "name": "mediaurl",
-              "value": "https://fenice.ia.br/modal/3_observatorio.jpg"
-            }
-          ]
-        },
-        "options": {
-          "timeout": 15000
-        }
-      },
-      "name": "9a-img3. Imagem Observatório",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        2300,
-        160
-      ],
-      "id": "img3-obs-uuid"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendImage/fenice-tim-prod",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "apikey",
-              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "json",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "number",
-              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
-            },
-            {
-              "name": "caption",
-              "value": "👤 *Interagir direto com especialista*"
-            },
-            {
-              "name": "mediaurl",
-              "value": "https://fenice.ia.br/modal/0_especialista.jpg"
-            }
-          ]
-        },
-        "options": {
-          "timeout": 15000
-        }
-      },
-      "name": "9a-img0. Imagem Especialista",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        2500,
-        160
-      ],
-      "id": "img0-esp-uuid"
     },
     {
       "parameters": {
@@ -1599,7 +1358,7 @@
         [
           {
             "type": "main",
-            "node": "9-logo. Enviar Logo Fenice",
+            "node": "9a. Enviar Menu Principal",
             "index": 0
           }
         ],
@@ -1641,17 +1400,6 @@
         [
           {
             "node": "5c. Enviar MSG Inatividade",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "9-logo. Enviar Logo Fenice": {
-      "main": [
-        [
-          {
-            "node": "9a. Enviar Menu Principal",
             "type": "main",
             "index": 0
           }

@@ -33,11 +33,14 @@ Nenhum destes cabe num único spec. Cada um entrega software funcional e testáv
 - **Estado:** funcional; sync hoje é batch manual (a melhorar)
 - **Entrega isolada:** pipeline que mantém o Supabase atualizado a partir do vault
 
-### SP-3 · Monetização TIM
-- **O quê:** modelo de receita — como a TIM cobra/repassa
-- **Stack:** a definir (planos, billing, atribuição de conversão)
-- **Estado:** conceito apenas
-- **Entrega isolada:** definição de planos + rastreio de conversão → receita
+### SP-3 · Pipeline Operacional (Hunter → BKO → Pós-venda → Farmer)
+- **O quê:** a obrigação do Ramão na cadeia — NÃO é billing (TIM cobra)
+- **Fluxo:** `prospect → subir BKO → pós-venda → tratar cliente Farmer`
+- **Stack:** fenice_tim_contatos (estágios já existem) + submissão BKO à TIM
+- **Estado:** estágios existem; submissão BKO + Farmer CRM a construir
+- **Entrega isolada:** do lead quente (SP-1) até BKO submetido + pós-venda + Farmer
+- ⚠️ **Cobrança é 100% da operadora TIM.** Nenhum billing é construído aqui.
+- 🔮 **Futuro:** CRM estilo Salesforce (pipeline) + Power BI (relatórios). Pensar depois.
 
 ### SP-4 · Portais de Entrega
 - **O quê:** onde o usuário chega e interage

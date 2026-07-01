@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fenice IT · Missão & Visão</title>
+<link rel="stylesheet" href="https://use.typekit.net/ajp1gxj.css">
+<style>
+  :root{
+    --ash:#0a0a0d;          /* cinzas — base fria */
+    --ash-2:#141017;        /* cinza com calor */
+    --ember:#1c130c;        /* brasa apagada */
+    --gold:#f59e0b;         /* dourado Fenice */
+    --gold-2:#fbbf24;       /* brilho */
+    --gold-hot:#fef3c7;     /* incandescência */
+    --gold-dim:#b6791f;     /* dourado profundo */
+    --text:#ece3d6;         /* texto quente */
+    --muted:#8c8072;        /* cinza-âmbar secundário */
+    --line:rgba(245,158,11,.16);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(120% 80% at 50% 120%, rgba(245,158,11,.10) 0%, rgba(245,158,11,0) 55%),
+      radial-gradient(90% 60% at 50% -10%, rgba(139,92,246,.06) 0%, rgba(139,92,246,0) 60%),
+      linear-gradient(180deg, var(--ash) 0%, var(--ash-2) 62%, var(--ember) 100%);
+    color:var(--text);
+    font-family:"acumin-pro",system-ui,sans-serif;
+    display:flex;align-items:center;justify-content:center;
+    padding:clamp(1rem,4vw,3rem);
+    overflow-x:hidden;
+  }
+
+  /* ── O quadro (placa comemorativa) ─────────────────────────── */
+  .quadro{
+    position:relative;
+    width:min(680px,100%);
+    padding:clamp(2.4rem,6vw,4.2rem) clamp(1.6rem,5vw,3.4rem) clamp(2rem,5vw,3rem);
+    text-align:center;
+    border:1px solid var(--line);
+    border-radius:3px;
+    background:linear-gradient(180deg, rgba(28,19,12,.55), rgba(10,10,13,.35));
+    box-shadow:
+      0 0 0 1px rgba(0,0,0,.4),
+      0 40px 120px -40px rgba(0,0,0,.9),
+      inset 0 1px 0 rgba(245,158,11,.10);
+  }
+  /* cantos ornamentais — inscrição de placa */
+  .quadro::before,.quadro::after{
+    content:"";position:absolute;width:26px;height:26px;
+    border:1px solid rgba(245,158,11,.4);
+  }
+  .quadro::before{top:12px;left:12px;border-right:0;border-bottom:0}
+  .quadro::after{bottom:12px;right:12px;border-left:0;border-top:0}
+
+  /* ── Data — inscrição ──────────────────────────────────────── */
+  .data{
+    font-family:"adelle",serif;
+    font-size:clamp(.62rem,1.6vw,.72rem);
+    letter-spacing:.42em;text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:clamp(1.6rem,4vw,2.4rem);
+    padding-right:.42em; /* compensa tracking do último char */
+  }
+  .data b{color:var(--gold-2);font-weight:400}
+
+  /* ── Fênix (signature) ─────────────────────────────────────── */
+  .phoenix{
+    width:clamp(96px,26vw,140px);height:auto;
+    margin:0 auto clamp(1rem,3vw,1.6rem);
+    display:block;
+    filter:drop-shadow(0 6px 22px rgba(245,158,11,.35));
+  }
+  .phoenix path,.phoenix line{
+    stroke:var(--gold);fill:none;
+    stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;
+    vector-effect:non-scaling-stroke;
+  }
+  .phoenix .hot{stroke:var(--gold-hot)}
+  .phoenix .ember{stroke:var(--gold-dim)}
+
+  /* ── Lema (herói) — shimmer dourado ────────────────────────── */
+  .lema{
+    font-family:"skeena-display","Playfair Display",Georgia,serif;
+    font-weight:600;
+    font-size:clamp(1.7rem,6.2vw,2.9rem);
+    line-height:1.08;letter-spacing:-.015em;
+    margin-bottom:clamp(1.4rem,3.6vw,2rem);
+    background:linear-gradient(110deg,#b6791f 0%,#f59e0b 28%,#fef3c7 47%,#fbbf24 53%,#f59e0b 72%,#b6791f 100%);
+    background-size:250% auto;
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;color:transparent;
+    animation:shimmer 5s linear infinite;
+  }
+  @keyframes shimmer{to{background-position:250% center}}
+
+  /* divisor com selo ⟡ */
+  .selo{
+    display:flex;align-items:center;justify-content:center;gap:1rem;
+    color:var(--gold);margin-bottom:clamp(1.6rem,4vw,2.4rem);
+  }
+  .selo span{height:1px;width:min(120px,26%);
+    background:linear-gradient(90deg,transparent,var(--line),transparent)}
+  .selo b{font-size:.9rem;color:var(--gold-2)}
+
+  /* ── Missão & Visão ────────────────────────────────────────── */
+  .bloco{margin:0 auto;max-width:52ch}
+  .bloco+.bloco{margin-top:clamp(1.6rem,4vw,2.3rem)}
+  .rotulo{
+    font-family:"adelle",serif;
+    font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--gold-2);margin-bottom:.7rem;padding-right:.34em;
+  }
+  .texto{
+    font-size:clamp(1.02rem,2.7vw,1.22rem);
+    line-height:1.55;color:var(--text);
+    font-weight:400;
+  }
+  .texto em{
+    font-family:"skeena-display",Georgia,serif;
+    font-style:italic;color:var(--gold-hot);
+  }
+
+  /* ── Assinatura ────────────────────────────────────────────── */
+  .assinatura{
+    margin-top:clamp(2rem,5vw,3rem);
+    padding-top:clamp(1.3rem,3vw,1.8rem);
+    border-top:1px solid var(--line);
+    font-family:"adelle",serif;
+    font-size:clamp(.66rem,1.7vw,.78rem);
+    letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  }
+  .assinatura b{color:var(--text);font-weight:400}
+  .assinatura .lat{display:block;margin-top:.5rem;letter-spacing:.28em;font-size:.62rem;color:var(--gold-dim)}
+
+  /* ── Reveal no load — "das cinzas ressurge" ────────────────── */
+  .rise{opacity:0;transform:translateY(16px);
+    animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+  .d1{animation-delay:.15s}.d2{animation-delay:.45s}
+  .d3{animation-delay:.75s}.d4{animation-delay:1.0s}
+  .d5{animation-delay:1.2s}.d6{animation-delay:1.4s}
+  @keyframes rise{to{opacity:1;transform:none}}
+
+  /* fênix: brilho que sobe das cinzas */
+  .phoenix{opacity:0;animation:ignite 1.3s ease-out .1s forwards}
+  @keyframes ignite{
+    0%{opacity:0;transform:translateY(22px) scale(.96);filter:drop-shadow(0 0 0 rgba(245,158,11,0)) brightness(.4)}
+    60%{opacity:1;filter:drop-shadow(0 10px 34px rgba(245,158,11,.55)) brightness(1.25)}
+    100%{opacity:1;transform:none;filter:drop-shadow(0 6px 22px rgba(245,158,11,.35)) brightness(1)}
+  }
+  /* brasa pulsante ambiente sob o quadro */
+  .brasa{position:fixed;left:50%;bottom:-30vh;transform:translateX(-50%);
+    width:80vw;height:60vh;pointer-events:none;z-index:-1;
+    background:radial-gradient(50% 50% at 50% 50%, rgba(245,158,11,.14), rgba(245,158,11,0) 70%);
+    animation:breathe 6s ease-in-out infinite}
+  @keyframes breathe{0%,100%{opacity:.6}50%{opacity:1}}
+
+  @media (prefers-reduced-motion:reduce){
+    .rise,.phoenix{animation:none;opacity:1;transform:none}
+    .lema{animation:none}
+    .brasa{animation:none}
+  }
+</style>
+</head>
+<body>
+  <div class="brasa" aria-hidden="true"></div>
+
+  <main class="quadro" role="article" aria-label="Missão e Visão da Fenice IT">
+
+    <p class="data rise d1">· 01 <b>·</b> Julho <b>·</b> 2026 ·</p>
+
+    <!-- Fênix — line-art ascendente, asas em leque -->
+    <svg class="phoenix rise" viewBox="0 0 200 180" role="img" aria-label="Fênix ascendente" xmlns="http://www.w3.org/2000/svg">
+      <!-- cabeça e pescoço -->
+      <path class="hot" d="M100 24 q6 -9 13 -7 q-3 6 -9 8 M100 24 q-1 10 0 20"/>
+      <!-- corpo / peito -->
+      <path d="M100 44 q-9 16 -6 40 q4 20 6 26 q2 -6 6 -26 q3 -24 -6 -40Z"/>
+      <!-- asa direita — leque de 4 penas ascendentes -->
+      <path d="M104 58 q30 -20 60 -46 q-8 30 -26 48 q16 -6 30 -20 q-10 26 -30 40 q13 -2 24 -12 q-12 22 -34 32 q-14 6 -24 4"/>
+      <path class="ember" d="M108 74 q24 -10 44 -26"/>
+      <!-- asa esquerda — espelho -->
+      <path d="M96 58 q-30 -20 -60 -46 q8 30 26 48 q-16 -6 -30 -20 q10 26 30 40 q-13 -2 -24 -12 q12 22 34 32 q14 6 24 4"/>
+      <path class="ember" d="M92 74 q-24 -10 -44 -26"/>
+      <!-- cauda de chamas -->
+      <path class="hot" d="M100 110 q-4 22 -14 40 q10 -6 14 -16 q4 10 14 16 q-10 -18 -14 -40"/>
+      <path class="ember" d="M100 116 q0 20 0 40"/>
+    </svg>
+
+    <h1 class="lema rise d2">Das cinzas,<br>ressurgimos — sempre&nbsp;melhores.</h1>
+
+    <div class="selo rise d3" aria-hidden="true"><span></span><b>⟡</b><span></span></div>
+
+    <section class="bloco rise d4">
+      <p class="rotulo">Missão</p>
+      <p class="texto">Ser a melhor entrega de consultoria <em>HP · UX · AI · IA</em> do universo — o humano, o design e a inteligência a serviço de quem confia na Fenice.</p>
+    </section>
+
+    <section class="bloco rise d5">
+      <p class="rotulo">Visão</p>
+      <p class="texto">Aliar-nos aos maiores players de tecnologia e <em>aprender a aprender</em> — para renascer melhores a cada ciclo, sempre à frente, sempre em nome do cliente.</p>
+    </section>
+
+    <footer class="assinatura rise d6">
+      <b>Fenice IT · Justech.IA</b>
+      <span class="lat">Filosofia e Direito · Sabedoria e Justiça</span>
+    </footer>
+
+  </main>
+</body>
+</html>

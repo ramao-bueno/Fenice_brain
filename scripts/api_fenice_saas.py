@@ -1034,6 +1034,13 @@ async def video_forte_marechal_luz() -> HTMLResponse:
     return HTMLResponse(content=html.read_text(encoding="utf-8"), status_code=200)
 
 
+@app.get("/missao-visao", tags=["Institucional"], summary="Quadro Missão & Visão (01/07/2026)", response_class=HTMLResponse, include_in_schema=False)
+async def missao_visao() -> HTMLResponse:
+    """Quadro institucional Missão & Visão — 'Das cinzas, ressurgimos'. Marco de 01/07/2026."""
+    html = Path(__file__).parent / "missao_visao.html"
+    return HTMLResponse(content=html.read_text(encoding="utf-8"), status_code=200)
+
+
 # ---------------------------------------------------------------------------
 # GET /  — info
 # ---------------------------------------------------------------------------

@@ -42,8 +42,7 @@ Fenice_bRain/
 ├── violencia-mulher-sfs/      # Next.js — Observatório da Mulher SFS
 ├── docs/                      # Documentação operacional
 │   ├── INFRA-DEPLOY.md        # Manual de infraestrutura
-│   ├── STACK-ANALYSIS-*.md    # Análise da stack e custos
-│   └── AVISAAPI.md            # Documentação WhatsApp / AvisaAPI
+│   └── STACK-ANALYSIS-*.md    # Análise da stack e custos
 ├── REZA-DO-DIA.md             # Checklist e regras diárias (leia primeiro)
 ├── vercel.json                # Config Vercel para fenice-justech (Python)
 ├── .vercelignore              # Whitelist — controla o que cada app vê
@@ -84,7 +83,7 @@ git push
 - **Frontend**: Next.js 16 (App Router) · React 19 · Tailwind CSS 4
 - **Banco de dados**: Supabase (PostgreSQL) · REST API
 - **IA**: Groq `llama-3.3-70b-versatile` · Claude API
-- **WhatsApp**: AvisaAPI · webhook síncrono
+- **WhatsApp**: Evolution API v2 · N8N Cloud (workflow IVR `fenice-tim`)
 - **Tipografia**: Adobe Fonts (kits `ajp1gxj`, `cmr1ivs`)
 - **Vault**: Obsidian · 23k+ notas · Graph View · Quartz (site)
 

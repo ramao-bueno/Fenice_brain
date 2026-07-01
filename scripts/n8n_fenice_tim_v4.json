@@ -1292,6 +1292,162 @@
         }
       },
       "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "⏱️ *Por falta de interação estamos encerrando o atendimento.*\n\nCaso queira retomar a conversa, digite: *retomar*\n\n👤 *Teo — Intelligence Concierge*\n© 2026 Fenice IT Justech.IA"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 12000
+        }
+      },
+      "name": "5c. Enviar MSG Inatividade",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        350
+      ],
+      "continueOnFail": true,
+      "id": "5c-inatividade-uuid"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_contatos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates,return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "numero",
+              "value": "={{ $('7. Decidir Próxima Ação').item.json.numero }}"
+            },
+            {
+              "name": "estagio",
+              "value": "inativo"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "5d. Marcar como Inativo",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1260,
+        350
+      ],
+      "continueOnFail": true,
+      "id": "5d-marcar-inativo-uuid"
+    },
+    {
+      "name": "16a. Enviar Boas-vindas Área",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1700,
+        820
+      ],
+      "parameters": {
+        "jsCode": "const dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, areaAtual } = dados;\nconst BV = {\n  b2b: \"*Bem-vindo à área B2B Corporativo!* 🏢\\nSoluções enterprise de IA jurídica para escritórios e empresas.\\nComo posso ajudar?\",\n  academico: \"*Bem-vindo à área Acadêmica!* 🎓\\nPesquisa jurídica, TCC, artigos com base em 5685 artigos + súmulas.\\nComo posso ajudar?\",\n  observatorio: \"*Observatório da Mulher SFS!* 👁️\\n📞 EMERGÊNCIA? Disque 190 ou 180 imediatamente.\\nLei Maria da Penha (11.340/2006). Como posso ajudar?\",\n  api: \"*Bem-vindo à área API & Devs!* ⚡\\nAPI REST Fenice — /buscar, /analisar, /hermeneutica.\\nComo posso ajudar?\",\n  juridico: \"*Bem-vindo à Consultoria Jurídica!* ⚖️\\nDireito brasileiro: CC, CLT, CP, CF/88, CDC, Súmulas.\\nComo posso ajudá-lo(a)?\",\n  filosofia: \"*Filosofia & Teologia!* 🧠\\nFilosofia jurídica, hermenêutica, ética, teologia.\\nComo posso ajudar?\"\n};\nconst mensagem = BV[areaAtual] || BV.juridico;\nreturn [{ json: { numero, nome, areaAtual, mensagem } }];"
+      },
+      "id": "16a-boas-vindas-uuid"
+    },
+    {
+      "name": "16b. Enviar Boas-vindas (Evolution API)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1920,
+        820
+      ],
+      "continueOnFail": true,
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $json.numero }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ $json.mensagem + '\\n\\n👤 *Teo — Intelligence Concierge*\\n© 2026 Fenice IT Justech.IA' }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 12000
+        }
+      },
+      "id": "16b-send-uuid"
     }
   ],
   "connections": {
@@ -1423,6 +1579,13 @@
             "node": "9d. Processar Cadastro",
             "index": 0
           }
+        ],
+        [
+          {
+            "node": "5c. Enviar MSG Inatividade",
+            "type": "main",
+            "index": 0
+          }
         ]
       ]
     },
@@ -1441,7 +1604,7 @@
       "main": [
         [
           {
-            "node": "10. Montar Prompt por Área",
+            "node": "16a. Enviar Boas-vindas Área",
             "type": "main",
             "index": 0
           }
@@ -1577,6 +1740,39 @@
         [
           {
             "node": "9d-salvar. Salvar Cadastrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5c. Enviar MSG Inatividade": {
+      "main": [
+        [
+          {
+            "node": "5d. Marcar como Inativo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "16a. Enviar Boas-vindas Área": {
+      "main": [
+        [
+          {
+            "node": "16b. Enviar Boas-vindas (Evolution API)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "16b. Enviar Boas-vindas (Evolution API)": {
+      "main": [
+        [
+          {
+            "node": "10. Montar Prompt por Área",
             "type": "main",
             "index": 0
           }
@@ -2640,7 +2836,7 @@
           820
         ],
         "parameters": {
-          "jsCode": "const dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, areaAtual } = dados;\n\nconst BOAS_VINDAS = {\n  b2b: `*Bem-vindo à área B2B Corporativo!* 🏢\\n\\nAqui ofertamos soluções enterprise de pesquisa jurídica e IA para escritórios e empresas.\\n\\nComo posso ajudar?\\n\\n🔗 Saiba mais: https://fenice.ia.br`,\n  juridico: `*Bem-vindo à área de Consultoria Jurídica!* ⚖️\\n\\nAqui você pode tirar dúvidas sobre direito brasileiro, legislação, análise de documentos e muito mais.\\n\\n📚 Base: CC, CLT, CP, CF/88, CDC, Súmulas STJ/STF\\n\\nComo posso ajudá-lo(a)?\\n\\n🔗 Aprofunde na plataforma: https://fenice.ia.br`,\n  observatorio: `*Bem-vindo ao Observatório da Mulher SFS!* 👁️\\n\\n📞 *EMERGÊNCIA? Disque 190 ou 180 imediatamente*\\n\\nAqui oferecemos suporte jurídico e informações sobre proteção feminina segundo a Lei Maria da Penha (11.340/2006).\\n\\nEm que posso ajudar?\\n\\n🔗 Saiba mais: https://observatorio-da-mulher-sfs.com.br`\n};\n\nconst mensagem = BOAS_VINDAS[areaAtual] || BOAS_VINDAS.juridico;\n\nreturn [{ json: { numero, nome, areaAtual, mensagem } }];"
+          "jsCode": "const dados = $('7. Decidir Próxima Ação').first().json;\nconst { numero, nome, areaAtual } = dados;\nconst BV = {\n  b2b: \"*Bem-vindo à área B2B Corporativo!* 🏢\\nSoluções enterprise de IA jurídica para escritórios e empresas.\\nComo posso ajudar?\",\n  academico: \"*Bem-vindo à área Acadêmica!* 🎓\\nPesquisa jurídica, TCC, artigos com base em 5685 artigos + súmulas.\\nComo posso ajudar?\",\n  observatorio: \"*Observatório da Mulher SFS!* 👁️\\n📞 EMERGÊNCIA? Disque 190 ou 180 imediatamente.\\nLei Maria da Penha (11.340/2006). Como posso ajudar?\",\n  api: \"*Bem-vindo à área API & Devs!* ⚡\\nAPI REST Fenice — /buscar, /analisar, /hermeneutica.\\nComo posso ajudar?\",\n  juridico: \"*Bem-vindo à Consultoria Jurídica!* ⚖️\\nDireito brasileiro: CC, CLT, CP, CF/88, CDC, Súmulas.\\nComo posso ajudá-lo(a)?\",\n  filosofia: \"*Filosofia & Teologia!* 🧠\\nFilosofia jurídica, hermenêutica, ética, teologia.\\nComo posso ajudar?\"\n};\nconst mensagem = BV[areaAtual] || BV.juridico;\nreturn [{ json: { numero, nome, areaAtual, mensagem } }];"
         },
         "id": "16a-boas-vindas-uuid"
       },

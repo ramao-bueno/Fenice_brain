@@ -120,27 +120,41 @@
     },
     {
       "parameters": {
-        "fromEmail": "fenice_tech@fenice.ia.br",
-        "toEmail": "={{ $('4. Extrair WOW Insight').item.json.email }}",
-        "subject": "={{ 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!' }}",
-        "emailType": "text",
-        "message": "={{ 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nFicamos felizes com seu interesse em ' + $('4. Extrair WOW Insight').item.json.interesseLabel + '.\\n\\nEm instantes o Teo entrara em contato pelo WhatsApp.\\n\\nEquipe Fenice IT\\nhttps://fenice.ia.br' }}",
-        "options": {}
+        "method": "POST",
+        "url": "https://graph.microsoft.com/v1.0/users/fenice_tech@fenice.ia.br/sendMail",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  message: {\n    subject: 'Fenice IA recebeu seu contato, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!',\n    body: {\n      contentType: 'Text',\n      content: 'Ola, ' + $('4. Extrair WOW Insight').item.json.primeiroNome + '!\\n\\nFicamos felizes com seu interesse em ' + $('4. Extrair WOW Insight').item.json.interesseLabel + '.\\n\\nEm instantes o Teo entrara em contato pelo WhatsApp.\\n\\nEquipe Fenice IT\\nhttps://fenice.ia.br'\n    },\n    toRecipients: [ { emailAddress: { address: $('4. Extrair WOW Insight').item.json.email } } ]\n  },\n  saveToSentItems: true\n}) }}",
+        "options": {
+          "timeout": 15000
+        }
       },
       "name": "5b. E-mail Prospect (Office365)",
-      "type": "n8n-nodes-base.emailSend",
-      "typeVersion": 2.1,
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
       "position": [
         1040,
         400
       ],
       "continueOnFail": true,
       "credentials": {
-        "smtp": {
-          "id": "{{SMTP_CREDENTIAL_ID}}",
-          "name": "Fenice Office365"
+        "httpHeaderAuth": {
+          "id": "{{GRAPH_MAIL_CREDENTIAL_ID}}",
+          "name": "Graph Mail"
         }
-      }
+      },
+      "notes": "PRE-REQUISITO AZURE: criar app registration no Azure/Entra ID com permissao de APLICACAO Mail.Send concedida (admin consent) para fenice_tech@fenice.ia.br. Cadastrar no N8N uma credential OAuth2 client-credentials chamada 'Graph Mail' (ou HTTP Header Auth com Authorization: Bearer <token> se token gerenciado externamente). Sem isso este no falha, mas continueOnFail=true permite que o fluxo de WhatsApp prossiga normalmente."
     },
     {
       "parameters": {

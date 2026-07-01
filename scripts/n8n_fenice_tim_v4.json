@@ -1448,6 +1448,64 @@
         }
       },
       "id": "16b-send-uuid"
+    },
+    {
+      "parameters": {
+        "jsCode": "const d = $('7. Decidir Próxima Ação').first().json;\nconst contatosArr = ($('6. Buscar Contato Tim (Supabase)').first().json.contatos) || [];\nconst c = contatosArr[0] || {};\nconst email = (c.dados && c.dados.email) || \"não informado\";\nconst resumo = \"Prospect demonstrou interesse na área \" + (d.areaAtual || \"juridico\") + \". Última mensagem: \\\"\" + d.mensagem + \"\\\".\";\nconst texto =\n  \"🔥 *PROSPECT QUENTE — Handoff*\\n\\n\" +\n  \"👤 *Nome:* \" + d.nome + \"\\n\" +\n  \"📱 *WhatsApp:* +\" + d.numero + \"\\n\" +\n  \"📧 *E-mail:* \" + email + \"\\n\" +\n  \"💼 *Assunto:* \" + (d.areaAtual || \"juridico\") + \"\\n\" +\n  \"🧭 *Intenção:* \" + (/^0$/.test(d.mensagem.trim()) ? \"pediu especialista (opção 0)\" : \"sinal de compra detectado\") + \"\\n\" +\n  \"📝 *Resumo:* \" + resumo + \"\\n\" +\n  \"➡️ *Próximo passo:* subir BKO / contatar prospect\\n\\n\" +\n  \"© 2026 Fenice IT Justech.IA\";\nreturn [{ json: { numero_admin: \"5547991041414\", texto } }];\n"
+      },
+      "name": "9b-ctx. Montar Contexto Handoff",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1480,
+        380
+      ],
+      "id": "9bctx0001-aaaa-4aaa-bbbb-000000000001"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $('9b-ctx. Montar Contexto Handoff').item.json.numero_admin }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ $('9b-ctx. Montar Contexto Handoff').item.json.texto }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "9b-admin. Notificar Ramão",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1680,
+        480
+      ],
+      "continueOnFail": true,
+      "id": "9badmin01-aaaa-4aaa-bbbb-000000000002"
     }
   ],
   "connections": {
@@ -1547,8 +1605,8 @@
         ],
         [
           {
+            "node": "9b-ctx. Montar Contexto Handoff",
             "type": "main",
-            "node": "9b. Enviar MSG Humano",
             "index": 0
           }
         ],
@@ -1773,6 +1831,28 @@
         [
           {
             "node": "10. Montar Prompt por Área",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9b-ctx. Montar Contexto Handoff": {
+      "main": [
+        [
+          {
+            "node": "9b. Enviar MSG Humano",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "9b. Enviar MSG Humano": {
+      "main": [
+        [
+          {
+            "node": "9b-admin. Notificar Ramão",
             "type": "main",
             "index": 0
           }
@@ -3179,6 +3259,64 @@
           }
         },
         "id": "f1b02785-1802-40dd-8ca6-71f7c70a037b"
+      },
+      {
+        "parameters": {
+          "jsCode": "const d = $('7. Decidir Próxima Ação').first().json;\nconst contatosArr = ($('6. Buscar Contato Tim (Supabase)').first().json.contatos) || [];\nconst c = contatosArr[0] || {};\nconst email = (c.dados && c.dados.email) || \"não informado\";\nconst resumo = \"Prospect demonstrou interesse na área \" + (d.areaAtual || \"juridico\") + \". Última mensagem: \\\"\" + d.mensagem + \"\\\".\";\nconst texto =\n  \"🔥 *PROSPECT QUENTE — Handoff*\\n\\n\" +\n  \"👤 *Nome:* \" + d.nome + \"\\n\" +\n  \"📱 *WhatsApp:* +\" + d.numero + \"\\n\" +\n  \"📧 *E-mail:* \" + email + \"\\n\" +\n  \"💼 *Assunto:* \" + (d.areaAtual || \"juridico\") + \"\\n\" +\n  \"🧭 *Intenção:* \" + (/^0$/.test(d.mensagem.trim()) ? \"pediu especialista (opção 0)\" : \"sinal de compra detectado\") + \"\\n\" +\n  \"📝 *Resumo:* \" + resumo + \"\\n\" +\n  \"➡️ *Próximo passo:* subir BKO / contatar prospect\\n\\n\" +\n  \"© 2026 Fenice IT Justech.IA\";\nreturn [{ json: { numero_admin: \"5547991041414\", texto } }];\n"
+        },
+        "name": "9b-ctx. Montar Contexto Handoff",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1480,
+          380
+        ],
+        "id": "9bctx0001-aaaa-4aaa-bbbb-000000000001"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://evolution-api-9fbw.srv1784289.hstgr.cloud/message/sendText/fenice-tim-prod",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "apikey",
+                "value": "XpwOsi1Zq6gLRnISF5bN9PvEFzeMfKA7"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "sendBody": true,
+          "contentType": "json",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "number",
+                "value": "={{ $('9b-ctx. Montar Contexto Handoff').item.json.numero_admin }}"
+              },
+              {
+                "name": "text",
+                "value": "={{ $('9b-ctx. Montar Contexto Handoff').item.json.texto }}"
+              }
+            ]
+          },
+          "options": {
+            "timeout": 15000
+          }
+        },
+        "name": "9b-admin. Notificar Ramão",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1680,
+          480
+        ],
+        "continueOnFail": true,
+        "id": "9badmin01-aaaa-4aaa-bbbb-000000000002"
       }
     ],
     "connections": {
@@ -3289,8 +3427,8 @@
           ],
           [
             {
+              "node": "9b-ctx. Montar Contexto Handoff",
               "type": "main",
-              "node": "9b. Enviar MSG Humano",
               "index": 0
             }
           ],
@@ -3504,6 +3642,28 @@
           [
             {
               "node": "9d-salvar. Salvar Cadastrado",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9b-ctx. Montar Contexto Handoff": {
+        "main": [
+          [
+            {
+              "node": "9b. Enviar MSG Humano",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "9b. Enviar MSG Humano": {
+        "main": [
+          [
+            {
+              "node": "9b-admin. Notificar Ramão",
               "type": "main",
               "index": 0
             }

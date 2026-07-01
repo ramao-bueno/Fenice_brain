@@ -15,7 +15,7 @@ function decidirAcao(dadosMsg, contato, agora = new Date()) {
   const msgCount = (contato && contato.dados && contato.dados.msgCount) || 0;
   const { numero, nome, mensagem } = dadosMsg;
 
-  const msgLower = mensagem.toLowerCase().replace(/[!.?]+$/, "").trim();
+  const msgLower = (mensagem || "").toLowerCase().replace(/[!.?]+$/, "").trim();
   const opcaoMenu = MENU_OPCOES[msgLower] || null;
   const isReset = RESET_WORDS.includes(msgLower);
   const isRetomar = msgLower === "retomar";
@@ -50,4 +50,4 @@ function decidirAcao(dadosMsg, contato, agora = new Date()) {
   return { ...base, _acao: "responder", msgCount: newMsgCount };
 }
 
-module.exports = { decidirAcao, detectarIntencao: require("./detectar_intencao").detectarIntencao, MENU_OPCOES, RESET_WORDS, STOP_WORDS };
+module.exports = { decidirAcao, detectarIntencao, MENU_OPCOES, RESET_WORDS, STOP_WORDS };

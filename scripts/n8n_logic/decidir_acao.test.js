@@ -51,3 +51,10 @@ test("mensagem normal em area responde via gemini", () => {
   const r = decidirAcao({ numero: "55", nome: "X", mensagem: "o que e usucapiao?" }, c, T0);
   assert.strictEqual(r._acao, "responder");
 });
+
+test("apos 3 mensagens na area convida cadastro", () => {
+  const c = { area: "juridico", estagio: "atendimento", dados: { msgCount: 2 }, ultimo_contato: T0.toISOString() };
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "outra duvida" }, c, T0);
+  assert.strictEqual(r._acao, "cadastro_invite");
+  assert.strictEqual(r.msgCount, 3);
+});

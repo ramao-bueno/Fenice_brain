@@ -1,0 +1,2 @@
+# backups do workflow N8N (gerados antes de cada push)
+_backup_n8n_v4_LIVE_*.json

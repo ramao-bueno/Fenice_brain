@@ -58,3 +58,9 @@ test("apos 3 mensagens na area convida cadastro", () => {
   assert.strictEqual(r._acao, "cadastro_invite");
   assert.strictEqual(r.msgCount, 3);
 });
+
+test("Farmer pos_venda nao recebe convite de cadastro", () => {
+  const c = { area: "juridico", estagio: "pos_venda", dados: { msgCount: 5 }, ultimo_contato: T0.toISOString() };
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "duvida" }, c, T0);
+  assert.strictEqual(r._acao, "responder");
+});

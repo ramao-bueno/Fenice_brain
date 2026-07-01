@@ -6,7 +6,7 @@ const MENU_OPCOES = {
 };
 const RESET_WORDS = ["menu", "inicio", "início", "voltar", "reiniciar", "sair"];
 const STOP_WORDS = ["parar", "stop", "cancelar"];
-const JA_CADASTRADO = ["cadastrado", "lead_site", "ignorou_cadastro"];
+const JA_CADASTRADO = ["cadastrado", "lead_site", "ignorou_cadastro", "pos_venda"];
 const TIMEOUT_MINUTOS = 60;
 
 function decidirAcao(dadosMsg, contato, agora = new Date()) {

@@ -31,6 +31,21 @@ created: '2026-06-29'
 
 ---
 
+## Aprendizado — Línguas Sagradas
+
+> Estudo primário das duas vertentes que sacralizam a língua original.
+
+| Track | Hub | Currículo |
+|-------|-----|-----------|
+| Hebraico Bíblico ‖ Torá | [[Idioma-Hebraico-Tora]] | 6 níveis |
+| Árabe Clássico ‖ Alcorão | [[Idioma-Arabe-Alcorao]] | 6 níveis |
+| Ponte comparada | [[Ponte-Semitica]] | cognatos + teologia comparada |
+
+→ Currículo completo: [[INDEX-Aprendizado]]
+→ Spec: `docs/superpowers/specs/2026-07-01-teologia-linguas-sagradas-design.md`
+
+---
+
 ## Conexões com o Direito
 
 - Direito Natural → [[Sao-Tomas-de-Aquino]] · [[Aristoteles]] · [[Maimonides]]

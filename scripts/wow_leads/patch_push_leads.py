@@ -20,6 +20,8 @@ SENDER = "fenice_tech@fenice.ia.br"
 PLACEHOLDER = "AZURE_CLIENT_SECRET_CONFIGURED_IN_N8N"
 BAD_INSTANCE = "/fenice-tim"
 GOOD_INSTANCE = "/fenice-tim-prod"
+ADMIN_OLD = "5521967531414"
+ADMIN_NEW = "5547991041414"  # mesmo número que o IVR usa p/ notificar Ramão
 
 
 def _env():
@@ -80,6 +82,14 @@ def main():
         else:
             print(f"[{nm[:3]}] instância já ok ({u.rsplit('/',1)[-1]})")
 
+    # 3b) 5a: número admin alinhado ao corporativo (mesmo do IVR)
+    num = _bp(N[ADMIN_NODE], "number")
+    if num["value"] == ADMIN_OLD:
+        num["value"] = ADMIN_NEW
+        print(f"[5a] número admin: {ADMIN_OLD} -> {ADMIN_NEW}")
+    else:
+        print(f"[5a] número admin já ok ({num['value']})")
+
     # 4) 5c: quebras de linha reais dentro da string JS -> escape \n (senão 'invalid syntax')
     tp = _bp(N[LEAD_NODE], "text")
     if "\n" in tp["value"]:
@@ -105,7 +115,8 @@ def main():
     ok_sender = SENDER in C[MAIL_NODE]["parameters"]["url"]
     ok_inst = all(C[nm]["parameters"]["url"].endswith(GOOD_INSTANCE) for nm in (ADMIN_NODE, LEAD_NODE))
     ok_5c = "\n" not in _bp(C[LEAD_NODE], "text")["value"]
-    print(f"[verify] secret_ok={ok_secret} | sender_ok={ok_sender} | instancia_ok={ok_inst} | 5c_ok={ok_5c} | active={chk.get('active')}")
+    ok_admin = _bp(C[ADMIN_NODE], "number")["value"] == ADMIN_NEW
+    print(f"[verify] secret_ok={ok_secret} | sender_ok={ok_sender} | instancia_ok={ok_inst} | 5c_ok={ok_5c} | admin_ok={ok_admin} | active={chk.get('active')}")
 
 
 if __name__ == "__main__":

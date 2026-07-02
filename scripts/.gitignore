@@ -1,3 +1,6 @@
 # backups do workflow N8N (gerados antes de cada push) — contêm segredos, NUNCA commitar
 _backup_n8n_v4_LIVE_*.json
 _backup_leads_LIVE_*.json
+
+# carteira real do Ramão = PII de cliente, NUNCA commitar (só o .exemplo)
+carteira.csv

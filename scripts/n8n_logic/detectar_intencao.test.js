@@ -21,3 +21,24 @@ test("mensagem jurídica comum NÃO dispara", () => {
 test("string vazia é segura", () => {
   assert.strictEqual(detectarIntencao(""), false);
 });
+
+const { inferirArea } = require("./detectar_intencao");
+
+test("inferirArea roteia estudo -> academico", () => {
+  assert.strictEqual(inferirArea("quero estudar penal para a prova"), "academico");
+});
+test("inferirArea roteia api -> api", () => {
+  assert.strictEqual(inferirArea("preciso de integração de api"), "api");
+});
+test("inferirArea roteia tim -> b2b", () => {
+  assert.strictEqual(inferirArea("é sobre a TIM corporativa"), "b2b");
+});
+test("inferirArea roteia filosofia -> filosofia", () => {
+  assert.strictEqual(inferirArea("uma dúvida de filosofia"), "filosofia");
+});
+test("inferirArea termo genérico -> null", () => {
+  assert.strictEqual(inferirArea("preciso de uma ajuda"), null);
+});
+test("inferirArea vazio -> null", () => {
+  assert.strictEqual(inferirArea(""), null);
+});

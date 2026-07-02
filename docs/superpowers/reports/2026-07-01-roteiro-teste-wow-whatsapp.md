@@ -43,10 +43,13 @@ Em TODA fase, verifique:
 - ✅ Valida **#2** (boas‑vindas por área). Repita com `5` (Jurídico) em outra conversa.
 - 🚫 Não‑perturbar: uma boas‑vindas só; sem reenviar o menu.
 
-> ⚠️ **Ponto de atenção (a decidir):** se, em vez do número, você digitar a intenção em
-> texto livre **antes** de escolher (ex.: `quero estudar penal`), o Téo hoje **reenvia o
-> modal** em vez de rotear direto para Acadêmico. Teste isso: se o card se repetir, é
-> candidato a melhoria (rotear por texto / nudge leve em vez de reenviar o card).
+### Fase 1b — Texto livre (empatia) ✅ implementada
+- 📲 `quero estudar penal` (sem número) → entra em **Acadêmico**, boas-vindas, **SEM card**.
+- 📲 (novo número/`menu`) `preciso de uma ajuda` → **modo descoberta**: Téo acolhe caloroso, convida a falar à vontade, **SEM card** (resposta em ~6-8s: typing + Gemini).
+- 📲 na sequência: `é sobre a OAB` → transiciona suave para Acadêmico, **SEM card**.
+- ✅ Valida o roteamento por intenção + descoberta (Téo Empático, Fase 1).
+- 🚫 Não-perturbar: o card **NUNCA** se repete nessas trocas.
+- 📊 Cada turno é gravado em `fenice_tim_dialogos` (base do aprendizado + Power BI).
 
 ### Fase 2 — Pergunta e resposta (RAG + Gemini)
 - ⏱️ **T0 + ~15s**

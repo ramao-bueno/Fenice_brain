@@ -1,5 +1,10 @@
 # Téo Empático + Loop de Aprendizado WOW — Design Spec
 
+> **Fase 1 (Partes I+II): IMPLEMENTADA em 2026-07-02** — roteamento por intenção + modo
+> descoberta live no IVR; tabela `fenice_tim_dialogos` + camada de reporting Power BI
+> (views `vw_wow_*`, `vw_sfs_observatorio`). SFS = unidade própria. Parte III (loop de
+> aprendizado) pendente — plano próprio quando houver massa de diálogos.
+
 **Data:** 2026-07-02 · **Autor:** Ramão Bueno (Tech Lead) + Claude · **Status:** aprovado para plano
 
 **Goal:** Fazer o Téo captar a intenção do usuário do jeito que ele quiser expressar

@@ -1285,6 +1285,92 @@
       ],
       "continueOnFail": true,
       "id": "9badmin01-aaaa-4aaa-bbbb-000000000002"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_dialogos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ numero: $json.numero, direcao: \"in\", mensagem: $json.mensagem, area: $json.areaAtual, estagio: $json.estagio, acao: $json._acao, canal: \"whatsapp\" }) }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "Log Diálogo (in)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        780
+      ],
+      "continueOnFail": true,
+      "id": "ccd2f3e8-8927-45aa-ab6f-2fd37a7ee022"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://qcfdssnpjzvjbvemhrik.supabase.co/rest/v1/fenice_tim_dialogos",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZmRzc25wanp2amJ2ZW1ocmlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTcwMzQ3OSwiZXhwIjoyMDk3Mjc5NDc5fQ.1492WOIw4KpT4u57zx-DyT-5O8gEawkWWtjUXMWA2-I"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ numero: $('7. Decidir Próxima Ação').item.json.numero, direcao: \"out\", mensagem: $('12. Extrair Resposta Gemini').item.json.respostaAi, area: $('7. Decidir Próxima Ação').item.json.areaAtual, estagio: $('7. Decidir Próxima Ação').item.json.estagio, canal: \"whatsapp\" }) }}",
+        "options": {
+          "timeout": 8000
+        }
+      },
+      "name": "Log Diálogo (out)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2360,
+        880
+      ],
+      "continueOnFail": true,
+      "id": "693c7c18-c55b-4030-92c4-d69537d4e487"
     }
   ],
   "connections": {
@@ -1367,6 +1453,11 @@
         [
           {
             "node": "8. Switch por Ação",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Log Diálogo (in)",
             "type": "main",
             "index": 0
           }
@@ -1493,6 +1584,11 @@
         [
           {
             "node": "14. Montar Logs",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Log Diálogo (out)",
             "type": "main",
             "index": 0
           }

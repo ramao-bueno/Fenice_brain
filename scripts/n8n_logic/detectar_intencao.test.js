@@ -42,3 +42,19 @@ test("inferirArea termo genérico -> null", () => {
 test("inferirArea vazio -> null", () => {
   assert.strictEqual(inferirArea(""), null);
 });
+
+const { isSaudacao } = require("./detectar_intencao");
+
+test("isSaudacao reconhece bom dia", () => {
+  assert.strictEqual(isSaudacao("bom dia"), true);
+});
+test("isSaudacao reconhece oi/ola", () => {
+  assert.strictEqual(isSaudacao("oi"), true);
+  assert.strictEqual(isSaudacao("olá!"), true);
+});
+test("isSaudacao reconhece salam", () => {
+  assert.strictEqual(isSaudacao("salam"), true);
+});
+test("isSaudacao NÃO dispara em pedido com conteúdo", () => {
+  assert.strictEqual(isSaudacao("preciso de ajuda com um processo"), false);
+});

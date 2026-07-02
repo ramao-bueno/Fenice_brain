@@ -42,4 +42,17 @@ function inferirArea(mensagem) {
   return null;
 }
 
-module.exports = { detectarIntencao, SINAIS_INTENCAO, inferirArea, AREA_KEYWORDS };
+const SAUDACOES = ["oi", "ola", "olá", "opa", "oie", "e ai", "eai", "hey", "hi",
+  "bom dia", "boa tarde", "boa noite", "salam", "salaam", "as salamu alaikum", "saudações", "saudacoes"];
+
+// true quando a mensagem é essencialmente só um cumprimento.
+function isSaudacao(mensagem) {
+  const m = (mensagem || "").toLowerCase().replace(/[!.?,]+$/g, "").trim();
+  if (!m) return false;
+  if (SAUDACOES.includes(m)) return true;
+  // começa com saudação e é curta (≤ 3 palavras): "bom dia téo"
+  const inicioSaudacao = SAUDACOES.some((s) => m.startsWith(s));
+  return inicioSaudacao && m.split(/\s+/).length <= 3;
+}
+
+module.exports = { detectarIntencao, SINAIS_INTENCAO, inferirArea, AREA_KEYWORDS, isSaudacao, SAUDACOES };

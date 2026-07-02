@@ -64,3 +64,34 @@ test("Farmer pos_venda nao recebe convite de cadastro", () => {
   const r = decidirAcao({ numero: "55", nome: "X", mensagem: "duvida" }, c, T0);
   assert.strictEqual(r._acao, "responder");
 });
+
+test("saudacao pura sem area mostra menu", () => {
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "bom dia" }, null, T0);
+  assert.strictEqual(r._acao, "menu_principal");
+});
+test("texto livre com area inferida entra na area sem card", () => {
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "quero estudar penal" }, null, T0);
+  assert.strictEqual(r._acao, "set_area");
+  assert.strictEqual(r.areaAtual, "academico");
+});
+test("texto livre incerto vai para descoberta", () => {
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "preciso de uma ajuda" }, null, T0);
+  assert.strictEqual(r._acao, "descoberta");
+  assert.strictEqual(r.estagio, "descoberta");
+});
+test("em descoberta, area fica clara e transiciona", () => {
+  const c = { area: null, estagio: "descoberta", ultimo_contato: T0.toISOString() };
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "é sobre a OAB" }, c, T0);
+  assert.strictEqual(r._acao, "set_area");
+  assert.strictEqual(r.areaAtual, "academico");
+});
+test("em descoberta, texto ainda incerto continua descoberta", () => {
+  const c = { area: null, estagio: "descoberta", ultimo_contato: T0.toISOString() };
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "não sei bem" }, c, T0);
+  assert.strictEqual(r._acao, "descoberta");
+});
+test("menu em descoberta volta ao card", () => {
+  const c = { area: null, estagio: "descoberta", ultimo_contato: T0.toISOString() };
+  const r = decidirAcao({ numero: "55", nome: "X", mensagem: "menu" }, c, T0);
+  assert.strictEqual(r._acao, "menu_principal");
+});

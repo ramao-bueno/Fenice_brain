@@ -1,4 +1,4 @@
-const { detectarIntencao } = require("./detectar_intencao");
+const { detectarIntencao, inferirArea, isSaudacao } = require("./detectar_intencao");
 
 const MENU_OPCOES = {
   "1": "b2b", "2": "academico", "3": "observatorio",
@@ -39,8 +39,14 @@ function decidirAcao(dadosMsg, contato, agora = new Date()) {
       return { ...base, _acao: "humano", areaAtual: "humano", msgCount: 0 };
     return { ...base, _acao: "set_area", areaAtual: opcaoMenu, msgCount: 0 };
   }
-  if (!areaAtual)
-    return { ...base, _acao: "menu_principal", areaAtual: null, msgCount: 0 };
+  if (!areaAtual) {
+    const areaInferida = inferirArea(mensagem);
+    if (areaInferida)
+      return { ...base, _acao: "set_area", areaAtual: areaInferida, msgCount: 0 };
+    if (isSaudacao(mensagem))
+      return { ...base, _acao: "menu_principal", areaAtual: null, msgCount: 0 };
+    return { ...base, _acao: "descoberta", estagio: "descoberta", areaAtual: null };
+  }
   if (detectarIntencao(mensagem))
     return { ...base, _acao: "humano", areaAtual: "humano" };
 
